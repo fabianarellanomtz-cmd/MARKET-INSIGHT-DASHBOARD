@@ -710,3 +710,134 @@ input[type="date"] {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* =========================================
+   MOBILE / RESPONSIVE STYLES
+   ========================================= */
+
+/* Button to toggle menu (Visible only on mobile) */
+.mobile-header-controls {
+    display: none;
+    /* Hidden on Desktop */
+}
+
+.mobile-menu-btn {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/* Overlay darkens screen when mobile menu is open */
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    /* Behind sidebar (z-1000) */
+    display: none;
+    /* Hidden by default */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.sidebar-overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+
+    /* 1. Sidebar becomes an off-canvas drawer */
+    .sidebar {
+        position: fixed;
+        left: -290px;
+        /* Hide completely */
+        top: 0;
+        height: 100vh;
+        z-index: 1000;
+        /* On top of everything */
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar.active {
+        left: 0;
+        /* Slide in */
+    }
+
+    /* 2. Show Mobile Controls */
+    .mobile-header-controls {
+        display: block;
+    }
+
+    /* 3. Adjust Layout */
+    .app-container {
+        display: block;
+        /* Remove flex to let main take full width */
+    }
+
+    .main-content {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    /* 4. Top Bar Adjustments */
+    .top-bar {
+        gap: 1rem;
+        flex-wrap: wrap;
+        /* Allow wrapping */
+        margin-bottom: 1.5rem;
+    }
+
+    .search-bar {
+        width: 100%;
+        /* Full width search */
+        order: 3;
+        /* Move search below stats/menu */
+        margin-top: 1rem;
+    }
+
+    .stats-bar {
+        margin-left: auto;
+        /* Push to right */
+    }
+
+    .stat-val {
+        font-size: 1.2rem;
+    }
+
+    /* 5. Grid Adjustments */
+    .news-grid {
+        grid-template-columns: 1fr;
+        /* 1 column cards */
+        gap: 1rem;
+    }
+
+    .dashboard-row {
+        flex-direction: column;
+        /* Stack charts vertically */
+        gap: 1rem;
+    }
+
+    /* 6. Text Size Adjustments */
+    .brand h1 {
+        font-size: 1.25rem;
+    }
+
+    .insight-title {
+        font-size: 1.25rem;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: 1rem;
+        max-height: 90vh;
+    }
+}

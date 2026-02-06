@@ -25,6 +25,9 @@
 
 <body class="light-mode">
     <div class="app-container">
+        <!-- Mobile Overlay -->
+        <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+
         <!-- Sidebar -->
         <aside class="sidebar">
             <div class="brand">
@@ -103,6 +106,12 @@
         <!-- Main Content -->
         <main class="main-content">
             <header class="top-bar">
+                <div class="mobile-header-controls">
+                    <button class="mobile-menu-btn" onclick="toggleSidebar()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+
                 <div class="search-bar">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" id="search-input" placeholder="Buscar noticias, palabras clave...">
