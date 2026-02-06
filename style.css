@@ -614,6 +614,11 @@ input[type="date"] {
     width: 100%;
 }
 
+/* Hide mobile headers by default on desktop */
+.mobile-only-header {
+    display: none;
+}
+
 /* Glassmorphism Utilities */
 .glass-panel {
     background: rgba(255, 255, 255, 0.85);
@@ -878,5 +883,23 @@ input[type="date"] {
     /* Global Font Size Adjustment for Mobile */
     html {
         font-size: 14px;
+    }
+
+    /* Reveal Mobile Headers */
+    .mobile-only-header {
+        display: block;
+    }
+
+    /* Stack Hero Section (Image Top or Bottom) */
+    /* Stack Hero Section (Text Top, Image Bottom) */
+    .hero-container {
+        flex-direction: column !important;
+        height: auto !important;
+    }
+
+    .hero-visual {
+        min-height: 300px;
+        width: 100%;
+        flex: none !important;
     }
 }

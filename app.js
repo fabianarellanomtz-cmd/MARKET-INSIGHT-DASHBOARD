@@ -718,19 +718,20 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
 
                         <!-- NEW HERO SUMMARY DESIGN -->
-                        <div class="glass-panel" style="padding:0; border-radius:16px; margin-bottom:2.5rem; border:none; overflow:hidden; display:flex; flex-direction:row; background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(240,249,255,0.95) 100%); box-shadow: 0 10px 40px -10px rgba(37,99,235,0.2);">
+                        <div class="glass-panel hero-container" style="padding:0; border-radius:16px; margin-bottom:2.5rem; border:none; overflow:hidden; display:flex; box-shadow: 0 10px 40px -10px rgba(37,99,235,0.2);">
                             
                             <!-- Left: Text Content -->
                             <div style="flex: 1.2; padding:3rem; display:flex; flex-direction:column; justify-content:center; position:relative; z-index:2;">
                                 <h3 style="margin-top:0; margin-bottom:1.5rem; font-size:2rem; font-weight:800; line-height:1.2; letter-spacing:-0.03em; color:#2563eb;">
                                     ${ANALYSIS_DATA.summary_title}
+                                </h3>
                                 <div style="font-size:1.1rem; line-height:1.8; color:#334155; font-weight:500;">
                                     ${ANALYSIS_DATA.summary_body}
                                 </div>
                             </div>
 
-                            <!-- Right: Visual "5-Force Ecosystem" (Based on Ref Image) -->
-                            <div style="flex: 1.5; position:relative; display:flex; align-items:center; justify-content:center; background: radial-gradient(circle at center, #f8fafc 0%, #e2e8f0 100%); overflow:hidden;">
+                            <!-- Right: Visual "5-Force Ecosystem" -->
+                            <div class="hero-visual" style="flex: 1.5; position:relative; display:flex; align-items:center; justify-content:center; background: radial-gradient(circle at center, #f8fafc 0%, #e2e8f0 100%); overflow:hidden;">
                                 
                                 <!-- Background Glow & Texture -->
                                 <div style="position:absolute; inset:0; pointer-events:none;">
@@ -837,27 +838,18 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </div>
 
-                        <!-- 5 Macro Categories Grid (SIDE BY SIDE ALIGNMENT) -->
-                        <!-- 5 Macro Categories Grid (SIDE BY SIDE ALIGNMENT) -->
-                        <!-- 3-Column Header -->
-                        <div class="responsive-macro-grid" style="margin-bottom: 1.5rem; align-items:center;">
-                             <div class="mesh-section-title" style="margin:0; text-align:center;">
-                                <i class="fa-solid fa-layer-group"></i> Macro-Tendencias
-                            </div>
-                            <div class="mesh-section-title" style="margin:0; text-align:center; background: linear-gradient(135deg, #be185d 0%, #9d174d 100%);">
-                                <i class="fa-solid fa-scale-balanced"></i> Matriz de Impacto
-                            </div>
-                            <div class="mesh-section-title" style="margin:0; text-align:center; background: linear-gradient(135deg, #059669 0%, #047857 100%);">
-                                <i class="fa-solid fa-chess"></i> Estrategia & KPIs
-                            </div>
-                        </div>
-                        
+                        <!-- 5 Macro Categories Card Grid (Self-Contained) -->
                         <div style="display:flex; flex-direction:column; gap:1.5rem;">
                             ${ANALYSIS_DATA.macro_focus.map((m, index) => `
                                 <div class="glass-panel glass-card-hover responsive-macro-grid" style="align-items:stretch; padding:1.5rem; border-radius:12px;">
                                     
                                     <!-- COL 1: Trend Content -->
                                     <div style="display:flex; flex-direction:column;">
+                                        <!-- Header for Mobile -->
+                                        <div class="mesh-section-title mobile-only-header" style="margin-bottom:1rem; text-align:center;">
+                                            <i class="fa-solid fa-layer-group"></i> Macro: ${m.name}
+                                        </div>
+
                                         <div style="margin-bottom:1rem;">
                                             <h5 style="margin:0 0 0.5rem 0; color:#2563eb; font-size:1.1rem; font-weight:800;">${m.name}</h5>
                                             <div style="font-size:0.8rem; font-weight:bold; color:#be185d; text-transform:uppercase; letter-spacing:0.05em;">CLAVE: ${m.insight}</div>
@@ -872,6 +864,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
                                     <!-- COL 2: Impact Matrix -->
                                     <div style="display:flex; flex-direction:column; gap:0.8rem; border-left:1px dashed #9ca3af; padding-left:1.5rem; justify-content:center;">
+                                        
+                                        <div class="mesh-section-title mobile-only-header" style="margin-bottom:1rem; text-align:center; background: linear-gradient(135deg, #be185d 0%, #9d174d 100%);">
+                                            <i class="fa-solid fa-scale-balanced"></i> Matriz de Impacto
+                                        </div>
+
                                         <div style="display:flex; gap:0.5rem; align-items:start;">
                                             <span style="font-size:1rem;">🔴</span>
                                             <div>
@@ -905,6 +902,10 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <!-- COL 3: Strategic Action -->
                                     <div style="display:flex; flex-direction:column; gap:1.5rem; border-left:1px dashed #9ca3af; padding-left:1.5rem; justify-content:center;">
                                         
+                                        <div class="mesh-section-title mobile-only-header" style="margin-bottom:1rem; text-align:center; background: linear-gradient(135deg, #059669 0%, #047857 100%);">
+                                            <i class="fa-solid fa-chess"></i> Estrategia & KPIs
+                                        </div>
+
                                         <div style="display:flex; gap:0.5rem; align-items:start;">
                                             <span style="font-size:1.2rem;">🤔</span>
                                             <div>
