@@ -602,22 +602,53 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // --- Export Function (Generic) ---
+    // --- Export Function (Desktop Simulation) ---
     async function exportSection(sectionId, btnId) {
-        const element = document.getElementById(sectionId);
+        const originalElement = document.getElementById(sectionId);
         const btn = document.getElementById(btnId);
 
         if (btn) btn.style.display = 'none';
 
         try {
-            const canvas = await html2canvas(element, { scale: 2, backgroundColor: "#f3f4f6" });
+            // 1. Clone the node to avoid messing up the live UI
+            const clone = originalElement.cloneNode(true);
+
+            // 2. Configure clone to look like Desktop (1200px width)
+            clone.style.width = "1200px";
+            clone.style.height = "auto";
+            clone.style.position = "fixed";
+            clone.style.top = "-9999px";
+            clone.style.left = "-9999px";
+            clone.style.zIndex = "-1000";
+            clone.style.backgroundColor = "#f3f4f6"; // Ensure background
+
+            // Fix text wrapping issues in clone
+            // Force flex containers to row instead of column (reverting mobile styles)
+            const flexContainers = clone.querySelectorAll('.dashboard-row, .glass-panel');
+            flexContainers.forEach(el => el.style.flexDirection = 'row');
+
+            // Append to body so html2canvas can render it
+            document.body.appendChild(clone);
+
+            // 3. Capture the clone
+            const canvas = await html2canvas(clone, {
+                scale: 2,
+                backgroundColor: "#f3f4f6",
+                windowWidth: 1200 // Hint to html2canvas to simulate desktop
+            });
+
+            // 4. Download
             const link = document.createElement('a');
             link.download = `Insights_${sectionId}_${new Date().toISOString().split('T')[0]}.png`;
             link.href = canvas.toDataURL('image/png');
             link.click();
+
+            // 5. Cleanup
+            document.body.removeChild(clone);
+
         } catch (err) {
             console.error(err);
-            alert("Error al exportar imagen");
+            alert("Error al exportar imagen: " + err.message);
         } finally {
             if (btn) btn.style.display = 'inline-block';
         }
@@ -708,7 +739,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 </div>
 
                                 <!-- The Integrated System Container -->
-                                <div style="position:relative; width:450px; height:320px; display:flex; align-items:center; justify-content:center;">
+                                <div style="position:relative; width:100%; max-width:450px; aspect-ratio:1.4; display:flex; align-items:center; justify-content:center;">
                                     
                                     <!-- Orbit Ring (Subtle guide) -->
                                     <div style="position:absolute; top:50%; left:50%; width:280px; height:180px; border:1px solid rgba(255,255,255,0.6); border-radius:50%; box-shadow: inset 0 0 20px rgba(37,99,235,0.05); transform: translate(-50%, -50%) rotate(-10deg);"></div>

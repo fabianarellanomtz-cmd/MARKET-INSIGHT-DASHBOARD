@@ -786,6 +786,12 @@ input[type="date"] {
     .main-content {
         padding: 1rem;
         width: 100%;
+        height: auto;
+        /* Allow content to grow */
+        overflow: visible;
+        /* Remove internal scrollbar */
+        padding-bottom: 80px;
+        /* Extra space for scroll */
     }
 
     /* 4. Top Bar Adjustments */
@@ -839,5 +845,19 @@ input[type="date"] {
         width: 95%;
         padding: 1rem;
         max-height: 90vh;
+    }
+}
+
+/* FIX: Force native scrolling on mobile */
+@media screen and (max-width: 768px) {
+    body {
+        overflow-y: auto !important;
+        height: auto !important;
+    }
+
+    .main-content {
+        overflow: visible !important;
+        height: auto !important;
+        padding-bottom: 100px;
     }
 }
