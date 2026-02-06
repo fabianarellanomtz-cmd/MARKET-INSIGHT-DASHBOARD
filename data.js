@@ -1,5 +1,4 @@
-﻿const PRELOADED_DATA = 
-[
+﻿const PRELOADED_DATA = [
     {
         "URL":  "https://www.medestheticsmag.com/home/article/22946829/neurotoxins-surge-hyaluronic-fillers-slip-glp1-and-skincare-usher-in-a-new-chapter",
         "AÑO":  "2025",
@@ -8,17 +7,7 @@
         "CATEGORÍA":  "TENDENCIAS DE MERCADO",
         "SUBCATEGORÍA":  "Impacto GLP-1 \u0026 Inyectables",
         "INSIGHT":  "Cambio de tendencia en inyectables",
-        "RESUMEN":  null
-    },
-    {
-        "URL":  ",El uso de neurotoxinas (Botox) sigue creciendo",
-        "AÑO":  "mientras que los rellenos de ácido hialurónico (HA) tradicionales están perdiendo terreno. ¿La causa? El auge de los medicamentos GLP-1 (como Ozempic) está cambiando las necesidades del paciente: ahora buscan menos volumen (fillers) y más tensado de piel (skin tightening) y bioestimuladores para combatir la flacidez por pérdida de peso rápida. Además",
-        "MES":  "el skincare de grado médico se está convirtiendo en un servicio de entrada clave para las clínicas",
-        "TIPO DE FUENTE":  "desligándose de los inyectables.\"",
-        "CATEGORÍA":  null,
-        "SUBCATEGORÍA":  null,
-        "INSIGHT":  null,
-        "RESUMEN":  null
+        "RESUMEN":  "El uso de neurotoxinas (Botox) sigue creciendo  el skincare de grado médico se está convirtiendo en un servicio de entrada clave para las clínicas desligándose de los inyectables."
     },
     {
         "URL":  "https://www.medestheticsmag.com/research/article/22952820/global-medical-aesthetics-market-to-triple-by-2033-fueled-by-minimally-invasive-tech-and-ai-solutions",
@@ -1260,5 +1249,4 @@
         "INSIGHT":  "La Normalización Masiva del \"Tweakment\": España lidera la adopción de retoques sin bisturí. El insight es la \"Estética como Salud\": el 32% de las mujeres españolas ya recurre a tratamientos médico-estéticos no quirúrgicos (y el 50% quiere probarlos), superando la media europea. Esto valida que la barrera psicológica se ha roto: el consumidor ve el láser o el inyectable no como una vanidad extrema, sino como parte de su rutina de salud (\"Longevity\"), obligando a las marcas de farmacia (como Vichy/La Roche-Posay) a crear productos específicos para mantener y potenciar esos resultados clínicos en casa.",
         "RESUMEN":  "Rocío Valenzuela, Directora General de L\u0027Oréal Dermatological Beauty España y Portugal, analiza la explosión de los procedimientos no quirúrgicos. Confirma que la tendencia dominante es la \"Longevidad Integrativa\": no luchar contra el tiempo, sino aliarse con él (Positive Aging). Valenzuela destaca tres prioridades para 2026: 1) Co-desarrollo con médicos e IA (mencionando la tecnología Melasyl™ para manchas), 2) El rol del farmacéutico como primer filtro sanitario, y 3) La sostenibilidad. La directiva subraya que el futuro es la Nutricosmética y el enfoque \"In \u0026 Out\" (cuidar desde dentro para ver resultados fuera)."
     }
-]
-;
+];
