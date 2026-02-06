@@ -401,8 +401,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const ANALYSIS_DB = {
         '2025': {
             title: "Retrospectiva 2025: La Corrección del Mercado",
-            summary: `<strong>El Año de la Racionalización.</strong><br>
-            2025 estuvo marcado por la inflación y la fatiga del consumidor. El mercado premió el "Value for Money" y castigó el "Hype" vacío. Fue el auge de los "Dupes" y la caída de las marcas de celebridades sin sustancia.`,
+            summary_title: "El Año de la Racionalización",
+            summary_body: `2025 estuvo marcado por la inflación y la fatiga del consumidor. El mercado premió el "Value for Money" y castigó el "Hype" vacío. Fue el auge de los "Dupes" y la caída de las marcas de celebridades sin sustancia.`,
             global_synthesis: [
                 { title: "El Auge de la 'Dupe Culture'", text: "El consumidor buscó activamente alternativas baratas a productos de lujo. La lealtad de marca cayó a mínimos históricos." },
                 { title: "Crisis de Influencers", text: "El 'De-influencing' viralizó la honestidad brutal. Los consumidores dejaron de confiar en reviews pagadas de TikTokers masivos." },
@@ -694,9 +694,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <h3 style="margin-top:0; margin-bottom:1.5rem; font-size:2rem; font-weight:800; line-height:1.2; letter-spacing:-0.03em; color:#2563eb;">
                                     ${ANALYSIS_DATA.summary_title}
                                 </h3>
-                                <div style="font-size:1.1rem; line-height:1.8; color:#334155; font-weight:500;">
-                                    El mercado global de belleza y bienestar ha entrado en la <strong>'Era de la Integración Radical'</strong>. En 2026, el éxito ya no se define por el dominio de una sola vertical, sino por la capacidad de orquestar un ecosistema fluido.<br><br>
-                                    La 'calidad' ha dejado de ser un diferenciador para convertirse en el costo de entrada; el verdadero campo de batalla está ahora en la <strong>autenticidad radical</strong>.
+                                    ${ANALYSIS_DATA.summary_body}
                                 </div>
                             </div>
 
