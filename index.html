@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Intelligence Dashboard</title>
+
+    <!-- Fonts: Inter for clean, modern look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- SheetJS for Excel processing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <!-- Added for Export -->
+</head>
+
+<body class="light-mode">
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="logo-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <h1>Market<span> Insights</span></h1>
+            </div>
+
+            <!-- Main Navigation -->
+            <nav class="main-nav">
+                <button class="nav-item active" onclick="switchView('news')">
+                    <i class="fa-regular fa-newspaper"></i> Noticias
+                </button>
+                <button class="nav-item" onclick="switchView('strategy')">
+                    <i class="fa-solid fa-chart-pie"></i> Resumen Estratégico
+                </button>
+            </nav>
+
+            <div class="upload-section" id="drop-zone">
+                <input type="file" id="file-input" accept=".xlsx, .xls, .csv" hidden>
+                <div class="upload-btn" onclick="document.getElementById('file-input').click()">
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <span>Actualizar Datos</span>
+                </div>
+                <p class="last-updated">Última act: <span id="last-update-date">Nunca</span></p>
+
+                <!-- Debug Info for Column Mapping -->
+                <div id="debug-info"
+                    style="margin-top: 1rem; font-size: 0.75rem; color: #6b7280; word-break: break-all; display: none;">
+                    <strong>Columnas detectadas:</strong> <span id="detected-columns"></span>
+                </div>
+            </div>
+
+            <nav class="filters">
+                <h3>Filtros</h3>
+
+                <div class="filter-group">
+                    <label>Tema</label>
+                    <select id="topic-filter">
+                        <option value="all">Todos</option>
+                        <!-- Dynamic options -->
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Macro-Tendencia</label>
+                    <select id="macro-filter" class="form-control">
+                        <option value="all">Todas</option>
+                        <option value="negocio">Dinámica de Negocio</option>
+                        <option value="retail">Retail & Distribución</option>
+                        <option value="producto">Ciencia & Producto</option>
+                        <option value="wellness">Wellness & Salud</option>
+                        <option value="consumidor">Cultura & Consumidor</option>
+                    </select>
+                </div>
+
+                <!-- Sentiment buttons removed as requested -->
+
+                <div class="filter-group">
+                    <label>Fecha</label>
+                    <div class="date-filters">
+                        <select id="year-filter">
+                            <option value="all">Año</option>
+                        </select>
+                        <select id="month-filter">
+                            <option value="all">Mes</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button class="reset-btn" id="reset-filters">Limpiar Filtros</button>
+            </nav>
+
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="search-input" placeholder="Buscar noticias, palabras clave...">
+                </div>
+                <div class="stats-bar">
+                    <div class="stat-item">
+                        <span class="stat-val" id="total-count">0</span>
+                        <span class="stat-label">Noticias</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="content-area">
+                <div id="loading-state" class="center-msg hidden">
+                    <div class="spinner"></div>
+                    <p>Procesando archivo...</p>
+                </div>
+
+                <div id="empty-state" class="center-msg">
+                    <div class="empty-icon"><i class="fa-regular fa-folder-open"></i></div>
+                    <h2>No hay datos cargados</h2>
+                    <p>Sube tu archivo Excel o CSV para comenzar el análisis.</p>
+                    <button class="primary-btn" onclick="document.getElementById('file-input').click()">Subir
+                        Archivo</button>
+                </div>
+
+                <div id="news-grid" class="news-grid hidden">
+                    <!-- Cards will be injected here -->
+                </div>
+
+                <!-- View: Strategic Summary -->
+                <div id="strategic-view" class="strategic-view hidden">
+                    <!-- Summary content injected here -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Dynamic Infographic Modal -->
+    <div id="article-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-content-inject">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js?v=30"></script>
+</body>
+
+</html>
