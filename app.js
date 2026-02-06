@@ -840,7 +840,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <!-- 5 Macro Categories Grid (SIDE BY SIDE ALIGNMENT) -->
                         <!-- 5 Macro Categories Grid (SIDE BY SIDE ALIGNMENT) -->
                         <!-- 3-Column Header -->
-                        <div style="display:grid; grid-template-columns: 1.6fr 1.1fr 0.9fr; gap:1.5rem; margin-bottom: 1.5rem; align-items:center;">
+                        <div class="responsive-macro-grid" style="margin-bottom: 1.5rem; align-items:center;">
                              <div class="mesh-section-title" style="margin:0; text-align:center;">
                                 <i class="fa-solid fa-layer-group"></i> Macro-Tendencias
                             </div>
@@ -854,7 +854,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         
                         <div style="display:flex; flex-direction:column; gap:1.5rem;">
                             ${ANALYSIS_DATA.macro_focus.map((m, index) => `
-                                <div class="glass-panel glass-card-hover" style="display:grid; grid-template-columns: 1.6fr 1.1fr 0.9fr; gap:1.5rem; align-items:stretch; padding:1.5rem; border-radius:12px;">
+                                <div class="glass-panel glass-card-hover responsive-macro-grid" style="align-items:stretch; padding:1.5rem; border-radius:12px;">
                                     
                                     <!-- COL 1: Trend Content -->
                                     <div style="display:flex; flex-direction:column;">

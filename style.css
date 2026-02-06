@@ -606,6 +606,14 @@ input[type="date"] {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Responsive Grid for Macro Strategy */
+.responsive-macro-grid {
+    display: grid;
+    grid-template-columns: 1.6fr 1.1fr 0.9fr;
+    gap: 1.5rem;
+    width: 100%;
+}
+
 /* Glassmorphism Utilities */
 .glass-panel {
     background: rgba(255, 255, 255, 0.85);
@@ -859,5 +867,16 @@ input[type="date"] {
         overflow: visible !important;
         height: auto !important;
         padding-bottom: 100px;
+    }
+
+    /* Stack the Macro Grid on Mobile */
+    .responsive-macro-grid {
+        grid-template-columns: 1fr !important;
+        gap: 2rem !important;
+    }
+
+    /* Global Font Size Adjustment for Mobile */
+    html {
+        font-size: 14px;
     }
 }
