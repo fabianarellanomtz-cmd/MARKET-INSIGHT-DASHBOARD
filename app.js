@@ -693,7 +693,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div style="flex: 1.2; padding:3rem; display:flex; flex-direction:column; justify-content:center; position:relative; z-index:2;">
                                 <h3 style="margin-top:0; margin-bottom:1.5rem; font-size:2rem; font-weight:800; line-height:1.2; letter-spacing:-0.03em; color:#2563eb;">
                                     ${ANALYSIS_DATA.summary_title}
-                                </h3>
+                                <div style="font-size:1.1rem; line-height:1.8; color:#334155; font-weight:500;">
                                     ${ANALYSIS_DATA.summary_body}
                                 </div>
                             </div>
