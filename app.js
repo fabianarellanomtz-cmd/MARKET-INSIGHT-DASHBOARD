@@ -775,45 +775,45 @@ document.addEventListener('DOMContentLoaded', () => {
                                     </div>
 
                                     <!-- 1. CIENCIA (Biotech) - Bottom Left -->
-                                    <div class="glass-card-hover" style="position:absolute; bottom:15%; left:5%; z-index:5; display:flex; flex-direction:column; align-items:center;">
-                                        <div style="width:50px; height:50px; background:rgba(255,255,255,0.9); border-radius:14px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(59,130,246,0.15); border:1px solid #dbeafe; margin-bottom:4px;">
-                                            <i class="fa-solid fa-microscope" style="font-size:1.2rem; color:#2563eb;"></i>
+                                    <div class="glass-card-hover" style="position:absolute; bottom:10%; left:0%; z-index:5; display:flex; flex-direction:column; align-items:center;">
+                                        <div style="width:42px; height:42px; background:rgba(255,255,255,0.9); border-radius:12px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(59,130,246,0.15); border:1px solid #dbeafe; margin-bottom:4px;">
+                                            <i class="fa-solid fa-microscope" style="font-size:1rem; color:#2563eb;"></i>
                                         </div>
                                         <div style="font-size:0.65rem; font-weight:700; color:#1e1b4b; background:white; padding:2px 8px; border-radius:10px; border:1px solid #e2e8f0;">CIENCIA</div>
                                         <div style="font-size:0.55rem; color:#64748b;">(Biotech)</div>
                                     </div>
 
                                     <!-- 2. SALUD (Wellness) - Top Left -->
-                                    <div class="glass-card-hover" style="position:absolute; top:20%; left:12%; z-index:5; display:flex; flex-direction:column; align-items:center;">
-                                        <div style="width:50px; height:50px; background:rgba(255,255,255,0.9); border-radius:14px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(34,197,94,0.15); border:1px solid #dcfce7; margin-bottom:4px;">
-                                            <i class="fa-solid fa-leaf" style="font-size:1.2rem; color:#16a34a;"></i>
+                                    <div class="glass-card-hover" style="position:absolute; top:15%; left:8%; z-index:5; display:flex; flex-direction:column; align-items:center;">
+                                        <div style="width:42px; height:42px; background:rgba(255,255,255,0.9); border-radius:12px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(34,197,94,0.15); border:1px solid #dcfce7; margin-bottom:4px;">
+                                            <i class="fa-solid fa-leaf" style="font-size:1rem; color:#16a34a;"></i>
                                         </div>
                                         <div style="font-size:0.65rem; font-weight:700; color:#1e1b4b; background:white; padding:2px 8px; border-radius:10px; border:1px solid #e2e8f0;">SALUD</div>
                                         <div style="font-size:0.55rem; color:#64748b;">(Wellness)</div>
                                     </div>
 
                                     <!-- 3. NEGOCIO (Smart Capital) - Top Center -->
-                                    <div class="glass-card-hover" style="position:absolute; top:5%; left:50%; transform:translateX(-50%); z-index:5; display:flex; flex-direction:column; align-items:center;">
-                                        <div style="width:50px; height:50px; background:rgba(255,255,255,0.9); border-radius:14px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(147,51,234,0.15); border:1px solid #f3e8ff; margin-bottom:4px;">
-                                            <i class="fa-solid fa-chart-line" style="font-size:1.2rem; color:#9333ea;"></i>
+                                    <div class="glass-card-hover" style="position:absolute; top:2%; left:50%; transform:translateX(-50%); z-index:5; display:flex; flex-direction:column; align-items:center;">
+                                        <div style="width:42px; height:42px; background:rgba(255,255,255,0.9); border-radius:12px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(147,51,234,0.15); border:1px solid #f3e8ff; margin-bottom:4px;">
+                                            <i class="fa-solid fa-chart-line" style="font-size:1rem; color:#9333ea;"></i>
                                         </div>
                                         <div style="font-size:0.65rem; font-weight:700; color:#1e1b4b; background:white; padding:2px 8px; border-radius:10px; border:1px solid #e2e8f0;">NEGOCIO</div>
                                         <div style="font-size:0.55rem; color:#64748b;">(Smart Capital)</div>
                                     </div>
 
                                     <!-- 4. RETAIL (Omnicanal) - Top Right -->
-                                    <div class="glass-card-hover" style="position:absolute; top:20%; right:12%; z-index:5; display:flex; flex-direction:column; align-items:center;">
-                                        <div style="width:50px; height:50px; background:rgba(255,255,255,0.9); border-radius:14px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(249,115,22,0.15); border:1px solid #ffedd5; margin-bottom:4px;">
-                                            <i class="fa-solid fa-shop" style="font-size:1.2rem; color:#ea580c;"></i>
+                                    <div class="glass-card-hover" style="position:absolute; top:15%; right:8%; z-index:5; display:flex; flex-direction:column; align-items:center;">
+                                        <div style="width:42px; height:42px; background:rgba(255,255,255,0.9); border-radius:12px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(249,115,22,0.15); border:1px solid #ffedd5; margin-bottom:4px;">
+                                            <i class="fa-solid fa-shop" style="font-size:1rem; color:#ea580c;"></i>
                                         </div>
                                         <div style="font-size:0.65rem; font-weight:700; color:#1e1b4b; background:white; padding:2px 8px; border-radius:10px; border:1px solid #e2e8f0;">RETAIL</div>
                                         <div style="font-size:0.55rem; color:#64748b;">(Omnicanal)</div>
                                     </div>
 
                                     <!-- 5. CULTURA (Autenticidad) - Bottom Right -->
-                                    <div class="glass-card-hover" style="position:absolute; bottom:15%; right:5%; z-index:5; display:flex; flex-direction:column; align-items:center;">
-                                        <div style="width:50px; height:50px; background:rgba(255,255,255,0.9); border-radius:14px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(236,72,153,0.15); border:1px solid #fce7f3; margin-bottom:4px;">
-                                            <i class="fa-regular fa-comments" style="font-size:1.2rem; color:#db2777;"></i>
+                                    <div class="glass-card-hover" style="position:absolute; bottom:10%; right:0%; z-index:5; display:flex; flex-direction:column; align-items:center;">
+                                        <div style="width:42px; height:42px; background:rgba(255,255,255,0.9); border-radius:12px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 15px rgba(236,72,153,0.15); border:1px solid #fce7f3; margin-bottom:4px;">
+                                            <i class="fa-regular fa-comments" style="font-size:1rem; color:#db2777;"></i>
                                         </div>
                                         <div style="font-size:0.65rem; font-weight:700; color:#1e1b4b; background:white; padding:2px 8px; border-radius:10px; border:1px solid #e2e8f0;">CULTURA</div>
                                         <div style="font-size:0.55rem; color:#64748b;">(Autenticidad)</div>
@@ -847,7 +847,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <div style="display:flex; flex-direction:column;">
                                         <!-- Header for Mobile -->
                                         <div class="mesh-section-title mobile-only-header" style="margin-bottom:1rem; text-align:center;">
-                                            <i class="fa-solid fa-layer-group"></i> Macro: ${m.name}
+                                            <i class="fa-solid fa-layer-group"></i> Macro-Tendencia
                                         </div>
 
                                         <div style="margin-bottom:1rem;">
