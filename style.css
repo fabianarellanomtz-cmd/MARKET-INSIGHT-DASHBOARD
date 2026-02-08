@@ -64,6 +64,28 @@ body {
     gap: 2rem;
     transition: all 0.3s ease;
     box-shadow: 5px 0 15px rgba(0, 0, 0, 0.05);
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    height: 100vh;
+    /* Ensure full viewport height */
+}
+
+/* Custom Scrollbar for Sidebar */
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .brand {
@@ -1171,11 +1193,14 @@ select option {
         flex: none !important;
     }
 }
+
 /* Suggestion Box Styles */
 .suggestion-box {
     margin-top: 2rem;
     padding: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 3rem;
+    /* Ensure space at bottom for scrolling */
 }
 
 .suggestion-box h4 {
@@ -1188,7 +1213,7 @@ select option {
 }
 
 .suggestion-box h4 i {
-    color: #facc15; 
+    color: #facc15;
 }
 
 .suggestion-box input[type='text'] {
@@ -1205,7 +1230,7 @@ select option {
 }
 
 .suggestion-box input[type='text']:focus {
-    border-color: #6366f1; 
+    border-color: #6366f1;
 }
 
 .suggestion-box button {
@@ -1231,5 +1256,5 @@ select option {
     font-size: 0.75rem;
     margin-top: 0.5rem;
     text-align: center;
-    color: #86efac; 
+    color: #86efac;
 }

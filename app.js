@@ -1244,6 +1244,9 @@ document.addEventListener('DOMContentLoaded', () => {
             container.innerHTML = `<p class="center-msg" style="color:red">Error generando resumen: ${e.message}</p>`;
         }
     }
+
+    // Start App
+    init();
 });
 
 // --- Mobile Sidebar Logic ---
