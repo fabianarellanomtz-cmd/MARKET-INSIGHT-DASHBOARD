@@ -277,7 +277,12 @@ document.addEventListener('DOMContentLoaded', () => {
         // Consumer
         'consumidor': ['cliente', 'usuario', 'shopper', 'persona', 'gente'],
         'generacion z': ['gen z', 'centennials', 'jóvenes', 'tiktok'],
-        'lujo': ['premium', 'high-end', 'exclusivo', 'prestigio']
+        'lujo': ['premium', 'high-end', 'exclusivo', 'prestigio'],
+
+        // Medical & Aesthetic (New Request)
+        'dermo': ['dermatología', 'piel', 'skincare', 'cutis', 'facial', 'topico', 'cosmecéutica'],
+        'inyectables': ['botox', 'toxina', 'relleno', 'filler', 'ácido hialurónico', 'estética', 'agujas', 'radiesse', 'dysport'],
+        'equipos medicos': ['aparatología', 'láser', 'dispositivo', 'tecnología médica', 'radiofrecuencia', 'ultrasonido', 'hifu', 'coolsculpting']
     };
 
     function expandSearchQuery(query) {

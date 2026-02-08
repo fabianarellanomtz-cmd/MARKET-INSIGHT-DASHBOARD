@@ -20,11 +20,12 @@ Este dashboard es **dinámico**. Para actualizar la información, no necesitas t
 ## 📂 Estructura del Proyecto
 
 *   `index.html`: Estructura principal y diseño del tablero.
-*   `style.css`: Estilos visuales (colores, diseño responsive).
+*   `style.css`: Estilos visuales (colores, diseño responsive, optimización móvil).
 *   `app.js`: El "cerebro" del dashboard. Contiene:
-    *   Lógica de lectura de Excel.
+    *   Lógica de lectura de Excel y clasificación automática (5x3x3).
+    *   **Búsqueda Semántica:** Entiende sinónimos (ej. "dermo" -> "piel", "inyectables" -> "botox").
     *   Base de datos de Análisis Estratégico (`ANALYSIS_DB`).
-    *   Filtros y generación de gráficos.
+    *   Filtros dinámicos y generación de gráficos.
 *   `ARTÍCULOS.xlsx`: Tu base de datos de noticias.
 
 ## 🛠️ Mantenimiento
