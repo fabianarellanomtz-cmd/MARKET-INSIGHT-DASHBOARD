@@ -70,20 +70,76 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- Helper Logic ---
-    function determineMacroCategory(topicString) {
-        const fullTopic = (topicString || "").toLowerCase();
-        if (fullTopic.includes('retail') || fullTopic.includes('distribución') || fullTopic.includes('expansión') || fullTopic.includes('tienda')) {
-            return "retail";
-        } else if (fullTopic.includes('negocio') || fullTopic.includes('financier') || fullTopic.includes('m&a') || fullTopic.includes('adquisición') || fullTopic.includes('corporativ')) {
-            return "negocio";
-        } else if (fullTopic.includes('producto') || fullTopic.includes('ingrediente') || fullTopic.includes('ciencia') || fullTopic.includes('innovación') || fullTopic.includes('skincare')) {
-            return "producto";
-        } else if (fullTopic.includes('wellness') || fullTopic.includes('salud') || fullTopic.includes('hormonal') || fullTopic.includes('menopausia') || fullTopic.includes('suplement')) {
-            return "wellness";
-        } else if (fullTopic.includes('consumidor') || fullTopic.includes('cultura') || fullTopic.includes('marketing') || fullTopic.includes('trend') || fullTopic.includes('generaci')) {
-            return "consumidor";
+    // --- Helper Logic & Smart Classification ---
+    function determineMacroCategory(articleCtx) {
+        // articleCtx can be just the topic string (legacy) or an object with {topic, title, summary}
+        let textToAnalyze = "";
+
+        if (typeof articleCtx === 'string') {
+            textToAnalyze = articleCtx.toLowerCase();
+        } else {
+            // Priority: Topic > Title > Summary
+            textToAnalyze = `${articleCtx.topic || ''} ${articleCtx.title || ''} ${articleCtx.summary || ''}`.toLowerCase();
         }
-        return "otros";
+
+        // Expert Keywords Dictionary
+        const expertKeywords = {
+            'negocio': [
+                'negocio', 'financier', 'm&a', 'adquisición', 'corporativ', 'inversión', 'econom', 'mercado',
+                'reporte', 'ceo', 'directiv', 'estrategia', 'bursátil', 'ganancias', 'ventas', 'crecimiento',
+                'liderazgo', 'alianza', 'fusión', 'compra', 'valor', 'acciones', 'industria', 'sector'
+            ],
+            'retail': [
+                'retail', 'distribución', 'expansión', 'tienda', 'punto de venta', 'e-commerce', 'omnichannel',
+                'supermercado', 'farmacia', 'logística', 'delivery', 'amazon', 'walmart', 'sephora', 'liverpool',
+                'centro comercial', 'consumo masivo', 'd2c', 'b2b', 'canal'
+            ],
+            'producto': [
+                'producto', 'ingrediente', 'ciencia', 'innovación', 'skincare', 'formulación', 'tecnología',
+                'lanzamiento', 'patente', 'investigación', 'dermocosm', 'activo', 'molecula', 'biotecnología',
+                'packaging', 'envase', 'sostenible', 'clean label', 'eficacia', 'clínico'
+            ],
+            'wellness': [
+                'wellness', 'salud', 'hormonal', 'menopausia', 'suplement', 'bienestar', 'mental', 'físico',
+                'spa', 'holístic', 'terapia', 'longevidad', 'nutrición', 'balance', 'prevención', 'médic',
+                'clínica', 'tratiento', 'estilo de vida', 'fitness', 'mindfulness'
+            ],
+            'consumidor': [
+                'consumidor', 'cultura', 'marketing', 'trend', 'tendencia', 'generaci', 'z', 'millennial',
+                'comportamiento', 'social', 'viral', 'tiktok', 'influencer', 'campaña', 'publicidad', 'marca',
+                'identidad', 'valores', 'encuesta', 'insight', 'lifestyle'
+            ]
+        };
+
+        let scores = { negocio: 0, retail: 0, producto: 0, wellness: 0, consumidor: 0 };
+        let maxScore = 0;
+        let bestMatch = 'otros';
+
+        // Scoring System
+        for (const [category, keywords] of Object.entries(expertKeywords)) {
+            keywords.forEach(word => {
+                if (textToAnalyze.includes(word)) {
+                    scores[category]++;
+                }
+            });
+
+            if (scores[category] > maxScore) {
+                maxScore = scores[category];
+                bestMatch = category;
+            }
+        }
+
+        // Fallback Logic based on pure Topic if score is low but Topic is explicit
+        if (maxScore === 0 && typeof articleCtx === 'object' && articleCtx.topic) {
+            const t = articleCtx.topic.toLowerCase();
+            if (t.includes('market') || t.includes('busi')) return 'negocio';
+            if (t.includes('store') || t.includes('shop')) return 'retail';
+            if (t.includes('tech') || t.includes('prod')) return 'producto';
+            if (t.includes('health')) return 'wellness';
+            if (t.includes('people') || t.includes('soci')) return 'consumidor';
+        }
+
+        return bestMatch; // Returns 'otros' if truly no match found
     }
 
     // --- File Processing ---
@@ -155,7 +211,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const fullDisplayTopic = subtopic ? `${topic} - ${subtopic}` : topic;
-        const macroCat = determineMacroCategory(`${topic} ${subtopic}`);
+
+        // Advanced Classification: Pass Context
+        const macroCat = determineMacroCategory({
+            topic: `${topic} ${subtopic}`,
+            title: title,
+            summary: summary
+        });
 
         return {
             title: title || "Noticia sin título",
@@ -163,6 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
             source: source,
             topic: fullDisplayTopic,
             displayTopic: topic,
+            subtopic: subtopic, // Added for split bubble rendering
             summary: summary || "",
             date: dateObj,
             year: yearRaw ? yearRaw.toString().trim() : "",
@@ -203,32 +266,61 @@ document.addEventListener('DOMContentLoaded', () => {
                 ? article.date.toLocaleDateString('es-ES', { month: 'long', year: 'numeric' })
                 : 'Fecha desconocida';
 
-            // Add Macro badge
-            let macroLabel = "";
-            let macroColor = "#eee";
-            switch (article.macro) {
-                case 'negocio': macroLabel = "Negocio"; macroColor = "#dbeafe"; break;
-                case 'retail': macroLabel = "Retail"; macroColor = "#ffedd5"; break;
-                case 'producto': macroLabel = "Producto"; macroColor = "#dcfce7"; break;
-                case 'wellness': macroLabel = "Wellness"; macroColor = "#fce7f3"; break;
-                case 'consumidor': macroLabel = "Consumidor"; macroColor = "#f3e8ff"; break;
+            // Category Badge Logic
+            const macroMap = {
+                'negocio': 'Dinámica de Negocio',
+                'retail': 'Retail & Distribución',
+                'producto': 'Ciencia & Producto',
+                'wellness': 'Wellness & Salud',
+                'consumidor': 'Cultura & Consumidor',
+                'otros': 'General'
+            };
+            const categoryKey = (article.macro && macroMap[article.macro]) ? article.macro : 'otros';
+            const categoryLabel = macroMap[categoryKey];
+
+            const badgeHtml = `<span class="category-badge ${categoryKey}">${categoryLabel}</span>`;
+
+            // Topic Badge Logic (Split or Single)
+            let topicHtml = '';
+            if (article.subtopic) {
+                topicHtml = `
+                    <div style="display:flex; flex-direction:column; align-items:center; gap:4px; width:100%;">
+                        <span class="topic-pill main">${article.displayTopic}</span>
+                        <span class="topic-pill sub">${article.subtopic}</span>
+                    </div>
+                `;
+            } else {
+                // Check if topic itself has a hyphen separator as fallback
+                if (article.displayTopic.includes(' - ')) {
+                    const parts = article.displayTopic.split(' - ');
+                    topicHtml = `
+                        <div style="display:flex; flex-direction:column; align-items:center; gap:4px; width:100%;">
+                            <span class="topic-pill main">${parts[0].trim()}</span>
+                            <span class="topic-pill sub">${parts[1].trim()}</span>
+                        </div>
+                    `;
+                } else {
+                    topicHtml = `<span class="card-topic">${article.displayTopic}</span>`;
+                }
             }
 
-            const badgeHtml = macroLabel
-                ? `<span style="display:inline-block; font-size:0.7rem; background:${macroColor}; padding:2px 6px; border-radius:4px; margin-bottom:0.5rem; color:#555; text-transform:uppercase; font-weight:600;">${macroLabel}</span>`
-                : '';
-
             card.innerHTML = `
-                <div class="card-header">
-                    <span class="card-topic">${article.topic}</span>
-                    <span class="card-date">${dateStr}</span>
+                <div style="text-align:center; width:100%; margin-bottom:0.25rem;">
+                    ${badgeHtml}
                 </div>
-                ${badgeHtml}
-                <h3 class="card-title">${article.title}</h3>
-                <p class="card-snippet">${article.summary}</p>
+                <div class="card-header" style="justify-content:center;">
+                    ${topicHtml}
+                </div>
+                <div style="flex:1;">
+                    <h3 class="card-title">${article.title}</h3>
+                    <p class="card-snippet">${article.summary}</p>
+                </div>
                 <div class="card-footer">
                      <span class="source-badge">${article.source || 'Fuente'}</span>
-                     <a href="${article.link}" target="_blank" class="read-link">Link <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     <div style="display:flex; align-items:center; gap:0.75rem;">
+                        <span class="card-date footer-date">${dateStr}</span>
+                        <a href="${article.link}" target="_blank" class="read-link icon-link-header"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                     </div>
                 </div>
             `;
             elements.grid.appendChild(card);
@@ -845,8 +937,8 @@ document.addEventListener('DOMContentLoaded', () => {
                                     
                                     <!-- COL 1: Trend Content -->
                                     <div style="display:flex; flex-direction:column;">
-                                        <!-- Header for Mobile -->
-                                        <div class="mesh-section-title mobile-only-header" style="margin-bottom:1rem; text-align:center;">
+                                        <!-- Header -->
+                                        <div class="mesh-section-title" style="margin-bottom:1rem; text-align:center; background:#2563eb; color:#ffffff !important;">
                                             <i class="fa-solid fa-layer-group"></i> Macro-Tendencia
                                         </div>
 
@@ -863,9 +955,9 @@ document.addEventListener('DOMContentLoaded', () => {
                                     </div>
 
                                     <!-- COL 2: Impact Matrix -->
-                                    <div style="display:flex; flex-direction:column; gap:0.8rem; border-left:1px dashed #9ca3af; padding-left:1.5rem; justify-content:center;">
+                                    <div style="display:flex; flex-direction:column; gap:0.8rem; border-left:1px dashed #9ca3af; padding-left:1.5rem;">
                                         
-                                        <div class="mesh-section-title mobile-only-header" style="margin-bottom:1rem; text-align:center; background: linear-gradient(135deg, #be185d 0%, #9d174d 100%);">
+                                        <div class="mesh-section-title" style="margin-bottom:1rem; text-align:center; background: linear-gradient(135deg, #be185d 0%, #9d174d 100%); color:#ffffff !important;">
                                             <i class="fa-solid fa-scale-balanced"></i> Matriz de Impacto
                                         </div>
 
@@ -900,9 +992,9 @@ document.addEventListener('DOMContentLoaded', () => {
                                     </div>
 
                                     <!-- COL 3: Strategic Action -->
-                                    <div style="display:flex; flex-direction:column; gap:1.5rem; border-left:1px dashed #9ca3af; padding-left:1.5rem; justify-content:center;">
+                                    <div style="display:flex; flex-direction:column; gap:1.5rem; border-left:1px dashed #9ca3af; padding-left:1.5rem;">
                                         
-                                        <div class="mesh-section-title mobile-only-header" style="margin-bottom:1rem; text-align:center; background: linear-gradient(135deg, #059669 0%, #047857 100%);">
+                                        <div class="mesh-section-title" style="margin-bottom:1rem; text-align:center; background: linear-gradient(135deg, #059669 0%, #047857 100%); color:#ffffff !important;">
                                             <i class="fa-solid fa-chess"></i> Estrategia & KPIs
                                         </div>
 

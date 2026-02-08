@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=mobile_polish">
 
     <!-- SheetJS for Excel processing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
@@ -31,7 +31,7 @@
         <!-- Sidebar -->
         <aside class="sidebar">
             <div class="brand">
-                <div class="logo-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <div class="logo-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
                 <h1>Market<span> Insights</span></h1>
             </div>
 
@@ -45,20 +45,7 @@
                 </button>
             </nav>
 
-            <div class="upload-section" id="drop-zone">
-                <input type="file" id="file-input" accept=".xlsx, .xls, .csv" hidden>
-                <div class="upload-btn" onclick="document.getElementById('file-input').click()">
-                    <i class="fa-solid fa-cloud-arrow-up"></i>
-                    <span>Actualizar Datos</span>
-                </div>
-                <p class="last-updated">Última act: <span id="last-update-date">Nunca</span></p>
-
-                <!-- Debug Info for Column Mapping -->
-                <div id="debug-info"
-                    style="margin-top: 1rem; font-size: 0.75rem; color: #6b7280; word-break: break-all; display: none;">
-                    <strong>Columnas detectadas:</strong> <span id="detected-columns"></span>
-                </div>
-            </div>
+            <!-- Upload Section Removed as per request -->
 
             <nav class="filters">
                 <h3>Filtros</h3>
@@ -72,7 +59,7 @@
                 </div>
 
                 <div class="filter-group">
-                    <label>Macro-Tendencia</label>
+                    <label>Categoría</label>
                     <select id="macro-filter" class="form-control">
                         <option value="all">Todas</option>
                         <option value="negocio">Dinámica de Negocio</option>
@@ -80,6 +67,7 @@
                         <option value="producto">Ciencia & Producto</option>
                         <option value="wellness">Wellness & Salud</option>
                         <option value="consumidor">Cultura & Consumidor</option>
+                        <option value="otros">General / Otro</option>
                     </select>
                 </div>
 
@@ -112,7 +100,7 @@
                     </button>
                 </div>
 
-                <div class="search-bar">
+                <div class="search-bar" id="search-container">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" id="search-input" placeholder="Buscar noticias, palabras clave...">
                 </div>
