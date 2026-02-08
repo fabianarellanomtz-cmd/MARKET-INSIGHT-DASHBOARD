@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css?v=sidebar_scroll">
+    <link rel="stylesheet" href="style.css?v=mobile_opt">
 
     <!-- SheetJS for Excel processing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
@@ -33,6 +33,7 @@
             <div class="brand">
                 <div class="logo-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
                 <h1>Market<span> Insights</span></h1>
+                <button class="close-sidebar-btn" onclick="toggleSidebar()"><i class="fa-solid fa-xmark"></i></button>
             </div>
 
             <!-- Main Navigation -->
@@ -59,7 +60,6 @@
                         <option value="producto">Ciencia & Producto</option>
                         <option value="wellness">Wellness & Salud</option>
                         <option value="consumidor">Cultura & Consumidor</option>
-                        <option value="otros">General / Otro</option>
                     </select>
                 </div>
 

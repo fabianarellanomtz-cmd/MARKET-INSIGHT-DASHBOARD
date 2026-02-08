@@ -112,11 +112,32 @@ document.addEventListener('DOMContentLoaded', () => {
             updateView();
         });
 
-        // Topic Filter Change
+        // Topic Filter Change (Bidirectional Sync)
         if (elements.topicFilter) elements.topicFilter.addEventListener('change', (e) => {
-            state.filters.topic = e.target.value;
+            const selectedTopic = e.target.value;
+            state.filters.topic = selectedTopic;
             state.filters.subtopic = 'all'; // Reset subtopic on topic change
-            updateSubtopicOptions(); // Dynamic update
+
+            // REVERSE SYNC: If Topic selected, find and set parent Macro
+            if (selectedTopic !== 'all') {
+                for (const [macroKey, macroData] of Object.entries(TAXONOMY)) {
+                    if (macroData.topics[selectedTopic]) {
+                        state.filters.macro = macroKey;
+                        if (elements.macroFilter) elements.macroFilter.value = macroKey;
+                        break;
+                    }
+                }
+            }
+
+            // Re-run filter updates to sync UI (but avoid infinite loop if possible)
+            // Ideally we just update subtopics and view, but calling updateFilters works to refresh lists
+            // However, calling updateFilters might reset the topic list if macro changes? 
+            // Actually, if we set macro, updateFilters will show relevant topics for that macro.
+            // Since the selected topic belongs to that macro, it is safe.
+            updateFilters();
+            // updateView is called inside updateFilters? No, check code.
+            // checking updateFilters code... it calls updateSubtopicOptions, updateMonthOptions.
+            // It does NOT call updateView.
             updateView();
         });
 
@@ -131,7 +152,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (elements.macroFilter) {
             elements.macroFilter.addEventListener('change', (e) => {
                 state.filters.macro = e.target.value;
-                updateView();
+                state.filters.topic = 'all'; // Reset
+                state.filters.subtopic = 'all'; // Reset
+                updateFilters(); // Update dropdowns
+                updateView(); // Update grid
             });
         }
 
@@ -140,76 +164,93 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Helper Logic ---
     // --- Helper Logic & Smart Classification ---
-    function determineMacroCategory(articleCtx) {
-        // articleCtx can be just the topic string (legacy) or an object with {topic, title, summary}
-        let textToAnalyze = "";
-
-        if (typeof articleCtx === 'string') {
-            textToAnalyze = articleCtx.toLowerCase();
-        } else {
-            // Priority: Topic > Title > Summary
-            textToAnalyze = `${articleCtx.topic || ''} ${articleCtx.title || ''} ${articleCtx.summary || ''}`.toLowerCase();
-        }
-
-        // Expert Keywords Dictionary
-        const expertKeywords = {
-            'negocio': [
-                'negocio', 'financier', 'm&a', 'adquisición', 'corporativ', 'inversión', 'econom', 'mercado',
-                'reporte', 'ceo', 'directiv', 'estrategia', 'bursátil', 'ganancias', 'ventas', 'crecimiento',
-                'liderazgo', 'alianza', 'fusión', 'compra', 'valor', 'acciones', 'industria', 'sector'
-            ],
-            'retail': [
-                'retail', 'distribución', 'expansión', 'tienda', 'punto de venta', 'e-commerce', 'omnichannel',
-                'supermercado', 'farmacia', 'logística', 'delivery', 'amazon', 'walmart', 'sephora', 'liverpool',
-                'centro comercial', 'consumo masivo', 'd2c', 'b2b', 'canal'
-            ],
-            'producto': [
-                'producto', 'ingrediente', 'ciencia', 'innovación', 'skincare', 'formulación', 'tecnología',
-                'lanzamiento', 'patente', 'investigación', 'dermocosm', 'activo', 'molecula', 'biotecnología',
-                'packaging', 'envase', 'sostenible', 'clean label', 'eficacia', 'clínico'
-            ],
-            'wellness': [
-                'wellness', 'salud', 'hormonal', 'menopausia', 'suplement', 'bienestar', 'mental', 'físico',
-                'spa', 'holístic', 'terapia', 'longevidad', 'nutrición', 'balance', 'prevención', 'médic',
-                'clínica', 'tratiento', 'estilo de vida', 'fitness', 'mindfulness'
-            ],
-            'consumidor': [
-                'consumidor', 'cultura', 'marketing', 'trend', 'tendencia', 'generaci', 'z', 'millennial',
-                'comportamiento', 'social', 'viral', 'tiktok', 'influencer', 'campaña', 'publicidad', 'marca',
-                'identidad', 'valores', 'encuesta', 'insight', 'lifestyle'
-            ]
-        };
-
-        let scores = { negocio: 0, retail: 0, producto: 0, wellness: 0, consumidor: 0 };
-        let maxScore = 0;
-        let bestMatch = 'otros';
-
-        // Scoring System
-        for (const [category, keywords] of Object.entries(expertKeywords)) {
-            keywords.forEach(word => {
-                if (textToAnalyze.includes(word)) {
-                    scores[category]++;
-                }
-            });
-
-            if (scores[category] > maxScore) {
-                maxScore = scores[category];
-                bestMatch = category;
+    // --- Helper Logic & Smart Classification (Strict 5x3x3 Taxonomy) ---
+    const TAXONOMY = {
+        'negocio': {
+            label: 'Dinámica de Negocio',
+            topics: {
+                'Estrategia Corporativa': { subtopics: ['Fusiones & Adquisiciones', 'Expansión Global', 'Liderazgo & CEO'], keywords: ['estrategia', 'ceo', 'directiv', 'alianza', 'reestructur', 'plan', 'visión', 'gobierno'] },
+                'Finanzas & Mercado': { subtopics: ['Resultados Trimestrales', 'Bolsa & Acciones', 'Inversión & Capital'], keywords: ['ganancias', 'ventas', 'ebitda', 'bursátil', 'acción', 'inversión', 'capital', 'fondo', 'deuda'] },
+                'Economía & Industria': { subtopics: ['Entorno Macroeconómico', 'Regulación & Políticas', 'Cadena de Valor'], keywords: ['econom', 'inflación', 'pib', 'política', 'ley', 'regulación', 'industria', 'sector', 'competencia'] }
+            }
+        },
+        'retail': {
+            label: 'Retail & Distribución',
+            topics: {
+                'E-Commerce & Digital': { subtopics: ['Marketplaces', 'D2C & Social Commerce', 'Tecnología Retail'], keywords: ['e-commerce', 'online', 'digital', 'app', 'web', 'marketplace', 'amazon', 'tech', 'software'] },
+                'Experiencia en Tienda': { subtopics: ['Diseño & Formatos', 'Operaciones', 'Omnicanalidad'], keywords: ['tienda', 'físic', 'punto de venta', 'store', 'formato', 'apertura', 'experiencia', 'cliente'] },
+                'Supply Chain': { subtopics: ['Logística & Envíos', 'Inventario', 'Proveedores'], keywords: ['logística', 'distribución', 'envío', 'delivery', 'cadena', 'suministro', 'almacén', 'transporte'] }
+            }
+        },
+        'producto': {
+            label: 'Ciencia & Producto',
+            topics: {
+                'Innovación & I+D': { subtopics: ['Nuevos Ingredientes', 'Biotecnología', 'Patentes'], keywords: ['innovación', 'i+d', 'investigación', 'ciencia', 'tecnología', 'descubrimiento', 'patente', 'molecula'] },
+                'Desarrollo de Producto': { subtopics: ['Lanzamientos', 'Formulación', 'Packaging'], keywords: ['producto', 'lanzamiento', 'formulación', 'envase', 'packaging', 'diseño', 'skincare', 'cosmétic'] },
+                'Sostenibilidad': { subtopics: ['Eco-Packaging', 'Clean Label', 'Economía Circular'], keywords: ['sostenible', 'recicla', 'verde', 'eco', 'ambiente', 'carbono', 'natural', 'orgánico', 'clean'] }
+            }
+        },
+        'wellness': {
+            label: 'Wellness & Salud',
+            topics: {
+                'Longevidad & Preventiva': { subtopics: ['Epigenética', 'Suplementación', 'Biohacking'], keywords: ['longevidad', 'edad', 'envejecimiento', 'preventiv', 'biohack', 'suplement', 'vitamina'] },
+                'Salud Integral': { subtopics: ['Salud Mental', 'Salud Hormonal', 'Bienestar Físico'], keywords: ['salud', 'mental', 'físic', 'hormon', 'menopausia', 'estrés', 'ansiedad', 'cuerpo', 'médic'] },
+                'Estilo de Vida': { subtopics: ['Nutrición', 'Fitness & Spa', 'Terapias Holísticas'], keywords: ['diet', 'nutrición', 'fitness', 'spa', 'terapia', 'holístic', 'vibracion', 'lifestyle'] }
+            }
+        },
+        'consumidor': {
+            label: 'Cultura & Consumidor',
+            topics: {
+                'Tendencias de Consumo': { subtopics: ['Gen Z & Alpha', 'Nuevos comportamientos', 'Insights'], keywords: ['tendencia', 'trend', 'consumidor', 'generaci', 'z', 'alpha', 'comportamiento', 'hábito'] },
+                'Marketing & Brand': { subtopics: ['Campañas & Publicidad', 'Influencers & Creators', 'Brand Building'], keywords: ['marketing', 'publicidad', 'marca', 'branding', 'campaña', 'anuncio', 'influencer', 'redes'] },
+                'Sociedad & Cultura': { subtopics: ['Diversidad e Inclusión', 'Impacto Social', 'Cultura Pop'], keywords: ['sociedad', 'cultura', 'social', 'impacto', 'diversidad', 'inclusión', 'valores', 'ética'] }
             }
         }
+    };
 
-        // Fallback Logic based on pure Topic if score is low but Topic is explicit
-        if (maxScore === 0 && typeof articleCtx === 'object' && articleCtx.topic) {
-            const t = articleCtx.topic.toLowerCase();
-            if (t.includes('market') || t.includes('busi')) return 'negocio';
-            if (t.includes('store') || t.includes('shop')) return 'retail';
-            if (t.includes('tech') || t.includes('prod')) return 'producto';
-            if (t.includes('health')) return 'wellness';
-            if (t.includes('people') || t.includes('soci')) return 'consumidor';
-        }
+    function classifyArticle(text) {
+        text = text.toLowerCase();
+        let bestMacro = 'negocio'; // Default
+        let bestTopic = 'Estrategia Corporativa';
+        let bestSubtopic = 'Liderazgo & CEO';
+        let maxScore = -1;
 
-        return bestMatch; // Returns 'otros' if truly no match found
+        // Iterate through Strict Taxonomy to find best fit
+        Object.entries(TAXONOMY).forEach(([macroKey, macroData]) => {
+            Object.entries(macroData.topics).forEach(([topicName, topicData]) => {
+                let score = 0;
+
+                // Score Topic Keywords
+                topicData.keywords.forEach(k => { if (text.includes(k)) score += 3; });
+
+                // Score Subtopic Keywords (Implicitly using subtopic names as keywords)
+                topicData.subtopics.forEach(sub => {
+                    if (text.includes(sub.toLowerCase())) score += 5;
+                });
+
+                // Ensure we catch the macro category keywords too
+                if (text.includes(macroData.label.toLowerCase())) score += 2;
+
+                if (score > maxScore) {
+                    maxScore = score;
+                    bestMacro = macroKey;
+                    bestTopic = topicName;
+                    bestSubtopic = topicData.subtopics[0]; // Default to first subtopic if generic match
+
+                    // refine subtopic
+                    for (let sub of topicData.subtopics) {
+                        if (text.includes(sub.toLowerCase())) {
+                            bestSubtopic = sub;
+                            break;
+                        }
+                    }
+                }
+            });
+        });
+
+        return { macro: bestMacro, topic: bestTopic, subtopic: bestSubtopic };
     }
+
 
     // --- File Processing ---
     function handleFileUpload(e) {
@@ -284,37 +325,25 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Logic to Split Hyphenated Topics (Fix for Filter consistency)
-        let mainTopic = topic;
-        let subTopic = subtopic;
-
-        if (!subTopic && mainTopic.includes(' - ')) {
-            const parts = mainTopic.split(' - ');
-            mainTopic = parts[0].trim();
-            subTopic = parts[1].trim();
-        }
-
-        const fullDisplayTopic = subTopic ? `${mainTopic} - ${subTopic}` : mainTopic;
-
-        // Advanced Classification: Pass Context
-        const macroCat = determineMacroCategory({
-            topic: `${mainTopic} ${subTopic}`,
-            title: title,
-            summary: summary
-        });
+        // --- STRICT TAXONOMY ENFORCEMENT ---
+        // We ignore the Excel's original category/topic/subtopic for classification purposes
+        // and force it into our 5x3x3 structure based on keywords.
+        const textToAnalyze = `${topic} ${subtopic} ${title} ${summary}`;
+        const classification = classifyArticle(textToAnalyze);
 
         return {
             title: title || "Noticia sin título",
             link: link,
             source: source,
-            topic: fullDisplayTopic,
-            displayTopic: mainTopic, // Now strictly the main topic (Blue Pill)
-            subtopic: subTopic,      // Now strictly the subtopic (Pink Pill)
+            // Overwrite with standardized taxonomy
+            topic: `${classification.topic} - ${classification.subtopic}`,
+            displayTopic: classification.topic,
+            subtopic: classification.subtopic,
             summary: summary || "",
             date: dateObj,
             year: yearRaw ? yearRaw.toString().trim() : "",
             month: monthRaw ? monthRaw.toString().trim().toUpperCase() : "",
-            macro: macroCat,
+            macro: classification.macro, // Estrictamente uno de los 5
             id: Math.random().toString(36).substr(2, 9)
         };
     }
@@ -415,15 +444,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function updateFilters() {
-        const topics = new Set(state.articles.map(a => a.displayTopic).filter(Boolean));
-        if (elements.topicFilter) {
-            const current = state.filters.topic;
-            elements.topicFilter.innerHTML = '<option value="all">Todos</option>';
-            topics.forEach(t => elements.topicFilter.appendChild(new Option(t, t)));
-            elements.topicFilter.value = current;
+        // 1. MACRO -> TOPIC Cascade
+        const currentMacro = state.filters.macro;
+        let validTopics = new Set();
+
+        if (currentMacro === 'all') {
+            // Show all topics present in articles
+            state.articles.forEach(a => { if (a.displayTopic) validTopics.add(a.displayTopic); });
+        } else {
+            // Show only topics relevant to specific macro (using TAXONOMY for source of truth)
+            const macroData = TAXONOMY[currentMacro];
+            if (macroData && macroData.topics) {
+                Object.keys(macroData.topics).forEach(t => validTopics.add(t));
+            }
         }
 
-        updateSubtopicOptions(); // Update subtopics based on current topic
+        // Render Topic Options
+        if (elements.topicFilter) {
+            const currentTopic = state.filters.topic;
+            elements.topicFilter.innerHTML = '<option value="all">Todos los Temas</option>';
+            Array.from(validTopics).sort().forEach(t => elements.topicFilter.appendChild(new Option(t, t)));
+
+            // Retain selection if valid, else reset
+            if (validTopics.has(currentTopic)) {
+                elements.topicFilter.value = currentTopic;
+            } else {
+                elements.topicFilter.value = 'all';
+                state.filters.topic = 'all';
+            }
+        }
+
+        updateSubtopicOptions();
 
         const years = new Set(state.articles.map(a => a.year).filter(Boolean));
         const sortedYears = Array.from(years).sort((a, b) => b.localeCompare(a));
@@ -439,25 +490,45 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateSubtopicOptions() {
         if (!elements.subtopicFilter) return;
 
-        let filteredArticles = state.articles;
-        if (state.filters.topic !== 'all') {
-            filteredArticles = state.articles.filter(a => a.displayTopic === state.filters.topic);
+        let validSubtopics = new Set();
+        const currentMacro = state.filters.macro;
+        const currentTopic = state.filters.topic;
+
+        // 2. TOPIC -> SUBTOPIC Cascade
+        if (currentTopic !== 'all') {
+            // Find subtopics for this topic from TAXONOMY (safer than data)
+            Object.values(TAXONOMY).forEach(macro => {
+                if (macro.topics[currentTopic]) {
+                    macro.topics[currentTopic].subtopics.forEach(s => validSubtopics.add(s));
+                }
+            });
+        } else if (currentMacro !== 'all') {
+            // Show all subtopics for this macro
+            const macroData = TAXONOMY[currentMacro];
+            if (macroData) {
+                Object.values(macroData.topics).forEach(t => {
+                    t.subtopics.forEach(s => validSubtopics.add(s));
+                });
+            }
+        } else {
+            // Show all subtopics from data
+            state.articles.forEach(a => { if (a.subtopic) validSubtopics.add(a.subtopic); });
         }
 
-        const subtopics = new Set(filteredArticles.map(a => a.subtopic).filter(Boolean));
-        const sortedSubtopics = Array.from(subtopics).sort((a, b) => a.localeCompare(b));
+        const sortedSubtopics = Array.from(validSubtopics).sort((a, b) => a.localeCompare(b));
 
-        const current = state.filters.subtopic;
-        elements.subtopicFilter.innerHTML = '<option value="all">Todos</option>';
+        const currentSub = state.filters.subtopic;
+        elements.subtopicFilter.innerHTML = '<option value="all">Todos los Subtemas</option>';
         sortedSubtopics.forEach(s => elements.subtopicFilter.appendChild(new Option(s, s)));
 
-        if (current !== 'all' && sortedSubtopics.includes(current)) {
-            elements.subtopicFilter.value = current;
+        if (currentSub !== 'all' && validSubtopics.has(currentSub)) {
+            elements.subtopicFilter.value = currentSub;
         } else {
             elements.subtopicFilter.value = 'all';
             state.filters.subtopic = 'all';
         }
     }
+
 
     function updateMonthOptions() {
         let relevant = state.articles;
@@ -508,7 +579,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                     // Macro Category Backfill
                     if (!a.macro) {
-                        a.macro = determineMacroCategory(a.topic);
+                        const c = classifyArticle(a.topic || "");
+                        a.macro = c.macro;
                     }
                 });
 
@@ -539,7 +611,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                     // Macro Category Backfill (Compatibility Fix)
                     if (!a.macro) {
-                        a.macro = determineMacroCategory(a.topic);
+                        const c = classifyArticle(a.topic || "");
+                        a.macro = c.macro;
                     }
                 });
 
@@ -1244,6 +1317,44 @@ document.addEventListener('DOMContentLoaded', () => {
             container.innerHTML = `<p class="center-msg" style="color:red">Error generando resumen: ${e.message}</p>`;
         }
     }
+
+    // --- View Switching Logic (Mobile Optimized) ---
+    window.switchView = (viewName) => {
+        state.currentView = viewName;
+
+        // 1. Update Buttons
+        document.querySelectorAll('.nav-item').forEach(btn => {
+            btn.classList.remove('active');
+            // Check if onclick attribute contains viewName (simple heuristic)
+            if (btn.getAttribute('onclick') && btn.getAttribute('onclick').includes(viewName)) {
+                btn.classList.add('active');
+            }
+        });
+
+        // 2. Toggle Containers
+        const newsGrid = document.getElementById('news-grid');
+        const stratView = document.getElementById('strategic-view');
+
+        if (viewName === 'news') {
+            if (newsGrid) newsGrid.classList.remove('hidden');
+            if (stratView) stratView.classList.add('hidden');
+            renderGrid();
+        } else {
+            if (newsGrid) newsGrid.classList.add('hidden');
+            if (stratView) stratView.classList.remove('hidden');
+            generateStrategicSummary();
+        }
+
+        // 3. Mobile Optimization: Close Sidebar on Selection
+        // Check if sidebar is currently open (has .active class)
+        const sidebar = document.querySelector('.sidebar');
+        if (window.innerWidth <= 768 && sidebar && sidebar.classList.contains('active')) {
+            toggleSidebar(); // Close it
+        }
+
+        // 4. Scroll to top
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     // Start App
     init();
