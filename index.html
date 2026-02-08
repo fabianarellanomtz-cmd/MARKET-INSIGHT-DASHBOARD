@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css?v=mobile_polish">
+    <link rel="stylesheet" href="style.css?v=suggestion_form">
 
     <!-- SheetJS for Excel processing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
@@ -51,14 +51,6 @@
                 <h3>Filtros</h3>
 
                 <div class="filter-group">
-                    <label>Tema</label>
-                    <select id="topic-filter">
-                        <option value="all">Todos</option>
-                        <!-- Dynamic options -->
-                    </select>
-                </div>
-
-                <div class="filter-group">
                     <label>Categoría</label>
                     <select id="macro-filter" class="form-control">
                         <option value="all">Todas</option>
@@ -68,6 +60,21 @@
                         <option value="wellness">Wellness & Salud</option>
                         <option value="consumidor">Cultura & Consumidor</option>
                         <option value="otros">General / Otro</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Tema</label>
+                    <select id="topic-filter">
+                        <option value="all">Todos</option>
+                        <!-- Dynamic options -->
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Subtema</label>
+                    <select id="subtopic-filter">
+                        <option value="all">Todos</option>
                     </select>
                 </div>
 
@@ -88,6 +95,16 @@
                 <button class="reset-btn" id="reset-filters">Limpiar Filtros</button>
             </nav>
 
+            <div class="suggestion-box">
+                <h4><i class="fa-regular fa-lightbulb"></i> Sugerir Noticia</h4>
+                <form id="suggestion-form" action="https://formsubmit.co/fabian.arellano.mtz@gmail.com" method="POST">
+                    <input type="text" name="link" placeholder="Pega el enlace aquí..." required>
+                    <input type="hidden" name="_subject" value="Nueva Sugerencia de Noticia - Market Insights">
+                    <input type="hidden" name="_captcha" value="false">
+                    <button type="submit">Enviar <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+                <p id="suggestion-status" class="hidden"></p>
+            </div>
 
         </aside>
 

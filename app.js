@@ -1,44 +1,98 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- State Management ---
-    let state = {
+    const state = {
         articles: [],
+        currentView: 'news', // 'news' or 'strategy'
         filters: {
             search: '',
             topic: 'all',
-            macro: 'all', // New filter
+            subtopic: 'all', // Added Subtopic Filter
+            macro: 'all',
             year: 'all',
             month: 'all'
-        },
-        currentView: 'news'
+        }
     };
 
     // --- DOM Elements ---
     const elements = {
-        fileInput: document.getElementById('file-input'),
-        dropZone: document.getElementById('drop-zone'),
         grid: document.getElementById('news-grid'),
-        emptyState: document.getElementById('empty-state'),
         loadingState: document.getElementById('loading-state'),
+        emptyState: document.getElementById('empty-state'),
+        totalCount: document.getElementById('total-count'),
+        lastUpdated: document.getElementById('last-update-date'), // Corrected ID to match original
+
+        // Filters
         searchInput: document.getElementById('search-input'),
         topicFilter: document.getElementById('topic-filter'),
+        subtopicFilter: document.getElementById('subtopic-filter'), // Added Element
+        macroFilter: document.getElementById('macro-filter'),
         yearFilter: document.getElementById('year-filter'),
         monthFilter: document.getElementById('month-filter'),
-        macroFilter: document.getElementById('macro-filter'), // New Element
-        resetBtn: document.getElementById('reset-filters'),
-        totalCount: document.getElementById('total-count'),
-        lastUpdate: document.getElementById('last-update-date')
+
+        // Strategy View (assuming this is new functionality)
+        strategyView: document.getElementById('strategy-view'),
+
+        // Other
+        themeToggle: document.querySelector('.theme-toggle'), // Assuming this is new functionality
+        fileInput: document.getElementById('file-input'),
+        dropZone: document.getElementById('drop-zone'), // Kept from original
+        resetBtn: document.getElementById('reset-filters'), // Kept from original
+
+        // Suggestion Form
+        suggestionForm: document.getElementById('suggestion-form'),
+        suggestionStatus: document.getElementById('suggestion-status')
     };
 
     // --- Initialization ---
-    init();
-
     function init() {
         setupEventListeners();
         loadFromStorage();
+        // Check system theme (new functionality)
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.setAttribute('data-theme', 'dark');
+        }
     }
 
     // --- Event Listeners ---
     function setupEventListeners() {
+        // Suggestion Form Handling (AJAX)
+        if (elements.suggestionForm) {
+            elements.suggestionForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const form = e.target;
+                const status = elements.suggestionStatus;
+
+                status.textContent = "Enviando...";
+                status.style.color = "#9ca3af"; // Gray
+                status.classList.remove('hidden');
+
+                const formData = new FormData(form);
+
+                fetch(form.action, {
+                    method: "POST",
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            status.textContent = "¡Gracias! Sugerencia enviada.";
+                            status.style.color = "#86efac"; // Green
+                            form.reset();
+                            setTimeout(() => status.classList.add('hidden'), 5000);
+                        } else {
+                            status.textContent = "Error al enviar. Intenta de nuevo.";
+                            status.style.color = "#fca5a5"; // Red
+                        }
+                    })
+                    .catch(error => {
+                        status.textContent = "Error de conexión.";
+                        status.style.color = "#fca5a5"; // Red
+                    });
+            });
+        }
+
         if (elements.fileInput) elements.fileInput.addEventListener('change', handleFileUpload);
 
         if (elements.dropZone) {
@@ -53,12 +107,27 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Filters
-        if (elements.searchInput) elements.searchInput.addEventListener('input', (e) => { state.filters.search = e.target.value.toLowerCase(); updateView(); });
-        if (elements.topicFilter) elements.topicFilter.addEventListener('change', (e) => { state.filters.topic = e.target.value; updateView(); });
-        if (elements.yearFilter) elements.yearFilter.addEventListener('change', (e) => { state.filters.year = e.target.value; state.filters.month = 'all'; updateMonthOptions(); updateView(); });
-        if (elements.monthFilter) elements.monthFilter.addEventListener('change', (e) => { state.filters.month = e.target.value; updateView(); });
+        if (elements.searchInput) elements.searchInput.addEventListener('input', (e) => {
+            state.filters.search = e.target.value.toLowerCase();
+            updateView();
+        });
 
-        // New Macro Filter Listener
+        // Topic Filter Change
+        if (elements.topicFilter) elements.topicFilter.addEventListener('change', (e) => {
+            state.filters.topic = e.target.value;
+            state.filters.subtopic = 'all'; // Reset subtopic on topic change
+            updateSubtopicOptions(); // Dynamic update
+            updateView();
+        });
+
+        // Subtopic Filter Change (New)
+        if (elements.subtopicFilter) {
+            elements.subtopicFilter.addEventListener('change', (e) => {
+                state.filters.subtopic = e.target.value;
+                updateView();
+            });
+        }
+
         if (elements.macroFilter) {
             elements.macroFilter.addEventListener('change', (e) => {
                 state.filters.macro = e.target.value;
@@ -204,17 +273,32 @@ document.addEventListener('DOMContentLoaded', () => {
             const d = get('Fecha') || get('Date');
             if (d) {
                 if (typeof d === 'number') dateObj = new Date(Math.round((d - 25569) * 86400 * 1000));
-                else dateObj = new Date(d);
-                if (!yearRaw) yearRaw = dateObj.getFullYear();
-                if (!monthRaw) monthRaw = dateObj.toLocaleDateString('es-ES', { month: 'long' });
+                else {
+                    const parts = d.split('/');
+                    if (parts.length === 3) dateObj = new Date(parts[2], parts[1] - 1, parts[0]);
+                }
+            }
+            if (dateObj instanceof Date && !isNaN(dateObj)) {
+                yearRaw = dateObj.getFullYear();
+                monthRaw = dateObj.toLocaleDateString('es-ES', { month: 'long' });
             }
         }
 
-        const fullDisplayTopic = subtopic ? `${topic} - ${subtopic}` : topic;
+        // Logic to Split Hyphenated Topics (Fix for Filter consistency)
+        let mainTopic = topic;
+        let subTopic = subtopic;
+
+        if (!subTopic && mainTopic.includes(' - ')) {
+            const parts = mainTopic.split(' - ');
+            mainTopic = parts[0].trim();
+            subTopic = parts[1].trim();
+        }
+
+        const fullDisplayTopic = subTopic ? `${mainTopic} - ${subTopic}` : mainTopic;
 
         // Advanced Classification: Pass Context
         const macroCat = determineMacroCategory({
-            topic: `${topic} ${subtopic}`,
+            topic: `${mainTopic} ${subTopic}`,
             title: title,
             summary: summary
         });
@@ -224,8 +308,8 @@ document.addEventListener('DOMContentLoaded', () => {
             link: link,
             source: source,
             topic: fullDisplayTopic,
-            displayTopic: topic,
-            subtopic: subtopic, // Added for split bubble rendering
+            displayTopic: mainTopic, // Now strictly the main topic (Blue Pill)
+            subtopic: subTopic,      // Now strictly the subtopic (Pink Pill)
             summary: summary || "",
             date: dateObj,
             year: yearRaw ? yearRaw.toString().trim() : "",
@@ -243,11 +327,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const filtered = state.articles.filter(a => {
             const matchSearch = !state.filters.search || a.title.toLowerCase().includes(state.filters.search) || a.summary.toLowerCase().includes(state.filters.search);
             const matchTopic = state.filters.topic === 'all' || a.displayTopic === state.filters.topic;
+            const matchSub = state.filters.subtopic === 'all' || a.subtopic === state.filters.subtopic; // Added Subtopic Filter
             const matchYear = state.filters.year === 'all' || (a.year && a.year === state.filters.year);
             const matchMonth = state.filters.month === 'all' || (a.month && a.month === state.filters.month);
             // Macro Filter
             const matchMacro = state.filters.macro === 'all' || a.macro === state.filters.macro;
-            return matchSearch && matchTopic && matchYear && matchMonth && matchMacro;
+            return matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro;
         });
 
         elements.totalCount.textContent = filtered.length;
@@ -280,28 +365,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const badgeHtml = `<span class="category-badge ${categoryKey}">${categoryLabel}</span>`;
 
-            // Topic Badge Logic (Split or Single)
+            // Render Topics (Split logic is now pre-handled in normalization)
             let topicHtml = '';
             if (article.subtopic) {
+                // Dual Badges (Main = Blue, Sub = Pink)
                 topicHtml = `
-                    <div style="display:flex; flex-direction:column; align-items:center; gap:4px; width:100%;">
-                        <span class="topic-pill main">${article.displayTopic}</span>
-                        <span class="topic-pill sub">${article.subtopic}</span>
+                    <div style="display:flex; flex-direction:column; gap:4px; align-items:center;">
+                         <span class="topic-pill main">${article.displayTopic}</span>
+                         <span class="topic-pill sub">${article.subtopic}</span>
                     </div>
                 `;
             } else {
-                // Check if topic itself has a hyphen separator as fallback
-                if (article.displayTopic.includes(' - ')) {
-                    const parts = article.displayTopic.split(' - ');
-                    topicHtml = `
-                        <div style="display:flex; flex-direction:column; align-items:center; gap:4px; width:100%;">
-                            <span class="topic-pill main">${parts[0].trim()}</span>
-                            <span class="topic-pill sub">${parts[1].trim()}</span>
-                        </div>
-                    `;
-                } else {
-                    topicHtml = `<span class="card-topic">${article.displayTopic}</span>`;
-                }
+                // Single Badge (Blue)
+                topicHtml = `<span class="topic-pill main">${article.displayTopic}</span>`;
             }
 
             card.innerHTML = `
@@ -341,17 +417,46 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateFilters() {
         const topics = new Set(state.articles.map(a => a.displayTopic).filter(Boolean));
         if (elements.topicFilter) {
+            const current = state.filters.topic;
             elements.topicFilter.innerHTML = '<option value="all">Todos</option>';
             topics.forEach(t => elements.topicFilter.appendChild(new Option(t, t)));
+            elements.topicFilter.value = current;
         }
+
+        updateSubtopicOptions(); // Update subtopics based on current topic
 
         const years = new Set(state.articles.map(a => a.year).filter(Boolean));
         const sortedYears = Array.from(years).sort((a, b) => b.localeCompare(a));
         if (elements.yearFilter) {
+            const current = state.filters.year;
             elements.yearFilter.innerHTML = '<option value="all">Año</option>';
             sortedYears.forEach(y => elements.yearFilter.appendChild(new Option(y, y)));
+            if (current !== 'all' && sortedYears.includes(current)) elements.yearFilter.value = current;
         }
         updateMonthOptions();
+    }
+
+    function updateSubtopicOptions() {
+        if (!elements.subtopicFilter) return;
+
+        let filteredArticles = state.articles;
+        if (state.filters.topic !== 'all') {
+            filteredArticles = state.articles.filter(a => a.displayTopic === state.filters.topic);
+        }
+
+        const subtopics = new Set(filteredArticles.map(a => a.subtopic).filter(Boolean));
+        const sortedSubtopics = Array.from(subtopics).sort((a, b) => a.localeCompare(b));
+
+        const current = state.filters.subtopic;
+        elements.subtopicFilter.innerHTML = '<option value="all">Todos</option>';
+        sortedSubtopics.forEach(s => elements.subtopicFilter.appendChild(new Option(s, s)));
+
+        if (current !== 'all' && sortedSubtopics.includes(current)) {
+            elements.subtopicFilter.value = current;
+        } else {
+            elements.subtopicFilter.value = 'all';
+            state.filters.subtopic = 'all';
+        }
     }
 
     function updateMonthOptions() {

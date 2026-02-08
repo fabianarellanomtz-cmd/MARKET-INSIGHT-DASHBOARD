@@ -1171,3 +1171,65 @@ select option {
         flex: none !important;
     }
 }
+/* Suggestion Box Styles */
+.suggestion-box {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.suggestion-box h4 {
+    color: #e2e8f0;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.suggestion-box h4 i {
+    color: #facc15; 
+}
+
+.suggestion-box input[type='text'] {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.suggestion-box input[type='text']:focus {
+    border-color: #6366f1; 
+}
+
+.suggestion-box button {
+    width: 100%;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.suggestion-box button:hover {
+    background: #4338ca;
+}
+
+#suggestion-status {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    color: #86efac; 
+}
