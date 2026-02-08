@@ -251,6 +251,57 @@ document.addEventListener('DOMContentLoaded', () => {
         return { macro: bestMacro, topic: bestTopic, subtopic: bestSubtopic };
     }
 
+    // --- Semantic Search Engine ---
+    const SYNONYMS = {
+        // Business
+        'negocio': ['business', 'empresa', 'corporativo', 'mercado', 'industria'],
+        'estrategia': ['plan', 'visión', 'roadmap', 'tactica', 'growth'],
+        'finanzas': ['capital', 'inversión', 'bolsa', 'acciones', 'ganancias', 'profit'],
+
+        // Retail
+        'retail': ['tienda', 'comercio', 'punto de venta', 'store', 'shop'],
+        'e-commerce': ['online', 'digital', 'web', 'app', 'marketplace', 'amazon'],
+        'omnicanal': ['phygital', 'integrado', 'multicanal'],
+
+        // Product / Science
+        'producto': ['formulación', 'lanzamiento', 'sku', 'innovación'],
+        'capilar': ['cabello', 'pelo', 'hair', 'shampoo', 'acondicionador', 'cuero cabelludo', 'tratamiento capilar'],
+        'skin': ['piel', 'rostro', 'derma', 'cutis', 'skincare', 'facial'],
+        'sostenible': ['eco', 'verde', 'reciclable', 'sustentable', 'carbono', 'limpio'],
+
+        // Wellness
+        'wellness': ['bienestar', 'salud', 'balance', 'holístico'],
+        'longevidad': ['aging', 'envejecimiento', 'edad', 'preventiva', 'senior'],
+        'mental': ['ansiedad', 'estrés', 'calma', 'mindfulness', 'cerebro'],
+
+        // Consumer
+        'consumidor': ['cliente', 'usuario', 'shopper', 'persona', 'gente'],
+        'generacion z': ['gen z', 'centennials', 'jóvenes', 'tiktok'],
+        'lujo': ['premium', 'high-end', 'exclusivo', 'prestigio']
+    };
+
+    function expandSearchQuery(query) {
+        query = query.toLowerCase().trim();
+        if (!query) return [];
+
+        let terms = [query];
+
+        // Check for exact matches in dictionary keys
+        if (SYNONYMS[query]) {
+            terms = terms.concat(SYNONYMS[query]);
+        }
+
+        // Check if query is INSIDE a synonym list (reverse lookup)
+        Object.entries(SYNONYMS).forEach(([key, list]) => {
+            if (list.includes(query)) {
+                terms.push(key); // Add the main key
+                terms = terms.concat(list.filter(t => t !== query)); // Add siblings
+            }
+        });
+
+        return terms; // Returns ['capilar', 'cabello', 'pelo', ...]
+    }
+
 
     // --- File Processing ---
     function handleFileUpload(e) {
@@ -354,13 +405,24 @@ document.addEventListener('DOMContentLoaded', () => {
         elements.grid.innerHTML = '';
 
         const filtered = state.articles.filter(a => {
-            const matchSearch = !state.filters.search || a.title.toLowerCase().includes(state.filters.search) || a.summary.toLowerCase().includes(state.filters.search);
+            // Semantic Search Logic
+            let matchSearch = true;
+            if (state.filters.search) {
+                const searchTerms = expandSearchQuery(state.filters.search);
+                // Search in Title, Summary, Topic, and Subtopic
+                const text = (a.title + " " + a.summary + " " + a.displayTopic + " " + a.subtopic).toLowerCase();
+
+                // Match if ANY of the expanded terms are found
+                matchSearch = searchTerms.some(term => text.includes(term));
+            }
+
             const matchTopic = state.filters.topic === 'all' || a.displayTopic === state.filters.topic;
-            const matchSub = state.filters.subtopic === 'all' || a.subtopic === state.filters.subtopic; // Added Subtopic Filter
+            const matchSub = state.filters.subtopic === 'all' || a.subtopic === state.filters.subtopic;
             const matchYear = state.filters.year === 'all' || (a.year && a.year === state.filters.year);
             const matchMonth = state.filters.month === 'all' || (a.month && a.month === state.filters.month);
             // Macro Filter
             const matchMacro = state.filters.macro === 'all' || a.macro === state.filters.macro;
+
             return matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro;
         });
 
