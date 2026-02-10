@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css?v=semantic_v2">
+    <link rel="stylesheet" href="style.css?v=timeline_snake_v121">
 
     <!-- SheetJS for Excel processing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
@@ -40,6 +40,9 @@
             <nav class="main-nav">
                 <button class="nav-item active" onclick="switchView('news')">
                     <i class="fa-regular fa-newspaper"></i> Noticias
+                </button>
+                <button class="nav-item" onclick="switchView('timeline')">
+                    <i class="fa-solid fa-clock-rotate-left"></i> Cronología
                 </button>
                 <button class="nav-item" onclick="switchView('strategy')">
                     <i class="fa-solid fa-chart-pie"></i> Resumen Estratégico
@@ -92,7 +95,22 @@
                     </div>
                 </div>
 
+                <div class="filter-group">
+                    <label>Ordenar por</label>
+                    <select id="sort-filter">
+                        <option value="desc">Más Reciente (Inicio)</option>
+                        <option value="asc">Más Antiguo (Inicio)</option>
+                    </select>
+                </div>
+
                 <button class="reset-btn" id="reset-filters">Limpiar Filtros</button>
+
+                <div style="margin-top: 2rem; border-top: 1px solid #e5e5e5; padding-top: 1rem;">
+                    <button id="debug-btn"
+                        style="background:transparent; border:1px solid #94a3b8; color:#64748b; font-size:0.7rem; padding:4px 8px; width:100%; border-radius:4px; cursor:pointer;">
+                        <i class="fa-solid fa-bug"></i> Diagnóstico de Datos
+                    </button>
+                </div>
             </nav>
 
             <div class="suggestion-box">
@@ -121,6 +139,20 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="text" id="search-input" placeholder="Buscar noticias, palabras clave...">
                 </div>
+
+                <!-- Theme Switcher -->
+                <div class="theme-switcher-container" style="margin-left: 1rem; margin-right: 1rem;">
+                    <select id="theme-select"
+                        style="padding: 0.5rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.3); background: rgba(255,255,255,0.1); color: #1e293b; font-size: 0.85rem; font-weight: 500; cursor: pointer; backdrop-filter: blur(4px);">
+                        <option value="bg-beige">🎨 Clean Nature (Beige)</option>
+                        <option value="bg-agua">🌊 Deep Water (Original)</option>
+                        <option value="bg-verde">🌿 Fresh Mint (Verde)</option>
+                        <option value="bg-azul">🔵 Deep Ocean (Azul)</option>
+                        <option value="bg-botanical">🌱 Botanical Science</option>
+                        <option value="bg-lab">🔬 Modern Lab Aesthetic</option>
+                    </select>
+                </div>
+
                 <div class="stats-bar">
                     <div class="stat-item">
                         <span class="stat-val" id="total-count">0</span>
@@ -151,6 +183,11 @@
                 <div id="strategic-view" class="strategic-view hidden">
                     <!-- Summary content injected here -->
                 </div>
+
+                <!-- View: Timeline (New) -->
+                <div id="timeline-view" class="timeline-view hidden">
+                    <!-- Timeline content injected here -->
+                </div>
             </div>
         </main>
     </div>
@@ -166,7 +203,8 @@
     </div>
 
     <script src="data.js"></script>
-    <script src="app.js?v=30"></script>
+    <script src="data.js"></script>
+    <script src="app.js?v=switcher_v38"></script>
 </body>
 
 </html>

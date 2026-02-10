@@ -1,4 +1,24 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // --- Theme Init ---
+    const themeSelect = document.getElementById('theme-select');
+    const storedTheme = localStorage.getItem('userTheme') || 'bg-beige'; // Default
+
+    // Set Body Class
+    document.body.className = '';
+    document.body.classList.add(storedTheme);
+    document.body.classList.add('light-mode');
+
+    // Update Select Value
+    if (themeSelect) {
+        themeSelect.value = storedTheme;
+        themeSelect.addEventListener('change', (e) => {
+            const newTheme = e.target.value;
+            document.body.classList.remove('bg-agua', 'bg-verde', 'bg-azul', 'bg-beige', 'bg-botanical', 'bg-lab');
+            document.body.classList.add(newTheme);
+            localStorage.setItem('userTheme', newTheme);
+        });
+    }
+
     // --- State Management ---
     const state = {
         articles: [],
@@ -6,10 +26,11 @@ document.addEventListener('DOMContentLoaded', () => {
         filters: {
             search: '',
             topic: 'all',
-            subtopic: 'all', // Added Subtopic Filter
+            subtopic: 'all',
             macro: 'all',
             year: 'all',
-            month: 'all'
+            month: 'all',
+            sort: 'desc' // Added Sort State
         }
     };
 
@@ -37,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
         fileInput: document.getElementById('file-input'),
         dropZone: document.getElementById('drop-zone'), // Kept from original
         resetBtn: document.getElementById('reset-filters'), // Kept from original
+        sortFilter: document.getElementById('sort-filter'), // Added Sort Element
 
         // Suggestion Form
         suggestionForm: document.getElementById('suggestion-form'),
@@ -159,7 +181,44 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        if (elements.sortFilter) {
+            elements.sortFilter.addEventListener('change', (e) => {
+                state.filters.sort = e.target.value;
+                updateView();
+            });
+        }
+
         if (elements.resetBtn) elements.resetBtn.addEventListener('click', resetFilters);
+
+        // Debug Diagnostics
+        const debugBtn = document.getElementById('debug-btn');
+        if (debugBtn) {
+            debugBtn.addEventListener('click', () => {
+                if (!state.articles.length) return alert("No hay datos cargados.");
+
+                // 1. Check Sample Article Keys
+                const sample = state.articles[0];
+                const columns = Object.keys(sample).join(", ");
+
+                // 2. Check Raw Categories found
+                const categories = new Set(state.articles.map(a => a.macro));
+                const uniqueCats = Array.from(categories).join(", ");
+
+                // 3. Raw Data Checks (if original raw is preserved? No, we transform it. But we can check 'topic' which holds raw category)
+                const rawTopics = new Set(state.articles.map(a => a.displayTopic)); // Wait, displayTopic is mapped.
+                // We need to see what `processData` saw. 
+                // `classifyArticle` result is stored in `macro`.
+                // Let's deduce from distribution.
+
+                let report = `DIAGNÓSTICO:\n\n`;
+                report += `Total Noticias: ${state.articles.length}\n`;
+                report += `Macros Detectados: ${uniqueCats}\n`;
+                report += `\nSi ves solo 'negocio', el mapeo está fallando.\n`;
+                report += `\nEjemplo de Claves en Objeto (Depurado): ${columns}\n`;
+
+                alert(report);
+            });
+        }
     }
 
     // --- Helper Logic ---
@@ -208,12 +267,69 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    function classifyArticle(text) {
+    function classifyArticle(text, rawCategory = '') {
         text = text.toLowerCase();
         let bestMacro = 'negocio'; // Default
         let bestTopic = 'Estrategia Corporativa';
         let bestSubtopic = 'Liderazgo & CEO';
         let maxScore = -1;
+
+        // 0. Direct Mapping from Excel Category (Priority Override)
+        // Normalize helper: lowercase, remove accents
+        const normalize = (str) => str.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+        const cleanCat = normalize(rawCategory);
+
+        const CATEGORY_MAP = {
+            'competencia': 'negocio',
+            'estrategia corporativa': 'negocio',
+            'impacto corporativo': 'negocio',
+            'm&a': 'negocio',
+            'finanzas': 'negocio',
+            'negocios': 'negocio',
+            'politica publica': 'negocio', // Normalized
+            'regulacion': 'negocio',
+            'estrategia de capital': 'negocio',
+            'estrategia de expansion': 'negocio', // Normalized
+            'panorama de industria': 'negocio',
+            'proyecciones': 'negocio',
+            'panorama': 'negocio',
+            'cadena de suministro': 'negocio',
+
+            'retail': 'retail',
+            'distribucion': 'retail', // Normalized
+            'tienda': 'retail',
+            'e-commerce': 'retail',
+
+            'innovacion': 'producto', // Normalized
+            'producto': 'producto',
+            'ciencia': 'producto',
+            'medicina estetica': 'producto', // Normalized
+            'beauty tech': 'producto',
+            'skincare': 'producto',
+            'fragancias': 'producto',
+            'lanzamiento': 'producto',
+
+            'wellness': 'wellness',
+            'salud': 'wellness',
+            'nutricosmetica': 'wellness', // Normalized
+            'longevidad': 'wellness',
+
+            'consumidor': 'consumidor',
+            'tendencias': 'consumidor',
+            'marketing': 'consumidor',
+            'target': 'consumidor',
+            'cultura': 'consumidor',
+            'sociedad': 'consumidor'
+        };
+
+        // Check for partial match in the map keys
+        let mappedMacro = null;
+        for (const [key, val] of Object.entries(CATEGORY_MAP)) {
+            if (cleanCat.includes(key) || cleanCat.includes(normalize(key))) { // Double check normalized
+                mappedMacro = val;
+                break;
+            }
+        }
 
         // Iterate through Strict Taxonomy to find best fit
         Object.entries(TAXONOMY).forEach(([macroKey, macroData]) => {
@@ -223,7 +339,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Score Topic Keywords
                 topicData.keywords.forEach(k => { if (text.includes(k)) score += 3; });
 
-                // Score Subtopic Keywords (Implicitly using subtopic names as keywords)
+                // Score Subtopic Keywords
                 topicData.subtopics.forEach(sub => {
                     if (text.includes(sub.toLowerCase())) score += 5;
                 });
@@ -231,11 +347,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Ensure we catch the macro category keywords too
                 if (text.includes(macroData.label.toLowerCase())) score += 2;
 
+                // Boost score if mapped macro matches
+                if (mappedMacro === macroKey) score += 100;
+
                 if (score > maxScore) {
                     maxScore = score;
                     bestMacro = macroKey;
                     bestTopic = topicName;
-                    bestSubtopic = topicData.subtopics[0]; // Default to first subtopic if generic match
+                    bestSubtopic = topicData.subtopics[0]; // Default
 
                     // refine subtopic
                     for (let sub of topicData.subtopics) {
@@ -247,6 +366,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         });
+
+        // DEBUG LOG
+        console.log(`Classified "${rawCategory}" -> Mapped: ${mappedMacro} -> Result: ${bestMacro} (Score: ${maxScore})`);
 
         return { macro: bestMacro, topic: bestTopic, subtopic: bestSubtopic };
     }
@@ -344,11 +466,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function normalizeRow(row) {
+        // Robust 'get' helper (handles case/accents) - RESTORED
         const get = (key) => {
-            if (row[key] !== undefined) return row[key];
+            if (row[key] !== undefined) return String(row[key]).trim();
             const cleanKey = key.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
             const found = Object.keys(row).find(k => k.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim() === cleanKey);
-            return found ? row[found] : "";
+            return found ? String(row[found]).trim() : "";
         };
 
         const title = get('INSIGHT') || get('Título') || get('Title') || "";
@@ -382,16 +505,52 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // --- STRICT TAXONOMY ENFORCEMENT ---
-        // We ignore the Excel's original category/topic/subtopic for classification purposes
-        // and force it into our 5x3x3 structure based on keywords.
         const textToAnalyze = `${topic} ${subtopic} ${title} ${summary}`;
-        const classification = classifyArticle(textToAnalyze);
+        const classification = classifyArticle(textToAnalyze, topic);
+
+        // Heuristic for "Short Name" (Enhanced for Factual Titles)
+        let shortTitle = get('NOMBRE') || get('Name') || get('Nombre') || "";
+
+        // If no explicit short name, derive it
+        if (!shortTitle) {
+            // Prioritize the FACTUAL title (usually stored in 'Título') over the 'INSIGHT'
+            // If 'Título' is missing, fallback to 'title' variable (which might be Insight)
+            let candidate = get('Título') || get('Title') || title;
+
+            // Clean up candidate
+            candidate = candidate.trim();
+
+            // 1. Check for Colon Split (e.g. "Hook: Factual News")
+            if (candidate.includes(':')) {
+                const parts = candidate.split(':');
+                // If first part is very short (likely a topic/hook like "Ventas: ..."), takes the second part
+                if (parts[0].length < 25 && parts.length > 1) {
+                    shortTitle = parts[1].trim();
+                } else {
+                    // Otherwise take the first part, unless it's the Insight itself which user disliked
+                    shortTitle = parts[0].trim();
+                }
+            }
+            // 2. Check for Period Split (First Sentence)
+            else if (candidate.includes('.')) {
+                shortTitle = candidate.split('.')[0].trim();
+            }
+            // 3. Fallback: Truncate
+            else {
+                shortTitle = candidate;
+            }
+
+            // Final safety truncate (relaxed to allow CSS 3-line clamp)
+            if (shortTitle.length > 200) {
+                shortTitle = shortTitle.substring(0, 197) + "...";
+            }
+        }
 
         return {
             title: title || "Noticia sin título",
+            shortTitle: shortTitle || title,
             link: link,
             source: source,
-            // Overwrite with standardized taxonomy
             topic: `${classification.topic} - ${classification.subtopic}`,
             displayTopic: classification.topic,
             subtopic: classification.subtopic,
@@ -399,7 +558,7 @@ document.addEventListener('DOMContentLoaded', () => {
             date: dateObj,
             year: yearRaw ? yearRaw.toString().trim() : "",
             month: monthRaw ? monthRaw.toString().trim().toUpperCase() : "",
-            macro: classification.macro, // Estrictamente uno de los 5
+            macro: classification.macro,
             id: Math.random().toString(36).substr(2, 9)
         };
     }
@@ -423,12 +582,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const matchTopic = state.filters.topic === 'all' || a.displayTopic === state.filters.topic;
             const matchSub = state.filters.subtopic === 'all' || a.subtopic === state.filters.subtopic;
-            const matchYear = state.filters.year === 'all' || (a.year && a.year === state.filters.year);
-            const matchMonth = state.filters.month === 'all' || (a.month && a.month === state.filters.month);
-            // Macro Filter
-            const matchMacro = state.filters.macro === 'all' || a.macro === state.filters.macro;
+
+            // Robust Year/Month Check
+            const matchYear = state.filters.year === 'all' || (a.year && String(a.year).trim() === String(state.filters.year).trim());
+            const matchMonth = state.filters.month === 'all' || (a.month && String(a.month).trim().toUpperCase() === String(state.filters.month).trim().toUpperCase());
+
+            // Robust Macro Filter (Case Insensitive + Trim)
+            const articleMacro = (a.macro || '').toLowerCase().trim();
+            const filterMacro = (state.filters.macro || 'all').toLowerCase().trim();
+            const matchMacro = filterMacro === 'all' || articleMacro === filterMacro;
 
             return matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro;
+        });
+
+        // Sort Data based on filter
+        const sortOrder = state.filters.sort || 'desc';
+        filtered.sort((a, b) => {
+            if (a.date && b.date) {
+                return sortOrder === 'asc' ? a.date - b.date : b.date - a.date;
+            }
+            return 0; // Keep original order if no date
         });
 
         elements.totalCount.textContent = filtered.length;
@@ -731,6 +904,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function updateView() {
         if (state.currentView === 'news') renderGrid();
+        else if (state.currentView === 'timeline') renderTimeline();
         else generateStrategicSummary();
     }
 
@@ -957,12 +1131,24 @@ document.addEventListener('DOMContentLoaded', () => {
             clone.style.top = "-9999px";
             clone.style.left = "-9999px";
             clone.style.zIndex = "-1000";
-            clone.style.backgroundColor = "#f3f4f6"; // Ensure background
+
+            // User requested plain white background for export
+            clone.style.backgroundImage = "none";
+            clone.style.backgroundColor = "#ffffff";
+            clone.style.padding = "3rem";
 
             // Fix text wrapping issues in clone
             // Force flex containers to row instead of column (reverting mobile styles)
             const flexContainers = clone.querySelectorAll('.dashboard-row, .glass-panel');
             flexContainers.forEach(el => el.style.flexDirection = 'row');
+
+            // Force White Text on Headers (Panorama 2026 / Title)
+            const headers = clone.querySelectorAll('h1, h2');
+            headers.forEach(h => {
+                h.style.color = '#ffffff';
+                h.style.setProperty('color', '#ffffff', 'important');
+                h.style.textShadow = '0 2px 4px rgba(0,0,0,0.5)'; // Add shadow for contrast against white/light bg if needed
+            });
 
             // Append to body so html2canvas can render it
             document.body.appendChild(clone);
@@ -970,8 +1156,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // 3. Capture the clone
             const canvas = await html2canvas(clone, {
                 scale: 2,
-                backgroundColor: "#f3f4f6",
-                windowWidth: 1200 // Hint to html2canvas to simulate desktop
+                backgroundColor: null, // Transparent to keep gradient
+                windowWidth: 1200,
+                active: true,
+                useCORS: true,
+                allowTaint: true // Try to allow rendering, but toDataURL might still fail if we used an image. With gradient it's safe.
             });
 
             // 4. Download
@@ -1007,9 +1196,16 @@ document.addEventListener('DOMContentLoaded', () => {
         // Filter logic for summary metrics
         const filtered = state.articles.filter(a => {
             const matchTopic = state.filters.topic === 'all' || a.displayTopic === state.filters.topic;
-            const matchMacro = state.filters.macro === 'all' || a.macro === state.filters.macro;
-            const matchYear = state.filters.year === 'all' || (a.year && a.year === state.filters.year);
-            const matchMonth = state.filters.month === 'all' || (a.month && a.month === state.filters.month);
+
+            // Robust Year/Month
+            const matchYear = state.filters.year === 'all' || (a.year && String(a.year).trim() === String(state.filters.year).trim());
+            const matchMonth = state.filters.month === 'all' || (a.month && String(a.month).trim().toUpperCase() === String(state.filters.month).trim().toUpperCase());
+
+            // Robust Macro
+            const articleMacro = (a.macro || '').toLowerCase().trim();
+            const filterMacro = (state.filters.macro || 'all').toLowerCase().trim();
+            const matchMacro = filterMacro === 'all' || articleMacro === filterMacro;
+
             return matchTopic && matchMacro && matchYear && matchMonth;
         });
 
@@ -1040,18 +1236,20 @@ document.addEventListener('DOMContentLoaded', () => {
             // 2. Render HTML
             container.innerHTML = `
                 <!-- SECTION 1: GLOBAL STRATEGY (${contextKey}) -->
-                <div id="section-global" style="background:#f3f4f6; padding:1rem; border-radius:12px; margin-bottom: 2rem;">
+                <div id="section-global" style="background:transparent; padding:1rem; border-radius:12px; margin-bottom: 2rem;">
                     <div style="margin-bottom:1rem; text-align:right;">
-                        <button id="export-global-btn" class="action-btn-small" style="background:#2563eb; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer;">
+                        <button id="export-global-btn" class="action-btn-small" style="background:rgba(0,0,0,0.4); backdrop-filter:blur(8px); color:white; border:1px solid rgba(255,255,255,0.1); padding:8px 16px; border-radius:50px; cursor:pointer; box-shadow:0 4px 6px rgba(0,0,0,0.1); font-weight:600; font-size:0.85rem; letter-spacing:0.02em; transition: all 0.2s ease;">
                             <i class="fa-solid fa-download"></i> Exportar Panorama Global
                         </button>
                     </div>
 
                     <!-- Analysis Card -->
-                    <div class="insight-card mesh-header-bg" style="border-top: none; padding: 3rem 2rem;">
+                    <div style="background: transparent !important; border: none !important; box-shadow: none !important; padding: 3rem 2rem;">
                         <div style="text-align:center; margin-bottom:2rem;">
-                            <h2 style="color:white; margin-bottom:0.5rem; font-size: 2.2rem; text-shadow: 0 2px 4px rgba(0,0,0,0.2);">${ANALYSIS_DATA.title}</h2>
-                            <p style="color:rgba(255,255,255,0.9);">Generado por Market Insights AI • ${new Date().toLocaleDateString()}</p>
+                            <div style="display:inline-flex; flex-direction:column; align-items:center; background:rgba(0,0,0,0.4); backdrop-filter:blur(8px); padding:1rem 2.5rem; border-radius:24px; border:1px solid rgba(255,255,255,0.1); box-shadow:0 10px 15px -3px rgba(0,0,0,0.1);">
+                                <h2 style="color:white; margin:0 0 0.25rem 0; font-size: 2.2rem; text-shadow: 0 2px 4px rgba(0,0,0,0.2); line-height:1.2;">${ANALYSIS_DATA.title}</h2>
+                                <p style="color:rgba(255,255,255,0.9); margin:0; font-size:0.9rem;">Generado por Market Insights AI • ${new Date().toLocaleDateString()}</p>
+                            </div>
                         </div>
 
                         <!-- NEW HERO SUMMARY DESIGN -->
@@ -1161,8 +1359,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
 
                         <!-- Global Strategic Insights -->
-                        <div style="margin-bottom: 2.5rem;">
-                            <div class="mesh-section-title">
+                        <div style="margin-bottom: 2.5rem; text-align:center;">
+                            <div class="mesh-section-title" style="display:inline-block; background:rgba(0,0,0,0.4); backdrop-filter:blur(8px); padding:0.8rem 2rem; border-radius:24px; border:1px solid rgba(255,255,255,0.1); box-shadow:0 10px 15px -3px rgba(0,0,0,0.1); color:white; text-shadow:0 2px 4px rgba(0,0,0,0.2);">
                                 Insights Estratégicos Globales
                             </div>
                             <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:1.5rem;">
@@ -1269,18 +1467,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
 
                 <!-- SECTION 2: TACTICAL WAR ROOM -->
-                <div id="section-tactical" style="background:#f3f4f6; padding:1rem; border-radius:12px;">
-                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
-                        <h2 style="margin:0; color:#1f2937; font-size:1.4rem;">TRENDING TOPICS</h2>
-                        <button id="export-tactical-btn" class="action-btn-small" style="background:#be185d; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer;">
+                <div id="section-tactical" style="background:transparent; padding:1rem; border-radius:12px;">
+                    <div style="position:relative; display:flex; justify-content:center; align-items:center; margin-bottom:1.5rem; height:40px;">
+                        <div style="display:inline-block; background:rgba(0,0,0,0.4); backdrop-filter:blur(8px); padding:0.5rem 1.5rem; border-radius:50px; border:1px solid rgba(255,255,255,0.1); box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
+                            <h2 style="margin:0; color:#ffffff; font-size:1.4rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5); text-align:center; line-height:1;">TRENDING TOPICS</h2>
+                        </div>
+                        <button id="export-tactical-btn" class="action-btn-small" style="position:absolute; right:0; background:#be185d; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer;">
                             <i class="fa-solid fa-crosshairs"></i> Exportar Tablero Táctico
                         </button>
                     </div>
 
-                    <div class="dashboard-row">
+                    <div class="dashboard-row" style="display:flex; gap:2rem; align-items:start;">
                         <!-- Top News per Topic (Left Column) -->
-                        <div class="stat-box">
-                            <h3 style="margin-bottom:1rem; color:#4b5563; text-transform:uppercase; font-size:0.85rem; letter-spacing:0.05em;">NOTICIAS RELEVANTES</h3>
+                        <div class="stat-box" style="background:transparent; border:none; box-shadow:none; padding:0;">
+                            <h3 style="display:flex; align-items:center; height:32px; width:fit-content; background:rgba(0,0,0,0.5); backdrop-filter:blur(4px); padding:0 1.2rem; border-radius:50px; border:1px solid rgba(255,255,255,0.15); margin:0 0 1rem 0; color:#ffffff; text-transform:uppercase; font-size:0.75rem; letter-spacing:0.05em; font-weight:700; line-height:1;">
+                                NOTICIAS RELEVANTES
+                            </h3>
                             <div style="display:flex; flex-direction:column; gap:1rem;">
                                 ${sortedTopics.map(t => {
                 const topicName = t[0];
@@ -1290,11 +1492,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (articles.length === 0) return '';
 
                 return `
-                                        <div style="background:#f9fafb; padding:1rem; border-radius:8px; border-left: 3px solid #6366f1;">
-                                            <div style="font-size:0.75rem; color:#6366f1; font-weight:700; text-transform:uppercase; margin-bottom:0.5rem;">${topicName}</div>
+                                        <div style="background:rgba(255,255,255,0.9); backdrop-filter:blur(10px); padding:1rem; border-radius:8px; border-left: 3px solid #818cf8; border:1px solid rgba(255,255,255,0.4); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+                                            <div style="font-size:0.75rem; color:#4f46e5; font-weight:700; text-transform:uppercase; margin-bottom:0.5rem;">${topicName}</div>
                                             <div style="display:flex; flex-direction:column; gap:0.8rem;">
                                                 ${articles.map(article => `
-                                                    <div style="border-bottom:1px solid #e5e7eb; padding-bottom:0.5rem; last-child:border-bottom:0;">
+                                                    <div style="border-bottom:1px solid rgba(0,0,0,0.06); padding-bottom:0.5rem; last-child:border-bottom:0;">
                                                         <div style="font-size:0.85rem; font-weight:600; color:#1f2937; margin-bottom:0.3rem; line-height:1.4;">${article.title}</div>
                                                         <a href="${article.link}" target="_blank" style="display:inline-block; font-size:0.75rem; color:#2563eb; text-decoration:none; font-weight:500;">
                                                             Leer nota <i class="fa-solid fa-arrow-right" style="font-size:0.65rem;"></i>
@@ -1309,9 +1511,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
 
                         <!-- Competitor Watchlist & Tactics (Right Column) -->
-                        <div class="stat-box" style="display:flex; flex-direction:column; border:1px solid #e5e7eb; background:white;">
-                            <h3 style="margin-bottom:0.5rem; color:#4b5563; text-transform:uppercase; font-size:0.8rem; letter-spacing:0.05em; display:flex; justify-content:space-between; align-items:center;">
-                                <span><i class="fa-solid fa-binoculars"></i> COMPETITIVE PLAYBOOK</span>
+                        <div class="stat-box" style="display:flex; flex-direction:column; border:none; background:transparent; box-shadow:none; margin-top:-25px;">
+                            <h3 style="display:flex; align-items:center; gap:0.5rem; height:32px; width:fit-content; background:rgba(0,0,0,0.5); backdrop-filter:blur(4px); padding:0 1.2rem; border-radius:50px; border:1px solid rgba(255,255,255,0.15); margin:0 0 1rem 0; color:#ffffff; text-transform:uppercase; font-size:0.75rem; letter-spacing:0.05em; font-weight:700; line-height:1;">
+                                <i class="fa-solid fa-binoculars" style="color:#dbeafe; font-size:0.75rem;"></i> COMPETITIVE PLAYBOOK
                             </h3>
                             
                             <div style="flex:1; display:flex; flex-direction:column; align-items:stretch; gap:0.25rem;">
@@ -1335,16 +1537,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         return `
                                             <div style="animation: fadeIn 0.5s ease-in-out;">
-                                                <div style="background:#f8fafc; border-radius:8px; overflow:hidden; border:1px solid #e2e8f0; margin-bottom:0.25rem;">
-                                                    <div style="background:#1e293b; padding:0.25rem 0.5rem; display:flex; justify-content:space-between; align-items:center;">
-                                                        <span style="color:#ffffff; font-size:0.7rem; text-transform:uppercase; font-weight:700;">
-                                                            <span style="color:#ffffff;">${topTopicName}</span> <span style="font-weight:400; opacity:0.8; color:#e2e8f0;">// ${macroKey.toUpperCase()}</span>
+                                                <div style="background:rgba(255,255,255,0.9); backdrop-filter:blur(10px); border-radius:8px; overflow:hidden; border:1px solid rgba(255,255,255,0.4); box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); margin-bottom:1rem; padding:1rem;">
+                                                    <div style="background:transparent; padding:0 0 0.5rem 0; display:flex; justify-content:space-between; align-items:center;">
+                                                        <span style="color:#4f46e5; font-size:0.75rem; text-transform:uppercase; font-weight:800; letter-spacing:0.05em;">
+                                                            ${topTopicName} <span style="font-weight:400; opacity:0.7; color:#4b5563;">// ${macroKey.toUpperCase()}</span>
                                                         </span>
                                                     </div>
                                                     
-                                                    <div style="padding:0.4rem; display:flex; flex-direction:column; gap:0.3rem;">
+                                                    <div style="padding:0; display:flex; flex-direction:column; gap:0.5rem;">
                                                         ${(tacticData.threats || []).map(threat => `
-                                                            <div style="border-bottom:1px dashed #cbd5e1; padding-bottom:0.3rem; last-child:border-bottom:0; last-child:padding-bottom:0;">
+                                                            <div style="border-bottom:1px dashed rgba(0,0,0,0.1); padding-bottom:0.3rem; last-child:border-bottom:0; last-child:padding-bottom:0;">
                                                                 <div style="margin-bottom:0.15rem;">
                                                                     <div style="font-size:0.65rem; color:#64748b; font-weight:600; text-transform:uppercase; margin-bottom:0.1rem;">
                                                                         Movimiento [${threat.source}]
@@ -1354,10 +1556,10 @@ document.addEventListener('DOMContentLoaded', () => {
                                                                     </div>
                                                                 </div>
                                                                 <div>
-                                                                    <div style="font-size:0.65rem; color:#166534; font-weight:600; text-transform:uppercase; margin-bottom:0.1rem;">
+                                                                    <div style="font-size:0.75rem; color:#334155; line-height:1.2; text-transform:uppercase; margin-bottom:0.1rem;">
                                                                         Respuesta
                                                                     </div>
-                                                                    <div style="font-size:0.8rem; font-weight:600; color:#15803d; line-height:1.1;">
+                                                                    <div style="font-size:0.8rem; font-weight:600; color:#166534; line-height:1.1;">
                                                                         ${threat.response}
                                                                     </div>
                                                                 </div>
@@ -1385,6 +1587,148 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // --- UI Rendering ---
+
+
+    // --- Timeline Rendering ---
+    // --- Timeline Rendering (Snake Layout) ---
+    function renderTimeline() {
+        const container = document.getElementById('timeline-view');
+        if (!container) return;
+
+        // 1. Prepare Container & Controls (Idempotent)
+        let controls = container.querySelector('.snake-controls');
+        let snakeWrapper = container.querySelector('.snake-container');
+
+        if (!controls) {
+            container.innerHTML = `
+                <div class="snake-controls" style="max-width: 1400px; margin: 0 auto 2rem; padding: 0 5%; display: flex; justify-content: flex-end; align-items: center;">
+                    <div style="font-size: 0.9rem; color: #64748b; font-weight: 500;">
+                        <i class="fa-solid fa-filter"></i> Mostrando <span id="snake-count" style="font-weight: 700; color: #1e293b;">0</span> eventos
+                    </div>
+                </div>
+                <div class="snake-container"></div>
+            `;
+            snakeWrapper = container.querySelector('.snake-container');
+
+        }
+
+        // Update Count with Debug Info (Temporary)
+        const countSpan = document.getElementById('snake-count');
+        /*
+        const debugInfo = state.filters.macro !== 'all' ? ` [Cat: ${state.filters.macro}]` : '';
+        if (countSpan) countSpan.textContent = filtered.length + debugInfo;
+        */
+        // 2. Filter Data
+        const filtered = state.articles.filter(a => {
+            let matchSearch = true;
+            if (state.filters.search) {
+                const searchTerms = expandSearchQuery(state.filters.search);
+                const text = (a.title + " " + a.summary + " " + a.displayTopic + " " + a.subtopic).toLowerCase();
+                matchSearch = searchTerms.some(term => text.includes(term));
+            }
+            const matchTopic = state.filters.topic === 'all' || a.displayTopic === state.filters.topic;
+            const matchSub = state.filters.subtopic === 'all' || a.subtopic === state.filters.subtopic;
+            // Robust Year Check
+            const matchYear = state.filters.year === 'all' || (a.year && String(a.year).trim() === String(state.filters.year).trim());
+            const matchMonth = state.filters.month === 'all' || (a.month && String(a.month).trim().toUpperCase() === String(state.filters.month).trim().toUpperCase());
+
+            // Robust Macro Match (Case Insensitive + Trim)
+            const articleMacro = (a.macro || '').toLowerCase().trim();
+            const filterMacro = (state.filters.macro || 'all').toLowerCase().trim();
+            const matchMacro = filterMacro === 'all' || articleMacro === filterMacro;
+
+            return matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro;
+        });
+
+        // Update Count
+        if (countSpan) countSpan.textContent = filtered.length;
+        snakeWrapper.innerHTML = ''; // Clear previous items
+
+        if (filtered.length === 0) {
+            snakeWrapper.innerHTML = '<p class="center-msg" style="width:100%; text-align:center; padding: 4rem; color: #64748b;">No hay noticias para mostrar con los filtros actuales.</p>';
+            return;
+        }
+
+        // 3. Sort
+        // 3. Sort
+        const sortOrder = state.filters.sort || 'desc';
+        filtered.sort((a, b) => {
+            if (a.date && b.date) {
+                return sortOrder === 'asc' ? a.date - b.date : b.date - a.date;
+            }
+            return 0;
+        });
+
+        // 4. Chunk into Rows of 3 (Snake Layout)
+        const chunkSize = 3;
+        for (let i = 0; i < filtered.length; i += chunkSize) {
+            const chunk = filtered.slice(i, i + chunkSize);
+            const rowDiv = document.createElement('div');
+            const isLTR = (i / chunkSize) % 2 === 0; // Even rows: LTR (0, 2, 4...)
+
+            rowDiv.className = `snake-row ${isLTR ? 'snake-row-ltr' : 'snake-row-rtl'}`;
+
+            // Render Items in Row
+            chunk.forEach((article, idx) => {
+                const card = createSnakeCard(article);
+                rowDiv.appendChild(card);
+
+                // Add horizontal connector if it's NOT the last item in this chunk
+                if (idx < chunk.length - 1) {
+                    const hConnect = document.createElement('div');
+                    hConnect.className = 'snake-connector-h';
+                    rowDiv.appendChild(hConnect);
+                }
+            });
+
+            snakeWrapper.appendChild(rowDiv);
+
+            // Add Vertical Connector (if not last row)
+            if (i + chunkSize < filtered.length) {
+                const vConnectRow = document.createElement('div');
+                vConnectRow.className = `snake-v-row ${isLTR ? 'align-right' : 'align-left'}`;
+                // V6: Darker Ink Style & Sturdier Lines
+                vConnectRow.innerHTML = '<div class="snake-connector-v"></div>';
+                snakeWrapper.appendChild(vConnectRow);
+            }
+        }
+    }
+
+    function createSnakeCard(article) {
+        const item = document.createElement('div');
+        item.className = 'snake-card-wrapper';
+
+        const macroColor = getMacroColor(article.macro);
+        const dateStr = article.date instanceof Date
+            ? article.date.toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' }).toUpperCase()
+            : (article.year || "");
+
+        item.innerHTML = `
+            <div class="snake-card" onclick="window.open('${article.link}', '_blank')">
+                <div class="snake-header">
+                    <span class="snake-tag" style="background:${macroColor};">${article.displayTopic}</span>
+                    <span class="snake-date">${dateStr}</span>
+                </div>
+                <h3 class="snake-title">${article.shortTitle || article.title}</h3>
+                <div class="snake-sub">${article.subtopic || ""}</div>
+            </div>
+        `;
+        return item;
+    }
+
+    function getMacroColor(macro) {
+        const colors = {
+            'negocio': '#3b82f6', // blue-500
+            'retail': '#f59e0b', // amber-500
+            'producto': '#10b981', // emerald-500
+            'wellness': '#8b5cf6', // violet-500
+            'consumidor': '#ec4899', // pink-500
+            'otros': '#6b7280'
+        };
+        return colors[macro] || colors['otros'];
+    }
+
     // --- View Switching Logic (Mobile Optimized) ---
     window.switchView = (viewName) => {
         state.currentView = viewName;
@@ -1401,15 +1745,23 @@ document.addEventListener('DOMContentLoaded', () => {
         // 2. Toggle Containers
         const newsGrid = document.getElementById('news-grid');
         const stratView = document.getElementById('strategic-view');
+        const timelineView = document.getElementById('timeline-view');
 
+        // Hide all first
+        if (newsGrid) newsGrid.classList.add('hidden');
+        if (stratView) stratView.classList.add('hidden');
+        if (timelineView) timelineView.classList.add('hidden');
+
+        // Show selected
         if (viewName === 'news') {
             if (newsGrid) newsGrid.classList.remove('hidden');
-            if (stratView) stratView.classList.add('hidden');
             renderGrid();
-        } else {
-            if (newsGrid) newsGrid.classList.add('hidden');
+        } else if (viewName === 'strategy') {
             if (stratView) stratView.classList.remove('hidden');
             generateStrategicSummary();
+        } else if (viewName === 'timeline') {
+            if (timelineView) timelineView.classList.remove('hidden');
+            renderTimeline();
         }
 
         // 3. Mobile Optimization: Close Sidebar on Selection
