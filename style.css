@@ -561,6 +561,136 @@ select option {
     /* Ensure it sits above body */
 }
 
+/* Intro Animation Overlay */
+#intro-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+}
+
+#intro-overlay.hidden-intro {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.intro-content {
+    text-align: center;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.intro-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    animation: float 3s ease-in-out infinite, pulse 2s ease-in-out infinite;
+    text-shadow: 0 0 20px rgba(0, 243, 255, 0.4);
+}
+
+.intro-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(90deg, #ffffff, #67e8f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro-subtitle {
+    font-size: 1.1rem;
+    color: #94a3b8;
+    margin-bottom: 2rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.loading-bar-container {
+    width: 250px;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.loading-bar {
+    height: 100%;
+    background: var(--primary-color);
+    width: 0%;
+    box-shadow: 0 0 10px var(--primary-color);
+    animation: fillBar 10s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes fillBar {
+    0% {
+        width: 0%;
+    }
+
+    10% {
+        width: 15%;
+    }
+
+    40% {
+        width: 45%;
+    }
+
+    70% {
+        width: 80%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* Elegant light overlay to ensure text readability - Now on Container */
 .app-container::before {
     content: "";
@@ -990,11 +1120,11 @@ select option {
 
 /* Glassmorphism Utilities */
 .glass-panel {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.5);
     /* Back to Silver/White */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.4);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     color: #1e1b4b !important;
     /* Dark Navy Blue for readability */
@@ -1814,3 +1944,5 @@ select option {
         text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
         /* Strong shadow */
     }
+
+    /* --- Synapse View Visibility Overrides --- */

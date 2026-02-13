@@ -15,11 +15,104 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css?v=timeline_snake_v121">
+    <link rel="stylesheet" href="style.css?v=transparency_v54">
+    <!-- Chart.js and Plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
 
     <!-- SheetJS for Excel processing -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <!-- Vis-Network for Synapse View -->
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+    <!-- CRITICAL: Synapse Full Height Override -->
+    <style>
+        /* Force Synapse view to use full viewport */
+        #synapse-view:not(.hidden) {
+            position: fixed !important;
+            top: 0 !important;
+            left: 280px !important;
+            width: calc(100vw - 280px) !important;
+            height: 100vh !important;
+            z-index: 999 !important;
+            background: rgba(15, 23, 42, 0.95) !important;
+        }
+
+        #synapse-graph-container {
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        /* Synapse Sidebar */
+        #synapse-sidebar {
+            position: absolute !important;
+            top: 0 !important;
+            right: 0 !important;
+            width: 450px !important;
+            height: 100% !important;
+            background: rgba(15, 23, 42, 0.85) !important;
+            backdrop-filter: blur(20px) !important;
+            -webkit-backdrop-filter: blur(20px) !important;
+            border-left: 1px solid rgba(255, 255, 255, 0.1) !important;
+            box-shadow: -10px 0 30px rgba(0, 0, 0, 0.3) !important;
+            transform: translateX(0) !important;
+            transition: transform 0.4s cubic-bezier(0.19, 1, 0.22, 1) !important;
+            z-index: 1000 !important;
+            display: flex !important;
+            flex-direction: column !important;
+            overflow: hidden !important;
+        }
+
+        #synapse-sidebar.hidden {
+            transform: translateX(100%) !important;
+            pointer-events: none !important;
+        }
+
+        #synapse-details {
+            padding: 2rem !important;
+            overflow-y: auto !important;
+            height: 100% !important;
+            scrollbar-width: thin !important;
+            scrollbar-color: rgba(255, 255, 255, 0.3) transparent !important;
+        }
+
+        .close-synapse-sidebar {
+            position: absolute !important;
+            top: 20px !important;
+            right: 20px !important;
+            background: rgba(255, 255, 255, 0.1) !important;
+            border: 1px solid rgba(255, 255, 255, 0.2) !important;
+            color: #fff !important;
+            font-size: 1rem !important;
+            cursor: pointer !important;
+            z-index: 10 !important;
+            width: 36px !important;
+            height: 36px !important;
+            border-radius: 50% !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            transition: all 0.2s !important;
+        }
+
+        .close-synapse-sidebar:hover {
+            background: rgba(255, 255, 255, 0.2) !important;
+            transform: rotate(90deg) !important;
+        }
+
+        @media (max-width: 768px) {
+            #synapse-view:not(.hidden) {
+                left: 0 !important;
+                width: 100vw !important;
+            }
+
+            #synapse-sidebar {
+                width: 100% !important;
+            }
+        }
+    </style>
     <!-- Added for Export -->
 </head>
 
@@ -47,12 +140,22 @@
                 <button class="nav-item" onclick="switchView('strategy')">
                     <i class="fa-solid fa-chart-pie"></i> Resumen Estratégico
                 </button>
+                <button class="nav-item" onclick="switchView('synapse')">
+                    <i class="fa-solid fa-circle-nodes"></i> Synapse
+                </button>
             </nav>
 
             <!-- Upload Section Removed as per request -->
 
             <nav class="filters">
                 <h3>Filtros</h3>
+
+                <!-- NEW: Sidebar Search Input -->
+                <div class="filter-group">
+                    <label>🔍 Buscar</label>
+                    <input type="text" id="sidebar-search-input" placeholder="Palabras clave..." class="form-control"
+                        style="padding: 0.75rem; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.3); background: rgba(255, 255, 255, 0.1); color: #ffffff; width: 100%;">
+                </div>
 
                 <div class="filter-group">
                     <label>Categoría</label>
@@ -78,6 +181,37 @@
                     <label>Subtema</label>
                     <select id="subtopic-filter">
                         <option value="all">Todos</option>
+                    </select>
+                </div>
+
+
+                <!-- Product Pillar Filter -->
+                <div class="filter-group">
+                    <label>Pilar de Producto</label>
+                    <select id="product-pillar-filter">
+                        <option value="all">Todos los Pilares</option>
+                        <option value="capilar">Capilar</option>
+                        <option value="derma">Derma / Skincare</option>
+                        <option value="inyectables">Inyectables</option>
+                        <option value="equipos_medicos">Equipos Médicos</option>
+                        <option value="quirurgico">Quirúrgico</option>
+                        <option value="ginecologico">Ginecológico</option>
+                        <option value="suplementos">Suplementos</option>
+                        <option value="transversal">Transversal / Negocio</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>Región</label>
+                    <select id="region-filter">
+                        <option value="all">Todas las Regiones</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label>País</label>
+                    <select id="country-filter">
+                        <option value="all">Todos los Países</option>
                     </select>
                 </div>
 
@@ -188,6 +322,18 @@
                 <div id="timeline-view" class="timeline-view hidden">
                     <!-- Timeline content injected here -->
                 </div>
+
+                <!-- View: Synapse (Network Graph) -->
+                <div id="synapse-view" class="synapse-view hidden">
+                    <div id="synapse-graph-container"></div>
+                    <div id="synapse-sidebar" class="hidden">
+                        <button class="close-synapse-sidebar" onclick="closeSynapseSidebar()"><i
+                                class="fa-solid fa-xmark"></i></button>
+                        <div id="synapse-details">
+                            <!-- Details injected here -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     </div>
@@ -204,7 +350,7 @@
 
     <script src="data.js"></script>
     <script src="data.js"></script>
-    <script src="app.js?v=switcher_v38"></script>
+    <script src="app.js?v=transparency_v53"></script>
 </body>
 
 </html>

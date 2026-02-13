@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const state = {
         articles: [],
         currentView: 'news', // 'news' or 'strategy'
+        chartAggregation: 'macro', // 'macro', 'topic' or 'subtopic' for matrix chart
         filters: {
             search: '',
             topic: 'all',
@@ -30,7 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
             macro: 'all',
             year: 'all',
             month: 'all',
-            sort: 'desc' // Added Sort State
+            sort: 'desc', // Added Sort State
+            productPillar: 'all', // NEW: Product pillar filter
+            specialty: 'all', // NEW: Specialty filter
+            region: 'all',  // NEW: Region filter
+            country: 'all'  // NEW: Country filter
         }
     };
 
@@ -49,6 +54,10 @@ document.addEventListener('DOMContentLoaded', () => {
         macroFilter: document.getElementById('macro-filter'),
         yearFilter: document.getElementById('year-filter'),
         monthFilter: document.getElementById('month-filter'),
+        monthFilter: document.getElementById('month-filter'),
+        productPillarFilter: document.getElementById('product-pillar-filter'),
+        regionFilter: document.getElementById('region-filter'), // NEW
+        countryFilter: document.getElementById('country-filter'), // NEW
 
         // Strategy View (assuming this is new functionality)
         strategyView: document.getElementById('strategy-view'),
@@ -67,11 +76,48 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Initialization ---
     function init() {
-        setupEventListeners();
-        loadFromStorage();
-        // Check system theme (new functionality)
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.body.setAttribute('data-theme', 'dark');
+        try {
+            // Defensive State Init: Ensure all filters exist even if overwritten by localStorage later
+            const defaultFilters = {
+                search: '',
+                topic: 'all',
+                subtopic: 'all',
+                macro: 'all',
+                year: 'all',
+                month: 'all',
+                sort: 'desc',
+                productPillar: 'all',
+                specialty: 'all',
+                region: 'all',
+                country: 'all'
+            };
+
+            setupEventListeners();
+            loadFromStorage();
+
+            // Merge defaults back in case storage was partial
+            state.filters = { ...defaultFilters, ...state.filters };
+            // Ensure values are not undefined
+            Object.keys(defaultFilters).forEach(key => {
+                if (state.filters[key] === undefined) state.filters[key] = defaultFilters[key];
+            });
+
+            // Check system theme
+            if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                document.body.setAttribute('data-theme', 'dark');
+            }
+
+            // Load Preloaded Data
+            if (typeof PRELOADED_DATA !== 'undefined' && Array.isArray(PRELOADED_DATA)) {
+                console.log(`Loading preloaded data... ${PRELOADED_DATA.length} items`);
+                processData(PRELOADED_DATA);
+            } else {
+                console.warn("No PRELOADED_DATA found.");
+                alert("ADVERTENCIA: No se encontraron datos precargados (PRELOADED_DATA).");
+            }
+        } catch (e) {
+            console.error("Init Error:", e);
+            alert("Error al inicializar dashboard: " + e.message);
         }
     }
 
@@ -181,6 +227,28 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        if (elements.productPillarFilter) {
+            elements.productPillarFilter.addEventListener('change', (e) => {
+                state.filters.productPillar = e.target.value;
+                updateView();
+            });
+        }
+
+        if (elements.regionFilter) {
+            elements.regionFilter.addEventListener('change', (e) => {
+                state.filters.region = e.target.value;
+                updateView();
+            });
+        }
+
+        if (elements.countryFilter) {
+            elements.countryFilter.addEventListener('change', (e) => {
+                state.filters.country = e.target.value;
+                updateView();
+            });
+        }
+
+        // View Switcher
         if (elements.sortFilter) {
             elements.sortFilter.addEventListener('change', (e) => {
                 state.filters.sort = e.target.value;
@@ -188,9 +256,26 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }
 
+        // Year Filter
+        if (elements.yearFilter) {
+            elements.yearFilter.addEventListener('change', (e) => {
+                state.filters.year = e.target.value;
+                // state.filters.month = 'all'; // Optional: reset month when year changes?
+                updateFilters(); // Update month options if year restricts them
+                updateView();
+            });
+        }
+
+        // Month Filter
+        if (elements.monthFilter) {
+            elements.monthFilter.addEventListener('change', (e) => {
+                state.filters.month = e.target.value;
+                updateView();
+            });
+        }
+
         if (elements.resetBtn) elements.resetBtn.addEventListener('click', resetFilters);
 
-        // Debug Diagnostics
         const debugBtn = document.getElementById('debug-btn');
         if (debugBtn) {
             debugBtn.addEventListener('click', () => {
@@ -204,12 +289,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 const categories = new Set(state.articles.map(a => a.macro));
                 const uniqueCats = Array.from(categories).join(", ");
 
-                // 3. Raw Data Checks (if original raw is preserved? No, we transform it. But we can check 'topic' which holds raw category)
-                const rawTopics = new Set(state.articles.map(a => a.displayTopic)); // Wait, displayTopic is mapped.
-                // We need to see what `processData` saw. 
-                // `classifyArticle` result is stored in `macro`.
-                // Let's deduce from distribution.
-
                 let report = `DIAGNÓSTICO:\n\n`;
                 report += `Total Noticias: ${state.articles.length}\n`;
                 report += `Macros Detectados: ${uniqueCats}\n`;
@@ -218,6 +297,39 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 alert(report);
             });
+        }
+
+        // NEW: Listen for custom events from business unit filters
+        document.addEventListener('specialtyFilterChange', (e) => {
+            state.filters.specialty = e.detail.value;
+            updateView();
+        });
+
+        document.addEventListener('productPillarFilterChange', (e) => {
+            state.filters.productPillar = e.detail.value;
+            updateView();
+        });
+    }
+
+    // --- Persistence ---
+    function loadFromStorage() {
+        try {
+            const storedFilters = localStorage.getItem('userFilters');
+            if (storedFilters) {
+                const parsed = JSON.parse(storedFilters);
+                state.filters = { ...state.filters, ...parsed };
+                if (elements.searchInput) elements.searchInput.value = state.filters.search;
+            }
+        } catch (e) {
+            console.error("Error loading filters", e);
+        }
+    }
+
+    function saveToStorage() {
+        try {
+            localStorage.setItem('userFilters', JSON.stringify(state.filters));
+        } catch (e) {
+            console.error("Error saving filters", e);
         }
     }
 
@@ -446,16 +558,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 const worksheet = workbook.Sheets[workbook.SheetNames[0]];
                 const jsonData = XLSX.utils.sheet_to_json(worksheet, { defval: "" });
 
-                state.articles = jsonData.map(normalizeRow).filter(a => a.title && a.title !== "Sin título");
-
+                processData(jsonData);
                 alert(`Datos cargados: ${state.articles.length} noticias.`);
-                saveToStorage();
 
-                updateFilters();
-                updateMonthOptions();
-                renderGrid();
-                updateLastUpdated();
-                setLoading(false);
             } catch (err) {
                 console.error(err);
                 alert("Error al leer el archivo: " + err.message);
@@ -463,6 +568,61 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         };
         reader.readAsArrayBuffer(file);
+    }
+
+    function processData(rawData) {
+        if (!rawData || !Array.isArray(rawData)) return;
+
+        state.articles = rawData.map(normalizeRow).filter(a => a.title && a.title !== "Sin título");
+
+        saveToStorage();
+
+        updateFilters();
+        updateFilters();
+        updateMonthOptions();
+        updateLocationFilters(); // NEW: Populate Region/Country
+        renderGrid();
+        updateLastUpdated();
+
+        // Render Charts if available
+        if (typeof renderSituationMatrix === 'function') {
+            renderSituationMatrix(state.articles);
+        }
+
+        setLoading(false);
+    }
+
+    function updateLocationFilters() {
+        if (!elements.regionFilter || !elements.countryFilter) return;
+
+        // 1. Extract Unique Regions
+        const regions = [...new Set(state.articles.map(a => a.region).filter(r => r))].sort();
+
+        // 2. Extract Unique Countries
+        const countries = [...new Set(state.articles.map(a => a.country).filter(c => c))].sort();
+
+        // 3. Populate Region Dropdown
+        const currentRegion = state.filters.region;
+        elements.regionFilter.innerHTML = '<option value="all">Todas las Regiones</option>';
+        regions.forEach(r => {
+            const option = document.createElement('option');
+            option.value = r;
+            option.textContent = r;
+            elements.regionFilter.appendChild(option);
+        });
+        elements.regionFilter.value = currentRegion;
+
+        // 4. Populate Country Dropdown
+        // Note: Could be dependent on region in future, currently independent for flexibility
+        const currentCountry = state.filters.country;
+        elements.countryFilter.innerHTML = '<option value="all">Todos los Países</option>';
+        countries.forEach(c => {
+            const option = document.createElement('option');
+            option.value = c;
+            option.textContent = c;
+            elements.countryFilter.appendChild(option);
+        });
+        elements.countryFilter.value = currentCountry;
     }
 
     function normalizeRow(row) {
@@ -546,7 +706,21 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        return {
+        // Determine Location (Explicit Column OR Inference)
+        let region = get('Region') || get('Región') || "";
+        let country = get('Country') || get('País') || "";
+
+        if (!region && !country) {
+            // If explicit columns are missing, infer from text
+            const location = detectLocation(`${title || ''} ${summary || ''} ${topic || ''} ${source || ''}`);
+            region = location.region;
+            country = location.country;
+        }
+
+        // Combine text for classification (Robust Method using 'get')
+        const combinedText = `${get('Categoría') || ''} ${get('Subcategoría') || ''} ${get('Resumen') || ''} ${get('Título') || ''}`.toLowerCase();
+
+        const normalized = {
             title: title || "Noticia sin título",
             shortTitle: shortTitle || title,
             link: link,
@@ -559,11 +733,181 @@ document.addEventListener('DOMContentLoaded', () => {
             year: yearRaw ? yearRaw.toString().trim() : "",
             month: monthRaw ? monthRaw.toString().trim().toUpperCase() : "",
             macro: classification.macro,
-            id: Math.random().toString(36).substr(2, 9)
+            // Add these fields for renderSituationMatrix compatibility
+            category: TAXONOMY[classification.macro]?.label || "General",
+            subcategory: classification.subtopic,
+            // Business Unit Classification
+            productPillar: classifyProductPillar(combinedText),
+            targetSpecialties: [], // Will be populated after productPillar
+            id: Math.random().toString(36).substr(2, 9),
+            region: region || "Global",
+            country: country || "Global"
         };
+
+        // Classify specialties based on product pillar
+        normalized.targetSpecialties = classifySpecialties(combinedText, normalized.productPillar);
+        return normalized;
+    }
+
+    // --- Business Unit Classification System ---
+
+    // Product Pillar Keywords
+    // Now supports Regex for stricter matching (e.g. avoiding 'capilaridad' or 'tinted')
+    const PRODUCT_PILLAR_KEYWORDS = {
+        derma: ['piel', 'dermat', 'acné', 'eczema', 'psóriasis', 'melanoma', 'crema facial', 'serum', 'antiaging', 'retinol', 'niacinamida', 'skincare', 'rosácea', 'atópica'],
+        capilar: [
+            // Regex to match "cabello", "pelo"
+            'cabello', 'pelo',
+            // Regex for specific terms to avoid "capilaridad" (Business term) or "Tinted" (Brand)
+            new RegExp(/capilar(es)?\b/i),
+            new RegExp(/tinte(s)?\b/i),
+            'shampoo', 'acondicionador', 'alopecia', 'gomitas capilares', 'suero capilar', 'crecimiento cabello', 'hair care'
+        ],
+        ginecologico: ['ginecológ', 'íntimo', 'vaginal', 'menopausia', 'menstruación', 'femenino', 'wellness femenino', 'láser vaginal'],
+        quirurgico: ['quirúrgico', 'postoperatorio', 'cirugía', 'cicatrización', 'implante', 'sutura', 'post-operatorio', 'liposucción', 'abdominoplastia'],
+        equipos_medicos: ['fotona', 'lpg', 'quantificare', 'asirox', 'asterasys', 'dispositivo', 'láser', 'equipo médico', 'tecnología médica', 'ipl', 'fraccionado', 'body contouring', 'skin tightening'],
+        inyectables: ['botox', 'toxina', 'filler', 'relleno', 'nctf', 'exosoma', 'cánula', 'hialurónico', 'bioestimulador', 'voluminizador', 'sculptra', 'neuromodulador', 'hiperhidrosis'],
+        suplementos: ['suplemento', 'nutricosmética', 'nutricosm', 'gomitas', 'vitamina', 'colágeno oral', 'ingestible', 'beauty from within', 'inside-out', 'biotin']
+    };
+
+    // Specialty Keywords and Product Mapping
+    const SPECIALTY_CONFIG = {
+        dermatologo: {
+            products: ['derma', 'equipos_medicos', 'inyectables'],
+            keywords: ['dermatolog', 'acné', 'rosácea', 'melanoma', 'piel', 'atópica', 'psoriasis', 'láser fraccionado']
+        },
+        medico_estetico: {
+            products: ['inyectables', 'equipos_medicos', 'derma'],
+            keywords: ['estética', 'antiaging', 'rejuvenecimiento', 'glp-1', 'ozempic', 'skin tightening', 'body contouring', 'medicina estética']
+        },
+        ginecologo: {
+            products: ['ginecologico', 'equipos_medicos', 'suplementos'],
+            keywords: ['ginecolog', 'íntimo', 'vaginal', 'menopausia', 'wellness femenino', 'láser vaginal']
+        },
+        cirujano_plastico: {
+            products: ['quirurgico', 'inyectables', 'equipos_medicos'],
+            keywords: ['cirugía', 'postoperatorio', 'implante', 'cicatrización', 'liposucción', 'abdominoplastia', 'cirujano', 'plástico']
+        }
+    };
+
+    // --- Location Inference System ---
+
+    const COUNTRY_KEYWORDS = {
+        'México': ['méxico', 'mexico', 'cdmx', 'monterrey', 'guadalajara', 'cancun'],
+        'Brasil': ['brasil', 'brazil', 'sao paulo', 'rio de janeiro'],
+        'Colombia': ['colombia', 'bogota', 'medellin'],
+        'Argentina': ['argentina', 'buenos aires'],
+        'Chile': ['chile', 'santiago'],
+        'Perú': ['perú', 'peru', 'lima'],
+        'USA': ['usa', 'ee.uu', 'estados unidos', 'united states', 'miami', 'new york', 'california'],
+        'España': ['españa', 'spain', 'madrid', 'barcelona'],
+        'Francia': ['francia', 'france', 'paris', 'loreal', 'lvmh'], // Major HQ often implies country context
+        'China': ['china', 'shanghai', 'hong kong'],
+        'Corea': ['corea', 'korea', 'k-beauty', 'seul'],
+        'Japón': ['japón', 'japan', 'tokyo']
+    };
+
+    const REGION_MAPPING = {
+        'México': 'LATAM',
+        'Brasil': 'LATAM',
+        'Colombia': 'LATAM',
+        'Argentina': 'LATAM',
+        'Chile': 'LATAM',
+        'Perú': 'LATAM',
+        'USA': 'Norteamérica',
+        'España': 'Europa',
+        'Francia': 'Europa',
+        'China': 'Asia',
+        'Corea': 'Asia',
+        'Japón': 'Asia'
+    };
+
+    function detectLocation(text) {
+        text = text.toLowerCase();
+
+        // Check for specific countries
+        for (const [country, keywords] of Object.entries(COUNTRY_KEYWORDS)) {
+            if (keywords.some(k => text.includes(k))) {
+                return {
+                    country: country,
+                    region: REGION_MAPPING[country] || "Global"
+                };
+            }
+        }
+
+        // Check for broad regions if no country found
+        if (text.includes('latam') || text.includes('latinoamérica')) return { country: 'Global', region: 'LATAM' };
+        if (text.includes('europa') || text.includes('emea')) return { country: 'Global', region: 'Europa' };
+        if (text.includes('asia') || text.includes('apac')) return { country: 'Global', region: 'Asia' };
+        if (text.includes('norteamérica') || text.includes('north america')) return { country: 'Global', region: 'Norteamérica' };
+
+        return { country: 'Global', region: 'Global' };
+    }
+
+    // Helper: Check if text matches any keyword
+    function matchesKeywords(text, keywords) {
+        return keywords.some(keyword => {
+            if (keyword instanceof RegExp) return keyword.test(text);
+            return text.includes(keyword.toLowerCase());
+        });
+    }
+
+    // Classify Product Pillar
+    function classifyProductPillar(text) {
+        if (!text) return 'transversal';
+        // Text is already combined and lowercased
+
+        // Debug first few calls
+        // if (Math.random() < 0.01) console.log("Classifying text sample:", text.substring(0, 50) + "...");
+
+        // Priority order to avoid overlap
+        if (matchesKeywords(text, PRODUCT_PILLAR_KEYWORDS.inyectables)) return 'inyectables';
+        if (matchesKeywords(text, PRODUCT_PILLAR_KEYWORDS.equipos_medicos)) return 'equipos_medicos';
+        if (matchesKeywords(text, PRODUCT_PILLAR_KEYWORDS.quirurgico)) return 'quirurgico';
+        if (matchesKeywords(text, PRODUCT_PILLAR_KEYWORDS.ginecologico)) return 'ginecologico';
+        if (matchesKeywords(text, PRODUCT_PILLAR_KEYWORDS.suplementos)) return 'suplementos';
+        if (matchesKeywords(text, PRODUCT_PILLAR_KEYWORDS.capilar)) return 'capilar';
+        if (matchesKeywords(text, PRODUCT_PILLAR_KEYWORDS.derma)) return 'derma';
+
+        return 'transversal'; // General/Industry news
+    }
+
+    // Classify Target Specialties (returns array)
+    function classifySpecialties(article, productPillar) {
+        const text = `${article.CATEGORÍA || ''} ${article.SUBCATEGORÍA || ''} ${article.RESUMEN || ''}`.toLowerCase();
+        const specialties = [];
+
+        for (const [spec, config] of Object.entries(SPECIALTY_CONFIG)) {
+            // Option A: Match by specific keywords
+            if (matchesKeywords(text, config.keywords)) {
+                specialties.push(spec);
+                continue;
+            }
+
+            // Option B: Match by product pillar affinity
+            if (config.products.includes(productPillar)) {
+                specialties.push(spec);
+            }
+        }
+
+        // If no specialty matched, it's transversal (industry-wide)
+        return specialties.length > 0 ? specialties : ['transversal'];
     }
 
     // --- UI Rendering ---
+    // Helper: Normalize text for robust search (remove accents, lowercase, special chars)
+    function normalizeText(text) {
+        if (!text) return "";
+        // 1. Decompose accents (NFD) and remove diacritics
+        // 2. Lowercase
+        // 3. Remove everything that is NOT a letter, number, or whitespace (e.g. remove ' - .)
+        return text.normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .replace(/[^a-z0-9\s]/g, "")
+            .trim();
+    }
+
     function renderGrid() {
         if (state.currentView !== 'news') return;
         elements.grid.innerHTML = '';
@@ -574,10 +918,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (state.filters.search) {
                 const searchTerms = expandSearchQuery(state.filters.search);
                 // Search in Title, Summary, Topic, and Subtopic
-                const text = (a.title + " " + a.summary + " " + a.displayTopic + " " + a.subtopic).toLowerCase();
+                // Normalize both specific fields and the combined text
+                const normalizedText = normalizeText(a.title + " " + a.summary + " " + a.displayTopic + " " + a.subtopic);
 
-                // Match if ANY of the expanded terms are found
-                matchSearch = searchTerms.some(term => text.includes(term));
+                // Match if ANY of the expanded terms are found (normalized)
+                matchSearch = searchTerms.some(term => normalizedText.includes(normalizeText(term)));
             }
 
             const matchTopic = state.filters.topic === 'all' || a.displayTopic === state.filters.topic;
@@ -592,7 +937,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const filterMacro = (state.filters.macro || 'all').toLowerCase().trim();
             const matchMacro = filterMacro === 'all' || articleMacro === filterMacro;
 
-            return matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro;
+            // Product Pillar Filter
+            const matchProductPillar = state.filters.productPillar === 'all' || a.productPillar === state.filters.productPillar;
+
+            // New Filters
+            const matchSpecialty = state.filters.specialty === 'all' || (a.targetSpecialties && a.targetSpecialties.includes(state.filters.specialty));
+            const matchRegion = state.filters.region === 'all' || a.region === state.filters.region;
+            const matchCountry = state.filters.country === 'all' || a.country === state.filters.country;
+
+            return matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro && matchSpecialty && matchProductPillar && matchRegion && matchCountry;
         });
 
         // Sort Data based on filter
@@ -681,6 +1034,12 @@ document.addEventListener('DOMContentLoaded', () => {
         updateMonthOptions();
         if (elements.monthFilter) elements.monthFilter.value = 'all';
         updateView();
+    }
+
+    function updateLastUpdated() {
+        if (!elements.lastUpdated) return;
+        const now = new Date();
+        elements.lastUpdated.textContent = now.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
     }
 
     function updateFilters() {
@@ -879,33 +1238,74 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.nav-item').forEach(btn => btn.classList.remove('active'));
         const activeBtn = viewName === 'news'
             ? document.querySelector('.nav-item:first-child')
-            : document.querySelector('.nav-item:last-child');
-        if (activeBtn) activeBtn.classList.add('active');
+            : (viewName === 'synapse'
+                ? document.querySelector('.nav-item:nth-child(4)')
+                : document.querySelector('.nav-item:nth-child(' + (viewName === 'timeline' ? 2 : 3) + ')'));
+
+        // Simpler Active State Logic if buttons have correct order in HTML
+        if (!activeBtn) {
+            // Fallback if my nth-child logic is slightly off due to icon changes
+            // Identifying by onclick attribute is safer in raw JS but let's stick to the class logic if possible
+            // For now, let's just make sure the correct tab is highlighted.
+            // The user didn't complain about tabs, just search bar.
+        }
+        if (activeBtn) activeBtn.classList.add('active'); // Keep original logic if robust
 
         // Toggle Container Visibility
         state.currentView = viewName;
+
+        // === NEW: Body Class for Synapse Mode (CSS Hook) ===
+        if (viewName === 'synapse') {
+            document.body.classList.add('synapse-active');
+            // Ensure Synapse renders
+            setTimeout(renderSynapse, 100);
+        } else {
+            document.body.classList.remove('synapse-active');
+        }
+
         updateView();
 
         const strategicView = document.getElementById('strategic-view');
         const searchContainer = document.getElementById('search-container');
         const sidebar = document.getElementById('filters-sidebar');
+        const synapseView = document.getElementById('synapse-view'); // Get Synapse View
 
+        // Hide all views first
+        if (elements.grid) elements.grid.classList.add('hidden');
+        if (strategicView) strategicView.classList.add('hidden');
+        if (synapseView) synapseView.classList.add('hidden');
+
+        // Show specific view
         if (viewName === 'news') {
-            if (strategicView) strategicView.classList.add('hidden');
+            if (elements.grid) elements.grid.classList.remove('hidden');
             if (searchContainer) searchContainer.style.visibility = 'visible';
-            if (sidebar) sidebar.classList.remove('hidden');
-        } else {
-            if (elements.grid) elements.grid.classList.add('hidden');
+            // if (sidebar) sidebar.classList.remove('hidden');
+        } else if (viewName === 'strategy') {
             if (strategicView) strategicView.classList.remove('hidden');
             if (searchContainer) searchContainer.style.visibility = 'hidden';
             generateStrategicSummary();
+        } else if (viewName === 'synapse') {
+            if (synapseView) synapseView.classList.remove('hidden');
+            // Search container MUST be visible for Synapse search to work
+            if (searchContainer) searchContainer.style.visibility = 'visible';
+        } else if (viewName === 'timeline') {
+            // Handle timeline visibility if exists
+            const timelineView = document.getElementById('timeline-view');
+            if (timelineView) timelineView.classList.remove('hidden');
+            if (searchContainer) searchContainer.style.visibility = 'hidden';
         }
     };
 
     function updateView() {
-        if (state.currentView === 'news') renderGrid();
-        else if (state.currentView === 'timeline') renderTimeline();
-        else generateStrategicSummary();
+        if (state.currentView === 'news') {
+            renderGrid();
+        } else if (state.currentView === 'timeline') {
+            renderTimeline();
+        } else if (state.currentView === 'synapse') {
+            renderSynapse();
+        } else {
+            generateStrategicSummary();
+        }
     }
 
     // --- ANTIGRAVITY DYNAMIC ANALYSIS DB ---
@@ -1235,6 +1635,51 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // 2. Render HTML
             container.innerHTML = `
+                <!-- SECTION 0: OPPORTUNITY MATRIX (QUADRANTS) -->
+                <div class="glass-panel" style="margin-bottom: 2rem; padding: 2rem;">
+                    <div class="mesh-section-title"
+                        style="margin-bottom:1.5rem; text-align:center; background: linear-gradient(135deg, #be185d 0%, #9d174d 100%); color:#ffffff !important;">
+                        <i class="fa-solid fa-chart-line"></i> Matriz de Oportunidad Estratégica
+                    </div>
+                    <p style="text-align:center; margin-bottom:2rem; color: var(--text-secondary); font-size: 0.9rem;">
+                        Posición de las Subcategorías según <strong>Volumen de Conversación</strong> (Eje X) y <strong>Momento/Tendencia</strong> (Eje Y).
+                        <br><span style="font-size: 0.8rem; opacity: 0.8;">Burbujas grandes = Mayor impacto mediático.</span>
+                    </p>
+                
+                <!-- Toggle Button for Aggregation Level -->
+                <div style="text-align: center; margin-bottom: 1.5rem;">
+                    <div style="display: inline-flex; background: rgba(0,0,0,0.1); border-radius: 50px; padding: 4px; border: 1px solid rgba(0,0,0,0.1);">
+                        <button id="chart-agg-macro" 
+                                class="chart-agg-btn"
+                                style="padding: 0.5rem 1.5rem; border: none; border-radius: 50px; font-weight: 600; font-size: 0.85rem; cursor: pointer; transition: all 0.3s ease; background: rgba(255,255,255,0.9); color: #1e293b; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                            <i class="fa-solid fa-shapes"></i> Por Categoría
+                        </button>
+                        <button id="chart-agg-topic" 
+                                class="chart-agg-btn"
+                                style="padding: 0.5rem 1.5rem; border: none; border-radius: 50px; font-weight: 600; font-size: 0.85rem; cursor: pointer; transition: all 0.3s ease; background: transparent; color: #64748b;">
+                            <i class="fa-solid fa-layer-group"></i> Por Tema
+                        </button>
+                        <button id="chart-agg-subtopic" 
+                                class="chart-agg-btn"
+                                style="padding: 0.5rem 1.5rem; border: none; border-radius: 50px; font-weight: 600; font-size: 0.85rem; cursor: pointer; transition: all 0.3s ease; background: transparent; color: #64748b;">
+                            <i class="fa-solid fa-list-ul"></i> Por Subtema
+                        </button>
+                        <button id="chart-agg-monthly" 
+                                class="chart-agg-btn"
+                                style="padding: 0.5rem 1.5rem; border: none; border-radius: 50px; font-weight: 600; font-size: 0.85rem; cursor: pointer; transition: all 0.3s ease; background: transparent; color: #64748b;">
+                            <i class="fa-solid fa-calendar-days"></i> Por Mes
+                        </button>
+                    </div>
+                </div>
+                
+                <div style="position: relative; height: 50vh; width: 100%; min-height: 400px;">
+                    <canvas id="opportunityMatrix"></canvas>
+                </div>
+                
+                <!-- Custom Legend Container -->
+                <div id="chart-legend-container"></div>
+            </div>
+
                 <!-- SECTION 1: GLOBAL STRATEGY (${contextKey}) -->
                 <div id="section-global" style="background:transparent; padding:1rem; border-radius:12px; margin-bottom: 2rem;">
                     <div style="margin-bottom:1rem; text-align:right;">
@@ -1469,7 +1914,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <!-- SECTION 2: TACTICAL WAR ROOM -->
                 <div id="section-tactical" style="background:transparent; padding:1rem; border-radius:12px;">
                     <div style="position:relative; display:flex; justify-content:center; align-items:center; margin-bottom:1.5rem; height:40px;">
-                        <div style="display:inline-block; background:rgba(0,0,0,0.4); backdrop-filter:blur(8px); padding:0.5rem 1.5rem; border-radius:50px; border:1px solid rgba(255,255,255,0.1); box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
+                        <div style="display:inline-block; background:rgba(0,0,0,0.5); backdrop-filter:blur(4px); padding:0.5rem 1.5rem; border-radius:50px; border:1px solid rgba(255,255,255,0.15); box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
                             <h2 style="margin:0; color:#ffffff; font-size:1.4rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5); text-align:center; line-height:1;">TRENDING TOPICS</h2>
                         </div>
                         <button id="export-tactical-btn" class="action-btn-small" style="position:absolute; right:0; background:#be185d; color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer;">
@@ -1577,7 +2022,62 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
 
-            // Attach Listeners
+            // Render Chart with current aggregation level
+            if (state.chartAggregation === 'monthly') {
+                renderMonthlyDistributionChart(filtered);
+            } else {
+                renderSituationMatrix(filtered, state.chartAggregation || 'topic');
+            }
+
+            // Attach Listeners for aggregation toggle
+            const macroBtn = document.getElementById('chart-agg-macro');
+            const topicBtn = document.getElementById('chart-agg-topic');
+            const subtopicBtn = document.getElementById('chart-agg-subtopic');
+            const monthlyBtn = document.getElementById('chart-agg-monthly');
+
+            // Helper for button styles
+            const updateButtonStyles = (activeBtn) => {
+                [macroBtn, topicBtn, subtopicBtn, monthlyBtn].forEach(btn => {
+                    if (!btn) return; // Guard clause
+                    if (btn === activeBtn) {
+                        btn.style.background = 'rgba(255,255,255,0.9)';
+                        btn.style.color = '#1e293b';
+                        btn.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+                    } else {
+                        btn.style.background = 'transparent';
+                        btn.style.color = '#64748b';
+                        btn.style.boxShadow = 'none';
+                    }
+                });
+            };
+
+            if (macroBtn && topicBtn && subtopicBtn && monthlyBtn) {
+                macroBtn.addEventListener('click', () => {
+                    state.chartAggregation = 'macro';
+                    updateButtonStyles(macroBtn);
+                    renderSituationMatrix(filtered, 'macro');
+                });
+
+                topicBtn.addEventListener('click', () => {
+                    state.chartAggregation = 'topic';
+                    updateButtonStyles(topicBtn);
+                    renderSituationMatrix(filtered, 'topic');
+                });
+
+                subtopicBtn.addEventListener('click', () => {
+                    state.chartAggregation = 'subtopic';
+                    updateButtonStyles(subtopicBtn);
+                    renderSituationMatrix(filtered, 'subtopic');
+                });
+
+                monthlyBtn.addEventListener('click', () => {
+                    state.chartAggregation = 'monthly';
+                    updateButtonStyles(monthlyBtn);
+                    renderMonthlyDistributionChart(filtered);
+                });
+            }
+
+            // Attach other export listeners
             document.getElementById('export-global-btn').addEventListener('click', () => exportSection('section-global', 'export-global-btn'));
             document.getElementById('export-tactical-btn').addEventListener('click', () => exportSection('section-tactical', 'export-tactical-btn'));
 
@@ -1591,6 +2091,422 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // --- Timeline Rendering ---
+    // --- Strategic Opportunity Matrix Logic ---
+    function renderSituationMatrix(currentData, aggregationLevel = 'topic') {
+        const ctx = document.getElementById('opportunityMatrix');
+        if (!ctx || typeof Chart === 'undefined') return;
+
+        // destroy previous chart if exists
+        if (window.opportunityChartInstance) {
+            window.opportunityChartInstance.destroy();
+        }
+
+        // 1. Determine "Current" and "Previous" context
+        // simpler approach: Current = data passed (filtered). Previous = data from previous month found in GLOBAL data.
+        // But "filtered" might be by TOPIC, not just time.
+        // If we want "Trend", we need the SAME filters applied to the PREVIOUS month.
+
+        // Let's get the Current Month/Year from the *filtered* data (assuming it represents a specific period)
+        // If multiple months are in filtered, "Current" is the aggregation of all of them.
+        // To get "Previous", we need to figure out what the "Previous" period is relative to the "Current" selection.
+
+        // Fallback: If we can't easily determine strict "Previous", we can use a proxy or just plot Volume vs "Sentiment" or "Relevance"?
+        // The Proposal was "Volume vs Trend". Trend requires comparison.
+
+        // Algorithm for Trend:
+        // A. Extract all Subcategories from currentData.
+        // B. For each subcategory, count volume in currentData.
+        // C. Find the "Month" of currentData. (e.g. Jan 2026).
+        // D. Look in PRELOADED_DATA for the *Previous Month* (Dec 2025) with the SAME Topic/Macro filters.
+        // E. Count volume in that Previous Slice.
+        // F. Calculate Growth.
+
+        // Detect Time Context
+        const years = [...new Set(currentData.map(d => d.year || d.AÑO))].filter(Boolean).sort();
+        const months = [...new Set(currentData.map(d => d.month || d.MES))].filter(Boolean);
+
+        // If mixed time, trend is hard. We'll assume the user filters by month for best results.
+        // If no time filter, we might default to "Total Volume" vs "Recent Growth" (Last Month vs Month Prior).
+
+
+        // Let's implement a robust "Last Month in Data" vs "Month Before That" logic if filters are loose.
+
+
+        // 1. Group Current Data by Macro, Topic, or Subtopic (based on aggregationLevel)
+        const currentStats = {};
+        currentData.forEach(d => {
+            // Determine grouping key based on mode
+            let groupKey;
+            if (aggregationLevel === 'macro') {
+                // Group by macro category label (e.g., "Dinámica de Negocio", "Retail & Distribución")
+                groupKey = d.category || TAXONOMY[d.macro]?.label || "General";
+            } else if (aggregationLevel === 'topic') {
+                groupKey = d.displayTopic || d.topic || "General";
+            } else {
+                groupKey = d.subcategory || d.SUBCATEGORÍA || "Otros";
+            }
+
+            const cat = d.category || d.CATEGORÍA || "General";
+            const src = d.source || d['TIPO DE FUENTE'] || "Desconocida";
+
+            if (!currentStats[groupKey]) {
+                currentStats[groupKey] = {
+                    count: 0,
+                    category: cat,
+                    articles: [],
+                    sources: new Set() // Track unique sources
+                };
+            }
+            currentStats[groupKey].count++;
+            currentStats[groupKey].articles.push(d);
+            currentStats[groupKey].sources.add(src); // Add source to set
+        });
+
+        // 2. Calculate Source Diversity Score
+        // Find max sources across all subcategories for normalization
+        let maxSources = 0;
+        Object.values(currentStats).forEach(stat => {
+            if (stat.sources.size > maxSources) maxSources = stat.sources.size;
+        });
+
+        // 3. Build Chart Data
+        const chartData = [];
+        Object.keys(currentStats).forEach(sub => {
+            const currentCount = currentStats[sub].count;
+            const uniqueSources = currentStats[sub].sources.size;
+
+            // Normalize source diversity to 0-100 scale
+            // More sources = higher score (broader relevance)
+            let diversityScore = maxSources > 0 ? (uniqueSources / maxSources) * 100 : 0;
+
+            // Color by Category (Simple Hashing or predefined)
+            // Existing categories: "Dinámica de Negocio", "Retail", "Wellness", etc.
+            const cat = currentStats[sub].category.toUpperCase();
+            let color = 'rgba(75, 192, 192, 0.6)'; // default teal
+            if (cat.includes('NEGOCIO') || cat.includes('BUSINESS')) color = 'rgba(54, 162, 235, 0.7)'; // blue
+            else if (cat.includes('CONSUMIDOR') || cat.includes('CULTURE')) color = 'rgba(255, 99, 132, 0.7)'; // red/pink
+            else if (cat.includes('RETAIL')) color = 'rgba(255, 159, 64, 0.7)'; // orange
+            else if (cat.includes('PRODUCT') || cat.includes('CIENCIA') || cat.includes('INNOVACIÓN')) color = 'rgba(153, 102, 255, 0.7)'; // purple
+            else if (cat.includes('WELLNESS') || cat.includes('SALUD')) color = 'rgba(75, 192, 192, 0.7)'; // teal
+
+            chartData.push({
+                x: currentCount,
+                y: diversityScore,
+                r: Math.max(5, Math.min(30, currentCount * 1.5)), // Radius proportional to volume
+                label: sub,
+                category: currentStats[sub].category,
+                rawVolume: currentCount,
+                rawDiversity: uniqueSources, // Store actual source count for tooltip
+                diversityScore: diversityScore.toFixed(1)
+            });
+        });
+
+        // Filter: Only show top 30 by volume to avoid clutter
+        const topData = chartData.sort((a, b) => b.x - a.x).slice(0, 30);
+
+        // 4. Render
+        window.opportunityChartInstance = new Chart(ctx, {
+            type: 'bubble',
+            data: {
+                datasets: [{
+                    label: 'Subcategorías',
+                    data: topData,
+                    backgroundColor: topData.map(d => {
+                        // Dynamic color per point
+                        const cat = d.category.toUpperCase();
+                        if (cat.includes('NEGOCIO')) return 'rgba(54, 162, 235, 0.8)';
+                        if (cat.includes('CONSUMIDOR')) return 'rgba(236, 72, 153, 0.8)';
+                        if (cat.includes('RETAIL')) return 'rgba(249, 115, 22, 0.8)';
+                        if (cat.includes('PRODUCT') || cat.includes('INNOVACIÓN')) return 'rgba(139, 92, 246, 0.8)';
+                        if (cat.includes('WELLNESS')) return 'rgba(16, 185, 129, 0.8)';
+                        return 'rgba(203, 213, 225, 0.8)';
+                    }),
+                    borderColor: 'rgba(255,255,255,0.8)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: 'rgba(255, 255, 255, 0.9)',
+                        titleColor: '#1e293b',
+                        bodyColor: '#334155',
+                        borderColor: 'rgba(0,0,0,0.1)',
+                        borderWidth: 1,
+                        padding: 12,
+                        callbacks: {
+                            label: function (context) {
+                                const p = context.raw;
+                                return [
+                                    `${p.label}`,
+                                    `Volumen: ${p.rawVolume} noticias`,
+                                    `Fuentes únicas: ${p.rawDiversity}`,
+                                    `Diversidad: ${p.diversityScore}%`
+                                ];
+                            }
+                        }
+                    },
+                    annotation: {
+                        // Optional: Draw Quadrant Lines if plugin available, else standard grid is fine
+                    }
+                },
+                scales: {
+                    x: {
+                        title: { display: true, text: 'Volumen de Conversación (Cantidad de Noticias)', color: '#94a3b8' },
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: { color: '#94a3b8' }
+                    },
+                    y: {
+                        title: { display: true, text: 'Diversidad de Fuentes (% Normalizado)', color: '#94a3b8' },
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: { color: '#94a3b8' },
+                        suggestedMin: 0,
+                        suggestedMax: 100
+                    }
+                }
+            }
+        });
+
+        // 5. Generate Custom Legend (HTML-based, more reliable than plugin)
+        const legendContainer = document.getElementById('chart-legend-container');
+        if (legendContainer) {
+            // Sort by volume for legend
+            const sortedForLegend = topData.sort((a, b) => b.rawVolume - a.rawVolume);
+
+            // Calculate total volume for percentage calculation
+            const totalVolume = sortedForLegend.reduce((sum, item) => sum + item.rawVolume, 0);
+
+            let legendHTML = '<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 1.5rem; padding: 1rem; background: rgba(255,255,255,0.5); border-radius: 12px;">';
+
+            sortedForLegend.forEach((item, index) => {
+                const cat = item.category.toUpperCase();
+                let color = 'rgba(203, 213, 225, 0.9)';
+                if (cat.includes('NEGOCIO')) color = 'rgba(54, 162, 235, 0.9)';
+                else if (cat.includes('CONSUMIDOR')) color = 'rgba(236, 72, 153, 0.9)';
+                else if (cat.includes('RETAIL')) color = 'rgba(249, 115, 22, 0.9)';
+                else if (cat.includes('PRODUCT') || cat.includes('INNOVACIÓN')) color = 'rgba(139, 92, 246, 0.9)';
+                else if (cat.includes('WELLNESS')) color = 'rgba(16, 185, 129, 0.9)';
+
+                // Calculate percentage (rounded, no decimals)
+                const percentage = Math.round((item.rawVolume / totalVolume) * 100);
+
+                legendHTML += `
+                    <div style="display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                        <div style="width: 16px; height: 16px; border-radius: 50%; background: ${color}; border: 2px solid white; box-shadow: 0 1px 2px rgba(0,0,0,0.2);"></div>
+                        <span style="font-size: 0.85rem; font-weight: 600; color: #1e293b;">${item.label}</span>
+                        <span style="font-size: 0.75rem; color: #64748b; margin-left: 0.25rem;">(${item.rawVolume} • ${percentage}%)</span>
+                    </div>
+                `;
+            });
+
+            legendHTML += '</div>';
+            legendContainer.innerHTML = legendHTML;
+        }
+    }
+
+    // --- Monthly Category Distribution Chart ---
+    function renderMonthlyDistributionChart(currentData) {
+        const ctx = document.getElementById('opportunityMatrix');
+        if (!ctx || typeof Chart === 'undefined') return;
+
+        // Ensure "Por Mes" button is highlighted (persisting state visual)
+        const monthlyBtn = document.getElementById('chart-agg-monthly');
+        if (monthlyBtn) {
+            document.querySelectorAll('.chart-agg-btn').forEach(btn => {
+                btn.style.background = 'transparent';
+                btn.style.color = '#64748b';
+                btn.style.boxShadow = 'none';
+            });
+            monthlyBtn.style.background = 'rgba(255,255,255,0.9)';
+            monthlyBtn.style.color = '#1e293b';
+            monthlyBtn.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+        }
+
+        // Destroy previous chart if exists
+        if (window.opportunityChartInstance) {
+            window.opportunityChartInstance.destroy();
+        }
+
+        // Month order for sorting
+        const MONTH_ORDER = {
+            'ENERO': 1, 'FEBRERO': 2, 'MARZO': 3, 'ABRIL': 4, 'MAYO': 5, 'JUNIO': 6,
+            'JULIO': 7, 'AGOSTO': 8, 'SEPTIEMBRE': 9, 'OCTUBRE': 10, 'NOVIEMBRE': 11, 'DICIEMBRE': 12
+        };
+
+        // 1. Aggregate data by month and category
+        const monthlyData = {};
+        const categoryTotals = {}; // Standard: Track total volume for sorting
+
+        currentData.forEach(article => {
+            if (!article.year || !article.month) return;
+
+            const monthKey = `${article.year}-${String(MONTH_ORDER[article.month] || 0).padStart(2, '0')}`;
+            const monthLabel = `${article.month.charAt(0) + article.month.slice(1).toLowerCase()} ${article.year}`;
+
+            if (!monthlyData[monthKey]) {
+                monthlyData[monthKey] = {
+                    label: monthLabel,
+                    total: 0,
+                    categories: {}
+                };
+            }
+
+            const macro = article.macro || 'otros';
+            monthlyData[monthKey].total++;
+            monthlyData[monthKey].categories[macro] = (monthlyData[monthKey].categories[macro] || 0) + 1;
+
+            // Track global total for sorting
+            categoryTotals[macro] = (categoryTotals[macro] || 0) + 1;
+        });
+
+        // 2. Sort months chronologically
+        const sortedMonths = Object.keys(monthlyData).sort();
+        const labels = sortedMonths.map(key => monthlyData[key].label);
+
+        // 3. Get all unique categories and SORT by Total Volume (Descending)
+        // This ensures the largest categories are consistently at the bottom (or top depending on logic)
+        const sortedCategories = Object.keys(categoryTotals).sort((a, b) => categoryTotals[b] - categoryTotals[a]);
+
+        const allCategories = {};
+        sortedCategories.forEach(cat => {
+            const catData = TAXONOMY[cat] || {};
+            allCategories[cat] = {
+                label: catData.label || cat.toUpperCase(),
+                color: getCategoryColor(cat)
+            };
+        });
+
+        // Helper to get category color
+        function getCategoryColor(cat) {
+            if (cat === 'negocio') return 'rgba(54, 162, 235, 0.8)';
+            if (cat === 'consumidor') return 'rgba(236, 72, 153, 0.8)';
+            if (cat === 'retail') return 'rgba(249, 115, 22, 0.8)';
+            if (cat === 'producto') return 'rgba(139, 92, 246, 0.8)';
+            if (cat === 'wellness') return 'rgba(16, 185, 129, 0.8)';
+            return 'rgba(203, 213, 225, 0.8)';
+        }
+
+        // 4. Create datasets (one per category, in sorted order)
+        const datasets = Object.entries(allCategories).map(([catKey, catInfo]) => {
+            return {
+                label: catInfo.label,
+                data: sortedMonths.map(monthKey => {
+                    const month = monthlyData[monthKey];
+                    const count = month.categories[catKey] || 0;
+                    return month.total > 0 ? (count / month.total * 100) : 0;
+                }),
+                backgroundColor: catInfo.color,
+                borderColor: '#ffffff',
+                borderWidth: 1,
+                maxBarThickness: 80 // Limit bar width for better aesthetics with few data points
+            };
+        });
+
+        // 5. Create stacked bar chart
+        window.opportunityChartInstance = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: datasets
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        stacked: true,
+                        title: {
+                            display: true,
+                            text: 'Mes - Año',
+                            color: '#94a3b8',
+                            font: { size: 14, weight: '600' }
+                        },
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: { color: '#94a3b8' }
+                    },
+                    y: {
+                        stacked: true,
+                        beginAtZero: true,
+                        max: 100,
+                        title: {
+                            display: true,
+                            text: 'Porcentaje (%)',
+                            color: '#94a3b8',
+                            font: { size: 14, weight: '600' }
+                        },
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: {
+                            color: '#94a3b8',
+                            callback: function (value) {
+                                return value + '%';
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        reverse: true, // Match stack order visual
+                        labels: {
+                            color: '#94a3b8',
+                            padding: 15,
+                            font: { size: 11 }
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                        titleColor: '#1e293b',
+                        bodyColor: '#334155',
+                        borderColor: 'rgba(0,0,0,0.1)',
+                        borderWidth: 1,
+                        padding: 12,
+                        callbacks: {
+                            label: function (context) {
+                                const percentage = context.parsed.y.toFixed(1);
+                                const monthKey = sortedMonths[context.dataIndex];
+                                const monthData = monthlyData[monthKey];
+                                const catKeys = Object.keys(allCategories);
+                                const category = catKeys[context.datasetIndex];
+                                const count = monthData.categories[category] || 0;
+                                return `${context.dataset.label}: ${percentage}% (${count} noticias)`;
+                            }
+                        }
+                    },
+                    datalabels: {
+                        color: '#ffffff',
+                        font: {
+                            weight: 'bold',
+                            size: 11
+                        },
+                        formatter: function (value, context) {
+                            return value > 5 ? Math.round(value) + '%' : '';
+                        },
+                        display: function (context) {
+                            return context.dataset.data[context.dataIndex] > 5; // Only show significant segments
+                        }
+                    }
+                }
+            },
+            plugins: [ChartDataLabels] // Register plugin for this specific chart instance
+        });
+
+        // 6. Update legend container
+        const legendContainer = document.getElementById('chart-legend-container');
+        if (legendContainer) {
+            legendContainer.innerHTML = `
+                <div style="text-align: center; padding: 1rem; background: rgba(255,255,255,0.5); border-radius: 12px; margin-top: 1.5rem;">
+                    <p style="color: #64748b; font-size: 0.9rem; margin: 0;">
+                        <i class="fa-solid fa-chart-column"></i> Ordenado por volumen total (Categorías principales abajo)
+                    </p>
+                </div>
+            `;
+        }
+    }
+
     // --- Timeline Rendering (Snake Layout) ---
     function renderTimeline() {
         const container = document.getElementById('timeline-view');
@@ -1638,7 +2554,13 @@ document.addEventListener('DOMContentLoaded', () => {
             const filterMacro = (state.filters.macro || 'all').toLowerCase().trim();
             const matchMacro = filterMacro === 'all' || articleMacro === filterMacro;
 
-            return matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro;
+            // New Filters
+            const matchSpecialty = state.filters.specialty === 'all' || (a.targetSpecialties && a.targetSpecialties.includes(state.filters.specialty));
+            const matchProductPillar = state.filters.productPillar === 'all' || a.productPillar === state.filters.productPillar;
+            const matchRegion = state.filters.region === 'all' || a.region === state.filters.region;
+            const matchCountry = state.filters.country === 'all' || a.country === state.filters.country;
+
+            return matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro && matchSpecialty && matchProductPillar && matchRegion && matchCountry;
         });
 
         // Update Count
@@ -1750,7 +2672,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // Hide all first
         if (newsGrid) newsGrid.classList.add('hidden');
         if (stratView) stratView.classList.add('hidden');
+        if (newsGrid) newsGrid.classList.add('hidden');
+        if (stratView) stratView.classList.add('hidden');
         if (timelineView) timelineView.classList.add('hidden');
+        const synapseView = document.getElementById('synapse-view');
+        if (synapseView) synapseView.classList.add('hidden');
 
         // Show selected
         if (viewName === 'news') {
@@ -1762,6 +2688,10 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (viewName === 'timeline') {
             if (timelineView) timelineView.classList.remove('hidden');
             renderTimeline();
+        } else if (viewName === 'synapse') {
+            const synapseView = document.getElementById('synapse-view');
+            if (synapseView) synapseView.classList.remove('hidden');
+            renderSynapse();
         }
 
         // 3. Mobile Optimization: Close Sidebar on Selection
@@ -1775,6 +2705,1115 @@ document.addEventListener('DOMContentLoaded', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
+    // --- Helper Functions ---
+    function expandSearchQuery(query) {
+        if (!query) return [];
+        return query.toLowerCase().split(/\s+/).filter(t => t.length > 0);
+    }
+
+    // --- Synapse Graph Rendering ---
+    let networkInstance = null;
+
+    // === SEMANTIC RELATIONSHIP ENGINE ===
+
+    // Knowledge Base: Entities and Concepts
+    const ENTITY_KEYWORDS = {
+        // Companies
+        companies: ['sanfer', 'loreal', "l'oreal", 'allergan', 'galderma', 'abbvie', 'estee lauder', 'unilever',
+            'procter', 'johnson', 'beiersdorf', 'shiseido', 'coty', 'revlon', 'merz', 'ipsen',
+            'ulta', 'sephora', 'natura', 'avon', 'lvmh', 'henkel', 'kao', 'clarins', 'neutrogena',
+            'mesoestetic', 'dove', 'target', 'boots', 'inmode', 'hugel', 'givaudan', 'maybelline',
+            'clinique', 'lancome', 'kylie', 'stripes', 'wonderbelly', 'ciroa', 'docplanner',
+            'bain', 'saks', 'chanel', 'puig', 'finetoday'],
+
+        // Products & Molecules
+        products: ['ozempic', 'wegovy', 'mounjaro', 'botox', 'juvederm', 'restylane', 'sculptra', 'radiesse',
+            'glp-1', 'glp1', 'semaglutide', 'tirzepatide', 'peptide', 'peptides', 'hyaluronic acid',
+            'retinol', 'niacinamide', 'vitamin c', 'aha', 'bha', 'bakuchiol', 'collagen', 'ceramide',
+            'neurotoxin', 'neurotoxina', 'filler', 'dermal filler', 'toxina', 'hialurónico',
+            'exosome', 'exosomas', 'microneedling', 'resurfacer', 'nano-resurfacer',
+            'antitranspirante', 'refillable', 'recargable', 'letybo', 'fermented', 'probiotic',
+            'device', 'dispositivo', 'wearable', 'antiaging'],
+
+        // Geography
+        geography: ['mexico', 'méxico', 'usa', 'europe', 'china', 'latam', 'latinoamerica', 'spain', 'españa',
+            'brazil', 'brasil', 'argentina', 'asia', 'korea', 'corea', 'japan', 'india', 'france', 'germany', 'uk', 'apac'],
+
+        // Business Concepts
+        business: ['acquisition', 'merger', 'fusión', 'adquisición', 'ceo', 'cmo', 'leadership', 'ipo',
+            'investment', 'inversión', 'partnership', 'alianza', 'deal', 'restructuring', 'reestructuración',
+            'campaign', 'campaña', 'marketing', 'advertising', 'publicidad', 'launch', 'lanzamiento',
+            'branding', 'retail', 'e-commerce', 'digital', 'revenue', 'sales', 'profit', 'profitability',
+            'bankruptcy', 'bancarrota', 'creditor', 'expansion', 'expansión', 'distribution',
+            'direct sales', 'omnichannel', 'dtc', 'd2c', 'private equity', 'venture capital',
+            'funding', 'financiamiento', 'valuation', 'market share', 'cuota de mercado'],
+
+        // Supply Chain
+        // Supply Chain
+        supply: ['manufacturing', 'manufactura', 'production', 'producción', 'supply chain', 'distribution',
+            'distribución', 'logistics', 'logística', 'contract', 'outsourcing', 'tariff', 'arancel',
+            'arancelaria', 'import', 'export', 'exportación', 'packaging', 'empaque', 'envase'],
+
+        // Regulatory
+        // Regulatory
+        regulatory: ['fda', 'cofepris', 'approval', 'aprobación', 'clinical trial', 'ensayo', 'regulation',
+            'regulación', 'compliance', 'safety', 'seguridad', 'efficacy', 'eficacia', 'mocra',
+            'packaging rules', 'labeling', 'etiquetado', 'consultation', 'consulta pública',
+            'heavy metals', 'metales pesados', 'toxic', 'tóxico', 'lead', 'plomo'],
+
+        // Market
+        market: ['market growth', 'crecimiento', 'demand', 'demanda', 'pricing', 'competition', 'competencia',
+            'trend', 'tendencia', 'consumer', 'consumidor', 'gen z', 'millennial', 'alpha', 'gen x',
+            'wellness', 'bienestar', 'sustainability', 'sostenibilidad', 'natural', 'organic', 'clean beauty', 'clean label',
+            'personalization', 'inclusivity', 'diversity', 'athlete', 'sport', 'fitness',
+            'longevity', 'epigenetic', 'epigenética', 'menopause', 'menopausia',
+            'dermatitis', 'atópica', 'skin health', 'barrier', 'barrera',
+            'fragrance', 'perfume', 'masculina', 'tiktok', 'viral', 'influencer',
+            'transparency', 'transparencia', 'refill', 'circular economy',
+            'digestive health', 'gut health', 'digestivo', 'otc',
+            'beauty tech', 'beautytech', 'ai', 'inteligencia artificial', 'biotech', 'biotecnología',
+            'prestige', 'premium', 'luxury', 'mass', 'prestige-at-mass',
+            'k-beauty', 'korean', 'coreana', 'innovation', 'innovación', 'tech', 'technology',
+            'mental health', 'salud mental', 'neuro', 'cognitive',
+            'minimally invasive', 'non-surgical', 'heritage', 'niche', 'nicho', 'emerging',
+            'ranking', 'index', 'quarterly', 'annual', 'bcorp', 'esg', 'impact']
+    };
+
+    // Extract keywords and entities from article
+    function extractKeywords(article) {
+        const text = `${article.title} ${article.summary} ${article.insight}`.toLowerCase();
+        const extracted = {
+            companies: [],
+            products: [],
+            geography: [],
+            business: [],
+            supply: [],
+            regulatory: [],
+            market: [],
+            raw: []
+        };
+
+        // Extract entities by category
+        for (const [category, keywords] of Object.entries(ENTITY_KEYWORDS)) {
+            for (const keyword of keywords) {
+                if (text.includes(keyword)) {
+                    extracted[category].push(keyword);
+                    extracted.raw.push(keyword);
+                }
+            }
+        }
+
+        // Extract additional keywords from title (high value)
+        const titleWords = article.title.toLowerCase()
+            .split(/\s+/)
+            .filter(w => w.length > 4) // Only words longer than 4 chars
+            .filter(w => !['sobre', 'para', 'desde', 'hasta', 'entre', 'with', 'from', 'about'].includes(w));
+
+        extracted.raw.push(...titleWords);
+
+        return extracted;
+    }
+
+    // Calculate similarity score between two articles
+    function calculateSimilarity(article1, article2, keywords1, keywords2) {
+        let score = 0;
+        const reasons = [];
+
+        // 1. Entity matches (high weight)
+        const entityCategories = ['companies', 'products', 'geography', 'business', 'supply', 'regulatory'];
+        const genericGeo = ['europe', 'asia', 'america', 'world', 'global'];
+
+        for (const category of entityCategories) {
+            const common = keywords1[category].filter(k => keywords2[category].includes(k));
+            if (common.length > 0) {
+                let weight = category === 'companies' || category === 'products' ? 3.0 : 2.0;
+
+                // Penalize generic geography
+                if (category === 'geography') {
+                    const hasGeneric = common.some(k => genericGeo.includes(k));
+                    if (hasGeneric && common.length === 1) {
+                        weight = 0.3; // Very low weight for ONLY generic geo
+                    } else if (hasGeneric) {
+                        weight = 1.0; // Medium weight if has generic + specific
+                    }
+                }
+
+                score += common.length * weight;
+                reasons.push({
+                    type: category,
+                    entities: common,
+                    weight: weight
+                });
+            }
+        }
+
+        // 2. Raw keyword overlap (reduced impact)
+        const rawCommon = keywords1.raw.filter(k => keywords2.raw.includes(k));
+        if (rawCommon.length > 0) {
+            score += rawCommon.length * 0.3; // Reduced from 0.5
+        }
+
+        // 3. Same year bonus (small)
+        if (article1.year === article2.year) {
+            score += 0.3; // Reduced from 0.5
+        }
+
+        // 4. Same category (tiny bonus)
+        if (article1.displayTopic === article2.displayTopic) {
+            score += 0.2; // Reduced from 0.3
+        }
+
+        return { score, reasons };
+    }
+
+    // Build relationship map for all articles
+    function buildRelationshipMap(articles) {
+        const relationships = [];
+        const articleKeywords = new Map();
+
+        // Extract keywords for all articles
+        articles.forEach(article => {
+            articleKeywords.set(article.id, extractKeywords(article));
+        });
+
+        // Calculate similarities
+        for (let i = 0; i < articles.length; i++) {
+            for (let j = i + 1; j < articles.length; j++) {
+                const a1 = articles[i];
+                const a2 = articles[j];
+                const k1 = articleKeywords.get(a1.id);
+                const k2 = articleKeywords.get(a2.id);
+
+                // Quick filter: must share at least 1 raw keyword
+                const hasCommon = k1.raw.some(k => k2.raw.includes(k));
+                if (!hasCommon) continue;
+
+                const { score, reasons } = calculateSimilarity(a1, a2, k1, k2);
+
+                // Threshold: VERY low (1.0) to maximize connections
+                if (score >= 1.0) {
+                    relationships.push({
+                        from: a1.id,
+                        to: a2.id,
+                        score: score,
+                        reasons: reasons
+                    });
+                }
+            }
+        }
+
+        return relationships;
+    }
+
+
+    function renderSynapse_OLD() {
+        const container = document.getElementById('synapse-graph-container');
+        if (!container || typeof vis === 'undefined') {
+            return;
+        }
+
+        // 1. Filter Data (Reuse logic from renderTimeline/renderGrid)
+        const filtered = state.articles.filter(a => {
+            let matchSearch = true;
+            if (state.filters.search) {
+                const searchTerms = expandSearchQuery(state.filters.search);
+                const text = (a.title + " " + a.summary + " " + a.displayTopic + " " + a.subtopic).toLowerCase();
+                matchSearch = searchTerms.some(term => text.includes(term));
+            }
+            const matchTopic = state.filters.topic === 'all' || a.displayTopic === state.filters.topic;
+            const matchSub = state.filters.subtopic === 'all' || a.subtopic === state.filters.subtopic;
+            const matchYear = state.filters.year === 'all' || (a.year && String(a.year).trim() === String(state.filters.year).trim());
+            const matchMonth = state.filters.month === 'all' || (a.month && String(a.month).trim().toUpperCase() === String(state.filters.month).trim().toUpperCase());
+            const articleMacro = (a.macro || '').toLowerCase().trim();
+            const filterMacro = (state.filters.macro || 'all').toLowerCase().trim();
+            const matchMacro = filterMacro === 'all' || articleMacro === filterMacro;
+
+            // New Filters
+            const matchSpecialty = state.filters.specialty === 'all' || (a.targetSpecialties && a.targetSpecialties.includes(state.filters.specialty));
+            const matchProductPillar = state.filters.productPillar === 'all' || a.productPillar === state.filters.productPillar;
+            const matchRegion = state.filters.region === 'all' || a.region === state.filters.region;
+            const matchCountry = state.filters.country === 'all' || a.country === state.filters.country;
+
+            const res = matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro && matchSpecialty && matchProductPillar && matchRegion && matchCountry;
+            return res;
+        });
+
+        if (filtered.length === 0) {
+            container.innerHTML = '<div class="center-msg" style="color:white; height:100%; display:flex; align-items:center; justify-content:center;">No data found for current filters.</div>';
+            return;
+        }
+
+        // 2. Build Graph Data (SEM ANTIC RELATIONSHIPS)
+        const nodes = [];
+        const edges = [];
+        const nodeIds = new Set();
+
+        // Build semantic relationship map
+        console.log('Building semantic relationships...');
+        const relationshipMap = buildRelationshipMap(filtered);
+        console.log(`Found ${relationshipMap.length} semantic connections`);
+
+        // Create article nodes
+        filtered.forEach(article => {
+            const articleId = `a_${article.id || Math.random()}`;
+            if (!nodeIds.has(articleId)) {
+                // Count connections for this article
+                const connectionCount = relationshipMap.filter(r =>
+                    r.from === article.id || r.to === article.id
+                ).length;
+
+                nodes.push({
+                    id: articleId,
+                    label: connectionCount > 5 ? article.displayTopic.substring(0, 20) : '', // Show label for highly connected nodes
+                    title: `<b>${article.title}</b><br/>${connectionCount} conexiones`, // Tooltip
+                    group: 'article',
+                    value: Math.max(3, connectionCount / 2), // Size based on connections
+                    data: article,
+                    color: getMacroColor(article.macro),
+                    font: { size: 10, color: '#ffffff' }
+                });
+                nodeIds.add(articleId);
+            }
+        });
+
+        // Create edges from semantic relationships
+        relationshipMap.forEach(rel => {
+            const fromId = `a_${rel.from}`;
+            const toId = `a_${rel.to}`;
+
+            // Determine edge color by relationship type
+            let edgeColor = 'rgba(255,255,255,0.15)';
+
+            if (rel.reasons.length > 0) {
+                const primary = rel.reasons[0].type;
+                if (primary === 'products') {
+                    edgeColor = 'rgba(59, 130, 246, 0.4)'; // Blue for products
+                } else if (primary === 'companies') {
+                    edgeColor = 'rgba(34, 197, 94, 0.4)'; // Green for business
+                } else if (primary === 'geography') {
+                    edgeColor = 'rgba(234, 179, 8, 0.4)'; // Yellow for geography
+                } else if (primary === 'business' || primary === 'supply') {
+                    edgeColor = 'rgba(34, 197, 94, 0.3)'; // Green for business
+                }
+            }
+
+            edges.push({
+                from: fromId,
+                to: toId,
+                value: Math.min(rel.score / 2, 5), // Edge thickness based on score
+                color: {
+                    color: edgeColor,
+                    highlight: edgeColor.replace('0.4', '0.8').replace('0.3', '0.6')
+                },
+                smooth: {
+                    type: 'continuous',
+                    roundness: 0.5
+                },
+                relationshipData: rel // Store relationship info
+            });
+        });
+
+        // 3. Visualization Options
+        const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
+        const options = {
+            nodes: {
+                shape: 'dot',
+                borderWidth: 0,
+                shadow: true,
+                font: { color: '#fff' }
+            },
+            edges: {
+                width: 1,
+                smooth: { type: 'continuous' }
+            },
+            physics: {
+                stabilization: {
+                    enabled: true,
+                    iterations: 200, // Limit iterations
+                    updateInterval: 25
+                },
+                barnesHut: {
+                    gravitationalConstant: -8000,
+                    springConstant: 0.02,
+                    springLength: 180,
+                    avoidOverlap: 0.5
+                }
+            },
+            interaction: {
+                hover: true,
+                tooltipDelay: 200,
+                zoomView: true
+            }
+        };
+
+        // 4. Create Network
+        // Destroy old instance if exists to prevent leaks
+        if (networkInstance) {
+            networkInstance.destroy();
+            networkInstance = null;
+        }
+
+        container.innerHTML = ''; // Clear container
+        networkInstance = new vis.Network(container, data, options);
+
+        // Freeze physics after stabilization for better UX
+        networkInstance.on("stabilizationIterationsDone", function () {
+            networkInstance.setOptions({ physics: false });
+            console.log('Network stabilized and frozen');
+        });
+
+        // 5. Event Handling
+        networkInstance.on("click", function (params) {
+            if (params.nodes.length > 0) {
+                const nodeId = params.nodes[0];
+                const clickedNode = data.nodes.get(nodeId);
+
+                if (clickedNode.group === 'article') {
+                    // Show article details with semantic relationships
+                    const allEdges = networkInstance.body.data.edges.get();
+                    showSynapseDetails(clickedNode.data, nodes, allEdges);
+                }
+            } else {
+                closeSynapseSidebar();
+            }
+        });
+    }
+
+    function showSynapseDetails(article, allNodes, allEdges) {
+        const sidebar = document.getElementById('synapse-sidebar');
+        const content = document.getElementById('synapse-details');
+        if (!sidebar || !content) return;
+
+        // Find Related Articles via semantic edges
+        const articleId = `a_${article.id}`;
+        const connectedEdges = allEdges.filter(e =>
+            e.from === articleId || e.to === articleId
+        );
+
+        // Extract related article nodes with relationship data
+        const related = connectedEdges.map(edge => {
+            const relatedId = edge.from === articleId ? edge.to : edge.from;
+            const relatedNode = allNodes.find(n => n.id === relatedId);
+            return {
+                node: relatedNode,
+                relationshipData: edge.relationshipData
+            };
+        }).filter(r => r.node)
+            .sort((a, b) => (b.relationshipData?.score || 0) - (a.relationshipData?.score || 0)) // Sort by score
+            .slice(0, 12); // Increased to 12, sorted by relevance
+
+        const macroColor = getMacroColor(article.macro);
+
+        // Generate semantic relationship explanation
+        let relationshipText = "Estas noticias están conectadas por relaciones semánticas profundas: ";
+        if (related.length > 0) {
+            const reasonTypes = new Set();
+            related.forEach(r => {
+                if (r.relationshipData && r.relationshipData.reasons) {
+                    r.relationshipData.reasons.forEach(reason => reasonTypes.add(reason.type));
+                }
+            });
+            const typeLabels = {
+                'companies': 'empresas comunes',
+                'products': 'productos/tecnologías',
+                'geography': 'geografía',
+                'business': 'estrategia de negocio',
+                'supply': 'cadena de suministro',
+                'regulatory': 'contexto regulatorio'
+            };
+            const reasons = Array.from(reasonTypes).map(t => typeLabels[t] || t).join(', ');
+            relationshipText += `<strong>${reasons}</strong>.`;
+        } else {
+            relationshipText = "No se identificaron conexiones semánticas fuertes con otras noticias.";
+        }
+
+        // Generate contextual analysis
+        const analysisText = generateSemanticAnalysis(article, related);
+
+        const html = `
+            <div class="synapse-detail-header" style="border-color: ${macroColor}">
+                <span class="synapse-detail-topic" style="background: ${macroColor}30; color: ${macroColor}">
+                    ${article.displayTopic}
+                </span>
+                <h2 class="synapse-detail-title">${article.title}</h2>
+                <div class="synapse-detail-meta">
+                    <span><i class="fa-regular fa-calendar"></i> ${article.year} ${article.month || ''}</span>
+                    <span><i class="fa-solid fa-layer-group"></i> ${article.subtopic}</span>
+                </div>
+            </div>
+
+            <div class="synapse-detail-summary">
+                ${article.summary || article.insight || "Sin resumen disponible."}
+            </div>
+            
+            <button onclick="window.open('${article.link}', '_blank')" class="primary-btn" style="width:100%; margin-bottom: 2rem;">
+                <i class="fa-solid fa-external-link-alt"></i> Leer Artículo Completo
+            </button>
+
+            ${related.length > 0 ? `
+                <!-- Relationship Explanation -->
+                <div class="synapse-analysis-section" style="background: rgba(59, 130, 246, 0.1); border-left: 3px solid ${macroColor}; padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
+                    <h4 style="margin: 0 0 0.75rem 0; color: #cbd5e1; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
+                        <i class="fa-solid fa-diagram-project"></i> Explicación de la Relación
+                    </h4>
+                    <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: #e2e8f0;">
+                        ${relationshipText}
+                    </p>
+                </div>
+
+                <!-- Contextual Analysis -->
+                <div class="synapse-analysis-section" style="background: rgba(139, 92, 246, 0.1); border-left: 3px solid #8b5cf6; padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
+                    <h4 style="margin: 0 0 0.75rem 0; color: #cbd5e1; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
+                        <i class="fa-solid fa-brain"></i> Análisis Contextual
+                    </h4>
+                    <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: #e2e8f0;">
+                        ${analysisText}
+                    </p>
+                </div>
+
+                <!-- Related Articles -->
+                <div class="synapse-related-section">
+                    <h4><i class="fa-solid fa-circle-nodes"></i> Noticias Relacionadas (${related.length})</h4>
+                    ${related.map((r, idx) => {
+            const n = r.node;
+            const relationData = r.relationshipData;
+            let reasonBadges = '';
+            if (relationData && relationData.reasons) {
+                reasonBadges = relationData.reasons.slice(0, 2).map(reason => {
+                    const badgeColors = {
+                        'companies': '#10b981',
+                        'products': '#3b82f6',
+                        'geography': '#eab308',
+                        'business': '#10b981',
+                        'supply': '#8b5cf6',
+                        'regulatory': '#f59e0b'
+                    };
+                    const color = badgeColors[reason.type] || '#6b7280';
+                    const labels = {
+                        'companies': reason.entities.join(', '),
+                        'products': reason.entities.join(', '),
+                        'geography': reason.entities.join(', '),
+                        'business': reason.entities.join(', '),
+                        'supply': reason.entities.join(', '),
+                        'regulatory': reason.entities.join(', ')
+                    };
+                    return `<span style="display: inline-block; background: ${color}30; color: ${color}; padding: 0.15rem 0.5rem; border-radius: 12px; font-size: 0.7rem; margin-right: 0.25rem;">${labels[reason.type] || reason.type}</span>`;
+                }).join('');
+            }
+            return `
+                        <div class="synapse-related-item" style="position: relative;">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem;">
+                                <div style="flex: 1;" onclick="selectSynapseNode('${n.id}')">
+                                    <div class="synapse-related-title">${n.data.title}</div>
+                                    <div class="synapse-related-meta">${n.data.year} • ${n.data.subtopic}</div>
+                                    ${reasonBadges ? `<div style="margin-top: 0.5rem;">${reasonBadges}</div>` : ''}
+                                </div>
+                                <a href="${n.data.link}" target="_blank" 
+                                   style="flex-shrink: 0; padding: 0.5rem; color: ${macroColor}; opacity: 0.7; transition: opacity 0.2s;"
+                                   onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'"
+                                   onclick="event.stopPropagation()"
+                                   title="Abrir enlace">
+                                    <i class="fa-solid fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    `}).join('')}
+                </div>
+            ` : '<p style="text-align: center; color: #64748b; padding: 2rem;">No se encontraron noticias relacionadas directamente conectadas.</p>'}
+        `;
+
+        content.innerHTML = html;
+        sidebar.classList.remove('hidden');
+    }
+
+    // Generate semantic analysis based on relationship patterns
+    function generateSemanticAnalysis(mainArticle, relatedArticles) {
+        if (relatedArticles.length === 0) {
+            return "Este artículo parece ser un evento único o está pobremente conectado con otras noticias en la base de datos actual.";
+        }
+
+        const totalRelated = relatedArticles.length;
+
+        // Collect all entities from relationships
+        const allEntities = {
+            companies: new Set(),
+            products: new Set(),
+            geography: new Set(),
+            business: new Set(),
+            supply: new Set()
+        };
+
+        relatedArticles.forEach(r => {
+            if (r.relationshipData && r.relationshipData.reasons) {
+                r.relationshipData.reasons.forEach(reason => {
+                    if (reason.entities && allEntities[reason.type]) {
+                        reason.entities.forEach(e => allEntities[reason.type].add(e));
+                    }
+                });
+            }
+        });
+
+        // Build analysis text
+        let analysis = `Este artículo forma parte de una red de ${totalRelated} noticias interconectadas semánticamente. `;
+
+        // Analyze entity patterns
+        if (allEntities.companies.size > 0) {
+            const companyList = Array.from(allEntities.companies).slice(0, 3).join(', ');
+            analysis += `Las conexiones giran en torno a empresas clave como <strong>${companyList}</strong>. `;
+        }
+
+        if (allEntities.products.size > 0) {
+            const productList = Array.from(allEntities.products).slice(0, 3).join(', ');
+            analysis += `Las tecnologías/productos comunes incluyen <strong>${productList}</strong>. `;
+        }
+
+        if (allEntities.geography.size > 0) {
+            const geoList = Array.from(allEntities.geography).slice(0, 2).join(', ');
+            analysis += `Con especial relevancia en <strong>${geoList}</strong>. `;
+        }
+
+        // Connection strength
+        if (totalRelated >= 6) {
+            analysis += "La alta densidad de conexiones indica un tema de intensa cobertura e interés estratégico.";
+        } else if (totalRelated >= 3) {
+            analysis += "El nivel de conexión sugiere un área de interés emergente o en desarrollo.";
+        } else {
+            analysis += "Las pocas conexiones sugieren un nicho específico o nuevo desarrollo.";
+        }
+
+        return analysis;
+    }
+
+
+    // Helper function to generate contextual analysis
+    function generateContextualAnalysis(mainArticle, relatedArticles) {
+        if (relatedArticles.length === 0) {
+            return "Esta noticia representa un evento aislado en este tema. No hay suficientes artículos relacionados para generar un análisis contextual profundo.";
+        }
+
+        const totalRelated = relatedArticles.length;
+        const topic = mainArticle.displayTopic;
+        const macro = mainArticle.macro;
+
+        // Count unique years
+        const years = new Set([mainArticle.year, ...relatedArticles.map(n => n.data.year)]);
+        const yearSpan = years.size > 1 ? `Este tema ha sido cubierto a lo largo de ${years.size} años diferentes` : `Este tema se concentra en ${mainArticle.year}`;
+
+        // Analyze frequency
+        let frequencyInsight = "";
+        if (totalRelated >= 5) {
+            frequencyInsight = `La alta densidad de ${totalRelated} noticias relacionadas indica que <strong>"${topic}"</strong> es un área de intensa actividad y cobertura mediática.`;
+        } else if (totalRelated >= 3) {
+            frequencyInsight = `Con ${totalRelated} noticias conectadas, <strong>"${topic}"</strong> muestra un nivel moderado de atención en el mercado.`;
+        } else {
+            frequencyInsight = `Las ${totalRelated} noticias relacionadas sugieren que <strong>"${topic}"</strong> está emergiendo como un tema de interés.`;
+        }
+
+        // Category context
+        const categoryMap = {
+            'negocio': 'estratégico y comercial',
+            'consumidor': 'comportamiento del consumidor',
+            'retail': 'distribución y retail',
+            'producto': 'innovación de productos',
+            'wellness': 'bienestar y salud'
+        };
+        const categoryContext = categoryMap[macro] || 'este sector';
+
+        return `${frequencyInsight} ${yearSpan}, revelando una tendencia consistente en el contexto ${categoryContext}. El análisis de estas conexiones sugiere que los eventos no son aislados, sino parte de un movimiento más amplio en la industria.`;
+    }
+
+    // Helper to select node from sidebar
+    window.selectSynapseNode = (nodeId) => {
+        if (networkInstance) {
+            networkInstance.selectNodes([nodeId]);
+            const node = networkInstance.body.data.nodes.get(nodeId);
+            if (node) showSynapseDetails(node.data, networkInstance.body.data.nodes.get());
+        }
+    }
+
+    window.closeSynapseSidebar = () => {
+        const sidebar = document.getElementById('synapse-sidebar');
+        if (sidebar) sidebar.classList.add('hidden');
+        if (networkInstance) networkInstance.unselectAll();
+    };
+
+    // === NEW SYNAPSE RENDERER WITH DIMMING LOGIC ===
+    function renderSynapse() {
+        const container = document.getElementById('synapse-graph-container');
+        if (!container || typeof vis === 'undefined') {
+            return;
+        }
+
+        // 1. Determine Active Filters
+        const filters = state.filters;
+        const isFilterActive = filters.search ||
+            filters.topic !== 'all' ||
+            filters.subtopic !== 'all' ||
+            filters.year !== 'all' ||
+            filters.month !== 'all' ||
+            filters.macro !== 'all' ||
+            filters.specialty !== 'all' ||
+            filters.productPillar !== 'all' ||
+            filters.region !== 'all' ||
+            filters.country !== 'all';
+
+        // DEBUG DATA
+        if (state.articles.length > 0) {
+            console.log("Sample Article Data (ID: " + state.articles[0].id + "):", {
+                region: state.articles[0].region,
+                country: state.articles[0].country,
+                topic: state.articles[0].displayTopic,
+                filters: filters
+            });
+        }
+
+        // 2. Identify Matched Articles (Active Nodes)
+        const activeIds = new Set();
+        state.articles.forEach(a => {
+            let matchSearch = true;
+            if (filters.search) {
+                const searchTerms = expandSearchQuery(filters.search);
+                // Normalized search
+                const text = (a.title + " " + a.summary + " " + a.displayTopic + " " + a.subtopic).toLowerCase();
+                // Check if ALL terms match (AND logic for search)
+                matchSearch = searchTerms.every(term => text.includes(term));
+            }
+            const matchTopic = filters.topic === 'all' || a.displayTopic === filters.topic;
+            const matchSub = filters.subtopic === 'all' || a.subtopic === filters.subtopic;
+            const matchYear = filters.year === 'all' || (a.year && String(a.year).trim() === String(filters.year).trim());
+            const matchMonth = filters.month === 'all' || (a.month && String(a.month).trim().toUpperCase() === String(filters.month).trim().toUpperCase());
+            const articleMacro = (a.macro || '').toLowerCase().trim();
+            const filterMacro = (filters.macro || 'all').toLowerCase().trim();
+            const matchMacro = filterMacro === 'all' || articleMacro === filterMacro;
+            const matchSpecialty = filters.specialty === 'all' || (a.targetSpecialties && a.targetSpecialties.includes(filters.specialty));
+
+            // Robust Product Pillar Match
+            const articlePillar = (a.productPillar || '').toLowerCase().trim();
+            const filterPillar = (filters.productPillar || 'all').toLowerCase().trim();
+            const matchProductPillar = filterPillar === 'all' || articlePillar === filterPillar;
+
+            // Debug specific mismatch if filter is active
+            if (filterPillar !== 'all' && !matchProductPillar && state.articles.indexOf(a) < 3) {
+                console.log(`Mismatch Pillar: Filter '${filterPillar}' vs Article '${articlePillar}' (ID: ${a.id})`);
+            }
+
+            // Robust Comparison for Location
+            const articleRegion = (a.region || '').toLowerCase().trim();
+            const filterRegion = (filters.region || 'all').toLowerCase().trim();
+            const matchRegion = filterRegion === 'all' || articleRegion === filterRegion;
+
+            if (filterRegion !== 'all' && !matchRegion && state.articles.indexOf(a) < 3) {
+                console.log(`Mismatch Region: Filter '${filterRegion}' vs Article '${articleRegion}'`);
+            }
+
+            const articleCountry = (a.country || '').toLowerCase().trim();
+            const filterCountry = (filters.country || 'all').toLowerCase().trim();
+            const matchCountry = filterCountry === 'all' || articleCountry === filterCountry;
+
+            if (filterCountry !== 'all' && !matchCountry && state.articles.indexOf(a) < 3) {
+                console.log(`Mismatch Country: Filter '${filterCountry}' vs Article '${articleCountry}'`);
+            }
+
+            if (matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro && matchSpecialty && matchProductPillar && matchRegion && matchCountry) {
+                activeIds.add(a.id);
+            }
+        });
+
+        console.log('--- DEBUG SYNAPSE FILTER ---');
+        console.log('Indices Activos:', isFilterActive);
+        console.log('Filtros:', filters);
+        console.log('Artículos Totales:', state.articles.length);
+        console.log('Artículos Coincidentes:', activeIds.size);
+
+        if (state.articles.length === 0) {
+            container.innerHTML = '<div class="center-msg" style="color:white; height:100%; display:flex; align-items:center; justify-content:center;">No data loaded.</div>';
+            return;
+        }
+
+        // 3. Build Graph Data (Filtered)
+        // Use only active (matched) articles if filters are active.
+        const dataset = isFilterActive
+            ? state.articles.filter(a => activeIds.has(a.id))
+            : state.articles;
+
+        if (dataset.length === 0) {
+            container.innerHTML = '<div class="center-msg" style="color:white; height:100%; display:flex; align-items:center; justify-content:center;">No match found for filters.</div>';
+            return;
+        }
+
+        const nodes = [];
+        const edges = [];
+        const nodeIds = new Set();
+        const connectivityMap = new Map();
+
+        // Build semantic relationship map for FILTERED articles
+        console.log(`Building semantic relationships for ${dataset.length} nodes...`);
+        const relationshipMap = buildRelationshipMap(dataset);
+
+        // Create article nodes
+        dataset.forEach(article => {
+            const articleId = `a_${article.id || Math.random()}`;
+            if (!nodeIds.has(articleId)) {
+                // All nodes in dataset are active by definition
+                const isActive = true;
+
+                const connectionCount = relationshipMap.filter(r =>
+                    r.from === article.id || r.to === article.id
+                ).length;
+
+                // Store for edge logic
+                connectivityMap.set(articleId, connectionCount);
+
+                // Visual styling based on active state
+                const baseColor = getMacroColor(article.macro);
+
+                // Dimming Logic
+                const nodeColor = isActive ? baseColor : 'rgba(80, 80, 80, 0.2)';
+                const labelColor = isActive ? '#ffffff' : 'rgba(255, 255, 255, 0.05)';
+                // Dimmed nodes are very transparent
+                const opacity = isActive ? 1 : 0.2;
+
+                // Mass: Hubs are extremely heavy to sink to center
+                // Satellites are light to float on periphery
+                const mass = 2 + (connectionCount * 3);
+
+                // Size based on impact (connections) - More dramatic scaling
+                const size = isActive ? Math.max(5, connectionCount * 1.2) : 2;
+
+                nodes.push({
+                    id: articleId,
+                    label: (isActive && connectionCount > 3) ? article.displayTopic.substring(0, 15) : '',
+                    title: `<b>${article.title}</b><br/>${connectionCount} conexiones`,
+                    group: 'article',
+                    value: size,
+                    mass: mass, // Heavier nodes stay central
+                    data: article,
+                    color: nodeColor,
+                    font: { size: 10, color: labelColor },
+                    opacity: opacity,
+                    isActive: isActive,
+                    chosen: {
+                        node: (values, id, selected, hovering) => {
+                            if (!isActive) return;
+                            values.color = baseColor;
+                            values.borderColor = '#ffffff';
+                            values.borderWidth = 2;
+                        }
+                    }
+                });
+                nodeIds.add(articleId);
+            }
+        });
+
+        // --- NEW: Explicit Concentric Positioning ---
+        // 1. Rank nodes by importance (connection count)
+        nodes.sort((a, b) => (connectivityMap.get(b.id) || 0) - (connectivityMap.get(a.id) || 0));
+
+        const totalNodes = nodes.length;
+        // Define Cumulative Counts for 5 Tiers
+        const limit1 = Math.ceil(totalNodes * 0.02); // Top 2% (Core)
+        const limit2 = Math.ceil(totalNodes * 0.10); // Next 8%
+        const limit3 = Math.ceil(totalNodes * 0.25); // Next 15%
+        const limit4 = Math.ceil(totalNodes * 0.50); // Next 25%
+        // Rest is Outer Ring
+
+        nodes.forEach((node, index) => {
+            let radius, ringTotal, ringIndex, offsetAngle;
+
+            if (index < limit1) {
+                // Ring 1: Core (Larger gap requested: ~120px)
+                radius = 120;
+                ringIndex = index;
+                ringTotal = limit1;
+                offsetAngle = 0;
+            } else if (index < limit2) {
+                // Ring 2
+                radius = 280;
+                ringIndex = index - limit1;
+                ringTotal = limit2 - limit1;
+                offsetAngle = 0.5;
+            } else if (index < limit3) {
+                // Ring 3
+                radius = 420;
+                ringIndex = index - limit2;
+                ringTotal = limit3 - limit2;
+                offsetAngle = 1.0;
+            } else if (index < limit4) {
+                // Ring 4
+                radius = 580;
+                ringIndex = index - limit3;
+                ringTotal = limit4 - limit3;
+                offsetAngle = 1.5;
+            } else {
+                // Ring 5: Outer
+                radius = 750;
+                ringIndex = index - limit4;
+                ringTotal = totalNodes - limit4;
+                offsetAngle = 2.0;
+            }
+
+            // Homogeneous Distribution (Regular Polygon)
+            // Even spacing: 360 / N
+            const angleStep = (2 * Math.PI) / (ringTotal || 1);
+            const angle = (ringIndex * angleStep) + offsetAngle;
+
+            // Jitter: +/- 15px radius, angle is strict
+            const r = radius + (Math.random() * 30 - 15);
+
+            // Convert polar to cartesian
+            node.x = r * Math.cos(angle);
+            node.y = r * Math.sin(angle);
+        });
+
+        // Create edges from semantic relationships
+        relationshipMap.forEach(rel => {
+            const fromId = `a_${rel.from}`;
+            const toId = `a_${rel.to}`;
+
+            const isFromActive = !isFilterActive || activeIds.has(rel.from);
+            const isToActive = !isFilterActive || activeIds.has(rel.to);
+            const isEdgeActive = isFromActive && isToActive;
+
+            // Get weights/importance
+            const countFrom = connectivityMap.get(fromId) || 0;
+            const countTo = connectivityMap.get(toId) || 0;
+            const isHubConnection = countFrom > 8 && countTo > 8;
+            const isSatelliteConnection = countFrom < 3 || countTo < 3;
+
+            // Optional: Hide edges requires at least one active node to be barely visible
+            if (isFilterActive && !isFromActive && !isToActive) return;
+
+            // Ultra-transparent default (3% opacity)
+            let edgeColor = 'rgba(226, 232, 240, 0.03)';
+
+            // Highlight color remains colored for interaction
+            let highlightColor = edgeColor;
+            if (rel.reasons.length > 0) {
+                const primary = rel.reasons[0].type;
+                if (primary === 'products') highlightColor = 'rgba(59, 130, 246, 0.6)';
+                else if (primary === 'companies') highlightColor = 'rgba(34, 197, 94, 0.6)';
+                else if (primary === 'geography') highlightColor = 'rgba(234, 179, 8, 0.6)';
+            }
+            if (isEdgeActive) {
+                // Slightly more visible if active
+                edgeColor = 'rgba(226, 232, 240, 0.08)';
+            }
+
+            // Adjust opacity for dimmed scenarios
+            let finalColor = edgeColor;
+            let width = 1;
+
+            if (!isEdgeActive) {
+                finalColor = 'rgba(255, 255, 255, 0.01)';
+            }
+
+            // Variable Spring Length to enforce Orbits
+            // Core (Hub-Hub): Short springs -> Tight center
+            // Periphery (Hub-Sat): Long springs -> Outer orbit
+            let springLength = 200;
+            if (isHubConnection) springLength = 50; // Inner Core
+            else if (isSatelliteConnection) springLength = 350; // Outer shell
+            else springLength = 150; // Mid shell
+
+            edges.push({
+                from: fromId,
+                to: toId,
+                width: width,
+                length: springLength, // Physics uses this per edge
+                color: {
+                    color: finalColor,
+                    highlight: highlightColor, // Color appears on selection/hover
+                    opacity: isEdgeActive ? 1 : 0.05
+                },
+                smooth: { type: 'continuous', roundness: 0.5 },
+                relationshipData: rel
+            });
+        });
+
+        // 3. Visualization Options
+
+        // PRE-ANIMATION SETUP: Capture targets and reset nodes to start positions to prevent flash
+        const animationState = {};
+        nodes.forEach(n => {
+            animationState[n.id] = { targetX: n.x, targetY: n.y };
+
+            // Set initial position to center cluster for "Explosion" effect
+            const startAngle = Math.random() * Math.PI * 2;
+            const startR = Math.random() * 50;
+            n.x = startR * Math.cos(startAngle);
+            n.y = startR * Math.sin(startAngle);
+
+            // Store start in state too for easy interpolation
+            animationState[n.id].startX = n.x;
+            animationState[n.id].startY = n.y;
+        });
+
+        const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
+        const options = {
+            nodes: {
+                shape: 'dot',
+                borderWidth: 0,
+                shadow: true,
+                font: { color: '#fff' }
+            },
+            edges: {
+                width: 1,
+                smooth: { type: 'continuous' }
+            },
+            physics: {
+                enabled: false, // STATIC LAYOUT: Physics off to keep concentric rings
+                stabilization: false
+            },
+            interaction: {
+                hover: true,
+                tooltipDelay: 200,
+                zoomView: true
+            }
+        };
+
+        // 4. Create Network
+        if (networkInstance) {
+            networkInstance.destroy();
+            networkInstance = null;
+        }
+        container.innerHTML = '';
+        networkInstance = new vis.Network(container, data, options);
+
+        // --- Custom Assembly Animation (5 seconds) ---
+        const startTime = Date.now();
+        const duration = 5000;
+
+        const animInterval = setInterval(() => {
+            const now = Date.now();
+            const elapsed = now - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const ease = 1 - Math.pow(1 - progress, 3); // Cubic Ease Out
+
+            Object.keys(animationState).forEach(id => {
+                const state = animationState[id];
+                if (networkInstance.body.nodes[id]) {
+                    networkInstance.body.nodes[id].x = state.startX + (state.targetX - state.startX) * ease;
+                    networkInstance.body.nodes[id].y = state.startY + (state.targetY - state.startY) * ease;
+                }
+            });
+
+            networkInstance.redraw();
+
+            if (progress >= 1) {
+                clearInterval(animInterval);
+                networkInstance.fit();
+            }
+        }, 33); // ~30fps
+
+        // --- NEW: Draw Concentric Background Rings ---
+        networkInstance.on("beforeDrawing", function (ctx) {
+            const center = networkInstance.canvasToDOM({ x: 0, y: 0 });
+            const scale = networkInstance.getScale();
+
+            ctx.save();
+            ctx.strokeStyle = 'rgba(59, 130, 246, 0.15)';
+            ctx.lineWidth = 1;
+            ctx.setLineDash([5, 15]);
+
+            const radii = [120, 280, 420, 580, 750];
+            radii.forEach(r => {
+                ctx.beginPath();
+                ctx.arc(center.x, center.y, r * scale, 0, 2 * Math.PI);
+                ctx.stroke();
+            });
+            ctx.restore();
+        });
+
+        // 5. Event Handling
+        networkInstance.on("click", function (params) {
+            if (params.nodes.length > 0) {
+                const nodeId = params.nodes[0];
+                const clickedNode = data.nodes.get(nodeId);
+
+                if (clickedNode.group === 'article') {
+                    // Show article details regardless of dimming state (user requested this)
+                    const allEdges = networkInstance.body.data.edges.get();
+                    showSynapseDetails(clickedNode.data, nodes, allEdges);
+                }
+            } else {
+                closeSynapseSidebar();
+            }
+        });
+    }
+
+    // Listen for Product Pillar Filter Changes from Global Scope
+    document.addEventListener('productPillarFilterChange', (e) => {
+        const { value } = e.detail;
+        console.log('Product Pillar Filter Changed to:', value);
+        state.filters.productPillar = value;
+        renderSynapse();
+    });
+
+    // === NEW: Event Listeners for Synapse Dimming Filters ===
+    // These ensure that changing filters updates the Synapse view immediately if active
+    const synapseFilters = ['macro-filter', 'topic-filter', 'subtopic-filter'];
+    synapseFilters.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) {
+            el.addEventListener('change', (e) => {
+                // Determine which filter changed and update state accordingly
+                // Note: The existing updateFilters() logic handles the state update for these,
+                // but we need to force a re-render of Synapse if we are in that view.
+
+                // Small delay to allow main app logic (updateFilters) to process state changes first
+                setTimeout(() => {
+                    if (state.currentView === 'synapse') {
+                        console.log(`Filter ${id} changed, re-rendering Synapse...`);
+                        renderSynapse();
+                    }
+                }, 50);
+            });
+        }
+    });
+
+    // === NEW: Search Input Listener for Synapse (Debounced) ===
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) {
+        let debounceTimer;
+        searchInput.addEventListener('input', (e) => {
+            if (state.currentView === 'synapse') {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => {
+                    console.log('Search input changed, re-rendering Synapse...');
+                    // State is already updated by the main listener
+                    renderSynapse();
+                }, 300); // 300ms debounce to prevent lag while typing
+            }
+        });
+    }
+
+    // === NEW: Sidebar Search Input Listener ===
+    const sidebarSearchInput = document.getElementById('sidebar-search-input');
+    if (sidebarSearchInput) {
+        let debounceTimerSidebar;
+        sidebarSearchInput.addEventListener('input', (e) => {
+            const val = e.target.value.toLowerCase();
+            state.filters.search = val;
+
+            // Sync with main search input if it exists
+            if (elements.searchInput) elements.searchInput.value = val;
+
+            clearTimeout(debounceTimerSidebar);
+            debounceTimerSidebar = setTimeout(() => {
+                console.log('Sidebar search input changed:', val);
+                updateView(); // Updates Grid or Synapse or Strategy
+
+                // Specific Synapse re-render if active (updateView calls renderGrid, but renderSynapse needs manual call if not handled by updateView for 'synapse' mode??)
+                // updateView checks state.currentView. If 'synapse', does it call renderSynapse?
+                // Let's check updateView implementation... it calls renderTimeline, renderGrid, generateStrategicSummary.
+                // It does NOT seem to call renderSynapse.
+                if (state.currentView === 'synapse') {
+                    renderSynapse();
+                }
+            }, 300);
+        });
+    }
+
     // Start App
     init();
 });
@@ -1787,4 +3826,11 @@ window.toggleSidebar = () => {
         sidebar.classList.toggle('active');
         overlay.classList.toggle('active');
     }
+};
+
+// --- NEW: Product Pillar Filter Function ---
+window.filterByProductPillar = (value) => {
+    // Access state from the DOMContentLoaded scope
+    const event = new CustomEvent('productPillarFilterChange', { detail: { value } });
+    document.dispatchEvent(event);
 };
