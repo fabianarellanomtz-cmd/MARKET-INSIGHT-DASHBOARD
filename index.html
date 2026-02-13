@@ -16,6 +16,8 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css?v=transparency_v54">
+    <link rel="stylesheet" href="critical_synapse_fix.css">
+    <link rel="stylesheet" href="news_reader.css"> <!-- New Reader Styles -->
     <!-- Chart.js and Plugins -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
@@ -348,7 +350,49 @@
         </div>
     </div>
 
-    <script src="data.js"></script>
+    <!-- Immersive News Reader Overlay -->
+    <div id="news-reader-overlay" class="hidden">
+        <div class="reader-backdrop" onclick="closeNewsReader()"></div>
+        <div class="reader-container">
+            <div class="reader-content">
+                <header class="reader-header">
+                    <button class="reader-close-btn" onclick="closeNewsReader()"><i
+                            class="fa-solid fa-xmark"></i></button>
+                    <div class="reader-meta-tags" id="reader-tags">
+                        <!-- Tags injected here -->
+                    </div>
+                    <div
+                        style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:1rem;">
+                        <h2 class="reader-title" id="reader-title" style="margin-bottom:0;">Título de la Noticia</h2>
+                    </div>
+                    <div class="reader-date" id="reader-date">
+                        <i class="fa-regular fa-calendar"></i> <span>Fecha</span>
+                    </div>
+                </header>
+                <div class="reader-body">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                        <span class="ai-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Análisis IA</span>
+                    </div>
+                    <div class="reader-summary" id="reader-summary">
+                        <!-- Summary injected here -->
+                    </div>
+
+                    <div id="reader-related-content" style="margin-top:2rem;">
+                        <!-- Related news injected here -->
+                    </div>
+
+
+                </div>
+                <footer class="reader-footer">
+                    <button class="reader-btn secondary" onclick="closeNewsReader()">Cerrar</button>
+                    <a href="#" target="_blank" id="reader-link" class="reader-btn primary">
+                        Leer Fuente Original <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </footer>
+            </div>
+        </div>
+    </div>
+
     <script src="data.js"></script>
     <script src="app.js?v=transparency_v53"></script>
 </body>

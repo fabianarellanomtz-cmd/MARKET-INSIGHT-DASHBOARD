@@ -1002,7 +1002,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 topicHtml = `<span class="topic-pill main">${article.displayTopic}</span>`;
             }
 
+
+
+            card.onclick = () => openNewsReader(article.id);
+            card.style.cursor = "pointer";
+            card.style.position = "relative"; // Ensure absolute positioning works
+
             card.innerHTML = `
+                <!-- AI Badge -->
+                <div style="position:absolute; top:10px; right:10px; background:linear-gradient(90deg, #8b5cf6, #3b82f6); color:white; padding:2px 8px; border-radius:12px; font-size:0.65rem; font-weight:700; box-shadow:0 2px 5px rgba(0,0,0,0.2); z-index:2;">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i> IA
+                </div>
+
                 <div style="text-align:center; width:100%; margin-bottom:0.25rem;">
                     ${badgeHtml}
                 </div>
@@ -1015,9 +1026,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="card-footer">
                      <span class="source-badge">${article.source || 'Fuente'}</span>
-                     <div style="display:flex; align-items:center; gap:0.75rem;">
+                     <div style="display:flex; align-items:center; gap:0.5rem;">
                         <span class="card-date footer-date">${dateStr}</span>
-                        <a href="${article.link}" target="_blank" class="read-link icon-link-header"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <!-- Source Button with Stop Propagation -->
+                        <a href="${article.link}" target="_blank" class="read-link icon-link-header" onclick="event.stopPropagation();">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
                      </div>
                 </div>
             `;
@@ -3069,138 +3083,191 @@ document.addEventListener('DOMContentLoaded', () => {
                 const clickedNode = data.nodes.get(nodeId);
 
                 if (clickedNode.group === 'article') {
-                    // Show article details with semantic relationships
-                    const allEdges = networkInstance.body.data.edges.get();
-                    showSynapseDetails(clickedNode.data, nodes, allEdges);
+                    // --- DIMMING LOGIC ---
+                    const connectedNodes = networkInstance.getConnectedNodes(nodeId);
+                    const allNodes = data.nodes.get();
+
+                    const updateArray = allNodes.map(n => {
+                        if (n.id === nodeId || connectedNodes.includes(n.id)) {
+                            // Highlight selected and connected
+                            return {
+                                id: n.id,
+                                opacity: 1,
+                                font: { color: '#ffffff' },
+                                color: n.originalColor || n.color
+                            };
+                        } else {
+                            // Dim others
+                            return {
+                                id: n.id,
+                                opacity: 0.1,
+                                font: { color: 'rgba(255,255,255,0)' } // Hide label
+                            };
+                        }
+                    });
+
+                    data.nodes.update(updateArray);
+
+                    // Show article details regardless of dimming state
+                    const allEdges = data.edges.get(); // Use data.edges direct reference
+                    showSynapseDetails(clickedNode.data, allNodes, allEdges, nodeId);
                 }
             } else {
+                // --- RESTORE LOGIC ---
+                const allNodes = data.nodes.get();
+                const updateArray = allNodes.map(n => ({
+                    id: n.id,
+                    opacity: n.isActive ? 1 : 0.2, // Restore to original active state
+                    font: { color: n.isActive ? '#ffffff' : 'rgba(255, 255, 255, 0.05)' }
+                }));
+                data.nodes.update(updateArray);
+
                 closeSynapseSidebar();
             }
         });
     }
 
-    function showSynapseDetails(article, allNodes, allEdges) {
+    function showSynapseDetails(article, allNodes, allEdges, currentNodeId) {
         const sidebar = document.getElementById('synapse-sidebar');
         const content = document.getElementById('synapse-details');
-        if (!sidebar || !content) return;
 
-        // Find Related Articles via semantic edges
-        const articleId = `a_${article.id}`;
-        const connectedEdges = allEdges.filter(e =>
-            e.from === articleId || e.to === articleId
-        );
-
-        // Extract related article nodes with relationship data
-        const related = connectedEdges.map(edge => {
-            const relatedId = edge.from === articleId ? edge.to : edge.from;
-            const relatedNode = allNodes.find(n => n.id === relatedId);
-            return {
-                node: relatedNode,
-                relationshipData: edge.relationshipData
-            };
-        }).filter(r => r.node)
-            .sort((a, b) => (b.relationshipData?.score || 0) - (a.relationshipData?.score || 0)) // Sort by score
-            .slice(0, 12); // Increased to 12, sorted by relevance
-
-        const macroColor = getMacroColor(article.macro);
-
-        // Generate semantic relationship explanation
-        let relationshipText = "Estas noticias están conectadas por relaciones semánticas profundas: ";
-        if (related.length > 0) {
-            const reasonTypes = new Set();
-            related.forEach(r => {
-                if (r.relationshipData && r.relationshipData.reasons) {
-                    r.relationshipData.reasons.forEach(reason => reasonTypes.add(reason.type));
-                }
-            });
-            const typeLabels = {
-                'companies': 'empresas comunes',
-                'products': 'productos/tecnologías',
-                'geography': 'geografía',
-                'business': 'estrategia de negocio',
-                'supply': 'cadena de suministro',
-                'regulatory': 'contexto regulatorio'
-            };
-            const reasons = Array.from(reasonTypes).map(t => typeLabels[t] || t).join(', ');
-            relationshipText += `<strong>${reasons}</strong>.`;
-        } else {
-            relationshipText = "No se identificaron conexiones semánticas fuertes con otras noticias.";
+        // Safety check for critical DOM elements
+        if (!sidebar || !content) {
+            console.error("CRITICAL: Synapse sidebar or content container not found in DOM.");
+            return;
         }
 
-        // Generate contextual analysis
-        const analysisText = generateSemanticAnalysis(article, related);
+        try {
+            // DEBUG
+            console.log("--- showSynapseDetails DEBUG ---");
+            console.log("Article:", article ? article.title : "UNDEFINED ARTICLE");
 
-        const html = `
-            <div class="synapse-detail-header" style="border-color: ${macroColor}">
-                <span class="synapse-detail-topic" style="background: ${macroColor}30; color: ${macroColor}">
-                    ${article.displayTopic}
-                </span>
-                <h2 class="synapse-detail-title">${article.title}</h2>
-                <div class="synapse-detail-meta">
-                    <span><i class="fa-regular fa-calendar"></i> ${article.year} ${article.month || ''}</span>
-                    <span><i class="fa-solid fa-layer-group"></i> ${article.subtopic}</span>
-                </div>
-            </div>
+            // Use passed nodeId or fallback
+            // If article is undefined, we can't proceed with id construction safely unless we check
+            if (!article) throw new Error("Article data is missing");
 
-            <div class="synapse-detail-summary">
-                ${article.summary || article.insight || "Sin resumen disponible."}
-            </div>
-            
-            <button onclick="window.open('${article.link}', '_blank')" class="primary-btn" style="width:100%; margin-bottom: 2rem;">
-                <i class="fa-solid fa-external-link-alt"></i> Leer Artículo Completo
-            </button>
+            const articleId = currentNodeId || `a_${article.id}`;
+            const macroColor = getMacroColor(article.macro);
 
-            ${related.length > 0 ? `
-                <!-- Relationship Explanation -->
-                <div class="synapse-analysis-section" style="background: rgba(59, 130, 246, 0.1); border-left: 3px solid ${macroColor}; padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
-                    <h4 style="margin: 0 0 0.75rem 0; color: #cbd5e1; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
-                        <i class="fa-solid fa-diagram-project"></i> Explicación de la Relación
-                    </h4>
-                    <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: #e2e8f0;">
-                        ${relationshipText}
-                    </p>
-                </div>
+            // Edge filtering
+            const connectedEdges = allEdges.filter(e =>
+                e.from === articleId || e.to === articleId
+            );
 
-                <!-- Contextual Analysis -->
-                <div class="synapse-analysis-section" style="background: rgba(139, 92, 246, 0.1); border-left: 3px solid #8b5cf6; padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
-                    <h4 style="margin: 0 0 0.75rem 0; color: #cbd5e1; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
-                        <i class="fa-solid fa-brain"></i> Análisis Contextual
-                    </h4>
-                    <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: #e2e8f0;">
-                        ${analysisText}
-                    </p>
-                </div>
+            // Calculate total connections
+            const totalConnections = connectedEdges.length;
 
-                <!-- Related Articles -->
-                <div class="synapse-related-section">
-                    <h4><i class="fa-solid fa-circle-nodes"></i> Noticias Relacionadas (${related.length})</h4>
-                    ${related.map((r, idx) => {
-            const n = r.node;
-            const relationData = r.relationshipData;
-            let reasonBadges = '';
-            if (relationData && relationData.reasons) {
-                reasonBadges = relationData.reasons.slice(0, 2).map(reason => {
-                    const badgeColors = {
-                        'companies': '#10b981',
-                        'products': '#3b82f6',
-                        'geography': '#eab308',
-                        'business': '#10b981',
-                        'supply': '#8b5cf6',
-                        'regulatory': '#f59e0b'
+            // Extract related article nodes
+            const related = connectedEdges.map(edge => {
+                const relatedId = edge.from === articleId ? edge.to : edge.from;
+                const relatedNode = allNodes.find(n => n.id === relatedId);
+
+                if (!relatedNode) {
+                    console.warn(`Related node not found for ID: ${relatedId}`);
+                }
+
+                return {
+                    node: relatedNode,
+                    relationshipData: edge.relationshipData
+                };
+            }).filter(r => r.node)
+                .sort((a, b) => (b.relationshipData?.score || 0) - (a.relationshipData?.score || 0)) // Sort by score
+                .slice(0, 25);
+
+            // Analysis Text
+            const analysisText = generateSemanticAnalysis(article, related, totalConnections);
+
+            // Relationship HTML Generation (Robust)
+            let relationshipHTML = "";
+            let topTypeLabel = "Conexiones Mixtas"; // Default
+
+            if (related.length > 0) {
+                // Calculate relationship types
+                const typeCounts = {};
+                related.forEach(r => {
+                    if (r.relationshipData && r.relationshipData.reasons) {
+                        r.relationshipData.reasons.forEach(reason => {
+                            typeCounts[reason.type] = (typeCounts[reason.type] || 0) + 1;
+                        });
+                    }
+                });
+
+                const topType = Object.entries(typeCounts).sort((a, b) => b[1] - a[1])[0];
+                if (topType) {
+                    const typeLabels = {
+                        'companies': 'Empresas Comunes',
+                        'products': 'Productos Similares',
+                        'geography': 'Misma Región',
+                        'business': 'Modelo de Negocio',
+                        'supply': 'Cadena de Suministro',
+                        'regulatory': 'Cumplimiento Normativo'
                     };
-                    const color = badgeColors[reason.type] || '#6b7280';
-                    const labels = {
-                        'companies': reason.entities.join(', '),
-                        'products': reason.entities.join(', '),
-                        'geography': reason.entities.join(', '),
-                        'business': reason.entities.join(', '),
-                        'supply': reason.entities.join(', '),
-                        'regulatory': reason.entities.join(', ')
-                    };
-                    return `<span style="display: inline-block; background: ${color}30; color: ${color}; padding: 0.15rem 0.5rem; border-radius: 12px; font-size: 0.7rem; margin-right: 0.25rem;">${labels[reason.type] || reason.type}</span>`;
-                }).join('');
+                    topTypeLabel = typeLabels[topType[0]] || topType[0];
+
+                    // Extract entities for connection explanation
+                    const topEntities = [];
+                    const entitiesSeen = new Set();
+                    related.forEach(r => {
+                        if (r.relationshipData && r.relationshipData.reasons) {
+                            r.relationshipData.reasons.forEach(reason => {
+                                if (reason.type === topType[0] && reason.entities) {
+                                    reason.entities.forEach(e => {
+                                        if (!entitiesSeen.has(e)) {
+                                            topEntities.push(`<strong>${e}</strong>`);
+                                            entitiesSeen.add(e);
+                                        }
+                                    });
+                                }
+                            });
+                        }
+                    });
+
+                    // Limit entities shown
+                    const displayedEntities = topEntities.slice(0, 3);
+
+                    relationshipHTML = `
+                        Esta noticia está conectada principalmente por <strong>${topTypeLabel}</strong>. 
+                        ${displayedEntities.length > 0 ? `Los conectores clave son: ${displayedEntities.join(', ')}.` : ''}
+                    `;
+                } else {
+                    relationshipHTML = "Conexiones semánticas diversas sin un patrón dominante único.";
+                }
+            } else {
+                relationshipHTML = "Esta noticia no tiene conexiones fuertes, lo que sugiere que es un tema de nicho o un evento aislado.";
             }
-            return `
+
+            // Related HTML Generation (Robust)
+            let relatedHTML = "";
+            if (related.length > 0) {
+                const badgesHTML = related.map((r) => {
+                    const n = r.node;
+                    const relationData = r.relationshipData;
+                    let reasonBadges = '';
+
+                    if (relationData && relationData.reasons) {
+                        reasonBadges = relationData.reasons.slice(0, 2).map(reason => {
+                            const badgeColors = {
+                                'companies': '#10b981',
+                                'products': '#3b82f6',
+                                'geography': '#eab308',
+                                'business': '#10b981',
+                                'supply': '#8b5cf6',
+                                'regulatory': '#f59e0b'
+                            };
+                            const color = badgeColors[reason.type] || '#6b7280';
+                            const labels = {
+                                'companies': reason.entities.join(', '),
+                                'products': reason.entities.join(', '),
+                                'geography': reason.entities.join(', '),
+                                'business': reason.entities.join(', '),
+                                'supply': reason.entities.join(', '),
+                                'regulatory': reason.entities.join(', ')
+                            };
+                            return `<span style="display: inline-block; background: ${color}30; color: ${color}; padding: 0.15rem 0.5rem; border-radius: 12px; font-size: 0.7rem; margin-right: 0.25rem;">${labels[reason.type] || reason.type}</span>`;
+                        }).join('');
+                    }
+
+                    return `
                         <div class="synapse-related-item" style="position: relative;">
                             <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem;">
                                 <div style="flex: 1;" onclick="selectSynapseNode('${n.id}')">
@@ -3217,22 +3284,95 @@ document.addEventListener('DOMContentLoaded', () => {
                                 </a>
                             </div>
                         </div>
-                    `}).join('')}
-                </div>
-            ` : '<p style="text-align: center; color: #64748b; padding: 2rem;">No se encontraron noticias relacionadas directamente conectadas.</p>'}
-        `;
+                    `;
+                }).join('');
 
-        content.innerHTML = html;
-        sidebar.classList.remove('hidden');
+                relatedHTML = `
+                    <div class="synapse-related-section">
+                        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem;">
+                            <h4 style="font-size: 0.95rem;"><i class="fa-solid fa-circle-nodes"></i> Noticias Relacionadas</h4>
+                            <span style="font-size: 0.75rem; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 4px 10px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+                                Mostrando ${related.length} de ${totalConnections}
+                            </span>
+                        </div>
+                        ${related.length < totalConnections ? `<p style="font-size: 0.75rem; color: #64748b; margin-top: -0.5rem; margin-bottom: 1rem; font-style: italic;">Mostrando las ${related.length} conexiones semánticas más fuertes.</p>` : ''}
+                        ${badgesHTML}
+                    </div>
+                `;
+            } else {
+                relatedHTML = '<p style="text-align: center; color: #64748b; padding: 2rem;">No se encontraron noticias relacionadas directamente conectadas.</p>';
+            }
+
+            const html = `
+                <div class="synapse-detail-header" style="border-color: ${macroColor}">
+                    <span class="synapse-detail-topic" style="background: ${macroColor}30; color: ${macroColor}">
+                        ${article.displayTopic || article.topic || "Tema"}
+                    </span>
+                    <h2 class="synapse-detail-title">${article.title}</h2>
+                    <div class="synapse-detail-meta">
+                        <span><i class="fa-regular fa-calendar"></i> ${article.year} ${article.month || ''}</span>
+                        <span><i class="fa-solid fa-layer-group"></i> ${article.subtopic || ''}</span>
+                    </div>
+                </div>
+
+                <div class="synapse-detail-summary">
+                    ${article.summary || article.insight || "Sin resumen disponible."}
+                </div>
+                
+                <button onclick="window.open('${article.link}', '_blank')" class="primary-btn" style="width:100%; margin-bottom: 2rem;">
+                    <i class="fa-solid fa-external-link-alt"></i> Leer Artículo Completo
+                </button>
+
+                 <!-- Relationship Explanation -->
+                <div class="synapse-analysis-section" style="background: rgba(59, 130, 246, 0.1); border-left: 3px solid ${macroColor}; padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
+                    <h4 style="margin: 0 0 0.75rem 0; color: #cbd5e1; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
+                        <i class="fa-solid fa-diagram-project"></i> Por qué están conectadas
+                    </h4>
+                    <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: #e2e8f0;">
+                        ${relationshipHTML}
+                    </p>
+                </div>
+
+                <!-- Contextual Analysis -->
+                <div class="synapse-analysis-section" style="background: rgba(139, 92, 246, 0.1); border-left: 3px solid #8b5cf6; padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
+                    <h4 style="margin: 0 0 0.75rem 0; color: #cbd5e1; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
+                        <i class="fa-solid fa-brain"></i> Análisis de Tendencia
+                    </h4>
+                    <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: #e2e8f0;">
+                        ${analysisText}
+                    </p>
+                </div>
+
+                ${relatedHTML}
+            `;
+
+            content.innerHTML = html;
+            sidebar.classList.remove('hidden');
+
+        } catch (e) {
+            console.error("CRITICAL ERROR in showSynapseDetails:", e);
+            // Fallback UI
+            if (content) {
+                content.innerHTML = `
+                    <div style="padding: 2rem; color: #f87171; text-align: center; border: 1px solid #7f1d1d; background: rgba(127, 29, 29, 0.2); border-radius: 8px;">
+                        <h3 style="margin-bottom: 1rem;"><i class="fa-solid fa-bug"></i> Error de Visualización</h3>
+                        <p>Ocurrió un error al generar los detalles de esta noticia.</p>
+                        <pre style="text-align: left; background: rgba(0,0,0,0.3); padding: 1rem; margin-top: 1rem; overflow-x: auto; font-size: 0.8rem;">${e.message}\n${e.stack}</pre>
+                    </div>
+                `;
+                sidebar.classList.remove('hidden');
+            }
+        }
     }
 
     // Generate semantic analysis based on relationship patterns
-    function generateSemanticAnalysis(mainArticle, relatedArticles) {
+    function generateSemanticAnalysis(mainArticle, relatedArticles, totalCount) {
         if (relatedArticles.length === 0) {
             return "Este artículo parece ser un evento único o está pobremente conectado con otras noticias en la base de datos actual.";
         }
 
-        const totalRelated = relatedArticles.length;
+        const displayedCount = relatedArticles.length;
+        const totalConnections = totalCount || displayedCount;
 
         // Collect all entities from relationships
         const allEntities = {
@@ -3254,7 +3394,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // Build analysis text
-        let analysis = `Este artículo forma parte de una red de ${totalRelated} noticias interconectadas semánticamente. `;
+        let analysis = `Este artículo forma parte de una red de <strong>${totalConnections} noticias interconectadas</strong> semánticamente`;
+
+        if (totalConnections > displayedCount) {
+            analysis += `, de las cuales mostramos las <strong>${displayedCount} más significativas</strong>. `;
+        } else {
+            analysis += `. `;
+        }
 
         // Analyze entity patterns
         if (allEntities.companies.size > 0) {
@@ -3273,9 +3419,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Connection strength
-        if (totalRelated >= 6) {
+        if (totalConnections >= 6) {
             analysis += "La alta densidad de conexiones indica un tema de intensa cobertura e interés estratégico.";
-        } else if (totalRelated >= 3) {
+        } else if (totalConnections >= 3) {
             analysis += "El nivel de conexión sugiere un área de interés emergente o en desarrollo.";
         } else {
             analysis += "Las pocas conexiones sugieren un nicho específico o nuevo desarrollo.";
@@ -3285,7 +3431,163 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    // Helper function to generate contextual analysis
+    // --- News Reader Logic (New Feature) ---
+
+    // Expose Global Functions
+    window.openNewsReader = function (id) {
+        const article = state.articles.find(a => String(a.id) === String(id)); // Robust ID check
+        if (!article) return;
+
+        console.log("Opening Reader for:", article.title);
+
+        const overlay = document.getElementById('news-reader-overlay');
+        if (!overlay) return console.error("Overlay not found");
+
+        const contextData = calculateContext(article);
+
+        // Populate Content
+        const titleEl = document.getElementById('reader-title');
+        if (titleEl) titleEl.textContent = article.title;
+
+        // Summary (Fallback to description or insight if summary empty)
+        const summaryEl = document.getElementById('reader-summary');
+        if (summaryEl) summaryEl.textContent = article.summary || article.insight || "Sin resumen disponible.";
+
+        // Date
+        const dateEl = document.getElementById('reader-date');
+        if (dateEl) {
+            const dateStr = article.date instanceof Date && !isNaN(article.date)
+                ? article.date.toLocaleDateString('es-ES', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })
+                : 'Fecha desconocida';
+            dateEl.innerHTML = `<i class="fa-regular fa-calendar"></i> ${dateStr} <span style="margin-left:1rem; opacity:0.7;">${article.source || ''}</span>`;
+        }
+
+        // Link
+        const linkBtn = document.getElementById('reader-link');
+        if (linkBtn) linkBtn.href = article.link;
+
+
+        // Tags
+        const tagsContainer = document.getElementById('reader-tags');
+        if (tagsContainer) {
+            const macroColor = getMacroColor(article.macro);
+            tagsContainer.innerHTML = `
+                <span class="reader-tag" style="background:${macroColor}20; color:${macroColor}; border:1px solid ${macroColor}40;">${article.category}</span>
+                <span class="reader-tag" style="background:#3b82f620; color:#60a5fa; border:1px solid #3b82f640;">${article.displayTopic}</span>
+                ${article.productPillar !== 'transversal' ? `<span class="reader-tag" style="background:#8b5cf620; color:#a78bfa; border:1px solid #8b5cf640;">${article.productPillar}</span>` : ''}
+            `;
+        }
+
+
+
+        // Context / Related News (List Only)
+        const relatedContainer = document.getElementById('reader-related-content');
+        if (relatedContainer) {
+            console.log("Found related container, populating with", contextData.related.length, "items");
+            if (contextData.related && contextData.related.length > 0) {
+                relatedContainer.innerHTML = `
+                    <h5 style="color:#94a3b8; font-size:0.85rem; text-transform:uppercase; margin-bottom:1rem; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:0.5rem;">
+                        <i class="fa-solid fa-link"></i> Lecturas Relacionadas
+                    </h5>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        ${contextData.related.map(r => `
+                            <div onclick="window.openNewsReader('${r.node.id}')" 
+                                 class="related-card-item"
+                            >
+                                <div style="font-size:0.95rem; font-weight:600; color:#e2e8f0; margin-bottom:0.3rem;">${r.node.title}</div>
+                                <div style="font-size:0.75rem; color:#64748b; display:flex; justify-content:space-between;">
+                                    <span>${r.node.data.displayTopic}</span>
+                                    <span>${(r.score * 10).toFixed(0)}% Coincidencia</span>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            } else {
+                relatedContainer.innerHTML = '<div style="color:#64748b; font-size:0.9rem; font-style:italic;">No hay lecturas relacionadas disponibles.</div>';
+            }
+        }
+
+        // Show & Animate
+        overlay.classList.remove('hidden');
+    };
+
+    window.closeNewsReader = function () {
+        const overlay = document.getElementById('news-reader-overlay');
+        if (overlay) overlay.classList.add('hidden');
+    };
+
+    function calculateContext(targetArticle) {
+        let related = [];
+        let totalConnections = 0;
+
+        state.articles.forEach(other => {
+            if (String(other.id) === String(targetArticle.id)) return;
+
+            let score = 0;
+            let reasons = [];
+
+            // 1. Taxonomy Matching
+            if (other.macro === targetArticle.macro) {
+                score += 1;
+                // reasons.push({type: 'business', entities: [other.macro]}); // Don't push generic macro reasons
+            }
+            if (other.displayTopic === targetArticle.displayTopic) {
+                score += 3;
+                reasons.push({ type: 'regulatory', entities: [other.displayTopic] });
+            }
+            if (other.subtopic === targetArticle.subtopic) {
+                score += 5;
+                reasons.push({ type: 'products', entities: [other.subtopic] });
+            }
+
+            // 2. Simple Keyword Overlap (Title/Summary)
+            // Normalize: lower, remove accents
+            const getWords = (txt) => normalizeText(txt).split(/\s+/).filter(w => w.length > 4);
+            const targetWords = new Set(getWords(targetArticle.title + " " + targetArticle.summary));
+            const otherWords = getWords(other.title + " " + other.summary);
+
+            let matches = 0;
+            otherWords.forEach(w => { if (targetWords.has(w)) matches++; });
+
+            if (matches > 0) {
+                score += matches * 0.5;
+                if (matches > 2) reasons.push({ type: 'companies', entities: [`${matches} palabras clave`] });
+            }
+
+            if (score > 3) { // Threshold
+                totalConnections++;
+                related.push({
+                    node: { id: other.id, title: other.title, data: other },
+                    score: score,
+                    relationshipData: { reasons: reasons }
+                });
+            }
+        });
+
+        // Sort by score DESC
+        related.sort((a, b) => b.score - a.score);
+
+        return {
+            related: related.slice(0, 5), // Top 5
+            totalConnections: totalConnections
+        };
+    }
+
+    function getMacroColor(macro) {
+        const colors = {
+            'negocio': '#3b82f6', // blue
+            'retail': '#10b981', // emerald
+            'producto': '#8b5cf6', // violet
+            'wellness': '#f59e0b', // amber
+            'consumidor': '#ec4899', // pink
+            'general': '#64748b'
+        };
+        return colors[macro] || '#64748b';
+    }
+
+
+
     function generateContextualAnalysis(mainArticle, relatedArticles) {
         if (relatedArticles.length === 0) {
             return "Esta noticia representa un evento aislado en este tema. No hay suficientes artículos relacionados para generar un análisis contextual profundo.";
@@ -3327,7 +3629,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (networkInstance) {
             networkInstance.selectNodes([nodeId]);
             const node = networkInstance.body.data.nodes.get(nodeId);
-            if (node) showSynapseDetails(node.data, networkInstance.body.data.nodes.get());
+            if (node) {
+                const allEdges = networkInstance.body.data.edges.get();
+                showSynapseDetails(node.data, networkInstance.body.data.nodes.get(), allEdges, nodeId);
+            }
         }
     }
 
@@ -3725,17 +4030,52 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // 5. Event Handling
+        // 5. Event Handling
         networkInstance.on("click", function (params) {
             if (params.nodes.length > 0) {
                 const nodeId = params.nodes[0];
                 const clickedNode = data.nodes.get(nodeId);
 
                 if (clickedNode.group === 'article') {
-                    // Show article details regardless of dimming state (user requested this)
-                    const allEdges = networkInstance.body.data.edges.get();
-                    showSynapseDetails(clickedNode.data, nodes, allEdges);
+                    // --- DIMMING LOGIC ---
+                    const connectedNodes = networkInstance.getConnectedNodes(nodeId);
+                    const allNodes = data.nodes.get();
+
+                    const updateArray = allNodes.map(n => {
+                        if (n.id === nodeId || connectedNodes.includes(n.id)) {
+                            // Highlight selected and connected
+                            return {
+                                id: n.id,
+                                opacity: 1,
+                                font: { color: '#ffffff' },
+                                color: n.originalColor || n.color
+                            };
+                        } else {
+                            // Dim others
+                            return {
+                                id: n.id,
+                                opacity: 0.1,
+                                font: { color: 'rgba(255,255,255,0)' } // Hide label
+                            };
+                        }
+                    });
+
+                    data.nodes.update(updateArray);
+
+                    // Show article details regardless of dimming state
+                    const allEdges = data.edges.get();
+                    showSynapseDetails(clickedNode.data, nodes, allEdges, nodeId);
                 }
             } else {
+                // --- RESTORE LOGIC ---
+                const allNodes = data.nodes.get();
+                const updateArray = allNodes.map(n => ({
+                    id: n.id,
+                    opacity: n.isActive ? 1 : 0.2, // Restore to original active state
+                    font: { color: n.isActive ? '#ffffff' : 'rgba(255, 255, 255, 0.05)' }
+                }));
+                data.nodes.update(updateArray);
+
                 closeSynapseSidebar();
             }
         });
