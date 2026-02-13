@@ -1,0 +1,134 @@
+/* --- Synapse Sidebar Details --- */
+.synapse-detail-header {
+    margin-bottom: 1rem;
+    /* Reduced from 2rem */
+    border-left: 3px solid #3b82f6;
+    padding-left: 0.75rem;
+}
+
+.synapse-detail-topic {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.65rem;
+    /* Reduced */
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+    letter-spacing: 0.05em;
+}
+
+.synapse-detail-title {
+    font-size: 1.2rem;
+    /* Reduced from 1.4rem */
+    font-weight: 700;
+    line-height: 1.3;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.synapse-detail-meta {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.75rem;
+    /* Reduced */
+    color: #94a3b8;
+}
+
+.synapse-detail-summary {
+    font-size: 0.9rem;
+    /* Reduced */
+    line-height: 1.5;
+    color: #cbd5e1;
+    margin-bottom: 1rem;
+    /* Reduced */
+    padding-bottom: 1rem;
+    /* Reduced */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Analysis Sections */
+.synapse-analysis-section {
+    transition: transform 0.2s ease;
+    padding: 0.75rem !important;
+    /* Force smaller padding */
+    margin-bottom: 1rem !important;
+    /* Force smaller margin */
+    border-radius: 6px !important;
+}
+
+.synapse-analysis-section h4 {
+    margin-bottom: 0.5rem !important;
+    font-size: 0.75rem !important;
+}
+
+.synapse-analysis-section p {
+    font-size: 0.85rem !important;
+    line-height: 1.5 !important;
+}
+
+.synapse-analysis-section:hover {
+    transform: translateX(3px);
+}
+
+/* Related Items */
+.synapse-related-section {
+    margin-top: 1.5rem;
+    position: relative !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding: 0.5rem;
+    /* Reduced */
+    border-radius: 8px;
+}
+
+.synapse-related-item {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    padding: 0.75rem;
+    /* Reduced */
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.synapse-related-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateX(3px);
+}
+
+.synapse-related-title {
+    font-size: 0.75rem;
+    /* Reduced */
+    font-weight: 600;
+    color: #e2e8f0;
+    margin-bottom: 0.25rem;
+    line-height: 1.3;
+}
+
+.synapse-related-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.7rem;
+    /* Reduced */
+    color: #64748b;
+}
+
+/* Scrollbar adjustment for sidebar */
+#synapse-details::-webkit-scrollbar {
+    width: 4px;
+    /* Thinner */
+}
+
+#synapse-details::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#synapse-details::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+}
