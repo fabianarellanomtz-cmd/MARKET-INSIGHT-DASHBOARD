@@ -1,1 +1,7212 @@
-﻿const PRELOADED_DATA = [{"URL":"https://www.medestheticsmag.com/home/article/22946829/neurotoxins-surge-hyaluronic-fillers-slip-glp1-and-skincare-usher-in-a-new-chapter","AÑO":"2025","MES":"JULIO","TIPO DE FUENTE":"ARTÍCULO","CATEGORÍA":"TENDENCIAS DE MERCADO","SUBCATEGORÍA":"Impacto GLP-1 \u0026 Inyectables","INSIGHT":"Cambio de tendencia en inyectables\n\n","RESUMEN":"El uso de neurotoxinas (Botox) sigue creciendo, mientras que los rellenos de ácido hialurónico (HA) tradicionales están perdiendo terreno. ¿La causa? El auge de los medicamentos GLP-1 (como Ozempic) está cambiando las necesidades del paciente: ahora buscan menos volumen (fillers) y más tensado de piel (skin tightening) y bioestimuladores para combatir la flacidez por pérdida de peso rápida. Además, el skincare de grado médico se está convirtiendo en un servicio de entrada clave para las clínicas, desligándose de los inyectables."},{"URL":"https://www.medestheticsmag.com/research/article/22952820/global-medical-aesthetics-market-to-triple-by-2033-fueled-by-minimally-invasive-tech-and-ai-solutions","AÑO":"2025","MES":"OCTUBRE","TIPO DE FUENTE":"ARTÍCULO","CATEGORÍA":"PROYECCIONES DE MERCADO","SUBCATEGORÍA":"Crecimiento, IA y Tecnología","INSIGHT":"El mercado se triplicará para 2033 gracias a la IA y tecnologías no invasivas.","RESUMEN":"Se proyecta un crecimiento masivo del mercado global de estética médica para 2033. Los dos motores principales serán la demanda de procedimientos mínimamente invasivos y la adopción de soluciones de Inteligencia Artificial para personalizar y optimizar resultados clínicos."},{"URL":"https://www.eleconomista.es/salud-bienestar/amp/13662098/mesoestetic-sera-la-primera-empresa-espanola-en-vender-botox-tras-un-acuerdo-en-corea","AÑO":"2025","MES":"NOVIEMBRE","TIPO DE FUENTE":"NOTICIA","CATEGORÍA":"COMPETENCIA","SUBCATEGORÍA":"Alianzas Estratégicas","INSIGHT":"Mesoestetic desafía a los gigantes globales entrando al mercado de toxinas (antes exclusivo de grandes farmas) mediante alianza coreana.","RESUMEN":"Mesoestetic firmó un acuerdo con la surcoreana Protox para licenciar y comercializar toxina botulínica en Europa. Planean obtener el registro en 3 años y proyectan ingresos de 30 millones de euros, convirtiéndose en el primer laboratorio español con este activo en su portafolio."},{"URL":"https://oem.com.mx/elsoldemexico/mexico/labiales-y-sombras-toxicas-investigadores-hallan-metales-pesados-en-cosmeticos-26987880","AÑO":"2025","MES":"NOVIEMBRE","TIPO DE FUENTE":"NOTICIA","CATEGORÍA":"REGULACIÓN Y SEGURIDAD","SUBCATEGORÍA":"Toxicidad \u0026 Etiquetado","INSIGHT":"Investigadores de la UNAM exigen etiquetado de advertencia (tipo cigarros) en cosméticos tras hallar metales pesados y disruptores endocrinos.","RESUMEN":"Estudio de la UNAM analizó marcas de gama baja, media y alta, encontrando plomo, arsénico y vanadio, especialmente en productos económicos. Advierten sobre riesgos de cáncer y alteraciones hormonales, presionando a COFEPRIS para regular advertencias en los empaques."},{"URL":"https://lasillarota.com/nacion/2025/11/26/se-inyectan-aceite-para-modelar-su-cuerpo-hoy-piden-atencion-medica-570948.html","AÑO":"2025","MES":"NOVIEMBRE","TIPO DE FUENTE":"NOTICIA","CATEGORÍA":"SALUD PÚBLICA","SUBCATEGORÍA":"Crisis de Biopolímeros","INSIGHT":"Creciente crisis de salud pública por uso de modelantes ilícitos (aceites) genera presión en hospitales y demanda de regulación.","RESUMEN":"Reportaje sobre víctimas (principalmente mujeres trans) con secuelas graves por inyecciones de aceites industriales y biopolímeros. Exigen atención médica pública ante la falta de registro oficial de muertes y complicaciones por procedimientos estéticos clandestinos."},{"URL":"https://heraldodemexico.com.mx/opinion/2025/11/27/loreal-cuantifica-impacto-en-mexico-748202.html","AÑO":"2025","MES":"NOVIEMBRE","TIPO DE FUENTE":"COLUMNA DE OPINION","CATEGORÍA":"IMPACTO CORPORATIVO","SUBCATEGORÍA":"Huella Económica \u0026 ESG","INSIGHT":"L\u0027Oréal blinda su operación local cuantificando su \"licencia social\": 56 millones de consumidores y 43k empleos indirectos.","RESUMEN":"L\u0027Oréal presentó un informe inédito sobre su impacto socioeconómico en México. Destacan datos de \"poder suave\" para negociar con gobierno y sociedad: impactan a casi la mitad de la población (56M personas), generan más de 43,000 empleos en su cadena de valor y producen 420 millones de unidades localmente."},{"URL":"https://heraldodemexico.com.mx/opinion/2025/11/28/dermatitis-atopica-mas-alla-de-la-piel-748513.html","AÑO":"2025","MES":"NOVIEMBRE","TIPO DE FUENTE":"COLUMNA DE OPINION","CATEGORÍA":"POLÍTICA PÚBLICA","SUBCATEGORÍA":"Agenda Legislativa \u0026 Concientización","INSIGHT":"El Poder Legislativo coloca la Dermatitis Atópica en su agenda prioritaria, abriendo puerta a futuras normas de acceso a tratamiento y reducción de estigma.","RESUMEN":"La diputada Rocío Abreu (Comisión de Salud) destaca que la DA afecta al 15% de la población mexicana. Tras un estudio de Fundación IDEA sobre el impacto económico y social, se anunció un foro legislativo para abordar el diagnóstico tardío y el acceso a terapias, iluminando San Lázaro como acto simbólico."},{"URL":"https://www.linkedin.com/posts/jean-yves-coste-672aa924_maisonepigenetic-longevity-epigenetics-activity-7401178963932286976-YO_0?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"LINKEDIN POST","CATEGORÍA":"INNOVACIÓN/NUEVOS NODELOS DE NEGOCIOS","SUBCATEGORÍA":"Longevidad \u0026 Epigenética","INSIGHT":"La estética evoluciona hacia \"Clínicas de Longevidad\": ya no se vende solo \"belleza\", se vende \"revertir la edad biológica\".","RESUMEN":"Jean-Yves Coste destaca el modelo de Maison Epigenetic como pionero en aplicar los \"7 Pilares de la Epigenética\". El servicio combina diagnósticos de edad biológica (ADN/Estilo de vida) con tratamientos estéticos, marcando el paso de la corrección superficial a la \"rejuvenación biológica\" como el nuevo driver de valor en la industria."},{"URL":"https://www.instagram.com/p/DRhn-z5lkZ_/?utm_source=ig_web_copy_link\u0026igsh=NTc4MTIwNjQ2YQ==","AÑO":"2025","MES":"NOVIEMBRE","TIPO DE FUENTE":"INSTAGRAM POST","CATEGORÍA":"TENDENCIAS DE MERCADO","SUBCATEGORÍA":"Filler Fatigue \u0026 Natural Look","INSIGHT":"Alerta de Marketing","RESUMEN":"El crecimiento de fillers se estancó. Las grandes marcas están eliminando la palabra \"relleno\" de su marketing para combatir el rechazo a la \"Instagram Face\"."},{"URL":"https://www.globalcosmeticsnews.com/procter-gamble-acquires-clean-label-otc-brand-wonderbelly/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA","CATEGORÍA":"M\u0026A (Fusiones y Adquisiciones)","SUBCATEGORÍA":"Clean OTC \u0026 Wellness","INSIGHT":"La tendencia \"Clean Label\" salta de la cosmética a la farmacia: P\u0026G compra innovación para ofrecer medicinas sin aditivos artificiales, validando que el consumidor lee etiquetas incluso en medicamentos.","RESUMEN":"P\u0026G adquiere Wonderbelly, una marca de salud digestiva fundada en 2022 que reformuló los antiácidos tradicionales eliminando talco, tintes y edulcorantes artificiales. El movimiento busca capturar al consumidor que exige la misma transparencia en su botiquín que en su rutina de belleza."},{"URL":"https://www.globalcosmeticsnews.com/2026-predictions-the-future-of-the-global-cosmetics-industry/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"PODCAST/ENTREVISTA","CATEGORÍA":"Tendencias Macro","SUBCATEGORÍA":"Longevidad \u0026 Neurocosmética","INSIGHT":"La narrativa evoluciona de \"Anti-aging\" a \"Salud y Resiliencia\": el consumidor 2026 busca productos que protejan la barrera cutánea del estrés climático y psicológico, priorizando la \"calma\" sobre la corrección agresiva.","RESUMEN":"Julia Wray predice un 2026 definido por la \"Slow Beauty\" y la comodidad. Puntos clave: 1) Auge del \"I-Beauty\" (Belleza de India/Sur de Asia) como la nueva K-Beauty; 2) Consolidación del \"Comercio AI\" (compras vía ChatGPT); 3) Regulaciones verdes estrictas (fin del Greenwashing) y 4) Productos híbridos que combinen estética con bienestar emocional (texturas sensoriales, ingredientes neuro-activos)."},{"URL":"https://www.globalcosmeticsnews.com/clinique-la-prairie-launches-life-reset-mental-health-longevity-program/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA","CATEGORÍA":"Wellness Médico \u0026 Longevidad","SUBCATEGORÍA":"Neuro-Estética \u0026 Salud Mental","INSIGHT":"El \"Lujo Supremo\" ya no es solo verse joven, sino \"resetear\" el estrés. La longevidad mental se convierte en el nuevo producto premium, usando diagnósticos clínicos para tratar el agotamiento como causa del envejecimiento.","RESUMEN":"CLP lanza \"Life Reset\", un programa de 7 días enfocado en salud mental y longevidad en sus clínicas de Suiza y China. Basado en los \"9 sellos de salud mental\", combina evaluaciones médicas (sangre, genética) con hipnoterapia, estimulación del nervio vago y coaching psicológico para reducir la carga de estrés biológico."},{"URL":"https://www.globalcosmeticsnews.com/2025-beauty-industry-review-trends-tech-regulation/","AÑO":"2025","MES":"DICIEMBRE","TIPO DE FUENTE":"PODCAST / REVIEW","CATEGORÍA":"Panorama de Industria","SUBCATEGORÍA":"Regulación \u0026 Consolidación","INSIGHT":"2025 fue el año del \"Darwinismo Regulatorio\": leyes como MoCRA (EE.UU.) y el Green Deal (UE) forzaron a las marcas a profesionalizarse o morir, eliminando el ruido de marcas \"indie\" informales.","RESUMEN":"Julia Wray analiza los hitos de 2025. Destacan: 1) El impacto masivo de la Ley MoCRA en EE.UU., que elevó los estándares de seguridad y trazabilidad; 2) La presión económica que causó una ola de insolvencias en marcas pequeñas (consolidación del mercado); y 3) El auge de la Biotech como respuesta obligada a la escasez de ingredientes naturales y crisis climática."},{"URL":"https://www.globalcosmeticsnews.com/innovating-for-gen-x-the-future-of-beauty-in-2025/","AÑO":"2025","MES":"NOVIEMBRE","TIPO DE FUENTE":"PODCAST / ENTREVISTA","CATEGORÍA":"Target de Mercado","SUBCATEGORÍA":"Silver Economy \u0026 Menopausia","INSIGHT":"La Gen X es la \"generación olvidada\" con mayor lealtad y dinero. Odian el marketing exagerado (\"No BS\"); la oportunidad está en soluciones para la menopausia y \"fragancias funcionales\" que calmen el estrés.","RESUMEN":"Elena (CPL Aromas) analiza a la Gen X como consumidores cínicos pero leales que buscan eficacia probada sobre tendencias virales. Destaca el auge de la \"Quiet Luxury\" en belleza y el uso de fragancias funcionales (notas de ámbar, almizcle, sándalo) diseñadas no solo para oler bien, sino para gestionar los cambios de humor y el estrés propios de la perimenopausia."},{"URL":"https://www.globalcosmeticsnews.com/innovating-for-millennials-the-future-of-beauty-in-2025/","AÑO":"2025","MES":"OCTUBRE","TIPO DE FUENTE":"PODCAST / ENTREVISTA","CATEGORÍA":"Target de Mercado","SUBCATEGORÍA":"Skintellectuals \u0026 Nostalgia","INSIGHT":"El Millennial no compra por impulso: investiga ingredientes (\"Skintellectual\") y exige ética corporativa. La oportunidad emocional radica en la Nostalgia de los 90s (aromas Gourmand) y productos que creen \"experiencias\" de spa en casa.","RESUMEN":"Elena (CPL Aromas) define a los Millennials como nativos digitales que priorizan la experiencia sobre la posesión y exigen transparencia total en ingredientes y sostenibilidad. Las tendencias clave son el \"Scent-scaping\" (usar fragancias para separar trabajo/vida en casa) y el auge de notas Gourmand nostálgicas (vainilla, caramelo, café) que ofrecen confort emocional."},{"URL":"https://www.globalcosmeticsnews.com/innovating-gen-z-adults-the-future-of-beauty-in-2025/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"PODCAST / ENTREVISTA","CATEGORÍA":"Target de Mercado","SUBCATEGORÍA":"Identidad Digital \u0026 Dopamina","INSIGHT":"La Gen Z no busca \"perfección\", busca \"expresión\". Usan TikTok como su Google. La oportunidad está en la \"Belleza Dopamínica\" (colores/texturas que mejoren el humor) y productos híbridos que ahorren tiempo y dinero.","RESUMEN":"Elena (CPL Aromas) define a la Gen Z bajo el concepto de \"Búsqueda de la Verdad\" y fluidez de identidad. Puntos clave: 1) Dopamine Beauty: El maquillaje se usa para levantar el ánimo, no para cubrir defectos; 2) Fragancias: Prefieren perfiles unisex/gender-neutral y practican el layering (mezclar perfumes) para crear aromas únicos; y 3) Valores: Exigen transparencia radical; si una marca no es ética, la descartan inmediatamente."},{"URL":"https://www.globalcosmeticsnews.com/global-cosmetics-news-weekly-review-week-3-january-2026/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"RESUMEN SEMANAL","CATEGORÍA":"Panorama de Industria","SUBCATEGORÍA":"Winners \u0026 Losers (Consolidación)","INSIGHT":"Polarización del mercado","RESUMEN":"Gigantes como L\u0027Oréal invierten masivamente en Tech (India), mientras marcas de prestigio \"Indie\" (Malin+Goetz, CoverFX) quiebran o cierran, señalando el fin de la era del dinero fácil para marcas sin diferenciación clara."},{"URL":"https://www.globalcosmeticsnews.com/global-cosmetics-news-weekly-review-week-2-january-2026/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"RESUMEN SEMANAL","CATEGORÍA":"Tech \u0026 Retail","SUBCATEGORÍA":"Crisis de Lujo \u0026 CES 2026","INSIGHT":"Polarización: Tecnología futurista (uñas inteligentes) vs. colapso del retail tradicional (Saks en bancarrota). Las marcas deben diversificar canales.","RESUMEN":"1) CES 2026: Presentación de uñas inteligentes \"iPolish\" que cambian de color vía app; 2) Crisis Retail: Saks Global avanza en bancarrota afectando a acreedores como Chanel y Kering; 3) Ciencia: Beiersdorf se asocia con HIPS para investigación del microbioma."},{"URL":"https://www.globalcosmeticsnews.com/sunday-business-funding-the-future/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ANÁLISIS FINANCIERO","CATEGORÍA":"Estrategia de Capital","SUBCATEGORÍA":"Infraestructura vs. Hype","INSIGHT":"Cambio de Flujo de Dinero: Los inversores han dejado de financiar \"marcas de un solo producto\" para financiar infraestructura de datos (Blackstone invierte en Applecart) y consolidación de portafolios (Reliance compra marcas heritage). El valor está en quién controla la distribución y la inteligencia del cliente, no solo la innovación de producto.","RESUMEN":"Análisis de las tendencias de inversión de 2026: 1) Consolidación: Reliance Consumer compra derechos globales de marcas clásicas (Brylcreem, Toni\u0026Guy) para revivirlas en mercados emergentes; 2) Tech-Infrastructure: L\u0027Oréal invierte en hubs tecnológicos y Blackstone mete $100M USD en Applecart (inteligencia de datos), validando que el \"Data\" es el nuevo activo estratégico; y 3) Simplificación: Coty vende su parte restante de Wella para limpiar su balance y enfocarse."},{"URL":"https://cosmeticsbusiness.com/loreal-launch-new-device-lancome-nano-resurfacer-microneedling-inspired-treatments-home","AÑO":"2025","MES":"OCTUBRE","TIPO DE FUENTE":"NOTICIA DE PRODUCTO","CATEGORÍA":"Beauty Tech","SUBCATEGORÍA":"At-Home Aesthetics (Clínica en Casa)","INSIGHT":"Estrategia de Ecosistema: L\u0027Oréal ataca el mercado clínico con un dispositivo \"sin dolor\" (£250) que no funciona solo, sino que obliga a usar su serum Rénergie. El negocio no es el aparato, es la fidelización al consumible de alto margen.","RESUMEN":"Lancôme lanza el \"Rénergie Nano Resurfacer 400-Booster\", un dispositivo inspirado en el microneedling profesional. Usa un chip con 400 nanopuntas para crear microcanales indoloros en la piel, prometiendo maximizar la absorción de ingredientes activos sin el tiempo de recuperación de una clínica."},{"URL":"https://www.linkedin.com/posts/mesoestetic-pharma-group_seguimos-ampliando-nuestra-presencia-en-china-activity-7417600162946048001-hiI2?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"LINKEDIN POST (CORPORATE)","CATEGORÍA":"Estrategia de Expansión","SUBCATEGORÍA":"Nutricosmética \u0026 China","INSIGHT":"Validación de Tendencia: Un jugador clave (Mesoestetic) confirma que para crecer en China ya no basta con aplicar cremas (\"Out\"), es obligatorio ofrecer suplementos (\"In\"). La estrategia \"In \u0026 Out\" se vuelve el estándar de entrada en Asia.","RESUMEN":"Mesoestetic anuncia alianza estratégica con Ruoyuchen (RYC) como distribuidor oficial de su línea de nutracosmetics en China. El objetivo es capturar la creciente demanda del consumidor asiático por soluciones de \"cuidado de la piel desde el interior\"."},{"URL":"https://cosmeticsbusiness.com/saks-global-creditors-bankruptcy-chapter11-chanel-estee-lauder-beiersdorf-puig","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA FINANCIERA","CATEGORÍA":"Crisis de Retail","SUBCATEGORÍA":"Riesgo Crediticio \u0026 Dependencia","INSIGHT":"Alerta Financiera: La bancarrota de Saks revela la exposición millonaria de marcas \"intocables\" (Chanel $136M, Beiersdorf $22M). El DTC (Direct to Consumer) ya no es solo marketing, es un seguro de vida contra el colapso del retail tradicional.","RESUMEN":"Saks Global (dueño de Saks Fifth Avenue y Neiman Marcus) entró en Chapter 11 debiendo sumas masivas a sus proveedores. La lista de acreedores no asegurados incluye: Chanel ($136M), Kering ($59.9M), Beiersdorf ($22.2M), Estée Lauder ($16M) y Puig ($12M). El grupo aseguró $1.75bn para reestructurarse, pero el golpe a la liquidez de sus proveedores es inmediato."},{"URL":"https://www.linkedin.com/posts/juanjoseibarra_ultabeauty-retaildebelleza-maezxico-activity-7416811589535920128-S0_N?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"LINKEDIN POST (EXPERT)","CATEGORÍA":"Retail \u0026 Distribución","SUBCATEGORÍA":"Expansión México \u0026 Tienda Física","INSIGHT":"Dato Contra-Intuitivo: El 70% de la belleza en México todavía se cierra en tienda física. Ulta valida que el consumidor busca \"servicios\" (recurrencia) y no solo producto. La guerra comercial de 2026 no será por precio, sino por quién ofrece la mejor asesoría en piso.","RESUMEN":"Juan José Ibarra (Director Sr. Ventas LATAM) analiza el cierre de 2025 de Ulta en México: 9 tiendas operativas en plazas premium (Antara, Andares, etc.). Destaca que el mercado mexicano vale ya \u003e$10B USD y que la estrategia para 2026 es agresiva en aperturas, enfocándose en \"servicios como motor de recurrencia\" para diferenciarse del retail masivo."},{"URL":"https://www.instagram.com/p/DS0gmUFjYSw/?utm_source=ig_web_copy_link\u0026igsh=NTc4MTIwNjQ2YQ==","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"INSTAGRAM POST (INDUSTRY)","CATEGORÍA":"Panorama Competitivo","SUBCATEGORÍA":"Consolidación de Lujo (M\u0026A)","INSIGHT":"Jaque Mate en Lujo: L\u0027Oréal asegura su dominio total al integrar Kering Beauté (Balenciaga, Bottega) y Creed. El mensaje para la competencia es claro: el segmento \"Fashion-Beauty\" está saturado; la oportunidad real queda solo en nichos clínicos hiper-especializados o biotecnología donde los gigantes son más lentos.","RESUMEN":"Visualización del portafolio 2026 de L\u0027Oréal tras cerrar adquisiciones históricas: 1) Kering Beauté (€4B) trae licencias por 50 años de Bottega Veneta, Balenciaga y Alexander McQueen (transfiriendo en H1 2026); 2) House of Creed (€4B) refuerza la alta perfumería; y 3) Adquisiciones tácticas como Dr.G (Dermo coreana) y Color Wow (Pelo). Nota: Gucci sigue con Coty hasta 2028."},{"URL":"Https://www.gcimagazine.com/brands-products/news/news/22959382/lvmh-reports-stable-organic-revenue-in-perfumes-cosmetics-as-operating-profit-rises-8","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE FINANCIERO","CATEGORÍA":"Estrategia Corporativa","SUBCATEGORÍA":"Premiumización \u0026 Rentabilidad","INSIGHT":"La Lección de Lujo: LVMH demuestra que en un mercado incierto, la estrategia ganadora no es vender más, sino vender mejor. Mantuvieron ingresos estables pero aumentaron ganancias operativas, lo que indica un éxito en subir precios y enfocar el mix de ventas hacia productos de ultra-lujo y alto margen (fragancias de nicho, marcas patrimoniales).","RESUMEN":"LVMH reporta ingresos orgánicos \"estables\" en su división de Perfumes \u0026 Cosméticos, pero logra un aumento en su beneficio operativo. Esto sugiere una exitosa estrategia de premiumización, disciplina de costos y un mix de productos enfocado en sus marcas de mayor valor y margen (Dior, Sephora, y las recientes adquisiciones de nicho)."},{"URL":"https://www.cosmeticsandtoiletries.com/news/event-coverage/article/22958991/cosmetics-toiletries-magazine-10-new-frontiers-in-beauty-highlights-from-the-2025-incosmetics-asia-innovation-zone-plus-apac-goes-green-exclusive-reports","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"POST-EVENTO","CATEGORÍA":"REPORTE DE EVENTO / I+D","SUBCATEGORÍA":"Innovación \u0026 I+D","INSIGHT":"Ingredientes \u0026 Sostenibilidad APAC","RESUMEN":"El Futuro de la Fórmula: La innovación ya no se trata solo de \"nueva eficacia\", sino de \"eficacia sostenible\". Asia está liderando el cambio hacia ingredientes \"verdes\" no por marketing, sino por necesidad de cadena de suministro y regulación. Las marcas que adopten estas nuevas tecnologías de formulación (biotech, upcycling) tendrán una ventaja regulatoria y de marketing en 2026."},{"URL":"Https://www.healthcarebusinesstoday.com/allergan-ha-filler-myths/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE INDUSTRIA / CAMPAÑA","CATEGORÍA":"Evolución del Consumidor","SUBCATEGORÍA":"Fatiga de Rellenos \u0026 Rebranding","INSIGHT":"Contraofensiva de la Industria: Allergan (líder de fillers) lanza una campaña masiva basada en datos para combatir la \"fatiga de rellenos\" y el miedo a resultados antinaturales viralizados en redes. El nuevo mandato es \"resultados naturales\" (exigido por el 91% de la Gen Z/Millennials) y el médico se convierte en el principal embajador para combatir la desinformación. La categoría se defiende reenfocando la narrativa hacia la sutileza y la seguridad.","RESUMEN":"Allergan Aesthetics lanza la campaña y reporte \"Naturally You\" para combatir la desinformación sobre los fillers de ácido hialurónico (HA). La iniciativa busca educar a consumidores y médicos con datos clínicos, contrarrestando los miedos a resultados antinaturales. Destaca que el 91% de los consumidores jóvenes priorizan \"resultados naturales\", marcando un cambio cultural lejos de la estética exagerada."},{"URL":"Https://www.linkedin.com/posts/isdin_isdin-leadership-purpose-activity-7421972030604005376-tsJw?utm_source=share\u0026utm_medium=member_ios\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE RETAIL","CATEGORÍA":"Retail \u0026 Distribución","SUBCATEGORÍA":"Del Nicho al Masivo \u0026 Tendencia Bodycare","INSIGHT":"Escalando la Viralidad: La marca australiana Ciroa demuestra cómo una marca nicho \"viral\" puede entrar al retail masivo (Boots UK) en solo 4 meses. Su éxito valida la tendencia del \"Everything Shower\" (rutinas sensoriales largas en Gen Z) y el poder de los aromas Gourmand (pistacho, vainilla) a precios accesibles (£8-£10) para capturar al consumidor joven.","RESUMEN":"Ciroa, una marca australiana de cuidado corporal de rápido crecimiento, asegura su primer socio minorista en el Reino Unido con Boots. La marca, conocida por sus geles, exfoliantes y mantecas corporales con aromas como Pistachio Gelato y Vanilla-icious, capitaliza las tendencias de \"Everything Shower\" y precios accesibles (£7.95-£9.95), pasando de viral export a jugador mainstream nacional."},{"URL":"2026ENERONOTICIA DE RETAILRetail \u0026 DistribuciónDel Nicho al Masivo \u0026 Tendencia BodycareEscalando la Viralidad: La marca australiana Ciroa demuestra cómo una marca nicho \"viral\" puede entrar al retail masivo (Boots UK) en solo 4 meses. Su éxito valida la tendencia del \"Everything Shower\" (rutinas sensoriales largas en Gen Z) y el poder de los aromas Gourmand (pistacho, vainilla) a precios accesibles (£8-£10) para capturar al consumidor joven.Ciroa, una marca australiana de cuidado corporal de rápido crecimiento, asegura su primer socio minorista en el Reino Unido con Boots. La marca, conocida por sus geles, exfoliantes y mantecas corporales con aromas como Pistachio Gelato y Vanilla-icious, capitaliza las tendencias de \"Everything Shower\" y precios accesibles (£7.95-£9.95), pasando de viral export a jugador mainstream nacional.","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE FINANCIERO","CATEGORÍA":"Panorama Financiero","SUBCATEGORÍA":"Resiliencia Retail (Sephora)","INSIGHT":"El Efecto Lápiz Labial 2.0: En un entorno geopolítico hostil donde la moda de lujo cae (-5%), Sephora crece (+4% ventas, +28% beneficio). La clave fue la exclusividad de lanzamientos virales (Rhode de Hailey Bieber vendió $10M en 2 días) y la expansión de tiendas físicas (+100 aperturas). El retail de belleza es el \"refugio seguro\" del grupo.","RESUMEN":"LVMH califica el 2025 de Sephora como \"extraordinario\" a pesar del entorno global desfavorable. La división de Selective Retailing creció un 4% orgánico y aumentó su margen operativo al 9.7% (+2 puntos). Factores de éxito: 1) Lanzamiento récord de Rhode (Hailey Bieber) en exclusiva; 2) Innovación en fragancias propias (Dior, Guerlain); y 3) Apertura de 100 nuevas tiendas, consolidando su liderazgo mundial."},{"URL":"https://www.mddionline.com/ma/inmode-reportedly-nearing-1-1b-acquisition-with-foreign-investment-fund","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA M\u0026A","CATEGORÍA":"Medical Aesthetics","SUBCATEGORÍA":"Hardware \u0026 Private Equity","INSIGHT":"Consolidación de Hardware: InMode, líder en RF mínimamente invasiva (Morpheus8), podría ser adquirida por un fondo extranjero por $1.1B para volverse privada. Esto señala que los inversores ven valor en la tecnología probada que ha sufrido en bolsa por la desaceleración post-pandemia. Sigue la tendencia de privatización de gigantes de dispositivos (Cynosure, Lumenis, Syneron) para reestructurar sin la presión de Wall Street.","RESUMEN":"Reporte indica que InMode (Yokneam, Israel) está en conversaciones avanzadas para ser adquirida por un fondo de inversión extranjero por aprox. $1.1 mil millones. La compañía, famosa por su tecnología de RF, se volvería privada tras enfrentar presión en sus acciones y una desaceleración en ventas de bienes de capital estéticos. Analistas señalan que, dado el bajo crecimiento actual, una venta a Private Equity tiene más sentido que a un comprador estratégico."},{"URL":"https://koreajoongangdaily.joins.com/news/2026-01-16/business/industry/Koreas-Hugel-to-launch-direct-sales-in-bid-to-expand-share-in-US-medical-aesthetics-market/2501685","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ESTRATEGIA CORPORATIVA","CATEGORÍA":"Estrategia de Expansión","SUBCATEGORÍA":"Asian Invasion \u0026 Direct Sales","INSIGHT":"Declaración de Guerra: Hugel (Corea) ficha a la ex-CEO de Allergan, Carrie Strom, y elimina intermediarios para lanzar venta directa en EE. UU. El objetivo es capturar el 14% del mercado de toxinas para 2030. Esto valida que las marcas asiáticas ya no compiten solo por precio, sino por talento ejecutivo de primer nivel y relaciones directas con médicos.","RESUMEN":"Hugel anuncia la creación de una organización de ventas directas en EE. UU. para su toxina Letybo, adoptando un \"modelo híbrido\" (distribuidor Benev + equipo propio). La estrategia es liderada por Carrie Strom (nueva CEO Global y ex-presidenta de Allergan Aesthetics), con el objetivo de controlar la relación con los médicos y aumentar el margen. Planean que EE. UU. represente el 30% de sus ingresos globales para 2028."},{"URL":"https://www.linkedin.com/posts/h%26m_behind-the-scenes-activity-7422292553376432128-4jV5?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"LINKEDIN POST (CORPORATE)","CATEGORÍA":"Estrategia de Marca","SUBCATEGORÍA":"Cross-Category \u0026 IP Extension","INSIGHT":"El Maquillaje como Franquicia de Estilo de Vida: e.l.f. ha construido tal valor de marca en sus líneas (Power Grip, Halo Glow) que ahora pueden vender perfumes basados en ellas. H\u0026M capitaliza el tráfico de la \"Comunidad Dupe\" de e.l.f. y valida que las franquicias de producto masivo ahora tienen el mismo peso cultural que una casa de moda.","RESUMEN":"H\u0026M Beauty lanza su primera colaboración con e.l.f. Cosmetics: una colección de Eau de Parfum de edición limitada inspirada en las líneas icónicas de e.l.f. (Power Grip, Halo Glow, Camo Blend). Mirja Kjellberg (H\u0026M) destaca el uso del feedback masivo e instantáneo del cliente de H\u0026M como motor de desarrollo y la estrategia de traducir \"personalidades de producto\" a aromas."},{"URL":"https://www.linkedin.com/posts/global-cosmetic-industry-gci-_the-tariff-mitigation-secret-every-beauty-activity-7422289084645130240-L9GI?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"LINKEDIN POST (INDUSTRY)","CATEGORÍA":"Cadena de Suministro \u0026 Finanzas","SUBCATEGORÍA":"Gestión Arancelaria (Tariffs)","INSIGHT":"Rescate de Margen Oculto: Con los aranceles convertidos en política permanente de EE.UU. en 2026, la estrategia de precios no es suficiente. El \"Duty Drawback\" permite recuperar hasta el 99% de los impuestos de importación si el producto se re-exporta. Para una marca global que manufactura en un sitio y vende en otro, esto puede significar recuperar puntos vitales de EBITDA que se creían perdidos.","RESUMEN":"Global Cosmetic Industry destaca que los aranceles son ahora un \"pilar central\" de la política económica de EE.UU., obligando a las marcas a buscar mitigación. Señalan el Duty Drawback como una oportunidad masiva y subutilizada: la capacidad de reclamar el reembolso del 99% de los aranceles pagados sobre bienes importados que luego son exportados o destruidos. Sydnee Goodell (CITTA Brokerage) explica por qué más marcas están activando este mecanismo como estrategia de supervivencia."},{"URL":"Https://www.gcimagazine.com/brands-products/bath-body/news/22959455/target-unveils-its-largestever-spring-beauty-reset-doubling-down-on-prestigeatmass-kbeauty-and-skin-health","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA RETAIL","CATEGORÍA":"Retail \u0026 Distribución","SUBCATEGORÍA":"Masstige \u0026 K-Beauty Expansion","INSIGHT":"La Defensa Post-Divorcio: Ante el fin de su alianza con Ulta (Agosto 2026), Target lanza su mayor renovación de belleza histórica. La estrategia es clara: reemplazar el tráfico de \"Prestige\" de Ulta con una curaduría masiva de K-Beauty (Round Lab, SKIN1004) y marcas \"Clinical Masstige\" (Prequel, Naturium). Target le dice al consumidor: \"No necesitas a Ulta para encontrar lo viral y científico, lo tenemos aquí y más barato\".","RESUMEN":"Target revela su mayor \"Spring Beauty Reset\" de la historia, duplicando su apuesta por el segmento \"Prestige-at-Mass\", K-Beauty y Salud de la Piel. La expansión incluye la entrada agresiva de marcas coreanas virales (Round Lab, TONYMOLY) y líneas clínicas accesibles para llenar el vacío de credibilidad \"prestige\" antes de que concluya su asociación con Ulta Beauty a finales de año."},{"URL":"Https://cosmeticsbusiness.com/how-male-fragrances-are-getting-an-elevation-2026","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE DE TENDENCIA","CATEGORÍA":"Fragancias","SUBCATEGORÍA":"Premiumización Masculina","INSIGHT":"El Fin de la Colonia Genérica: El mercado masculino está recibiendo una \"elevación\" obligada. El consumidor Gen Z rechaza los aromas básicos (\"sport\") y exige notas complejas (licores, gourmand, maderas verdes) y mayores concentraciones (Eau de Parfum sobre Eau de Toilette). Las marcas indie están creciendo (+16%) más rápido que los gigantes, forzando a marcas históricas (Aramis, Ralph Lauren, Prada) a reinventar sus clásicos con narrativas de \"autoexpresión\" en lugar de simple \"conquista\".","RESUMEN":"Análisis de cómo la categoría de fragancias masculinas está evolucionando en 2026. Destaca el auge de los acordes \"Boozy\" (notas de whisky, ron, cognac) como un giro refinado para atraer a compradores jóvenes. Marcas de lujo están lanzando campañas centradas en una \"nueva masculinidad\" más suave y expresiva, mientras que la producción se mueve hacia ingredientes de mayor calidad para competir con el auge de la perfumería nicho en TikTok Shop."},{"URL":"Https://www.elfinanciero.com.mx/mundo-empresa/2026/01/27/docplanner-alcanza-la-rentabilidad-y-consolida-su-apuesta-por-la-inteligencia-artificial-en-salud/#","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE NEGOCIOS","CATEGORÍA":"Digital Health","SUBCATEGORÍA":"SaaS Médico \u0026 IA Operativa","INSIGHT":"El Médico Aumentado: Docplanner (dueño de Doctoralia) alcanza rentabilidad operativa y valida que el médico está dispuesto a pagar por IA si le ahorra tiempo. Su asistente \"Noa\" ya tiene 15k usuarios de pago y crece al 30% mensual. Esto transforma a la plataforma de un simple \"directorio de marketing\" a un \"sistema operativo clínico\" indispensable. Para la industria farmacéutica/estética, esto significa que el médico será más eficiente, pero también más dependiente de este software.","RESUMEN":"Docplanner (matriz de Doctoralia) anuncia que alcanzó rentabilidad operativa (EBITDA) en la segunda mitad de 2025. La compañía reporta un crecimiento de ingresos del 20-30% y destaca el éxito de Noa, su asistente de IA lanzado en 2024, que ya es usado por 15,000 médicos para automatizar tareas administrativas. Se preparan para una posible salida a bolsa (IPO) y venta secundaria de acciones en Q1 2026."},{"URL":"Https://www.globalcosmeticsnews.com/unilever-appoints-abhinav-ravikumar-as-cmo-for-personal-care-india/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA CORPORATIVA","CATEGORÍA":"Estrategia Corporativa","SUBCATEGORÍA":"Liderazgo Regional \u0026 Talent Pipeline","INSIGHT":"Apostando al Talento Interno: En lugar de traer \"disrupción\" externa para su mercado más crítico (India), Unilever promueve a un veterano de la casa (ex-VP Hair Care). Esto sugiere que la estrategia para 2026 en mercados emergentes es ejecutar con precisión la hoja de ruta existente: premiumizar el mercado masivo (shampoos y cremas) y ganar cuota con marcas establecidas, confiando en líderes que ya dominan la compleja ejecución local.","RESUMEN":"Unilever nombra a Abhinav Ravikumar como nuevo Chief Marketing Officer (CMO) para la división de Personal Care en India. Ravikumar, quien se unió a la empresa en 2008 y anteriormente lideraba la categoría de Cuidado del Cabello para el Sur de Asia, asume el cargo para supervisar marcas críticas como Dove, Sunsilk y la división de piel, reemplazando a Harman Dhillon."},{"URL":"Https://cosmeticsbusiness.com/givaudan-sales-top-chf-7-5-billion-in-2025","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE FINANCIERO","CATEGORÍA":"Panorama Financiero","SUBCATEGORÍA":"Ingredientes \u0026 Fragancias (B2B)","INSIGHT":"El Termómetro de la Industria: Givaudan rompe la barrera de los 7.5MM CHF, validando que el \"boom\" de las fragancias no fue pasajero. Como proveedor principal de los gigantes, sus resultados confirman que las grandes marcas siguen apostando fuerte por lanzamientos olfativos y activos cosméticos premium. Si el proveedor #1 crece, la maquinaria de innovación global está sana.","RESUMEN":"Givaudan reporta ventas anuales superiores a 7.500 millones de francos suizos en 2025. El crecimiento fue impulsado significativamente por la división de Fragancias y Belleza (especialmente Fragancia Fina), demostrando una demanda sostenida a pesar de la volatilidad de costos de materias primas. Confirma la solidez del mercado de lujo y consumo masivo a nivel global."},{"URL":"https://www.globalcosmeticsnews.com/brazil-opens-public-consultations-on-cosmetics-and-fragrance-packaging-rules/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA REGULATORIA","CATEGORÍA":"Regulación \u0026 Compliance","SUBCATEGORÍA":"Packaging \u0026 Sostenibilidad LATAM","INSIGHT":"Alerta Operativa: Brasil (ANVISA) está revisando las reglas técnicas de etiquetado y envase. Para las marcas internacionales, esto suele significar un dolor de cabeza logístico: cambios de arte obligatorios, nuevas advertencias o restricciones de claims ambientales. Participar en la consulta o prepararse desde ya es vital para evitar bloqueos en aduana el próximo año.","RESUMEN":"Las autoridades brasileñas abren un periodo de consulta pública para revisar y actualizar las regulaciones técnicas sobre el empaquetado y etiquetado de cosméticos y fragancias. El objetivo es modernizar los requisitos de información al consumidor y alinearse con estándares de seguridad y sostenibilidad, lo que podría obligar a las marcas a modificar sus artes y materiales de envase para seguir operando en el país."},{"URL":"https://beautynewsdaily.com/americas-best-beauty-exports/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO DE TENDENCIA","CATEGORÍA":"Panorama de Mercado","SUBCATEGORÍA":"Viral Brands \u0026 Export Strategy","INSIGHT":"El \"Sueño Americano\" es Viral: El éxito global de las marcas estadounidenses en 2026 no depende de la herencia, sino de la \"Main Character Energy\". Marcas como Vacation (nostalgia 80s), Rhode (Glazing Milk) y Phlur (Missing Person) demuestran que para ganar en mercados extranjeros (UK, Asia) hoy se necesita una identidad visual fuerte y un producto \"héroe\" que funcione instantáneamente en TikTok. La exportación es de cultura pop, no solo de crema.","RESUMEN":"BeautyNewsDaily publica su lista curada de las \"Mejores Exportaciones de Belleza de América\" para 2026. Destaca una mezcla de marcas de culto modernas y clásicos de farmacia que definen la influencia global de EE.UU. Incluye a Vacation (SPF nostálgico), Rhode (Hailey Bieber), Phlur (Fragancias virales), Drunk Elephant y CeraVe. El factor común es la capacidad de crear productos \"héroe\" con narrativas emocionales fuertes que trascienden fronteras."},{"URL":"https://www.globalcosmeticsnews.com/dove-launches-first-refillable-anti-perspirant-range/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE LANZAMIENTO","CATEGORÍA":"Sostenibilidad \u0026 Packaging","SUBCATEGORÍA":"Adopción Masiva de Rellenables","INSIGHT":"La Prueba de Fuego del Refill: Unilever invierte £7.5M para llevar el desodorante rellenable al mercado masivo (supermercados), un segmento que crece al 45% anual. La clave no es solo la carcasa reutilizable, sino el posicionamiento \"Premium\": aromas inspirados en fragancia fina y exclusividad en retailers como Boots. Si Dove logra que el consumidor promedio cambie el hábito de \"usar y tirar\", toda la categoría de higiene personal cambiará en 2026.","RESUMEN":"Dove lanza su primera colección de desodorantes antitranspirantes rellenables, entrando en un segmento de rápido crecimiento (+45% anual). El sistema incluye una carcasa reutilizable de acero inoxidable y recargas de 35ml con aromas premium. Disponible desde febrero de 2026 en grandes minoristas del Reino Unido con una campaña de marketing masiva, buscando escalar el hábito sustentable que hasta ahora dominaban marcas nicho DTC."},{"URL":"https://www.linkedin.com/posts/coty_coty-kyliecosmetics-influencermarketing-activity-7422771340106973184-oxWy?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"LINKEDIN POST (CORPORATE)","CATEGORÍA":"Marketing \u0026 Digital","SUBCATEGORÍA":"Influencer Marketing \u0026 VIT Metrics","INSIGHT":"El Reinado del VIT: Coty celebra que Kylie Cosmetics es la marca #2 del mundo en \"Brand Vitality Score\" (VIT). Esto valida que la estrategia de 2025 no fue solo \"celebrity marketing\", sino \"Creator-Driven Content\". En un entorno saturado, la capacidad de movilizar a miles de creadores (no solo a Kylie) sigue siendo el motor de relevancia más fuerte.","RESUMEN":"Coty anuncia que Traackr ha nombrado a Kylie Cosmetics como la #2 en su lista de \"Top Beauty Brands of 2025\", clasificada por VIT (Brand Vitality Score). El reconocimiento subraya el éxito de la estrategia de contenido impulsado por creadores y el storytelling social, validando la gestión de Coty sobre la marca de celebridad."},{"URL":"https://beautynewsdaily.com/stripes-beauty-lands-at-ulta-beauty/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA RETAIL","CATEGORÍA":"Retail \u0026 Wellness","SUBCATEGORÍA":"Menopause Revolution \u0026 Pro-Ageing","INSIGHT":"La Conquista de la Gen X: Ulta Beauty integra Stripes Beauty en sus nuevas \"Wellness Boutiques\", capturando al consumidor más adinerado y desatendido: la mujer en menopausia. Esto confirma que el \"Bienestar Íntimo\" y el \"Pro-Ageing\" (suplementos, hidratación vaginal, piel madura) son los nuevos pilares de crecimiento en retail físico, alejándose del anti-aging tradicional para abrazar soluciones hormonales holísticas.","RESUMEN":"Stripes Beauty, la marca de bienestar para la menopausia fundada por Naomi Watts, se lanza oficialmente en Ulta Beauty y sus nuevas boutiques de Wellness. La expansión lleva productos de \"Pro-Ageing\" (desde cuidado íntimo hasta suplementos y body care rico en péptidos) a una distribución nacional masiva, validando la apuesta de Ulta por convertirse en el destino líder para la salud de la mujer en la mediana edad."},{"URL":"https://cosmeticsbusiness.com/procter-gamble-acquires-digestive-health-brand-wonderbelly","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA M\u0026A","CATEGORÍA":"Wellness \u0026 Salud","SUBCATEGORÍA":"Renovación de Categoría (Gen Z)","INSIGHT":"Modernizando el Botiquín: P\u0026G (dueño de Pepto-Bismol) adquiere Wonderbelly, una startup de salud digestiva \"limpia\" y estética. El movimiento confirma que la \"medicina aburrida\" está sufriendo el mismo proceso que la belleza: el consumidor joven exige fórmulas \"Free-From\" (sin talco/colorantes), sabores experienciales (Mango Smoothie) y empaques dignos de Instagram. P\u0026G compra la relevancia cultural que sus marcas heredadas no pueden fabricar.","RESUMEN":"Procter \u0026 Gamble adquiere la marca de bienestar digestivo \"limpio\" Wonderbelly (fundada en 2021 en Austin) para reforzar su división de Personal Health Care. Wonderbelly se especializa en antiácidos y alivio de gases con fórmulas libres de OMG, talco y colorantes artificiales, y sabores atractivos (Strawberry Milkshake). La adquisición busca capturar al consumidor consciente de ingredientes que rechaza las opciones tradicionales, complementando el portafolio clásico de P\u0026G (Pepto-Bismol, Metamucil)."},{"URL":"https://www.cosmetify.com/the-cosmetify-index/2025/q3/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE DE MERCADO","CATEGORÍA":"Ranking de Marca","SUBCATEGORÍA":"Influencia Digital \u0026 Viralidad","INSIGHT":"El Regreso de las \"Celebrity Brands\": Contrario a la creencia de que las marcas de influencers morían, el Top 3 mundial es Huda Beauty, Kylie Cosmetics y Fenty Beauty. La sorpresa es la caída de e.l.f. Cosmetics fuera del Top 10 (por fatiga de \"dupes\") y el ascenso de marcas clínicas/accesibles como Maybelline (#6) y Medicube (K-Beauty tecnológico). En 2026, la fórmula ganadora es: Celebridad Fundadora Activa + Accesibilidad.","RESUMEN":"Cosmetify publica su índice del Q3 2025. Huda Beauty mantiene el #1 global. La gran novedad es la entrada directa de Kylie Cosmetics al #2, impulsada por lanzamientos virales (Skin Tint, Body Spray). e.l.f. Cosmetics sale del Top 10, señalando una posible saturación del mercado de \"dupes\". Marcas como Rhode (#10) y Rare Beauty (#7) se mantienen fuertes, pero muestran signos de desaceleración frente a gigantes masivos como Maybelline y el resurgimiento del K-Beauty clínico (Medicube sube 13 puestos)."},{"URL":"https://www.globalcosmeticsnews.com/bain-submits-binding-bid-for-finetoday-as-asia-beauty-demand-shifts/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA M\u0026A","CATEGORÍA":"Finanzas \u0026 M\u0026A","SUBCATEGORÍA":"Personal Care \u0026 Private Equity","INSIGHT":"El \"Refugio\" del Personal Care: Bain Capital presenta una oferta vinculante para adquirir Finetoday (dueña de Tsubaki y Senka, ex-Shiseido), ganándole a rivales como KKR. El insight clave es la aversión al riesgo: ante la volatilidad del mercado de lujo en China, el capital privado busca seguridad en marcas de higiene masiva (\"Personal Care\") con distribución regional sólida. Finetoday opta por la venta privada en lugar de una IPO (salida a bolsa), lo que indica que el mercado público todavía es hostil para valoraciones altas.","RESUMEN":"Bain Capital realiza una oferta vinculante para adquirir el grupo japonés de cuidado personal Finetoday Holdings (escindido de Shiseido en 2021). La compañía, propietaria de marcas masivas como Tsubaki, opera en 11 mercados asiáticos. La venta a Bain surge como alternativa de liquidez tras la cancelación de los planes de Finetoday de salir a bolsa (IPO) por segunda vez, destacando el interés del capital privado en plataformas de consumo masivo resilientes frente a la desaceleración del lujo en Asia."},{"URL":"https://beautynewsdaily.com/januarys-best-beauty-launches-2026/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE DE PRODUCTO","CATEGORÍA":"Innovación de Producto","SUBCATEGORÍA":"Ingredientes (PDRN) \u0026 Híbridos","INSIGHT":"La Ciencia se come al Maquillaje: Los lanzamientos de Enero 2026 confirman dos vectores: 1) Ingredientes Clínicos en Casa: Dr. Althea democratiza el PDRN (ADN de salmón, antes solo inyectable) en crema. 2) \"Neuro-Glow\": Kiehl\u0027s y P.Louise lanzan productos para \"piel estresada\" y bienestar emocional, no solo físico. 3) Maquillaje Tratante: Ilia y Kosas presentan texturas \"húmedas\" que hidratan 24h. La eficacia clínica ya es el estándar mínimo, incluso en un brillo de labios.","RESUMEN":"Beauty News Daily destaca los mejores lanzamientos de Enero 2026. Resaltan: Dr. Althea PDRN Reju 5000 (tendencia de ADN regenerativo), Kiehl\u0027s Meltdown Recovery (para piel estresada/sensible), Ilia Overglaze (brillo con tratamiento) y Fussy Refillable Hand Wash. La tendencia transversal es \"High-Performance Comfort\": productos que reparan la barrera cutánea o el estado de ánimo mientras embellecen."},{"URL":"https://www.globalcosmeticsnews.com/maybelline-new-york-appoints-teens-in-times-as-global-partners/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE MARKETING","CATEGORÍA":"Marketing \u0026 Digital","SUBCATEGORÍA":"Fandom Economy \u0026 C-Pop","INSIGHT":"Monetizando la Obsesión: Maybelline ficha al grupo de C-Pop Teens in Times (TNT) como embajadores globales, no solo locales. Esto valida que la influencia cultural del pop asiático (China/Corea) ya dicta la estrategia de marketing global de L\u0027Oréal. El objetivo es activar la \"fuerza de compra\" masiva y organizada de los fandoms chinos para rejuvenecer una marca clásica de farmacia.","RESUMEN":"Maybelline New York nombra al grupo de chicos chino Teens in Times (TNT) como sus nuevos Embajadores de Marca y Socios Globales. La asociación busca conectar con la Generación Z a través de una estrategia impulsada por la cultura pop, aprovechando la enorme base de seguidores del grupo para revitalizar la imagen de la marca en mercados clave de crecimiento, priorizando el compromiso digital y la autoexpresión."},{"URL":"https://www.gcimagazine.com/brands-products/ingestibles-supplements/news/22956615/top-10-wellness-brands-gaining-tiktok-momentum","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE DE DATA","CATEGORÍA":"Wellness \u0026 Suplementos","SUBCATEGORÍA":"Viralidad en TikTok","INSIGHT":"La \"Golosina\" Funcional: El ranking de Spate confirma que para ganar en TikTok Wellness, el producto debe parecer un dulce. Goli (#1) domina con sus gomitas, pero Nello (#2) y Alani Nu (#3) crecen gracias a polvos de sabores divertidos y estética visual fuerte. La tendencia es clara: el consumidor busca \"alivio instantáneo\" (estrés, sueño, energía) en formatos que generen placer sensorial y contenido visual, alejándose de la \"pastilla aburrida\".","RESUMEN":"GCI publica el reporte de Spate sobre las marcas de bienestar con mayor crecimiento en TikTok. El Top 3 incluye: 1) Goli (+1.5 billones en popularidad) por sus gomitas virales; 2) Nello (polvos funcionales con sabores atractivos); y 3) Alani Nu (bebidas/suplementos con branding nostálgico). Otras marcas destacadas son Mary Ruth\u0027s (multivitamínicos líquidos) y Natural Vitality (magnesio para dormir). El factor común es la promesa clara de beneficios (estrés/intestino) combinada con formatos deliciosos y fáciles de grabar."},{"URL":"https://www.gcimagazine.com/brands-products/skin-care/news/22959035/image-skincare-image-skincare-reinstates-cofounder-marc-ronert-as-ceo-doubling-down-on-clinical-authority-and-glp1era-innovation","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA CORPORATIVA","CATEGORÍA":"Estrategia Corporativa","SUBCATEGORÍA":"GLP-1 Skin Care \u0026 Founder Mode","INSIGHT":"Founder Mode para la Era Ozempic: IMAGE Skincare reinstala a su fundador (cirujano plástico) como CEO para atacar la tendencia de \"Ozempic Face\". El insight es que el consumidor de GLP-1 tiene problemas clínicos reales (flacidez, pérdida de grasa) que el skincare cosmético normal no resuelve. Las marcas están pivotando hacia la \"autoridad médica dura\" para capturar a este paciente, alejándose del marketing superficial.","RESUMEN":"IMAGE Skincare anuncia el regreso de su cofundador, el Dr. Marc Ronert, como CEO. El movimiento estratégico busca reforzar la credibilidad clínica de la marca en un mercado impulsado por la ciencia. El foco principal será liderar la innovación para consumidores de terapias GLP-1 (pérdida de peso), capitalizando el éxito de su reciente lanzamiento VOL.U.LIFT, diseñado para combatir la pérdida de volumen facial."},{"URL":"https://cosmeticsbusiness.com/indie-fragrance-players-outpaced-beauty-giants-2025","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE DE DATA","CATEGORÍA":"Fragancias","SUBCATEGORÍA":"Indie vs. Corporate \u0026 E-Commerce","INSIGHT":"La Rebelión Olfativa: Las marcas indie de fragancias crecieron un 46.3% en 2025, superando masivamente el crecimiento de los conglomerados (11.4%). El motor no fue el retail tradicional, sino TikTok Shop y Amazon, que permitieron el descubrimiento de aromas \"a ciegas\". Aunque los gigantes tienen más lealtad, los indies ganan en reclutamiento de nuevos usuarios que buscan originalidad sobre estatus.","RESUMEN":"Según el último reporte de NielsenIQ, las marcas de belleza independientes (menos de $300M de ingresos) superaron a los conglomerados en crecimiento durante 2025 (+16.1% vs +7.4% general). La brecha fue más dramática en Fragancias, donde las marcas indie explotaron un +46.3% impulsadas por el comercio social y plataformas digitales, demostrando que la narrativa de nicho vence al marketing masivo en la categoría de aromas."},{"URL":"https://www.gcimagazine.com/brands-products/skin-care/news/22958412/drunk-elephant-says-goodbye-to-sephora-kids-with-new-ageappropriate-campaign","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE MARKETING","CATEGORÍA":"Marketing \u0026 Ética","SUBCATEGORÍA":"Crisis Management \u0026 Gen Alpha","INSIGHT":"Skincare como Alcohol: Drunk Elephant lanza la campaña \"Please Enjoy Responsibly\", tratando sus activos potentes casi como bebidas alcohólicas: \"Disfrútalos con responsabilidad\". Es un giro estratégico para frenar la crisis de los \"Sephora Kids\". La marca abandona la ambigüedad y establece límites claros: los niños no deben usar ácidos ni retinol. Buscan recuperar la autoridad científica (\"Clinical Cred\") que perdieron al volverse un juguete viral para niñas de 10 años.","RESUMEN":"Drunk Elephant presenta su nueva dirección de marca con la campaña \"Please Enjoy Responsibly\". La iniciativa busca explícitamente distanciar a la marca del fenómeno \"Sephora Kids\" (niñas preadolescentes usando productos antienvejecimiento inapropiados). Tiffany Masterson, fundadora, aclara que la nueva filosofía exige \"intención\" y rutinas adecuadas a la edad, advirtiendo que los activos potentes son solo para pieles adultas, mientras intentan reeducar a la Gen Alpha y sus padres."},{"URL":"https://www.globalcosmeticsnews.com/cerave-launches-skincident-hotline-to-address-winter-dry-skin/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE MARKETING","CATEGORÍA":"Marketing \u0026 Educación","SUBCATEGORÍA":"Activación BTL \u0026 Medical Cred","INSIGHT":"La Línea Roja de la Piel: CeraVe lanza una \"Hotline\" telefónica 24/7 en EE.UU. para resolver dudas sobre piel seca en invierno (\"Skincidents\"). La campaña mezcla la autoridad médica (consejos del Dr. Dylan Greeney) con la urgencia del servicio al cliente y el \"sampling\" estratégico (regalos de producto en llamadas en vivo). Esto eleva el estándar de educación al consumidor: ya no basta con un post en Instagram, ahora la marca debe estar \"de guardia\" para atenderte.","RESUMEN":"CeraVe lanza la \"Skincident Hotline\", una línea telefónica activa del 26 de enero al 27 de febrero de 2026 en Estados Unidos. La iniciativa ofrece consejos dermatológicos 24/7 para combatir la piel seca invernal y cuenta con horarios de atención en vivo donde los consumidores pueden ganar productos de tamaño completo. La campaña refuerza el posicionamiento de CeraVe como la autoridad accesible en cuidado de la barrera cutánea."},{"URL":"https://www.gcimagazine.com/retail/brick-and-mortar/news/22959247/ulta-beauty-lands-in-the-uae-fasttracking-middle-east-expansion","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA RETAIL","CATEGORÍA":"Retail \u0026 Distribución","SUBCATEGORÍA":"Expansión Internacional","INSIGHT":"El Desafío al Lujo: Ulta rompe su \"burbuja americana\" y abre en el Mall of the Emirates (Dubai) el 29 de Enero, de la mano del gigante Alshaya Group. El insight estratégico es doble: 1) Buscan el ticket promedio más alto del mundo (Medio Oriente). 2) Desafían el dominio histórico de Sephora en la región con su modelo híbrido (Masivo + Prestigio + Salón), introduciendo marcas americanas exclusivas y apoyándose en fundadoras locales (como Nadine Njeim) para ganar relevancia cultural inmediata.","RESUMEN":"Ulta Beauty inaugura su primera tienda en los Emiratos Árabes Unidos (Mall of the Emirates) el 29 de enero de 2026, acelerando su expansión en Medio Oriente tras abrir en Kuwait a finales de 2025. Bajo una alianza de franquicia con Alshaya Group, la tienda replica el modelo \"All Things Beauty\" (productos + servicios de salón) y planea aperturas inminentes en Dubai Mall (marzo) y Arabia Saudita (mayo), posicionándose como el nuevo destino de belleza integral en la región."},{"URL":"https://beautynewsdaily.com/moroccanoil-expands-into-skincare/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE LANZAMIENTO","CATEGORÍA":"Expansión de Categoría","SUBCATEGORÍA":"Skinification \u0026 Lip Care","INSIGHT":"La \"Skinificación\" del Aceite: Moroccanoil, gigante del cabello, entra oficialmente en Skincare con su primer Lip Balm ($22). La estrategia es prudente pero lujosa: usar su ingrediente propietario (Aceite de Argán) + activos clínicos (péptidos, hialurónico) en un formato de \"lujo accesible\". Siguen el manual de éxito de Rhode/Summer Fridays: usar los labios como \"puerta de entrada\" al rostro, ofreciendo tratamiento + color (tintes inspirados en el Mediterráneo) para capturar al consumidor Gen Z y Millennial.","RESUMEN":"Moroccanoil anuncia su expansión a la categoría de cuidado de la piel con el lanzamiento de su Lip Balm ($22), disponible en Sephora y Ulta Beauty desde enero de 2026. El producto combina el aceite de argán característico de la marca con péptidos y ácido hialurónico, posicionándose como un tratamiento reparador \"sin residuos pegajosos\". Disponible en tres sabores/tonos (Moroccan Mint Tea, Berry Pomegranate, Vanilla Date), marca la evolución de la marca de \"Solo Cabello\" a un estilo de vida de belleza integral."},{"URL":"https://beautynewsdaily.com/the-best-suncare-for-the-slopes/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO DE TENDENCIA","CATEGORÍA":"Skincare \u0026 Sun Care","SUBCATEGORÍA":"Winter SPF \u0026 Extreme Weather","INSIGHT":"Alpine Beauty: El esquí es la nueva pasarela, y el SPF de montaña es una subcategoría premium en auge. La clave ya no es solo el factor de protección (SPF 50), sino el formato de aplicación: brochas minerales (Colorescience) para reaplicar sobre maquillaje sin quitarse guantes, brumas para el cuero cabelludo (Ultrasun) y aceites labiales con SPF 40 (SunsolveMD). El consumidor busca productos que protejan del \"efecto lupa\" de la nieve y el viento, con texturas ricas que nutran la barrera cutánea agredida por el frío.","RESUMEN":"Beauty News Daily publica su selección de los mejores protectores solares para esquiar en 2026. Destaca la necesidad de fórmulas especializadas para alta altitud y reflejo de nieve. Los productos ganadores priorizan la multifuncionalidad y la facilidad de uso: Colorescience (polvo con brocha), SunsolveMD (aceite labial voluminizador SPF 40), Ultrasun (mist para cuero cabelludo) y Supergoop! Glowscreen (para el look \"après-ski\"). Se consolida la tendencia de protección solar como tratamiento hidratante intensivo."},{"URL":"https://www.gcimagazine.com/brands-products/devices-tech/news/22957609/how-brands-can-navigate-beauty-ai-with-a-human-touch","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO DE ANÁLISIS","CATEGORÍA":"Tecnología \u0026 IA","SUBCATEGORÍA":"Personalización \u0026 CX Híbrido","INSIGHT":"El Humano Aumentado: La IA ya no es opcional (el mercado valdrá $8.1B para 2028), pero el consumidor teme la deshumanización. La estrategia ganadora para 2026 es usar la IA para \"diagnóstico invisible\" (lo que el ojo no ve) y dejar la \"recomendación emocional\" al humano. Además, las búsquedas en ChatGPT están cambiando el SEO: la gente pide \"rutinas completas\", no solo \"crema hidratante\". Si tu marca no aparece en la respuesta conversacional de la IA, eres invisible.","RESUMEN":"GCI Magazine analiza cómo las marcas deben equilibrar la adopción masiva de IA con la necesidad de conexión humana. Expertos de Revieve y Spate destacan que los consumidores usan ChatGPT para consejos prácticos (\"drugstore dupes\"), obligando a las marcas a optimizar su contenido para motores de respuesta, no solo de búsqueda. La clave del éxito es la integración: IA para análisis de datos masivos y diagnósticos precisos, y humanos para la validación y construcción de confianza."},{"URL":"https://www.gcimagazine.com/ingredients/skin-care/news/22958273/debut-57847-debut-appoints-derek-wanner-as-chief-commercial-officer-to-accelerate-biotechpowered-beauty-innovation","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA CORPORATIVA","CATEGORÍA":"Cadena de Suministro \u0026 Ingredientes","SUBCATEGORÍA":"Biotech \u0026 Manufactura","INSIGHT":"Del Lab al Mercado Masivo: Debut ficha a Derek Wanner (ex-Mana Products) como CCO. El movimiento señala que la \"revolución biotecnológica\" (ingredientes cultivados en laboratorio) deja de ser un nicho de R\u0026D para convertirse en una operación comercial a gran escala. Wanner trae la experiencia de manufactura masiva necesaria para venderle estos ingredientes a las grandes multinacionales, acelerando el reemplazo de extractos naturales inestables por moléculas bio-diseñadas consistentes.","RESUMEN":"Debut, especialista en biotecnología aplicada a la belleza, nombra a Derek Wanner como Chief Commercial Officer (CCO). Wanner, proveniente de Mana Products (manufactura global), liderará la expansión comercial de la división de formulación de Debut. Su objetivo es escalar la adopción de ingredientes biotecnológicos de alto rendimiento, facilitando que más marcas integren moléculas clínicamente probadas y sostenibles en sus productos sin las limitaciones de la cadena de suministro agrícola tradicional."},{"URL":"https://beautynewsdaily.com/emporio-armani-taps-kendall-jenner-as-global-fragrance-ambassador/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE MARKETING","CATEGORÍA":"Fragancias \u0026 Marketing","SUBCATEGORÍA":"Celebrity Ambassadors \u0026 New Pillars","INSIGHT":"El Legado Póstumo: Emporio Armani lanza \"Power of You\", una nueva fragancia pilar femenina aprobada por Giorgio Armani antes de su fallecimiento (Sept 2025). Para asegurar el éxito masivo, fichan a Kendall Jenner como embajadora global. El insight es claro: ante la pérdida del fundador, la marca necesita una inyección de relevancia cultural inmediata e incuestionable para competir con YSL Libre o Prada Paradoxe. El jugo es un gourmand moderno (maracuyá, vainilla) diseñado para gustar a todo el mundo (crowd-pleaser).","RESUMEN":"Emporio Armani nombra a Kendall Jenner como su nueva Embajadora Global de Fragancias para liderar el lanzamiento de \"Power of You\". La fragancia, que llegará a EE.UU. en marzo de 2026, busca energizar la división femenina de la marca con un perfil olfativo gourmand (cítricos, frangipani, vainilla). La campaña, dirigida por Gordon von Steiner, se centra en la espontaneidad y el movimiento, alejándose del perfeccionismo rígido para conectar con una audiencia más joven que busca autenticidad."},{"URL":"https://beautynewsdaily.com/functional-fragrance-everything-you-need-to-know/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO DE TENDENCIA","CATEGORÍA":"Fragancias \u0026 Wellness","SUBCATEGORÍA":"Neuroscents \u0026 Estado de Ánimo","INSIGHT":"Hackeando el Cerebro con Aroma: Las \"Neurofragancias\" dejan de ser un concepto etéreo para convertirse en una categoría basada en fisiología. El reporte valida que marcas como This Works, The Nue Co. y \u0027Ôrəbella (Bella Hadid) están utilizando terpenos y sesquiterpenos para influir directamente en la amígdala y el hipotálamo, saltándose el procesamiento consciente. El insight clave es el \"Ritual\": el consumidor no busca solo oler bien, busca una herramienta biológica para gestionar el estrés (\"Own Time\") o el sueño (\"Nightcap\") en un mundo hiper-estimulado.","RESUMEN":"Beauty News Daily publica su guía definitiva sobre Fragancias Funcionales (15 Ene 2026). Entrevistando a la Dra. Anna Persaud (bioquímica y fundadora de This Works), el artículo desmitifica el término: para ser \"funcional\", un aroma debe demostrar interacción con receptores olfativos que modulan el sistema nervioso (calma vs. alerta). Se destacan productos clave como \u0027Ôrəbella Nightcap (la entrada de Bella Hadid al segmento), The Nue Co. First Milk y Moods Genius Moodmist, posicionando el perfume como un suplemento para la salud mental."},{"URL":"https://www.globalcosmeticsnews.com/pat-mcgrath-cosmetics-files-for-chapter-11-bankruptcy-protection-in-the-us/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE NEGOCIOS","CATEGORÍA":"Finanzas \u0026 Crisis","SUBCATEGORÍA":"Reestructuración (Chapter 11)","INSIGHT":"El Costo del Lujo: Pat McGrath Labs, valorada en su momento en $1B, solicita protección Chapter 11 en Florida para detener una subasta forzosa por parte de sus prestamistas. La marca sigue operativa, pero busca limpiar su deuda y encontrar nuevos inversores o compradores. Esto es una señal de alerta para todo el segmento \"Ultra-Prestige\": la viralidad y el estatus de culto no son suficientes si la estructura de capital es insostenible frente a costos operativos crecientes.","RESUMEN":"Pat McGrath Cosmetics se acoge voluntariamente al Capítulo 11 de la Ley de Quiebras de EE.UU. el 22 de enero de 2026. La medida busca paralizar una subasta iniciada por sus acreedores y permitir una reestructuración ordenada de su deuda y operaciones. La dirección afirma que el negocio continuará operando normalmente (pagando a empleados y proveedores) mientras evalúan opciones estratégicas, que podrían incluir una venta total de la compañía o una refinanciación masiva."},{"URL":"https://beautynewsdaily.com/tubby-todd-enters-target/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA RETAIL","CATEGORÍA":"Retail \u0026 Baby Care","SUBCATEGORÍA":"DTC to Mass Market","INSIGHT":"La Graduación del DTC: Tubby Todd, marca familiar de culto por sus soluciones para piel sensible (eczema), entra a 1,100 tiendas Target. El movimiento confirma que el consumidor \"Millennial Parent\" exige que sus marcas nicho de confianza estén disponibles en su supermercado habitual. Target refuerza su rol como el destino #1 para marcas \"Clean \u0026 Safe\" que buscan escalar masivamente fuera de Instagram.","RESUMEN":"Tubby Todd, la marca de cuidado personal para bebés y niños pequeños fundada por la familia Faulkner Williams, anuncia su primera expansión física nacional en Target (enero 2026). La marca lanza una selección curada de sus best-sellers, incluyendo el famoso All Over Ointment (para eczema), jabones y lociones sin fragancia. La entrada en 1,100 tiendas marca la transición de Tubby Todd de un negocio puramente digital (DTC) a un jugador masivo en el competitivo pasillo de bebés."},{"URL":"https://cosmeticsbusiness.com/2026-year-of-boomer-beauty-economy","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO DE TENDENCIA","CATEGORÍA":"Consumidor \u0026 Demografía","SUBCATEGORÍA":"Silver Economy \u0026 Pro-Ageing","INSIGHT":"Follow the Money: El reporte declara 2026 como el año donde la industria deja de ignorar a los Baby Boomers, el segmento con mayor poder adquisitivo ($8 billones proyectados). El insight es que la estrategia de \"perseguir la juventud\" está saturada. El crecimiento real está en productos de \"Longevidad\" y alta eficacia para pieles maduras, apoyado por movimientos como el nuevo \"Boomer Innovation Centre\" de L\u0027Oréal. Los Boomers son leales y buscan resultados, no tendencias de TikTok.","RESUMEN":"Cosmetics Business analiza por qué 2026 es el punto de inflexión para la \"Economía de la Belleza Boomer\". Con una población que vive 30 años más que hace un siglo, marcas como Laura Geller y grupos como L\u0027Oréal están pivotando recursos masivos para atender a mujeres de 60+. El reporte destaca que este consumidor tiene el doble de ingreso disponible que la Gen Z y valora la eficacia científica sobre el hype, obligando a las marcas a cambiar su lenguaje de \"Anti-Aging\" (luchar contra la edad) a \"Longevity\" (optimizar la edad)."},{"URL":"https://beautynewsdaily.com/interview-angelo-castello-of-facegym/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ENTREVISTA EJECUTIVA","CATEGORÍA":"Servicios \u0026 Estética","SUBCATEGORÍA":"Expansión Global \u0026 Longevidad","INSIGHT":"El Gimnasio Facial Escala: Angelo Castello, CEO de FaceGym, revela la estrategia para 2026: llevar el \"fitness facial\" de un lujo nicho a una rutina global masiva. La clave es la alianza con Reliance para entrar en India (un mercado con hambre de estética premium) y el lanzamiento de franquicias en Reino Unido. El insight científico es desplazar la conversación de \"Piel\" (superficie) a \"Músculo\" (estructura/longevidad), posicionando sus dispositivos y workouts como herramientas de salud a largo plazo, no solo belleza inmediata.","RESUMEN":"En una entrevista exclusiva, Angelo Castello (CEO de FaceGym y Doctor en Inmunología) detalla la próxima fase de crecimiento de la marca. Destaca el lanzamiento de su Programa de Membresía para fomentar la consistencia y la expansión geográfica mediante franquicias en UK y una asociación estratégica con Reliance Retail en India. Castello reafirma la misión de la marca: tratar la cara como un grupo muscular que requiere entrenamiento para combatir el envejecimiento estructural, validando la categoría de \"Facial Fitness\" como un esencial de bienestar."},{"URL":"https://www.globalcosmeticsnews.com/l-catterton-to-acquire-minority-stake-in-fragrance-house-ex-nihilo/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA M\u0026A","CATEGORÍA":"Finanzas \u0026 Fragancias","SUBCATEGORÍA":"Niche Perfumery Investment","INSIGHT":"El Nicho se hace Gigante: L Catterton adquiere una participación minoritaria en Ex Nihilo, relevando al fondo Eurazeo. Este movimiento confirma que el capital privado ve el \"Lujo Olfativo\" como una apuesta segura frente a la moda o el maquillaje. Ex Nihilo, conocida por su personalización y best-sellers como Fleur Narcotique, utilizará el capital y la red de LVMH para escalar internacionalmente, validando que el futuro del crecimiento en fragancias está en marcas con storytelling auténtico y precios altos (Prestige).","RESUMEN":"El fondo de inversión L Catterton acuerda adquirir una participación minoritaria significativa en la casa de perfumes parisina Ex Nihilo, fundada en 2013. La transacción, prevista para cerrar en el Q1 de 2026, implica la salida del inversor anterior, Eurazeo. Ex Nihilo ha consolidado su posición en el mercado de lujo con fragancias icónicas como Blue Talisman y un enfoque en la personalización. La inversión impulsará su expansión global, capitalizando el auge continuo de la alta perfumería."},{"URL":"https://www.linkedin.com/posts/parfums-christian-dior_diorbeauty-diorskincare-diorcapture-ugcPost-7421585667039612929-SPA6?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"COMUNICADO OFICIAL","CATEGORÍA":"Skincare \u0026 Ciencia","SUBCATEGORÍA":"Regenerative Beauty \u0026 Oxygenation","INSIGHT":"Oxigenación = Regeneración: Dior Science presenta en Tokio su nueva frontera: la Oxigenación Celular. El insight clave es que la disponibilidad de oxígeno dicta si las células madre pueden regenerarse. Introducen dos tecnologías: OX-C Treatment (para reactivar la renovación epidérmica) y Prolatonine (para detener la caída del 28% de colágeno que ocurre naturalmente al dormir). Dior se aleja del retinol tradicional para apostar por la vía de la \"bio-energía\" y la protección nocturna del capital de colágeno.","RESUMEN":"Parfums Christian Dior lanza en un simposio en Tokio su nueva Capture Night Creme, respaldada por su \"Reverse Aging Board\". Los expertos (Pr. Vittorio Sebastiano y Dr. Patricia Ogilvie) revelan nuevos hallazgos sobre cómo la falta de oxígeno frena a las células madre. La nueva fórmula combate específicamente la degradación nocturna del colágeno (que cae un 28% mientras dormimos) mediante la tecnología OX-C y el ingrediente Prolatonine, posicionando el producto como una intervención regenerativa médica, no solo cosmética."},{"URL":"https://www.gcimagazine.com/consumers-markets/news/22956924/the-beauty-contract-whats-fueling-the-top-10-gen-z-brands-and-products","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE DE MERCADO","CATEGORÍA":"Consumidor \u0026 Gen Z","SUBCATEGORÍA":"Lealtad \u0026 Ingredientes","INSIGHT":"El Código del Ingrediente: Según el reporte de [cafeteria], la Gen Z ya no habla en marcas (\"necesito Tylenol\"), habla en activos (\"necesito Niacinamida\"). El \"Contrato de Belleza\" exige tres cosas: 1) No dañes mi piel, 2) No cambies la fórmula sin avisar, 3) No des por hecha mi lealtad. El Top 3 de marcas (CeraVe, e.l.f., Rare Beauty) ganan porque cumplen esta promesa de transparencia funcional. Además, el 55.7% de las mujeres Gen Z prefieren aromas Gourmand (vainilla/caramelo) sobre florales.","RESUMEN":"GCI Magazine publica los hallazgos de [cafeteria] sobre los hábitos de la Gen Z en 2026. El ranking de las \"Top 10 Brands\" lo lideran CeraVe, e.l.f. y Rare Beauty. El reporte destaca que la lealtad es frágil: reformular un producto es la causa #1 de abandono. En fragancias, el perfil olfativo es abrumadoramente \"Gourmand\" (postres), y en maquillaje, los labios dominan (79% lo considera esencial) frente al rostro completo. Para los hombres, la jerarquía es simple: Estatus Social y Longevidad del aroma (Dior/Versace)."},{"URL":"https://cosmeticsbusiness.com/indu-begins-global-expansion-via-partnership-with-sephora","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA RETAIL","CATEGORÍA":"Retail \u0026 Gen Alpha","SUBCATEGORÍA":"Expansión Global \u0026 Pivot","INSIGHT":"La Solución a los \"Sephora Kids\": Indu, la marca británica formulada específicamente para pieles adolescentes, inicia su expansión global entrando en 38 tiendas Sephora de Australia y Nueva Zelanda. Estratégicamente, la marca anuncia que abandonará el maquillaje para enfocarse 100% en Teen Skincare. El insight es que el mercado necesita desesperadamente una \"zona segura\" en la tienda: productos premium que los adolescentes deseen, pero que los padres aprueben porque no contienen retinol ni ácidos para adultos.","RESUMEN":"Indu comienza su expansión internacional firmando una exclusiva con Sephora Australia y Nueva Zelanda para Febrero 2026. La marca, que ha sido el lanzamiento de cuidado de la piel adolescente de más rápido crecimiento en Sephora UK, busca replicar el éxito globalmente. Coincidiendo con la expansión, el CEO Aaron Chatterley confirma que Indu descontinuará su línea de cosméticos de color para dedicar todos los recursos a dominar la categoría de cuidado de la piel adolescente, posicionándose como la alternativa segura y aspiracional frente a las marcas de adultos que causaron controversia."},{"URL":"https://www.gcimagazine.com/brands-products/bath-body/news/22958305/seven-bucks-companies-appoints-unilever-vet-cara-robinson-as-first-chief-brand-officer","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA CORPORATIVA","CATEGORÍA":"Negocios \u0026 Men\u0027s Care","SUBCATEGORÍA":"Executive Hiring \u0026 Scaling","INSIGHT":"De Celebridad a Conglomerado: Seven Bucks Companies (Dwayne Johnson) nombra a Cara Robinson (ex CEO de Belleza en Unilever NA) como su primera Chief Brand Officer. El movimiento valida que Papatui (Men\u0027s Care) no es solo un lanzamiento de celebridad más, sino una apuesta de negocio estructural. Buscan aplicar la disciplina de gestión de una multinacional (Unilever) a la agilidad y fama de una marca de creador, apuntando a dominar el pasillo de aseo masculino masivo.","RESUMEN":"Seven Bucks Companies anuncia el nombramiento de Cara Robinson como Chief Brand Officer. Robinson, quien anteriormente lideró la división de Belleza y Bienestar de Unilever en Norteamérica, supervisará la estrategia de marca, creativa y de crecimiento para el portafolio de Dwayne Johnson, con foco prioritario en la expansión de Papatui (cuidado masculino) y la bebida energética ZOA. Su contratación indica una fase de profesionalización y expansión agresiva para competir con los gigantes del sector."},{"URL":"https://beautynewsdaily.com/demi-moore-named-global-brand-ambassador-for-kerastase/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE MARKETING","CATEGORÍA":"Marketing \u0026 Hair Care","SUBCATEGORÍA":"Celebrity \u0026 Longevity","INSIGHT":"La Melena del Poder (60+): Kérastase nombra a Demi Moore como Embajadora Global. El movimiento es culturalmente sísmico: valida que el cabello largo y saludable (\"The Cher/Demi Look\") es el nuevo símbolo de estatus para la mujer madura, desafiando la norma social de cortarse el pelo al envejecer. La campaña apoyará el relanzamiento de la gama Chronologiste (anti-edad premium), alineando el producto más caro de la marca con un ícono de resiliencia y eterna juventud (apoyada por su reciente éxito en \"The Substance\").","RESUMEN":"Kérastase anuncia a Demi Moore como su nueva Embajadora Global. La actriz, reconocida por su cabello emblemático a lo largo de 40 años de carrera, protagonizará la campaña fotografiada por Inez \u0026 Vinoodh para el relanzamiento de la línea Chronologiste. La asociación capitaliza el renacimiento cultural de Moore (tras ganar el Globo de Oro por \"The Substance\") y refuerza la estrategia de L\u0027Oréal de liderar el mercado \"Pro-Ageing\", celebrando la individualidad y la \"energía\" que el cabello aporta a la identidad femenina madura."},{"URL":"https://www.modernretail.co/marketing/mac-cosmetics-maps-out-its-holiday-live-shopping-push/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ESTRATEGIA DIGITAL","CATEGORÍA":"Retail \u0026 Tech","SUBCATEGORÍA":"Live Shopping \u0026 Omnichannel","INSIGHT":"La Tienda como Estudio: MAC Cosmetics revela su estrategia para 2026: convertir sus tiendas físicas en estudios de transmisión en vivo. El insight clave es el uso de sus propios \"Make-Up Artists\" (empleados de tienda) como creadores de contenido para TikTok Shop, generando un modelo híbrido donde el personal de piso vende simultáneamente al cliente presencial y al digital. La marca confirma que busca replicar el éxito de China (donde el 50% de sus ventas en Douyin son por lives) en Occidente, priorizando \"bundles\" (kits) como herramienta de reclutamiento de nuevos usuarios.","RESUMEN":"Modern Retail entrevista a Emily Bromfield (SVP de Marketing Global de MAC) sobre la hoja de ruta de \"Live Shopping\" para 2026. Tras el éxito masivo en China (Douyin), MAC está escalando su presencia en TikTok Shop EE.UU. mediante un enfoque de tres vías: 1) Lives con creadores externos, 2) Lives en canales propios, y 3) Transmisiones desde tiendas físicas con sus propios maquilladores (\"Artists\"). La estrategia prioriza la educación (\"Edutainment\") y la venta de kits completos sobre el descuento puro, validando que el consumidor de TikTok busca transformación y rutina, no solo precio."},{"URL":"https://www.cosmeticsbusiness.com/boots-group-ceo-to-retire-with-uk-boss-taking-on-more-responsibility","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA CORPORATIVA","CATEGORÍA":"Retail \u0026 Liderazgo","SUBCATEGORÍA":"Reestructuración Ejecutiva","INSIGHT":"Consolidación Operativa: Ornella Barra se retira como CEO de Boots Group para asumir la presidencia, dejando el control operativo en manos de Anthony Hemmerdinger (MD de Boots UK). Lo estratégico es que no contratan un nuevo CEO global; le dan más poder al líder local que ha entregado resultados constantes (19 trimestres de crecimiento), entregándole también las llaves de No7 Beauty Company. Esto señala una estructura post-Walgreens más ágil, donde la marca propia (No7) y el retail físico (Boots) se gestionan bajo un mando unificado para maximizar la rentabilidad bajo el dueño Sycamore Partners.","RESUMEN":"Ornella Barra anuncia su retiro como CEO de The Boots Group (efectivo el 9 de febrero de 2026) para convertirse en Presidenta del Consejo, reemplazando a Stefano Pessina. Anthony Hemmerdinger, actual Director General de Boots UK, asumirá la responsabilidad ampliada de todo el grupo, incluyendo la supervisión de No7 Beauty Company. El movimiento refuerza la confianza de los nuevos propietarios (Sycamore Partners) en el equipo directivo local que ha logrado mantener el crecimiento de cuota de mercado en un entorno minorista desafiante."},{"URL":"https://www.gcimagazine.com/brands-products/ingestibles-supplements/news/22953308/beautys-whats-on-the-inside-ingestible-beauty-takeaways-for-2026","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE DE TENDENCIA","CATEGORÍA":"Nutricosmética","SUBCATEGORÍA":"Wellness \u0026 Híbridos","INSIGHT":"El \"Inside-Out\" es la Norma: El reporte confirma que en 2026 los suplementos ya no son un \"extra\", sino el paso 0 de la rutina de belleza. La tendencia clave es la \"Hibridación Clínica\": los consumidores exigen pruebas clínicas reales para las gomitas y polvos, igual que para sus cremas. Se destaca el auge de ingredientes como el NAD+ (para longevidad celular) y los Péptidos de Colágeno Bioactivos específicos, moviéndose más allá de la \"biotina genérica\".","RESUMEN":"GCI Magazine analiza el estado de la belleza ingestible para 2026, destacando que la categoría ha madurado de \"promesas de marketing\" a \"soluciones basadas en evidencia\". Las marcas ganadoras son aquellas que combinan formatos placenteros (bebidas, gomitas sin azúcar) con respaldo científico riguroso. Se observa una integración total entre la rutina tópica y la oral (ej. \"toma esto para potenciar tu serum\"), con un enfoque particular en la salud intestinal (eje intestino-piel) y el manejo del estrés (cortisol) como causantes del envejecimiento."},{"URL":"https://beautynewsdaily.com/jennie-garth-is-the-new-face-of-it-cosmetics/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE MARKETING","CATEGORÍA":"Maquillaje \u0026 Skincare","SUBCATEGORÍA":"Gen X \u0026 Skinification","INSIGHT":"La Piel de los 40s: IT Cosmetics contrata a Jennie Garth (ícono de los 90s) para el lanzamiento del \"Do It All Sheer Tint Face Balm\". El insight es que la mujer Gen X (40-55 años) está abandonando las bases de alta cobertura. Buscan \"Skin Tints\" sólidos (balms) que hidraten las líneas de expresión en lugar de marcarlas. Con un 92% de base de skincare (colágeno, hialurónico), este lanzamiento busca replicar el éxito de la CC Cream pero para la era del \"Minimalismo Maduro\".","RESUMEN":"IT Cosmetics nombra a Jennie Garth como embajadora para lanzar su nuevo Do It All Sheer Tint Face Balm (disponible en Ulta desde Enero 2026). El producto es la mayor innovación de tez de la marca en años, posicionándose como un híbrido bálsamo-suero con 92% de ingredientes de cuidado de la piel (péptidos de colágeno, vitamina E). La campaña se enfoca explícitamente en mujeres mayores de 40 años, utilizando la autenticidad de Garth sobre el envejecimiento para vender una cobertura ligera que realza la piel madura en lugar de ocultarla."},{"URL":"https://cosmeticsbusiness.com/valentino-beauty-loreal-luxe-phase-out-korea-2026","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA DE NEGOCIOS","CATEGORÍA":"Retail \u0026 Geopolítica","SUBCATEGORÍA":"Market Exit \u0026 Rationalization","INSIGHT":"Matar al Débil para Salvar al Fuerte: L\u0027Oréal Luxe confirma el cierre de operaciones de Valentino Beauty en Corea del Sur para finales de Marzo 2026. A pesar del prestigio de la marca, la \"revisión estratégica\" concluyó que no tenía el crecimiento necesario para sobrevivir en el brutal mercado coreano. El insight es la Crueldad Estratégica: ni siquiera el Lujo se salva del recorte si no hay rentabilidad. Esto libera recursos para apostar por licencias con mayor tracción en Asia (como la recién lanzada Miu Miu o Prada).","RESUMEN":"L\u0027Oréal anuncia oficialmente el cese de operaciones de la marca Valentino Beauty en Corea del Sur, efectivo en el primer trimestre de 2026. Tras una revisión profunda del portafolio, el gigante francés decidió retirar la marca del mercado coreano para \"sostener el crecimiento y la salud del negocio\" global. Aunque L\u0027Oréal mantiene la licencia global de Valentino (adquirida en 2018), este movimiento subraya la dificultad extrema de competir en el sector de cosméticos de color de lujo en Corea, dominado por marcas locales y gigantes establecidos como Dior/Chanel."},{"URL":"https://www.galderma.com/news/galderma-us-fda-acceptance-relabotulinumtoxina-application","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"COMUNICADO OFICIAL","CATEGORÍA":"Medicina Estética","SUBCATEGORÍA":"Neuromoduladores \u0026 Innovación","INSIGHT":"La Amenaza Líquida: La FDA acepta la solicitud de Galderma para RelabotulinumtoxinA, su toxina líquida lista para usar. El insight estratégico es la \"Simplicidad Operativa\": al eliminar la reconstitución (mezclar polvo con agua), Galderma promete consistencia exacta en cada dosis y mayor facilidad para el inyector. Con inicio de acción desde el Día 1 y duración de 6 meses, este producto (ya aprobado en Europa como Relfydess™) ataca directamente la dominancia de Botox y la promesa de longevidad de Daxxify.","RESUMEN":"Galderma anuncia el 2 de febrero de 2026 que la FDA ha aceptado la resubmisión de su BLA para RelabotulinumtoxinA. Este neuromodulador de próxima generación, fabricado con tecnología PEARL™, es el primero en formato líquido que no requiere reconstitución, reduciendo la variabilidad y el error humano. Los estudios READY demuestran eficacia desde el primer día y resultados sostenidos por seis meses en líneas de entrecejo y patas de gallo, posicionando a Galderma para liderar la próxima ola de inyectables premium en EE.UU."},{"URL":"https://gemini.google.com/app/f9d7e6c747303163?hl=es#:~:text=https%3A//cosmeticsbusiness.com/dior%2Dlands%2Dbridgertons%2Dflorence%2Dhunt%2Dbrand%2Dambassador","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA DE MARKETING","CATEGORÍA":"Marketing \u0026 Celebridades","SUBCATEGORÍA":"Gen Z \u0026 Netflix Culture","INSIGHT":"La Musa de la Regencia Moderna: Dior ficha a Florence Hunt (Hyacinth en Bridgerton) como embajadora de Belleza y Moda. El movimiento capitaliza el estreno de la Temporada 4 de la serie, conectando la elegancia clásica de la \"Maison\" con la estética Regencycore que obsesiona a la Gen Z. A diferencia de fichajes anteriores (como Charlize Theron para Boomers), Hunt es la apuesta para capturar al consumidor \"Young Adult\" que busca sofisticación histórica filtrada por la cultura pop de streaming.","RESUMEN":"Coincidiendo con el estreno de la cuarta temporada de Bridgerton, Dior anuncia a Florence Hunt como su nueva Embajadora de Marca el 2 de febrero de 2026. La actriz británica representará tanto las líneas de Belleza como de Moda. Dior la describe como una \"musa contemporánea\" que encarna la elegancia magnética, uniendo fuerzas con otras embajadoras jóvenes como Jenna Ortega. El fichaje refuerza la estrategia de Dior de mantenerse relevante en la cultura pop digital mediante iconos de series de streaming masivas."},{"URL":"https://www.linkedin.com/posts/coty_coty-responsibleai-innovation-ugcPost-7424075319650725888-xWCe?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"COMUNICADO OFICIAL","CATEGORÍA":"Tecnología \u0026 Corp","SUBCATEGORÍA":"Enterprise AI \u0026 Upskilling","INSIGHT":"IA Blindada: Coty anuncia una alianza formal con OpenAI para implementar ChatGPT Enterprise. El movimiento estratégico es pasar del uso informal de la IA (\"Shadow AI\") a una adopción corporativa con gobernanza y seguridad de datos. Esto permite a los equipos creativos y operativos usar la herramienta con información confidencial sin riesgo de filtraciones. La narrativa de Coty se centra en el \"Upskilling\" (re-capacitación) de la fuerza laboral, enfatizando que la IA es una herramienta de aumento humano, no de reemplazo.","RESUMEN":"Coty confirma una colaboración estratégica con OpenAI para integrar ChatGPT Enterprise en sus flujos de trabajo globales. Esta primera fase se centra en equipos seleccionados, proporcionándoles acceso a capacidades avanzadas de IA bajo estrictos protocolos de seguridad corporativa. El objetivo es potenciar la creatividad y la eficiencia operativa manteniendo la \"experiencia humana en el centro\". La iniciativa forma parte de un programa más amplio de transformación digital destinado a preparar a la plantilla para el futuro mediante la adopción responsable de la IA."},{"URL":"https://www.linkedin.com/posts/the-business-of-fashion_compared-to-other-global-citizens-europeans-activity-7424013815933128704-aIRg?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ANÁLISIS DE MERCADO","CATEGORÍA":"Retail \u0026 E-commerce","SUBCATEGORÍA":"Penetración Digital \u0026 Farmacia","INSIGHT":"La Anomalía Europea: BoF destaca que Europa Occidental sigue comprando el 78% de su belleza en tiendas físicas (vs. solo 13% en China), debido a la fuerte cultura de farmacia. El insight estratégico para 2026 es que este es el último gran mercado occidental por \"digitalizar\". La llegada de TikTok Shop y la presión de Amazon forzarán una migración acelerada. Las marcas deben dejar de tratar a Europa como EE.UU.; aquí la estrategia digital debe replicar la \"confianza técnica\" del farmacéutico, no solo la conveniencia del envío rápido.","RESUMEN":"The Business of Fashion comparte datos de NielsenIQ mostrando la disparidad masiva en la penetración del e-commerce de belleza: China (87%), EE.UU. (43%) y Europa Occidental (22%). El reporte subraya que la dependencia europea de las farmacias y tiendas físicas ha frenado la adopción digital. Sin embargo, identifica 2026 como el punto de inflexión donde los actores digitales (TikTok Shop, Amazon) comenzarán a erosionar agresivamente ese 78% de cuota física, redefiniendo quién gana al consumidor de belleza europeo."},{"URL":"https://beautynewsdaily.com/cyklar-is-headed-to-sephora/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA RETAIL","CATEGORÍA":"Body Care \u0026 Creator Brands","SUBCATEGORÍA":"Skinification \u0026 Retail Expansion","INSIGHT":"El Cuerpo se Sofistica: Cyklar, la marca de Claudia Sulewski, anuncia su entrada a Sephora (online Feb 21, tiendas Mar 2). El movimiento valida la tendencia de \"Body Skincare\": tratar la piel del cuerpo con el mismo rigor que la cara (ingredientes como Niacinamida y Ceramidas). El insight estratégico es que las marcas de \"Creator\" exitosas en 2026 son aquellas que trascienden el nombre del influencer y ofrecen formulaciones complejas que justifican un espacio en el anaquel de lujo, compitiendo con Sol de Janeiro o Nécessaire.","RESUMEN":"Cyklar anuncia su primera asociación minorista importante con Sephora, marcando su transición de una marca de culto DTC a un jugador nacional omnicanal. La marca, conocida por su enfoque \"primero el cuidado de la piel\" para el cuerpo, lanzará su gama completa (incluyendo la Crema Corporal rica en nutrientes y Aceites de Perfume) en 450 tiendas a partir de marzo de 2026. La expansión permite a los consumidores experimentar físicamente las texturas y fragancias sensoriales, un paso crucial para escalar una marca basada en la experiencia olfativa y táctil."},{"URL":"https://www.globalcosmeticsnews.com/colgate-palmolive-reports-full-year-2025-sales-growth-as-impairment-weighs-on-gaap-earnings/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"REPORTE FINANCIERO","CATEGORÍA":"Finanzas \u0026 Skincare","SUBCATEGORÍA":"Impairment \u0026 China Slowdown","INSIGHT":"El \"Mea Culpa\" de $800 Millones: Colgate-Palmolive reporta un cargo por deterioro de activos de $794 millones en su división de Skin Health (que incluye marcas como EltaMD y Filorga), citando \"menor crecimiento de categoría\" y debilidad en China. Aunque el negocio base (pasta de dientes) sigue sólido (+41% market share global), este ajuste contable masivo señala que la \"Burbuja del Dermosmético\" está estallando o normalizándose. Las marcas que compraron crecimiento a precios altos en 2020-2024 ahora están limpiando sus balances en 2026.","RESUMEN":"Colgate-Palmolive publica sus resultados anuales de 2025 el 2 de febrero de 2026. Aunque las ventas netas crecieron un 1.4% (hasta $20.3 mil millones), el beneficio neto (GAAP EPS) cayó un 25% debido a un cargo no monetario de $794 millones relacionado con la revalorización a la baja de su negocio de Salud de la Piel. La compañía atribuye este golpe financiero a un desempeño más débil de lo esperado en China y una desaceleración general de la categoría, confirmando que incluso los gigantes deben recalibrar sus expectativas de crecimiento en el sector dermocosmético."},{"URL":"https://www.globalcosmeticsnews.com/private-equity-firms-line-up-for-potential-vitabiotics-acquisition/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA M\u0026A","CATEGORÍA":"Finanzas \u0026 Wellness","SUBCATEGORÍA":"Private Equity \u0026 Supplements","INSIGHT":"Wellness Tradicional al Poder: Gigantes del Private Equity como Bain Capital y Blackstone pujan por adquirir Vitabiotics en un trato valorado en £900 millones. El insight es que el capital inteligente está huyendo del riesgo de las \"Indie Brands\" digitales y refugiándose en marcas de legado con flujo de caja probado y liderazgo de categoría (como Pregnacare/Perfectil). La venta marcaría el fin de la era familiar de Vitabiotics y el inicio de una expansión global agresiva bajo gestión financiera.","RESUMEN":"Global Cosmetics News reporta (2 Feb 2026) que Bain Capital y Blackstone lideran la puja para adquirir Vitabiotics, la empresa de vitaminas número 1 del Reino Unido. La valoración potencial de £900 millones refleja el apetito continuo de los inversores por activos de salud del consumidor resilientes. Vitabiotics, famosa por sus marcas segmentadas (Wellman, Wellwoman, Perfectil), representa una oportunidad de consolidación en un mercado de suplementos fragmentado, ofreciendo una plataforma estable frente a la volatilidad de otros sectores de consumo."},{"URL":"https://cosmeticsbusiness.com/l-or%C3%A9al-bold-and-unilever-ventures-invest-live-tinted","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA DE INVERSIÓN","CATEGORÍA":"Finanzas \u0026 Inclusividad","SUBCATEGORÍA":"Venture Capital \u0026 Hybrid Beauty","INSIGHT":"La Alianza de los Gigantes: L\u0027Oréal BOLD y Unilever Ventures invierten conjuntamente en Live Tinted, la marca fundada por Deepica Mutyala. Este movimiento inusual (competidores compartiendo mesa de accionistas) valida el modelo de \"Inclusividad Funcional\". Live Tinted demostró con datos (1 millón de productos vendidos en 2025) que el mercado de soluciones específicas para hiperpigmentación en pieles oscuras es masivo y rentable. La inversión financiará la expansión global y la contratación de ejecutivos senior (ex-Anastasia Beverly Hills) para escalar en retail.","RESUMEN":"El 3 de febrero de 2026, Cosmetics Business reporta que Live Tinted cerró una ronda de financiación con la participación estelar de L\u0027Oréal BOLD y Unilever Ventures, junto con inversores previos y fundadores icónicos como Bobbi Brown. La marca, famosa por su enfoque en la hiperpigmentación y protección solar para todos los tonos de piel (Hueguard), utilizará el capital para fortalecer su presencia en Ulta Beauty y expandirse internacionalmente. La contratación de Celina Areosa como SVP de Ventas señala una fase de profesionalización agresiva para consolidar su liderazgo en el segmento de belleza multicultural \"prestige\"."},{"URL":"https://www.globalcosmeticsnews.com/interparfums-signs-long-term-global-fragrance-license-with-david-beckham/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA DE LICENCIA","CATEGORÍA":"Fragancias \u0026 Negocios","SUBCATEGORÍA":"Celebrity Licensing \u0026 M\u0026A","INSIGHT":"El Robo del Siglo (A Plazos): Interparfums firma una licencia exclusiva de 20 años con David Beckham, arrebatándole la marca a Coty (aunque el cambio efectivo es en Abril 2028). El insight estratégico es la \"Longevidad sobre Hype\": Interparfums valora a Beckham como una marca \"Evergreen\" (siempre verde) capaz de generar $50 millones anuales estables, a diferencia de las volátiles marcas de pop stars. Este movimiento consolida a Interparfums como el nuevo hogar preferido para las licencias de prestigio masculino.","RESUMEN":"Global Cosmetics News reporta el 3 de febrero de 2026 que Interparfums ha asegurado una licencia mundial de 20 años para crear y distribuir fragancias de David Beckham, comenzando en 2028. El acuerdo fortalece la relación de Interparfums con Authentic Brands Group (dueños de la IP de Beckham). La empresa francesa planea expandir las líneas actuales y lanzar una nueva fragancia \"blockbuster\" en 2029, apostando por la influencia multigeneracional del ex-futbolista para competir en el segmento masstige y premium global."},{"URL":"https://www.globalcosmeticsnews.com/dove-mencare-launches-mood-boosting-aluminum-free-deodorants-with-nic-vansteenberghe/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"LANZAMIENTO DE PRODUCTO","CATEGORÍA":"Personal Care \u0026 Men","SUBCATEGORÍA":"Neuro-Glow \u0026 Wellness","INSIGHT":"Higiene Emocional: Dove Men+Care lanza su primera colección de desodorantes \"Mood-Boosting\" sin aluminio. El insight estratégico es la Neurocosmética Masculina: posicionar el aroma no como colonia, sino como modulador del estado de ánimo (confianza, energía, calma). Al asociarse con Nic Vansteenberghe (Love Island), la marca conecta este bienestar holístico con un estilo de vida aspiracional y activo, validando que el hombre moderno busca productos que cuiden su mente tanto como su cuerpo.","RESUMEN":"Global Cosmetics News reporta el lanzamiento de la nueva gama de desodorantes sin aluminio de Dove Men+Care, diseñada con fragancias premium para influir positivamente en el estado de ánimo. La campaña, apoyada por la estrella de reality Nic Vansteenberghe, se basa en estudios que indican que el 85% de los hombres utiliza el aroma para gestionar sus emociones. Este lanzamiento marca la evolución del aseo masculino desde la simple protección contra el olor hacia un ritual de \"self-care\" funcional y emocional."},{"URL":"https://www.globalcosmeticsnews.com/edgewell-sells-feminine-care-business-to-essity-for-us340m/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA M\u0026A","CATEGORÍA":"Finanzas \u0026 Personal Care","SUBCATEGORÍA":"Divestment \u0026 Portfolio Focus","INSIGHT":"Limpieza de Portafolio: Edgewell vende su división de Cuidado Femenino (Playtex, Carefree, o.b.) a Essity por $340 millones. El insight es la \"Especialización Radical\": Edgewell abandona una categoría madura donde no lideraba para reinvertir en sus fortalezas (Afeitado y Suncare). Por otro lado, el gigante sueco Essity compra cuota de mercado instantánea en EE.UU., consolidando la industria de higiene femenina en manos de pocos jugadores globales ultra-especializados.","RESUMEN":"Edgewell Personal Care anuncia el 3 de febrero de 2026 la finalización de la venta de su negocio de Cuidado Femenino a Essity por $340 millones. La transacción incluye marcas históricas como Playtex y Carefree. Edgewell utilizará los ingresos para reducir deuda y potenciar sus categorías \"core\" (Grooming, Sun, Skin), mientras que Essity integra estos activos para fortalecer su posición en Norteamérica. Ambas empresas operarán bajo un acuerdo de transición de servicios por un año para asegurar la continuidad operativa."},{"URL":"https://www.linkedin.com/posts/the-business-of-fashion_new-challenger-is-taking-on-sephora-in-its-activity-7424493420951437312-tewm?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA RETAIL","CATEGORÍA":"Retail \u0026 Asian Beauty","SUBCATEGORÍA":"Physical Expansion \u0026 C-Beauty","INSIGHT":"El \"Sephora\" Asiático: La cadena canadiense SUKOSHI entra agresivamente en EE.UU. con 6 nuevas tiendas, posicionándose como el competidor directo de Sephora para el consumidor de belleza asiática. El insight es que la demanda de marcas virales de K-Beauty (Tirtir), J-Beauty y C-Beauty (Girlcult) ha crecido tanto que ya soporta cadenas de retail físicas dedicadas exclusivamente a ellas. Sukoshi capitaliza lo que Sephora ignora: la profundidad del portafolio asiático y la estética \"kawaii/minimalista\" en la experiencia de tienda.","RESUMEN":"The Business of Fashion reporta la rápida expansión de SUKOSHI en el mercado estadounidense, abriendo tiendas en ubicaciones prime como el Upper East Side de Nueva York. La cadena llena el vacío del mercado actuando como una \"autoridad\" especializada, trayendo marcas de China, Japón y Corea que antes solo se conseguían online. Allison Collins (The Consumer Collective) señala que este modelo ahora es viable gracias a una \"ola cultural\" masiva que busca frescura fuera de las marcas occidentales tradicionales."},{"URL":"https://www.globalcosmeticsnews.com/gillette-india-profit-jumps-on-demand-for-grooming-products/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"REPORTE FINANCIERO","CATEGORÍA":"Grooming \u0026 Mercados Emergentes","SUBCATEGORÍA":"Mass Market Growth","INSIGHT":"El Motor Indio: Gillette India reporta un aumento del 37% en beneficios trimestrales, impulsado por una demanda insaciable de productos de afeitado (+13% en ventas del segmento). El insight estratégico es que, mientras Occidente se enfoca en nichos (Papatui/Manscaped), India sigue siendo un mercado de volumen masivo donde el \"Grooming\" se ha convertido en un \"básico diario\" para la clase media joven urbana. Esto confirma por qué Edgewell y P\u0026G están protegiendo tanto su división de afeitado: es su vaca lechera en mercados emergentes.","RESUMEN":"Global Cosmetics News reporta el 3 de febrero de 2026 que Gillette India (unidad de P\u0026G) registró un crecimiento de beneficios del 37% interanual. Los ingresos operativos subieron un 15%, sostenidos por la urbanización y el aumento de ingresos disponibles en la población joven. A pesar de la competencia de startups locales como Bombay Shaving Company, la escala y distribución de Gillette le permiten capitalizar la conversión del afeitado ocasional al afeitado diario en el país más poblado del mundo."},{"URL":"https://www.globalcosmeticsnews.com/predictive-protective-planet-positive-redefining-hair-care-for-2026/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"PODCAST / ANÁLISIS","CATEGORÍA":"Hair Care \u0026 Tech","SUBCATEGORÍA":"Skinification \u0026 AI Prediction","INSIGHT":"Los 3 Pilares del Pelo 2026: El panel de expertos define el futuro del cuidado capilar bajo tres ejes: Predictivo (IA para anticipar daños), Protector (barrera contra calor/polución) y Planet-Positive (ingredientes biodegradables como norma, no excepción). El insight estratégico es que el consumidor trata su pelo como su piel: busca ingredientes activos (péptidos, ácido glicólico), rutinas de \"wellness\" emocional y formatos concentrados. La innovación clave es el \"Hair Plumping\" (voluminización sin daño) y el auge de los suplementos \"Inside-Out\" como parte de la rutina capilar.","RESUMEN":"Global Cosmetics News lanza su episodio de tendencias de Febrero 2026 con expertos de Fashion Snoops, Inolex y Not Your Mother\u0027s. Analizan cómo el mercado capilar ($151bn para 2030) está evolucionando hacia soluciones híbridas. Jennifer O\u0027Hara (Inolex) destaca el desarrollo de ingredientes que ofrecen \"alternativas a siliconas y quats\" ante la presión regulatoria. Patricia De Moraes (Not Your Mother\u0027s) subraya que la Gen Z exige transparencia total: \"si la sustentabilidad falta, no compran\". Mallory Huron (Fashion Snoops) predice el auge de la \"biotecnología predictiva\" para personalizar tratamientos antes de que el daño sea visible."},{"URL":"https://www.linkedin.com/posts/juanjoseibarra_blushbar-retaildebelleza-experienciadecliente-activity-7424435715649748992-d12j?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / ANÁLISIS DE EXPERTO","CATEGORÍA":"RETAIL \u0026 EXPANSIÓN","SUBCATEGORÍA":"Omnicanalidad \u0026 Curaduría de Marcas","INSIGHT":"La \"Boutique Experiencial\" como motor de fidelización: El caso Blush-Bar demuestra que el éxito en el retail de belleza en LatAm ya no depende solo de tener inventario, sino de la \"curaduría de culto\" (acercar marcas globales aspiracionales como Rare Beauty o The Ordinary) combinada con una educación activa. El consumidor no va solo a comprar, va a aprender y descubrir; por ello, la tienda física evoluciona de punto de venta a centro de experiencia, elevando el ticket promedio y complementando la venta digital.","RESUMEN":"Juan José Ibarra analiza la consolidación de Blush-Bar como referente del retail de belleza en la región, proyectando cerrar el año con entre 70 y 75 tiendas en Colombia, Chile y México. Destaca sus factores diferenciales: 1) Un portafolio global curado con marcas difíciles de encontrar localmente (Huda Beauty, Clinique, etc.); 2) Un modelo de \"Retail Experiencial\" enfocado en servicios de maquillaje y asesoría personalizada; y 3) Una estrategia de expansión omnicanal real que integra tiendas físicas en centros comerciales clave con plataformas de e-commerce propias en cada país."},{"URL":"https://www.globalcosmeticsnews.com/stripes-beauty-launches-at-ulta-beauty-through-wellness-boutique-rollout/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / NOTICIA","CATEGORÍA":"RETAIL \u0026 EXPANSIÓN","SUBCATEGORÍA":"Menopause Wellness \u0026 Shop-in-Shop","INSIGHT":"La Menopausia entra al Mainstream Retail: La alianza Ulta x Stripes Beauty valida que el consumidor \"Pro-Aging\" ya no es un nicho invisible, sino un driver de crecimiento masivo. El insight clave es la redefinición del espacio físico: Ulta no solo pone producto en anaquel, sino que crea \"Wellness Boutiques\" educativas dentro de sus tiendas, reconociendo que la venta de productos para la menopausia requiere un entorno consultivo y empático, elevando la categoría al nivel de la dermocosmética clínica.","RESUMEN":"Stripes Beauty (la marca de Naomi Watts) aterriza oficialmente en Ulta Beauty como pilar del nuevo concepto \"Wellness by Ulta Beauty\". La marca estará disponible online y en boutiques físicas selectas (\"Shop-in-Shop\"), marcando un hito en la accesibilidad masiva de soluciones para la menopausia (desde cuidado capilar hasta bienestar íntimo). Este movimiento refuerza la estrategia de Ulta de consolidar el bienestar como una categoría destino, apostando por marcas que ofrecen educación y desestigmatización del envejecimiento."},{"URL":"https://cosmeticsbusiness.com/charlotte-tilbury-pop-grip-powder-compact-phone-acessory-revolution-beauty","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / TENDENCIA","CATEGORÍA":"MARKETING \u0026 INNOVACIÓN","SUBCATEGORÍA":"Beauty-Tech Accessories \u0026 Viral Packaging","INSIGHT":"El Smartphone como el nuevo \"Tocador Portátil\": La tendencia iniciada por los Lip Cases de Rhode evoluciona hacia categorías más complejas como el rostro. El insight estratégico es la visibilidad permanente: al integrar el producto en el teléfono (el objeto más usado por el consumidor), la marca se asegura estar en la mano del usuario 24/7, convirtiéndolo en una valla publicitaria viviente y resolviendo la necesidad de retoques on-the-go para la \"Selfie Generation\" sin necesidad de bolso.","RESUMEN":"Charlotte Tilbury y Revolution Beauty consolidan la categoría de \"Maquillaje para Celulares\" en 2026. El artículo detalla cómo Charlotte Tilbury ha generado viralidad con un Pop Grip de lujo que esconde su icónico polvo Airbrush Flawless (lanzado inicialmente como PR Gift/GWP en China), mientras que Revolution Beauty democratiza la tendencia lanzando sus propios compactos acoplables al teléfono. Esto confirma que el \"Beauty Tech Accessory\" deja de ser un gimmick de nicho para convertirse en una categoría de accesorios \"must-have\" que impulsa tanto la venta de producto como la lealtad de marca."},{"URL":"https://www.linkedin.com/posts/lor%C3%A9al_christy-turlington-lanc%C3%B4me-ugcPost-7424496928773554178-qu7F?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / ANUNCIO DE MARCA","CATEGORÍA":"MARKETING \u0026 COMUNICACIÓN","SUBCATEGORÍA":"Embajadoras de Marca \u0026 Pro-Aging","INSIGHT":"El Renacimiento de las Supermodelos \u0026 \"Purpose Marketing\": La elección de Christy Turlington no es nostalgia, es estrategia. Representa el giro del lujo hacia la \"Belleza con Propósito\" y la validación de la madurez. El insight es que la consumidora actual ya no aspira solo a la juventud eterna, sino a la \"claridad y convicción\". Las marcas están fichando voces, no solo rostros, para conectar con una audiencia que busca autenticidad, salud y longevidad (Longevity Economy) en lugar de solo corrección estética.","RESUMEN":"L\u0027Oréal anuncia oficialmente a través de LinkedIn la incorporación de la supermodelo y activista Christy Turlington al \"Global Ambassador Collective\" de Lancôme. Bajo el lema \"Optimism is a force that moves forward\" (El optimismo es una fuerza que avanza), la marca la presenta no solo como imagen de belleza, sino como una líder de \"convicción, claridad y propósito\". Este fichaje refuerza el portafolio de embajadoras de Lancôme, alineándose con una narrativa de empoderamiento femenino maduro y sofisticación atemporal."},{"URL":"https://www.linkedin.com/posts/versace_versace-spring-summer-2026-campaign-an-embodied-ugcPost-7424423979014180864-hAXX?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / CAMPAÑA DE LUJO","CATEGORÍA":"MARKETING \u0026 ESTÉTICA","SUBCATEGORÍA":"Visual Narrative \u0026 Art Direction","INSIGHT":"El regreso de la \"Belleza Visceral\" y el fin del \"Clean Girl\": Versace rompe con la estética pulida y uniforme al contratar tres visiones fotográficas opuestas para una misma campaña. Esto señala un cambio cultural hacia el \"Anti-Perfeccionismo\" y el \"Chaos Glamour\". Para el sector belleza, esto implica que la comunicación visual 2026 dejará de ser estéril o puramente clínica; se valorará la textura real, la sexualidad explícita y una narrativa visual \"sucia\" (raw) o cinematográfica que evoque emociones intensas en lugar de solo mostrar perfección inalcanzable.","RESUMEN":"Versace lanza su campaña Spring Summer 2026 enfocada en la \"expresión inquebrantable de la sexualidad\" y la \"comunidad encarnada\". Bajo la dirección creativa de Dario Vitale, la marca subvierte la tradición unificando tres lentes distintos: el glamour confrontativo del legendario Steven Meisel, el estilo underground/raw de Frank Lebon y la narrativa voyerista de la fotógrafa mexicana Tania Franco Klein. La campaña mezcla \"couture y calle\", celebrando la intensidad y la falta de inhibiciones con un casting diverso de artistas y atletas."},{"URL":"https://www.gcimagazine.com/brands-products/color-cosmetics/news/22957474/which-beauty-brands-are-ripe-for-acquisition-in-2026","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / REPORTE DE INDUSTRIA","CATEGORÍA":"NEGOCIOS \u0026 M\u0026A","SUBCATEGORÍA":"Adquisiciones Estratégicas \u0026 Biotech","INSIGHT":"Del \"Volumen\" al \"Valor Científico\": En 2026, los grandes conglomerados cambian su estrategia de compra. Ya no buscan simplemente marcas que vendan mucho (escala), sino objetivos \"quirúrgicos\" que aporten IP patentada (moléculas propias, biotecnología) o dominio absoluto de un nicho. El insight clave es que la innovación interna es lenta, por lo que las grandes empresas comprarán \"Laboratorios Exitosos\" (marcas con R\u0026D probado) o \"Fenómenos de Nicho\" para llenar huecos específicos en su portafolio, en lugar de comprar generalistas.","RESUMEN":"Según el reporte de Kline + Company citado por GCI, el mercado de M\u0026A en 2026 priorizará tres tipos de objetivos: 1) Marcas con IP/Tecnología Propia: Como Augustinus Bader, Ourself o Mother Science, valoradas por sus moléculas patentadas más que por su marketing. 2) Líderes de Alto Crecimiento en Retail: Marcas como Rare Beauty, Tower 28 o DIBS Beauty que han capturado audiencias masivas en canales clave. 3) Dominadores de Nicho: Jugadores que lideran donde los gigantes flaquean, como Nécessaire y OSEA Malibu (Body Care premium) o Vacation (Suncare experiencial)."},{"URL":"https://www.businessoffashion.com/news/beauty/colorescience-roundtable-acquisition/?utm_source=webpage\u0026utm_medium=marketing\u0026utm_campaign=beauty","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / NOTICIA DE NEGOCIOS","CATEGORÍA":"NEGOCIOS \u0026 M\u0026A","SUBCATEGORÍA":"Dermocosmética \u0026 Investment","INSIGHT":"La \"Medicalización\" del Capital: La adquisición por parte de RoundTable Healthcare Partners (un fondo especializado en salud, no solo en consumo) confirma que el valor real en 2026 está en las marcas que cruzan la frontera entre \"Belleza\" y \"Salud\". El insight estratégico es que el Suncare mineral y los híbridos de maquillaje con tratamiento ya no son una categoría estacional, sino un pilar de salud dermatológica diaria, lo que justifica valoraciones más altas y atrae a inversores del sector médico.","RESUMEN":"RoundTable Healthcare Partners adquiere Colorescience, líder indiscutible en protección solar mineral y maquillaje de tratamiento. La operación busca acelerar el crecimiento de la marca tanto en el canal profesional (dermatólogos y cirujanos plásticos) como en DTC. Al pasar de manos de 1315 Capital a un socio estratégico en salud (Healthcare), Colorescience refuerza su posicionamiento como una marca de \"Ciencia primero\", lista para escalar globalmente en un mercado que exige validación clínica extrema."},{"URL":"https://www.prnewswire.com/mx/comunicados-de-prensa/hanmi-firma-un-acuerdo-de-exportacion-con-su-socio-mexicano-sanfer-para-el-farmaco-glp-1-contra-la-obesidad-junto-con-otros-productos-302672053.html","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"COMUNICADO DE PRENSA / ALIANZA","CATEGORÍA":"PHARMA \u0026 WELLNESS","SUBCATEGORÍA":"GLP-1 \u0026 Weight Management (Impacto Estético)","INSIGHT":"La democratización del \"Efecto GLP-1\" en México: La llegada oficial de Efpeglenatide (el GLP-1 coreano) a través de Sanfer (el mayor laboratorio privado de México) acelerará drásticamente el acceso a tratamientos de obesidad fuera de las marcas tradicionales (como Ozempic/Wegovy). Para la industria estética, esto pronostica una segunda ola masiva de pacientes con \"Ozempic Face/Body\", obligando a las clínicas y marcas dermocosméticas a priorizar protocolos de skin tightening y bioestimulación sobre la voluminización tradicional.","RESUMEN":"Hanmi Pharmaceutical firma un acuerdo de distribución exclusiva por 10 años con Laboratorios Sanfer para introducir en México su fármaco propietario contra la obesidad, Efpeglenatide (un innovador GLP-1), junto con su familia de tratamientos para diabetes Dapalon. Sanfer, aprovechando su infraestructura líder en México y LatAm, se encargará de los registros regulatorios y la comercialización. El acuerdo busca capitalizar el mercado mexicano (donde la obesidad supera el 36%), posicionando una alternativa accesible frente a la escasez global de los líderes actuales del mercado."},{"URL":"https://www.globalcosmeticsnews.com/reliance-consumer-acquires-global-rights-to-brylcreem-toni-guy-badedas-and-matey/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / NOTICIA DE NEGOCIOS","CATEGORÍA":"NEGOCIOS \u0026 M\u0026A","SUBCATEGORÍA":"Estrategia de Portafolio \u0026 Marcas Legado","INSIGHT":"El renacimiento de las \"Heritage Brands\" vía Capital Emergente: Mientras los conglomerados occidentales (como Unilever) depuran sus portafolios para enfocarse solo en \"Power Brands\" de alto margen, gigantes de mercados emergentes como Reliance (India) aprovechan para comprar \"equity\" (historia y confianza) establecida. El insight es que estas marcas no están muertas, solo \"sub-gestionadas\"; Reliance apuesta a revivirlas aplicando su masiva fuerza de distribución en mercados de volumen, convirtiendo marcas clásicas en motores de flujo de caja inmediato.","RESUMEN":"Reliance Consumer Products adquiere los derechos globales de un paquete de marcas icónicas de Unilever: Brylcreem (pioneros en styling masculino), Toni \u0026 Guy (cuidado capilar de salón), Badedas (baño premium) y Matey (cuidado infantil). Esta operación estratégica permite a Reliance saltarse décadas de construcción de marca y obtener instantáneamente un portafolio de belleza y cuidado personal con reconocimiento internacional, acelerando su meta de desafiar a los incumbents globales en el sector FMCG."},{"URL":"https://www.globalcosmeticsnews.com/aekyung-industrial-posts-sharp-profit-decline-amid-china-restructuring-and-weak-domestic-demand/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / REPORTE FINANCIERO","CATEGORÍA":"NEGOCIOS \u0026 MERCADOS","SUBCATEGORÍA":"Crisis K-Beauty \u0026 Reestructuración China","INSIGHT":"El doloroso costo de la \"Des-Chinificación\": La caída de utilidades de Aekyung es el síntoma de una transformación necesaria pero costosa en el K-Beauty. El insight estratégico es que el modelo de \"volumen fácil\" en China (vía mayoristas/daigou) ha muerto; las marcas ahora deben invertir fuertemente en marketing directo y construcción de marca real (Brand Equity), sacrificando márgenes a corto plazo para sobrevivir. Además, valida la urgencia de diversificar geográficamente hacia EE. UU. y Japón para compensar la debilidad del consumo doméstico coreano.","RESUMEN":"Aekyung Industrial (dueños de marcas como AGE 20\u0027s y LUNA) reporta una caída aguda en sus ganancias operativas. La empresa atribuye este descenso a dos factores críticos: 1) La reestructuración agresiva de su negocio en China, donde están eliminando canales ineficientes para intentar construir marca a largo plazo (lo que dispara los costos de marketing); y 2) La persistente debilidad del consumo interno en Corea del Sur. A pesar de los números rojos actuales, la dirección mantiene su apuesta por la expansión en canales digitales globales (Amazon US, Qoo10 Japón) como única vía de recuperación."},{"URL":"https://www.justretail.news/noticias/rituals-alcanza-los-2-430-millones-de-euros-en-su-25o-aniversario-y-refuerza-su-expansion-global/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / RESULTADOS FINANCIEROS","CATEGORÍA":"NEGOCIOS \u0026 EXPANSIÓN","SUBCATEGORÍA":"Affordable Luxury \u0026 Retail Físico","INSIGHT":"La Inmunidad del \"Bienestar Asequible\": El crecimiento de doble dígito (+16%) de Rituals valida que, en una economía polarizada, el consumidor no recorta en \"pequeños lujos diarios\". El insight estratégico es el triunfo del \"Sensory Retail\": Rituals abre 200 tiendas al año porque vende una experiencia (aroma, tacto, \"Mind Oasis\") que el e-commerce no puede replicar. Su modelo híbrido (margen EBITDA del 22.5% + B Corp) demuestra que la sostenibilidad y la rentabilidad masiva pueden coexistir si la marca tiene un propósito emocional claro (\"Slow Down\").","RESUMEN":"Rituals Cosmetics celebra su 25º aniversario rompiendo récords: cierra el año fiscal con una facturación de €2.430 millones (+16% vs año anterior) y un EBITDA de €545 millones. La marca holandesa continúa su agresiva expansión física, habiendo abierto más de 200 boutiques en el último año, y pone el foco para 2026 en la conquista del mercado asiático y la renovación de su parque de tiendas en Europa. Destaca también la solidez de su canal digital (que ya representa \u003e20% de las ventas) y su compromiso de impacto social a través de su \"Profit Pledge\" (donar el 10% del beneficio neto)."},{"URL":"https://beautynewsdaily.com/new-bodycare-brand-hotel-mike-launches/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / LANZAMIENTO","CATEGORÍA":"CUIDADO PERSONAL (BODY CARE)","SUBCATEGORÍA":"Biotech \u0026 Upcycled Ingredients","INSIGHT":"Eco-Maximalismo y Biotecnología Accesible: Hotel, Mike rompe con la estética minimalista y \"beige\" típica de la sostenibilidad tradicional. El insight estratégico es que el consumidor de 2026 ya no acepta \"natural\" como sinónimo de \"simple\"; exige biotecnología avanzada (ingredientes cultivados en laboratorio para no agotar recursos naturales) y upcycling creativo (usar residuos de otras industrias) en productos corporales. La marca eleva la categoría de \"básicos de baño\" al nivel de tratamiento facial científico, demostrando que la ética ambiental puede tener un diseño visual vibrante y lujoso.","RESUMEN":"Se lanza oficialmente Hotel, Mike, una nueva marca británica fundada por Harriet Murphy (el nombre viene del alfabeto radiofónico: Hotel=H, Mike=M), que redefine el cuidado corporal fusionando ciencia y arte. Su propuesta única se basa en el uso de ingredientes bioingenierizados (como taurina vegetal de algas) y subproductos reciclados de la industria alimentaria (residuos de ginebra, cáñamo y cebada). Con un portafolio inicial de 4 productos (Wash, Lotion, Oil, Salts) en envases de aluminio infinitamente reciclables, la marca busca capturar al consumidor que desea la eficacia de un sérum facial en su rutina corporal diaria."},{"URL":"https://www.linkedin.com/posts/charlotte-mejat-b1a93926_vichylaboratoires-laboratoriosvichy-longevidad-ugcPost-7422282653304918017-JoEi?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"POST LINKEDIN / LANZAMIENTO","CATEGORÍA":"SKINCARE \u0026 CIENCIA","SUBCATEGORÍA":"Longevidad Celular \u0026 Embajadoras Maduras","INSIGHT":"De \"Anti-Aging\" a \"Ciencia de la Longevidad\": Vichy redefine la categoría de pieles maduras eliminando el lenguaje de \"lucha\" contra la edad para adoptar la narrativa de \"Longevidad Integrativa\". El insight estratégico es la autenticidad biológica: el consumidor ya no quiere transformar sus rasgos (el \"over-filled look\"), sino restaurar la capacidad regenerativa de sus propias células. La elección de una embajadora local madura (Aitana Sánchez-Gijón) valida la belleza aspiracional real, alejándose de modelos de 20 años vendiendo cremas para arrugas.","RESUMEN":"Charlotte Mejat anuncia el lanzamiento de Neovadiol Longevity, posicionado como la mayor innovación de Vichy para pieles maduras tras 20 años de investigación. El producto se diferencia por la \"Tecnología Longevisia\" (desarrollada por L\u0027Oréal R\u0026I), diseñada para actuar en el origen celular del envejecimiento y recuperar volumen sin alterar la expresión. La campaña ficha a la actriz Aitana Sánchez-Gijón como embajadora, personificando el mensaje de \"mejorar la salud de la piel sin transformar la belleza\", alineándose con la demanda de rigor científico y honestidad en el marketing dermocosmético."},{"URL":"https://www.linkedin.com/posts/global-cosmetic-industry-gci-_cosmoprofmiami-activity-7420500914559410176-L3-j?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"POST LINKEDIN / EVENTO DE INDUSTRIA","CATEGORÍA":"PACKAGING \u0026 SUSTENTABILIDAD","SUBCATEGORÍA":"Glass Innovation \u0026 Eco-Design","INSIGHT":"El \"Nuevo Vidrio\": Tecnología vs. Peso. El vidrio se reinventa para sobrevivir en la era de la sostenibilidad. El insight clave es que el lujo ya no se mide por el peso del envase (el antiguo estándar de calidad), sino por la sofisticación del diseño y la eficiencia tecnológica. Baralan demuestra que el futuro del packaging premium es \"Lightweight but Heavy in Design\", permitiendo a las marcas mantener la estética de vidrio sin la huella de carbono asociada al transporte de envases pesados.","RESUMEN":"En el marco de Cosmoprof Miami, Global Cosmetic Industry destaca la propuesta de Baralan (Booth 425) para \"redefinir el vidrio\". La empresa presenta nuevas soluciones que fusionan estética refinada con tecnología avanzada y sostenibilidad. El objetivo es ofrecer diseños que eleven la percepción visual del producto de belleza mientras cumplen con las estrictas normativas ambientales globales, posicionando al vidrio como el material definitivo para el \"Lujo Responsable\" del futuro."},{"URL":"https://beautynewsdaily.com/inside-loreal-professionnels-new-global-creative-collective/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / ESTRATEGIA DE MARCA","CATEGORÍA":"PROFESSIONAL HAIRCARE","SUBCATEGORÍA":"Co-creation \u0026 Talent Economy","INSIGHT":"El Fin del \"Director Creativo Único\": L\u0027Oréal Professionnel rompe el modelo jerárquico tradicional al reemplazar la figura del líder creativo único por un \"Colectivo Global\". El insight estratégico es la descentralización de la tendencia: hoy la moda capilar nace simultáneamente en TikTok, en los backstages de París y en la educación técnica. Al reclutar \"Contributors\" (contribuyentes) en lugar de meros \"Embajadores\", la marca cambia la dinámica de endorsement por co-desarrollo, asegurando que sus futuros productos y servicios tengan validación tanto artística como comercial y viral desde el día uno.","RESUMEN":"L\u0027Oréal Professionnel presenta oficialmente su primer \"Global Creative Collective\", un equipo híbrido de estilistas y coloristas internacionales (incluyendo a Ben Gregory, Min Kim, Jawara y Jacob Habib Khan). A diferencia de los embajadores tradicionales, este grupo diverso —que une a estilistas de celebridades (Dua Lipa, Rihanna) con educadores virales de redes sociales— tiene el mandato de co-crear activamente el futuro de la marca. Trabajarán junto a los equipos internos para desarrollar innovaciones, nuevos protocolos de educación y narrativas de marca que fusionen la alta moda con la realidad del salón y la velocidad de la cultura digital."},{"URL":"https://cosmeticsbusiness.com/one-size-patrick-starrr-expands-global-reach-to-become-legacy-brand","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / ESTRATEGIA DE NEGOCIO","CATEGORÍA":"NEGOCIOS \u0026 EXPANSIÓN GLOBAL","SUBCATEGORÍA":"From Influencer to Legacy \u0026 Retail Strategy","INSIGHT":"El cruce del abismo: De \"Marca de Influencer\" a \"Institución\". Patrick Starrr define el camino para que las marcas de creadores no mueran cuando baja el hype: la institucionalización física. El insight es que la viralidad digital tiene techo; para convertirse en una \"Legacy Brand\" (como MAC o Estée Lauder), es obligatorio tener una huella física masiva en mercados internacionales clave (como Reino Unido y Europa) que sostenga el negocio independientemente de las vistas en TikTok.","RESUMEN":"One/Size ejecuta su plan estratégico más ambicioso para 2026: una expansión global agresiva diseñada para transicionar de ser una \"sensación viral\" a una \"marca legado\" establecida. Tras registrar un crecimiento de triple dígito en mercados internacionales desde 2023 (con el Reino Unido como su mayor mercado fuera de Norteamérica), la marca prioriza nuevas alianzas de retail físico en Europa. El objetivo es consolidar una estructura de ventas que no dependa solo de la imagen de Patrick, sino de la penetración de mercado y la excelencia de producto."},{"URL":"https://www.globalcosmeticsnews.com/phia-raises-us35-million-series-a-to-scale-ai-powered-shopping-platform/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / INVERSIÓN (VC)","CATEGORÍA":"RETAIL TECH \u0026 AI","SUBCATEGORÍA":"AI Shopping Agents \u0026 Personalización","INSIGHT":"El fin del \"Search\", el inicio del \"Agent\": Con una valoración de $185MDD, Phia valida que el futuro del shopping no es buscar productos en un catálogo infinito, sino tener un \"Agente de IA\" personal que cure la oferta por ti. El insight estratégico es la \"Alineación de Incentivos\": a diferencia de las redes sociales que optimizan para retener tu atención (vistas), Phia optimiza para la satisfacción de compra (menores devoluciones, mayor conversión). Esto señala un cambio tectónico donde las marcas ya no pagarán por \"impresiones\", sino por \"intención inteligente\".","RESUMEN":"Phia, la startup de compras impulsada por IA co-fundada por Phoebe Gates y Sophia Kianni, cierra una Serie A de US$35 millones liderada por Notable Capital (con Khosla Ventures y Kleiner Perkins), alcanzando una valoración de US$185 millones. La plataforma actúa como una \"capa de alineación\" entre consumidor y marca, utilizando agentes inteligentes para entender gustos y necesidades reales. Con más de 1 millón de usuarios y 6,200 marcas asociadas (desde lujo hasta contemporáneo) en menos de un año, Phia reporta métricas clave: mayor conversión, tickets promedio más altos y, crucialmente, una tasa de devoluciones significativamente menor."},{"URL":"https://cosmeticsbusiness.com/laborie-derma-advances-patented-science-validated-lipid-bond","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / INNOVACIÓN CIENTÍFICA","CATEGORÍA":"HAIRCARE \u0026 CIENCIA","SUBCATEGORÍA":"Bond Repair 2.0 \u0026 Biomimetic Lipids","INSIGHT":"De \"Marketing Químico\" a \"Evidencia Biológica\": Laborie Derma redefine la categoría saturada de reparación capilar (Bond Repair) al moverse del simple refuerzo de enlaces químicos aislados a la \"Integridad Estructural Lípido-Proteica\". El insight estratégico es la validación académica como nuevo estándar de lujo: ya no basta con decir \"repara\"; la marca publica estudios en revistas científicas (Dermatology Research and Practice) para demostrar con microscopía electrónica que su tecnología restaura la organización interna del cabello, elevando el estándar de \"eficacia probada\" para el mercado profesional y de consumo masivo.","RESUMEN":"Laborie Derma avanza en el mercado con su plataforma patentada Lipid Bond Technology, diseñada para abordar el daño capilar restaurando la integridad entre lípidos y proteínas, en lugar de solo reforzar enlaces químicos. La tecnología se diferencia por estar respaldada por investigación revisada por pares (publicada por Wiley), ofreciendo pruebas visuales (microscopía SEM) de cambios estructurales reales en la fibra capilar. Este enfoque busca alejar a la industria de los reclamos puramente sensoriales (\"se siente suave\") hacia una eficacia biológica medible y patentable, ideal para el desarrollo de portafolios de largo plazo en un mercado cada vez más escéptico y regulado."},{"URL":"https://beautynewsdaily.com/cover-fx-announces-closure/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / NOTICIA DE NEGOCIOS","CATEGORÍA":"NEGOCIOS \u0026 MERCADOS","SUBCATEGORÍA":"Cierre de Marca \u0026 Ciclo de Vida","INSIGHT":"La \"Trampa del Pionero\" en un Mercado Saturado: El cierre de Cover FX (pioneros en 40 tonos antes que Fenty) demuestra que el \"legado de inclusión\" ya no es un diferenciador único, sino un estándar básico. El insight estratégico es que las marcas de nicho dermatológico que no logran mantener el \"Brand Heat\" (relevancia cultural) terminan siendo devoradas por los costos operativos y la competencia viral. Ni siquiera la adquisición por grandes grupos (AS Beauty) pudo salvarla de un entorno global desafiante (aranceles, inflación), probando que en 2026, si no eres una \"Love Brand\" emocional, eres prescindible.","RESUMEN":"Cover FX anuncia oficialmente su cierre tras 25 años en la industria. La marca, fundada en 1999 por Victor Casale en Canadá y célebre por sus bases de maquillaje de alta cobertura y gotas personalizables (Custom Enhancer Drops), cita \"presiones de la industria\" crecientes, incluyendo tarifas y un mercado global desafiante, como las razones del cese de operaciones. A pesar de haber sido adquirida por AS Beauty Group en 2022 e intentar un refresh de marca, no logró recuperar su estatus de culto frente a competidores más nuevos. El inventario restante se liquidará a través de su web y Amazon."},{"URL":"https://www.globalcosmeticsnews.com/meeshos-quarterly-loss-widens-as-marketing-and-expansion-spending-accelerates/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / REPORTE FINANCIERO","CATEGORÍA":"NEGOCIOS \u0026 RETAIL TECH","SUBCATEGORÍA":"Social Commerce \u0026 Logística","INSIGHT":"El costo de la \"Defensa Territorial\": Meesho sacrifica sus márgenes a corto plazo (pérdidas x13) para blindar su cuota de mercado frente a Amazon y Flipkart. El insight estratégico es que en mercados emergentes masivos (India/LatAm), la logística propia (como su nueva adquisición Valmo) y el marketing agresivo son los únicos fosos defensivos reales. La marca apuesta a que controlar la entrega y capturar al usuario \"festivo\" (promociones estacionales) pagará dividendos cuando logren escalar su economía unitaria.","RESUMEN":"Meesho, la plataforma de comercio electrónico india, reporta un aumento drástico en sus pérdidas trimestrales (US$53.4 millones), multiplicándose por 13 respecto al año anterior. Este resultado se debe a un incremento del 44% en gastos, impulsado principalmente por una inversión masiva en publicidad (para defenderse de rivales) y la integración de su nueva plataforma logística, Valmo. A pesar de las pérdidas, los ingresos crecieron un 32% y los usuarios transaccionales anuales alcanzaron los 251 millones, validando su tracción en el segmento de consumidores sensibles al precio."},{"URL":"https://www.globalcosmeticsnews.com/coupang-ceo-questioned-by-police-over-alleged-data-breach-cover-up/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / NOTICIA LEGAL","CATEGORÍA":"RETAIL TECH \u0026 REGULACIÓN","SUBCATEGORÍA":"Ciberseguridad \u0026 Crisis Management","INSIGHT":"La \"Opacidad Corporativa\" como Riesgo Existencial: La investigación criminal contra el CEO de Coupang demuestra que los reguladores ya no toleran el encubrimiento de brechas de datos. El insight estratégico es que la transparencia radical es obligatoria: intentar minimizar un incidente (decir que fueron 3,000 usuarios cuando podrían ser 33 millones) destruye la reputación corporativa más rápido que el hackeo mismo. En un entorno donde la IA maneja datos biométricos y de pago, la \"integridad del dato\" es el nuevo estándar de calidad.","RESUMEN":"Harold Rogers, CEO interino de Coupang (el gigante del e-commerce surcoreano), es interrogado por la policía de Seúl bajo sospecha de obstrucción de la justicia y manipulación de evidencia relacionada con una filtración masiva de datos personales. Las autoridades investigan si la empresa analizó independientemente el portátil de un sospechoso sin notificar a la policía y si intentó encubrir la magnitud real del ataque (que podría afectar a 33 millones de usuarios) reportando cifras falsas inicialmente. El caso ha escalado a nivel diplomático, con tensiones entre reguladores coreanos y legisladores estadounidenses."},{"URL":"https://www.consalud.es/podcasts/huella-piel/temporada-4/acne-y-microbiota-el-nuevo-enfoque-que-esta-revolucionando-el-cuidado-de-la-piel-acneica.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"PODCAST / MEDIOS ESPECIALIZADOS","CATEGORÍA":"SKINCARE \u0026 CIENCIA","SUBCATEGORÍA":"Microbioma \u0026 Acné (Dermobiótica)","INSIGHT":"El fin de la \"Era Antibiótica\" en el Acné: El tratamiento del acné pasa de un enfoque de \"guerra\" (eliminar bacterias, secar la piel) a uno de \"diplomacia\" (equilibrar el ecosistema). El insight clave es la distinción de filotipos: la ciencia confirma que la bacteria C. acnes no es mala per se (es necesaria para la salud lipídica), solo ciertas cepas lo son. Por tanto, el futuro no son los productos \"anti-acné\" agresivos, sino los moduladores selectivos que preservan la biodiversidad cutánea para evitar recidivas y la resistencia bacteriana.","RESUMEN":"En este episodio de la 4ª temporada de \"Huella de Piel\", se aborda la revolución en el tratamiento de la piel acneica bajo el prisma de la microbiota. Los expertos discuten cómo la disbiosis (desequilibrio bacteriano) es la causa raíz real, más allá del sebo. Se destaca que el uso excesivo de antibióticos y limpiadores astringentes tradicionales agrava el problema a largo plazo al destruir la barrera defensiva. La nueva norma terapéutica integra probióticos orales y postbióticos tópicos para restaurar la inmunidad de la piel, marcando el auge de la \"Dermobiótica\" como pilar central en la consulta dermatológica."},{"URL":"https://www.globalcosmeticsnews.com/hindustan-unilever-remains-indias-top-tv-advertiser-despite-market-slowdown/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / REPORTE DE MERCADO","CATEGORÍA":"MARKETING \u0026 NEGOCIOS","SUBCATEGORÍA":"Inversión en Medios \u0026 Mass Market","INSIGHT":"La \"Defensa Ofensiva\" del Líder: En un entorno donde el mercado publicitario se contrae (-11%), HUL decide mantener su presión en TV (14% del volumen total) en lugar de ahorrar. El insight estratégico es que la TV sigue siendo insustituible para el Mass Market de alta frecuencia (jabones, champús) en economías emergentes. Al mantener la visibilidad cuando los competidores desaparecen por cautela financiera, HUL asegura que su marca sea la única opción en la mente del consumidor (\"Mental Availability\"), consolidando su dominio a largo plazo.","RESUMEN":"Hindustan Unilever (HUL) retiene su posición como el anunciante número uno en la televisión india durante 2025, según el reporte TAM AdEx. A pesar de que el volumen total de publicidad en TV cayó un 11% en el mercado (con una baja notable del 10% en el Q4), HUL acaparó el 14% del volumen total de anuncios. Esta estrategia subraya la dependencia de la compañía en la televisión para mantener alcance masivo y dominio de categoría en el sector FMCG, desafiando la tendencia general de recorte de presupuestos ante la incertidumbre del consumo."},{"URL":"https://cosmeticsbusiness.com/dyson-beauty-enters-bustling-scalp-care-market","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / LANZAMIENTO ESTRATÉGICO","CATEGORÍA":"HAIRCARE \u0026 TECH","SUBCATEGORÍA":"Scalp Care \u0026 Cross-Category","INSIGHT":"La \"Ingeniería Agrícola\" aplicada a la Belleza: Dyson rompe su propia barrera de hardware para entrar en consumibles (fórmulas). El insight estratégico es la verticalización total del ecosistema capilar: no basta con vender la herramienta de $500 USD, ahora Dyson quiere capturar la rutina diaria con \"Dyson Amino\". Lo revolucionario no es solo el producto, sino el origen: utilizan cebada cultivada en sus propias granjas (Dyson Farming), conectando la tecnología de aire con la agricultura sostenible para cerrar el círculo de \"Salud del Cuero Cabelludo\".","RESUMEN":"Dyson Beauty expande oficialmente su territorio más allá de los dispositivos electrónicos con el lanzamiento de \"Dyson Amino\", un tratamiento leave-in para el cuero cabelludo. El producto utiliza cebada cultivada en las propias granjas de Dyson (Dyson Farming) mezclada con 11 aminoácidos para mejorar la función barrera del cuero cabelludo. Este movimiento complementa sus herramientas existentes (como el secador Nural con modo protector de cuero cabelludo) y busca capitalizar un mercado global de cuidado del cuero cabelludo proyectado en $20.79 mil millones para 2030, bajo la premisa de que \"un cuero cabelludo fortificado crea cabello más fuerte\"."},{"URL":"https://beautynewsdaily.com/interview-shannon-davenport-of-esker/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ENTREVISTA / FUNDADORA","CATEGORÍA":"CUIDADO PERSONAL (BODY CARE)","SUBCATEGORÍA":"Lymphatic Health \u0026 Rituals","INSIGHT":"El sistema linfático como el \"motor invisible\" de la belleza: Shannon Davenport anticipa que el próximo gran foco del wellness no será la superficie de la piel, sino lo que corre debajo: el sistema linfático. El insight estratégico es que el consumidor (especialmente en perimenopausia) está conectando la retención de líquidos y la elasticidad con la salud interna. Por eso, herramientas como el Body Plane (exfoliación + drenaje) triunfan: convierten una rutina aburrida en un acto de salud tangible donde \"ves lo que sale\" (suciedad/células muertas), validando la eficacia al instante.","RESUMEN":"Entrevista con Shannon Davenport, ex-pronosticadora de tendencias y fundadora de Esker, marca de cuidado corporal botánico que acaba de lanzarse en Credo Beauty. Davenport explica cómo la marca nació de la necesidad de \"bajar revoluciones\" al sistema nervioso a través del baño. Destaca su producto estrella, el Body Plane, una herramienta de exfoliación inspirada en rituales griegos y romanos que moderniza el drenaje linfático. La fundadora señala que el futuro de la marca se enfocará en la \"regulación\" del cuerpo (circulación, magnesio, flujo linfático), posicionando el bodycare como una herramienta de salud mental y física, no solo estética."},{"URL":"https://www.linkedin.com/posts/fotona-d%2Ed%2E_worldcancerday-nonhormonaltreatment-renovalase-ugcPost-7424813001960095744-sY5D?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / SOLUCIÓN CLÍNICA","CATEGORÍA":"APARATOLOGÍA \u0026 WOMEN\u0027S HEALTH","SUBCATEGORÍA":"Menopausia \u0026 Tratamientos No Hormonales","INSIGHT":"La \"Estética Ginecológica\" como necesidad médica, no vanidad: En el marco del Día Mundial del Cáncer, Fotona posiciona el láser no como una herramienta de rejuvenecimiento, sino como una solución funcional crítica para sobrevivientes de cáncer de mama que no pueden usar terapias hormonales. El insight es la \"Tecnología Inclusiva\": el mercado de la menopausia (GSM) es masivo, y la aparatología (Er:YAG) se convierte en la única alternativa segura para un segmento demográfico creciente que la farmacéutica tradicional deja desatendido.","RESUMEN":"Fotona utiliza el World Cancer Day para visibilizar sus soluciones láser no hormonales (RenovaLase® y LichenLase®) enfocadas en la salud íntima femenina. Ante condiciones como la atrofia vaginal o el liquen escleroso, la marca promueve su tecnología Er:YAG (Fotona SMOOTH®) como una alternativa segura para pacientes con antecedentes de cáncer de mama o riesgo oncológico, quienes no pueden recurrir a estrógenos tópicos. Se destaca la capacidad de regenerar tejido y lubricación natural sin fármacos, cortes ni tiempo de recuperación."},{"URL":"https://www.linkedin.com/posts/jean-yves-coste-672aa924_exosomes-moving-toward-a-central-place-in-activity-7424797788258869248-d5l4?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / ANÁLISIS DE MERCADO","CATEGORÍA":"MEDICINA ESTÉTICA \u0026 CIENCIA","SUBCATEGORÍA":"Exosomas \u0026 Medicina Regenerativa","INSIGHT":"La transición de \"Corregir\" a \"Señalizar\": Los exosomas redefinen la medicina estética al cambiar el foco del volumen (rellenos) a la comunicación celular biológica. El insight es que el tratamiento ya no es estático (poner una sustancia), sino dinámico (darle instrucciones a la célula para repararse). Se integran no como competidores, sino como potenciadores obligatorios de la aparatología (láser, RF) para reducir el downtime y mejorar la calidad del tejido real, no solo la apariencia.","RESUMEN":"Jean-Yves Coste analiza cómo los exosomas están pasando de ser una \"novedad de nicho\" a un pilar central en los portafolios médicos. Argumenta que la industria está cambiando su lenguaje: de hablar solo de volumen y tensión, a hablar de señales biológicas. Destaca su rol estratégico en 4 ejes: integración en regeneración, complemento de tecnologías (láser, microneedling), mejora de calidad tisular y un enfoque fisiológico del anti-aging. Concluye que la ventaja competitiva futura de las clínicas no será si los ofrecen, sino cómo los integran como \"bloques de construcción biológica\" en sus ecosistemas terapéuticos."},{"URL":"https://www.modaes.com/cosmetica/grupo-loreal-coloca-a-ana-jaureguizar-al-frente-de-la-presidencia-de-espana-y-portugal","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / NOMBRAMIENTO CORPORATIVO","CATEGORÍA":"NEGOCIOS \u0026 LIDERAZGO","SUBCATEGORÍA":"Liderazgo Femenino \u0026 Sucesión Estratégica","INSIGHT":"El Liderazgo Híbrido \"Lujo + Masivo\": El nombramiento de Ana Jaureguizar valida que, para dirigir un mercado maduro en 2026, se necesita un perfil \"anfibio\". Habiendo liderado con éxito tanto la división de Lujo (L\u0027Oréal Luxe) como la de Gran Consumo (CPD), su ascenso confirma que la barrera entre \"prestigio\" y \"masivo\" se ha borrado. El insight estratégico es la continuidad evolutiva: L\u0027Oréal apuesta por el talento interno para proteger su \"motor\" europeo, priorizando a líderes que entienden la sofisticación del cliente (Lujo) pero saben ejecutar con la velocidad del retail masivo (TikTok Shop/Gran Consumo).","RESUMEN":"L\u0027Oréal Groupe anuncia oficialmente que Ana Jaureguizar asumirá la presidencia de la filial en España y Portugal a partir del 1 de julio de 2026, sucediendo a Juan Alonso de Lomas (quien se retira tras 28 años en el grupo). Jaureguizar, actual Directora General de Gran Consumo y ex-Directora de Lujo, se convierte en la líder máxima del clúster ibérico. Su mandato se enfocará en acelerar la transformación digital y la sostenibilidad, capitalizando su experiencia transversal en las dos divisiones más importantes de la compañía para mantener a España como uno de los mercados de mayor crecimiento en Europa."},{"URL":"https://www.consalud.es/salud35/analisis/telemedicina-y-salud-digital-la-industria-farmaceutica-avanza-hacia-el-sistema-sanitario-del-futuro.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ANÁLISIS DE INDUSTRIA","CATEGORÍA":"PHARMA \u0026 DIGITAL HEALTH","SUBCATEGORÍA":"Telemedicina \u0026 Patient Centricity","INSIGHT":"De \"Vendedor de Pastillas\" a \"Socio de Salud\": La industria farmacéutica evoluciona su modelo de negocio hacia el Servicio Híbrido. El insight estratégico es que el medicamento por sí solo es un commodity; el valor real en 2026 está en el ecosistema digital que lo rodea (telemedicina, apps de adherencia, monitoreo remoto). La farmacéutica asume un rol activo en el seguimiento del paciente fuera del hospital, utilizando la telemedicina no para diagnosticar, sino para asegurar la eficacia del tratamiento y recopilar Real World Data (RWD).","RESUMEN":"El análisis de Salud35 (ConSalud) detalla cómo la industria farmacéutica está impulsando la adopción de la telemedicina para construir el sistema sanitario del futuro. Se destaca que la digitalización ya no es solo para marketing, sino estructural: desde ensayos clínicos descentralizados (que permiten participar desde casa) hasta programas de soporte a pacientes (PSP) que combinan IA y consultas virtuales. El objetivo es resolver la ineficiencia del sistema actual, mejorando la adherencia terapéutica y permitiendo una medicina más predictiva y personalizada donde la farmacéutica acompaña al paciente en todo su \"viaje\" de salud."},{"URL":"https://www.gcimagazine.com/brands-products/skin-care/news/22958821/medipeel-cj-olive-young-sephora-and-finery-signal-nextphase-global-expansion-across-prestige-kbeauty-and-fragrance-retail","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / ESTRATEGIA DE EXPANSIÓN","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"K-Beauty 2.0 \u0026 Masstige Fragrance","INSIGHT":"La \"Institucionalización\" de la Tendencia: Tres movimientos definen la nueva escala global: 1) Medi-Peel conquista el lujo francés (Printemps) validando el \"K-Derma\" como premium. 2) CJ Olive Young se convierte en \"curador global\" para Sephora, exportando no solo marcas, sino su autoridad en tendencias a EE. UU. y Asia. 3) Fine\u0027ry salta de Target a Walmart y Amazon, probando que la \"perfumería dupe\" de alta calidad ya es un commodity básico. El insight es que el retail físico occidental necesita desesperadamente la velocidad de innovación coreana para mantener el tráfico en tienda.","RESUMEN":"Medi-Peel avanza en Europa lanzándose oficialmente en Printemps Haussmann (París) tras el éxito de su pop-up (donde fue #1 en skincare), y entra en Reino Unido con eventos \"Science in Red\". Paralelamente, CJ Olive Young firma una alianza estratégica con Sephora para introducir \"zonas K-Beauty curadas por Olive Young\" en tiendas de EE. UU., Canadá y Asia, actuando como incubadora de tendencias para el gigante de LVMH. Por último, Fine\u0027ry (marca de fragancias de Maesa) expande su distribución omnicanal lanzando en Walmart, Amazon y TikTok Shop, consolidando su dominio en el mercado de fragancias accesibles en 2026."},{"URL":"https://www.consalud.es/salud35/internacional/novo-nordisk-gana-13714-millones-de-euros-en-2025-y-alerta-de-la-posible-caida-de-ventas-por-la-creciente-competencia.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / RESULTADOS FINANCIEROS","CATEGORÍA":"NEGOCIOS \u0026 PHARMA","SUBCATEGORÍA":"Mercado de la Obesidad (GLP-1)","INSIGHT":"De \"Océano Azul\" a \"Océano Rojo\": Novo Nordisk admite por primera vez que su dominio absoluto está amenazado. El insight estratégico es la Guerra de Precios y Acceso: con la llegada masiva de Zepbound (Eli Lilly) y la mejora en la cadena de suministro, la obesidad deja de ser un mercado de escasez (donde se vende todo lo que se produce) para convertirse en un mercado competitivo tradicional. Esto obligará a Novo a defenderse no solo con ciencia, sino con descuentos agresivos a aseguradoras, erosionando sus márgenes históricos.","RESUMEN":"Novo Nordisk reporta un beneficio neto de €13.714 millones en 2025, pero las acciones reaccionan con cautela ante la advertencia de la directiva: se prevé una desaceleración en el crecimiento de las ventas para 2026. La compañía atribuye este freno a la intensa competencia de Eli Lilly (cuyo fármaco Mounjaro/Zepbound está ganando terreno rápidamente) y a la presión a la baja en los precios netos en Estados Unidos. Para contrarrestarlo, Novo anuncia un aumento récord en su inversión de I+D, buscando diferenciar sus fármacos con nuevos beneficios cardiovasculares y metabólicos más allá de la simple pérdida de peso."},{"URL":"https://www.consalud.es/salud35/nacional/leo-pharma-asume-la-titularidad-de-la-autorizacion-de-comercializacion-de-espesolimab-en-la-union-europea.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / REGULATORIO \u0026 NEGOCIOS","CATEGORÍA":"PHARMA \u0026 DERMATOLOGÍA","SUBCATEGORÍA":"Enfermedades Raras \u0026 Licencias Estratégicas","INSIGHT":"El \"Monopolio del Nicho\": LEO Pharma refuerza su posición como líder global en dermatología médica al absorber activos de alta complejidad. El insight es la consolidación del portafolio de biológicos: al asumir la comercialización de espesolimab (un anticuerpo para brotes agudos), la empresa asegura el control total del viaje del paciente en enfermedades graves como la Psoriasis Pustulosa Generalizada (PPG), moviéndose de tratamientos tópicos básicos a terapias biológicas de alto valor y margen.","RESUMEN":"LEO Pharma anuncia oficialmente que ha asumido la titularidad de la autorización de comercialización en la Unión Europea para espesolimab (nombre comercial Spevigo), el tratamiento innovador para los brotes de Psoriasis Pustulosa Generalizada (PPG). Este traspaso es parte del acuerdo estratégico con Boehringer Ingelheim, permitiendo a LEO Pharma gestionar directamente la distribución y acceso del fármaco en el Espacio Económico Europeo. Este movimiento es clave para su ambición de liderar el segmento de enfermedades raras de la piel, complementando su pipeline con una solución de rescate vital para pacientes con esta condición autoinmune grave."},{"URL":"https://www.eldiario.es/economia/novo-nordisk-desploma-bolsa-rebajar-prevision-ventas-ozempic-farmaco-estrella_1_12962332.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / PRENSA ECONÓMICA","CATEGORÍA":"NEGOCIOS \u0026 MERCADOS","SUBCATEGORÍA":"Bolsa \u0026 Valoración de Empresas","INSIGHT":"La corrección de la \"Euforia Metabólica\": El desplome en bolsa revela la fragilidad de las valoraciones actuales. Los inversores trataban a Novo como una tecnológica de crecimiento infinito; al admitir que \"solo\" crecerán a un ritmo normal debido a la competencia y precios, el mercado ajusta violentamente el precio de la acción. El insight es que la narrativa de escasez ha terminado: el mercado ya no paga primas por la mera existencia del producto, ahora exige eficiencia operativa y defensa de margen en un entorno de precios a la baja.","RESUMEN":"Las acciones de Novo Nordisk se desploman en los mercados europeos tras la actualización de sus previsiones para 2026. A pesar de los resultados históricos de 2025, la compañía ha decepcionado a los inversores al proyectar un crecimiento de ventas más conservador para su fármaco estrella, Ozempic, y su versión para obesidad, Wegovy. La dirección cita la presión sobre los precios en Estados Unidos y las limitaciones persistentes en la cadena de suministro como frenos clave, lo que confirma ante el mercado que la competencia con Eli Lilly está empezando a erosionar la posición de dominio casi monopolístico que disfrutaba la empresa danesa."},{"URL":"https://cosmeticsbusiness.com/estee-lauder-companies-fined-750k-canada-enviromental-law-violations","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / LEGAL Y REGULATORIO","CATEGORÍA":"SUSTENTABILIDAD \u0026 LEGAL","SUBCATEGORÍA":"PFAS (Forever Chemicals) \u0026 Cumplimiento","INSIGHT":"El riesgo reputacional de los \"Forever Chemicals\": La multa de $750k CAD es lo de menos; el verdadero castigo es la inclusión de ELC en el \"Registro de Infractores Ambientales\" de Canadá. El insight estratégico es que la regulación proactiva es ineludible: ELC falló al no notificar el uso de PFAS (Perfluorononyl Dimethicone) en eyeliners y, peor aún, ignoró una orden gubernamental de cumplimiento. Esto demuestra que los reguladores están monitoreando activamente los inventarios y que la ignorancia burocrática ya se considera un delito ambiental corporativo.","RESUMEN":"Estée Lauder Companies se declara culpable de dos violaciones a la Ley de Protección Ambiental de Canadá y recibe una multa de CAD$750,000. El conflicto surgió tras descubrirse que la empresa vendía eyeliners con PFAS (Perfluorononyl Dimethicone) sin notificarlo como \"nueva actividad significativa\" al gobierno, requisito obligatorio para evaluar riesgos de salud. Además de la multa, la corte ordenó que ELC notifique a sus accionistas y su nombre sea añadido públicamente al registro de infractores, sentando un precedente severo sobre la responsabilidad de las marcas globales en el rastreo de ingredientes persistentes en cada mercado local."},{"URL":"https://www.gcimagazine.com/brands-products/bath-body/news/22959976/ulta-beauty-formalizes-its-playbook-as-beautysports-partnerships-go-pro","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ESTRATEGIA DE MARKETING","CATEGORÍA":"MARKETING \u0026 SPORTS","SUBCATEGORÍA":"Athleisure Beauty \u0026 Cultura Deportiva","INSIGHT":"De \"Patrocinador\" a \"Constructor de Ecosistema\": Ulta redefine el patrocinio deportivo al no buscar solo visibilidad (logos), sino relevancia cultural. El insight es que el deporte femenino es la nueva plataforma de empoderamiento masivo y la belleza es su aliada (\"Look Good, Play Good\"). A diferencia de marcas individuales (como Saie con los Knicks o e.l.f. con la NWSL), Ulta actúa como agregador, posicionándose como el destino donde convergen la identidad atlética y el cuidado personal, usando tarjetas digitales coleccionables y becas para fidelizar a la próxima generación de consumidoras activas.","RESUMEN":"Ulta Beauty lanza oficialmente \"The Ulta Beauty Roster\", un colectivo de seis atletas profesionales femeninas (incluyendo a la estrella de la WNBA Dearica Hamby y la fenómeno del pickleball Anna Leigh Waters) para profundizar su conexión con el deporte. Coincidiendo con el National Girls and Women in Sports Day, la iniciativa va más allá del endoso tradicional: incluye la creación de contenido sobre rutinas de belleza para el rendimiento, impacto comunitario (becas \"Roster for Change\" para niñas en deportes) y activación omnicanal. Este movimiento se suma a una ola de convergencia entre belleza y deporte, con ejemplos recientes como Gillette Venus patrocinando patinadoras olímpicas para Milán 2026 y Saie asociándose con los NY Knicks."},{"URL":"https://www.elespanol.com/mujer/protagonistas/20260121/rocio-valenzuela-experta-dermatologia-mujeres-hace-tratamientos-esteticos-no-quirurgicos/1003744094528_0.html","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ENTREVISTA / PRENSA GENERALISTA","CATEGORÍA":"DERMOCOSMÉTICA \u0026 ESTÉTICA","SUBCATEGORÍA":"Medicina Estética No Quirúrgica \u0026 Longevidad","INSIGHT":"La Normalización Masiva del \"Tweakment\": España lidera la adopción de retoques sin bisturí. El insight es la \"Estética como Salud\": el 32% de las mujeres españolas ya recurre a tratamientos médico-estéticos no quirúrgicos (y el 50% quiere probarlos), superando la media europea. Esto valida que la barrera psicológica se ha roto: el consumidor ve el láser o el inyectable no como una vanidad extrema, sino como parte de su rutina de salud (\"Longevity\"), obligando a las marcas de farmacia (como Vichy/La Roche-Posay) a crear productos específicos para mantener y potenciar esos resultados clínicos en casa.","RESUMEN":"Rocío Valenzuela, Directora General de L\u0027Oréal Dermatological Beauty España y Portugal, analiza la explosión de los procedimientos no quirúrgicos. Confirma que la tendencia dominante es la \"Longevidad Integrativa\": no luchar contra el tiempo, sino aliarse con él (Positive Aging). Valenzuela destaca tres prioridades para 2026: 1) Co-desarrollo con médicos e IA (mencionando la tecnología Melasyl™ para manchas), 2) El rol del farmacéutico como primer filtro sanitario, y 3) La sostenibilidad. La directiva subraya que el futuro es la Nutricosmética y el enfoque \"In \u0026 Out\" (cuidar desde dentro para ver resultados fuera)."},{"URL":"https://www.gcimagazine.com/ingredients/bath-body/news/22960007/savor-carbontocream-savor-leverages-foodtech-platform-to-enter-beauty-ingredients","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / INNOVACIÓN EN INGREDIENTES","CATEGORÍA":"INGREDIENTES \u0026 BIOTECH","SUBCATEGORÍA":"Lípidos Sintéticos \u0026 Carbon Capture","INSIGHT":"Del Plato a la Piel (FoodTech Crossover): Savor, famosa por crear mantequilla a partir de CO2 (aprobada por chefs Michelin), pivota hacia la belleza. El insight estratégico es la \"Creación vs. Extracción\": en lugar de cultivar palmas o criar animales para obtener grasas, Savor las diseña molecularmente a partir de emisiones de carbono. Esto soluciona dos dolores de cabeza masivos para la industria cosmética: la volatilidad de la cadena de suministro agrícola y la huella de carbono, ofreciendo \"Grasas de Diseño\" (como sebo vegano o alternativas a la vaselina) que son idénticas a las naturales pero infinitamente escalables y sostenibles.","RESUMEN":"Savor, la startup de tecnología alimentaria conocida por su \"mantequilla de aire\" (hecha de emisiones capturadas), lanza oficialmente su división de Personal Care \u0026 Beauty (PCB). La empresa introduce cuatro plataformas de ingredientes: triglicéridos climáticamente conscientes (alternativa al aceite de palma), sebo vegano (para la tendencia de animal fats sin animales), lípidos miméticos (idénticos a los de la piel humana) y una alternativa a la vaselina. Al utilizar procesos termoquímicos para convertir CO2 en lípidos de alto rendimiento, Savor promete a los formuladores una consistencia y estabilidad que los aceites naturales no pueden garantizar, marcando el inicio de la era de los \"Ingredientes Climáticamente Negativos\" en cosmética masiva."},{"URL":"https://www.glossy.co/beauty/wellness-briefing-the-wellness-categories-investors-are-eyeing-and-avoiding-in-2026-plus-news/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / BRIEFING DE INVERSIÓN","CATEGORÍA":"NEGOCIOS \u0026 WELLNESS","SUBCATEGORÍA":"VC Trends \u0026 Market Fit","INSIGHT":"El Fin del \"Wellness Etéreo\": Los inversores (como Jenny Liu de Crush It Ventures y Kelly Chen de XRC Ventures) ya no financian marcas de bienestar basadas solo en branding bonito o vibes. El insight estratégico es el retorno a lo tangible y social: el capital huye de las categorías saturadas y de bajo margen (suplementos genéricos, CBD básico) y se mueve agresivamente hacia \"Social Wellness\" (espacios físicos comunitarios tipo gimnasios de lujo/recuperación) y \"Hard Tech\" (dispositivos con métricas reales). Si no puedes probar el ROI biológico o social, no hay financiación.","RESUMEN":"Glossy publica su Wellness Briefing tras consultar a líderes de inversión de fondos como SOSV, Wellness Growth Ventures y Crush It Ventures. El consenso para 2026 es claro: LO QUE ENTRA: Inversiones en espacios de Social Wellness (la fusión de gimnasio, club social y clínica de recuperación), tecnología de salud femenina (Femtech) más allá de la fertilidad, y soluciones de longevidad con respaldo clínico duro. LO QUE SALE: El Home Fitness (Peloton despide al 11% de su plantilla, confirmando la fatiga del modelo \"entrena solo en casa\") y los suplementos commoditizados sin diferenciación patentable. Además, se destaca el fichaje de celebridades por marcas de \"Foundational Nutrition\" (como AG1), señalando que en un mercado saturado, la confianza lo es todo."},{"URL":"https://www.businessoffashion.com/news/beauty/rhode-drives-third-quarter-growth-for-elf-beauty/?utm_source=webpage\u0026utm_medium=marketing\u0026utm_campaign=beauty","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / REPORTE FINANCIERO","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"M\u0026A y Celebrity Brands","INSIGHT":"El \"Efecto Halo\" de la Adquisición: Rhode no solo sobrevivió a la adquisición, sino que se convirtió en el motor turbo de e.l.f. Beauty. El insight estratégico es la Sinergia Operativa Real: e.l.f. puso su maquinaria de cadena de suministro y distribución (entrando en Sephora) al servicio del hype de Rhode, logrando que la marca de Hailey Bieber generara $128 millones en un solo trimestre. Esto prueba que el modelo de \"Incubadora Inversa\" (comprar marcas virales y escalarlas con infraestructura corporativa) es el camino más rápido para el crecimiento en un mercado saturado.","RESUMEN":"e.l.f. Beauty reporta un crecimiento del 38% en sus ventas netas del tercer trimestre fiscal (alcanzando $489.5 millones), impulsado principalmente por el desempeño estelar de Rhode, la marca de cuidado de la piel de Hailey Bieber adquirida en 2025. Rhode contribuyó con $128 millones a los ingresos del trimestre, superando todas las expectativas gracias a su exitoso lanzamiento en Sephora (EE. UU. y Reino Unido). Ante estos resultados, e.l.f. ha elevado sus previsiones para el año fiscal completo, esperando que Rhode aporte entre $260 y $265 millones anuales, validando su estrategia de expansión hacia el segmento \"Masstige\" y el mercado internacional."},{"URL":"https://www.maccosmetics.com/chappell-roan","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"WEB OFICIAL / CAMPAÑA DE MARCA","CATEGORÍA":"MAKEUP \u0026 POP CULTURE","SUBCATEGORÍA":"Celebrity Ambassadorship \u0026 Maximalism","INSIGHT":"El Retorno del \"Performance Makeup\": MAC nombra a Chappell Roan Embajadora Global para 2026, validando que el péndulo ha oscilado completamente hacia el Maximalismo Teatral. El insight estratégico es la \"Identidad Escénica\": el consumidor Gen Z/Alpha ya no busca solo \"verse bien\" (corrección), busca \"transformarse\" (expresión). Al comercializar productos técnicos de nicho (como la base Full Coverage White para el look \"Clown White\" de Chappell) en el mainstream, MAC democratiza el maquillaje de escenario, posicionándose como la única marca técnica capaz de aguantar el ritmo de una gira pop de alto rendimiento.","RESUMEN":"MAC Cosmetics lanza su plataforma dedicada a Chappell Roan, su nueva Embajadora Global. La campaña, fotografiada por Inez \u0026 Vinoodh, presenta a la estrella del pop con su característico look \"Midwest Princess\" (tez blanca, cejas borradas y labios Cool Teddy). La marca comercializa el \"Kit Chappell\", que incluye productos de alta cobertura y larga duración (como el Studio Fix Pro Set + Blur y las pestañas 76 Supermodel Lash), subrayando la durabilidad necesaria para el escenario. Chappell describe la alianza como un \"círculo completo\", citando el apoyo histórico de MAC a la comunidad Queer y al arte del Drag como factores decisivos."},{"URL":"https://cosmeticsbusiness.com/est%C3%A9e-lauder-reformulates-hero-foundation-double-wear","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / LANZAMIENTO DE PRODUCTO","CATEGORÍA":"MAKEUP \u0026 R\u0026D","SUBCATEGORÍA":"Reformulaciones \u0026 Skinification","INSIGHT":"El Riesgo del \"New Coke\" en Belleza: Estée Lauder se atreve a tocar lo intocable. La reformulación del Double Wear responde a la paradoja moderna: el consumidor quiere \"cobertura total\" (clásica) pero \"acabado de piel real\" (moderno). El insight estratégico es la \"Matriz de Polímeros Transpirable\": para evitar que el maquillaje de larga duración se sienta como una máscara (lo que rechaza la Gen Z), introducen una malla flexible que se mueve con la piel y añaden activos de skincare (Niacinamida, Alga) para controlar la grasa desde dentro, no solo taparla. Es un movimiento defensivo para evitar que el producto envejezca junto con su base de clientes original.","RESUMEN":"Estée Lauder anuncia la renovación de su producto héroe, Double Wear Stay-in-Place Makeup, lanzando una \"nueva generación\" de la base. La fórmula actualizada promete mantener la cobertura legendaria del original pero incorpora la tecnología Polymer Mesh Matrix (una red invisible que permite a la piel respirar y moverse) y el Double Balancing Complex con AlgaNiacina y Ácido Hialurónico. El objetivo es ofrecer un acabado mate más dimensional (menos plano), 72 horas de hidratación y control de grasa a largo plazo, respondiendo a la demanda de maquillaje híbrido que trata la piel mientras la cubre."},{"URL":"https://www.gcimagazine.com/brands-products/color-cosmetics/news/22957474/which-beauty-brands-are-ripe-for-acquisition-in-2026","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ANÁLISIS DE MERCADO","CATEGORÍA":"NEGOCIOS \u0026 M\u0026A","SUBCATEGORÍA":"Private Equity \u0026 Consolidación","INSIGHT":"La Estrategia de la \"Compra Quirúrgica\": Los inversores abandonan la búsqueda de volumen puro para centrarse en tres pilares estrictos: 1) Ciencia Propietaria (biotech defendible), 2) Cultura Masiva (comunidades rabiosas) y 3) Dominio de Categoría (nichos de alto margen). El insight estratégico es que ya no se compran marcas \"bonitas\", se compran activos funcionales. Augustinus Bader es el trofeo científico, Rare Beauty el cultural, y Nécessaire el de categoría (bodycare premium). Si no tienes una patente o una legión de fans, no eres \"comprable\" en 2026.","RESUMEN":"Según un reporte de Kline + Company citado por GCI, el mercado de M\u0026A en 2026 se caracterizará por la disciplina. Se identifican tres grupos claros de objetivos de adquisición:1. Science-First: Marcas con tecnología patentada real, como Augustinus Bader, Ourself (biotech delivery) y Hydrinity. 2. Culture-First: Marcas que han capturado audiencias masivas y leales, lideradas por Rare Beauty, Tower 28 y DIBS Beauty.3. Category-Dominant: Líderes de nichos específicos donde los grandes grupos flaquean, destacando a Nécessaire (cuidado corporal premium), OSEA Malibu (clean wellness), Vacation (suncare experiencial) y Salt \u0026 Stone."},{"URL":"https://www.consalud.es/salud35/internacional/roche-abandona-vixarelimab-y-amortiza-100-millones-de-dolares-en-una-revision-de-cartera.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / FINANZAS PHARMA","CATEGORÍA":"NEGOCIOS \u0026 I+D","SUBCATEGORÍA":"Racionalización de Portfolio \u0026 Licencias","INSIGHT":"La Disciplina del \"Sunk Cost\": Roche prefiere asumir una pérdida contable de 100 millones ahora que invertir miles de millones en un fármaco con dudas. El insight estratégico es la \"Limpieza de Cartera\": tras la adquisición masiva de Telavant (por el activo TL1A para enfermedad inflamatoria intestinal), Roche necesita enfocar todos sus recursos en ese \"blockbuster\" potencial. Eliminar programas redundantes o de menor rendimiento como vixarelimab (licenciado a Kiniksa) es una maniobra necesaria para maximizar el ROI de su división de inmunología.","RESUMEN":"Roche anuncia oficialmente que detiene el desarrollo de vixarelimab, un anticuerpo monoclonal destinado al tratamiento de la fibrosis y el prurito, que había licenciado a Kiniksa Pharmaceuticals en 2022 (a través de su filial Genentech). Como resultado de esta revisión de cartera, la compañía suiza registra un cargo por deterioro (amortización) de aproximadamente 100 millones de dólares. La decisión refleja un cambio de prioridades en su pipeline de inmunología, desinvirtiendo en activos de riesgo medio para concentrar capital en sus lanzamientos más prometedores para enfermedades autoinmunes y oncología."},{"URL":"https://www.globalcosmeticsnews.com/marubeni-acquires-japanese-skincare-and-cosmetics-brand-etvos/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ADQUISICIÓN CORPORATIVA","CATEGORÍA":"NEGOCIOS \u0026 J-BEAUTY","SUBCATEGORÍA":"Diversificación Industrial \u0026 Clean Beauty","INSIGHT":"La \"Industrialización\" del J-Beauty: Marubeni (una casa comercial tradicionalmente enfocada en energía y materias primas) adquiere el 100% de ETVOS para convertirla en la piedra angular de su nueva plataforma de \"Beauty \u0026 Health\". El insight estratégico es que el Capital Industrial está buscando activos de consumo estables y escalables. ETVOS, conocida por sus ceramidas y maquillaje mineral seguro para pieles sensibles, ofrece el perfil perfecto: una marca \"científica\" y de confianza local que Marubeni puede escalar globalmente usando su inmensa red logística y comercial, saltándose los intermediarios tradicionales de belleza.","RESUMEN":"Marubeni Corporation ha completado la adquisición del 100% de ETVOS, la marca japonesa de cuidado de la piel y cosméticos minerales fundada en 2007. La estrategia detrás de la compra es utilizar a ETVOS como el activo fundacional para desarrollar una nueva división de Salud y Belleza dentro del gigante comercial. Marubeni planea aprovechar el fuerte posicionamiento de la marca en el mercado doméstico (conocida por productos hipoalergénicos y ricos en ceramidas humanas) para expandir su presencia en el sector de consumo, validando el atractivo duradero de las marcas de \"Clean J-Beauty\" con enfoque dermatológico."},{"URL":"https://www.globalcosmeticsnews.com/barry-m-seeks-buyer-as-it-moves-toward-administration/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / REESTRUCTURACIÓN","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"Insolvencia \u0026 Manufactura Local","INSIGHT":"La Trampa de la \"Herencia Local\": Barry M entra en administración no por falta de ventas (que crecieron a £17.4M), sino por inviabilidad operativa. El insight estratégico es que el modelo \"Made in UK\", que antes era un activo de marketing, se convirtió en un pasivo financiero mortal debido a los costos energéticos y laborales británicos frente a competidores que fabrican en Asia. Esto demuestra que en 2026, sin una eficiencia de costos brutal, la nostalgia y la lealtad del cliente no son suficientes para salvar el margen.","RESUMEN":"La icónica marca británica Barry M, famosa por sus esmaltes de uñas y cosmética vegana accesible, ha presentado una notificación de intención de nombrar administradores y busca urgentemente un comprador. A pesar de haber realizado un rebranding reciente para atraer a la Gen Z y aumentar sus ingresos, la empresa familiar (con 40 años de historia) ha sucumbido ante la \"tormenta perfecta\": costos de manufactura disparados en su fábrica de Londres, caos en la cadena de suministro y márgenes erosionados. La firma Begbies Traynor ha sido contratada para explorar la venta y salvar el negocio."},{"URL":"https://www.revistabeautyprof.com/texto-diario/mostrar/5760797/marca-belleza-minimalista-merit-llega-espana","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / LANZAMIENTO DE MARCA","CATEGORÍA":"MAKEUP \u0026 NEGOCIOS","SUBCATEGORÍA":"Minimalismo \u0026 Expansión Internacional","INSIGHT":"El triunfo del \"Esencialismo\": La llegada de Merit a España marca el fin de la era de la \"rutina de 10 pasos\". El insight estratégico es la \"Belleza Intencional\": el consumidor moderno está fatigado por el exceso de lanzamientos y busca productos híbridos (maquillaje + cuidado) que sean \"imposibles de usar mal\". Al posicionarse como el antídoto al consumo excesivo (\"Less is More\"), Merit no vende solo barras de maquillaje, sino tiempo y claridad mental para la mujer ocupada, atacando el segmento que ha abandonado las marcas artísticas complejas.","RESUMEN":"La marca de belleza minimalista MERIT, fundada por Katherine Power, aterriza oficialmente en el mercado español. Conocida por su filosofía de \"Five Minute Morning\" (arreglarse en 5 minutos), la marca introduce su colección de \"Lujo Responsable\" con productos de culto como el Minimalist Perfecting Complexion Stick y el Flush Balm. El lanzamiento se consolida con un evento en Madrid que reúne a las principales voces de la moda y belleza, posicionando a la marca como la nueva referencia de cosmética limpia, vegana y segura (Clean at Sephora standards) que simplifica la rutina diaria sin sacrificar la sofisticación."},{"URL":"https://www.consalud.es/salud35/internacional/eli-lilly-abandona-tres-farmacos-en-desarrollo-clinico-incluida-una-terapia-genica-para-la-demencia-frontotemporal.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / I+D Y FINANZAS","CATEGORÍA":"NEGOCIOS \u0026 PHARMA","SUBCATEGORÍA":"Neurociencia \u0026 Gestión de Cartera","INSIGHT":"El Costo de Oportunidad del Éxito: Lilly elimina activos no por falta de dinero, sino por disciplina de enfoque. El insight estratégico es que cuando tienes un \"superciclo\" de productos (como los GLP-1), el estándar para mantener cualquier otro proyecto sube drásticamente. Abandonar la terapia génica para demencia (un activo heredado de la compra de Prevail por $1B) y el lepodisiran (cardiovascular) indica que la empresa prefiere concentrar recursos en ganar la guerra de la obesidad y en su fármaco donanemab, en lugar de dispersarse en apuestas científicas de alto riesgo y retorno incierto.","RESUMEN":"Aprovechando la presentación de sus resultados financieros anuales, Eli Lilly anuncia la discontinuación de tres programas clínicos clave. Entre los descartes destaca una terapia génica para la demencia frontotemporal (procedente de su adquisición de Prevail Therapeutics), lo que subraya las dificultades persistentes en el campo de la terapia génica neurológica. También se detiene el desarrollo de lepodisiran, un tratamiento para reducir la lipoproteína(a), y un inhibidor de SSTR4 para el dolor crónico. La decisión permite a Lilly limpiar su balance y centrar su maquinaria de I+D en maximizar la franquicia de tirzepatida y sus próximos lanzamientos orales."},{"URL":"https://www.linkedin.com/posts/pradagroup_prada-group-and-versace-announce-the-appointment-activity-7425147483644870656-Nyje?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"COMUNICADO OFICIAL / LINKEDIN","CATEGORÍA":"MODA \u0026 NEGOCIOS","SUBCATEGORÍA":"Liderazgo Creativo \u0026 M\u0026A (Fusiones)","INSIGHT":"La \"Intelectualización\" del Sex Appeal: El nombramiento de Pieter Mulier (discípulo de Raf Simons y arquitecto del renacer de Alaïa) para dirigir Versace señala el fin del \"Maximalismo Pop\" puro. El insight estratégico es la elevación de la sensualidad: Prada busca limpiar la imagen de Versace, moviéndola de la estridencia de los logos hacia una sexualidad arquitectónica y técnica. Mulier es el único diseñador capaz de traducir el glamour italiano en \"Lujo Silencioso\" con corte perfecto, legitimando la marca ante la crítica de moda y alejándola del fast fashion de lujo.","RESUMEN":"Prada Group y Versace anuncian oficialmente que Pieter Mulier asumirá el cargo de Chief Creative Officer el 1 de julio de 2026, reportando directamente a Lorenzo Bertelli (lo que confirma el control de la familia Prada sobre la marca). Mulier, reconocido por su maestría técnica en Alaïa y su paso por Jil Sander y Dior, tiene la misión de escribir el \"nuevo capítulo\" de la casa. Su perfil, mucho más técnico y menos mediático que el de sus predecesores, sugiere una estrategia centrada en la calidad del producto y la confección, buscando revalorizar la marca más allá del hype de las celebridades."},{"URL":"https://www.globalcosmeticsnews.com/kkr-prepares-wella-company-for-potential-us-ipo/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / FINANZAS CORPORATIVAS","CATEGORÍA":"NEGOCIOS \u0026 HAIRCARE","SUBCATEGORÍA":"IPO \u0026 Estrategia de Salida","INSIGHT":"La Validación del \"Salón\" como Activo Financiero: KKR prepara la IPO de Wella tras separar exitosamente su gestión de la de Coty. El insight estratégico es la Resiliencia del Canal Profesional: a diferencia del retail masivo (volátil), los peluqueros son clientes \"pegajosos\" y recurrentes. Al sacar a bolsa un gigante que incluye a Wella Professionals, OPI y ghd, KKR apuesta a que el mercado valorará la estabilidad de los flujos de caja del servicio profesional por encima del crecimiento explosivo pero efímero de las marcas virales de TikTok.","RESUMEN":"KKR está trabajando con asesores financieros (incluyendo bancos de inversión de primer nivel) para preparar una Oferta Pública Inicial (IPO) de Wella Company en Estados Unidos, prevista para finales de 2026. La valoración podría superar los miles de millones, capitalizando el fuerte desempeño de la compañía tras su independencia en 2020. Wella ha logrado crecer consistentemente en ventas y márgenes gracias al auge del cuidado capilar premium y la demanda sostenida de herramientas de peinado (ghd) y productos de uñas (OPI), posicionándose como una de las pocas \"pure plays\" (empresas dedicadas) del sector profesional en bolsa."},{"URL":"https://www.consalud.es/salud35/internacional/eikon-therapeutics-recauda-381-millones-de-dolares-en-su-salida-a-bolsa-de-eeuu.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / FINANZAS BIOTECH","CATEGORÍA":"NEGOCIOS \u0026 BIOTECH","SUBCATEGORÍA":"IPO \u0026 Tech-Bio","INSIGHT":"El Triunfo de la \"Biofísica\": Eikon rompe la sequía de salidas a bolsa validando el modelo Tech-Bio. El insight estratégico es que los inversores vuelven a apostar por Plataformas de Descubrimiento (tecnología que genera múltiples fármacos) en lugar de activos únicos. Al utilizar microscopía de superresolución (tecnología Nobel) para ver el movimiento de proteínas en tiempo real, Eikon vende la \"industrialización\" del descubrimiento, atrayendo capital que busca reducir el riesgo de fracaso clínico mediante una mejor comprensión física de la biología desde el día uno.","RESUMEN":"Eikon Therapeutics debuta en el Nasdaq recaudando 381 millones de dólares, una cifra que supera las expectativas en un mercado que había sido conservador. La compañía, respaldada por inversores de alto perfil, se especializa en el rastreo de partículas individuales en células vivas para identificar nuevos objetivos terapéuticos \"indrogables\". Los fondos se destinarán a avanzar su pipeline clínico propio y escalar sus operaciones de ingeniería, señalando al mercado que las empresas con ciencia disruptiva y diferenciada vuelven a tener acceso a la liquidez pública en 2026."},{"URL":"https://www.cosmeticsbusiness.com/rhode-elf-beauty-q3-boost-sales-2026-outlook-sephora-launch","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / RESULTADOS Y PREVISIONES","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"Estrategia de Crecimiento \u0026 Guidance","INSIGHT":"La Dependencia del \"Nuevo Héroe\": e.l.f. Beauty eleva su guidance (previsión de beneficios) para todo 2026 basándose casi exclusivamente en el éxito del lanzamiento de Rhode en Sephora. El insight estratégico es el riesgo y recompensa de la concentración: el grupo apuesta a que la \"Rhode-manía\" no es una moda pasajera, sino un comportamiento de consumo estructural. Al proyectar ingresos masivos continuos, e.l.f. está indicando que Rhode ha cruzado el abismo de \"marca de celebridad\" a \"marca institucional\" best-seller.","RESUMEN":"e.l.f. Beauty actualiza al alza sus perspectivas financieras para el cierre del año fiscal 2026, impulsada por un tercer trimestre que superó todas las estimaciones. El factor decisivo fue el debut físico de Rhode en Sephora (EE. UU. y Reino Unido), que generó un volumen de ventas y tráfico en tienda sin precedentes. La dirección confirma que la integración operativa ha sido un éxito total, permitiendo a Rhode escalar su producción para satisfacer una demanda global que el modelo DTC (venta directa) anterior no podía soportar, posicionando al grupo para un crecimiento de doble dígito sostenido."},{"URL":"https://www.gcimagazine.com/brands-products/color-cosmetics/news/22960061/elf-beauty-posts-38-q3-growth-lifts-fy26-outlook-as-rhode-fuels-international-momentum?utm_source=newsletter-html\u0026utm_medium=email\u0026utm_campaign=GCI+E-Newsletter+02-05-2026","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / RESULTADOS GLOBALES","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"Expansión Internacional \u0026 Escala","INSIGHT":"El \"Efecto Halo\" Transfronterizo: Rhode actúa como el acelerador de la internacionalización de e.l.f. El insight estratégico es que la demanda global reprimida por la marca de Hailey Bieber (que antes tenía envíos limitados) ha permitido al grupo abrir puertas en Europa y Asia mucho más rápido. Al utilizar la infraestructura logística de e.l.f. para llevar Rhode al mundo, el grupo logra eficiencias de escala que benefician a ambas marcas, convirtiendo el negocio internacional en el nuevo motor de crecimiento de doble dígito (+38% global).","RESUMEN":"e.l.f. Beauty confirma un crecimiento del 38% en ventas netas en el Q3, impulsado significativamente por el dinamismo en los mercados internacionales. El informe detalla cómo la integración de Rhode no solo sumó ingresos domésticos, sino que catalizó la penetración de la compañía fuera de Estados Unidos. Gracias a este éxito combinado, la empresa eleva nuevamente su guía fiscal para 2026, validando su estrategia de replicar su modelo de \"cadena de suministro veloz\" y marketing digital en territorios clave de Europa y el resto del mundo."},{"URL":"https://www.globalcosmeticsnews.com/estee-lauder-fined-us750000-in-canada-over-pfas-cosmetics-breach/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / LEGAL GLOBAL","CATEGORÍA":"NEGOCIOS \u0026 ESG","SUBCATEGORÍA":"Cumplimiento Normativo \u0026 PFAS","INSIGHT":"La \"Licencia Social\" en Juego: La multa valida que los gobiernos están pasando de la advertencia a la sanción penal por \"delitos químicos\". El insight estratégico es la Trazabilidad Forense: las grandes marcas ya no pueden alegar ignorancia sobre lo que contienen sus sub-componentes importados. Al ser incluidos en el Registro de Infractores Ambientales, ELC sufre un golpe en sus credenciales ESG (Ambiental, Social y Gobernanza), lo cual es tóxico para atraer inversores institucionales en 2026.","RESUMEN":"Global Cosmetics News reporta que Estée Lauder Companies (ELC) ha sido multada con $750,000 (en referencia a la sanción canadiense) tras declararse culpable de violar la Ley de Protección Ambiental de Canadá (CEPA). La infracción se centró en la importación y venta de productos cosméticos (eyeliners) que contenían PFAS (químicos permanentes) sin la notificación obligatoria al gobierno para su evaluación de riesgos. Este caso sienta un precedente de \"tolerancia cero\" para las multinacionales que no fiscalizan rigurosamente la composición química de sus cadenas de suministro globales."},{"URL":"https://www.businesswire.com/news/home/20260204885957/en/Clinique-Announces-Visionary-Collaboration-with-ACUVUE-to-Advance-Eye-Education-in-Beauty-and-Vision","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"COMUNICADO OFICIAL / ALIANZA ESTRATÉGICA","CATEGORÍA":"MARKETING \u0026 R\u0026D","SUBCATEGORÍA":"Salud Ocular \u0026 Cross-Industry Partnership","INSIGHT":"La \"Medicalización del Maquillaje\": Clinique se convierte en la primera marca de belleza en crear un programa educativo conjunto con una farmacéutica óptica (Johnson \u0026 Johnson Vision). El insight estratégico es la Seguridad Funcional: para la Gen Z y Millennials que usan lentes de contacto, el maquillaje suele ser una molestia. Al unir la \"Promesa de Seguridad Ocular\" de Clinique (testada por oftalmólogos) con la autoridad clínica de ACUVUE, ambas marcas legitiman sus productos como la única opción \"segura y cómoda\" para ojos sensibles, diferenciándose drásticamente de las marcas indie que solo se enfocan en el pigmento.","RESUMEN":"Clinique y ACUVUE anuncian una colaboración \"visionaria\" para educar a los consumidores sobre el uso seguro de maquillaje con lentes de contacto. La campaña se centra en la \"Promesa de Seguridad Ocular\" de Clinique (productos testados oftalmológicamente, seguros para ojos sensibles y usuarios de lentes) y la tecnología de confort de ACUVUE. La iniciativa incluye una campaña multicanal con contenido educativo avalado por oftalmólogos (como la Dra. Ashley Brissette), activaciones digitales y una oferta cruzada (20% de descuento en Clinique para clientes de ACUVUE), atacando directamente la barrera de miedo que tienen muchos usuarios de lentes al maquillarse."},{"URL":"https://www.consalud.es/salud35/nacional/la-cnmc-autoriza-con-condiciones-la-compra-de-esteve-teijin-healthcare-por-parte-de-oximesa.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / REGULATORIO \u0026 M\u0026A","CATEGORÍA":"NEGOCIOS \u0026 SALUD","SUBCATEGORÍA":"Terapias Respiratorias \u0026 Competencia","INSIGHT":"El Precio de la \"Posición Dominante\": La CNMC da luz verde, pero impone condiciones severas. El insight estratégico es que en mercados de licitación pública (B2G), el tamaño excesivo es un riesgo. Al unirse Oximesa y Esteve Teijin, crearían un \"gigante\" capaz de bloquear a competidores en concursos regionales. Las \"condiciones\" (remedies) obligan a no extender contratos unilateralmente o liberar ciertos lotes geográficos, asegurando que la administración pública no quede \"rehén\" de un solo proveedor masivo.","RESUMEN":"La Comisión Nacional de los Mercados y la Competencia (CNMC) autoriza en primera fase la adquisición del control exclusivo de Esteve Teijin Healthcare por parte de Oximesa (filial de Nippon Gases), pero supedita la operación al cumplimiento de una serie de compromisos. Para evitar una reducción significativa de la competencia en el mercado de terapias respiratorias domiciliarias (TRD), la entidad fusionada deberá respetar condiciones que garanticen la libre concurrencia en futuras licitaciones públicas, evitando el solapamiento monopólico en áreas geográficas clave donde ambas compañías ya tenían fuerte presencia."},{"URL":"https://www.linkedin.com/posts/pitch-marketing-magazine_geetikasaxena-galdermaindia-digitalstrategy-activity-7422969966603333633-gjJi?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"COMUNICADO CORPORATIVO / LINKEDIN","CATEGORÍA":"MARKETING \u0026 NEGOCIOS","SUBCATEGORÍA":"Digital Transformation \u0026 Talent","INSIGHT":"La \"FMCG-ización\" de la Derma: Galderma importa talento de Gran Consumo para transformar su modelo en India. El insight estratégico es que el Marketing de Resultados (Performance) y el D2C son ahora el núcleo del negocio, no un complemento. Al duplicar la inversión en \"personas y plataformas\", Galderma admite que para ganar en mercados emergentes masivos, debe comportarse como una marca de belleza digital first, reduciendo la dependencia exclusiva de la prescripción médica para sus marcas de consumo (como Cetaphil).","RESUMEN":"Galderma India nombra a Geetika Saxena como nueva Head of Digital Strategy. Con más de 15 años de experiencia en FMCG y negocios de consumo, Saxena tiene la misión de liderar la transición de la compañía hacia una organización \"Digital First\". El comunicado destaca explícitamente el enfoque en estrategias basadas en insights, innovación de producto y una expansión agresiva de las capacidades digitales internas (talento y plataformas), con el objetivo de conectar directamente con el consumidor indio a través de canales digitales y modelos de venta directa."},{"URL":"https://www.linkedin.com/posts/matraz-innova_hola-innovadores-astrazeneca-activity-7424897948666302464-TmYe?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"COMUNICADO / LINKEDIN","CATEGORÍA":"NEGOCIOS \u0026 PHARMA","SUBCATEGORÍA":"Obesidad \u0026 Licencias Estratégicas","INSIGHT":"La Estrategia del \"Leapfrog\" (Salto de Rana): AstraZeneca no intenta competir con el Ozempic de hoy, sino con el de mañana. El insight estratégico es la Conveniencia como Ventaja Competitiva: al licenciar la plataforma LiquidGel de CSPC, buscan pasar de la inyección semanal (estándar actual) a una mensual o superior. Con un pago inicial de $1.200M (una cifra altísima para una licencia), AZ valida que la innovación en obesidad se está desplazando hacia China y que la próxima frontera es la adherencia del paciente a largo plazo sin sacrificar la vida diaria.","RESUMEN":"AstraZeneca firma un acuerdo histórico con el grupo chino CSPC Pharmaceutical por un valor potencial de hasta $18.500 millones. El objetivo es desarrollar una cartera de agonistas duales GLP-1R/GIPR (como el activo SYH2082) utilizando la tecnología patentada LiquidGel, que permite formulaciones de larga duración (autoadministrables mensualmente). Esta operación complementa adquisiciones recientes de AZ (como SixPeaks Bio para preservación muscular) y confirma su estrategia de construir un portafolio de obesidad \"Best-in-Class\" comprando innovación externa madura en lugar de desarrollarla desde cero internamente."},{"URL":"https://www.industriacosmetica.net/noticias/la-belleza-que-viene-en-2026-mas-ciencia-personalizacion-y-conciencia-yUVCr","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / REPORTE DE TENDENCIAS","CATEGORÍA":"MARKET TRENDS","SUBCATEGORÍA":"Consumer Behavior \u0026 Tech","INSIGHT":"La Era de la \"Belleza Inteligente y Sensible\": El consumidor de 2026 es un \"investigador escéptico\". El insight estratégico es que la compra emocional ahora requiere validación racional: el 60% de los millennials revisa los activos antes de comprar y las búsquedas de ingredientes subieron un 40%. La \"Hiperpersonalización\" (impulsada por IA y biometría) y la \"Neurocosmética\" (productos que alteran el estado de ánimo) son los nuevos estándares. Si tu producto no tiene data clínica y un propósito ético claro, es invisible para la Gen Z.","RESUMEN":"Según datos del Beauty Trends Lab 2025 organizado por Beauty Cluster, el sector de la belleza alcanzará los 580.000 millones de dólares en 2027, impulsado por tres motores: 1) Ciencia: La \"eficacia real\" es innegociable; el consumidor exige pruebas tangibles. 2) Personalización: La IA permite productos a medida, acabando con las categorías genéricas. 3) Conciencia: El 73% de la Gen Z paga más por sostenibilidad real (no greenwashing). Además, emerge con fuerza la conexión Mente-Piel: el 77% busca beneficios anímicos en las fragancias y cosméticos, fusionando bienestar emocional con cuidado físico."},{"URL":"https://www.modaes.com/cosmetica/estee-lauder-eleva-su-facturacion-un-4-en-el-segundo-trimestre-y-deja-atras-las-perdidas","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / RESULTADOS FINANCIEROS","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"Turnaround \u0026 Rentabilidad","INSIGHT":"El Fin de la \"Sangría Financiera\": Estée Lauder deja atrás los números rojos. El insight estratégico es la Eficacia de la Reestructuración: el crecimiento del 4% en ventas es modesto, pero el retorno al beneficio neto demuestra que los recortes de gastos y la optimización de inventario (el famoso Profit Recovery Plan) han sanado las heridas operativas. En un entorno inflacionario, ELC ha priorizado proteger el margen sobre ganar cuota de mercado a cualquier precio, estabilizando el barco antes de volver a acelerar.","RESUMEN":"Estée Lauder Companies cierra su segundo trimestre fiscal (finalizado en diciembre de 2025) con un aumento del 4% en su facturación y, lo más importante, vuelve a registrar beneficios, dejando atrás las pérdidas del periodo anterior. La recuperación ha sido impulsada por el sólido desempeño de su división de Cuidado de la Piel (liderada por La Mer y la renovada Estée Lauder) y Fragancias, que compensaron la debilidad persistente en el maquillaje. Estos resultados validan la estrategia de la dirección de ajustar la estructura de costes y reducir la dependencia del Travel Retail asiático, enviando una señal de estabilidad a los inversores."},{"URL":"https://www.retaildive.com/news/amazon-luxury-storefront-saks/811148/?utm_source=linkedin\u0026utm_medium=organic-social\u0026utm_campaign=linkedin_group","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / QUIEBRA \u0026 RETAIL","CATEGORÍA":"NEGOCIOS \u0026 E-COMMERCE","SUBCATEGORÍA":"Luxury Marketplaces \u0026 Chapter 11","INSIGHT":"El Fracaso del \"Caballo de Troya\" Digital: Amazon intentó utilizar a Saks como intermediario para legitimar su plataforma ante las marcas de lujo, pero la estrategia ha implosionado. El insight estratégico es la Incompatibilidad Cultural: Saks, incluso en bancarrota, prefiere romper el acuerdo antes que seguir diluyendo su exclusividad en un entorno masivo. Esto valida que el Capital de Marca (Brand Equity) en el lujo es más valioso que la Eficiencia Logística de Amazon; las marcas prefieren vender menos en sus propios términos que vender más bajo las reglas de Amazon.","RESUMEN":"Saks Global (la entidad fusionada de Saks y Neiman Marcus), actualmente bajo protección del Capítulo 11 de la ley de quiebras, ha solicitado romper su acuerdo comercial con Amazon. Amazon había invertido $475 millones en la fusión en 2024 con la condición de que Saks trajera marcas de alto nivel a su plataforma Luxury Stores. Sin embargo, Saks alega ahora que pocas marcas aceptaron participar y que la alianza desvía recursos de su propio sitio web (Saks.com). Amazon ha respondido calificando su inversión como \"sin valor\" y acusando a Saks de incumplimiento, aunque asegura que mantendrá su tienda de lujo activa sin ellos."},{"URL":"https://www.consalud.es/salud35/nacional/gorka-de-las-fuentes-asume-la-direccion-de-vitalaire-tras-la-promocion-de-manuel-pacheco.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / NOMBRAMIENTOS","CATEGORÍA":"NEGOCIOS \u0026 SALUD","SUBCATEGORÍA":"Liderazgo \u0026 Homecare","INSIGHT":"La Continuidad como Estrategia de Defensa: En un mercado de Terapias Respiratorias (TRD) altamente regulado y competitivo, el conocimiento institucional es oro. El insight estratégico es que Air Liquide blinda su operación promocionando a veteranos. Al subir a Manuel Pacheco a la dirección general del grupo y colocar a Gorka de las Fuentes (con 25 años en la empresa y experto en Market Access) al frente de VitalAire, garantizan que la interlocución con las administraciones sanitarias se mantenga fluida y experta, minimizando riesgos en un año clave de concursos públicos.","RESUMEN":"VitalAire, la división de terapias respiratorias domiciliarias de Air Liquide Healthcare, anuncia el nombramiento de Gorka de las Fuentes como su nuevo Director General. Este movimiento responde a una reorganización interna tras el ascenso de Manuel Pacheco a la Dirección General de Air Liquide Healthcare España. De las Fuentes, quien se unió a la compañía en el año 2000 y ha liderado áreas clave como la Dirección Comercial y de Relaciones Institucionales, asume el cargo con el objetivo de reforzar la propuesta de valor basada en resultados en salud y la digitalización del cuidado del paciente crónico."},{"URL":"https://www.industriacosmetica.net/noticias/la-industria-global-de-la-belleza-crecera-un-6-anual-hasta-2027-impulsada-por-la-cien-TxIzW","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / REPORTE DE MERCADO","CATEGORÍA":"MARKET SIZING","SUBCATEGORÍA":"Growth Drivers \u0026 Proyecciones","INSIGHT":"El Valor de la \"Ciencia\" en Dólares: La industria crece al 6% anual (llegando a $580B), pero el segmento de \"cosmética con reclamos clínicos\" crecerá mucho más rápido hasta alcanzar los $47.000 millones. El insight estratégico es que la Eficacia es el nuevo Lujo: el consumidor ya no paga markup por marca, paga por resultado. El e-commerce (+12% anual) lidera la expansión, demostrando que la venta consultiva digital (diagnósticos online, IA) está reemplazando al mostrador físico tradicional.","RESUMEN":"Según datos del Beauty Trends Lab 2025 del Beauty Cluster, la industria global de la belleza alcanzará los 580.000 millones de dólares en 2027, con una tasa de crecimiento anual compuesta (CAGR) del 6%. El crecimiento está liderado por dos vectores: el e-commerce (creciendo al +12% anual) y el segmento Premium (+8%). El reporte destaca que la \"ciencia\" es el principal motor de valor: el mercado de productos con respaldo clínico rozará los $47.000 millones en 2028. Además, la sostenibilidad ya es un factor económico: el 73% de la Gen Z paga más por productos éticos, y las marcas inclusivas crecen 1.5 veces más rápido que el promedio."},{"URL":"https://www.modaes.com/back-stage/sebastian-diez-inexmoda-colombia-debe-pensarse-a-si-mismo-como-jugador-global-de-la-moda","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ENTREVISTA / ANÁLISIS ESTRATÉGICO","CATEGORÍA":"NEGOCIOS \u0026 TEXTIL","SUBCATEGORÍA":"Marca País \u0026 Internacionalización","INSIGHT":"El Fin de la \"Maquila Mental\": Díez decreta la muerte del modelo de negocio basado solo en la manufactura a terceros. El insight estratégico es la \"Identidad como Valor Agregado\": Colombia ya no puede competir por céntimos contra Bangladesh, debe competir por Diseño y Velocidad (Nearshoring). Al exigir a los empresarios que se \"piensen como jugadores globales\" desde el día uno, Inexmoda está empujando una transición forzada de \"taller de costura\" a \"casa de moda\", buscando que el Made in Colombia justifique un price point premium en el mercado internacional.","RESUMEN":"En el marco del balance de Colombiatex 2026, Sebastián Díez insta al sector moda colombiano a romper su dependencia del mercado doméstico. El ejecutivo subraya que la inclusión de líderes colombianos en el BoF 500 y el éxito de las ferias de Medellín demuestran que el mundo está receptivo al diseño latino, pero advierte que falta ambición empresarial. La estrategia de Inexmoda para 2026 se centra en la profesionalización de la exportación: no basta con tener un buen producto, se necesita una estructura logística y digital capaz de atender a un retailer en Nueva York o Madrid con la misma eficiencia que a uno local."},{"URL":"https://www.linkedin.com/posts/paulacolasbeltran_chestnut-polysaccharides-for-an-optimized-activity-7417807848815910913-6mF6?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"POST LINKEDIN / ANÁLISIS TÉCNICO","CATEGORÍA":"R\u0026D \u0026 INGREDIENTES","SUBCATEGORÍA":"Biotecnología \u0026 Skin Streaming","INSIGHT":"La \"Ingeniería de la Naturaleza\": El ingrediente Liftilience prueba que el futuro de los activos naturales es estructural, no solo compositivo. El insight estratégico es la Funcionalización de Biopolímeros: SILAB no solo extrae castaña, sino que reorganiza sus moléculas en hélices (tecnología FHB) para crear una \"malla mecánica\" sobre la piel. Esto responde directamente a la demanda de \"Skin Streaming\" (rutinas minimalistas), ofreciendo un solo producto que trata la fatiga, alisa la textura y fija el maquillaje, eliminando la necesidad de múltiples pasos.","RESUMEN":"Paula Colás Beltrán analiza el lanzamiento de LIFTILIENCE, el nuevo activo tensor de SILAB obtenido del extracto de semilla de castaña (Castanea sativa). El post detalla la tecnología patentada FHB (Biopolímeros Helicoidales Funcionalizados), que permite transformar polisacáridos vegetales en una película tensora de alto rendimiento. Los estudios clínicos destacan su polivalencia: ofrece un efecto flash inmediato (15 min) y antifatiga en el rostro, suavidad \"terciopelo\" en el cuerpo, y actúa como un potente fijador de maquillaje, posicionándose como el ingrediente ideal para formulaciones híbridas y multifuncionales."},{"URL":"https://www.globalcosmeticsnews.com/sparxell-raises-5m-pre-series-a-to-scale-plant-based-colour-technology/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / INVERSIÓN VC","CATEGORÍA":"NEGOCIOS \u0026 BIOTECH","SUBCATEGORÍA":"Ingredientes Sostenibles \u0026 Biomimética","INSIGHT":"El Fin del \"Glitter\" Tóxico: La inversión liderada por SWEN Capital Partners (Blue Ocean) valida el \"Color Estructural\" como estándar industrial. El insight estratégico es que Sparxell no \"tiñe\" materiales, sino que manipula la luz usando celulosa vegetal (como hacen las alas de mariposa) para crear colores vibrantes sin químicos. Esto elimina de un golpe los microplásticos, los metales pesados y la minería de mica no ética, ofreciendo a las marcas de lujo una alternativa \"drop-in\" (fácil de integrar) que cumple con las regulaciones ambientales más estrictas de 2026.","RESUMEN":"La startup de deeptech Sparxell (Cambridge) cierra una ronda de financiación de $5 millones para escalar su producción de pigmentos 100% vegetales y libres de plástico. La tecnología patentada utiliza celulosa de pulpa de madera para generar color mediante la reflexión de la luz, evitando el uso de tintes sintéticos y minerales conflictivos. Con el respaldo de fondos como Blue Ocean 2 y Cambridge Enterprise, Sparxell planea inaugurar instalaciones de producción a escala de toneladas en 2026, apuntando a revolucionar los sectores de cosmética, moda y packaging con la primera alternativa de color verdaderamente biodegradable y escalable."},{"URL":"https://www.businessoffashion.com/podcasts/marketing-pr/the-new-rules-for-influencer-marketing-the-debrief/?utm_source=webpage\u0026utm_medium=marketing\u0026utm_campaign=marketing","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"PODCAST / ANÁLISIS DE MEDIOS","CATEGORÍA":"MARKETING \u0026 NEGOCIOS","SUBCATEGORÍA":"Influencer Marketing \u0026 ROI","INSIGHT":"El Fin de las \"Métricas de Vanidad\": En 2026, el número de seguidores ya no garantiza contratos. El insight estratégico es la \"Auditoría de Conversión\": las marcas ahora exigen datos granulares que demuestren ventas reales y tráfico cualificado, no solo likes. Esto ha forzado una limpieza en el mercado: los influencers de estilo de vida genérico pierden terreno frente a creadores de nicho con comunidades altamente convertidoras, moviendo el presupuesto de \"Awareness\" a \"Performance\".","RESUMEN":"En este episodio de The Debrief, BoF analiza cómo el marketing de influencers ha madurado hacia una disciplina de rendimiento puro. Ante el creciente escepticismo del consumidor hacia la publicidad encubierta y la saturación de contenido generado por IA, las marcas están reestructurando sus contratos. Ya no se paga por \"exposición\", sino por resultados tangibles. El episodio destaca que la era de los envíos masivos de relaciones públicas (PR gifting) está siendo reemplazada por asociaciones a largo plazo con creadores que actúan casi como socios de ventas, validados por métricas de atribución directa."},{"URL":"https://kreab.com/espana/actualidad/2026-la-era-de-la-conexion-consciente/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"REPORTE DE TENDENCIAS / LINKEDIN","CATEGORÍA":"MARKETING \u0026 DIGITAL","SUBCATEGORÍA":"Consumer Behavior \u0026 Estrategia Digital","INSIGHT":"Del FOMO al JOMO (Joy of Missing Out): El informe decreta el fin de la ansiedad por \"estar en todo\". El insight estratégico es la \"Atención Selectiva\": ante la saturación algorítmica, el usuario adopta el JOMO, priorizando la desconexión y las comunidades de nicho. Esto obliga a las marcas a abandonar la viralidad vacía y apostar por la \"Influencia Lenta\": relaciones a largo plazo con creadores que actúan como \"puentes de confianza\" en micro-comunidades (incluso B2B), donde la credibilidad pesa más que el alcance masivo.","RESUMEN":"Kreab Worldwide publica su cuarta edición del Informe de Tendencias Digitales, identificando 6 claves para 2026: 1. El Nuevo Consumidor: Busca equilibrio online/offline y abraza la nostalgia de los 2000 como refugio emocional. 2. Publicidad con Disfraz: Auge de la \"creatividad líquida\", donde el anuncio se diluye en conversaciones orgánicas para evitar el rechazo (ej. campañas ocultas en memes). 3. Madurez del Influencer: El sector se profesionaliza y segmenta. Resurgen los formatos largos (YouTube/Vlogs) por su autenticidad y crece la influencia B2B en LinkedIn. 4. IA como Herramienta: Deja de ser novedad para ser un estándar operativo (\"Creatividad Aumentada\"), exigiendo transparencia ética. 5. Maximalismo Digital: Oposición al minimalismo con estéticas saturadas (\"Más es más\") y contenidos ultra-segmentados. 6. Regulación Estricta: La normativa sobre privacidad y protección de menores marca la agenda, convirtiendo el compliance en un activo reputacional."},{"URL":"https://www.modaes.com/empresas/awwg-refuerza-su-brazo-logistico-con-dos-nuevas-plataformas-en-mexico-y-dubai","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ESTRATEGIA OPERATIVA","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"Supply Chain \u0026 Expansión Internacional","INSIGHT":"La Descentralización Táctica: AWWG activa el modo \"Multilocal\". El insight estratégico es el Acercamiento al Consumidor Final: abrir en México no es casualidad, es la respuesta al Nearshoring y al auge del consumo en LatAm. Abrir en Dubái ataca el mercado de lujo de Oriente Medio. Esto reduce la huella de carbono y, crucialmente, los tiempos de entrega, algo que el e-commerce exige hoy. Ya no se trata de mover cajas, sino de posicionar inventario donde está la demanda.","RESUMEN":"All We Wear Group (AWWG) anuncia la puesta en marcha de dos nuevas plataformas logísticas estratégicas en México y Dubái. El grupo de moda (propietario de Pepe Jeans London, Hackett y Façonnable) busca con este movimiento optimizar su cadena de suministro global, reduciendo drásticamente los tiempos de tránsito hacia dos de sus mercados de mayor crecimiento. Esta nueva infraestructura permitirá potenciar tanto el canal wholesale como el digital en América y Oriente Medio, descentralizando su operación que tradicionalmente dependía de sus hubs europeos, ganando agilidad y resiliencia operativa."},{"URL":"https://www.galderma.com/news/galderma-unveils-wake-restylane","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"COMUNICADO OFICIAL / CAMPAÑA GLOBAL","CATEGORÍA":"MARKETING \u0026 AESTHETICS","SUBCATEGORÍA":"Consumer Trends \u0026 Tear Trough","INSIGHT":"La \"Cara de Cansancio\" como Driver de Compra: Galderma identifica que la principal preocupación estética post-pandemia no son las arrugas, sino la apariencia de fatiga crónica. El insight estratégico es la Funcionalidad Social: parecer descansado es un activo profesional y social. Al posicionar Restylane Eyelight (específico para ojeras/valle de lágrimas) bajo el lema \"Wake Up\", la marca democratiza el relleno, presentándolo no como una vanidad, sino como una solución de \"higiene visual\" para recuperar la vitalidad perdida por el estilo de vida moderno.","RESUMEN":"Galderma presenta su nueva campaña global \"Wake Up With Restylane\", diseñada para abordar una de las necesidades insatisfechas más comunes en estética: la mirada cansada. La iniciativa pone el foco en Restylane Eyelight, un relleno de ácido hialurónico específicamente formulado con tecnología NASHA para corregir la pérdida de volumen en el área debajo de los ojos (ojeras). La campaña busca educar a los consumidores sobre cómo esta corrección sutil puede transformar la percepción general del rostro, ofreciendo una apariencia \"despierta\" y revitalizada sin alterar la expresión natural, atacando directamente la inseguridad que genera parecer exhausto independientemente de las horas de sueño."},{"URL":"https://www.modaes.com/empresas/hoff-sube-la-persiana-de-su-segunda-tienda-en-londres-y-aterrizara-en-mexico-en-abril","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / EXPANSIÓN RETAIL","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"Internacionalización \u0026 Brick-and-Mortar","INSIGHT":"La Doble Velocidad (Europa vs. LatAm): HOFF ejecuta una estrategia de \"pinza\". El insight estratégico es la Diversificación de Mercados: mientras en Londres (mercado maduro) busca posicionamiento de marca abriendo una segunda tienda para ganar share of voice, en México (mercado de crecimiento) busca volumen y capturar al consumidor aspiracional. Aterrizar en México en abril no es solo abrir una tienda; es establecer la \"cabeza de puente\" para toda Latinoamérica, aprovechando la afinidad cultural y el auge del sneaker market en la región.","RESUMEN":"La marca ilicitana de sneakers HOFF acelera su plan estratégico internacional con dos movimientos clave. Primero, refuerza su presencia en Reino Unido con la apertura de su segunda tienda en Londres, consolidando su imagen en una de las capitales de la moda más competitivas. Segundo, y más relevante para la región, confirma su desembarco oficial en México para el próximo mes de abril. Esta entrada marca el inicio de su expansión directa en Latinoamérica, apostando por el retail físico propio para controlar la experiencia de cliente y presentar sus colecciones completas (que ya incluyen ropa y accesorios) a un consumidor mexicano cada vez más sofisticado."},{"URL":"La peluquería profesional se adapta a un consumidor más digital, exigente y orientado al cuidado del cabello","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / ESTUDIO DE MERCADO","CATEGORÍA":"NEGOCIOS \u0026 HAIRCARE","SUBCATEGORÍA":"Digitalización del Salón \u0026 Consumer Behavior","INSIGHT":"El Peluquero como \"Health Coach\": El estudio revela que el motor de crecimiento ya no es la tendencia estética (el corte de moda), sino la Salud Capilar. El insight estratégico es la Premiumización del Servicio: con un ticket medio alcanzando los 33€ (un salto relevante), el cliente paga por \"asesoría experta\". El salón que sobrevive en 2026 es aquel que digitaliza su relación (reservas, diagnósticos previos) y actúa como clínica capilar light, donde 9 de cada 10 profesionales ven los tratamientos de salud como la clave para fidelizar frente a la competencia low cost.","RESUMEN":"Un nuevo estudio presentado por Stanpa y Key-Stone Research radiografía el sector de la peluquería en España en 2025/2026. El informe destaca la transformación del modelo de negocio hacia la digitalización y la especialización. El cliente actual, hiperinformado y digital, visita el salón con una frecuencia media mensual, pero exige una experiencia de mayor valor añadido. Esto ha impulsado el ticket medio a 33 euros. Las prioridades del sector son claras: inversión en marketing online, renovación de espacios y, sobre todo, formación en salud capilar, que se consolida como la principal demanda del consumidor por encima del cambio de look puramente estético."},{"URL":"https://www.industriacosmetica.net/noticias/synsera-labs-la-empresa-de-suplementos-creada-por-influencers-de-nutricion-supera-el--ONQ1X","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / CASO DE ÉXITO","CATEGORÍA":"NEGOCIOS \u0026 CREATOR ECONOMY","SUBCATEGORÍA":"Nutricosmética \u0026 D2C","INSIGHT":"La \"Monetización de la Autoridad\": El éxito de SynSera Labs prueba que la audiencia de nicho convierte mejor que la publicidad masiva. El insight estratégico es la Trazabilidad de la Confianza: al ser fundadores (y no solo embajadores), Endika Montiel, Juan Bola y Alejandro Pérez transfieren su autoridad científica directamente al producto. Esto elimina el coste de adquisición de cliente (CAC) inicial, permitiéndoles facturar \u003e500k€ en un año saturado, apostando por detalles técnicos (como cápsulas bovinas vs. sintéticas) que solo su \"tribu\" valora y entiende.","RESUMEN":"SynSera Labs, la empresa de suplementos cofundada por los nutricionistas y divulgadores Endika Montiel, Juan Bola y Alejandro Pérez, anuncia haber superado los 500.000 euros de facturación en su primer año de vida (2025). La compañía, que opera bajo un modelo híbrido de rigor científico y venta social, prevé triplicar sus ingresos hasta los 1,5 millones de euros en 2026 y lanzar 10 nuevas referencias. Su estrategia se basa en formulaciones \"limpias\" (sin excipientes químicos) y en capitalizar una comunidad fiel de 20.000 usuarios que compran la credibilidad de sus fundadores, posicionándose como la alternativa \"real\" frente a los suplementos genéricos del mercado masivo."},{"URL":"https://www.industriacosmetica.net/noticias/special-chemicals-presenta-su-nueva-gama-de-pdrn-puro-de-origen-vegetal-R1EuP","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / LANZAMIENTO DE INGREDIENTE","CATEGORÍA":"R\u0026D \u0026 INGREDIENTES","SUBCATEGORÍA":"Biotecnología \u0026 Vegan Beauty","INSIGHT":"El \"ADN de Salmón\" se vuelve Vegano: Special Chemicals elimina la barrera ética del ingrediente regenerador más potente del momento. El insight estratégico es la Bio-equivalencia Sostenible: el mercado demanda la eficacia clínica de los inyectables (como el Rejuran coreano) pero rechaza los derivados animales. Al lograr un PDRN vegetal con alta pureza, permiten a las marcas europeas formular \"Skin Boosters\" tópicos que reparan el tejido y estimulan colágeno, vendiendo eficacia médica con credenciales éticas impecables.","RESUMEN":"Special Chemicals lanza al mercado una nueva gama de PDRN (Polidesoxirribonucleótido) puro de origen vegetal. Este activo, tradicionalmente extraído del esperma de salmón y trucha para usos en medicina estética y regenerativa, ha sido recreado mediante fuentes vegetales para cumplir con la demanda de cosmética vegana. El ingrediente promete acelerar la reparación celular, reducir la inflamación y mejorar la elasticidad de la piel, ofreciendo una alternativa directa y sostenible a los tratamientos de \"ADN animal\" que dominan el mercado asiático, posicionándose como un activo clave para la cosmética antiedad y post-procedimiento de 2026."},{"URL":"https://www.modaes.com/empresas/ralph-lauren-supera-previsiones-y-gana-un-28-mas-en-los-nueve-primeros-meses","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / RESULTADOS FINANCIEROS","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"Lujo \u0026 Estrategia Corporativa","INSIGHT":"La Rentabilidad del \"Quiet Luxury\" Americano: Ralph Lauren logra desacoplarse de la crisis del sector. El insight estratégico es la Expansión de Márgenes vía DTC: al crecer un 28% en beneficios (mucho más rápido que en ventas), la marca valida que su apuesta por vender directamente al consumidor (DTC) y eliminar intermediarios promocionales está blindando su rentabilidad. El éxito rotundo en Asia (+22%) confirma que el consumidor chino sigue gastando, pero es mucho más selectivo con las marcas \"clásicas\" que percibe como valor seguro.","RESUMEN":"Ralph Lauren cierra los nueve primeros meses de su ejercicio fiscal 2026 superando todas las expectativas del mercado, con un aumento del 28% en su beneficio neto. La compañía facturó por encima de lo previsto gracias a una campaña navideña excepcional, impulsada principalmente por el crecimiento de doble dígito en Asia y la solidez de su canal digital propio. Gracias a la disciplina en costes y a la venta a precio completo (sin descuentos agresivos), la empresa no solo mejora su rentabilidad, sino que eleva sus previsiones (guidance) para el cierre del año fiscal, enviando un mensaje de fortaleza en un sector que atraviesa ajustes severos."},{"URL":"https://www.galderma.com/news/galderma-tackles-menopause-related-skin-changes","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"COMUNICADO OFICIAL / EDUCACIÓN MÉDICA","CATEGORÍA":"MEDICINA ESTÉTICA \u0026 MUJER","SUBCATEGORÍA":"Menopausia \u0026 Collagen Banking","INSIGHT":"La Validación del \"Estrogen-Deficient Skin\": Galderma pone nombre y apellido al problema. El insight estratégico es la Especialización Biológica: reconocer que la piel en menopausia pierde hasta un 30% de colágeno en los primeros 5 años. Al posicionar sus bioestimuladores (como Sculptra) no solo para \"arrugas\", sino como tratamiento estructural para compensar la caída hormonal, Galderma convierte el procedimiento estético en una herramienta de salud y bienestar integral para la mujer madura.","RESUMEN":"Galderma lanza una nueva iniciativa global para abordar los cambios específicos de la piel provocados por la menopausia. La compañía presenta nuevos datos y protocolos clínicos centrados en combatir la laxitud y la sequedad extrema causadas por el descenso de estrógenos. La estrategia se apoya en educar tanto a médicos como a pacientes sobre cómo los bioestimuladores de colágeno y los ácidos hialurónicos específicos pueden mitigar el impacto estructural de este cambio hormonal, posicionando su portafolio como parte esencial del cuidado integral durante el climaterio."},{"URL":"https://www.industriacosmetica.net/noticias/booksy-encabeza-el-sector-de-la-digitalizacion-en-servicios-de-belleza-con-mas-de-116-bk4kn","AÑO":"2025","MES":"DICIEMBRE","TIPO DE FUENTE":"ARTÍCULO / REPORTE DE DATOS","CATEGORÍA":"NEGOCIOS \u0026 TECH","SUBCATEGORÍA":"SaaS \u0026 Digitalización","INSIGHT":"El Fin de los \"No-Shows\": Booksy no vende software, vende rentabilidad. El insight estratégico es la Garantía de Asistencia: al integrar pagos y políticas de cancelación estrictas, logran que el 90% de los clientes asistan a la cita, resolviendo el mayor dolor de cabeza del salón (el cliente que no aparece). Con 13.000 negocios en su red, Booksy está estructurando la \"economía informal\" de la belleza, transformando salones de barrio en negocios data-driven con métricas de retención y recurrencia propias de una multinacional.","RESUMEN":"Booksy se consolida como el líder indiscutible en la gestión de reservas del sector belleza en España, alcanzando un hito de 116 millones de reservas gestionadas y más de 13.000 negocios activos en su plataforma. El informe destaca cómo la app ha logrado digitalizar un sector tradicionalmente analógico, conectando a 5,5 millones de usuarios con salones y barberías. Más allá de la reserva, su valor diferencial reside en la integración de herramientas de marketing y pagos automatizados que reducen drásticamente el absentismo del cliente, permitiendo a los profesionales enfocarse en el servicio y la fidelización mientras la tecnología gestiona la administración."},{"URL":"https://cosmeticsbusiness.com/what-gen-x-really-want-from-beauty-2026","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ANÁLISIS DE CONSUMIDOR","CATEGORÍA":"MARKET TRENDS","SUBCATEGORÍA":"Demografía \u0026 Silver Economy","INSIGHT":"La \"Billetera Invisible\": La Gen X controla el 25% del gasto global en belleza ($1.5 Trillones), pero el 39% siente que las marcas les ignoran. El insight estratégico es la Ciencia sobre el Hype: a diferencia de la Gen Z, esta generación no compra por viralidad en TikTok, sino por Evidencia Clínica. Exigen \"Longevidad\" y salud (piel hormonal, caída de cabello) en lugar de promesas milagrosas imposibles, premiando a las marcas que ofrecen rutinas simplificadas y transparencia total en los ingredientes.","RESUMEN":"Cosmetics Business publica un análisis profundo sobre la Generación X, calificándola como la \"generación olvidada\" pero la más lucrativa para 2026. El reporte destaca que este grupo entra en sus años de mayor gasto y cambios fisiológicos (menopausia), priorizando productos de alto rendimiento y base científica. Las categorías clave para conquistarlas son el cuidado del cuero cabelludo (salud capilar) y el cuidado de la piel durante la menopausia (sequedad, pérdida de densidad). Las marcas ganadoras serán aquellas que abandonen el lenguaje de \"anti-envejecimiento\" (que genera rechazo) por uno de \"bienestar y longevidad\", ofreciendo educación clara y honesta sin greenwashing."},{"URL":"https://www.industriacosmetica.net/noticias/isdin-recibe-el-sello-de-empresa-dermosaludable-de-la-fundacion-piel-sana-de-la-aedv-mW8F9","AÑO":"2025","MES":"DICIEMBRE","TIPO DE FUENTE":"ARTÍCULO / CERTIFICACIÓN CORPORATIVA","CATEGORÍA":"NEGOCIOS \u0026 ESG","SUBCATEGORÍA":"Employee Wellbeing \u0026 Brand Consistency","INSIGHT":"La Coherencia como Activo de Marketing: ISDIN logra lo que llamamos \"Walk the Talk\" (predicar con el ejemplo). El insight estratégico es la Autenticidad Interna: en un mercado donde el consumidor detecta el marketing vacío, que la AEDV (la máxima autoridad dermatológica) certifique que ISDIN protege a su propia plantilla valida su misión de forma mucho más potente que un anuncio de TV. Si tratas bien a tu equipo (formación, revisiones), tu mensaje al mercado es inatacable.","RESUMEN":"La Fundación Piel Sana de la Academia Española de Dermatología y Venereología (AEDV) ha otorgado a ISDIN el sello de Empresa Dermosaludable, reconociendo su excelencia en el cuidado de la salud cutánea de sus propios empleados. El laboratorio, líder en fotoprotección, no solo superó la auditoría por sus campañas externas (como Love Your Skin), sino por implementar políticas internas rigurosas: formación continua en dermatología para la plantilla, revisiones médicas específicas y fomento de hábitos saludables. Este sello distingue a las organizaciones que integran la salud de la piel en el núcleo de su cultura corporativa y prevención de riesgos laborales."},{"URL":"https://www.linkedin.com/posts/lafarmaciapunto_in-occasione-del-press-day-dedicato-al-lancio-ugcPost-7425199721612337153-j_G7?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / EVENTO PR","CATEGORÍA":"RETAIL FARMACÉUTICO","SUBCATEGORÍA":"Customer Experience \u0026 Marca Propia","INSIGHT":"El \"Bellessere\" (Belleza + Bienestar): Hippocrates Holding redefine el modelo de negocio farmacéutico. El insight estratégico es la Premiumización de la Marca Propia: al lanzar una fragancia de nicho (Segreto d’Infante) con un evento de prensa y experiencias sensoriales (catas de ingredientes), elevan la percepción de la farmacia a la altura de una boutique de lujo. Ya no venden genéricos por precio, venden exclusividad firmada por su Directora Científica (Silvia Monti), utilizando sus flagships como espacios de eventos para traccionar tráfico cualificado.","RESUMEN":"Lafarmacia. (red de farmacias de Hippocrates Holding) comparte los detalles del lanzamiento de la nueva fragancia de su marca exclusiva Silvia Monti - Profumi d’Artista. El evento transformó su flagship en Milán en un espacio sensorial, donde prensa e influencers participaron en una cata de notas olfativas (bergamota, rosa, vainilla). Davide Tavaniello (Co-CEO) destacó la visión de la compañía de fusionar salud y belleza bajo el concepto de \"Bellessere\", utilizando la marca propia exclusiva como herramienta de diferenciación y fidelización dentro de su red de farmacias."},{"URL":"https://www.lvmh.com/en/news-lvmh/louis-vuitton-unveils-maison-louis-vuitton-sanlitun-in-beijing","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"COMUNICADO OFICIAL / APERTURA FLAGSHIP","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"China Market \u0026 Experiential Luxury","INSIGHT":"De \"Tienda\" a \"Destino Cultural\": LV rompe el molde del centro comercial. El insight estratégico es la Hiper-Localización: el edificio no es una caja genérica, sino una estructura arquitectónica diseñada específicamente para el distrito de Sanlitun (inspirada en las velas de un barco y el arte local). Al integrar espacios de arte y lifestyle, LV busca capturar el tiempo del consumidor joven chino, no solo su dinero, convirtiéndose en un lugar de \"peregrinaje\" social más allá de la compra de bolsos.","RESUMEN":"Louis Vuitton inaugura su nueva Maison en el distrito de Sanlitun Norte, Pekín. Se trata de un edificio independiente (freestanding) que marca un hito en su expansión en China. El espacio alberga toda la oferta de la marca (desde marroquinería hasta Objets Nomades) y destaca por su arquitectura singular y la integración de obras de artistas chinos contemporáneos. Esta apertura reafirma la confianza de LVMH en el rebote del consumo de lujo en China, apostando por formatos de tienda inmersivos que elevan la experiencia de cliente muy por encima del estándar del e-commerce."},{"URL":"https://www.linkedin.com/posts/odella-mx_odellaex-imcas2026-ugcPost-7425229766590541824-wyw-?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / RESUMEN DE EVENTO","CATEGORÍA":"NEGOCIOS \u0026 DISTRIBUCIÓN","SUBCATEGORÍA":"Medical Aesthetics \u0026 Portfolio Management","INSIGHT":"El Distribuidor como \"Sello de Calidad\": Odellā valida su posición de liderazgo al mostrar músculo en el congreso más importante del mundo. El insight estratégico es la Integralidad del Ecosistema: su portafolio no son productos aislados, es una \"clínica completa\" (Láser con Fotona, Inyectables con Vivacy/Fillmed, Exosomas con ExoCoBio, Nutricosmética con GliSODin). Al agrupar estas marcas best-in-class, Odellā vende al médico una solución llave en mano, reduciendo la complejidad de proveedores y garantizando coherencia científica.","RESUMEN":"Odellā comparte su balance tras su participación en IMCAS 2026, reafirmando su rol como puente estratégico entre la innovación global y el mercado regional. El post destaca su labor de \"curaduría responsable\", seleccionando tecnologías que aporten valor clínico real. La mención explícita de sus partners (Fotona, FILLMED, Vivacy, ExoCoBio, Dermofarm, GliSODin, ASIROX, Tricopat, CEBELIA) demuestra la amplitud de su portafolio, cubriendo desde aparatología pesada hasta cuidado domiciliario y suplementación, consolidándose como un player integral que no solo vende productos, sino que \"traduce el progreso global\" en oportunidades de negocio para sus médicos."},{"URL":"https://www.linkedin.com/posts/kpmg_78-of-consumer-retail-ceo-respondents-activity-7425228762574745601-o1oH?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"REPORTE ESTRATÉGICO / LINKEDIN","CATEGORÍA":"NEGOCIOS \u0026 RETAIL","SUBCATEGORÍA":"CEO Sentiment \u0026 AI Workforce","INSIGHT":"La \"Paradoja de la Confianza\": Los CEOs confían más en la economía global (65%) que en el crecimiento de sus propias empresas (77%, bajando desde 82%). El insight estratégico es la Reingeniería Operativa por IA: la inversión tecnológica ya no es para \"innovar\", es para sobrevivir. El 73% de los CEOs admite que está rediseñando los roles y planes de carrera de sus empleados para integrar la IA, marcando el inicio oficial de la fuerza laboral híbrida (humano-máquina) en el retail masivo.","RESUMEN":"El informe de KPMG encuestra a 120 CEOs del sector Consumo y Retail global, dibujando un panorama de \"optimismo cauteloso\". La principal amenaza ha cambiado drásticamente: la resiliencia de la cadena de suministro es ahora la preocupación #1 (52%, disparándose desde el 30% en 2024), desplazando a la competencia de mercado. En términos de inversión, la Inteligencia Artificial es la prioridad absoluta (64%), con un enfoque agresivo en resultados a corto plazo (68% espera ROI en 1-3 años). En M\u0026A, impera la mentalidad \"Cash, Core \u0026 Caution\": pocas mega-fusiones y más compras tácticas para adquirir capacidades tecnológicas o limpiar el portafolio"},{"URL":"https://www.businessoffashion.com/articles/beauty/beauty-brands-ski-trend/?utm_source=webpage\u0026utm_medium=marketing\u0026utm_campaign=beauty","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ANÁLISIS DE TENDENCIA","CATEGORÍA":"MARKETING \u0026 LUXURY","SUBCATEGORÍA":"Experiential \u0026 Après-Ski","INSIGHT":"El \"Test de Tortura\" Glamouroso: Las pistas de esquí son el nuevo laboratorio de pruebas. El insight estratégico es la Eficacia Extrema como Lujo: marcas como Supergoop! o Kiehl\u0027s usan Aspen o Jackson Hole no solo por la foto bonita, sino para probar que sus fórmulas resisten viento, frío y UV extremo. Si funciona a -10°C, funciona en la oficina. Además, capitalizan el momento \"Après-Ski\", creando una nueva ocasión de consumo (recuperación de barrera, \"cold girl makeup\") que permite desestacionalizar productos solares y vender rutinas reparadoras ricas (y caras) en pleno invierno.","RESUMEN":"El artículo de Business of Fashion (y fuentes relacionadas como Glossy) detalla cómo las marcas de belleza están invirtiendo masivamente en destinos de esquí, territorio antes exclusivo de la moda de lujo. La estrategia tiene tres pilares: 1. Desestacionalización: Marcas de SPF (como Supergoop!) educan sobre el daño solar en invierno. 2. Aspiracionalidad: El esquí atrae a un demográfico High-Net-Worth (30 millones de esquiadores solo en EE.UU.) y a la Gen Z que busca la estética \"Old Money\". 3. Performance: Las activaciones en chalets y pistas permiten demostrar la eficacia de productos barrera y de hidratación intensa en condiciones reales, fusionando el cuidado de la piel con el estilo de vida deportivo y saludable que domina las tendencias actuales."},{"URL":"https://www.industriacosmetica.net/noticias/clariant-y-lucas-meyer-cosmetics-presentan-innovaciones-en-formulacion-para-transform-i4Ib5","AÑO":"2025","MES":"DICIEMBRE","TIPO DE FUENTE":"ARTÍCULO / LANZAMIENTO R\u0026D","CATEGORÍA":"R\u0026D \u0026 INGREDIENTES","SUBCATEGORÍA":"Neurocosmética \u0026 Sensorialidad","INSIGHT":"La Piel como Cerebro Periférico: El lanzamiento de GlowCytocin marca un hito en la Psicodermatología. El insight estratégico es la Bio-Hacking Emocional: al formular activos que actúan específicamente sobre los receptores de oxitocina (la hormona del bienestar), la industria valida que el consumidor busca productos que le hagan sentir bien fisiológicamente, no solo verse bien. Esto se complementa con la expansión industrial en China (nueva planta en Huizhou), asegurando que estas innovaciones sensoriales lleguen al mercado asiático, el más exigente en texturas, con velocidad y escala","RESUMEN":"Clariant y su subsidiaria Lucas Meyer Cosmetics presentaron en in-cosmetics Asia sus últimas innovaciones centradas en transformar la rutina de cuidado en una experiencia sensorial y emocional. Destacan tres lanzamientos clave: 1. GlowCytocin: El primer activo diseñado para interactuar con los receptores de oxitocina de la piel, mejorando la luminosidad y el bienestar emocional del usuario (Neuro-Glow). 2. Siligel SF: Un gelificante 100% natural y vegano que ofrece texturas sedosas tipo silicona pero biodegradables. 3. Aristoflex SUN: Un modificador reológico que estabiliza filtros solares y potencia el SPF. Además, Clariant inauguró una planta de 80 millones de francos suizos en China, reforzando su capacidad de producción local para el mercado asiático."},{"URL":"https://www.businessoffashion.com/articles/marketing-pr/meet-the-next-generation-of-influencers/?utm_source=webpage\u0026utm_medium=marketing\u0026utm_campaign=marketing","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ANÁLISIS DE TENDENCIA","CATEGORÍA":"MARKETING \u0026 PR","SUBCATEGORÍA":"Creator Economy \u0026 Talent Management","INSIGHT":"Del \"Escaparate\" al \"Storytelling\": La nueva generación no busca ser famosa, busca ser útil o entretenida. El insight estratégico es la Profesionalización del Nicho: las marcas de moda y belleza están reemplazando a los mega-influencers por perfiles con \"trabajos reales\" (bailarines, diseñadores, fundadores) que generan contenido de alta calidad visual y educativa. Ya no se paga por la audiencia que tienen, sino por la capacidad creativa que aportan a la marca, actuando más como consultores creativos que como vallas publicitarias humanas.","RESUMEN":"El artículo de BoF perfila a la nueva ola de creadores que está redefiniendo el marketing de influencia en 2026. A diferencia de sus predecesores, estos \"nuevos iconos\" dominan el storytelling de formato largo (YouTube, TikTok Series) y mantienen una autenticidad radical. BoF destaca que las marcas de lujo prefieren ahora contratos a largo plazo con estos perfiles \"híbridos\" (ej. un chef que ama la moda o un dermatólogo que sabe de negocios) porque ofrecen una credibilidad técnica que el consumidor exige hoy. Esto se alinea con la caída de la viralidad vacía y el auge de comunidades leales que convierten venta real, no solo likes."},{"URL":"https://tecscience.tec.mx/es/salud/expediente-electronico/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / INNOVACIÓN MÉDICA","CATEGORÍA":"SALUD DIGITAL","SUBCATEGORÍA":"Big Data \u0026 Interoperabilidad","INSIGHT":"Del \"Archivo\" al \"Oráculo\": El ECE deja de ser pasivo para ser predictivo. El insight estratégico es la Estructuración del Dato para IA: la digitalización por sí sola no sirve si los datos no son interoperables y estructurados. TecSalud demuestra que el valor real está en usar esa data agregada para entrenar algoritmos de Medicina de Precisión y salud poblacional, transformando el hospital en un entorno preventivo donde el software detecta patrones (ej. riesgo de sepsis) que el ojo humano podría pasar por alto en una guardia saturada.","RESUMEN":"El artículo de TecScience analiza cómo la implementación avanzada del Expediente Clínico Electrónico (ECE) está revolucionando la atención médica en México, liderada por instituciones como TecSalud. Más allá de eliminar el papel, el objetivo es la interoperabilidad total y el uso de Big Data. El sistema permite centralizar la historia del paciente (imágenes, laboratorios, genética) en una plataforma accesible en tiempo real, reduciendo errores de medicación y duplicidad de pruebas. Lo crucial es su capacidad analítica: al cruzar datos de miles de pacientes, el sistema puede identificar tendencias epidemiológicas y personalizar tratamientos, sentando las bases para un sistema de salud nacional verdaderamente conectado y eficiente."},{"URL":"https://www.industriacosmetica.net/noticias/isdin-reclama-a-europa-que-actue-ante-las-resenas-falsas-y-la-desinformacion-en-el-ii-YxhAi","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / POLÍTICA CORPORATIVA","CATEGORÍA":"NEGOCIOS \u0026 LEGAL","SUBCATEGORÍA":"Digital Services Act \u0026 Brand Reputation","INSIGHT":"La Guerra por la \"Verdad Digital\": Juan Naya (CEO) eleva el tono: las reseñas falsas no son una molestia, son un riesgo de salud pública. El insight estratégico es la Asimetría Competitiva: mientras los laboratorios europeos invierten millones en compliance y estudios clínicos, algoritmos opacos premian productos inseguros inflados por bots. ISDIN exige a Bruselas que la Ley de Servicios Digitales se aplique con la misma dureza que las normas sanitarias, protegiendo al consumidor de la \"quimiofobia\" y los milagros falsos.","RESUMEN":"En el marco del II Foro del Retail y el Gran Consumo de El Economista, Juan Naya, CEO de ISDIN, lanzó un llamamiento urgente a las autoridades europeas para blindar el mercado contra la desinformación. Naya denunció que la proliferación de reseñas falsas y campañas de desinformación (especialmente sobre ingredientes seguros) está distorsionando el mercado, penalizando a las marcas que apuestan por la ciencia y la seguridad. Su demanda es clara: Europa debe garantizar un \"terreno de juego nivelado\" (level playing field) donde la transparencia digital sea obligatoria, evitando que plataformas extracomunitarias o actores sin escrúpulos ganen cuota de mercado engañando al algoritmo y al consumidor."},{"URL":"https://www.businessoffashion.com/events/retail/bof-live-how-retailers-effectively-target-fashion-and-beauty-consumers/?utm_source=webpage\u0026utm_medium=marketing\u0026utm_campaign=partner","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"EVENTO DIGITAL / WEBINAR","CATEGORÍA":"MARKETING \u0026 RETAIL","SUBCATEGORÍA":"Retail Media \u0026 Customer Journey","INSIGHT":"El Retailer como \"Nueva Televisión\": Ante la muerte de las cookies de terceros, la First-Party Data (datos propios) de los retailers es el nuevo petróleo. El insight estratégico es la Precisión en el Punto de Venta: las marcas de belleza ya no disparan anuncios al aire en redes sociales; pagan a retailers (como Sephora o Amazon) para impactar al usuario justo cuando está en \"modo compra\". BoF analiza cómo cerrar el loop entre el descubrimiento (inspiración) y la transacción sin fricción, integrando contenido shoppable directamente en las plataformas de venta.","RESUMEN":"Business of Fashion organiza una sesión estratégica para diseccionar cómo los gigantes del retail están reescribiendo las reglas de la adquisición de clientes en 2026. El evento aborda la fragmentación de la atención del consumidor y cómo las marcas líderes están utilizando Retail Media Networks (RMNs) para dirigir sus presupuestos publicitarios. La clave ya no es el alcance masivo, sino la capacidad de atribuir cada dólar invertido a una venta real, utilizando la infraestructura de datos del retailer para hiper-segmentar audiencias basándose en historial de compra real, no en meras inferencias demográficas."},{"URL":"https://www.gcimagazine.com/brands-products/skin-care/article/22958894/evolved-by-nature-prestige-skin-cares-vegan-paradox-driven-by-consumer-confusion","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / ESTUDIO DE CONSUMIDOR","CATEGORÍA":"MARKET TRENDS","SUBCATEGORÍA":"Greenwashing \u0026 Biotech","INSIGHT":"La \"Paradoja Vegana\": El consumidor pide \"Vegano\" pero compra \"Eficacia\". El insight estratégico es la Disociación Semántica: el 89% de los consumidores usa la palabra \"vegano\" creyendo que significa \"limpio\" o \"natural\", no \"sin animales\". El dato matador es que el 57% de estos usuarios \"veganos\" usaría ingredientes animales (como miel o leche) si demostraran ser más eficaces que la alternativa vegetal. Las marcas que sacrifican resultados por una etiqueta vegana purista están perdiendo al cliente de lujo, que prioriza el resultado clínico sobre el dogma ético.","RESUMEN":"GCI Magazine y Evolved By Nature presentan el \"EBN Vegan Skincare Study\" (900 mujeres encuestadas), destapando una desconexión masiva en el mercado Prestige. El estudio revela que solo el 11% de los consumidores define correctamente \"vegano\" (sin ingredientes animales); la mayoría lo confunde con \"cruelty-free\" o \"sostenible\". Esto crea una oportunidad para la Biotecnología (como los péptidos de seda Activated Silk de EBN), que permite a las marcas salir de la trampa de usar sintéticos petroquímicos para ser veganas, ofreciendo en su lugar activos naturales de alto rendimiento que cumplen con la expectativa de \"limpieza\" sin comprometer la eficacia clínica."},{"URL":"https://www.linkedin.com/posts/anaceciliavaleriochipuli_nu-skin-redefine-el-bienestar-nutricional-activity-7425353794735009792-NN74?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ANÁLISIS DE EXPERTO","CATEGORÍA":"NEGOCIOS \u0026 WELLNESS","SUBCATEGORÍA":"Health Tech \u0026 Quantified Self","INSIGHT":"La \"Tangibilización\" del Bienestar: Nu Skin ataca el escepticismo del consumidor. El insight estratégico es la Venta Basada en Evidencia: en una economía del bienestar de $6.8 Trillones, el cliente ya no compra promesas etéreas, compra KPIs de salud. Prysm iO convierte el bienestar subjetivo en métricas objetivas (biometría), lo que permite justificar el precio de los suplementos y, sobre todo, aumentar la retención: si el dispositivo te dice que estás mejorando, no dejas de comprar el producto.","RESUMEN":"Ana Valerio analiza el lanzamiento de Prysm iO de Nu Skin, destacando el cambio de paradigma en la venta de bienestar: de lo aspiracional a lo medible. La plataforma integra tecnología para rastrear el impacto real de la nutrición y los hábitos en el usuario, respondiendo a un mercado proyectado en $9.8 Trillones para 2029. La estrategia central es empoderar la \"venta consultiva\": el dispositivo ofrece datos concretos que validan la eficacia de los productos de Nu Skin, construyendo confianza a largo plazo y alejándose de la venta transaccional rápida típica del Direct Selling."},{"URL":"https://www.globalcosmeticsnews.com/target-rolls-out-largest-ever-spring-beauty-assortment/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA / RETAIL STRATEGY","CATEGORÍA":"RETAIL MASIVO","SUBCATEGORÍA":"Masstige \u0026 Affordability","INSIGHT":"La \"Sephorización\" del Supermercado: Target rompe la barrera entre el lujo y el gran consumo. El insight estratégico es la Accesibilidad Curada: al lanzar casi 3.000 nuevos productos (incluyendo marcas como Morphe, Supergoop! y K-Beauty) con el 90% del surtido por debajo de los $20, Target no solo compite por precio, sino por experiencia. La renovación de los pasillos con mejor iluminación, testeo de fragancias y eventos en tienda imita la experiencia de una perfumería especializada, pero con el tráfico garantizado de un hipermercado, posicionándose como el destino definitivo para la compra de belleza \"inteligente\" y de descubrimiento.","RESUMEN":"Target anuncia el lanzamiento de su surtido de belleza de primavera más grande hasta la fecha, introduciendo cerca de 3.000 nuevos productos y más de 60 nuevas marcas tanto en tiendas físicas como online. La expansión abarca cuidado de la piel, maquillaje, cabello, solares y fragancias, destacando que la inmensa mayoría (\u003e90%) tendrá un precio inferior a 20 dólares. Esta estrategia incluye la incorporación de marcas establecidas y emergentes, así como una fuerte apuesta por la belleza coreana (K-Beauty) y marcas propias. Además, el minorista está rediseñando la experiencia en tienda con nuevos layouts, estaciones de prueba de fragancias y eventos exclusivos para miembros de su programa Target Circle 360."},{"URL":"https://www.linkedin.com/posts/albalabarca_76-e-commerce-la-gran-oportunidad-activity-7423952077598408704-jElN?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / ANÁLISIS SECTORIAL","CATEGORÍA":"PHARMA \u0026 RETAIL","SUBCATEGORÍA":"Last Mile \u0026 Regulación","INSIGHT":"La \"Fricción Phygital\": La farmacia española está atascada. El insight estratégico es la Renuncia al Quick Commerce: aunque la ley permite entregar parafarmacia y belleza a domicilio (un mercado gigante), el 100% de las farmacias consultadas por Alba renuncian a ello por falta de estructura, usando plataformas como LUDA solo para atraer tráfico peatonal por el medicamento. Al no activar el delivery de productos de venta libre, la farmacia está cediendo voluntariamente su categoría más rentable (Dermocosmética/OTC) a los Pure Players digitales","RESUMEN":"Alba Labarca disecciona la diferencia crítica entre \"Ser Digital\" (tener Instagram) y \"Hacer Commerce\" (logística de entrega) en el sector farmacéutico. Destaca que, aunque el marco regulatorio español prohíbe el envío de medicamentos con receta, permite perfectamente el envío de OTC y Parafarmacia. Sin embargo, su investigación de campo revela que la mayoría de farmacias no explotan esta vía por falta de recursos humanos. Herramientas como LUDA Partners se utilizan hoy principalmente para localizar medicamentos y dirigir al paciente a la tienda física, desaprovechando la capacidad de competir en la \"última milla\" que ya es estándar en mercados como Reino Unido o EE.UU"},{"URL":"https://www.linkedin.com/posts/flavioacunaoficial_holistichospitality-wellness-wellnesstourism-activity-7424145787577618432-dOVT?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / LIDERAZGO DE PENSAMIENTO","CATEGORÍA":"HOSPITALITY \u0026 WELLNESS","SUBCATEGORÍA":"Customer Experience \u0026 Biophilia","INSIGHT":"El Bienestar como Sistema Operativo: Flavio Acuña decreta el fin del \"Departamento de Wellness\". El insight estratégico es la Coherencia del Ecosistema: el viajero informado de 2026 detecta la incongruencia al instante. No sirve tener un spa de lujo si el personal está estresado (el bienestar del equipo impacta al huésped) o si la arquitectura no respeta la biología (luz/acústica). La \"Hospitalidad Holística\" exige que cada punto de contacto —desde cómo duerme el huésped hasta lo que come— refuerce una única promesa de salud, integrando el ritmo del cliente por encima del reloj operativo del hotel.","RESUMEN":"Flavio Acuña, consultor y referente en bienestar, propone redefinir la hospitalidad moderna bajo el concepto de \"Holistic Hospitality\". Argumenta que el bienestar debe dejar de ser un \"amenity\" (spa, gimnasio) para convertirse en la esencia operativa del negocio. Esto implica diseñar la experiencia de forma integral: arquitectura con diseño biofílico, gastronomía local consciente y, crucialmente, el bienestar del propio staff. El objetivo es transicionar de vender servicios fragmentados a crear ecosistemas de bienestar coherentes, donde la autenticidad es el valor supremo para un consumidor que busca que la promesa de salud sea real en cada interacción."},{"URL":"https://www.linkedin.com/feed/update/urn:li:activity:7425413469774163969?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / ALERTA REGULATORIA","CATEGORÍA":"LEGAL \u0026 TECH","SUBCATEGORÍA":"China NMPA \u0026 Digital Labeling","INSIGHT":"El \"Pasaporte Digital\" del Producto: El etiquetado deja de ser estático para ser dinámico. El insight estratégico es la Transparencia en Tiempo Real: a partir del 1 de febrero de 2026, la NMPA exige a las empresas piloto sustituir etiquetas físicas por códigos QR (estándar GS1 o MA) vinculados a una base de datos oficial. Esto elimina el riesgo de packaging desactualizado, pero exige una precisión técnica absoluta: un error en la estructura de datos del QR significa que el producto no entra en China. Es el fin de la ambigüedad en los claims para el mercado asiático.","RESUMEN":"Paulette Fung alerta sobre la entrada en vigor, el 1 de febrero de 2026, de los nuevos requisitos de Etiquetado Electrónico (E-Label) de la NMPA para cosméticos en China (programa piloto). La regulación reemplaza la etiqueta física tradicional por un código QR escaneable que lleva al consumidor a la información oficial del producto. Para cumplir, las marcas deben: 1) Declarar su sistema de e-label (propio o de terceros), 2) Registrar los detalles del servidor y seguridad, y 3) Subir los datos del QR y las imágenes del envase bajo estándares estrictos. El objetivo es aumentar la transparencia y facilitar la supervisión regulatoria en tiempo real."},{"URL":"https://www.marketingdirecto.com/marketing-general/promociones-farmacia-menos-regalos-mas-sencillez","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO DE OPINIÓN / ANÁLISIS","CATEGORÍA":"MARKETING \u0026 TRADE","SUBCATEGORÍA":"Promociones \u0026 Eficiencia Operativa","INSIGHT":"El Fin del \"Ruido Promocional\": Víctor Gimeno (Priopcion) y Carlos Fernández-Oliva (Laboratoire Native) advierten que \"promocionar no es regalar\". El insight estratégico es la Fricción Cognitiva: el consumidor de 2026 decide en segundos y penaliza la complejidad. La farmacia, saturada de tareas asistenciales, ya no quiere gestionar stocks de regalos irrelevantes. La tendencia ganadora es la \"Sencillez Radical\": propuestas de valor inmediato (descuento directo o 2x1 simple) que el staff pueda explicar en 10 segundos y el cliente entienda al instante, priorizando la operatividad sobre la creatividad vacía.","RESUMEN":"El artículo de Marketing Directo (publicado el 2 de febrero de 2026) recoge la reflexión de expertos del sector sobre el agotamiento del modelo tradicional de promociones en farmacia. Se critica la estrategia de \"cuanto más, mejor\" (más materiales, más regalos físicos) por ineficaz y costosa. El nuevo consumidor dermocosmético, impaciente e informado, rechaza las dinámicas que exigen esfuerzo. La clave para 2026 es diseñar acciones con \"Valor Percibido Real\" que generen seguridad en la farmacia (sabiendo que no habrá incidencias operativas) y transparencia para el cliente, alineándose con la tendencia de \"limpiar\" el punto de venta de ruido visual innecesario."},{"URL":"https://cosmeticsbusiness.com/est%C3%A9e-lauder-companies-shares-plummet-despite-q2-rebound","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / RESULTADOS FINANCIEROS","CATEGORÍA":"NEGOCIOS \u0026 FINANZAS","SUBCATEGORÍA":"Geopolítica \u0026 Valuation Reset","INSIGHT":"El \"Impuesto Geopolítico\" al Lujo: ELC sufre un reality check. El insight estratégico es la Fragilidad del Margen: aunque el \"Profit Recovery Plan\" funciona (margen bruto sube al 76.5%), el mercado entró en pánico por la advertencia de 100 millones de dólares en costes extra por nuevos aranceles (especialmente sobre importaciones de Suiza y Canadá). Esto demuestra que las cadenas de suministro globales del lujo son el nuevo talón de Aquiles; los inversores prefieren castigar la acción hoy que esperar a ver si ELC puede repercutir esos costes al consumidor final.","RESUMEN":"Estée Lauder Companies vio cómo sus acciones caían cerca de un 20% en un solo día, a pesar de presentar un Q2 fiscal 2026 sólido. La compañía superó las expectativas de Wall Street con un beneficio por acción de $0.89 (vs $0.83 esperados) y un crecimiento de ventas del 6% ($4.23B), impulsado sorprendentemente por un rebote del 13% en China continental. Sin embargo, la directiva advirtió que los nuevos aranceles comerciales impactarán severamente la rentabilidad del segundo semestre (-$100M), lo que, sumado a la debilidad persistente en la categoría de maquillaje (-1%) y la saturación de inventario en el Travel Retail, provocó una venta masiva de acciones por parte de inversores que esperaban una recuperación más limpia y menos expuesta a riesgos macroeconómicos."},{"URL":"https://www.globalcosmeticsnews.com/essence-expands-into-500-walmart-stores-across-the-us/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA / RETAIL EXPANSION","CATEGORÍA":"RETAIL MASIVO","SUBCATEGORÍA":"Gen Z \u0026 Budget Beauty","INSIGHT":"El \"Efecto Rímel\": En tiempos de incertidumbre económica, el consumidor no deja de comprar belleza, solo cambia de pasillo. El insight estratégico es la Viralidad Accesible: essence ha demostrado que se puede ser una marca de culto (\"Lash Princess\") sin invertir en publicidad tradicional, usando solo la recomendación orgánica en redes. Al entrar en 500 Walmart físicos (tras probar el éxito en su web en 2025), la marca valida que el precio bajo (\u003c$5) no es una barrera para la percepción de calidad si el producto cumple su promesa funcional.","RESUMEN":"essence cosmetics (perteneciente al grupo alemán Cosnova) expande agresivamente su presencia en EE.UU. entrando en más de 500 tiendas Walmart. Tras un piloto exitoso en Walmart.com en 2025 (donde su máscara de pestañas Lash Princess se convirtió en top performer), la marca lleva sus best-sellers al lineal físico. La estrategia incluye productos exclusivos para la cadena, como el delineador Line N\u0027 Stain! por debajo de los 5 dólares. Este movimiento busca capturar al consumidor que prioriza el precio y la tendencia inmediata, consolidando a Walmart como un jugador clave en la \"belleza viral\" de bajo coste."},{"URL":"https://www.industriacosmetica.net/noticias/el-maquillaje-refuerza-su-peso-en-la-belleza-europea-con-espana-entre-los-mercados-es-NHfhj","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ARTÍCULO / DATOS DE MERCADO","CATEGORÍA":"MARKET TRENDS","SUBCATEGORÍA":"Makeup \u0026 European Market","INSIGHT":"España como \"Potencia del Color\": El mercado español supera los 100 millones de unidades vendidas. El insight estratégico es la Resiliencia de la Categoría: con un volumen de negocio de 13.900 millones de euros en Europa, el maquillaje crece sostenidamente impulsado por la innovación en ojos, labios y uñas. L\u0027Oréal Groupe lidera con un 17% de cuota global, demostrando que la inversión masiva en I+D (1.350M€) y Beauty Tech es la única vía para mantener el crecimiento en un mercado maduro donde el consumidor exige fórmulas híbridas (maquillaje con tratamiento) y sostenibles.","RESUMEN":"El sector del maquillaje reafirma su importancia en la industria de la belleza europea, alcanzando un valor de 13.900 millones de euros. España se posiciona como un mercado clave, concentrando el 10,3% del negocio total del continente, según datos de L\u0027Oréal y Stanpa. El consumo en el país supera las 100 millones de unidades, con una fuerte demanda en las categorías de ojos, labios y uñas. L\u0027Oréal mantiene su liderazgo con una cuota del 17%, impulsada por el buen desempeño de marcas de gran consumo como Maybelline y NYX, validando que la innovación tecnológica y la sostenibilidad son los drivers que permiten seguir creciendo en volumen y valor en 2026."},{"URL":"https://www.nextinbeautymag.com/es/negocio/economia-sector/canal-belleza-motor-crecimiento-consumo-en-retail-perfumeria-en-2025_2628_102.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ANÁLISIS ECONÓMICO","CATEGORÍA":"RETAIL \u0026 CONSUMO","SUBCATEGORÍA":"Perfumería \u0026 Tráfico Físico","INSIGHT":"El \"Efecto Perfume\" como Ancla: La belleza ya no es un accesorio, es el motor principal del retail. El insight estratégico es la Irremplazabilidad de la Experiencia Física: el crecimiento del sector en 2025/2026 está liderado por la Perfumería, una categoría que resiste la digitalización total porque exige prueba sensorial. Esto convierte a las perfumerías y secciones de belleza en los generadores de tráfico #1, obligando a los retailers a cuidar este espacio como su activo más valioso para atraer al consumidor a la tienda.","RESUMEN":"El análisis de Next in Beauty destaca que el canal selectivo de belleza ha sido el principal dinamizador del consumo en retail durante el último año. La categoría de fragancias actúa como punta de lanza, impulsando el crecimiento en valor gracias a la premiumización y al deseo del consumidor de experiencias tangibles tras la pandemia. El reporte confirma que, lejos de estancarse, el sector belleza actúa como un refugio de consumo, donde el cliente no recorta gastos, sino que busca calidad y experiencia, consolidando a la tienda física como el punto de encuentro crucial para la decisión de compra."},{"URL":"https://www.linkedin.com/posts/lor%C3%A9al_createthebeautythatmovestheworld-activity-7425591780709920768-mglo?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / EMBAJADOR DE MARCA","CATEGORÍA":"MARKETING \u0026 PR","SUBCATEGORÍA":"Celebrity Endorsement \u0026 Gen Z","INSIGHT":"El \"Efecto Jeremiah\": De la pantalla al frasco. El insight estratégico es la Capitalización del Fandom: al fichar a Gavin Casalegno, Viktor\u0026Rolf rejuvenece drásticamente la franquicia Spicebomb. Ya no buscan la masculinidad \"ruda\" tradicional, sino la estética \"Soft Boy\" / \"Romántico\" que domina en TikTok. Es una jugada maestra para activar la compra impulsiva en un demográfico que vive en el scroll infinito de edits de series juveniles.","RESUMEN":"L\u0027Oréal anuncia oficialmente a Gavin Casalegno (actor conocido por la serie de éxito mundial The Summer I Turned Pretty) como el nuevo VIP Ambassador para la fragancia Spicebomb de Viktor\u0026Rolf. El movimiento busca conectar la narrativa explosiva y sensual del perfume con la imagen fresca y viral del actor, apuntando directamente al corazón de la Generación Z y capitalizando su masiva base de seguidores en redes sociales para revitalizar un clásico de la perfumería masculina."},{"URL":"https://www.globalcosmeticsnews.com/nykaa-more-than-doubles-q3-profit-as-beauty-demand-stays-resilient-in-india/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / RESULTADOS FINANCIEROS","CATEGORÍA":"MERCADOS EMERGENTES","SUBCATEGORÍA":"India Growth \u0026 Premiumization","INSIGHT":"El Desacople del Consumo Indio: India ignora la desaceleración global. El insight estratégico es el \"Wedding \u0026 Festival Economy\": a diferencia de Occidente, donde el consumo es cíclico, en India la temporada de bodas y festivales es un motor incombustible que impulsa la Premiumización. Nykaa no crece vendiendo barato (como Walmart), crece porque la clase media india está haciendo upgrade a marcas internacionales de lujo, convirtiendo a la plataforma en el socio indispensable para entrar en el país.","RESUMEN":"Nykaa, la plataforma líder de e-commerce de belleza en India (FSN E-Commerce Ventures), reporta que sus beneficios del tercer trimestre (Q3) se han más que duplicado. Este rendimiento estelar se debe a una demanda de belleza \"altamente resiliente\", impulsada por una temporada de bodas masiva y el periodo festivo. Mientras otros sectores de consumo discrecional muestran fatiga, la belleza premium en India sigue disparada. Los ingresos consolidados crecieron significativamente, validando la estrategia de Nykaa de mezclar marcas propias con grandes firmas internacionales de lujo."},{"URL":"https://beautynewsdaily.com/best-australian-beauty-exports/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / LISTA DE PRODUCTOS","CATEGORÍA":"MERCADOS GLOBALES","SUBCATEGORÍA":"A-Beauty \u0026 Sun Care","INSIGHT":"El \"Lifestyle\" como Activo Cosmético: Australia vende sol, pero seguro. El insight estratégico es la Superioridad en SPF y Botánica Extrema: marcas como Ultra Violette y Rationale han convertido la protección solar (una categoría tradicionalmente aburrida y pegajosa) en un producto de deseo \"Skin-First\". Además, ingredientes nativos como la Ciruela Kakadu (la fuente más rica de Vitamina C del mundo) justifican el precio premium por su potencia antioxidante natural. El éxito global de estas marcas radica en vender una rutina simplificada pero altamente efectiva, validada por el clima más duro del planeta para la piel.","RESUMEN":"El artículo de Beauty News Daily (5 de febrero de 2026) destaca las mejores exportaciones de belleza australiana, un segmento que combina fórmulas sencillas con ingredientes botánicos potentes y una obsesión por la protección solar de alto nivel. Marcas clave incluyen:1. Ultra Violette: Redefine el SPF como \"Skinscreen\" (hidratante + primer + solar), eliminando el rastro blanco.2. Aesop: El estándar de oro en lifestyle y diseño sensorial (jabón de manos Resurrection).3. Sand \u0026 Sky: Capitaliza la arcilla rosa australiana para poros, éxito viral en redes.4. Vida Glow: Lidera la ingesta de colágeno marino, conectando belleza y bienestar interno.5. MCoBeauty: La respuesta \"asequible\" (dupes de lujo) que triunfa en supermercados como Target con precios bajos."},{"URL":"https://www.linkedin.com/posts/juanjoseibarra_nike-skims-athleisure-activity-7425513486040014848-r5uf?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / ANÁLISIS ESTRATÉGICO","CATEGORÍA":"MARKETING \u0026 RETAIL","SUBCATEGORÍA":"Co-Branding \u0026 Athleisure","INSIGHT":"El \"Efecto Multiplicador\": 1 + 1 = 3. El insight estratégico es la Matemática del Hype: McKinsey cifra en un 20-30% el incremento de cuota de mercado que logran estas alianzas frente a lanzamientos en solitario. No se trata de vender zapatillas, se trata de capturar la categoría de Athleisure ($350B) atacando la intersección exacta donde el 70% de las mujeres deciden: Estilo + Funcionalidad. El sneaker \"Rift\" valida la tendencia del Balletcore pero con la tracción masiva de dos gigantes, elevando el ticket medio y acelerando la adopción en segmentos que Nike sola no tocaría (moda pura).","RESUMEN":"Juan José Ibarra (Director Sr. Ventas LATAM) analiza el lanzamiento del sneaker \"Rift\" de Nike x SKIMS no como una novedad de moda, sino como una jugada maestra de Market Share. Destaca tres datos clave: 1) El crecimiento del Athleisure al 8% anual. 2) La capacidad de las colaboraciones para amplificar el alcance cruzado de audiencias dispares. 3) La preferencia del consumidor femenino (70%) por productos híbridos (estilo/función). La conclusión es que esta alianza es un movimiento de negocio para consolidar el uso cotidiano de la marca deportiva en contextos de lifestyle, generando conversión rápida y ruido cultural global."},{"URL":"https://www.modaes.com/empresas/lvmh-releva-a-guillaume-henry-en-patou-tras-siete-anos-al-frente-de-su-relanzamiento","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / MOVIMIENTO EJECUTIVO","CATEGORÍA":"NEGOCIOS \u0026 LUJO","SUBCATEGORÍA":"Gestión de Talento \u0026 Portfolio","INSIGHT":"El Fin de la \"Incubación\": 7 años es un ciclo largo en moda actual. El insight estratégico es la Rotación Táctica: Guillaume Henry cumplió su misión de resucitar el nombre de Jean Patou y darle una identidad visual (\"joyful wear\"), pero LVMH ahora busca refrescar la visión. En un entorno de mercado difícil (como vimos con Estée Lauder), los grupos de lujo no permiten que ninguna marca, por pequeña o \"nicho\" que sea, se estanque. Buscan agitar el árbol para ver si pueden extraer más valor o relevancia cultural con una nueva voz.","RESUMEN":"LVMH anuncia la salida de Guillaume Henry como director creativo de Patou tras siete años liderando el relanzamiento de la histórica maison. Henry fue el arquitecto de la nueva identidad de la marca desde 2018, posicionándola como una firma de \"prêt-à-porter accesible\" dentro del lujo, con un enfoque fresco y femenino. Su salida marca el cierre del capítulo fundacional de la \"nueva Patou\". LVMH aún no ha nombrado sucesor, lo que sugiere un periodo de reflexión estratégica sobre qué dirección debe tomar esta marca en el portafolio del grupo para la siguiente etapa de crecimiento."},{"URL":"https://www.globalcosmeticsnews.com/estee-lauder-shares-slump-despite-earnings-beat-and-higher-outlook/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / ANÁLISIS BURSÁTIL","CATEGORÍA":"FINANZAS \u0026 ESTRATEGIA","SUBCATEGORÍA":"Gestión de Crisis \u0026 proyecciones","INSIGHT":"La \"China-Dependencia\" ya no es suficiente: El dato revelador es que ni siquiera un rebote del 13% en China pudo salvar la acción. El insight estratégico es la Aversión al Riesgo Regulatorio: los inversores ignoraron el presente (buenos resultados Q2) para castigar el futuro (posibles aranceles de EE.UU.). Esto indica que el mercado ya descuenta que la recuperación del consumo chino es frágil y que la \"guerra comercial\" es una amenaza tangible que se comerá los márgenes, obligando a ELC a una gestión de costes defensiva en lugar de expansiva.","RESUMEN":"Global Cosmetics News profundiza en la paradoja financiera de Estée Lauder: resultados mejores de lo esperado (Beat de EPS y Ventas) seguidos de una venta masiva de acciones. El artículo destaca que, aunque el \"Plan de Recuperación de Beneficios\" está funcionando (mejorando márgenes brutos), la guía para el resto del año fiscal 2026 decepcionó. La sombra de nuevos aranceles e incertidumbre cambiaria ha neutralizado el optimismo generado por la reactivación del mercado chino, dejando a la compañía en una posición vulnerable donde cualquier noticia geopolítica negativa provoca una volatilidad extrema."},{"URL":"https://www.globalcosmeticsnews.com/kao-reports-fy2025-results-and-updates-financial-reporting-framework/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / RESULTADOS FINANCIEROS","CATEGORÍA":"NEGOCIOS \u0026 FINANZAS","SUBCATEGORÍA":"Reestructuración \u0026 Transparencia","INSIGHT":"La \"Occidentalización\" de la Contabilidad Japonesa: Kao deja de jugar en \"modo local\". El insight estratégico es la Comparabilidad Global: al actualizar su marco de reporte financiero y reestructurar sus segmentos (separando claramente el \"ruido\" de las reformas estructurales del beneficio operativo real), Kao busca eliminar el \"descuento de conglomerado\". Quieren que el inversor de Wall Street o Londres pueda comparar sus métricas de salud y belleza directamente con las de P\u0026G o L\u0027Oréal, sin necesidad de traductores financieros. Es un paso crítico para desbloquear valor en bolsa (actualmente con recomendación \"Hold\").","RESUMEN":"Kao Corporation ha presentado sus resultados consolidados para el año fiscal terminado el 31 de diciembre de 2025, junto con una actualización significativa de su marco de informes financieros para 2026. La compañía japonesa ha puesto el foco en el crecimiento de las ventas netas like-for-like y en el \"core income\" (excluyendo impactos extraordinarios de reestructuración) como las verdaderas medidas de su desempeño. Además, ha reclasificado datos históricos para alinearlos con su nueva estructura organizativa, un movimiento diseñado específicamente para aumentar la transparencia y facilitar el análisis comparativo para los inversores internacionales, quienes a menudo penalizan la complejidad de los conglomerados japoneses."},{"URL":"https://ideas.pwc.es/archivos/20260206/como-dos-marcas-estan-transformando-el-sector-de-la-belleza/?utm_campaign=5b9121e3799c7d0001022ddd\u0026utm_content=6985f20384323800015d6d10\u0026utm_medium=smarpshare\u0026utm_source=linkedin","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / CASO DE ESTUDIO","CATEGORÍA":"NEGOCIOS \u0026 M\u0026A","SUBCATEGORÍA":"Gen Z Conglomerates","INSIGHT":"El \"Velociraptor Corporativo\": La adquisición de rhode por e.l.f. Beauty (cerrada en Mayo 2025) reescribe las reglas del M\u0026A. El insight estratégico es la Sinergia de Velocidad + Comunidad: e.l.f. no compró rhode para \"arreglarla\" (como solía hacer Estée Lauder), sino para potenciar su modelo de \"Lujo Accesible\" con la credibilidad \"Clean Girl\" de Hailey Bieber. Juntas, crecen 4 veces más rápido que el mercado global porque dominan el ciclo de atención de la Gen Z, convirtiendo productos de farmacia en objetos de deseo viral sin la fricción burocrática de los conglomerados tradicionales.","RESUMEN":"PwC analiza cómo la fusión de e.l.f. Beauty y rhode marca un punto de inflexión en la industria. El artículo detalla cómo e.l.f. (una máquina de marketing digital de $1.300M) integró la marca minimalista de Hailey Bieber para dominar ambos extremos del espectro masivo-aspiracional. A diferencia de los gigantes heredados que luchan por crecimiento de un dígito, este nuevo grupo utiliza la \"afinidad cultural\" y la escucha social en tiempo real para lanzar productos que la comunidad pide, no los que I+D impone. El caso demuestra que el futuro no pertenece al que tiene más historia, sino al que tiene la comunidad más ruidosa y leal."},{"URL":"https://cosmeticsbusiness.com/coty-interim-ceo-unveils-turnaround-strategy-coty-curated","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"RESULTADOS / REESTRUCTURACIÓN","CATEGORÍA":"NEGOCIOS \u0026 ESTRATEGIA","SUBCATEGORÍA":"Turnaround \u0026 Portfolio Management","INSIGHT":"La \"Purga\" del Portafolio: Coty aplica la disciplina P\u0026G. El insight estratégico es la Simplificación Radical: Markus Strobel (ex-P\u0026G/SK-II) ha lanzado \"Coty. Curated.\" para frenar la caída del 3% en ventas. La estrategia es clara: eliminar la complejidad que no rota. Esto implica sacrificar marcas de nicho (adiós Orveda) para concentrar todo el capex en los \"Power Brands\" que mueven la aguja (Burberry, Kylie, Lancaster). Es el reconocimiento de que en el mercado polarizado de 2026, tener demasiadas marcas medianas es un pasivo, no un activo.","RESUMEN":"Markus Strobel, nuevo CEO interino de Coty, presenta su plan de choque tras unos resultados \"decepcionantes\" en el Q2 2026 (caída de ventas y retirada del guidance anual). Bajo el lema \"Coty. Curated.\", la compañía anuncia medidas drásticas: 1. Ruptura Simbólica: Terminación de la licencia de Orveda, la marca ultra-premium de biotecnología co-creada por la anterior CEO Sue Y. Nabi. 2. Foco en \"Lo que Vende\": Reducción agresiva de SKUs en Consumer Beauty (CoverGirl, Rimmel) para priorizar solo productos de alta rotación. 3. Saneamiento: Venta final de la participación en Wella para limpiar el balance y reducir deuda."},{"URL":"https://beautynewsdaily.com/the-biggest-fragrance-trends-of-2026/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / REPORTAJE DE TENDENCIAS","CATEGORÍA":"MARKET TRENDS","SUBCATEGORÍA":"Olfactory Innovation","INSIGHT":"La \"Funcionalidad Emocional\": El perfume deja de ser accesorio para ser herramienta. El insight estratégico es la Neuro-Perfumería: en 2026, las tendencias giran en torno a cómo la fragancia altera el estado de ánimo. 1. \"Grown-up Gourmands\": El dulce madura. Adiós al azúcar simple; hola a notas \"sabrosas\" y complejas (pistacho, alcohol, tomate). 2. \"Second Skin 2.0\": Aromas que imitan el olor humano limpio (almizcles, ISO E Super), buscando intimidad en un mundo digital. 3. \"Functional Fragrance\": Aromas diseñados para reducir cortisol o mejorar el sueño, conectando directamente con el Wellness.","RESUMEN":"Beauty News Daily desglosa las tendencias olfativas dominantes para 2026. Destaca el auge de los \"Savory Gourmands\" (Gourmands salados/vegetales), donde notas de verduras o hierbas culinarias entran en la alta perfumería para ofrecer experiencias menos empalagosas. También resalta la consolidación de los \"Skin Scents\", fragancias sutiles que actúan como una extensión de la piel (\"tú, pero mejor\"), perfectas para entornos de oficina o gym. Finalmente, la sostenibilidad impulsa el uso de ingredientes biotecnológicos (como vimos con Evolved By Nature) para recrear notas naturales extintas o protegidas, fusionando ética y estética."},{"URL":"https://beautynewsdaily.com/party-of-you-is-the-new-skincare-brand-for-late-nights-and-lazy-mornings/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / LANZAMIENTO DE MARCA","CATEGORÍA":"MARKET TRENDS","SUBCATEGORÍA":"Recovery Skincare \u0026 Gen Z Lifestyle","INSIGHT":"El Negocio de la \"Resaca Cosmética\": Monetizar la culpa (o la falta de ella). El insight estratégico es el Situational Marketing: Party of You no vende \"anti-edad\", vende \"recuperación inmediata\". Se posiciona en el momento de uso exacto donde el consumidor es más vulnerable y busca soluciones rápidas: la mañana siguiente tras una noche de fiesta. Al etiquetarse para \"late nights \u0026 lazy mornings\", elimina la fricción de la rutina compleja, ofreciendo productos \"a prueba de tontos\" (fáciles, rápidos, hidratantes) que perdonan los pecados de la noche anterior sin juzgar al usuario.","RESUMEN":"Beauty News Daily presenta a Party of You, una nueva marca de cuidado de la piel diseñada específicamente para contrarrestar los efectos del estilo de vida nocturno (alcohol, falta de sueño, deshidratación). Lejos de la estética clínica o zen, la marca adopta una identidad visual divertida y desenfadada (\"party girl aesthetic\"). Sus formulaciones se centran en la hidratación extrema y el descongestionante (depuffing) para revivir la piel cansada con el mínimo esfuerzo, reconociendo explícitamente que su consumidor prioriza la diversión social sobre la perfección del bienestar estricto."},{"URL":"https://beautynewsdaily.com/kourtney-and-kylie-just-made-glazed-skin-an-inside-out-thing/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / COLABORACIÓN","CATEGORÍA":"WELLNESS \u0026 SKINCARE","SUBCATEGORÍA":"Nutricosmética \u0026 Cross-Selling","INSIGHT":"La \"Dinastía del Cross-Sell\": El cuidado de la piel deja de ser solo tópico. El insight estratégico es la Convergencia Ingestible: Al unir Lemme (suplementos) con Kylie Skin (tópicos), las hermanas estandarizan la idea de que el \"Glazed Skin\" (piel luminosa) requiere un enfoque bidireccional (dentro y fuera). Esto normaliza los suplementos de belleza para la Gen Z, convirtiéndolos en el \"Paso 0\" de la rutina de skincare, y demuestra cómo las marcas de celebridades pueden actuar como ecosistemas cerrados para retener todo el gasto del consumidor.","RESUMEN":"Kourtney Kardashian Barker y Kylie Jenner lanzan su primera colaboración de producto conjunta, fusionando sus marcas Lemme y Kylie Skin. La propuesta se centra en el concepto \"Inside-Out\", combinando gominolas (gummies) formuladas para la salud de la piel, cabello y uñas, con productos tópicos de hidratación. La campaña capitaliza la estética viral \"Glazed\" (piel brillante y jugosa), educando al consumidor masivo sobre que el brillo real no se consigue solo con iluminador, sino con nutrición celular, validando así el auge global de los suplementos de belleza comestibles."},{"URL":"https://www.linkedin.com/pulse/d%C3%B3nde-comprar%C3%A1-la-generaci%C3%B3n-alfa-los-productos-de-alba-labarca-le%C3%B3n-janle/?trackingId=Fa2NLFeztmS5y3Yblpm5Pg%3D%3D","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ANÁLISIS GENERACIONAL","CATEGORÍA":"CONSUMIDOR FUTURO","SUBCATEGORÍA":"Gen Alfa \u0026 Retail Experience","INSIGHT":"El \"Patio de Recreo\" vs. El Mostrador: La farmacia corre el riesgo de ser irrelevante. El insight estratégico es la Ludificación de la Compra: La Gen Alfa no distingue entre online y offline, pero exige que la tienda física sea un destino de entretenimiento (como Sephora o Druni). No van a la farmacia a \"curarse\", van a las tiendas a \"descubrir\" y socializar. Si la farmacia sigue siendo un espacio clínico, estático y detrás de un mostrador, esta generación comprará su skincare en Amazon o en perfumerías que hablen su idioma visual y rápido.","RESUMEN":"Alba Labarca plantea la pregunta del millón: ¿Dónde comprarán los productos de cuidado personal los consumidores del mañana? Analiza cómo la Generación Alfa, influenciada masivamente por TikTok y el fenómeno Sephora Kids, busca marcas con valores claros, packaging atractivo y experiencias de compra inmersivas. Advierte que el canal farmacia, tradicionalmente enfocado en la patología y el consejo serio, puede quedar fuera de su radar si no integra la digitalización, la rapidez y, sobre todo, la experiencia sensorial que estos jóvenes consumidores ya dan por sentada en otros canales."},{"URL":"https://www.consalud.es/salud35/internacional/veradermics-debuta-en-bolsa-con-fuerza-y-apuesta-por-un-minoxidil-oral-para-la-caida-del-cabello.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / BURSÁTIL \u0026 SALUD","CATEGORÍA":"PHARMA \u0026 HAIRCARE","SUBCATEGORÍA":"Medicalización \u0026 Alopecia","INSIGHT":"La \"Pastilla\" mata al \"Spray\": El fin de la incomodidad tópica. El insight estratégico es la Adherencia Terapéutica: El éxito de la IPO (Oferta Pública de Venta) de Veradermics demuestra que el mercado financiero cree firmemente en el Minoxidil Oral como el nuevo estándar de oro. ¿Por qué? Porque elimina la fricción del usuario (nadie quiere ensuciarse el pelo con lociones diarias). Esto marca la transición definitiva de la \"Cosmética Capilar\" a la \"Medicina Capilar\", donde la eficacia clínica prima sobre la experiencia sensorial, capturando al consumidor frustrado que busca resultados reales, no promesas de marketing.","RESUMEN":"Veradermics, biotecnológica especializada en dermatología, debuta con fuerza en el mercado de valores impulsada por el potencial de su fármaco estrella: una formulación avanzada de minoxidil oral para la alopecia. Los inversores validan la tesis de que el tratamiento de la caída del cabello se está desplazando del baño (tópico) al botiquín (oral). La compañía apuesta por capturar una cuota masiva del mercado de la alopecia androgenética ofreciendo una solución que mejora drásticamente el cumplimiento del paciente frente a los tratamientos tradicionales, posicionándose como un líder en la medicalización de la estética."},{"URL":"https://www.linkedin.com/posts/pharmacydesign_rossmann-farmacia-retailfarmaceutico-share-7424535684255866881-ECLh?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / ANÁLISIS ESTRATÉGICO","CATEGORÍA":"RETAIL FARMACÉUTICO","SUBCATEGORÍA":"Salud Digital \u0026 Experiencia de Cliente","INSIGHT":"La Irreproducibilidad vs. El Algoritmo: El fármaco se convierte en una commodity digital. El insight estratégico es la Batalla por el \"Carrito Mixto\": gigantes como Rossmann y dm (en Alemania/Holanda) están integrando la farmacia en sus Apps. Cuando la salud termina en el mismo carrito que el detergente o el snack, gestionado por quien domina el Big Data y la logística, la farmacia física pierde la batalla de la transacción. La única defensa es volverse \"Insustituibles\": desplazar el valor de la venta del producto (clicable) a la relación clínica (adherencia terapéutica, prevención), algo que ningún algoritmo de retail puede replicar con la misma empatía.","RESUMEN":"Luca Sartoretto Verna, experto en conceptos farmacéuticos, lanza una alerta clara: el verdadero competidor de la farmacia no es la de al lado, sino la App que el cliente tiene en el bolsillo. Analiza cómo en Europa el paradigma está cambiando con la entrada de players como Rossmann en el mercado de la farmacia online. Esto transforma la salud en parte de un ecosistema retail más amplio. Su recomendación para 2026 es dejar de ver la tecnología como una amenaza y empezar a construir un valor basado en la \"Gestión del Paciente\" (Presa in Carico). Si el producto está disponible en todas partes, la farmacia debe vender lo que no es digitalizable: confianza y orientación sanitaria."},{"URL":"https://www.linkedin.com/posts/revista-merca2-0-80786492_nestl%C3%A9-impulsa-normas-globales-tras-crisis-activity-7425221712541286400-lMYv?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / GESTIÓN DE CRISIS","CATEGORÍA":"REPUTACIÓN \u0026 LEGAL","SUBCATEGORÍA":"Seguridad Alimentaria \u0026 Estandarización","INSIGHT":"La Defensa como Ataque Regulatorio: Nestlé convierte un fallo en un estándar. El insight estratégico es la Armonización Preventiva: Tras el retiro masivo en 60 países por la toxina cereulide, Nestlé no solo pide disculpas, sino que exige \"estándares internacionales armonizados\". ¿Por qué? Porque la fragmentación legal (lo que es seguro en un país, no lo es en otro) es lo que crea el riesgo. Al liderar la creación de una norma global única, Nestlé eleva la barrera de entrada para competidores más pequeños y recupera la narrativa de \"Líder en Seguridad\".","RESUMEN":"Revista Merca2.0 analiza la respuesta de Nestlé tras la detección de una toxina en sus fórmulas infantiles. La compañía enfrenta un desafío logístico y de confianza monumental. En lugar de una gestión de crisis tradicional, Nestlé propone cerrar la brecha regulatoria global estableciendo protocolos únicos de detección de contaminantes. El artículo destaca que la transparencia y la colaboración proactiva con los reguladores son las nuevas claves para la sostenibilidad de la marca: en un mundo interconectado, un error local se convierte instantáneamente en una crisis global de confianza."},{"URL":"https://www.weforum.org/press/2026/01/new-report-calls-for-stronger-evidence-and-transparency-to-unlock-investment-in-women-s-health/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"INFORME / ORGANISMO INTERNACIONAL","CATEGORÍA":"PHARMA \u0026 SOCIEDAD","SUBCATEGORÍA":"Women\u0027s Health \u0026 Data Gap","INSIGHT":"Sin Datos no hay Paraíso (Financiero): El \"Pink Marketing\" ha muerto; viva la \"Pink Data\". El insight estratégico es la Rentabilidad de la Equidad de Datos: El reporte señala que la falta de transparencia y de datos clínicos desagregados por sexo es el tapón que impide la entrada de capital institucional. Los inversores quieren entrar en FemTech (menopausia, fertilidad, salud hormonal), pero perciben \"riesgo\" por la falta de evidencia histórica. Para desbloquear la inversión, las empresas deben tratar la salud femenina con el mismo rigor científico y transparencia de datos que la oncología o la cardiología.","RESUMEN":"El World Economic Forum publica un llamado urgente para fortalecer la evidencia y la transparencia en el ecosistema de salud de la mujer. El informe de Enero 2026 argumenta que cerrar la brecha de datos de género no solo mejora los resultados de salud, sino que es un imperativo económico. Propone nuevos estándares para la recolección de datos en ensayos clínicos y mayor transparencia en los resultados para demostrar el ROI (Retorno de Inversión). El objetivo es transformar la salud femenina de una \"causa social\" a una categoría de inversión de alto rendimiento basada en evidencia sólida."},{"URL":"https://www.linkedin.com/posts/lacoste_lacoste-teamlacoste-ugcPost-7425579026725044224-itk-?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / APERTURA EXPERIENCIAL","CATEGORÍA":"BRAND EXTENSION","SUBCATEGORÍA":"Fashion Hospitality \u0026 Social Currency","INSIGHT":"La \"Comestibilidad\" de la Marca: De llevar el logo a comerse el logo. El insight estratégico es la Frecuencia de Contacto: Un cliente compra un polo Lacoste una o dos veces al año, pero puede comprar un café o un pastel (\"The Iconic Polo\") una vez a la semana. Al crear un espacio gastronómico con el Grupo Giraudi, Lacoste aumenta la frecuencia de interacción y crea un \"Tercer Espacio\" donde la marca se vive, se huele y se saborea, generando contenido viral orgánico (el pastel diseñado para Instagram) que atrae tráfico a la flagship store situada a pocos pasos.","RESUMEN":"Lacoste inaugura su primer Café Lacoste en el corazón de París (Avenue Franklin Roosevelt), concebido como una extensión natural del universo de la marca. En alianza con el prestigioso Grupo Giraudi, el espacio ofrece una experiencia gastronómica \"all-day\" adaptada a los ritmos urbanos (in situ, take-away y delivery). La estrategia clave es la creación de productos firma como el \"Iconic Polo\", un postre diseñado específicamente para ser compartido y fotografiado, fusionando el estilo francés con la viralidad digital, y transformando el retail de moda en un destino de hospitalidad y estilo de vida."},{"URL":"https://www.linkedin.com/feed/update/urn:li:activity:7425628583668207618?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"VIDEO / PODCAST TÉCNICO","CATEGORÍA":"R\u0026D \u0026 REGULATORIO","SUBCATEGORÍA":"Science-Washing \u0026 Manufacturing Risks","INSIGHT":"La Deuda de Cumplimiento de la Viralidad: El marketing corre, la química camina. El insight estratégico es el Riesgo de la \"Cosmética de Cocina\": El auge de ingredientes \"ancestrales\" como el Beef Tallow (sebo de vaca) o fórmulas caseras crea marcas que son bombas de tiempo regulatorias (sin conservantes, rancias, sin GMP). Además, desmontan el hype de ingredientes virales como el PDRN (ADN de salmón) o el Colágeno Tópico, explicando que sus moléculas son demasiado grandes (500k Daltons) para penetrar la piel (límite 500 Daltons), haciendo que sus promesas de \"efecto inyectable\" sean, literalmente, ficción biológica.","RESUMEN":"Melory Johnson (Estratega) y Reignah Raegan (Consultora de I+D) analizan la brecha peligrosa entre las tendencias de TikTok y la realidad científica. Desglosan ingredientes específicos: 1) Beef Tallow: Riesgo alto de contaminación microbiana y oxidación; no es seguro sin conservantes industriales. 2) PDRN/Colágeno: Físicamente incapaces de penetrar la dermis; funcionan en clínica (inyección), no en crema. 3) Glutatión/Matcha: Inestables en fórmula; el \"skin lightening\" es un claim de medicamento ilegal en cosmética. La conclusión es una alerta a inversores: las marcas que nacen en una cocina sin GMP (Buenas Prácticas de Manufactura) no son escalables ni defendibles ante una crisis de seguridad."},{"URL":"https://www.linkedin.com/posts/albalabarca_observandolafarmacia-mostrador-visibilidad-activity-7422866166760583168-IUR0?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / ANÁLISIS RETAIL","CATEGORÍA":"TRADE MARKETING","SUBCATEGORÍA":"Point of Sale \u0026 Professional Support","INSIGHT":"El \"Visual Merchandising Clínico\": El mostrador no admite ruido, admite ayuda. El insight estratégico es la Herramienta de Conversación: Las marcas de dispensación (como los jarabes Bronchotos) están entrando en el espacio visual del mostrador, pero no con promociones agresivas (precio), sino con materiales educativos compactos. El objetivo no es la venta por impulso (autoservicio), sino guiar la entrevista clínica. Si el expositor ayuda al farmacéutico a diferenciar síntomas y recomendar mejor, se gana el derecho a estar en la zona más caliente de la farmacia. Es marketing al servicio de la autoridad sanitaria.","RESUMEN":"Alba Labarca analiza un caso de éxito de Perrigo con su marca de jarabes. Destaca cómo la visibilidad en farmacia está evolucionando: las categorías que tradicionalmente vivían ocultas en la cajonera (detrás del mostrador) ahora reclaman su espacio sobre el mostrador. La clave del éxito es el diseño: compacto, sin precios agresivos y enfocado en diferenciar necesidades del paciente. Esto respeta el rol del profesional y evita que el mostrador se convierta en un mercadillo, validando que la visibilidad bien entendida no es ruido, es una herramienta de consejo."},{"URL":"https://sapo.pt/artigo/tratamentos-oncologicos-e-pele-o-impacto-e-profundo-uma-pele-que-doi-afeta-a-mobilidade-e-a-autoestima-698362fe7315c058013521ac","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / SALUD \u0026 BIENESTAR","CATEGORÍA":"PHARMA \u0026 SOCIEDAD","SUBCATEGORÍA":"Oncología Estética \u0026 Salud Mental","INSIGHT":"La Piel que Duele: Cuando la estética se vuelve clínica. El insight estratégico es la Psicodermatología Funcional: El artículo destaca que los efectos secundarios cutáneos de la quimio/radioterapia (xerosis extrema, grietas, síndrome mano-pie) no son solo un problema visual, sino físico: \"una piel que duele limita la movilidad\". Esto eleva la categoría de cuidado de la piel de \"cosmética\" a \"soporte terapéutico esencial\". Para el paciente, mantener la integridad de la piel es vital para no interrumpir el tratamiento médico y para preservar su identidad frente al \"rostro de enfermo\".","RESUMEN":"SAPO Lifestyle publica un reportaje sobre el impacto profundo de los tratamientos oncológicos en la piel de los pacientes. Más allá de la caída del cabello, se abordan problemas como la sequedad extrema, la hipersensibilidad y el dolor físico que afectan la calidad de vida diaria (como caminar o sujetar objetos). Expertos subrayan que el cuidado dermocosmético preventivo (hidratación con pH neutro, fotoprotección extrema, fórmulas sin alcohol) no es opcional, sino una parte crítica del éxito del tratamiento oncológico, ya que mejora la adherencia del paciente y su resiliencia psicológica (autoestima)."},{"URL":"https://www.consalud.es/salud35/internacional/trump-lanza-trumprx-una-web-para-comprar-medicamentos-con-descuentos-en-eeuu.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / POLÍTICA SANITARIA","CATEGORÍA":"PHARMA BUSINESS","SUBCATEGORÍA":"Disrupción de Precios \u0026 DTC","INSIGHT":"La Salud como \"Voto\": El precio del fármaco se politiza al extremo. El insight estratégico es la Comoditización Populista: TrumpRx ataca directamente a los intermediarios (PBMs) ofreciendo descuentos agresivos en genéricos. Esto valida el modelo de Mark Cuban (Cost Plus Drugs) pero con una potencia mediática presidencial. Para la industria, esto significa una Guerra de Precios Total en genéricos: el margen se evapora y el valor de la farmacia física debe migrar obligatoriamente a servicios (vacunación, clínica, consejo), porque la dispensación pura de la pastilla se está convirtiendo en una commodity digital de bajo coste.","RESUMEN":"Donald Trump lanza TrumpRx, una plataforma web diseñada para ofrecer medicamentos con grandes descuentos a los ciudadanos estadounidenses, compitiendo directamente con gigantes como GoodRx o Amazon Pharmacy. La iniciativa busca capitalizar el descontento popular con los precios inflados de la sanidad en EE.UU., eliminando intermediarios para ofrecer genéricos a coste de fabricación más un margen mínimo. Este movimiento presiona a las cadenas de farmacias tradicionales (CVS, Walgreens), que ven amenazado su tráfico de mostrador por una alternativa digital que combina agresividad de precios con una marca política polarizante pero masiva."},{"URL":"https://www.linkedin.com/posts/pharmacydesign_sartorettoverna-pharmacybusinessarchitects-activity-7424540359004909569-Mxd0?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / ANÁLISIS LEGISLATIVO","CATEGORÍA":"RETAIL FARMACÉUTICO","SUBCATEGORÍA":"Legislación \u0026 Diseño de Espacios","INSIGHT":"El Fin del \"Vendedor de Cajas\": La ley obliga a cambiar el mueble. El insight estratégico es la Infraestructura Sanitaria: Con la Critical Medicines Act y los fondos estructurales de 2026, la farmacia recibe dinero público para ser un centro clínico (telemedicina, adherencia), no una tienda. Sartoretto advierte: si tu diseño físico sigue priorizando el mostrador de venta sobre la cabina de consulta, estás operando contra la dirección de los fondos europeos. Competir por precio (descuento 10%) es suicida contra Amazon; la única vía es ser el \"Hub de Prevención\" que interpreta la IA para el paciente.","RESUMEN":"Luca Sartoretto Verna conecta el diseño de farmacias con el marco legal de Enero 2026. Identifica que las nuevas leyes europeas e italianas transforman la farmacia en una infraestructura de seguridad nacional. Critica duramente el modelo de \"farmacéutico atrincherado\" tras el mostrador, argumentando que es incompatible con los nuevos servicios financiados (telemedicina, cronicidad). Propone un modelo de negocio basado en espacios de consulta privada y gestión de datos de salud a largo plazo, abandonando la guerra de precios del retail masivo."},{"URL":"https://www.globalcosmeticsnews.com/cosnova-accelerates-global-growth-with-strong-brand-momentum-and-skincare-expansion/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / RESULTADOS EMPRESARIALES","CATEGORÍA":"MASS MARKET","SUBCATEGORÍA":"Skincare Expansion \u0026 Gen Z","INSIGHT":"El \"Efecto Rímel\" Recargado: El bajo coste ya no es \"cutre\", es inteligente. El insight estratégico es la Sofisticación del \"Low Cost\": Cosnova reporta un crecimiento global acelerado no solo por vender maquillaje barato, sino por entrar en Skincare. Esto es peligroso para las marcas tradicionales de farmacia y masstige: si una adolescente puede comprar un serum de essence efectivo y viral por 6€, ¿por qué gastaría 30€ en una marca heredada? Cosnova está capturando a la Gen Alfa y Z con velocidad, precios de entrada imbatibles y ahora, rutinas completas de piel.","RESUMEN":"Cosnova Beauty (dueña de essence y Catrice) anuncia una aceleración significativa en su crecimiento global para el año fiscal. El éxito se atribuye al fuerte momentum de sus marcas en redes sociales (TikTok virality) y, crucialmente, a su exitosa expansión en la categoría de Cuidado de la Piel. La compañía está demostrando que su modelo de negocio de \"fast beauty\" (alta velocidad de lanzamiento, precios bajos, distribución masiva) es perfectamente escalable al skincare, robando cuota de mercado a competidores establecidos en Europa y expandiendo su huella digital y física."},{"URL":"https://www.linkedin.com/posts/luigicorvi_farmacia-farmaciaeuropea-marginalitaeq-activity-7425060871669882880-iWKH?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"DATOS DE MERCADO \u0026 ANÁLISIS ESTRATÉGICO","CATEGORÍA":"RETAIL FARMACÉUTICO","SUBCATEGORÍA":"Rentabilidad \u0026 Mix de Ventas","INSIGHT":"La \"Trampa del Volumen\": Crecer en ventas no es ganar dinero. El insight estratégico es la Erosión del Margen Pasivo: Los datos de GERSDATA muestran que el crecimiento del mercado farmacéutico francés (+4,7%) está liderado por Prescripción Obligatoria (#1) y Vacunas (#2, con un brutal +73,7%). Estas son ventas \"sufridas\" (guiadas por el médico/estado), no generadas por la farmacia, y suelen tener márgenes regulados bajos. Corvi advierte que para sobrevivir, la farmacia no puede depender de este volumen; debe activar la venta de categorías de alto valor como Belleza (#3 en contribución, +7,6%) y Marca Propia, donde el farmacéutico controla el margen y fideliza al cliente.","RESUMEN":"Luigi Corvi (Presidente de Unifarco) utiliza los datos de cierre de 2025 en Francia para lanzar una advertencia a las farmacias de toda Europa (Italia, España, Alemania). Aunque los volúmenes suben impulsados por fármacos y la explosión de vacunas, la rentabilidad real está en riesgo si el mix de ventas no se gestiona activamente. La venta \"pasiva\" (receta) no construye futuro. La estrategia ganadora para proteger la marginalidad es potenciar el consejo profesional en categorías libres (como Dermocosmética e Higiene, que crecen saludablemente) e integrar marcas propias/exclusivas que no se pueden comprar en Amazon o supermercados, transformando al farmacéutico de despachador a prescriptor de salud y belleza."},{"URL":"https://www.linkedin.com/posts/meghan-mcmanamon_branding-trending-marketingstrategy-activity-7425600278474694656--rIz?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / BRAND ACTIVATION","CATEGORÍA":"MARKETING EXPERIENCIAL","SUBCATEGORÍA":"Contextual Marketing \u0026 Influencers","INSIGHT":"El Test de Tortura Glamouroso: El producto se vende por contexto, no por claim. El insight estratégico es la Validación Ambiental: Rhode lanza sus mascarillas Caffeine Reset y Peptide Lip Boost en Big Sky, Montana. ¿Por qué? Porque es un entorno frío y seco donde la piel sufre. Si el producto funciona allí, funciona en cualquier lado. Al integrar la marca en una experiencia de esquí de lujo (\"Rhode Grey\" en las gafas, tazas de chocolate), convierten la hidratación extrema en un estilo de vida aspiracional, reforzando la confianza sin necesidad de gritar beneficios técnicos.","RESUMEN":"Meghan McManamon analiza la activación de rhode skin en Big Sky, Montana. La marca de Hailey Bieber organizó una serie de experiencias (cenas, esquí, relax) para influencers y clientes en un entorno invernal extremo. La estrategia fue integrar los nuevos productos de hidratación de forma orgánica en el uso diario: las mascarillas y tratamientos labiales aparecían como herramientas esenciales para mantener la piel \"glowing\" frente al frío. La ejecución fue coherente, elevada e intencional, demostrando que el marketing más efectivo es aquel donde el producto es el héroe silencioso de una experiencia memorable."},{"URL":"https://www.linkedin.com/pulse/posizionamento-forte-farmacia-5-casi-italiani-che-sartoretto-verna-gsezf/?trackingId=bO4csa8OCr2xpNNruJGWHQ%3D%3D","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / CASOS DE ESTUDIO","CATEGORÍA":"RETAIL FARMACÉUTICO","SUBCATEGORÍA":"Diseño Estratégico \u0026 Posicionamiento","INSIGHT":"El Diseño como Estrategia de Negocio: No es decoración, es rentabilidad. El insight estratégico es la Diferenciación Radical: Frente a la homogeneización de las cadenas y la guerra de precios online, Sartoretto presenta 5 farmacias italianas que han logrado un \"Posicionamiento Fuerte\" mediante la especialización del espacio. Ya sea creando un \"Hub Clínico Premium\" (Farmacia Appio Latino) o un \"Centro de Identidad Local\" (Farmacia Valensise), la clave es que el entorno físico fuerce la interacción consultiva. Si el diseño elimina la barrera del mostrador tradicional, el ticket medio sube porque la venta se basa en la confianza, no en la petición del cliente.","RESUMEN":"Luca Sartoretto Verna desglosa 5 ejemplos de farmacias en Italia que han redefinido su modelo de negocio a través del diseño arquitectónico. Destacan casos como la Farmacia Appio Latino (Roma), que apostó por un posicionamiento premium con áreas de dermatología y nutrición separadas para huir de la guerra de precios; o la Farmacia Valensise (Calabria), que utilizó la identidad territorial para conectar emocionalmente con la comunidad. El artículo argumenta que el éxito en 2026 no depende de la ubicación, sino de tener una identidad tan clara que el cliente cruce la ciudad (o ignore a Amazon) para vivir la experiencia de cuidado que solo tu espacio físico puede ofrecer."},{"URL":"https://www.linkedin.com/pulse/higiene-oral-en-farmacia-una-categor%C3%ADa-madura-que-el-labarca-le%C3%B3n-ery7e/?trackingId=6tMcTIMN%2Bxbd8nEi4v%2FhmQ%3D%3D","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ANÁLISIS DE CATEGORÍA","CATEGORÍA":"RETAIL FARMACÉUTICO","SUBCATEGORÍA":"Gestión de Categoría \u0026 Consejo","INSIGHT":"Del \"Sabor\" a la \"Patología\": La farmacia no vende frescura, vende salud gingival. El insight estratégico es la Des-comoditización: Alba argumenta que la Higiene Oral es una \"categoría madura\" que a menudo se abandona al autoservicio y la guerra de precios. Sin embargo, el paciente de farmacia suele tener problemas específicos (sangrado, sensibilidad, boca seca por medicación). La oportunidad está en elevar la conversación: pasar de \"¿qué sabor quiere?\" a \"¿toma alguna medicación que le seque la boca?\". Esto transforma un tubo de pasta de 3€ en un tratamiento de 12€, blindando la venta contra el supermercado.","RESUMEN":"Alba Labarca analiza la categoría de Higiene Oral, a menudo considerada \"aburrida\" o estancada en la farmacia. Defiende que, lejos de ser un commodity, es una puerta de entrada clave para la fidelización si se gestiona desde la patología y no desde el precio. Propone activar la categoría mediante la venta cruzada (ej. recomendar cepillos específicos al dispensar antibióticos o tratamientos oncológicos) y la visibilidad educativa en el lineal, recordando al cliente que la salud bucal es sistémica. La farmacia debe reivindicar su rol experto en encías y mucosas, un territorio que el gran consumo no puede ocupar con credibilidad."},{"URL":"https://www.businesswire.com/news/home/20260204885957/en/Clinique-Announces-Visionary-Collaboration-with-ACUVUE-to-Advance-Eye-Education-in-Beauty-and-Vision","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTA DE PRENSA / ALIANZA ESTRATÉGICA","CATEGORÍA":"CROSS-INDUSTRY","SUBCATEGORÍA":"Health-Beauty \u0026 Safety Standards","INSIGHT":"La \"Belleza Compatible\": El maquillaje busca el aval del dispositivo médico. El insight estratégico es la Certificación Cruzada: Millones de usuarios de lentes de contacto (ACUVUE) sufren irritación por maquillaje (Clinique). Al unirse, Clinique no solo vende máscaras de pestañas; vende \"Seguridad Ocular Garantizada\". Esto crea un nuevo estándar: ya no basta con poner \"testado oftalmológicamente\" en la caja; ahora necesitas al fabricante de la lente de contacto a tu lado para demostrarlo. Es la respuesta perfecta a la \"Cosmética de Cocina\" insegura: Ciencia Clínica vs. Mezclas Caseras.","RESUMEN":"Clinique y ACUVUE anuncian una colaboración pionera para educar a los consumidores sobre la intersección entre belleza y salud ocular. La iniciativa se centra en prácticas seguras de aplicación y desmaquillado para usuarios de lentes de contacto, un segmento masivo a menudo ignorado. Clinique valida sus fórmulas (como la máscara High Impact) bajo la supervisión científica de ACUVUE, posicionándose como la marca de referencia para \"ojos sensibles\". Esta alianza fusiona la industria cosmética con la farmacéutica/óptica, creando una barrera de entrada basada en la seguridad clínica rigurosa."},{"URL":"https://www.consalud.es/salud35/nacional/asisa-eleva-un-73-la-retribucion-de-sus-medicos-para-2026.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / SEGUROS DE SALUD","CATEGORÍA":"HEALTHCARE ECONOMICS","SUBCATEGORÍA":"Retención de Talento \u0026 Inflación","INSIGHT":"La Revalorización de la Bata Blanca: El consejo experto cuesta dinero. El insight estratégico es la Inflación del Servicio Clínico: Asisa incrementa un 7,3% la retribución a sus profesionales para garantizar la calidad del cuadro médico y evitar la fuga de talento hacia la sanidad pública u otros competidores. Esto confirma que en 2026 el acceso al médico se vuelve más costoso. Para el ecosistema de salud, esto abre una oportunidad gigante para la Farmacia de Servicios: si ver al especialista es más caro o lento, el farmacéutico se convierte en el sanitario accesible de primera línea para consultas menores (tos, piel, nutrición).","RESUMEN":"Asisa anuncia una actualización de sus baremos médicos con un incremento medio del 7,3% para el ejercicio 2026, buscando sostener la calidad asistencial y responder a la inflación del sector sanitario. Este movimiento refleja la tensión en el mercado laboral médico: hay escasez de profesionales y las aseguradoras deben pagar más para retenerlos. Esto presiona los márgenes de las compañías de seguros y, en última instancia, elevará las primas para los asegurados, revalorizando el papel de los servicios sanitarios alternativos y la prevención"},{"URL":"https://www.linkedin.com/posts/monicalizondo_dermofarmacia-cienciacosmaeztica-formulaciaejndermocosmaeztica-activity-7425558686175031297-NuVH?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"LANZAMIENTO DE PRODUCTO / CIENCIA","CATEGORÍA":"DERMOFARMACIA","SUBCATEGORÍA":"Biotech \u0026 Barrier Function","INSIGHT":"La \"Lipificación\" Científica: El bálsamo deja de ser cera para ser tratamiento. El insight estratégico es la Restauración de Barrera: Mónica Lizondo ataca el problema estacional (invierno) no como \"sequedad\", sino como \"pérdida de función barrera\" por falta de ceramidas endógenas. Al formular con Munapsis (péptido tipo bótox), ceramidas y ácido hialurónico en aceite, eleva el producto de \"cacao\" a \"dispositivo dermocosmético antiedad\". Esto permite a la farmacia vender un labial a un precio premium, diferenciándose del supermercado.","RESUMEN":"Mónica Lizondo (CEO de SEGLE) presenta la gama Lip Balm Repair con un enfoque puramente farmacéutico. Explica que la vulnerabilidad labial en invierno se debe a la ausencia de glándulas sebáceas y sudoríparas. La solución no es solo oclusiva (manteca de karité), sino biotecnológica: usa péptidos para arrugas de expresión y Centella asiatica para regeneración. Visualmente, el producto se presenta en la nieve, compitiendo estéticamente con las marcas de moda, pero ganando en el argumento técnico."},{"URL":"https://www.linkedin.com/posts/iv%C3%A1n-estuardo-herrera-leal-12b49187_el-fin-del-visitador-m%C3%A9dico-no-activity-7424520228295942144-er33?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"POST LINKEDIN / ESTRATEGIA COMERCIAL","CATEGORÍA":"PHARMA MARKETING","SUBCATEGORÍA":"Sales Force Effectiveness \u0026 O2O","INSIGHT":"El Visitador como \"Algoritmo Humano\": De generar recetas a cerrar ventas. El insight estratégico es la Gestión del Sell-Out: Herrera Leal argumenta que el modelo tradicional de visita médica ha muerto. En 2026, el éxito se basa en 4 pilares O2O (Offline-to-Online): 1) Receta Digital sin fricción (del consultorio al WhatsApp/App, como hace Sanofi). 2) Analítica Predictiva (usar datos de IQVIA para evitar quiebres de stock, como Bayer reduciendo faltantes del 25% al 2%). 3) Geomarketing (dominar el punto de venta en zonas calientes, estilo Genomma Lab). 4) Protección del EBITDA (automatización para reducir devoluciones). El visitador se transforma en un gerente de territorio que asegura que la receta se convierta en dinero en caja.","RESUMEN":"Iván Estuardo Herrera Leal desmantela el mito de la desaparición del visitador médico, proponiendo su renacimiento como un estratega omnicanal. Cita ejemplos concretos de Bayer, Sanofi, Medix y Teva para ilustrar cómo la tecnología no es estética, sino una herramienta de rentabilidad. El foco se desplaza de la \"influencia\" pura a la \"conversión logística\": asegurar que el paciente encuentre el producto (Perfect Store) y pueda comprarlo sin barreras (WhatsApp/E-commerce). En un entorno de márgenes apretados, la eficiencia operativa (EBITDA) es la nueva métrica de éxito para la fuerza de ventas."},{"URL":"https://www.consalud.es/salud35/internacional/gsk-y-tres-universidades-britanicas-lanzan-un-nuevo-programa-de-doctorado-para-impulsar-la-i-d-farmaceutica.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / EDUCACIÓN \u0026 I+D","CATEGORÍA":"PHARMA TALENT","SUBCATEGORÍA":"Industry-Academia Partnership","INSIGHT":"La Fábrica de Cerebros: La innovación no se improvisa, se cultiva. El insight estratégico es el Diseño de Talento a Medida: GSK no espera a que los doctorados salgan de la universidad; se asocia con ellas para co-crear un programa de doctorado que forme exactamente a los científicos que la industria necesita (en IA, biotecnología y datos). Esto asegura una cantera de talento alineada con las necesidades reales del mercado, cerrando la brecha entre la teoría académica y la práctica industrial, y blindando su I+D contra la escasez de perfiles cualificados.","RESUMEN":"GSK se une a la Universidad de Strathclyde, la Universidad de Nottingham y el University College de Londres (UCL) para lanzar un nuevo programa de doctorado colaborativo. El objetivo es impulsar la I+D farmacéutica mediante la formación de una nueva generación de científicos equipados con las habilidades técnicas y estratégicas que demanda el sector actual. Esta alianza busca acelerar el descubrimiento de fármacos y asegurar que el Reino Unido siga siendo un hub de ciencias de la vida, demostrando que la competitividad futura depende de la integración profunda entre la empresa privada y la educación superior."},{"URL":"https://www.linkedin.com/posts/galderma-_cetaphilrun-cetaphilrun-cetaphilmexico-ugcPost-7419807017478799360-IIQu?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2025","MES":"DICIEMBRE","TIPO DE FUENTE":"EVENTO DE MARCA / BRAND ACTIVATION","CATEGORÍA":"EXPERIENTIAL MARKETING","SUBCATEGORÍA":"Community Building \u0026 Wellness","INSIGHT":"El \"Sudor\" como Activo de Marca: De la estantería a la pista. El insight estratégico es la Validación Comunitaria: Cetaphil logra un Sold Out con 5.000 corredores en Chapultepec. Esto transforma un producto dermatológico funcional (para piel sensible) en una \"Love Brand\" de alto rendimiento. Al asociar la marca con el running (salud activa), se alejan de la imagen clínica/aburrida y conectan con la energía vital del consumidor. Es la prueba de que el mass market también puede generar experiencias de culto, no solo el lujo.","RESUMEN":"Cetaphil México cierra 2025 con un éxito rotundo en su carrera #CetaphilRun en el Bosque de Chapultepec. Con 5.000 corredores y un impacto directo en 8.000 personas, el evento reafirma que la salud es el eje central de su comunidad (\"CetaLovers\"). La marca utiliza este evento masivo para proyectar una imagen de vitalidad y conexión emocional, preparando el terreno para un 2026 con \"más flow\", demostrando que la fidelización hoy se construye sudando la camiseta junto al cliente."},{"URL":"https://www.coldchainplatform.com/news/2026/feb/hanmi-secures-export-deal-with-mexican-partner-sanfer-for-glp1-obesity-drug-and-more.php","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / LOGÍSTICA \u0026 FARMA","CATEGORÍA":"PHARMA BUSINESS","SUBCATEGORÍA":"International Trade \u0026 Metabolic Health","INSIGHT":"La Democratización del GLP-1 en LATAM: La obesidad es el nuevo mercado masivo global. El insight estratégico es la Alianza Táctica Sur-Sur: Hanmi (Corea) evita la saturación de EE.UU. y ataca México, un país con una tasa de obesidad del 36%, aliándose con Sanfer (líder local). No intentan vender directo; usan la infraestructura de Sanfer para la \"última milla\" regulatoria y comercial. Esto confirma que el tratamiento de la obesidad es el próximo gran motor de la logística farmacéutica (cadena de frío) y de la facturación en farmacias de LATAM.","RESUMEN":"Hanmi Pharmaceutical firma un acuerdo exclusivo con Laboratorios Sanfer para distribuir Efpeglenatide (su fármaco GLP-1 para obesidad y diabetes) en México. La alianza aprovecha la capacidad comercial de Sanfer para navegar la regulación mexicana y llegar a millones de pacientes. El acuerdo subraya la importancia crítica de la Cadena de Frío para estos biológicos y posiciona a México como un campo de batalla clave para la industria farmacéutica asiática que busca expansión fuera de sus fronteras tradicionales."},{"URL":"https://www.democrata.es/democrata-pro/seguimiento-periodistico-legislativo/laboratorios-aumentan-40-su-inversion-en-i-d-en-ultimos-cinco-anos-lustro/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO / ECONOMÍA \u0026 POLÍTICA","CATEGORÍA":"PHARMA ECONOMICS","SUBCATEGORÍA":"R\u0026D Investment \u0026 Innovation","INSIGHT":"La \"Muralla de Patentes\": Innovar para no morir a manos del genérico. El insight estratégico es el Refugio Tecnológico: Ante la amenaza de la comoditización (fármacos baratos impulsados por la política), los laboratorios han disparado su inversión en I+D un 40% en el último lustro. El objetivo es crear moléculas complejas (biológicos, terapias génicas) que sean difíciles de copiar y que justifiquen precios altos. Esto confirma que el sector se está alejando del \"marketing de pastillas\" para centrarse en la \"ingeniería de salud\" de alto valor añadido.","RESUMEN":"Demócrata reporta que la industria farmacéutica ha incrementado su inversión en Investigación y Desarrollo (I+D) en un 40% durante los últimos cinco años. Este dato macroeconómico refleja una estrategia defensiva y ofensiva a la vez: defensiva frente a la expiración de patentes antiguas, y ofensiva para liderar las nuevas categorías terapéuticas (como la obesidad o la oncología personalizada). Este flujo de capital garantiza que la tendencia de \"medicalización\" del mercado seguirá acelerándose, ya que las empresas necesitan rentabilizar esta inversión gigantesca con productos de eficacia superior."},{"URL":"https://cosmeticsbusiness.com/cosmetics-business-reveals-the-top-5-beauty-hotspots","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"INFORME DE TENDENCIAS","CATEGORÍA":"GEOPOLÍTICA DE MERCADO","SUBCATEGORÍA":"Emerging Markets \u0026 Export Hubs","INSIGHT":"El Nuevo Eje del Poder: Occidente pierde el monopolio de la tendencia. El insight estratégico es la Especialización Climática y Cultural: El informe identifica 5 regiones que dictarán las normas globales en 2026:1. Corea (K-Beauty): Ya no es solo piel; exporta $11.4bn y lidera en cuidado del cabello y ciencia avanzada, superando a Francia en exportaciones a EE.UU..2. India (I-Beauty): Impulsada por la Gen Z tecnológica y la ciencia climática (soluciones para calor/humedad).3. Oriente Medio (A-Beauty): El \"Oud\" y el maquillaje dramático se globalizan como el nuevo estándar de lujo y ritual.4. Escandinavia (S-Beauty): Minimalismo funcional para climas fríos (conecta con Rhode/Segle).5. Taiwán (T-Beauty): La \"Precisión Técnica\" en máscaras faciales y cuidado del cuero cabelludo.","RESUMEN":"Cosmetics Business revela las 5 regiones \"calientes\" para 2026. Destaca que la A-Beauty (Árabe) es la \"sucesora espiritual\" de la K-Beauty, pasando de la estética local a influir en ingredientes y texturas globales. India se consolida por su ciencia adaptada al clima y su base de consumidores jóvenes. Corea evoluciona hacia una madurez exportadora masiva, y Taiwán emerge como el hub de la \"dermocosmética técnica\" y el cuidado del cuero cabelludo. Finalmente, Escandinavia ofrece soluciones de barrera para climas extremos, cerrando el círculo de la protección ambiental."},{"URL":"https://cosmeticsbusiness.com/the-body-shop-brings-back-iconic-1990s-scent-dewberry","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / LANZAMIENTO RETRO","CATEGORÍA":"CONSUMER PSYCHOLOGY","SUBCATEGORÍA":"Nostalgia Marketing \u0026 Heritage","INSIGHT":"El \"Refugio Olfativo\": Cuando el futuro asusta, el pasado vende. El insight estratégico es la Monetización de la Memoria: The Body Shop recupera su aroma icónico de los 90, \"Dewberry\". Esto no es innovación de producto, es Gestión de Activos Emocionales. Ataca a dos frentes: al consumidor original (Gen X/Millennial) que busca confort, y a la Gen Z que fetichiza la estética de los 90 (Y2K). Es una estrategia de bajo coste y alto impacto emocional para recuperar relevancia cultural sin necesidad de I+D complejo.","RESUMEN":"The Body Shop anuncia el relanzamiento de Dewberry, su fragancia más icónica de la década de 1990. La marca capitaliza la tendencia masiva de la nostalgia y la estética retro que domina TikTok, recuperando un perfil olfativo frutal y dulce que define a una generación. Este movimiento busca reactivar el tráfico en tienda apelando a la memoria sensorial de sus clientes leales y ofreciendo una \"pieza de historia\" a los nuevos consumidores, posicionando la fragancia como un \"clásico de culto\" accesible en medio de un mercado saturado de novedades efímeras."},{"URL":"https://www.industriacosmetica.net/packaging-innovations-empack-2026-la-inteligencia-artificial-generativa-transformara--uTNRE","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / TECNOLOGÍA INDUSTRIAL","CATEGORÍA":"OPERACIONES \u0026 SUPPLY CHAIN","SUBCATEGORÍA":"Generative AI Design \u0026 Sustainability","INSIGHT":"El \"Diseñador Infinito\": La personalización masiva a coste cero. El insight estratégico es la Hiper-Agilidad Estructural: La feria Packaging Innovations \u0026 Empack 2026 confirma que la IA Generativa (GenAI) deja de ser una curiosidad para ser el estándar industrial. Permite generar diseños estructurales y gráficos optimizados para sostenibilidad (menos plástico, más resistencia) en tiempo real. Esto democratiza el diseño de alto nivel: una marca indie ahora puede tener un packaging tan sofisticado como Estée Lauder sin pagar agencias millonarias, nivelando el campo de juego visual en el lineal.","RESUMEN":"Industria Cosmética anticipa que la edición 2026 de Packaging Innovations \u0026 Empack estará dominada por la IA Generativa. La tecnología transformará el proceso creativo, permitiendo a las marcas visualizar conceptos, adaptar materiales a nuevas regulaciones (como las normas de la UE sobre residuos) y personalizar experiencias para el consumidor a una velocidad sin precedentes. Se destaca que la IA no sustituye al diseñador, sino que elimina el \"bloqueo creativo\" y la fricción técnica, permitiendo iterar soluciones sostenibles y atractivas al ritmo que marca TikTok."},{"URL":"https://www.fmlogistic.es/publicacion/la-vida-en-juego-cadenas-de-suministro-farmaceuticas-bajo-presion-los-nuevos-caminos-a-seguir/?utm_source=sociabbleapp\u0026utm_medium=social\u0026utm_campaign=none\u0026utm_term=LBFHUKBUpvCY\u0026socid=LBFHUKBUpvCY","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"WHITEPAPER / LOGÍSTICA","CATEGORÍA":"SUPPLY CHAIN","SUBCATEGORÍA":"Cold Chain \u0026 Geopolitics","INSIGHT":"Logística de Precisión o Muerte: El camión es tan vital como la molécula. El insight estratégico es la Resiliencia Tecnológica: FM Logistic declara que la cadena de suministro tradicional está rota por tensiones geopolíticas y la complejidad de los nuevos fármacos (medicina personalizada). La solución no es \"correr más\", sino invertir en IA, Blockchain y Cadena de Frío Avanzada. Esto transforma la logística de un \"centro de costes\" a una \"ventaja competitiva\". Si controlas el frío y el dato, controlas el mercado de salud.","RESUMEN":"FM Logistic publica \"La vida en juego\", un informe sobre la urgencia de rediseñar la logística farmacéutica. Identifica fuerzas disruptivas como el riesgo geopolítico (aranceles/guerras) y la falsificación de medicamentos. Propone un nuevo modelo basado en la agilidad y la sostenibilidad, donde tecnologías como el Blockchain (para trazabilidad) y la IA (para predicción de demanda) son obligatorias, no opcionales. Destaca que el auge de la medicina personalizada exige una \"micrologística\" de frío extremo que pocos operadores pueden ofrecer, creando un cuello de botella estratégico para los laboratorios innovadores."},{"URL":"https://cosmeticsbusiness.com/clinique-partners-with-crayola-on-chubby-sticks-campaign","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / CAMPAÑA DE MARKETING","CATEGORÍA":"CONSUMER PSYCHOLOGY","SUBCATEGORÍA":"Kidult Trend \u0026 Nostalgia","INSIGHT":"La Estrategia Híbrida (Safety + Play): Ser serio en la fórmula, divertido en el uso. El insight estratégico es la Bifurcación Emocional: Clinique recupera su franquicia de 2017 con Crayola para atacar la tendencia \"Kidult\" (adultos que juegan). Mientras marcas como Cosnova dominan el \"juego barato\", Clinique ofrece \"juego seguro\". Al pintar los labios como si fueran crayones, eliminan la intimidación del maquillaje perfecto (\"Instagram Face\") y validan la imperfección creativa, conectando con una Gen Z agotada de la estética rígida.","RESUMEN":"Clinique relanza su icónica franquicia Chubby Sticks en asociación con Crayola en el Reino Unido e Irlanda. La campaña reposiciona el maquillaje no como una herramienta de perfeccionamiento, sino de \"expresión creativa sin errores\", capitalizando la nostalgia de los Millennials y la sed de autenticidad de la Gen Z. Con tonos llamados Razzmatazz y Mango Tango, la marca busca \"humanizar\" su imagen clínica, demostrando que una marca de bata blanca también puede ser colorida y emocionalmente resonante."},{"URL":"https://beautyleaderssummit.com/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"EVENTO B2B / CONFERENCIA","CATEGORÍA":"INDUSTRIA GLOBAL","SUBCATEGORÍA":"K-Beauty 2.0 \u0026 Innovation Strategy","INSIGHT":"La \"Coreanización\" Estructural: Si no puedes vencerlos, aprende su sistema operativo. El insight estratégico es la Adopción de Procesos: El taller de Florence Bernardin (Asia Cosme Lab) no trata sobre \"modas pasajeras\", sino sobre cómo la K-Beauty ha \"reconectado\" (rewired) la industria. El enfoque está en la K-Beauty 2.0: ir más allá de la baba de caracol para entender la velocidad de I+D, la sofisticación de ingredientes y cómo las marcas occidentales deben integrar estas metodologías en sus propios pipelines para no quedarse obsoletas frente a competidores como Hanmi o Cosnova.","RESUMEN":"El Beauty Leaders Summit 2026 (París) anuncia el regreso de Florence Bernardin para impartir un taller profundo sobre \"K-Beauty: Influencia Global y Futuras Innovaciones\". \"Por demanda popular\", la sesión se centrará en desglosar la próxima ola de innovación en formulación y analizar cómo las marcas occidentales están adoptando estrategias coreanas. Esto subraya que para los directivos de producto y estrategia global, entender Corea es un requisito de supervivencia competitiva, no una opción de nicho."},{"URL":"https://www.linkedin.com/posts/pharmacydesign_farmacia-farmacista-farmaciadeiservizi-activity-7418598779664154624-DkQw?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ANÁLISIS DE DATOS \u0026 VISUAL","CATEGORÍA":"RETAIL \u0026 CONSUMIDOR","SUBCATEGORÍA":"Servicios Clínicos \u0026 Branding","INSIGHT":"La Revolución Silenciosa es Rentable: Los datos matan al mostrador tradicional. El insight estratégico es la Metamorfosis Estructural: 1. Italia (Servicios): El gráfico muestra una explosión del +337% en Screenings (2018-2024). La farmacia ya no vende cajas, vende diagnósticos. El diseño físico debe tener cabinas privadas. 2. Francia (Ventas): GERSDATA confirma que lo que más crece son Vacunas (+73,7%) y Belleza (+7,6%). Si tu farmacia no tiene zona de inyectables ni beauty bar, te estás perdiendo el 80% del crecimiento del mercado.3. El Duelo Visual: Rhode (Nieve Lujo) vs. SEGLE (Nieve Ciencia). La misma estacionalidad, dos clientes distintos.","RESUMEN":"Luca Sartoretto Verna presenta la \"Revolución Silenciosa\" de la farmacia italiana, respaldada por datos contundentes: la telecardiología ya está en 3 de cada 4 farmacias y el screening preventivo se ha triplicado. Esto valida que el rol del farmacéutico ha cambiado de \"dispensador\" a \"sanitario de primera línea\". Paralelamente, los datos de GERSDATA muestran que el motor económico son los servicios (vacunas) y la dermocosmética. Visualmente, contrasta cómo Rhode vende \"estilo de vida\" en la nieve, mientras SEGLE vende \"reparación biotecnológica\" en el mismo contexto, definiendo los dos polos de atracción del consumidor 2026."},{"URL":"https://cosmeticsbusiness.com/sephora-enters-strategic-partnership-with-olive-young","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / RETAIL ESTRATÉGICO","CATEGORÍA":"RETAIL GLOBAL","SUBCATEGORÍA":"Cross-Border Partnerships \u0026 Market Entry","INSIGHT":"Si no puedes vencer al Rey, únete a él: El fin de la colonización retail. El insight estratégico es la Simbiosis de Acceso: Tras retirarse operativamente de Corea, Sephora firma un acuerdo histórico con Olive Young (que tiene +1.300 tiendas y domina el mercado). Sephora obtiene un \"oleoducto\" directo de innovación K-Beauty (validando el taller de París) para sus estanterías globales. Olive Young gana el prestigio de marcas de lujo occidentales que solo Sephora controla. Es el reconocimiento definitivo de que Corea es un ecosistema cerrado donde solo se entra con invitación local.","RESUMEN":"Sephora y CJ Olive Young anuncian una asociación estratégica para intercambiar marcas exclusivas y conocimiento de mercado. El acuerdo permite a Sephora introducir marcas propiedad de LVMH y exclusivas globales (como Fenty Skin o Rare Beauty) en la inmensa red de distribución de Olive Young en Corea. A cambio, Olive Young proporciona a Sephora acceso prioritario a marcas emergentes de K-Beauty (como Torriden o Ma:nyo) para su distribución en EE.UU. y Europa. Esta alianza crea un \"puente de tendencias\" bidireccional que acelera la velocidad de mercado para ambos gigantes."},{"URL":"https://www.consalud.es/salud35/internacional/sante-ventures-cierra-su-fondo-v-con-330-millones-de-dolares-y-anuncia-nuevos-nombramientos-directivos.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA / INVERSIÓN","CATEGORÍA":"VENTURE CAPITAL","SUBCATEGORÍA":"Early-Stage Healthcare \u0026 Biotech","INSIGHT":"La Apuesta por lo Invisible: Financiar lo que aún no es obvio. El insight estratégico es el Capital de Riesgo Especializado: Sante Ventures levanta $330M no para comprar empresas consolidadas, sino para crear nuevas compañías en fases tempranas (early-stage). Esto indica que el \"Smart Money\" ve oportunidades gigantes en nichos médicos y tecnológicos que los grandes laboratorios aún no están cubriendo. Es el dinero que financiará la próxima generación de Veradermics o soluciones de IA para la farmacia de Sartoretto.","RESUMEN":"Sante Ventures, una firma de capital riesgo especializada en salud y ciencias de la vida, anuncia el cierre exitoso de su Fondo V con $330 millones de capital comprometido. El fondo se centrará en construir y financiar una cartera de más de 20 empresas en etapas iniciales (biotech, medtech, healthtech). Además, refuerzan su equipo directivo para gestionar esta nueva etapa de inversión agresiva, buscando innovaciones radicales que resuelvan problemas clínicos no atendidos, más allá de la simple mejora incremental de fármacos existentes."},{"URL":"https://www.linkedin.com/posts/mac-cosmetics_our-newest-global-brand-ambassador-ella-is-ugcPost-7420526026113400832-iS8H?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"CAMPAÑA GLOBAL / EMBAJADORA","CATEGORÍA":"MARKETING DE INFLUENCIA","SUBCATEGORÍA":"K-Pop Phenomenon \u0026 Gen Z","INSIGHT":"El Efecto \"Little Jennie\": Occidente compra la cara de Oriente. El insight estratégico es la Validación K-Cultural: M·A·C, históricamente conocida por el maquillaje artístico y denso, lanza su campaña \"I Only Wear M·A·C\" con Ella. Promocionan el Powder Kiss Lip + Cheek Mousse, un producto híbrido y suave. Esto confirma que la tendencia global ya no es el \"contouring\" americano, sino el acabado \"nube/difuminado\" coreano. M·A·C intenta desesperadamente capturar a la Gen Alfa/Z copiando los códigos visuales de Seúl y Shanghái.","RESUMEN":"M·A·C Cosmetics anuncia a Ella (miembro del fenómeno K-Pop MEOVV) como su nueva Embajadora Global. La campaña, lanzada simultáneamente en Seúl y Shanghái, se aleja de la estética agresiva tradicional de la marca para abrazar un estilo \"sutil y fresco\" (subtle yet fresh). El producto foco es una mousse para labios y mejillas, validando la tendencia de productos multifuncionales y de texturas suaves que dominan el mercado asiático. Es un intento directo de rejuvenecer la marca para competir con competidores indie como Rhode o las marcas de Olive Young."},{"URL":"https://cosmeticsbusiness.com/malin-goetz-uk-stores-closed-administration-70-jobs-lost","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA / QUIEBRA RETAIL","CATEGORÍA":"BUSINESS FAILURE","SUBCATEGORÍA":"Brick-and-Mortar Crisis","INSIGHT":"La Trampa del Alquiler: Tener tiendas bonitas ya no es suficiente. El insight estratégico es la Invostenibilidad del Retail Medio: Malin + Goetz cierra todas sus tiendas en UK y despide a 72 empleados tras entrar en administración. Aunque la marca sigue viva a través de terceros (wholesale/online), su intento de mantener un \"footprint\" físico propio ha fallado. Esto contrasta brutalmente con Rituals (que crece un 16%), demostrando que solo las marcas que ofrecen una \"experiencia espiritual/sensorial completa\" pueden justificar el coste de una tienda física propia.","RESUMEN":"Malin + Goetz cierra con efecto inmediato todas sus operaciones directas en el Reino Unido, incluyendo tiendas y oficinas centrales, eliminando 72 puestos de trabajo. La marca cita \"condiciones comerciales difíciles\" y el agotamiento de todas las alternativas viables. Curiosamente, la noticia menciona en contraste el éxito de Hailey Bieber (Rhode) impulsando las ventas de e.l.f. Beauty, lo que subraya que el capital hoy fluye hacia la viralidad y la eficacia digital, castigando a las marcas \"lifestyle\" tradicionales que dependen de un retail físico costoso y pasivo."},{"URL":"https://www.linkedin.com/posts/parfums-christian-dior_dior-reverseaging-skincareinnovation-ugcPost-7420508347923271680-tE0y?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"I+D / EVENTO CIENTÍFICO","CATEGORÍA":"LONGEVITY SCIENCE","SUBCATEGORÍA":"Epigenetics \u0026 Biological Aging","INSIGHT":"El Fin del \"Anti-Aging\", el Inicio del \"Reverse Aging\": La cosmética se fusiona con la gerontología. El insight estratégico es la Cuantificación Biológica: Dior presenta el \"Skin Longevity Compass\", una herramienta nacida de estudiar 12.000 genes y 300.000 células. Identifican 3 nuevos marcadores del envejecimiento: desregulación del ritmo circadiano, estrés oxidativo y alteración de la matriz dérmica. Al crear un \"Board Científico\" con figuras como Vadim Gladyshev (experto en edad biológica), Dior legitima su producto no como maquillaje, sino como una intervención de salud celular para \"mujeres que quieren envejecer con gracia\".","RESUMEN":"Parfums Christian Dior revela en París su estrategia de \"Reverse Aging\", respaldada por LVMH Recherche. La CEO, Véronique Courtois, define esto como un \"avance científico mayor\" para prolongar la salud de la piel. La marca se posiciona como pionera al crear el primer comité científico dedicado exclusivamente a este tema, integrando la investigación sobre la edad biológica de las células directamente en sus productos. Es la respuesta del lujo francés a la medicalización: ciencia propietaria extrema para justificar precios premium y diferenciarse de las marcas indie."},{"URL":"https://www.linkedin.com/posts/aloyoga_move-into-wellness-rosie-huntington-whiteley-activity-7419756042399694848-CDsk?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"CAMPAÑA DE MARCA / VIDEO","CATEGORÍA":"WELLNESS \u0026 LIFESTYLE","SUBCATEGORÍA":"Mindful Luxury \u0026 Athleisure","INSIGHT":"La Economía de la Intención: La ropa deportiva como herramienta de salud mental. El insight estratégico es el \"Grounding\" Estético: La campaña no muestra sudor ni esfuerzo físico intenso; muestra calma, respiración y escritura en un diario. ALO se posiciona como el uniforme de la \"vida intencional\". Rosie Huntington-Whiteley personifica a la mujer que domina su caos interno mediante la rutina y el wellness. Es una venta de Identidad, no de rendimiento atlético, compitiendo directamente por el \"Share of Wallet\" del estilo de vida contra marcas como Rhode, pero desde el ángulo del bienestar físico-mental.","RESUMEN":"ALO lanza su campaña anual \"Move Into Wellness\" con la supermodelo y empresaria Rosie Huntington-Whiteley. El mensaje central es \"Start where you are. Finish where you want to be\". El video se centra en conceptos abstractos como \"Mindset\", \"Propósito\" y \"Balance\", alejándose del marketing deportivo tradicional. ALO busca establecer el tono de 2026 como un año de crecimiento interno, posicionando su ropa como la vestimenta esencial para transitar \"de la oficina al mat\" con claridad y elegancia."},{"URL":"https://cosmeticsbusiness.com/elevated-essentials-luxury-beauty-next-big-category","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ARTÍCULO DE TENDENCIAS","CATEGORÍA":"CONSUMER BEHAVIOR","SUBCATEGORÍA":"Affordable Luxury \u0026 Bougie Basics","INSIGHT":"La \"Dopamina Mundana\": Si no puedo comprar una casa, compraré el mejor jabón. El insight estratégico es el Reemplazo del Gasto Mayor: Ante la crisis del coste de vida, los consumidores recortan en \"grandes lujos\" y reasignan ese gasto a \"pequeños lujos diarios\". Productos funcionales aburridos (detergente, higiene oral, desodorante) se transforman en experiencias sensoriales premium. Es la \"Ritualización de la Rutina\": convertir lavarse los dientes o poner la lavadora en un acto de autocuidado, justificando un precio 5x superior al del supermercado por el \"payoff emocional\".","RESUMEN":"Cosmetics Business reporta que los \"básicos elevados\" son la categoría más candente del lujo en 2026. Según Katie Peake (Backlash Agency), esto no es una moda pasajera, sino un cambio estructural post-pandemia donde la higiene se valora más y el presupuesto se ajusta. El mercado de cuidado personal, valorado en $557bn, se duplicará para 2030 impulsado por esta tendencia. Marcas como Rituals (+16% ingresos) o Dove (con su campaña nostálgica en los Grammy para desodorantes) están capitalizando esta necesidad de \"lujo accesible\" en cada rincón del hogar."},{"URL":"https://www.linkedin.com/posts/enzo-scida-53195930a_maisoncosmetics-digitalrebels-brandbuilding-activity-7423380245048881152-b0Xz?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ALIANZA B2B","CATEGORÍA":"MANUFACTURING \u0026 MARKETING","SUBCATEGORÍA":"Turnkey Brands \u0026 AI Content","INSIGHT":"La Industrialización del \"Cool\": Marcas llave en mano. El insight estratégico es la Integración Vertical Virtual: Maison Cosmetics (Producto/Regulatory) se une a Digital Rebels (Marketing/IA) para eliminar la improvisación en el lanzamiento de nuevas marcas. Ofrecen un servicio 360° que va desde la formulación Private Label hasta la creación de contenido con Inteligencia Artificial. Esto reduce drásticamente la barrera de entrada: cualquier emprendedor puede lanzar una marca \"real, coherente y escalable\" sin infraestructura propia, acelerando la fragmentación del mercado beauty/wellness.","RESUMEN":"Enzo Scida anuncia una asociación estratégica entre Maison Cosmetics y Digital Rebels para ofrecer soluciones completas de creación de marca en los sectores de belleza, bienestar y nutracéutica. La propuesta de valor integra el desarrollo de producto y cumplimiento normativo (Maison) con la estrategia de marca, diseño de packaging y marketing de resultados (Rebels). Destacan el uso de IA para fotografía y video, permitiendo a las nuevas marcas competir visualmente con los grandes presupuestos desde el día uno."},{"URL":"https://www.consalud.es/salud35/internacional/mirum-completa-la-adquisicion-de-bluejay-therapeutics-y-refuerza-su-apuesta-por-las-enfermedades-hepaticas-raras.html","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"M\u0026A PHARMA","CATEGORÍA":"RARE DISEASES","SUBCATEGORÍA":"High-Value Biologics","INSIGHT":"El Nicho de los 800 Millones: Pocos pacientes, márgenes inmensos. El insight estratégico es la Apuesta Binaria de 2026: Mirum paga una fortuna para hacerse con Brelovitug, un anticuerpo monoclonal para la Hepatitis Delta (VHD), la forma más agresiva de hepatitis viral. Al ser una enfermedad rara (huérfana) con pocos tratamientos, el precio del fármaco será altísimo. Lo crítico es que los resultados de la Fase 3 se esperan para la segunda mitad de 2026. Si funciona, Mirum dominará un monopolio terapéutico; es la antítesis del modelo de volumen de Cosnova.","RESUMEN":"Mirum Pharmaceuticals completa la adquisición de BlueJay Therapeutics por un valor total potencial de $820 millones ($620M iniciales + hitos). El objetivo es incorporar a su portafolio el fármaco en investigación Brelovitug, diseñado para tratar la hepatitis D crónica. Esta operación refuerza el liderazgo de Mirum en enfermedades hepáticas raras, proyectando unos ingresos para 2026 de entre $630 y $650 millones (+25%). La operación valida la tesis de que en 2026 la rentabilidad farmacéutica reside en la ultra-especialización biológica, requiriendo cadenas de frío complejas (validando a FM Logistic) y diagnósticos precisos."},{"URL":"https://www.linkedin.com/posts/chenyueie_sephora-oliveyoung-kbeauty-activity-7426346595505385472-v5jM?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ANÁLISIS EXPERTO","CATEGORÍA":"RETAIL STRATEGY","SUBCATEGORÍA":"Ecosystem Export \u0026 Market Exit","INSIGHT":"La Exportación del \"Sistema Operativo\": No compres el producto, compra el algoritmo que lo elige. El insight estratégico es el \"Ecosystem Export\": Sephora admite su derrota en la detección de tendencias y subcontrata la \"Inteligencia de Selección\" a Olive Young. El acuerdo excluye China (donde Sephora pierde \u003e10.000M RMB) y se enfoca en Skincare (no maquillaje) para EE.UU./Canadá (650 tiendas para otoño 2026). La clave es detectar ingredientes como el PDRN antes de que sean mainstream. Es una maniobra defensiva ante una Ulta Beauty agresiva que ya ha comprado Space NK y controla exclusivas K-Beauty.","RESUMEN":"Chen Yue disecciona el acuerdo Sephora-Olive Young como un cambio de paradigma: de exportar marcas a exportar sistemas de validación. Sephora utiliza a Olive Young como un \"laboratorio de pruebas\" gamificado para reducir el riesgo de sus inventarios globales. La alianza responde a un tablero endurecido donde Ulta Beauty se expande con Space NK y marcas virales como Tirtir. Estratégicamente, China queda fuera de la ecuación por saturación y pérdidas, redirigiendo la artillería K-Beauty hacia mercados donde aún conserva novedad y poder de fijación de precios (Occidente y Oriente Medio para 2027)."},{"URL":"https://www.industriacosmetica.net/noticias/natura-anuncia-un-acuerdo-para-vender-avon-international-y-refuerza-su-foco-en-latino-aRew5","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"M\u0026A CORPORATIVO","CATEGORÍA":"GEOPOLÍTICA DE MERCADO","SUBCATEGORÍA":"Regional Focus \u0026 Divestment","INSIGHT":"El Repliegue Estratégico: Menos imperio, más rentabilidad. El insight estratégico es la Fortaleza Regional: Natura vende Avon International (Europa, Asia, África) al grupo inversor Regent para limpiar su deuda y simplificar su estructura. Sin embargo, retiene el control de Avon en Latinoamérica, donde la marca es fuerte y el modelo de venta directa sigue vivo. Esto valida la tesis de Iván Herrera Leal sobre la importancia de la logística y el canal en LATAM. Natura no quiere pelear con Sephora en París; quiere dominar la venta puerta a puerta en Brasil y México.","RESUMEN":"Natura \u0026Co anuncia un acuerdo vinculante para vender el negocio de Avon International (operaciones fuera de LATAM) al grupo inversor Regent. La operación permite a Natura centrarse exclusivamente en su mercado principal: Latinoamérica, donde está integrando operativamente la marca Avon para mejorar márgenes. Rusia queda fuera del acuerdo como activo en venta separado. Este movimiento completa la simplificación corporativa iniciada en 2022 (tras vender Aesop y The Body Shop), transformando a Natura de un conglomerado global a un gigante regional enfocado y eficiente."},{"URL":"https://www.revistabeautyprof.com/texto-diario/mostrar/5750634/salud-femenina-longevidad-belleza-integral-conferencias-seminar-theatre-nutraceuticals-europe","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"EVENTO B2B / CONFERENCIA","CATEGORÍA":"NUTRICOSMÉTICA","SUBCATEGORÍA":"Women\u0027s Health \u0026 Longevity","INSIGHT":"La Píldora de la Juventud: El \"skincare\" ahora se traga. El insight estratégico es la Gestión Interna del Envejecimiento: El programa del Seminar Theatre prioriza tres ejes: 1) Menopausia: Dejar de tratarla como tabú y abordarla con ingredientes clínicos para síntomas metabólicos y anímicos. 2) Longevidad Activa: No solo vivir más, sino vivir sin dolor (articular/cognitivo), alineado con la tendencia \"Blue Zone\". 3) Belleza Integral: La piel se trata desde el intestino. Esto valida que la farmacia de 2026 debe tener una estantería de \"Nutri-Belleza\" tan grande como la de cremas, robando cuota al supermercado.","RESUMEN":"Nutraceuticals Europe - Summit \u0026 Expo 2026 desvela su programa de conferencias con un enfoque radical en la salud femenina y la longevidad. Expertos analizarán cómo la nutrición puede mitigar los efectos del climaterio y mejorar el \"Healthspan\" (años de vida saludable). Se destaca el auge de ingredientes funcionales que cruzan la línea entre alimento y fármaco, ofreciendo soluciones para la piel, el cabello y el bienestar mental desde el interior. Es la confirmación de que la belleza en 2026 es sistémica, no tópica."},{"URL":"https://www.consalud.es/salud35/internacional/halozyme-refuerza-su-apuesta-por-la-administracion-subcutanea-con-la-compra-de-surf-bio-por-hasta-400-millones-de-dolares.html","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"M\u0026A PHARMA","CATEGORÍA":"DRUG DELIVERY","SUBCATEGORÍA":"Patient Centricity \u0026 Subcutaneous","INSIGHT":"La Clínica de 10 Segundos: La comodidad es el nuevo gold standard. El insight estratégico es la Hiperconcentración: Halozyme (famosa por su tecnología ENHANZE) paga hasta $400M por Surf Bio para dominar la \"hiperconcentración\". Esto permite meter dosis masivas de fármacos biológicos (que son espesos y pegajosos) en un pequeño autoinyector subcutáneo. El objetivo es eliminar la silla de infusión hospitalaria para tratamientos de cáncer, inmunología y enfermedades raras, permitiendo que el paciente se trate solo en casa. Es la \"Uberización\" del tratamiento clínico.","RESUMEN":"Halozyme Therapeutics refuerza su liderazgo en administración de fármacos adquiriendo Surf Bio por un pago inicial de $300M más $100M en hitos. La clave es la tecnología de Surf Bio que estabiliza biológicos a concentraciones extremas (hasta 500 mg/mL), permitiendo que fármacos que antes requerían bolsas de suero IV ahora quepan en una jeringa estándar. Esto complementa su adquisición anterior de Elektrofi (noviembre 2025), creando un monopolio técnico sobre la conversión de IV a Subcutáneo, un mercado que explotará en 2026 con los nuevos biológicos de alta potencia."},{"URL":"https://www.revistabeautyprof.com/texto-diario/mostrar/5734996/cellularyouth-serum-longevidad-nueva-formula-paulas-choice-reducir-ralentizar-signos-envejecimiento","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"LANZAMIENTO DE PRODUCTO","CATEGORÍA":"SKINCARE SCIENCE","SUBCATEGORÍA":"Cellular Energy \u0026 NAD+","INSIGHT":"La Longevidad se vuelve \"Mainstream\": La ciencia de la inmortalidad baja al mercado masstige. El insight estratégico es la Energía Celular (NAD+): Tras 5 años de I+D, Paula\u0027s Choice lanza su CellularYouth Age-Disrupting Longevity Serum. La clave no es \"anti-arrugas\", sino \"Healthspan\" (años de vida saludable de la piel). Utilizan un complejo de Acetil Tetrapéptido-2 y Taurina junto con extracto de brotes de girasol para estimular las vías del NAD+ (energía celular). Al venderlo por ~$75-$115, democratizan la tecnología que Dior vende por cientos de euros, validando que el futuro del skincare es actuar sobre la edad biológica de la célula.","RESUMEN":"Paula\u0027s Choice lanza globalmente en febrero de 2026 su innovación más ambiciosa: el CellularYouth Serum. Diseñado para combatir 12 signos del envejecimiento, el producto se centra en la \"bio-rejuvenecimiento\" mediante la estimulación de la energía celular. La fórmula incluye fitoexosomas de Goji y potenciadores de NAD+, alejándose de los ácidos exfoliantes clásicos de la marca para entrar en la era de la biotecnología avanzada. Promete hacer que la piel parezca \"8 años más joven en 42 días\", posicionándose como la alternativa científica y transparente al lujo tradicional."},{"URL":"https://www.industriacosmetica.net/noticias/freshly-cosmetics-refuerza-sus-alianzas-estrategicas-en-retail-para-impulsar-su-creci-JHr9c","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"NOTICIA / EXPANSIÓN RETAIL","CATEGORÍA":"OMNICHANNEL STRATEGY","SUBCATEGORÍA":"Wholesale Expansion","INSIGHT":"La Ubicuidad Selectiva: Estar en todas partes, pero con los mejores. El insight estratégico es el Apalancamiento de Tráfico: Freshly cierra 2025 con 180 puntos de venta físicos (18 propios y \u003e150 en retailers). Su plan 2026 es duplicar esa presencia mediante alianzas con gigantes como Druni y El Corte Inglés, además de farmacias seleccionadas. Entienden que la tienda propia sirve para brand building (experiencia), pero el volumen real y la captación de nuevos clientes ocurren en el wholesale masivo. Es el modelo híbrido perfecto que evita los costes fijos letales de Malin + Goetz.","RESUMEN":"Freshly Cosmetics anuncia que en 2026 acelerará su expansión física apoyándose en partners estratégicos. Tras abrir en cadenas clave de España (Druni, Arenal, Primor) y grandes almacenes (El Corte Inglés), la marca nativa digital busca \"democratizar\" su cosmética natural, haciéndola accesible en el día a día del consumidor. Mantienen sus 18 \"Freshly Stores\" como buques insignia de experiencia, pero delegan el crecimiento de volumen en la distribución de terceros, incluyendo una incursión selectiva en el canal farmacia para validar su eficacia."},{"URL":"https://www.consalud.es/salud35/internacional/zydus-lifesciences-rompe-las-previsiones-sus-beneficios-se-disparan-en-estados-unidos.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA FINANCIERA","CATEGORÍA":"PHARMA GENERICS","SUBCATEGORÍA":"Market Share \u0026 Efficiency","INSIGHT":"La Fábrica de Volumen: Ganar por céntimos, millones de veces. El insight estratégico es la Agilidad en Commodities: Mientras sus competidores indios sufren en EE.UU., Zydus dispara sus beneficios gracias al lanzamiento de 4 nuevos productos en un solo trimestre. Esto demuestra que en el mercado de genéricos de 2026, la clave no es solo el precio bajo, sino la velocidad de llenado de huecos en la estantería de la farmacia americana. Zydus actúa como el \"Zara\" de los medicamentos: rápido, barato y con rotación constante.","RESUMEN":"Zydus Lifesciences reporta un crecimiento sorprendente en sus beneficios, impulsado principalmente por su desempeño estelar en el mercado de Estados Unidos. A diferencia de competidores como Cipla o Dr. Reddy\u0027s, que mostraron debilidad, Zydus logró capitalizar nuevos lanzamientos y una cadena de suministro robusta para capturar cuota de mercado. Los analistas destacan su capacidad para mantener márgenes saludables en un entorno de precios presionados, validando su modelo de \"Eficiencia Extrema\" frente a la complejidad biotecnológica."},{"URL":"https://beautycluster.es/el-beauty-cluster-analiza-el-potencial-del-mercado-argelino-en-cosmetica-north-africa/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"REPORTE INDUSTRIAL","CATEGORÍA":"GEOPOLÍTICA \u0026 SUPPLY CHAIN","SUBCATEGORÍA":"Protectionism \u0026 Raw Materials","INSIGHT":"La Estrategia del \"Caballo de Troya\": Si la puerta está cerrada, entra por la fábrica. El insight estratégico es la Sustitución de Importaciones: Argelia prohíbe importar producto final para impulsar su industria. Esto crea un mercado voraz para proveedores de Materias Primas (Fragancias/Activos) y Packaging. Las tendencias locales replican las globales: Nutricosmética (validando la tesis \"Inside-Out\"), estética Gen Z vibrante y aromas Gourmand (algodón de azúcar/caramelo) para dar confort emocional. Argelia se posiciona como el nodo logístico para atacar África Subsahariana.","RESUMEN":"El Beauty Cluster analiza tras su visita a la feria Cosmetica North Africa 2026 (Argel) que el país vive una transición hacia la autosuficiencia industrial. Las políticas públicas limitan la entrada de marcas extranjeras terminadas, forzando la profesionalización local. Esto abre una oportunidad de oro para empresas españolas de ingredientes (como Iberchem o Ravetllat, presentes en la feria) y packaging. Se detecta un auge en marcas \"Total Care\" (cabello+cuerpo), formatos familiares y un crecimiento notable de la barbería masculina y la suplementación de belleza, alineándose con las macrotendencias globales pero adaptadas a un entorno de economía cerrada."},{"URL":"https://www.consalud.es/salud35/analisis/vietnam-impulsa-la-transformacion-digital-en-la-industria-farmaceutica-para-mejorar-competitividad-y-atencion-sanitaria.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ESTRATEGIA GUBERNAMENTAL","CATEGORÍA":"EMERGING MARKETS","SUBCATEGORÍA":"Digital Infrastructure \u0026 AI","INSIGHT":"El \"Challenger\" Tecnológico: No fabricar más barato, sino más inteligente. El insight estratégico es el Salto Cuántico Gubernamental: Vietnam aprueba su estrategia a 2030 con un objetivo claro: completar la transformación digital total del sector. Esto incluye un Banco de Datos Farmacéuticos nacional y el uso masivo de IA en producción y prescripción. A diferencia de Europa, donde la digitalización es fragmentada (por empresa), aquí es un mandato de estado para integrar su cadena de suministro en el mercado global y aportar $20.000 millones al PIB. Es la alternativa \"Smart\" a la fábrica de volumen de la India.","RESUMEN":"Vietnam impulsa una transformación radical de su sector farmacéutico y sanitario. El plan gubernamental establece que para 2030 el 100% de las instalaciones usarán sistemas de información hospitalaria y registros electrónicos (VNeID). La estrategia busca la autosuficiencia en medicamentos y la integración profunda en la cadena de valor global, apoyándose en la telemedicina, la prescripción electrónica y la robótica quirúrgica. El país se posiciona como el nuevo hub atractivo para la inversión extranjera que busca diversificar fuera de China, ofreciendo una infraestructura digital que promete mayor trazabilidad y eficiencia que sus vecinos."},{"URL":"https://beautycluster.es/blog/conoce-mas-sobre-sara-uribe-y-devera/","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ENTREVISTA B2B","CATEGORÍA":"SUSTAINABILITY TECH","SUBCATEGORÍA":"LCA \u0026 Anti-Greenwashing","INSIGHT":"El Fin del \"Eco-Postureo\": Si no lo mides, es mentira. El insight estratégico es la Democratización del LCA (Life Cycle Assessment): Tradicionalmente, medir el impacto ambiental era lento y caro (consultoras). Devera usa IA + ISO para hacerlo rápido y accesible. Esto es crítico porque las nuevas regulaciones de 2026 exigen \"transparencia radical\". Sara Uribe actúa como el puente entre la marca que quiere vender (Marketing) y la realidad técnica que exige la ley (Compliance). Es la herramienta que valida si el \"Elevated Essential\" es realmente sostenible o solo marketing.","RESUMEN":"Sara Uribe, Account Executive de Devera, detalla cómo esta startup está transformando la gestión del impacto ambiental en la cosmética. Su propuesta de valor es simplificar el Análisis de Ciclo de Vida (LCA), convirtiendo un proceso técnico y costoso en un servicio ágil impulsado por IA. El objetivo es ofrecer a las marcas datos \"claros, visuales y accionables\" para evitar el greenwashing y cumplir con las normativas crecientes. En un entorno donde el consumidor 2026 exige pruebas, Devera se posiciona como el \"notario digital\" de la sostenibilidad."},{"URL":"https://www.modaes.com/equipamiento/el-wellness-adelanta-a-la-moda-como-locomotora-de-los-centros-comerciales-en-espana","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA RETAIL","CATEGORÍA":"REAL ESTATE \u0026 LIFESTYLE","SUBCATEGORÍA":"Experience Economy","INSIGHT":"El \"Sorpasso\" del Sudor: El tráfico lo trae el gimnasio, no Zara. El insight estratégico es la Sustitución de Anclas: Históricamente, las tiendas de moda (Inditex/H\u0026M) eran las \"locomotoras\" que atraían gente. Ahora, el Wellness (gimnasios, clínicas, nutrición) crece más rápido y genera visitas recurrentes (2-3 veces por semana) frente a la moda (visita esporádica). Los centros comerciales en España están reasignando metros cuadrados: menos percheros, más camillas y máquinas de pilates. Es la victoria final de la Economía de la Experiencia sobre la de Producto.","RESUMEN":"Modaes informa que el sector del Wellness se ha convertido en el nuevo motor de crecimiento de los centros comerciales en España, superando a la moda en dinamismo. Ante el auge del e-commerce que canibaliza la venta de ropa, los propietarios de centros comerciales buscan inquilinos \"a prueba de Amazon\": servicios físicos que requieren presencia. Esto incluye macro-gimnasios, centros de estética avanzada y espacios de salud mental. La tendencia revaloriza el metro cuadrado físico, transformando el shopping center en un living center donde la salud es el principal motivo de visita."},{"URL":"https://cosmeticsbusiness.com/coty-ends-licence-deal-with-orveda","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA CORPORATIVA","CATEGORÍA":"STRATEGY REALIGNMENT","SUBCATEGORÍA":"Portfolio Cleanup \u0026 Leadership Change","INSIGHT":"La Purga del \"Proyecto Mascota\": Si no escala, se corta. El insight estratégico es la Disciplina Financiera: El nuevo CEO interino, Markus Strobel, implementa el plan \"Coty. Curated\". Tras la salida de Sue Nabi en enero de 2026, Coty cancela la licencia de Orveda (marca fundada por Nabi). La razón oficial es \"foco en escala, alcance y rentabilidad\". Esto indica que Orveda, pese a ser \"Ultra-Premium Biotech\" y tener flagships en Bangkok, no generaba el volumen necesario para justificar la complejidad operativa dentro de un gigante que necesita recuperar sus acciones tras caer un 3% en ventas.","RESUMEN":"Coty anuncia el fin de su acuerdo de licencia con la marca de cuidado de la piel ultra-premium Orveda tras solo cuatro años. La decisión forma parte de la nueva estrategia \"Coty. Curated\" liderada por el CEO interino Markus Strobel, quien busca simplificar el negocio y mejorar la rentabilidad tras unos resultados financieros decepcionantes. La medida sigue a la salida de Sue Nabi (fundadora de Orveda y ex-CEO de Coty) y marca un retorno a la ortodoxia corporativa: centrarse en marcas propias escalables y eliminar acuerdos de licencia que no mueven la aguja financiera global."},{"URL":"https://www.consalud.es/salud35/internacional/guerra-farmaceutica-por-la-pildora-adelgazante-novo-nordisk-demanda-a-him-hers-por-vender-una-copia-de-wegovy.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA LEGAL","CATEGORÍA":"PHARMA WAR","SUBCATEGORÍA":"IP Protection \u0026 Compounding","INSIGHT":"El Imperio Contraataca: Se acabó la fiesta del \"dupe\" farmacéutico. El insight estratégico es el Cierre de la Brecha Regulatoria: Novo Nordisk demanda a la plataforma de telesalud Hims \u0026 Hers por vender versiones compuestas de semaglutida que, alegan, no son seguras ni equivalentes. Hims \u0026 Hers se defendía bajo la excepción de \"escasez de la FDA\", pero a medida que el suministro oficial se estabiliza, esa defensa cae. Es un aviso a navegantes: en 2026, si vendes una copia no autorizada de un blockbuster, te enfrentarás a un litigio existencial.","RESUMEN":"Novo Nordisk ha presentado una demanda contra Hims \u0026 Hers Health, acusándola de vender versiones falsificadas o no aprobadas de su fármaco estrella para la obesidad, Wegovy. La farmacéutica danesa busca detener la venta de estas copias compuestas (compounded), argumentando riesgos para la salud del paciente y violación de propiedad intelectual. La noticia provocó una caída inmediata en las acciones de Hims \u0026 Hers, evidenciando la fragilidad de los modelos de negocio basados en \"lagunas regulatorias\" frente al poder legal de las grandes farmacéuticas."},{"URL":"https://beautynewsdaily.com/interview-emma-lewisham/","AÑO":"2026","MES":"ENERO","TIPO DE FUENTE":"ENTREVISTA FUNDADORA","CATEGORÍA":"SUSTAINABILITY LUXURY","SUBCATEGORÍA":"Circular Economy \u0026 Carbon Positive","INSIGHT":"El Estándar \"Jane Goodall\": Ciencia Natural que funciona mejor que la química. El insight estratégico es la Fisiología de la Piel: Emma Lewisham no formula por ingredientes de moda, sino por \"rutas celulares\". Su marca es la primera en el mundo certificada como Climate Positive y Circularly Designed. El aval de la Dra. Jane Goodall eleva la credibilidad de lo \"natural\" al nivel de Dior. Es la antítesis del Greenwashing: productos recargables que, según ella, superan en eficacia a marcas de lujo convencionales (como su Skin Reset Serum que reemplaza a la hidroquinona).","RESUMEN":"Emma Lewisham, fundadora de la marca neozelandesa de culto, explica en esta entrevista su filosofía de \"belleza circular y positiva\". Tras perder a su madre y buscar alternativas seguras a la hidroquinona durante su embarazo, creó una línea que demuestra que lo natural puede ser científicamente superior. La marca se centra en trabajar con la fisiología de la piel en lugar de agredirla con activos aislados. Su éxito en retailers como Space NK y Credo Beauty (EE.UU.) confirma que el consumidor de lujo de 2026 exige eficacia clínica y responsabilidad planetaria radical en el mismo envase."},{"URL":"https://www.consalud.es/salud35/internacional/de-la-enfermedad-de-crohn-a-lentes-oculares-inteligentes-nuevas-promesas-biotecnologicas-conquistan-el-nasdaq.html","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"MERCADO DE VALORES / IPO","CATEGORÍA":"BIOTECH FINANCE","SUBCATEGORÍA":"Fibrosis \u0026 Drug Delivery","INSIGHT":"El Regreso del \"Risk-On\": Capital para problemas difíciles. El insight estratégico es la Sofisticación Mecánica: 1. Agomab (Crohn): Levanta $200M para tratar la fibrosis (cicatrices internas), algo que los antiinflamatorios actuales (Humira/Skyrizi) no curan. Atacan la causa raíz mecánica. 2. SpyGlass (Ojos): Levanta $150M con una lente intraocular que libera medicación por 3 años. No es una \"lente digital\", es una \"lente farmacia\". Elimina el error humano de ponerse gotas. El Nasdaq premia soluciones que eliminan al paciente de la ecuación (adherencia automática).","RESUMEN":"Agomab Therapeutics y SpyGlass Pharma protagonizan la semana más activa de salidas a bolsa (IPO) en el sector biotecnológico de 2026, levantando conjuntamente $350 millones. Agomab (Bélgica) se centra en la enfermedad de Crohn fibrostenosante, buscando revertir el daño estructural del intestino, no solo desinflamarlo. SpyGlass (California) introduce un sistema de administración de fármacos implantable en el ojo (IOL) para glaucoma, garantizando 3 años de tratamiento con una sola intervención. El éxito de estas IPOs señala el fin de la sequía financiera y el apetito por plataformas terapéuticas de larga duración."},{"URL":"https://www.revistabeautyprof.com/texto-diario/mostrar/5764787/katseye-nuevo-partner-global-laneige-campana-juicepop-box-lip-tint","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"CAMPAÑA DE MARKETING","CATEGORÍA":"CELEBRITY \u0026 VIRALITY","SUBCATEGORÍA":"Global Pop \u0026 Gen Z","INSIGHT":"La Evolución del K-Pop: De nicho a estándar global. El insight estratégico es la Universalidad del Deseo: KATSEYE no es un grupo coreano tradicional; es un experimento multicultural (miembros de EE.UU., Filipinas, Suiza, Corea). Al elegirlas, Laneige rompe la barrera asiática y se posiciona como una marca para \"todas las chicas del mundo\". El producto JuicePop capitaliza la tendencia \"Gourmand/Juicy\" (labios brillantes, colores frutales), compitiendo directamente con Rhode (Hailey Bieber) pero con la potencia del fandom musical masivo.","RESUMEN":"LANEIGE nombra al grupo de chicas KATSEYE como su nuevo embajador global para lanzar el JuicePop Box Lip Tint. La campaña busca transmitir una imagen \"fresca, divertida y diversa\", aprovechando la naturaleza híbrida del grupo (nacido del reality \"The Debut: Dream Academy\"). Es una jugada maestra para penetrar en el mercado occidental (EE.UU.) usando la maquinaria de marketing del K-Pop (HYBE) pero con rostros y narrativas que resuenan globalmente. El foco está en la viralidad rápida y el precio de entrada accesible."},{"URL":"https://www.revistabeautyprof.com/texto-diario/mostrar/5738718/druni-refuerza-presencia-barcelona-apertura-nueva-tienda-lilla-diagonal","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"NOTICIA RETAIL","CATEGORÍA":"PHYSICAL EXPANSION","SUBCATEGORÍA":"Flagship \u0026 Prime Location","INSIGHT":"El \"Supermercado\" de Lujo: El tráfico se gana con surtido infinito. El insight estratégico es la Agregación de Valor: Druni abre en una ubicación prime (L\u0027Illa) donde el metro cuadrado es oro. ¿Por qué funciona? Porque aplica el modelo de \"High-Low\": vende el champú de 3€ y el serum de 300€ en el mismo pasillo. Esto captura al consumidor de \"Elevated Essentials\" (que busca su jabón diario) y al de \"Lujo\" (que busca su perfume nicho). Es la pesadilla de las tiendas monomarca (como la fallida de Malin + Goetz) porque Druni ofrece todo en una sola visita.","RESUMEN":"Druni refuerza su liderazgo en Cataluña con una nueva apertura estratégica en el centro comercial L\u0027Illa Diagonal, uno de los ejes comerciales más importantes de Barcelona. La tienda sigue el nuevo concepto \"premium\" de la cadena, integrando parafarmacia, cosmética de lujo, maquillaje mass market y marcas indie (como Freshly) bajo un mismo techo. Este movimiento consolida su estrategia de ocupar los mejores locales de España para bloquear a competidores internacionales, aprovechando el tráfico de alta calidad del centro comercial."},{"URL":"https://www.retail-week.com/people/qanda-the-organic-pharmacy-uk-general-manager-on-marks-and-spencer-tie-up/7050369.article","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"ALIANZA RETAIL","CATEGORÍA":"MASSTIGE DISTRIBUTION","SUBCATEGORÍA":"Clean Beauty Expansion","INSIGHT":"La Democratización del Nicho: De Selfridges al Supermercado Premium. El insight estratégico es la Accesibilidad de Confianza: The Organic Pharmacy, tradicionalmente vendida en boutiques propias y grandes almacenes de lujo, entra en M\u0026S (43 tiendas + online). M\u0026S busca credenciales de belleza \"seria\" (tras incorporar a Estée Lauder), y la marca busca escala. Lanzan un kit exclusivo (Rose Ritual Kit) para atraer al cliente de M\u0026S con un precio de entrada táctico. Es la confirmación de que el \"Clean Beauty\" ha dejado de ser una tendencia indie para convertirse en un estándar del mass market premium.","RESUMEN":"The Organic Pharmacy firma un acuerdo estratégico con Marks \u0026 Spencer para distribuir sus productos en la sección de belleza del retailer británico. La alianza comienza en el flagship de Oxford Street y se expande a 43 ubicaciones clave y al canal online en febrero de 2026. Jean-Christophe Samyn (GM de la marca) destaca que esto hace sus fórmulas clínicas y orgánicas \"más accesibles\", alineándose con la estrategia de M\u0026S de convertirse en un destino de belleza curada para el consumidor que valora la sostenibilidad y la salud, compitiendo así con Boots y Space NK."},{"URL":"https://www.linkedin.com/posts/cantabrialabs_celebratecommitment-ugcPost-7426580799828750336-nTrT?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ","AÑO":"2026","MES":"FEBRERO","TIPO DE FUENTE":"PATROCINIO DEPORTIVO","CATEGORÍA":"BRAND MARKETING","SUBCATEGORÍA":"Global Scaling \u0026 Sun Protection","INSIGHT":"La Estrategia del \"Smart Sport\": No pagues por fútbol, paga por Pádel. El insight estratégico es la Escalabilidad Validada: Cantabria Labs no ficha a ciegas; eleva a Gemma Triay (Nº1 del mundo) de embajadora local (Italia) a Global tras comprobar el éxito. Al unirla a Rafa Nadal en su portafolio, la marca se adueña del territorio \"Deporte de Raqueta al Sol\". Es una jugada de eficiencia: el pádel ofrece una visibilidad masiva en Europa y Oriente Medio a una fracción del coste del tenis ATP o el fútbol, impactando directamente en el usuario intensivo de fotoprotección.","RESUMEN":"Cantabria Labs anuncia que Gemma Triay, la jugadora número uno de pádel del mundo, se convierte en su nueva embajadora global. La alianza se formalizó en las oficinas de Madrid tras una exitosa etapa de colaboración con la filial italiana del grupo. El objetivo es concienciar sobre la importancia del cuidado de la piel (específicamente fotoprotección) dentro y fuera de la pista. La marca refuerza así sus valores de \"esfuerzo y compromiso\", alineando su producto estrella (Heliocare) con el estilo de vida activo y saludable que representa el pádel profesional."}];
+﻿const PRELOADED_DATA = [
+    {
+        "URL":  "https://www.medestheticsmag.com/home/article/22946829/neurotoxins-surge-hyaluronic-fillers-slip-glp1-and-skincare-usher-in-a-new-chapter",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "DERMATOLOGÍA ESTÉTICA",
+        "INSIGHT":  "El auge de los fármacos GLP-1 está reconfigurando la demanda: menos rellenos voluminizadores y más neurotoxinas y skin-tightening para corregir la laxitud facial post-pérdida de peso.",
+        "RESUMEN":  "Informe sobre el cambio en el mix de tratamientos estéticos; mientras los rellenos de hialurónico pierden tracción, las neurotoxinas y el cuidado de la piel de grado médico crecen impulsados por los efectos secundarios de los medicamentos para adelgazar."
+    },
+    {
+        "URL":  "https://www.medestheticsmag.com/research/article/22952820/global-medical-aesthetics-market-to-triple-by-2033-fueled-by-minimally-invasive-tech-and-ai-solutions",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE PROYECCIÓN",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "PROYECCIÓN DE MERCADO",
+        "INSIGHT":  "La triplicación del mercado para 2033 será liderada por la IA diagnóstica, que eleva la precisión de los tratamientos mínimamente invasivos y democratiza el acceso al sector premium.",
+        "RESUMEN":  "Estudio prospectivo que estima un crecimiento masivo del sector de estética médica, fundamentado en la adopción de tecnologías no quirúrgicas y el uso de inteligencia artificial para personalizar resultados clínicos."
+    },
+    {
+        "URL":  "https://www.eleconomista.es/salud-bienestar/amp/13662098/mesoestetic-sera-la-primera-empresa-espanola-en-vender-botox-tras-un-acuerdo-en-corea",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN DE PORTAFOLIO",
+        "INSIGHT":  "El salto de Mesoestetic a la comercialización de toxina botulínica transforma a la compañía de fabricante de tópicos a un proveedor integral de soluciones inyectables 360°.",
+        "RESUMEN":  "Mesoestetic firma un acuerdo con una firma coreana para distribuir toxina botulínica en España, convirtiéndose en la primera empresa de capital nacional en entrar en este segmento crítico del mercado estético."
+    },
+    {
+        "URL":  "https://oem.com.mx/elsoldemexico/mexico/labiales-y-sombras-toxicas-investigadores-hallan-metales-pesados-en-cosmeticos-26987880",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE SEGURIDAD",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "SEGURIDAD DEL CONSUMIDOR",
+        "INSIGHT":  "El hallazgo de metales pesados en cosméticos de color refuerza la necesidad de una regulación de cadena de suministro más estricta para mitigar riesgos de toxicidad sistémica.",
+        "RESUMEN":  "Investigadores alertan sobre la presencia de plomo y otros metales pesados en productos de maquillaje, instando a las autoridades a endurecer las normas de control de calidad y etiquetado en México."
+    },
+    {
+        "URL":  "https://lasillarota.com/nacion/2025/11/26/se-inyectan-aceite-para-modelar-su-cuerpo-hoy-piden-atencion-medica-570948.html",
+        "AÑO":  "2025",
+        "MES":  "NOVIEMBRE",
+        "TIPO DE FUENTE":  "REPORTE DE SALUD PÚBLICA",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "CRISIS SANITARIA",
+        "INSIGHT":  "El aumento de complicaciones por inyectables clandestinos (biopolímeros/aceites) genera una presión creciente en los servicios de dermatología reconstructiva y medicina legal.",
+        "RESUMEN":  "Reportaje sobre las consecuencias devastadoras del uso de sustancias no aptas para modelado corporal, destacando el incremento de pacientes que buscan ayuda médica tras años de inflamación crónica y migración de sustancias."
+    },
+    {
+        "URL":  "https://heraldodemexico.com.mx/opinion/2025/11/27/loreal-cuantifica-impacto-en-mexico-748202.html",
+        "AÑO":  "2025",
+        "MES":  "NOVIEMBRE",
+        "TIPO DE FUENTE":  "OPINIÓN EJECUTIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "IMPACTO ECONÓMICO",
+        "INSIGHT":  "La consolidación de México como hub estratégico para L\u0027Oréal subraya la relevancia del mercado local en el crecimiento de la región LATAM y la manufactura global.",
+        "RESUMEN":  "Análisis del impacto económico de L\u0027Oréal en México, detallando su contribución al PIB, generación de empleo y la importancia de sus plantas de producción para la cadena de suministro internacional."
+    },
+    {
+        "URL":  "https://heraldodemexico.com.mx/opinion/2025/11/28/dermatitis-atopica-mas-alla-de-la-piel-748513.html",
+        "AÑO":  "2025",
+        "MES":  "NOVIEMBRE",
+        "TIPO DE FUENTE":  "ARTÍCULO DE OPINIÓN",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "SALUD MENTAL",
+        "INSIGHT":  "El abordaje de la dermatitis atópica evoluciona hacia una visión holística que integra la salud mental, abriendo nichos para productos de \"neuro-bienestar\" cutáneo.",
+        "RESUMEN":  "Columna que explora las comorbilidades psicológicas de la dermatitis atópica, enfatizando la necesidad de tratamientos que no solo reparen la barrera cutánea, sino que mejoren la calidad de vida emocional."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/jean-yves-coste-672aa924_maisonepigenetic-longevity-epigenetics-activity-7401178963932286976-YO_0",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "EPIGENÉTICA",
+        "INSIGHT":  "La epigenética se posiciona como la frontera definitiva en la cosmética de longevidad, permitiendo modular la expresión génica para revertir el envejecimiento celular.",
+        "RESUMEN":  "Jean-Yves Coste destaca el lanzamiento de Maison Epigenetic, subrayando cómo el estudio de los mecanismos epigenéticos está redefiniendo los protocolos de salud y belleza premium."
+    },
+    {
+        "URL":  "https://www.instagram.com/p/DRhn-z5lkZ_/?utm_source=ig_web_copy_link\u0026igsh=NTc4MTIwNjQ2YQ==",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST DE REDES SOCIALES",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "TENDENCIAS VISUALES",
+        "INSIGHT":  "El contenido visual de alto impacto en plataformas de video corto es ahora el motor principal para la viralización de lanzamientos en dermocosmética.",
+        "RESUMEN":  "Publicación visual que destaca tendencias estéticas o de producto, enfocada en captar la atención del consumidor joven mediante formatos dinámicos y narrativa aspiracional."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/procter-gamble-acquires-clean-label-otc-brand-wonderbelly/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "M\u0026A (FUSIONES Y ADQUISICIONES)",
+        "SUBCATEGORÍA":  "CLEAN LABEL OTC",
+        "INSIGHT":  "La adquisición de Wonderbelly por P\u0026G refleja la convergencia entre el cuidado personal y la salud digestiva bajo estándares de transparencia \"clean label\".",
+        "RESUMEN":  "P\u0026G adquiere Wonderbelly, una marca de medicamentos de venta libre (OTC) con ingredientes limpios, reforzando su portafolio en la intersección de salud, bienestar y consumo consciente."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/2026-predictions-the-future-of-the-global-cosmetics-industry/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE TENDENCIAS",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "PROYECCIÓN SECTORIAL",
+        "INSIGHT":  "El 2026 estará marcado por la \"biotecnología adaptativa\", donde los productos ajustarán su eficacia según biomarcadores en tiempo real detectados por dispositivos wearables.",
+        "RESUMEN":  "Predicciones clave para la industria global, enfocadas en la evolución del retail físico hacia centros de experiencia tecnológica y la consolidación de la sostenibilidad profunda en el desarrollo de activos."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/clinique-la-prairie-launches-life-reset-mental-health-longevity-program/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LONGEVIDAD Y BIENESTAR",
+        "INSIGHT":  "La inclusión de programas de salud mental en clínicas de lujo eleva el estándar del \"anti-aging\" hacia una regeneración cognitiva y emocional integral.",
+        "RESUMEN":  "Clinique La Prairie lanza \"Life Reset\", un programa que combina medicina de precisión con salud mental, reforzando el nexo entre el bienestar psicológico y la longevidad biológica."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/2025-beauty-industry-review-trends-tech-regulation/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "REVISIÓN ANUAL",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "ANÁLISIS RETROSPECTIVO",
+        "INSIGHT":  "El 2025 se consolidó como el año donde la regulación europea (MoCRA-style) obligó a las marcas a una re-formulación masiva bajo criterios de transparencia total.",
+        "RESUMEN":  "Resumen del año 2025 analizando el impacto de los avances en Beauty Tech, la consolidación de la economía circular y los cambios regulatorios que redefinieron la seguridad del consumidor."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/innovating-for-gen-x-the-future-of-beauty-in-2025/",
+        "AÑO":  "2025",
+        "MES":  "NOVIEMBRE",
+        "TIPO DE FUENTE":  "ANÁLISIS DEMOGRÁFICO",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "GENERACIÓN X",
+        "INSIGHT":  "La Generación X demanda soluciones específicas para la menopausia y el \"invisible aging\", un segmento con alto poder adquisitivo desatendido por el marketing juvenil.",
+        "RESUMEN":  "Informe sobre oportunidades de innovación para la Gen X, destacando la necesidad de productos para la salud hormonal, firmeza cutánea y comunicación basada en la autoridad científica."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/innovating-for-millennials-the-future-of-beauty-in-2025/",
+        "AÑO":  "2025",
+        "MES":  "OCTUBRE",
+        "TIPO DE FUENTE":  "ANÁLISIS DEMOGRÁFICO",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "MILLENNIALS",
+        "INSIGHT":  "Para los Millennials, la cosmética es una extensión de su identidad ética; la innovación debe centrarse en la eficacia \"eco-responsable\" y el bienestar holístico.",
+        "RESUMEN":  "Análisis de las prioridades de consumo Millennial, donde la prevención temprana, el uso de ingredientes biotecnológicos y la experiencia de marca omnicanal son los pilares de compra."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/innovating-gen-z-adults-the-future-of-beauty-in-2025/",
+        "AÑO":  "2025",
+        "MES":  "DICIEMBRE",
+        "TIPO DE FUENTE":  "ANÁLISIS DEMOGRÁFICO",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "GENERACIÓN Z",
+        "INSIGHT":  "La Gen Z prioriza el \"skin-intellectualism\", exigiendo transparencia radical en fórmulas y marcas que actúen como plataformas de cambio social.",
+        "RESUMEN":  "Informe sobre la evolución del consumidor Gen Z, destacando su preferencia por productos multifuncionales, sostenibilidad real y la influencia de comunidades nicho en redes sociales."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/global-cosmetics-news-weekly-review-week-3-january-2026/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "VIGILANCIA ESTRATÉGICA",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "REVISIÓN SEMANAL",
+        "INSIGHT":  "El monitoreo de patentes y movimientos de M\u0026A en la tercera semana de enero revela un enfoque agresivo en la personalización mediante biometría facial.",
+        "RESUMEN":  "Resumen semanal de noticias clave, incluyendo avances en formulación, cambios en el liderazgo de grandes grupos y actualizaciones sobre la cadena de suministro global."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/global-cosmetics-news-weekly-review-week-2-january-2026/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "VIGILANCIA ESTRATÉGICA",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "REVISIÓN SEMANAL",
+        "INSIGHT":  "Las fluctuaciones de mercado a inicios de año subrayan la importancia de la agilidad logística frente a las nuevas tensiones comerciales internacionales.",
+        "RESUMEN":  "Análisis semanal que cubre el desempeño de acciones de empresas de belleza, lanzamientos estratégicos y el impacto de nuevas normativas ambientales en el packaging."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/sunday-business-funding-the-future/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE INVERSIÓN",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "VENTURE CAPITAL",
+        "INSIGHT":  "El capital riesgo está migrando de las marcas directas al consumidor (DTC) hacia infraestructuras tecnológicas y proveedores de ingredientes biotecnológicos.",
+        "RESUMEN":  "Reportaje especial sobre el flujo de inversión en la industria, analizando cómo el financiamiento se está centrando en startups que resuelven problemas de sostenibilidad y personalización técnica."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/loreal-launch-new-device-lancome-nano-resurfacer-microneedling-inspired-treatments-home",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO TECNOLÓGICO",
+        "CATEGORÍA":  "PACKAGING E INNOVACIÓN",
+        "SUBCATEGORÍA":  "HOME DEVICES",
+        "INSIGHT":  "El lanzamiento del Nano-Resurfacer de Lancôme democratiza el microneedling, moviendo los procedimientos de cabina al entorno doméstico de lujo bajo máxima seguridad.",
+        "RESUMEN":  "Lancôme introduce un dispositivo inspirado en el microneedling que utiliza nanotecnología para potenciar la absorción de sérums, reforzando la apuesta de L\u0027Oréal por la Beauty Tech de alta gama."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/mesoestetic-pharma-group_seguimos-ampliando-nuestra-presencia-en-china-activity-7417600162946048001-hiI2",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "La consolidación de Mesoestetic en China mediante puntos de venta físicos refuerza el prestigio del \"Made in Spain\" en el mercado de dermocosmética profesional más competitivo.",
+        "RESUMEN":  "Mesoestetic anuncia la apertura de nuevos espacios en China, fortaleciendo su red de distribución y su posicionamiento como marca referente en tratamientos médicos y estéticos en la región."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/saks-global-creditors-bankruptcy-chapter11-chanel-estee-lauder-beiersdorf-puig",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RIESGO DE MERCADO",
+        "INSIGHT":  "El proceso de reestructuración de Saks Global pone en alerta a los gigantes del lujo, evidenciando la fragilidad del retail tradicional frente a la deuda acumulada.",
+        "RESUMEN":  "Grandes grupos como Chanel y Estée Lauder figuran como acreedores en el complejo escenario financiero de Saks, lo que podría redefinir las condiciones comerciales y de distribución en el sector de lujo."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/juanjoseibarra_ultabeauty-retaildebelleza-maezxico-activity-7416811589535920128-S0_N",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "RETAIL MÉXICO",
+        "INSIGHT":  "La inminente entrada de Ulta Beauty a México obligará a los jugadores locales a acelerar sus programas de lealtad y la digitalización de la experiencia en tienda.",
+        "RESUMEN":  "Juan José Ibarra analiza el impacto estratégico de la llegada de Ulta Beauty al mercado mexicano, destacando cómo su modelo de negocio omnicanal transformará la competencia en el retail de belleza."
+    },
+    {
+        "URL":  "https://www.instagram.com/p/DS0gmUFjYSw/?utm_source=ig_web_copy_link\u0026igsh=NTc4MTIwNjQ2YQ==",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST DE REDES SOCIALES",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "TENDENCIAS VISUALES",
+        "INSIGHT":  "El contenido efímero y estético se consolida como el principal canal de descubrimiento para lanzamientos nicho, priorizando el \"moodboard\" sobre el beneficio técnico.",
+        "RESUMEN":  "Publicación en Instagram que muestra las últimas estéticas de marca y tendencias visuales, enfocada en generar engagement directo con la audiencia a través de una narrativa aspiracional."
+    },
+    {
+        "URL":  "Https://www.gcimagazine.com/brands-products/news/news/22959382/lvmh-reports-stable-organic-revenue-in-perfumes-cosmetics-as-operating-profit-rises-8",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RESULTADOS TRIMESTRALES",
+        "INSIGHT":  "El crecimiento del 8% en el beneficio operativo de LVMH en perfumes y cosmética demuestra la resiliencia del sector de lujo frente a la volatilidad del consumo masivo.",
+        "RESUMEN":  "LVMH reporta ingresos orgánicos estables en su división de belleza, destacando un aumento en la rentabilidad operativa gracias a una gestión eficiente de costes y el éxito de sus fragancias icónicas."
+    },
+    {
+        "URL":  "https://www.cosmeticsandtoiletries.com/news/event-coverage/article/22958991/cosmetics-toiletries-magazine-10-new-frontiers-in-beauty-highlights-from-the-2025-incosmetics-asia-innovation-zone-plus-apac-goes-green-exclusive-reports",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE CONGRESO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "TENDENCIAS APAC",
+        "INSIGHT":  "La \"Belleza Metabolizante\" y la longevidad preventiva emergen como los nuevos pilares científicos, desplazando el enfoque del antienvejecimiento superficial hacia la optimización del metabolismo celular.",
+        "RESUMEN":  "Reporte exclusivo sobre in-cosmetics Asia 2025, destacando 10 fronteras clave como la neurocosmética (conexión mente-piel), el uso de exosomas para regeneración y la biotecnología consciente para una sostenibilidad de alto rendimiento."
+    },
+    {
+        "URL":  "Https://www.healthcarebusinesstoday.com/allergan-ha-filler-myths/",
+        "AÑO":  "2025",
+        "MES":  "SEPTIEMBRE",
+        "TIPO DE FUENTE":  "ANÁLISIS CLÍNICO",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "EDUCACIÓN AL PACIENTE",
+        "INSIGHT":  "Desmitificar la migración y la \"cara de relleno\" es crucial para recuperar al paciente premium que hoy prioriza resultados naturales y la reversibilidad del hialurónico.",
+        "RESUMEN":  "Allergan Aesthetics lanza un informe para combatir la desinformación sobre rellenos de AH, aclarando que la migración es rara y producto de mala técnica, y subrayando que el 90% de los usuarios busca naturalidad sobre volumen."
+    },
+    {
+        "URL":  "Https://www.linkedin.com/posts/isdin_isdin-leadership-purpose-activity-7421972030604005376-tsJw",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "LIDERAZGO CON PROPÓSITO",
+        "INSIGHT":  "El liderazgo basado en el propósito y la certificación B-Corp se convierten en activos intangibles que blindan la reputación de marca frente a un consumidor cada vez más escéptico.",
+        "RESUMEN":  "ISDIN reafirma su compromiso con el impacto social y ambiental, destacando cómo su cultura corporativa centrada en el propósito impulsa la innovación en fotoprotección y la fidelidad de sus comunidades globales."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/ciroa-lands-in-boots/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "RETAIL \u0026 DISTRIBUCIÓN",
+        "INSIGHT":  "El salto de Ciroa de D2C a Boots en 4 meses demuestra que el \"aroma viral\" y el precio accesible son la puerta de entrada más rápida al consumo masivo de la Gen Z.",
+        "RESUMEN":  "La marca australiana Ciroa debuta en Boots UK, capitalizando la tendencia del \"Everything Shower\". Con precios de £8-£10 y fragancias tipo gourmet, la marca escala de nicho viral a jugador mainstream nacional."
+    },
+    {
+        "URL":  "https://www.mddionline.com/ma/inmode-reportedly-nearing-1-1b-acquisition-with-foreign-investment-fund",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE M\u0026A",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "ADQUISICIÓN ESTRATÉGICA",
+        "INSIGHT":  "La posible privatización de InMode por $1.1B refleja una infravaloración del sector MedTech estético, señalando una oportunidad de consolidación para fondos de inversión extranjeros.",
+        "RESUMEN":  "InMode Ltd. está en conversaciones avanzadas para ser adquirida por un fondo de inversión extranjero por aproximadamente 1.100 millones de dólares, lo que representaría una prima del 23.5% sobre su valor de mercado reciente y su salida de Nasdaq."
+    },
+    {
+        "URL":  "https://koreajoongangdaily.joins.com/news/2026-01-16/business/industry/Koreas-Hugel-to-launch-direct-sales-in-bid-to-expand-share-in-US-medical-aesthetics-market/2501685",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "El giro de Hugel hacia las ventas directas en EE.UU. busca capturar mayores márgenes y competir frontalmente con toxinas establecidas mediante una estructura de precios más ágil.",
+        "RESUMEN":  "La firma coreana Hugel anuncia que operará bajo un modelo de venta directa en el mercado estadounidense de estética médica, con el objetivo de ganar cuota de mercado tras la aprobación de su toxina botulínica Letybo."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/h%26m_behind-the-scenes-activity-7422292553376432128-4jV5",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "TRANSPARENCIA DE MARCA",
+        "INSIGHT":  "El contenido \"Behind the Scenes\" humaniza a los gigantes del retail, utilizando el storytelling de procesos para conectar con la demanda de autenticidad del consumidor actual.",
+        "RESUMEN":  "H\u0026M comparte una mirada interna a sus procesos de diseño y producción, reforzando su narrativa de evolución hacia prácticas más integradas y transparentes en su cadena de valor."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/global-cosmetic-industry-gci-_the-tariff-mitigation-secret-every-beauty-activity-7422289084645130240-L9GI",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "OPERACIONES Y SUPPLY CHAIN",
+        "SUBCATEGORÍA":  "GESTIÓN ARANCELARIA",
+        "INSIGHT":  "La optimización de estrategias arancelarias se convierte en una ventaja competitiva crítica para mantener márgenes ante las fluctuantes políticas de comercio internacional.",
+        "RESUMEN":  "GCI destaca estrategias clave de mitigación de aranceles para empresas de belleza, analizando cómo la reubicación de suministros y el uso de regímenes aduaneros especiales pueden proteger la rentabilidad."
+    },
+    {
+        "URL":  "Https://www.gcimagazine.com/brands-products/bath-body/news/22959455/target-unveils-its-largestever-spring-beauty-reset-doubling-down-on-prestigeatmass-kbeauty-and-skin-health",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "RETAIL RESET",
+        "INSIGHT":  "El \"Spring Reset\" de Target valida la consolidación del Prestige-at-Mass, donde la K-Beauty y la salud de la barrera cutánea dominan el lineal masivo.",
+        "RESUMEN":  "Target lanza su mayor renovación de primavera en la categoría de belleza, duplicando su apuesta por marcas premium accesibles, productos de salud cutánea y una expansión agresiva de marcas coreanas."
+    },
+    {
+        "URL":  "Https://cosmeticsbusiness.com/how-male-fragrances-are-getting-an-elevation-2026",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "FRAGANCIAS MASCULINAS",
+        "INSIGHT":  "La premiumización de la perfumería masculina hacia extractos y elixires refleja una sofisticación del consumidor que ahora valora la estela y la longevidad sobre el frescor tradicional.",
+        "RESUMEN":  "Análisis sobre la elevación del mercado de fragancias para hombres en 2026, destacando la transición hacia concentraciones más altas, el uso de ingredientes nicho y un branding más artístico y menos estereotipado."
+    },
+    {
+        "URL":  "https://www.elfinanciero.com.mx/mundo-empresa/2026/01/27/docplanner-alcanza-la-rentabilidad-y-consolida-su-apuesta-por-la-inteligencia-artificial-en-salud/#",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "IA \u0026 HEALTHCARE",
+        "INSIGHT":  "La rentabilidad de DocPlanner valida el modelo de digitalización sanitaria, donde la IA ya no es experimental sino el núcleo operativo para la gestión de pacientes.",
+        "RESUMEN":  "DocPlanner logra rentabilidad financiera y anuncia una inversión masiva en IA para automatizar diagnósticos preliminares y gestión de citas, consolidando su liderazgo en la digitalización de clínicas médicas y estéticas."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/unilever-appoints-abhinav-ravikumar-as-cmo-for-personal-care-india/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "LIDERAZGO EJECUTIVO",
+        "INSIGHT":  "El nombramiento de un nuevo CMO en India refuerza la intención de Unilever de capturar el mercado de cuidado personal mediante estrategias de marketing localizadas y digitales.",
+        "RESUMEN":  "Unilever nombra a Abhinav Ravikumar como Director de Marketing para su división de Personal Care en India, buscando acelerar el crecimiento en una de las regiones con mayor penetración de consumo masivo."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/givaudan-sales-top-chf-7-5-billion-in-2025",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RESULTADOS ANUALES",
+        "INSIGHT":  "El récord de ventas de Givaudan subraya la resiliencia del sector de fragancias y la creciente demanda de ingredientes naturales y sostenibles por parte de los fabricantes.",
+        "RESUMEN":  "Givaudan supera los 7.500 millones de francos suizos en ventas durante 2025, impulsada por un sólido desempeño en su división de fragancias de lujo y una recuperación sostenida de los mercados emergentes."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/brazil-opens-public-consultations-on-cosmetics-and-fragrance-packaging-rules/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS REGULATORIO",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "REGULACIÓN DE PACKAGING",
+        "INSIGHT":  "Brasil endurece sus estándares de etiquetado y envases, alineándose con las normativas globales de sostenibilidad y forzando a las marcas a revisar su compliance regional.",
+        "RESUMEN":  "El gobierno brasileño abre consultas públicas para actualizar las reglas de empaque en cosméticos y fragancias, enfocándose en la reducción de residuos y la claridad de la información ambiental para el consumidor."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/americas-best-beauty-exports/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "REPORTE DE MERCADO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPORTACIONES \u0026 GLOBALIZACIÓN",
+        "INSIGHT":  "Las marcas estadounidenses de \"Heritage\" y tecnología clínica lideran las exportaciones, capitalizando la percepción global de eficacia y seguridad dermatológica.",
+        "RESUMEN":  "Un análisis de las marcas de belleza de EE.UU. con mayor éxito internacional, destacando cómo el enfoque en la innovación de ingredientes y el branding aspiracional está dominando los mercados europeos y asiáticos."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/dove-launches-first-refillable-anti-perspirant-range/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "ECONOMÍA CIRCULAR",
+        "INSIGHT":  "El movimiento de Dove hacia desodorantes recargables masifica la sostenibilidad, obligando a los competidores del mercado masivo a reducir plásticos vírgenes.",
+        "RESUMEN":  "Dove introduce su primera gama de antitranspirantes recargables con envases de acero inoxidable diseñados para durar toda la vida, buscando reducir drásticamente el desperdicio de plástico en el consumo diario."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/coty_coty-kyliecosmetics-influencermarketing-activity-7422771340106973184-oxWy",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "INFLUENCER STRATEGY",
+        "INSIGHT":  "Coty refuerza el valor de Kylie Cosmetics mediante una integración más profunda de datos y marketing de influencia, optimizando la conversión en tiempo real.",
+        "RESUMEN":  "Coty destaca el éxito continuo de su colaboración con Kylie Cosmetics, enfocándose en cómo el uso estratégico de influencers y contenido digital sigue siendo el motor de crecimiento para la marca a nivel global."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/stripes-beauty-lands-at-ulta-beauty/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "MENOPAUSE BEAUTY",
+        "INSIGHT":  "El ingreso de Stripes a Ulta consolida el \"Menopause Care\" como una categoría de alto crecimiento y relevancia clínica dentro del retail masivo.",
+        "RESUMEN":  "Stripes Beauty, la marca de Naomi Watts enfocada en el cuidado de la piel durante la menopausia, expande su distribución física al ingresar a Ulta Beauty, ampliando el acceso a soluciones hormonales específicas."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/procter-gamble-acquires-digestive-health-brand-wonderbelly",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "M\u0026A (FUSIONES Y ADQUISICIONES)",
+        "SUBCATEGORÍA":  "SALUD HOLÍSTICA",
+        "INSIGHT":  "La adquisición de Wonderbelly por P\u0026G subraya la convergencia del bienestar digestivo y la belleza personal, bajo el paraguas de ingredientes \"clean label\".",
+        "RESUMEN":  "P\u0026G Health adquiere Wonderbelly, una marca de alivio digestivo con enfoque en transparencia de ingredientes, alineándose con la tendencia de salud integral que demanda el consumidor moderno."
+    },
+    {
+        "URL":  "https://www.cosmetify.com/the-cosmetify-index/2025/q3/",
+        "AÑO":  "2025",
+        "MES":  "OCTUBRE",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "RANKING DE MARCAS",
+        "INSIGHT":  "El Cosmetify Index del Q3 revela que la viralidad en plataformas de video corto sigue dictando el valor de mercado y la deseabilidad de las marcas de belleza.",
+        "RESUMEN":  "Publicación del reporte trimestral de Cosmetify que analiza las marcas más buscadas, el crecimiento en redes sociales y las tendencias de consumo, posicionando a los líderes actuales del ecosistema beauty."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/bain-submits-binding-bid-for-finetoday-as-asia-beauty-demand-shifts/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE M\u0026A",
+        "CATEGORÍA":  "M\u0026A (FUSIONES Y ADQUISICIONES)",
+        "SUBCATEGORÍA":  "PRIVATE EQUITY",
+        "INSIGHT":  "La oferta vinculante de Bain por FineToday confirma que los inversores ven en el cuidado personal asiático un refugio de valor frente a la volatilidad del lujo.",
+        "RESUMEN":  "Bain Capital presenta una oferta formal para adquirir FineToday (ex-Shiseido), reflejando un cambio estratégico en la demanda asiática hacia el cuidado personal diario y marcas accesibles de alta rotación."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/januarys-best-beauty-launches-2026/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "REPORTE DE LANZAMIENTOS",
+        "CATEGORÍA":  "LANZAMIENTO PRODUCTO",
+        "SUBCATEGORÍA":  "TENDENCIAS RETAIL",
+        "INSIGHT":  "Los lanzamientos de enero 2026 consolidan el \"Skin-Streamlining\": rutinas más cortas pero con dispositivos tecnológicos de soporte clínico.",
+        "RESUMEN":  "Recopilación de los productos más destacados del mes, subrayando el predominio de fórmulas híbridas (skincare+makeup) y el auge de los activos fermentados en el mercado masivo."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/maybelline-new-york-appoints-teens-in-times-as-global-partners/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "INFLUENCER PARTNERSHIP",
+        "INSIGHT":  "La alianza con \"Teens in Times\" permite a Maybelline penetrar en el mercado Gen Z asiático mediante la cultura pop, uniendo música y estética visual.",
+        "RESUMEN":  "Maybelline New York nombra al grupo de pop chino Teens in Times (TNT) como embajadores globales, buscando fortalecer su relevancia en mercados asiáticos clave a través del entretenimiento masivo."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/ingestibles-supplements/news/22956615/top-10-wellness-brands-gaining-tiktok-momentum",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE TENDENCIAS DIGITALES",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "TIKTOK VIRALITY",
+        "INSIGHT":  "La validación por pares en TikTok es ahora el principal impulsor de ventas en suplementos, superando a la publicidad tradicional en credibilidad inmediata.",
+        "RESUMEN":  "Ranking de las 10 marcas de bienestar con mayor crecimiento en TikTok, analizando cómo el contenido de \"edu-tainment\" está impulsando la categoría de nutricosmética y salud digestiva."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/skin-care/news/22959035/image-skincare-image-skincare-reinstates-cofounder-marc-ronert-as-ceo-doubling-down-on-clinical-authority-and-glp1era-innovation",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO EJECUTIVO",
+        "INSIGHT":  "El regreso de Marc Ronert como CEO busca blindar la autoridad clínica de Image Skincare para liderar el nicho de \"soluciones cutáneas para usuarios de GLP-1\".",
+        "RESUMEN":  "Image Skincare reincorpora a su cofundador Marc Ronert como CEO con el objetivo de acelerar la innovación clínica y capitalizar las oportunidades de mercado que surgen de la pérdida de peso asistida por fármacos."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/indie-fragrance-players-outpaced-beauty-giants-2025",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "PERFUMERÍA NICHO",
+        "INSIGHT":  "El crecimiento de las fragancias independientes sobre los gigantes del sector confirma que el consumidor actual valora la exclusividad y la narrativa artesanal por encima del reconocimiento de marca masivo.",
+        "RESUMEN":  "Informe sobre el desempeño de 2025 donde las marcas de fragancias \"indie\" superaron en crecimiento porcentual a las grandes corporaciones, impulsadas por la personalización y la distribución selectiva."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/skin-care/news/22958412/drunk-elephant-says-goodbye-to-sephora-kids-with-new-ageappropriate-campaign",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "SEGMENTO JUVENIL",
+        "INSIGHT":  "Drunk Elephant pivota su comunicación para mitigar el uso de activos potentes en menores, protegiendo su reputación de marca frente a la presión regulatoria sobre la \"belleza infantil\".",
+        "RESUMEN":  "La marca lanza una campaña educativa dirigida a los \"Sephora Kids\" y sus padres, recomendando rutinas básicas y seguras para pieles jóvenes en lugar de protocolos complejos de antienvejecimiento."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/cerave-launches-skincident-hotline-to-address-winter-dry-skin/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "CAMPAÑA DE CONSUMO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "ATENCIÓN AL CLIENTE",
+        "INSIGHT":  "El uso de \"hotlines\" y asesoría directa refuerza la autoridad médica de CeraVe, transformando una necesidad estacional en un punto de contacto educativo y de fidelización.",
+        "RESUMEN":  "CeraVe presenta la línea \"Skincident\", un servicio de atención directa para diagnosticar y tratar problemas de sequedad invernal, fortaleciendo su posicionamiento como marca accesible de recomendación dermatológica."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/retail/brick-and-mortar/news/22959247/ulta-beauty-lands-in-the-uae-fasttracking-middle-east-expansion",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "La entrada de Ulta en los Emiratos Árabes Unidos marca una fase agresiva de globalización, compitiendo directamente con Sephora en mercados de alto gasto per cápita.",
+        "RESUMEN":  "Ulta Beauty anuncia su aterrizaje físico en los Emiratos Árabes, acelerando su plan de expansión en Oriente Medio mediante tiendas de gran formato que combinan marcas de prestigio y farmacia."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/moroccanoil-expands-into-skincare/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXTENSIÓN DE LÍNEA",
+        "INSIGHT":  "Moroccanoil capitaliza el valor de marca del aceite de argán para penetrar en el cuidado facial, buscando convertir su éxito capilar en un ecosistema de bienestar completo.",
+        "RESUMEN":  "La marca icónica de cuidado capilar Moroccanoil expande oficialmente su portafolio hacia el cuidado de la piel, lanzando una línea facial basada en las propiedades nutritivas y antioxidantes del argán."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/the-best-suncare-for-the-slopes/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE TENDENCIAS",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "PROTECCIÓN SOLAR",
+        "INSIGHT":  "La especialización de la fotoprotección para condiciones extremas (nieve/altitud) abre una oportunidad estacional para fórmulas de alta adherencia y reparación de barrera.",
+        "RESUMEN":  "Guía sobre los mejores protectores solares para esquí, destacando productos con alta protección UV, resistencia al frío y propiedades hidratantes para prevenir la quemadura por viento."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/devices-tech/news/22957609/how-brands-can-navigate-beauty-ai-with-a-human-touch",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS ESTRATÉGICO",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "BEAUTY TECH",
+        "INSIGHT":  "El éxito de la IA en belleza depende de su capacidad para potenciar la empatía y la asesoría humana, no para reemplazarla, asegurando la confianza del consumidor.",
+        "RESUMEN":  "Análisis sobre la implementación ética de la IA en cosmética, subrayando que la personalización tecnológica debe ir acompañada de un toque humano para mantener la lealtad y la credibilidad."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/ingredients/skin-care/news/22958273/debut-57847-debut-appoints-derek-wanner-as-chief-commercial-officer-to-accelerate-biotechpowered-beauty-innovation",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO EJECUTIVO",
+        "INSIGHT":  "El nombramiento de un CCO en Debut indica una fase de comercialización agresiva para sus activos biotecnológicos, buscando escalar su presencia en el mercado B2B.",
+        "RESUMEN":  "Debut nombra a Derek Wanner como Director Comercial para liderar la expansión de su plataforma de innovación biotecnológica y acelerar la adopción de sus ingredientes de alto rendimiento."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/emporio-armani-taps-kendall-jenner-as-global-fragrance-ambassador/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "CELEBRITY ENDORSEMENT",
+        "INSIGHT":  "La alianza con Kendall Jenner busca rejuvenecer la imagen de las fragancias Armani, capturando la atención de una audiencia global mediante el prestigio de una súper estrella.",
+        "RESUMEN":  "Emporio Armani nombra a Kendall Jenner como embajadora global de sus fragancias, apostando por su enorme alcance digital para impulsar la relevancia de la marca en el segmento joven de lujo."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/functional-fragrance-everything-you-need-to-know/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "NEUROCOSMÉTICA",
+        "INSIGHT":  "Las fragancias funcionales transforman el perfume de un accesorio estético a una herramienta de gestión emocional, alineándose con el auge de la salud mental.",
+        "RESUMEN":  "Informe detallado sobre la perfumería funcional, explicando cómo el uso de neurociencia permite crear aromas que reducen el estrés o aumentan el enfoque y la energía del usuario."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/pat-mcgrath-cosmetics-files-for-chapter-11-bankruptcy-protection-in-the-us/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN",
+        "INSIGHT":  "La quiebra de Pat McGrath evidencia que ni siquiera el prestigio artístico extremo protege a las marcas independientes de los desafíos de flujo de caja y costes operativos.",
+        "RESUMEN":  "Pat McGrath Cosmetics se acoge al Capítulo 11 de la ley de quiebras en EE.UU. para reestructurar su deuda, reflejando las presiones financieras que enfrentan las marcas de lujo \"indie\" en el retail actual."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/tubby-todd-enters-target/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "RETAIL \u0026 DISTRIBUCIÓN",
+        "INSIGHT":  "El debut de Tubby Todd en Target marca la entrada de soluciones para pieles sensibles en el canal masivo, elevando el estándar de cuidado familiar accesible.",
+        "RESUMEN":  "Tubby Todd expande su presencia física lanzando en más de 1,100 tiendas Target. La marca busca llevar sus productos \"clean\" para eccema y piel sensible a las familias que priorizan la conveniencia sin sacrificar la eficacia."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/2026-year-of-boomer-beauty-economy",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "SILVER ECONOMY",
+        "INSIGHT":  "La industria pivota hacia los Baby Boomers en 2026, reconociendo su alto poder adquisitivo y su lealtad a marcas que priorizan la longevidad sobre la juventud eterna.",
+        "RESUMEN":  "Análisis de cómo el sector está dejando de lado la obsesión con la Gen Z para enfocarse en los Boomers, quienes valoran la eficacia real y productos que apoyen un envejecimiento saludable y activo."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/interview-angelo-castello-of-facegym/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ENTREVISTA EJECUTIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "MODELO DE FRANQUICIAS",
+        "INSIGHT":  "FaceGym escala su modelo de \"fitness facial\" globalmente, demostrando que el servicio experiencial es el motor de retención más potente para marcas de nicho.",
+        "RESUMEN":  "El CEO Angelo Castello detalla la transición de FaceGym hacia un modelo de franquicia escalable, buscando democratizar el entrenamiento muscular facial como un pilar fundamental del bienestar y la belleza."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/l-catterton-to-acquire-minority-stake-in-fragrance-house-ex-nihilo/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "M\u0026A (FUSIONES Y ADQUISICIONES)",
+        "SUBCATEGORÍA":  "PRIVATE EQUITY",
+        "INSIGHT":  "La inversión de L Catterton en Ex Nihilo subraya la resiliencia del lujo francés y la apuesta por la personalización como el próximo gran motor de crecimiento.",
+        "RESUMEN":  "L Catterton adquiere una participación minoritaria significativa en la casa de perfumes Ex Nihilo para acelerar su expansión digital y física, especialmente en el mercado de Estados Unidos y China."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/parfums-christian-dior_diorbeauty-diorskincare-diorcapture-ugcPost-7421585667039612929-SPA6",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "BRAND AMBASSADORS",
+        "INSIGHT":  "Dior redefine la \"feminidad moderna\" uniendo a iconos como Glenn Close y Venus Williams, enviando un mensaje de empoderamiento y eficacia transgeneracional.",
+        "RESUMEN":  "Dior Beauty relanza su línea Capture con una campaña multigenacional. Al incluir embajadoras de diversos perfiles y edades, la marca refuerza su autoridad en el cuidado de la piel basado en la ciencia de la longevidad."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/consumers-markets/news/22956924/the-beauty-contract-whats-fueling-the-top-10-gen-z-brands-and-products",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "GENERACIÓN Z",
+        "INSIGHT":  "El éxito con la Gen Z no depende de la lealtad histórica, sino de un \"contrato\" de eficacia inmediata y coherencia ética radical.",
+        "RESUMEN":  "Informe sobre las 10 marcas preferidas por la Gen Z, destacando que la viralidad técnica y el propósito social son los motores que están desplazando a las marcas tradicionales del top-of-mind."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/indu-begins-global-expansion-via-partnership-with-sephora",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "TEEN SKINCARE",
+        "INSIGHT":  "La entrada de Indu en Sephora oficializa al \"adolescente consciente\" como un segmento de mercado independiente y lucrativo.",
+        "RESUMEN":  "La marca británica Indu inicia su expansión internacional en Australia y Nueva Zelanda de la mano de Sephora, enfocándose en rutinas holísticas seguras para pieles jóvenes en pleno cambio hormonal."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/bath-body/news/22958305/seven-bucks-companies-appoints-unilever-vet-cara-robinson-as-first-chief-brand-officer",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO EJECUTIVO",
+        "INSIGHT":  "El paso de ejecutivos de CPG tradicionales a marcas de celebridades marca el fin de la era del \"simple endorsement\" para entrar en la era de la \"corporación de celebridad\".",
+        "RESUMEN":  "Seven Bucks Companies (propiedad de The Rock) ficha a Cara Robinson, ex-Unilever, como su primera CBO para transformar sus marcas de cuidado personal en potencias globales con estructura de multinacional."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/demi-moore-named-global-brand-ambassador-for-kerastase/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "PRO-AGING LUXURY",
+        "INSIGHT":  "La belleza capilar de lujo se redefine a través de la \"madurez aspiracional\", utilizando a Demi Moore para validar la eficacia en el segmento de mayor poder adquisitivo.",
+        "RESUMEN":  "Kérastase nombra a Demi Moore embajadora global, buscando conectar con consumidoras que ven el envejecimiento como una etapa de máximo cuidado personal y sofisticación técnica."
+    },
+    {
+        "URL":  "https://www.modernretail.co/marketing/mac-cosmetics-maps-out-its-holiday-live-shopping-push/",
+        "AÑO":  "2025",
+        "MES":  "DICIEMBRE",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MARKETING",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "LIVE SHOPPING",
+        "INSIGHT":  "El Live Shopping se consolida como la herramienta definitiva para convertir la \"inspiración de TikTok\" en transacciones directas sin fricción.",
+        "RESUMEN":  "MAC Cosmetics detalla su despliegue de ventas en vivo para la temporada festiva, utilizando anfitriones expertos para demostrar productos en tiempo real y cerrar ventas mediante integraciones de pago instantáneo."
+    },
+    {
+        "URL":  "https://www.cosmeticsbusiness.com/boots-group-ceo-to-retire-with-uk-boss-taking-on-more-responsibility",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO EJECUTIVO",
+        "INSIGHT":  "La transición de mando en Boots prioriza la agilidad operativa local para defender su cuota de mercado ante la creciente presión de la distribución digital.",
+        "RESUMEN":  "El CEO de Boots Group se jubila, transfiriendo la autoridad al jefe del Reino Unido. Este movimiento busca simplificar la estructura jerárquica para acelerar la transformación de sus tiendas físicas en centros de salud y belleza integral."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/ingestibles-supplements/news/22953308/beautys-whats-on-the-inside-ingestible-beauty-takeaways-for-2026",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE TENDENCIAS",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "BELLEZA INGESTIBLE",
+        "INSIGHT":  "La belleza \"desde dentro\" evoluciona hacia la longevidad celular; el consumidor ahora busca suplementos que actúen sobre la expresión génica y el microbioma.",
+        "RESUMEN":  "Análisis de la nutricosmética en 2026, destacando el auge de los \"psicobióticos\" (salud mental-piel) y soluciones que combinan la reparación de la barrera cutánea con la gestión del cortisol."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/jennie-garth-is-the-new-face-of-it-cosmetics/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "CELEBRITY ENDORSEMENT",
+        "INSIGHT":  "El uso de figuras auténticas de la Generación X permite a las marcas de maquillaje clínico ganar credibilidad en un mercado saturado de filtros digitales.",
+        "RESUMEN":  "IT Cosmetics nombra a Jennie Garth como embajadora, capitalizando su honestidad sobre la rosácea y el envejecimiento real para posicionar sus productos de alta cobertura como herramientas de confianza."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/valentino-beauty-loreal-luxe-phase-out-korea-2026",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "SALIDA DE MERCADO",
+        "INSIGHT":  "El repliegue de Valentino en Corea del Sur es una lección de humildad para el lujo europeo frente a la sofisticación extrema de los consumidores de K-Beauty.",
+        "RESUMEN":  "L\u0027Oréal Luxe retirará gradualmente a Valentino Beauty del mercado surcoreano para 2026. La decisión responde a un ajuste estratégico tras no alcanzar los objetivos de penetración en un ecosistema altamente competitivo."
+    },
+    {
+        "URL":  "https://www.galderma.com/news/galderma-us-fda-acceptance-relabotulinumtoxina-application",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "INYECTABLES",
+        "INSIGHT":  "La nueva toxina líquida de Galderma promete estandarizar los resultados estéticos al eliminar las variables de mezcla, reduciendo tiempos en clínica.",
+        "RESUMEN":  "Galderma logra la aceptación de la FDA para su toxina líquida RelabotulinumtoxinA. Este avance tecnológico busca ofrecer una acción más rápida y duradera, posicionándose como el competidor más fuerte de Botox en la década."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/dior-lands-bridgertons-florence-hunt-brand-ambassador",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "GEN Z AMBASSADORS",
+        "INSIGHT":  "El fichaje de Florence Hunt (Bridgerton) busca fusionar la elegancia clásica con la viralidad del streaming para rejuvenecer el legado de Dior.",
+        "RESUMEN":  "Dior Beauty nombra a Florence Hunt como embajadora global. La actriz representará tanto la división de belleza como la de moda, reforzando la apuesta de la casa por capturar el mercado joven a través de íconos de la cultura pop actual."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/coty_coty-responsibleai-innovation-ugcPost-7424075319650725888-xWCe",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "IA RESPONSABLE",
+        "INSIGHT":  "Coty redefine la innovación mediante un marco de \"IA Responsable\", priorizando la autenticidad humana y la privacidad en la era de la belleza digital.",
+        "RESUMEN":  "Coty presenta su visión sobre el uso ético de la IA, estableciendo directrices para asegurar que las herramientas tecnológicas potencien la creatividad y la personalización sin sacrificar la transparencia con el consumidor."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/the-business-of-fashion_compared-to-other-global-citizens-europeans-activity-7424013815933128704-aIRg",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE CONSUMIDOR",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "MERCADO EUROPEO",
+        "INSIGHT":  "El consumidor europeo muestra una resistencia estructural al gasto, obligando a las marcas a justificar el precio mediante una calidad y durabilidad tangibles.",
+        "RESUMEN":  "BoF analiza la disparidad de consumo global, señalando que los europeos están siendo más cautelosos que los ciudadanos de otras regiones, priorizando el valor real sobre el impulso de compra por tendencia."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/cyklar-is-headed-to-sephora/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "CLEAN BODYCARE",
+        "INSIGHT":  "La expansión de Cyklar a Sephora consolida el \"Bodycare facializado\": tratar el cuerpo con el mismo nivel de activos y prestigio que el rostro.",
+        "RESUMEN":  "Cyklar, la marca fundada por Claudia Sulewski, anuncia su entrada en 450 tiendas Sephora. Su enfoque en fórmulas limpias y longevidad de producto resuena con la demanda actual de autocuidado consciente y de alta gama."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/colgate-palmolive-reports-full-year-2025-sales-growth-as-impairment-weighs-on-gaap-earnings/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RESULTADOS ANUALES",
+        "INSIGHT":  "El deterioro del negocio de \"Skin Health\" (Filorga) en China obliga a Colgate a resetear sus expectativas de crecimiento premium ante un mercado asiático más débil.",
+        "RESUMEN":  "Colgate-Palmolive reporta ventas récord de $20.38B en 2025, pero su beneficio neto sufre un impacto de $794M por el deterioro de activos en su división de cuidado de la piel, reflejando dificultades operativas en China."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/private-equity-firms-line-up-for-potential-vitabiotics-acquisition/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE M\u0026A",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "PRIVATE EQUITY",
+        "INSIGHT":  "El interés de los fondos en Vitabiotics confirma que la salud preventiva es el activo más codiciado en la convergencia entre farma y belleza.",
+        "RESUMEN":  "Varias firmas de capital privado compiten por la adquisición de Vitabiotics, el gigante británico de suplementos. La operación subraya la valoración al alza de marcas con autoridad científica en el sector del bienestar."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/l-or%C3%A9al-bold-and-unilever-ventures-invest-live-tinted",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE INVERSIÓN",
+        "CATEGORÍA":  "M\u0026A (FUSIONES Y ADQUISICIONES)",
+        "SUBCATEGORÍA":  "VENTURE CAPITAL",
+        "INSIGHT":  "La inversión conjunta de L\u0027Oréal y Unilever en Live Tinted valida la \"belleza inclusiva\" como un imperativo comercial, no solo como una tendencia de marketing.",
+        "RESUMEN":  "L\u0027Oréal BOLD y Unilever Ventures unen fuerzas para invertir en Live Tinted, una marca enfocada en soluciones para la hiperpigmentación en tonos de piel diversos, acelerando su expansión en el retail global."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/interparfums-signs-long-term-global-fragrance-license-with-david-beckham/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LICENCIAS DE LUJO",
+        "INSIGHT":  "El traspaso de la licencia de Beckham a Interparfums busca elevar la marca hacia el segmento \"premium-plus\", alejándola del mercado masivo tradicional.",
+        "RESUMEN":  "Interparfums firma un acuerdo de licencia global a largo plazo con David Beckham. La compañía planea revitalizar el portafolio de fragancias bajo un enfoque de lujo que aproveche el estatus de icono global del deportista."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/dove-mencare-launches-mood-boosting-aluminum-free-deodorants-with-nic-vansteenberghe/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "NEUROCOSMÉTICA MASCULINA",
+        "INSIGHT":  "La transición del desodorante funcional al \"mood-booster\" abre una nueva frontera en el cuidado personal masculino enfocado en el bienestar emocional.",
+        "RESUMEN":  "Dove Men+Care lanza una línea de desodorantes sin aluminio diseñados con tecnología de fragancia que estimula el estado de ánimo, colaborando con expertos para atraer al consumidor consciente de la salud mental."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/edgewell-sells-feminine-care-business-to-essity-for-us340m/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "DESINVERSIÓN ESTRATÉGICA",
+        "INSIGHT":  "La venta de la división de higiene femenina permite a Edgewell concentrar sus recursos en el crecimiento de sus marcas de cuidado solar y afeitado premium.",
+        "RESUMEN":  "Edgewell Personal Care completa la venta de su negocio de cuidado femenino a Essity por 340 millones de dólares, una movida estratégica para optimizar su portafolio hacia categorías de mayor margen y crecimiento."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/the-business-of-fashion_new-challenger-is-taking-on-sephora-in-its-activity-7424493420951437312-tewm",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "COMPETENCIA RETAIL",
+        "INSIGHT":  "La emergencia de competidores locales ultra-especializados está forzando a Sephora a descentralizar su estrategia y adaptarse a micro-tendencias regionales.",
+        "RESUMEN":  "BoF analiza cómo nuevos jugadores en mercados clave están desafiando el dominio de Sephora mediante experiencias de compra más personalizadas, curaduría de marcas nicho y programas de lealtad más agresivos."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/gillette-india-profit-jumps-on-demand-for-grooming-products/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "MERCADOS EMERGENTES",
+        "INSIGHT":  "El crecimiento de Gillette en India confirma que el \"premium grooming\" masculino es la categoría con mayor resiliencia en las economías en desarrollo.",
+        "RESUMEN":  "Gillette India reporta un salto significativo en sus beneficios anuales impulsado por una demanda récord de productos de afeitado de alta gama y una expansión exitosa en el segmento de cuidado personal masculino."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/predictive-protective-planet-positive-redefining-hair-care-for-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE TENDENCIAS",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "HAIRCARE 2026",
+        "INSIGHT":  "El cuidado capilar se vuelve \"predictivo\", utilizando análisis de datos para prevenir daños antes de que ocurran, integrando la salud del cuero cabelludo con la sostenibilidad.",
+        "RESUMEN":  "Análisis de las tres \"P\" que definirán el haircare en 2026: Predictivo (IA), Protector (escudos ambientales) y Planeta-Positivo (fórmulas que regeneran recursos), elevando la categoría a estándares de skincare."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/juanjoseibarra_blushbar-retaildebelleza-experienciadecliente-activity-7424435715649748992-d12j",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "RETAIL LATAM",
+        "INSIGHT":  "Blush-Bar demuestra que el éxito del retail físico en LATAM reside en la \"experiencia sensorial\" y la educación personalizada que el e-commerce no puede replicar.",
+        "RESUMEN":  "Juan José Ibarra destaca el crecimiento de Blush-Bar como referente de experiencia de cliente, analizando cómo su modelo de proximidad y asesoría experta está ganando terreno frente a los grandes almacenes."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/stripes-beauty-launches-at-ulta-beauty-through-wellness-boutique-rollout/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "WELLNESS \u0026 MENOPAUSE",
+        "INSIGHT":  "La entrada de Stripes Beauty en Ulta a través de sus \"boutiques de bienestar\" valida la integración definitiva de la salud hormonal en el pasillo de la belleza.",
+        "RESUMEN":  "Stripes Beauty (la marca de Naomi Watts para la menopausia) se expande a Ulta Beauty. El lanzamiento se apoya en un concepto de \"bienestar integral\", educando al consumidor sobre la conexión entre cambios hormonales y necesidades cutáneas."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/charlotte-tilbury-pop-grip-powder-compact-phone-acessory-revolution-beauty",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "ACCESORIOS E HÍBRIDOS",
+        "INSIGHT":  "La integración del maquillaje en el hardware móvil (PopSocket) transforma el cosmético en un accesorio utilitario de uso constante, aumentando la frecuencia de retoque y visibilidad de marca.",
+        "RESUMEN":  "Charlotte Tilbury lanza un compacto de polvos que se integra como PopGrip para teléfonos. Esta colaboración con PopSockets busca capitalizar la necesidad de practicidad de la Gen Z, fusionando la tecnología cotidiana con el lujo cosmético en un formato \"on-the-go\"."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/lor%C3%A9al_christy-turlington-lanc%C3%B4me-ugcPost-7424496928773554178-qu7F",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "ICONOS Y LEGADO",
+        "INSIGHT":  "El regreso de Christy Turlington a Lancôme simboliza una apuesta por la \"belleza eterna\" y la salud de la piel sobre las tendencias efímeras, apelando al segmento de alto poder adquisitivo.",
+        "RESUMEN":  "L\u0027Oréal anuncia la reincorporación de Christy Turlington como embajadora de Lancôme. La campaña se centra en la elegancia madura y la eficacia de los tratamientos de alta gama, reforzando el posicionamiento de la marca en la categoría de lujo clínico."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/versace_versace-spring-summer-2026-campaign-an-embodied-ugcPost-7424423979014180864-hAXX",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "ESTÉTICA DE CAMPAÑA",
+        "INSIGHT":  "La campaña SS26 de Versace utiliza la moda como una extensión de la identidad corporal, priorizando la autoexpresión física sobre el diseño estructural.",
+        "RESUMEN":  "Versace lanza su campaña Primavera-Verano 2026 bajo el concepto \"An Embodied Expression\". La narrativa visual explora la conexión entre el cuerpo, el movimiento y la prenda, buscando una conexión emocional y visceral con el consumidor de lujo moderno."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/color-cosmetics/news/22957474/which-beauty-brands-are-ripe-for-acquisition-in-2026",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "M\u0026A TARGETS",
+        "INSIGHT":  "Las marcas con propiedad intelectual en fotoprotección y tecnología de pigmentos son los objetivos de adquisición más valiosos en un mercado saturado de \"marcas blancas\".",
+        "RESUMEN":  "Análisis de las marcas de cosmética de color con mayor potencial de venta en 2026. Los inversores están priorizando empresas que poseen fórmulas patentadas, una base de datos de clientes sólida y una integración clara en el bienestar dermatológico."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/news/beauty/colorescience-roundtable-acquisition/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "ADQUISICIÓN ESTRATÉGICA",
+        "INSIGHT":  "La adquisición de Colorescience por Roundtable Capital subraya que la protección solar con color (SunCare-as-Makeup) es la categoría más rentable del sector médico-estético.",
+        "RESUMEN":  "Roundtable Capital Partners adquiere Colorescience, marca líder en fotoprotección mineral y cosmética clínica. La operación busca escalar la presencia de la marca en canales dermatológicos y expandir su innovación en \"Functional Color\"."
+    },
+    {
+        "URL":  "https://www.prnewswire.com/mx/comunicados-de-prensa/hanmi-firma-un-acuerdo-de-exportacion-con-su-socio-mexicano-sanfer-para-el-farmaco-glp-1-contra-la-obesidad-junto-con-otros-productos-302672053.html",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "GLP-1 \u0026 METABOLISMO",
+        "INSIGHT":  "La llegada del primer GLP-1 coreano a México vía Sanfer valida al país como un mercado crítico para la nueva ola de tratamientos contra la obesidad.",
+        "RESUMEN":  "Hanmi Pharmaceutical firma un acuerdo exclusivo con Laboratorios Sanfer para distribuir efpeglenatide (GLP-1) y su familia Dapalon en México. Sanfer liderará la regulación y comercialización, enfocándose en la alta prevalencia de obesidad (36.8%) en el país."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/reliance-consumer-acquires-global-rights-to-brylcreem-toni-guy-badedas-and-matey/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "ADQUISICIÓN GLOBAL",
+        "INSIGHT":  "Reliance Consumer está construyendo un imperio de \"marcas herencia\" para dominar tanto el retail masivo en India como los mercados de exportación.",
+        "RESUMEN":  "Reliance Consumer Products (RCPL) adquiere los derechos globales de las marcas icónicas Brylcreem, Toni \u0026 Guy, Badedas y Matey. La estrategia busca revitalizar estas marcas de grooming y baño mediante la escala de distribución masiva de Reliance."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/aekyung-industrial-posts-sharp-profit-decline-amid-china-restructuring-and-weak-domestic-demand/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN",
+        "INSIGHT":  "La dependencia histórica de China se convierte en un riesgo operativo crítico para las firmas coreanas, forzando una diversificación hacia EE.UU. y Japón.",
+        "RESUMEN":  "Aekyung Industrial reporta una caída del 54.8% en su beneficio operativo en 2025. La empresa atribuye este desplome a la reestructuración de su negocio en China y a la debilidad del consumo interno, acelerando su expansión hacia Amazon y TikTok Shop."
+    },
+    {
+        "URL":  "https://www.justretail.news/noticias/rituals-alcanza-los-2-430-millones-de-euros-en-su-25o-aniversario-y-refuerza-su-expansion-global/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "RETAIL EXPANSION",
+        "INSIGHT":  "Rituals demuestra que el \"lujo asequible\" basado en el bienestar es el segmento más resistente y de mayor crecimiento en el retail físico europeo.",
+        "RESUMEN":  "En su 25º aniversario, Rituals alcanza una facturación récord de 2.430M€ (crecimiento del 16%). Con 200 aperturas en 2025 y un margen EBITDA del 22.5%, la marca se consolida en el Reino Unido, Francia e Italia, mientras escala su canal digital (20% de ventas)."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/new-bodycare-brand-hotel-mike-launches/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "BIOTECH BODYCARE",
+        "INSIGHT":  "El lanzamiento de Hotel, Mike marca la llegada de la biotecnología aplicada y el upcycling de lujo al cuidado corporal diario.",
+        "RESUMEN":  "Debuta Hotel, Mike, una marca de bodycare que utiliza ingredientes bioingenierizados (como taurina vegetal de algas) y materiales supra-reciclados de destilerías de ginebra y producción de avena. Sus envases de aluminio reciclable refuerzan su perfil sostenible."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/charlotte-mejat-b1a93926_vichylaboratoires-laboratoriosvichy-longevidad-ugcPost-7422282653304918017-JoEi",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "LONGEVIDAD CUTÁNEA",
+        "INSIGHT":  "Vichy lidera la transición del \"anti-aging\" al \"pro-longevity\", enfocándose en la ciencia del exposoma para prevenir el envejecimiento celular.",
+        "RESUMEN":  "Charlotte Mejat destaca el compromiso de Vichy con la salud de la piel a largo plazo, utilizando su experiencia en el exposoma para desarrollar protocolos que fortalecen la barrera cutánea frente a factores externos, promoviendo una longevidad activa."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/global-cosmetic-industry-gci-_cosmoprofmiami-activity-7420500914559410176-L3-j",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "REPORTE DE EVENTO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "NETWORKING \u0026 RETAIL",
+        "INSIGHT":  "Cosmoprof Miami se consolida como el puente definitivo entre las marcas \"Indie\" de EE.UU. y el mercado emergente de LATAM.",
+        "RESUMEN":  "Resumen de Cosmoprof North America Miami 2026, subrayando el auge de la tecnología de envases sostenibles y la creciente demanda de productos de cuidado solar con beneficios duales de tratamiento."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/inside-loreal-professionnels-new-global-creative-collective/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "CREATIVE LEADERSHIP",
+        "INSIGHT":  "L\u0027Oréal Professionnel descentraliza su creatividad para asegurar que sus innovaciones capilares resuenen con diversas texturas y culturas globales.",
+        "RESUMEN":  "Lanzamiento del \"Global Creative Collective\", un grupo de estilistas y artistas internacionales que guiarán la innovación en servicios y productos, garantizando la relevancia técnica en todos los mercados."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/one-size-patrick-starrr-expands-global-reach-to-become-legacy-brand",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "ESCALABILIDAD",
+        "INSIGHT":  "One/Size transiciona de \"marca de influencer\" a \"marca legado\" mediante una expansión agresiva en retail internacional y una comunidad hiper-fiel.",
+        "RESUMEN":  "Patrick Starrr detalla los planes de expansión de One/Size, enfocándose en la inclusión extrema y el rendimiento profesional (Long-wear) como pilares para competir con gigantes del maquillaje artístico."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/phia-raises-us35-million-series-a-to-scale-ai-powered-shopping-platform/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "BEAUTY TECH",
+        "INSIGHT":  "El capital de riesgo apuesta por la IA que personaliza la compra por \"atención\" y \"estado de ánimo\", no solo por tipo de piel.",
+        "RESUMEN":  "Phia recauda $35 millones en Serie A para escalar su plataforma de compras impulsada por IA, que utiliza visión computacional y análisis predictivo para conectar productos con las necesidades emocionales del usuario."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/laborie-derma-advances-patented-science-validated-lipid-bond",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "I+D E INNOVACIÓN",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "REPARACIÓN MOLECULAR",
+        "INSIGHT":  "El \"Lipid Bond\" de Laborie Derma representa la próxima generación de reparación de barrera, actuando a nivel molecular para restaurar la cohesión dérmica.",
+        "RESUMEN":  "Laborie Derma presenta los resultados de su tecnología patentada Science-Validated Lipid Bond, diseñada para reparar lípidos esenciales de la piel comprometidos por procedimientos estéticos o agresores externos."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/cover-fx-announces-closure/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "CIERRE DE OPERACIONES",
+        "INSIGHT":  "El cierre de Cover FX evidencia la vulnerabilidad de las marcas pioneras frente a la saturación de ofertas similares y la falta de diferenciación digital rápida.",
+        "RESUMEN":  "Cover FX anuncia el cese de sus operaciones. A pesar de haber liderado el mercado de maquillaje personalizable (Custom Drops), la marca no logró mantener su relevancia competitiva ante la fragmentación del mercado."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/meeshos-quarterly-loss-widens-as-marketing-and-expansion-spending-accelerates/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "E-COMMERCE",
+        "INSIGHT":  "La agresiva quema de efectivo para ganar cuota de mercado en India pone a prueba la paciencia de los inversores ante un crecimiento no rentable.",
+        "RESUMEN":  "Meesho reporta una ampliación de sus pérdidas trimestrales debido al gasto masivo en marketing y expansión logística. La plataforma busca consolidarse frente a Amazon y Flipkart en ciudades de nivel 2 y 3."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/coupang-ceo-questioned-by-police-over-alleged-data-breach-cover-up/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "COMPLIANCE Y ÉTICA",
+        "INSIGHT":  "La crisis de reputación de Coupang subraya que la ciberseguridad es ahora un factor crítico de riesgo para la valoración de los gigantes del retail.",
+        "RESUMEN":  "El CEO de Coupang es interrogado por la policía coreana debido a un presunto encubrimiento de una filtración masiva de datos, lo que genera desconfianza en el mayor operador de e-commerce de Corea del Sur."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/hindustan-unilever-remains-indias-top-tv-advertiser-despite-market-slowdown/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "ESTRATEGIA DE MEDIOS",
+        "INSIGHT":  "Hindustan Unilever utiliza la inversión publicitaria contracíclica para asfixiar a competidores pequeños durante la desaceleración del mercado.",
+        "RESUMEN":  "A pesar de la ralentización del consumo en India, HUL se mantiene como el mayor anunciante en TV, reforzando la visibilidad de sus marcas de consumo masivo para ganar \"share of voice\" ante la competencia."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/dyson-beauty-enters-bustling-scalp-care-market",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "BEAUTY TECH",
+        "INSIGHT":  "Dyson busca adueñarse de la categoría de \"salud capilar integral\" extendiendo su ingeniería desde el hardware hasta el cuidado biológico del cuero cabelludo.",
+        "RESUMEN":  "Dyson Beauty entra oficialmente en el mercado del Scalp Care con dispositivos y formulaciones diseñadas para optimizar el entorno del folículo capilar, elevando el cuidado del pelo a un nivel de precisión tecnológica."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/interview-shannon-davenport-of-esker/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA EJECUTIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "WELLNESS \u0026 BODYCARE",
+        "INSIGHT":  "Esker redefine el cuidado corporal como un ritual de salud mental, utilizando el \"Body Plane\" y aceites botánicos para transformar el baño en spa.",
+        "RESUMEN":  "Entrevista con Shannon Davenport, fundadora de Esker, sobre cómo la marca está liderando la tendencia del Home-Spa mediante el uso de herramientas tradicionales (raspa de piel) y formulaciones botánicas premium."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/fotona-d%2Ed%2E_worldcancerday-nonhormonaltreatment-renovalase-ugcPost-7424813001960095744-sY5D",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "SALUD DE LA MUJER",
+        "INSIGHT":  "La tecnología láser no hormonal se posiciona como una solución ética y eficaz para mejorar la calidad de vida de pacientes oncológicas.",
+        "RESUMEN":  "En el marco del Día Mundial contra el Cáncer, Fotona destaca su tratamiento RenovaLase, una terapia láser no invasiva y no hormonal para la atrofia genitourinaria, diseñada específicamente para sobrevivientes de cáncer de mama."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/jean-yves-coste-672aa924_exosomes-moving-toward-a-central-place-in-activity-7424797788258869248-d5l4",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS EJECUTIVO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "EXOSOMAS",
+        "INSIGHT":  "Los exosomas están pasando de ser un ingrediente \"nicho\" a convertirse en la piedra angular de la medicina regenerativa y la dermocosmética avanzada.",
+        "RESUMEN":  "Jean-Yves Coste analiza el papel central que están tomando los exosomas en la industria estética, destacando su capacidad para la señalización celular y la regeneración de tejidos sin las complicaciones de las terapias celulares tradicionales."
+    },
+    {
+        "URL":  "https://www.modaes.com/cosmetica/grupo-loreal-coloca-a-ana-jaureguizar-al-frente-de-la-presidencia-de-espana-y-portugal",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO EJECUTIVO",
+        "INSIGHT":  "El nombramiento de Ana Jaureguizar subraya la apuesta de L’Oréal por líderes con visión de negocio 360 y profundo conocimiento del mercado ibérico.",
+        "RESUMEN":  "L\u0027Oréal nombra a Ana Jaureguizar como nueva presidenta para España y Portugal. Con una amplia trayectoria en la división de Lujo del grupo, su liderazgo se enfocará en acelerar la transformación digital y la sostenibilidad en la región."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/analisis/telemedicina-y-salud-digital-la-industria-farmaceutica-avanza-hacia-el-sistema-sanitario-del-futuro.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "SALUD DIGITAL",
+        "INSIGHT":  "La telemedicina deja de ser un canal de emergencia para convertirse en un ecosistema de datos que redefine la relación entre farmacéutica y paciente.",
+        "RESUMEN":  "Análisis sobre cómo la industria farmacéutica está integrando soluciones de salud digital para mejorar el seguimiento de tratamientos, la adherencia del paciente y la eficiencia de los sistemas sanitarios mediante el uso de Big Data."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/skin-care/news/22958821/medipeel-cj-olive-young-sephora-and-finery-signal-nextphase-global-expansion-across-prestige-kbeauty-and-fragrance-retail",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN RETAIL",
+        "INSIGHT":  "La alianza entre marcas coreanas de prestigio y retailers globales como Sephora marca la evolución de la K-Beauty hacia el \"Clinical Prestige\".",
+        "RESUMEN":  "Medi-Peel y CJ Olive Young aceleran su expansión internacional. El movimiento señala una nueva fase donde el retail de fragancias y el skincare coreano de alta gama se integran para capturar al consumidor de lujo global."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/novo-nordisk-gana-13714-millones-de-euros-en-2025-y-alerta-de-la-posible-caida-de-ventas-por-la-creciente-competencia.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RESULTADOS ANUALES",
+        "INSIGHT":  "El récord de beneficios de Novo Nordisk convive con una advertencia de saturación; la competencia en GLP-1 forzará una guerra de precios en 2026.",
+        "RESUMEN":  "Novo Nordisk reporta beneficios de 13.714M€ en 2025. Pese al éxito de Wegovy y Ozempic, la firma alerta sobre una posible desaceleración debido a la entrada de nuevos competidores y presiones en el sistema de reembolsos."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/nacional/leo-pharma-asume-la-titularidad-de-la-autorizacion-de-comercializacion-de-espesolimab-en-la-union-europea.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "DERMATOLOGÍA CLÍNICA",
+        "INSIGHT":  "Leo Pharma refuerza su liderazgo en dermatología médica al asumir el control de terapias biológicas para enfermedades cutáneas raras y graves.",
+        "RESUMEN":  "Leo Pharma obtiene la titularidad de comercialización de espesolimab en la UE, un tratamiento biológico para la psoriasis pustulosa generalizada, consolidando su portafolio de soluciones dermatológicas de alta especialidad."
+    },
+    {
+        "URL":  "https://www.eldiario.es/economia/novo-nordisk-desploma-bolsa-rebajar-prevision-ventas-ozempic-farmaco-estrella_1_12962332.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "VOLATILIDAD BURSÁTIL",
+        "INSIGHT":  "El mercado castiga la cautela: incluso los \"gigantes de la obesidad\" son vulnerables cuando las expectativas de crecimiento exponencial se normalizan.",
+        "RESUMEN":  "Las acciones de Novo Nordisk sufren una caída significativa tras revisar a la baja sus previsiones de ventas para Ozempic. El mercado reacciona ante la incertidumbre sobre la capacidad de suministro y la presión competitiva."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/estee-lauder-companies-fined-750k-canada-enviromental-law-violations",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "COMPLIANCE AMBIENTAL",
+        "INSIGHT":  "Las multas regulatorias en Canadá subrayan que el cumplimiento ambiental ya no es opcional y tiene un impacto directo en la reputación financiera de los holdings.",
+        "RESUMEN":  "Estée Lauder Companies es multada con 750.000 dólares en Canadá por violaciones a las leyes ambientales. El caso resalta la necesidad de auditorías más estrictas en la gestión de residuos y producción de cosméticos."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/bath-body/news/22959976/ulta-beauty-formalizes-its-playbook-as-beautysports-partnerships-go-pro",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "SPORTS BEAUTY",
+        "INSIGHT":  "La alianza Belleza-Deporte es la nueva frontera para capturar al consumidor \"Active Wellness\", moviendo el foco del glamour a la funcionalidad extrema.",
+        "RESUMEN":  "Ulta Beauty formaliza su estrategia de patrocinios deportivos profesionales. El objetivo es posicionar productos de cuidado corporal y protección solar dentro de rutinas atléticas, capitalizando el auge del bienestar físico."
+    },
+    {
+        "URL":  "https://www.elespanol.com/mujer/protagonistas/20260121/rocio-valenzuela-experta-dermatologia-mujeres-hace-tratamientos-esteticos-no-quirurgicos/1003744094528_0.html",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ENTREVISTA EJECUTIVA",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "ESTÉTICA NO INVASIVA",
+        "INSIGHT":  "El auge de la estética no quirúrgica refleja una demanda por resultados naturales y tiempos de recuperación nulos, alejándose del estigma del \"bisturí\".",
+        "RESUMEN":  "Rocío Valenzuela, experta en dermatología, analiza la transformación del mercado estético español, donde los tratamientos inyectables y de aparatología están ganando terreno a la cirugía convencional debido a su eficacia y menor riesgo."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/ingredients/bath-body/news/22960007/savor-carbontocream-savor-leverages-foodtech-platform-to-enter-beauty-ingredients",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "I+D E INNOVACIÓN",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "CARBON-TO-CREAM",
+        "INSIGHT":  "La tecnología de captura de carbono aplicada a la belleza permite crear grasas y aceites sintéticos que superan en pureza y sostenibilidad a los derivados del petróleo o la palma.",
+        "RESUMEN":  "Savor utiliza su plataforma de FoodTech para entrar en la industria cosmética, lanzando ingredientes creados mediante la transformación de emisiones de carbono en lípidos de alta calidad para productos de baño y cuidado corporal."
+    },
+    {
+        "URL":  "https://www.glossy.co/beauty/wellness-briefing-the-wellness-categories-investors-are-eyeing-and-avoiding-in-2026-plus-news/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "WELLNESS INVESTING",
+        "INSIGHT":  "Los inversores en 2026 huyen de los suplementos genéricos y se enfocan en soluciones de \"Longevidad\" y \"Salud Hormonal\" con validación clínica comprobable.",
+        "RESUMEN":  "Análisis del ecosistema de bienestar en 2026: se destaca un enfriamiento en la inversión para marcas de CBD y un interés masivo en startups que abordan la salud metabólica, el sueño y el cuidado de la menopausia."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/news/beauty/rhode-drives-third-quarter-growth-for-elf-beauty/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "CRECIMIENTO POR MARCA",
+        "INSIGHT":  "La alianza estratégica o el impulso de marcas con fuerte identidad digital (como Rhode) está permitiendo a grupos como e.l.f. superar las expectativas de crecimiento trimestral.",
+        "RESUMEN":  "e.l.f. Beauty reporta un crecimiento sólido en el tercer trimestre, impulsado por la sinergia con marcas de alto impacto visual y digital, consolidando su modelo de negocio de \"lujo masivo\" y alta rotación de inventario."
+    },
+    {
+        "URL":  "https://www.maccosmetics.com/chappell-roan",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "ARTISTIC COLLABORATION",
+        "INSIGHT":  "La colaboración con Chappell Roan permite a MAC reapropiarse de su ADN de teatralidad y autoexpresión, conectando con la subcultura pop de forma auténtica.",
+        "RESUMEN":  "MAC Cosmetics oficializa su alianza con la artista Chappell Roan, lanzando una colección inspirada en la estética drag y el maquillaje de alto impacto, reforzando su posicionamiento como marca líder en creatividad artística para la Generación Z."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/est%C3%A9e-lauder-reformulates-hero-foundation-double-wear",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "REFORMULACIÓN",
+        "INSIGHT":  "La actualización de un \"icono\" busca retener al consumidor leal mientras se adapta a las exigencias modernas de ingredientes más limpios y texturas de segunda piel.",
+        "RESUMEN":  "Estée Lauder reformula su base estrella Double Wear. La nueva versión mantiene su promesa de 24 horas de duración, pero integra activos de tratamiento para mejorar la barrera cutánea y una fórmula libre de ingredientes cuestionados por las nuevas normativas globales."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/roche-abandona-vixarelimab-y-amortiza-100-millones-de-dolares-en-una-revision-de-cartera.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN DE CARTERA",
+        "INSIGHT":  "La salida de Roche de ciertas líneas de inmunología dermatológica indica una concentración de recursos hacia terapias de mayor potencial de retorno y menor riesgo clínico.",
+        "RESUMEN":  "Roche anuncia el abandono del desarrollo de vixarelimab y una amortización de 100 millones de dólares. La decisión forma parte de una revisión estratégica de su cartera de biotecnología para optimizar su enfoque en áreas terapéuticas de alta prioridad."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/marubeni-acquires-japanese-skincare-and-cosmetics-brand-etvos/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "MERCADO JAPONÉS",
+        "INSIGHT":  "La adquisición de Etvos por Marubeni demuestra el interés de los grandes conglomerados comerciales (Sogo Shosha) por poseer marcas de \"belleza limpia\" con alto valor clínico.",
+        "RESUMEN":  "Marubeni Corporation adquiere Etvos, marca japonesa pionera en maquillaje mineral y cuidado de la piel con ceramidas. El objetivo es apalancar la red logística de Marubeni para escalar la marca internacionalmente, especialmente en el mercado asiático premium."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/barry-m-seeks-buyer-as-it-moves-toward-administration/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN",
+        "INSIGHT":  "La crisis de Barry M subraya la fragilidad de las marcas de \"fast-beauty\" de bajo margen ante el aumento de costes operativos y la competencia del e-commerce directo.",
+        "RESUMEN":  "La icónica marca británica Barry M Cosmetics busca un comprador de urgencia para evitar la administración concursal. A pesar de su legado en el retail masivo, la presión financiera y la falta de digitalización agresiva han comprometido su viabilidad."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5760797/marca-belleza-minimalista-merit-llega-espana",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "La llegada de Merit a España consolida la tendencia del \"lujo funcional\": rutinas simplificadas que priorizan la salud de la barrera cutánea sobre el exceso de producto.",
+        "RESUMEN":  "Merit Beauty, la marca referente del minimalismo estadounidense, aterriza en el mercado español. Con un enfoque en \"fórmulas limpias\" y una estética de lujo accesible, la marca busca capturar al consumidor que demanda eficiencia y naturalidad en su rutina diaria."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/eli-lilly-abandona-tres-farmacos-en-desarrollo-clinico-incluida-una-terapia-genica-para-la-demencia-frontotemporal.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN DE I+D",
+        "INSIGHT":  "El abandono de terapias genéticas de alto riesgo subraya un giro hacia la rentabilidad inmediata y el fortalecimiento de áreas con resultados clínicos más predecibles.",
+        "RESUMEN":  "Eli Lilly suspende el desarrollo de tres fármacos en fase clínica, destacando una terapia génica para la demencia frontotemporal. La decisión refleja una optimización de recursos para priorizar su portafolio de mayor impacto comercial y clínico."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/pradagroup_prada-group-and-versace-announce-the-appointment-activity-7425147483644870656-Nyje",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO EJECUTIVO",
+        "INSIGHT":  "El nombramiento de Pieter Mulier como CCO marca el inicio de la \"era Prada\" en Versace, buscando un equilibrio entre el maximalismo icónico y el rigor comercial.",
+        "RESUMEN":  "Prada Group anuncia oficialmente a Pieter Mulier (ex-Alaïa) como nuevo Director Creativo de Versace. Mulier reportará directamente a Lorenzo Bertelli, con la misión de revitalizar la identidad de la marca tras su reciente adquisición por el grupo."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/kkr-prepares-wella-company-for-potential-us-ipo/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE M\u0026A",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "SALIDA A BOLSA (IPO)",
+        "INSIGHT":  "La potencial salida a bolsa de Wella valorada en más de $4.3B confirma la robustez del sector del cuidado capilar profesional como refugio para el capital de riesgo.",
+        "RESUMEN":  "KKR prepara a Wella Company (dueña de OPI y ghd) para una oferta pública inicial en EE.UU. este año. Tras comprar la participación restante a Coty, KKR busca capitalizar la recuperación del canal profesional y la resiliencia del consumo premium."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/eikon-therapeutics-recauda-381-millones-de-dolares-en-su-salida-a-bolsa-de-eeuu.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "BIOTECH IPO",
+        "INSIGHT":  "El éxito de la IPO de Eikon demuestra que la tecnología de imagen de células vivas es percibida como la llave para desbloquear nuevos tratamientos oncológicos.",
+        "RESUMEN":  "Eikon Therapeutics recauda 381 millones de dólares en su debut en el Nasdaq (EIKN). La compañía utilizará los fondos para avanzar su plataforma de descubrimiento de fármacos basada en microscopía de superresolución y análisis de datos avanzado."
+    },
+    {
+        "URL":  "https://www.cosmeticsbusiness.com/rhode-elf-beauty-q3-boost-sales-2026-outlook-sephora-launch",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "CRECIMIENTO RETAIL",
+        "INSIGHT":  "La sinergia entre el modelo de alta velocidad de e.l.f. y el \"hype\" de Rhode está redefiniendo los récords de ventas en el retail masivo y de prestigio.",
+        "RESUMEN":  "e.l.f. Beauty eleva sus previsiones para 2026 tras un Q3 explosivo. La asociación estratégica con Rhode (Hailey Bieber) y su expansión en Sephora han sido los motores clave para capturar la cuota de mercado global."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/color-cosmetics/news/22960061/elf-beauty-posts-38-q3-growth-lifts-fy26-outlook-as-rhode-fuels-international-momentum",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "EXPANSIÓN GLOBAL",
+        "INSIGHT":  "El crecimiento del 38% de e.l.f. demuestra que las marcas que dominan el \"valor percibido\" son inmunes a la cautela del gasto del consumidor.",
+        "RESUMEN":  "Detalle de los resultados financieros de e.l.f. Beauty, subrayando cómo Rhode está impulsando el impulso internacional de la compañía, permitiendo un ajuste al alza en las proyecciones de ingresos y rentabilidad para el cierre del año fiscal."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/estee-lauder-fined-us750000-in-canada-over-pfas-cosmetics-breach/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "COMPLIANCE QUÍMICO",
+        "INSIGHT":  "La sanción por PFAS en Canadá marca un precedente: la tolerancia regulatoria hacia las \"sustancias eternas\" ha terminado, afectando a los gigantes del lujo.",
+        "RESUMEN":  "Estée Lauder enfrenta una multa de $750,000 por el uso de PFAS en sus productos, violando las estrictas normativas ambientales canadienses. El caso obliga al grupo a acelerar la limpieza de sus cadenas de suministro globales."
+    },
+    {
+        "URL":  "https://www.businesswire.com/news/home/20260204885957/en/Clinique-Announces-Visionary-Collaboration-with-ACUVUE-to-Advance-Eye-Education-in-Beauty-and-Vision",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "COLLABORATION TECH",
+        "INSIGHT":  "La alianza entre Clinique y ACUVUE crea una nueva subcategoría de \"Cuidado Ocular de Belleza\", uniendo salud visual con maquillaje clínico.",
+        "RESUMEN":  "Clinique y ACUVUE anuncian una colaboración educativa para promover la salud de los ojos entre usuarios de lentes de contacto y maquillaje. La campaña busca posicionar a Clinique como la marca de referencia para ojos sensibles bajo validación oftalmológica."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/nacional/la-cnmc-autoriza-con-condiciones-la-compra-de-esteve-teijin-healthcare-por-parte-de-oximesa.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS REGULATORIO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "M\u0026A HEALTHCARE",
+        "INSIGHT":  "La autorización de la CNMC con condiciones busca evitar un monopolio en terapias respiratorias domiciliarias tras la consolidación de Oximesa.",
+        "RESUMEN":  "La Comisión Nacional de los Mercados y la Competencia (CNMC) da luz verde a la adquisición de Esteve Teijin por Oximesa, pero impone compromisos para garantizar la competencia en el mercado de servicios de salud a domicilio en España."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/pitch-marketing-magazine_geetikasaxena-galdermaindia-digitalstrategy-activity-7422969966603333633-gjJi",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "ESTRATEGIA DIGITAL",
+        "INSIGHT":  "Galderma India apuesta por la omnicanalidad digital para transformar la educación dermatológica en una experiencia de usuario personalizada.",
+        "RESUMEN":  "Geetika Saxena detalla la hoja de ruta digital de Galderma en India, enfocándose en el uso de datos y plataformas sociales para cerrar la brecha entre el consejo profesional médico y el consumidor final de skincare."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/matraz-innova_hola-innovadores-astrazeneca-activity-7424897948666302464-TmYe",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "ECOSISTEMAS DE SALUD",
+        "INSIGHT":  "La colaboración abierta en el sector salud (AstraZeneca) es el catalizador necesario para acelerar soluciones biotecnológicas disruptivas.",
+        "RESUMEN":  "Matraz Innova destaca la iniciativa de AstraZeneca para fomentar ecosistemas de innovación, subrayando la importancia de las alianzas entre corporaciones y startups para resolver retos complejos en salud y biociencias."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/la-belleza-que-viene-en-2026-mas-ciencia-personalizacion-y-conciencia-yUVCr",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE TENDENCIAS",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "FUTURISMO COSMÉTICO",
+        "INSIGHT":  "El 2026 se define por la \"Belleza Radicalmente Transparente\", donde la ciencia rigurosa se fusiona con una conciencia ética innegociable.",
+        "RESUMEN":  "Análisis prospectivo sobre las tendencias del sector: se proyecta un crecimiento en productos basados en epigenética, personalización mediante IA y fórmulas que reducen drásticamente el impacto hídrico y ambiental."
+    },
+    {
+        "URL":  "https://www.modaes.com/cosmetica/estee-lauder-eleva-su-facturacion-un-4-en-el-segundo-trimestre-y-deja-atras-las-perdidas",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RESULTADOS TRIMESTRALES",
+        "INSIGHT":  "La recuperación de Estée Lauder en el Q2 señala que su plan de revitalización de márgenes y enfoque en marcas clave está empezando a dar frutos.",
+        "RESUMEN":  "Estée Lauder Companies vuelve a la rentabilidad con un aumento del 4% en sus ventas. El grupo logra superar las pérdidas del año anterior gracias al sólido desempeño del sector de fragancias de lujo y la recuperación parcial del retail en Asia."
+    },
+    {
+        "URL":  "https://www.retaildive.com/news/amazon-luxury-storefront-saks/811148/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "RETAIL ESTRATÉGICO",
+        "INSIGHT":  "La alianza entre Amazon y Saks redefine el \"Lujo Digital\", democratizando el acceso a marcas premium bajo la garantía logística del gigante tecnológico.",
+        "RESUMEN":  "Amazon Luxury Stores se asocia con Saks Fifth Avenue para lanzar un escaparate exclusivo. Esta movida estratégica busca combinar la curaduría de lujo de Saks con la infraestructura de entrega y datos de Amazon para atraer al consumidor de alto gasto."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/nacional/gorka-de-las-fuentes-asume-la-direccion-de-vitalaire-tras-la-promocion-de-manuel-pacheco.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO EJECUTIVO",
+        "INSIGHT":  "El relevo en VitalAire busca consolidar la excelencia operativa en terapias respiratorias domiciliarias tras una etapa de fuerte expansión.",
+        "RESUMEN":  "Gorka de las Fuentes es nombrado nuevo Director de VitalAire (Air Liquide Healthcare) en España. Su gestión se enfocará en mantener la calidad asistencial y potenciar la digitalización de los servicios de salud a domicilio."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/la-industria-global-de-la-belleza-crecera-un-6-anual-hasta-2027-impulsada-por-la-cien-TxIzW",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "PROYECCIÓN ECONÓMICA",
+        "INSIGHT":  "El crecimiento del 6% anual está blindado por la \"premiumización\" científica; el consumidor ya no compra promesas, sino mecanismos de acción probados.",
+        "RESUMEN":  "Informe de mercado que proyecta un crecimiento sostenido del sector belleza hasta 2027. Los motores principales son el cuidado de la piel de alto rendimiento, la belleza desde el interior (ingestibles) y el auge del e-commerce premium."
+    },
+    {
+        "URL":  "https://www.modaes.com/back-stage/sebastian-diez-inexmoda-colombia-debe-pensarse-a-si-mismo-como-jugador-global-de-la-moda",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA EJECUTIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "MERCADOS EMERGENTES",
+        "INSIGHT":  "Colombia transiciona de ser un hub de manufactura a un centro de exportación de diseño y valor agregado con ambición global.",
+        "RESUMEN":  "Sebastián Díez, presidente de Inexmoda, analiza el potencial de Colombia para competir internacionalmente. Destaca la necesidad de fortalecer la cadena de suministro y la identidad de marca para trascender el mercado regional."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/paulacolasbeltran_chestnut-polysaccharides-for-an-optimized-activity-7417807848815910913-6mF6",
+        "AÑO":  "2025",
+        "MES":  "DICIEMBRE",
+        "TIPO DE FUENTE":  "POST TÉCNICO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "INGREDIENTES ACTIVOS",
+        "INSIGHT":  "Los polisacáridos del castaño ofrecen una alternativa natural y técnica para optimizar la barrera cutánea sin el uso de polímeros sintéticos.",
+        "RESUMEN":  "Paula Colás destaca la investigación sobre polisacáridos derivados del castaño, enfocándose en su capacidad para formar biopelículas protectoras que retienen la hidratación y mejoran la resistencia de la piel frente a agresores externos."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/sparxell-raises-5m-pre-series-a-to-scale-plant-based-colour-technology/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "BIOMATERIALES",
+        "INSIGHT":  "La inversión en Sparxell marca el fin de la dependencia de pigmentos sintéticos y metales pesados en la cosmética de color.",
+        "RESUMEN":  "Sparxell recauda $5M en una ronda Pre-Serie A para escalar su tecnología de pigmentos basados en celulosa vegetal. Estos pigmentos biodegradables imitan la coloración estructural de la naturaleza (como las alas de mariposa) sin toxicidad."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/podcasts/marketing-pr/the-new-rules-for-influencer-marketing-the-debrief/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "INFLUENCER MARKETING",
+        "INSIGHT":  "El ROI del Influencer Marketing en 2026 se mide por la \"afinidad de comunidad\" y no por el alcance masivo; la era del mega-influencer da paso al experto nicho.",
+        "RESUMEN":  "BoF discute las nuevas reglas del marketing de influencia, donde la transparencia radical y la co-creación de productos son esenciales para mantener la credibilidad ante una audiencia que detecta instantáneamente el contenido inauténtico."
+    },
+    {
+        "URL":  "https://kreab.com/espana/actualidad/2026-la-era-de-la-conexion-consciente/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME DE TENDENCIAS",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "REPUTACIÓN Y ESG",
+        "INSIGHT":  "Las marcas que no logren una \"conexión consciente\" basada en la ética y el propósito real quedarán fuera del set de consideración del nuevo consumidor.",
+        "RESUMEN":  "Kreab analiza 2026 como el año de la conexión humana y consciente. Las empresas deben transicionar de la comunicación unidireccional a diálogos significativos que aborden la salud mental, la sostenibilidad y la transparencia operativa."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/awwg-refuerza-su-brazo-logistico-con-dos-nuevas-plataformas-en-mexico-y-dubai",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LOGÍSTICA \u0026 SUPPLY CHAIN",
+        "INSIGHT":  "El fortalecimiento logístico en México y Dubái posiciona a AWWG para dominar el eje de mercados emergentes de alto crecimiento.",
+        "RESUMEN":  "El grupo AWWG (Pepe Jeans, Hackett) expande su infraestructura logística con nuevos centros en México y Dubái. Esta inversión busca optimizar el time-to-market y soportar el agresivo plan de expansión física y digital en estas regiones clave."
+    },
+    {
+        "URL":  "https://www.galderma.com/news/galderma-unveils-wake-restylane",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "ESTÉTICA INYECTABLE",
+        "INSIGHT":  "La nueva campaña de Restylane se enfoca en la \"revitalización natural\", alejándose de los resultados artificiales para atraer a un consumidor más joven y preventivo.",
+        "RESUMEN":  "Galderma presenta su nueva iniciativa global para la línea Restylane. Bajo el concepto de despertar la vitalidad de la piel, la marca refuerza su liderazgo en rellenos de ácido hialurónico con un enfoque en la personalización de resultados y la seguridad clínica."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/hoff-sube-la-persiana-de-su-segunda-tienda-en-londres-y-aterrizara-en-mexico-en-abril",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "El éxito de Hoff demuestra que el \"lifestyle branding\" con una identidad visual potente es capaz de escalar rápidamente en mercados culturales tan distintos como Reino Unido y México.",
+        "RESUMEN":  "La marca española Hoff continúa su expansión internacional con la apertura de su segunda tienda en Londres y anuncia su desembarco oficial en México para abril de 2026. La marca busca consolidar su presencia en ciudades globales de referencia."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/synsera-labs-la-empresa-de-suplementos-creada-por-influencers-de-nutricion-supera-el--ONQ1X",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "INFLUENCER BRANDS",
+        "INSIGHT":  "El éxito de Synsera Labs demuestra que la autoridad técnica de los influencers de nutrición es más rentable que la fama genérica.",
+        "RESUMEN":  "Synsera Labs, fundada por influencers especializados, supera sus objetivos de ventas impulsada por la confianza de su comunidad en formulaciones basadas en evidencia, consolidando el modelo de \"Creador-Empresario\" en bienestar."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/special-chemicals-presenta-su-nueva-gama-de-pdrn-puro-de-origen-vegetal-R1EuP",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "I+D E INNOVACIÓN",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "BIOTECNOLOGÍA VEGETAL",
+        "INSIGHT":  "El PDRN vegetal democratiza el acceso a la regeneración celular sin las barreras éticas o regulatorias del origen animal.",
+        "RESUMEN":  "Special Chemicals lanza una gama de PDRN (polidesoxirribonucleótidos) de origen vegetal. Este ingrediente \"estrella\" de la medicina estética coreana ahora puede integrarse en cosmética vegana para promover la reparación profunda del ADN cutáneo."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/ralph-lauren-supera-previsiones-y-gana-un-28-mas-en-los-nueve-primeros-meses",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RESULTADOS CORPORATIVOS",
+        "INSIGHT":  "La resiliencia de Ralph Lauren reside en su capacidad para elevar el precio promedio de venta mediante el \"Quiet Luxury\" y la expansión en China.",
+        "RESUMEN":  "Ralph Lauren reporta un aumento del 28% en sus beneficios en los primeros nueve meses de su año fiscal. El crecimiento es impulsado por una estrategia de marca más premium y una sólida demanda en el mercado asiático y digital."
+    },
+    {
+        "URL":  "https://www.galderma.com/news/galderma-tackles-menopause-related-skin-changes",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "MENOPAUSE SKINCARE",
+        "INSIGHT":  "Galderma oficializa la menopausia como una categoría médica-estética prioritaria, enfocándose en la pérdida de colágeno hormonal.",
+        "RESUMEN":  "Galderma anuncia nuevas iniciativas y protocolos clínicos para abordar los cambios cutáneos durante la menopausia. La estrategia combina inyectables con skincare especializado para tratar la sequedad extrema y la flacidez por déficit de estrógenos."
+    },
+    {
+        "URL":  "[Referencia Peluquería Profesional]",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE TENDENCIAS",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "PROFESIONAL HAIRCARE",
+        "INSIGHT":  "El salón de belleza evoluciona hacia un \"Centro de Salud Capilar\" donde la experiencia física se complementa con diagnóstico digital.",
+        "RESUMEN":  "El sector de la peluquería profesional se transforma para satisfacer a un consumidor hiper-informado, priorizando la transparencia en los ingredientes, servicios de diagnóstico capilar con IA y rutinas de mantenimiento personalizadas."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/booksy-encabeza-el-sector-de-la-digitalizacion-en-servicios-de-belleza-con-mas-de-116-bk4kn",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "DIGITALIZACIÓN RETAIL",
+        "INSIGHT":  "La digitalización de la agenda (Booksy) está permitiendo a los salones convertir el tráfico físico en datos accionables para marketing personalizado.",
+        "RESUMEN":  "Booksy se consolida como líder en digitalización de servicios de belleza, superando hitos de usuarios. Su plataforma no solo gestiona citas, sino que ofrece herramientas de fidelización y gestión de inventario para pymes del sector."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/what-gen-x-really-want-from-beauty-2026",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE CONSUMIDOR",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "GENERACIÓN X",
+        "INSIGHT":  "La Gen X rechaza el término \"anti-aging\" y exige productos que aborden la salud hormonal y la resiliencia de la piel con total transparencia.",
+        "RESUMEN":  "Informe sobre las demandas de la Gen X en 2026: priorizan ingredientes con respaldo científico, soluciones para la menopausia y marcas que celebren el envejecimiento natural sin filtros ni falsas promesas."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/isdin-recibe-el-sello-de-empresa-dermosaludable-de-la-fundacion-piel-sana-de-la-aedv-mW8F9",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "CERTIFICACIÓN MÉDICA",
+        "INSIGHT":  "El sello \"Empresa Dermosaludable\" eleva la responsabilidad corporativa de Isdin, vinculando la salud de sus empleados con su propósito de marca.",
+        "RESUMEN":  "Isdin se convierte en la primera empresa del sector en recibir este sello de la AEDV, reconociendo su labor en la promoción de la prevención del cáncer de piel y el cuidado dermatológico dentro y fuera de la organización."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/lafarmaciapunto_in-occasione-del-press-day-dedicato-al-lancio-ugcPost-7425199721612337153-j_G7",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "FARMACIA RETAIL",
+        "INSIGHT":  "La farmacia italiana se redefine como un espacio de \"experiencia premium\", compitiendo directamente con las perfumerías de lujo mediante servicios de diagnóstico.",
+        "RESUMEN":  "LaFarmacia. presenta su nuevo concepto de tienda durante un press day, destacando la integración de servicios de análisis de piel avanzados y una curaduría de marcas nicho para elevar el ticket promedio en el canal farmacéutico."
+    },
+    {
+        "URL":  "https://www.lvmh.com/en/news-lvmh/louis-vuitton-unveils-maison-louis-vuitton-sanlitun-in-beijing",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "FLAGSHIP EXPERIENCE",
+        "INSIGHT":  "La nueva Maison en Pekín reafirma que el retail físico de ultra-lujo debe ser una \"galería de arte\" para retener al consumidor chino de alto patrimonio.",
+        "RESUMEN":  "Louis Vuitton inaugura una imponente Maison en Sanlitun, Pekín. El espacio combina moda, arte y cultura, ofreciendo salones privados y experiencias exclusivas para consolidar su dominio en el mercado de lujo asiático."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/odella-mx_odellaex-imcas2026-ugcPost-7425229766590541824-wyw-",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST DE EVENTO",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "CONGRESO MÉDICO",
+        "INSIGHT":  "La presencia de distribuidores mexicanos en IMCAS París subraya la rápida adopción de tecnologías de rejuvenecimiento celular en LATAM.",
+        "RESUMEN":  "Odella México reporta su participación en IMCAS World Congress 2026 en París, identificando las últimas tendencias en inyectables y dispositivos láser para implementarlos en el mercado de medicina estética en México."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/kpmg_78-of-consumer-retail-ceo-respondents-activity-7425228762574745601-o1oH",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "CONFIANZA CEO",
+        "INSIGHT":  "El 78% de los CEOs de retail confían en el crecimiento de sus empresas a pesar de la volatilidad, priorizando la inversión en IA para eficiencia operativa.",
+        "RESUMEN":  "KPMG revela que los líderes del sector consumo y retail están apostando por la transformación tecnológica y la resiliencia en la cadena de suministro como pilares para el crecimiento en los próximos tres años."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/articles/beauty/beauty-brands-ski-trend/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "SKI BEAUTY",
+        "INSIGHT":  "El \"Après-Ski\" se consolida como el nuevo escenario de lujo para el skincare, moviendo el foco de la playa a la protección extrema en la montaña.",
+        "RESUMEN":  "BoF analiza cómo las marcas de belleza están invirtiendo en pop-ups y productos específicos para resorts de esquí. Esta tendencia busca capitalizar el estilo de vida de alto patrimonio, fusionando la moda de invierno con la necesidad de reparación de la barrera cutánea."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/clariant-y-lucas-meyer-cosmetics-presentan-innovaciones-en-formulacion-para-transform-i4Ib5",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "I+D E INNOVACIÓN",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "FORMULACIÓN SENSORIAL",
+        "INSIGHT":  "La neurocosmética y las texturas \"transformadoras\" son las nuevas herramientas para generar lealtad emocional a través del tacto.",
+        "RESUMEN":  "Clariant y Lucas Meyer presentan ingredientes que cambian de estado (de aceite a leche, etc.) y activos que estimulan neurotransmisores cutáneos, elevando el acto de aplicación a una experiencia de bienestar mental."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/articles/marketing-pr/meet-the-next-generation-of-influencers/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "NEXT-GEN INFLUENCERS",
+        "INSIGHT":  "El \"Influencer Curador\" sustituye al \"Influencer Aspiracional\": el consumidor de 2026 busca expertos que filtren el ruido del mercado.",
+        "RESUMEN":  "Análisis de la nueva generación de creadores de contenido que priorizan la educación técnica y la transparencia. Las marcas están moviendo presupuestos hacia perfiles que demuestran una autoridad real en ingredientes y sostenibilidad."
+    },
+    {
+        "URL":  "https://tecscience.tec.mx/es/salud/expediente-electronico/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME TÉCNICO",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "SALUD DIGITAL",
+        "INSIGHT":  "El expediente clínico digital interoperable es la base para la personalización predictiva en dermatología y medicina estética.",
+        "RESUMEN":  "TecScience explora los retos y beneficios del expediente electrónico en México. Para la industria de la belleza médica, esto representa una oportunidad de seguimiento preciso del paciente y la integración de datos para tratamientos preventivos."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/isdin-reclama-a-europa-que-actue-ante-las-resenas-falsas-y-la-desinformacion-en-el-ii-YxhAi",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "ÉTICA DIGITAL",
+        "INSIGHT":  "La lucha contra las reseñas falsas es la nueva frontera de la defensa de marca para mantener la integridad científica en el e-commerce.",
+        "RESUMEN":  "Isdin insta a la Unión Europea a legislar de forma más estricta contra la desinformación y las opiniones fraudulentas. La marca argumenta que la salud de la piel está en riesgo cuando los consumidores toman decisiones basadas en datos manipulados."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/events/retail/bof-live-how-retailers-effectively-target-fashion-and-beauty-consumers/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "EVENTO ESTRATÉGICO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "RETAIL TARGETING",
+        "INSIGHT":  "El éxito del retail moderno depende de la \"hiper-personalización algorítmica\" que predice el deseo antes que la necesidad.",
+        "RESUMEN":  "BoF discute con líderes del sector cómo los retailers están usando datos propios para segmentar audiencias de moda y belleza, moviéndose de un marketing de masas a una curaduría individualizada que aumenta la conversión."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/skin-care/article/22958894/evolved-by-nature-prestige-skin-cares-vegan-paradox-driven-by-consumer-confusion",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "VEGAN PARADOX",
+        "INSIGHT":  "La confusión del consumidor sobre lo \"vegano\" vs. lo \"natural\" está forzando a las marcas de prestigio a redefinir su transparencia técnica.",
+        "RESUMEN":  "Evolved by Nature analiza la paradoja del skincare vegano: los consumidores exigen productos sin crueldad, pero a menudo desconocen que esto implica sustitutos sintéticos que no siempre son sostenibles, impulsando el uso de seda líquida activada."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/anaceciliavaleriochipuli_nu-skin-redefine-el-bienestar-nutricional-activity-7425353794735009792-NN74",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA",
+        "INSIGHT":  "Nu Skin integra el bienestar nutricional con el cuidado de la piel bajo un enfoque de \"biotecnología personalizada\" para el hogar.",
+        "RESUMEN":  "Post que destaca el lanzamiento de nuevas soluciones nutricionales de Nu Skin que complementan sus dispositivos de belleza, reforzando el concepto de Beauty-from-within con respaldo científico y personalización."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/target-rolls-out-largest-ever-spring-beauty-assortment/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "MASS-MARKET EXPANSION",
+        "INSIGHT":  "Target se posiciona como el destino definitivo para la \"belleza democrática\", lanzando su mayor surtido de primavera con un fuerte enfoque en diversidad e inclusión.",
+        "RESUMEN":  "Target anuncia el despliegue de su catálogo de belleza más extenso hasta la fecha, incluyendo más de 1,000 productos nuevos, marcas fundadas por personas de color y opciones sostenibles a precios accesibles."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/albalabarca_76-e-commerce-la-gran-oportunidad-activity-7423952077598408704-jElN",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "E-COMMERCE ESTRATÉGICO",
+        "INSIGHT":  "El e-commerce ya no es un canal opcional; es el motor de crecimiento para las marcas que logran una omnicanalidad sin fricciones.",
+        "RESUMEN":  "Alba Labarca analiza el crecimiento del 76% en las oportunidades de e-commerce, subrayando la necesidad de optimizar la experiencia de usuario y la logística para capitalizar el cambio de hábito en el consumo global."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/flavioacunaoficial_holistichospitality-wellness-wellnesstourism-activity-7424145787577618432-dOVT",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "WELLNESS TOURISM",
+        "INSIGHT":  "El turismo de bienestar evoluciona hacia la \"Hospitalidad Holística\", donde el hotel se convierte en un centro de salud preventiva y regeneración.",
+        "RESUMEN":  "Flavio Acuña explora cómo la hotelería está integrando servicios de bienestar de 360 grados, desde biohacking hasta nutrición consciente, para atraer a un viajero que busca transformar su salud durante su estancia."
+    },
+    {
+        "URL":  "https://www.linkedin.com/feed/update/urn:li:activity:7425413469774163969",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO EJECUTIVO",
+        "INSIGHT":  "La consolidación de equipos de alto rendimiento es el activo intangible más valioso para la resiliencia operativa en mercados volátiles.",
+        "RESUMEN":  "Post que destaca la importancia del capital humano y la cultura organizacional en el éxito de las transformaciones corporativas actuales, subrayando el rol de la dirección en la motivación y retención de talento clave."
+    },
+    {
+        "URL":  "https://www.marketingdirecto.com/marketing-general/promociones-farmacia-menos-regalos-mas-sencillez",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MARKETING",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "FARMACIA RETAIL",
+        "INSIGHT":  "El consumidor de farmacia penaliza el exceso de \"promociones de regalo\" y premia la claridad en el precio y el beneficio directo del producto.",
+        "RESUMEN":  "Análisis sobre el cambio en el marketing farmacéutico: las marcas están abandonando los regalos promocionales saturados por estrategias de \"Sencillez Radical\", enfocándose en descuentos directos y una comunicación de valor más honesta."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/est%C3%A9e-lauder-companies-shares-plummet-despite-q2-rebound",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "VOLATILIDAD BURSÁTIL",
+        "INSIGHT":  "El mercado bursátil muestra una desconfianza estructural hacia los gigantes del lujo; un Q2 positivo ya no es suficiente si la guía de crecimiento futuro es incierta.",
+        "RESUMEN":  "A pesar de reportar una recuperación en las ventas del segundo trimestre, las acciones de Estée Lauder caen bruscamente. Los inversores reaccionan negativamente ante proyecciones de rentabilidad a largo plazo que sugieren una recuperación más lenta de lo previsto en Asia."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/essence-expands-into-500-walmart-stores-across-the-us/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "MASS-MARKET EXPANSION",
+        "INSIGHT":  "El éxito de Essence en Walmart confirma que la \"belleza democrática\" de alta calidad está desplazando a las marcas tradicionales de supermercado.",
+        "RESUMEN":  "La marca de bajo coste Essence expande su presencia a 500 tiendas adicionales de Walmart en EE.UU. Su modelo de negocio, basado en la viralidad de redes sociales y precios ultra-accesibles, sigue ganando cuota de mercado en el retail masivo."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/el-maquillaje-refuerza-su-peso-en-la-belleza-europea-con-espana-entre-los-mercados-es-NHfhj",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "CONSUMO EUROPA",
+        "INSIGHT":  "España se consolida como el motor de crecimiento del maquillaje en Europa, impulsado por una recuperación total del uso social y eventos.",
+        "RESUMEN":  "Informe sobre la salud del sector en Europa: el maquillaje recupera su peso estratégico frente al skincare. España destaca como uno de los mercados más dinámicos, con una demanda creciente en productos para labios y bases de larga duración."
+    },
+    {
+        "URL":  "https://www.nextinbeautymag.com/es/negocio/economia-sector/canal-belleza-motor-crecimiento-consumo-en-retail-perfumeria-en-2025_2628_102.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ECONÓMICO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RETAIL ESPAÑA",
+        "INSIGHT":  "El sector de la perfumería y cosmética se consolida como el principal dinamizador del retail en 2025, superando a otras categorías de gran consumo.",
+        "RESUMEN":  "Análisis del mercado español donde la belleza actúa como motor de crecimiento económico. El aumento del ticket promedio y la resiliencia del consumo premium han impulsado al canal de perfumería a niveles récord de facturación."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/lor%C3%A9al_createthebeautythatmovestheworld-activity-7425591780709920768-mglo",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "PROPÓSITO DE MARCA",
+        "INSIGHT":  "L\u0027Oréal refuerza su liderazgo mediante un propósito que trasciende el producto, vinculando la innovación con el impacto social positivo.",
+        "RESUMEN":  "L\u0027Oréal comparte su visión \"Create the Beauty that Moves the World\", subrayando que el crecimiento futuro del grupo depende de la intersección entre sostenibilidad, tecnología avanzada (Beauty Tech) e inclusión cultural."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/nykaa-more-than-doubles-q3-profit-as-beauty-demand-stays-resilient-in-india/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "MERCADOS EMERGENTES",
+        "INSIGHT":  "Nykaa demuestra que el apetito por la belleza premium en India es estructural y no cíclico, duplicando su rentabilidad en un trimestre.",
+        "RESUMEN":  "El gigante del e-commerce indio Nykaa reporta beneficios récord en el Q3. El crecimiento es impulsado por una demanda insaciable de marcas internacionales de prestigio y la expansión de sus propias marcas verticales."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/best-australian-beauty-exports/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "A-BEAUTY",
+        "INSIGHT":  "La \"A-Beauty\" (Belleza Australiana) gana terreno global al ofrecer una narrativa de ingredientes botánicos salvajes y una estética de salud sin esfuerzo.",
+        "RESUMEN":  "Reporte sobre las exportaciones de belleza más exitosas de Australia. Marcas que utilizan Kakadu Plum y aceites nativos se posicionan como la alternativa \"limpia y eficaz\" a la cosmética tradicional europea."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/juanjoseibarra_nike-skims-athleisure-activity-7425513486040014848-r5uf",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "LIFESTYLE CROSSOVER",
+        "INSIGHT":  "La convergencia entre el bienestar físico y el lujo cotidiano (Athleisure) es el nuevo campo de batalla para las marcas de estilo de vida.",
+        "RESUMEN":  "Juan José Ibarra analiza cómo alianzas como Nike x SKIMS redefinen el mercado del bienestar, sugiriendo que la belleza debe integrarse en el ecosistema del \"confort premium\" para seguir siendo relevante."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/lvmh-releva-a-guillaume-henry-en-patou-tras-siete-anos-al-frente-de-su-relanzamiento",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO CREATIVO",
+        "INSIGHT":  "El cambio en Patou señala una fase de \"madurez comercial\" donde LVMH priorizará la rentabilidad y el retail sobre la experimentación creativa.",
+        "RESUMEN":  "LVMH anuncia la salida de Guillaume Henry de Patou. Tras siete años enfocados en reconstruir el ADN de la marca, el grupo busca un nuevo perfil que acelere el crecimiento en accesorios y perfumes, pilares de rentabilidad del lujo."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/estee-lauder-shares-slump-despite-earnings-beat-and-higher-outlook/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "VOLATILIDAD BURSÁTIL",
+        "INSIGHT":  "La desconexión entre el rendimiento operativo (superar ganancias) y la confianza del mercado subraya el miedo al estancamiento en China.",
+        "RESUMEN":  "A pesar de superar las expectativas de beneficios y elevar su guía anual, las acciones de Estée Lauder sufren una caída. Los inversores castigan la lentitud en la recuperación de márgenes frente a competidores más ágiles."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/kao-reports-fy2025-results-and-updates-financial-reporting-framework/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "TRANSPARENCIA FINANCIERA",
+        "INSIGHT":  "Kao adopta un marco de reporte más transparente para atraer inversión extranjera y alinear su división de cosmética con estándares globales.",
+        "RESUMEN":  "El gigante japonés Kao presenta sus resultados de 2025 y actualiza su marco financiero. El objetivo es desglosar mejor el rendimiento de su portafolio de belleza (como Molton Brown) para maximizar el valor para el accionista."
+    },
+    {
+        "URL":  "https://ideas.pwc.es/archivos/20260206/como-dos-marcas-estan-transformando-el-sector-de-la-belleza/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "TRANSFORMACIÓN DIGITAL",
+        "INSIGHT":  "La ventaja competitiva ya no reside en el producto, sino en la capacidad de orquestar ecosistemas de datos y comunidades leales.",
+        "RESUMEN":  "PwC analiza cómo dos marcas disruptoras han redefinido la categoría mediante el uso de IA para la personalización extrema y modelos de suscripción que garantizan ingresos recurrentes y datos directos del consumidor."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/coty-interim-ceo-unveils-turnaround-strategy-coty-curated",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "TURNAROUND PLAN",
+        "INSIGHT":  "Coty Curated es la apuesta del grupo para simplificar su portafolio y enfocarse exclusivamente en marcas con potencial de \"estatus de culto\".",
+        "RESUMEN":  "El CEO interino de Coty revela la estrategia de reestructuración centrada en la curaduría. El plan implica desinvertir en marcas secundarias para concentrar inversión en potencias como Kylie Cosmetics y su división de fragancias de lujo."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/the-biggest-fragrance-trends-of-2026/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME DE TENDENCIAS",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "FRAGANCIAS",
+        "INSIGHT":  "La perfumería de 2026 abandona la \"proyección invasiva\" para centrarse en el bienestar personal, con el auge de los skin scents y notas umami.",
+        "RESUMEN":  "Reporte sobre las tendencias olfativas del año: predominan las fragancias que imitan el olor natural de la piel (your-skin-but-better), el uso de ingredientes culinarios salados y la búsqueda de conexiones emocionales a través del olfato."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/party-of-you-is-the-new-skincare-brand-for-late-nights-and-lazy-mornings/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "COUNTER-WELLNESS",
+        "INSIGHT":  "El \"counter-wellness\" triunfa al validar el estilo de vida real de la Gen Z, sustituyendo la culpa de las rutinas estrictas por el control de daños.",
+        "RESUMEN":  "Maesa lanza Party of You, una marca de skincare diseñada para la recuperación post-fiesta. Con productos rápidos y multiactivos, se posiciona en contra de la presión de las rutinas de bienestar perfectas, enfocándose en la desinflamación y rehidratación inmediata."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/kourtney-and-kylie-just-made-glazed-skin-an-inside-out-thing/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA",
+        "INSIGHT":  "La tendencia \"Glazed Skin\" evoluciona hacia un ecosistema híbrido: el brillo ya no solo se aplica, se ingiere para lograr una regeneración celular profunda.",
+        "RESUMEN":  "Kourtney Kardashian (Lemme) y Kylie Jenner (Kylie Cosmetics) lanzan las Skin Glaze Gummies. El producto utiliza espermidina (\"molécula de la juventud\") para promover el brillo desde el interior, complementando el lanzamiento de bálsamos tópicos para un efecto 360°."
+    },
+    {
+        "URL":  "https://www.linkedin.com/pulse/d%C3%B3nde-comprar%C3%A1-la-generaci%C3%B3n-alfa-los-productos-de-alba-labarca-le%C3%B3n-janle/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ANÁLISIS ESTRATÉGICO",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "GENERACIÓN ALFA",
+        "INSIGHT":  "La Gen Alfa exigirá un retail \"phygital\" donde la tienda física funcione como un patio de recreo interactivo y el e-commerce sea 100% gamificado.",
+        "RESUMEN":  "Alba Labarca analiza los hábitos de consumo de la Generación Alfa. Destaca que sus decisiones de compra estarán ligadas a plataformas como Roblox/Fortnite y que el punto de venta físico deberá centrarse en la experiencia inmersiva para competir con la inmediatez digital."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/veradermics-debuta-en-bolsa-con-fuerza-y-apuesta-por-un-minoxidil-oral-para-la-caida-del-cabello.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "SALUD CAPILAR",
+        "INSIGHT":  "El minoxidil oral de liberación prolongada es la apuesta definitiva para sustituir al tópico, eliminando los problemas de adherencia y efectos secundarios.",
+        "RESUMEN":  "Veradermics debuta en bolsa tras el éxito de sus ensayos fase 3 con VDPHL01. Esta nueva pastilla de minoxidil oral promete ser el estándar de oro contra la alopecia androgénica, atrayendo un fuerte interés de inversores por su potencial de mercado masivo."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/pharmacydesign_rossmann-farmacia-retailfarmaceutico-share-7424535684255866881-ECLh",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "RETAIL HÍBRIDO",
+        "INSIGHT":  "El modelo de Rossmann demuestra que la farmacia del futuro debe integrar salud, belleza y conveniencia para maximizar el tráfico y la recurrencia.",
+        "RESUMEN":  "Análisis de la expansión de Rossmann y su impacto en el diseño de farmacias. Se destaca cómo la disposición del espacio y la mezcla de categorías (salud + droguería) están redefiniendo las expectativas del consumidor en el punto de venta físico."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/revista-merca2-0-80786492_nestl%C3%A9-impulsa-normas-globales-tras-crisis-activity-7425221712541286400-lMYv",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "GESTIÓN DE CRISIS",
+        "INSIGHT":  "La transparencia proactiva en estándares de calidad es la única defensa efectiva contra el escrutinio público en la era de la información total.",
+        "RESUMEN":  "Tras enfrentar una crisis de reputación, Nestlé lidera una iniciativa para establecer normas globales de seguridad alimentaria y nutrición más estrictas, buscando recuperar la confianza del consumidor mediante el liderazgo en transparencia."
+    },
+    {
+        "URL":  "https://www.weforum.org/press/2026/01/new-report-calls-for-stronger-evidence-and-transparency-to-unlock-investment-in-women-s-health/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "WOMEN\u0027S HEALTH",
+        "INSIGHT":  "La falta de datos específicos de género es el principal cuello de botella para la inversión masiva en el mercado de la salud femenina.",
+        "RESUMEN":  "El Foro Económico Mundial publica un informe instando a una mayor transparencia y rigor científico en la investigación sobre salud de la mujer. El objetivo es atraer capital hacia innovaciones en fertilidad, menopausia y longevidad femenina."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/lacoste_lacoste-teamlacoste-ugcPost-7425579026725044224-itk-",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "SPORTS LIFESTYLE",
+        "INSIGHT":  "Lacoste capitaliza la \"cultura de equipo\" para mover el foco del producto hacia la identidad y el sentido de pertenencia de su comunidad global.",
+        "RESUMEN":  "Lacoste presenta a los nuevos miembros de su equipo global, reforzando su posicionamiento en la intersección entre el tenis de alto rendimiento y la moda urbana de lujo bajo el concepto \"Team Lacoste\"."
+    },
+    {
+        "URL":  "https://www.linkedin.com/feed/update/urn:li:activity:7425628583668207618",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "CULTURA DE TRABAJO",
+        "INSIGHT":  "El éxito en la implementación de nuevas tecnologías depende más de la agilidad cultural del equipo que de la potencia de la herramienta misma.",
+        "RESUMEN":  "Reflexión sobre la transformación digital en las organizaciones, subrayando que la formación continua y el acompañamiento emocional de los empleados son críticos para evitar la resistencia al cambio en procesos de innovación."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/albalabarca_observandolafarmacia-mostrador-visibilidad-activity-7422866166760583168-IUR0",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "TRADE MARKETING",
+        "INSIGHT":  "La visibilidad en el mostrador de la farmacia es el \"momento de la verdad\" donde la recomendación profesional se encuentra con la decisión de impulso.",
+        "RESUMEN":  "Alba Labarca analiza la importancia de la gestión del punto de venta en farmacia, destacando cómo una correcta visibilidad de producto y la formación del personal en el mostrador pueden incrementar significativamente las ventas cruzadas."
+    },
+    {
+        "URL":  "https://sapo.pt/artigo/tratamentos-oncologicos-e-pele-o-impacto-e-profundo-una-pele-que-doi-afeta-a-mobilidade-e-a-autoestima-698362fe7315c058013521ac",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS MÉDICO",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "DERMO-ONCOLOGÍA",
+        "INSIGHT":  "La \"piel que duele\" en pacientes oncológicos requiere un enfoque terapéutico, no solo cosmético, integrando activos reparadores de barrera.",
+        "RESUMEN":  "Reporte sobre el impacto de la quimioterapia en la salud cutánea. Se enfatiza que la sequedad extrema y la sensibilidad no solo afectan la estética, sino que limitan la movilidad y la calidad de vida, demandando protocolos de cuidado específicos."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/trump-lanza-trumprx-una-web-para-comprar-medicamentos-con-descuentos-en-eeuu.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA POLÍTICA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "POLÍTICA SANITARIA",
+        "INSIGHT":  "La irrupción de plataformas de descuento directo (TrumpRx) desafía el modelo tradicional de farmacia y los gestores de beneficios (PBM) en EE.UU.",
+        "RESUMEN":  "Donald Trump lanza TrumpRx, un portal destinado a ofrecer fármacos con descuentos significativos. Este movimiento busca capturar el voto popular mediante la reducción del gasto sanitario directo, alterando la cadena de valor farmacéutica."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/pharmacydesign_sartorettoverna-pharmacybusinessarchitects-activity-7424540359004909569-Mxd0",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "DISEÑO DE FARMACIA",
+        "INSIGHT":  "La arquitectura de la farmacia debe pasar de ser un almacén de cajas a un teatro de experiencias de salud y bienestar.",
+        "RESUMEN":  "Sartoretto Verna destaca su enfoque de \"arquitectura de negocio\", donde el diseño del espacio físico en la farmacia se utiliza para guiar el flujo del cliente, aumentar la rentabilidad por metro cuadrado y mejorar el consejo profesional."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/cosnova-accelerates-global-growth-with-strong-brand-momentum-and-skincare-expansion/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN DE CATEGORÍA",
+        "INSIGHT":  "El éxito de Cosnova radica en su capacidad para trasladar la velocidad de la moda (Fast-Beauty) al segmento del skincare de bajo coste.",
+        "RESUMEN":  "Cosnova (Essence, Catrice) reporta un crecimiento global acelerado. El grupo está apalancando el éxito de sus marcas de maquillaje para expandirse agresivamente en el cuidado de la piel, capturando al consumidor que busca eficacia a precios democráticos."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/luigicorvi_farmacia-farmaciaeuropea-marginalitaeq-activity-7425060871669882880-iWKH",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS EJECUTIVO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "MARGINALIDAD",
+        "INSIGHT":  "La supervivencia de la farmacia europea depende de la transición de la venta de productos de bajo margen a la venta de servicios de alto valor añadido.",
+        "RESUMEN":  "Luigi Corvi analiza la presión sobre los márgenes en la farmacia europea. Sugiere que el futuro del canal no está en el volumen de recetas, sino en la especialización, la consultoría en dermocosmética y la oferta de servicios diagnósticos."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/meghan-mcmanamon_branding-trending-marketingstrategy-activity-7425600278474694656--rIz",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "BRANDING",
+        "INSIGHT":  "El branding en 2026 debe priorizar la \"atención humana\" sobre el algoritmo; la saturación digital premia a las marcas que logran una conexión táctil y real.",
+        "RESUMEN":  "Meghan McManamon analiza cómo las marcas están regresando a estrategias de marketing físico y sensorial para destacar. El insight clave es que la confianza se construye en los espacios donde el consumidor puede desconectarse del ruido digital."
+    },
+    {
+        "URL":  "https://www.linkedin.com/pulse/posizionamento-forte-farmacia-5-casi-italiani-che-sartoretto-verna-gsezf/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTUDIO DE CASOS",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "RETAIL ITALIA",
+        "INSIGHT":  "La especialización extrema es el único refugio contra la comoditización de la farmacia; elegir un nicho (ej. pediatría, longevidad) duplica la fidelidad.",
+        "RESUMEN":  "Sartoretto Verna presenta 5 casos de éxito en Italia donde el diseño y la especialización temática han transformado farmacias convencionales en destinos de salud premium, logrando márgenes superiores a la media del sector."
+    },
+    {
+        "URL":  "https://www.linkedin.com/pulse/higiene-oral-en-farmacia-una-categor%C3%ADa-madura-que-el-labarca-le%C3%B3n-ery7e/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE CATEGORÍA",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "HIGIENE ORAL",
+        "INSIGHT":  "La higiene oral está mutando de \"limpieza básica\" a \"estética dental de salud\", abriendo paso a productos de blanqueamiento y cuidado de encías premium.",
+        "RESUMEN":  "Alba Labarca analiza la categoría de higiene oral en farmacia, destacando que es una \"gigante dormida\". El futuro del lineal pasa por la formación del personal y la introducción de dispositivos tecnológicos y dermo-dentales de alto valor."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/nacional/asisa-eleva-un-73-la-retribucion-de-sus-medicos-para-2026.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "GESTIÓN DE TALENTO",
+        "INSIGHT":  "La retención de talento médico mediante incentivos económicos es la respuesta necesaria ante la crisis de personal y la creciente demanda asistencial.",
+        "RESUMEN":  "Asisa anuncia un incremento del 7.3% en la retribución de su cuadro médico para 2026. Este ajuste busca fortalecer su red asistencial y garantizar la calidad del servicio en un entorno de alta competencia por profesionales cualificados."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/monicalizondo_dermofarmacia-cienciacosmaeztica-formulaciaejndermocosmaeztica-activity-7425558686175031297-NuVH",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS TÉCNICO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "FORMULACIÓN",
+        "INSIGHT":  "La formulación magistral en dermofarmacia permite una personalización que la cosmética industrial no puede replicar, especialmente en pieles con patologías.",
+        "RESUMEN":  "Mónica Elizondo resalta el valor de la ciencia cosmética aplicada en la farmacia. Defiende que la comprensión profunda de los activos permite al farmacéutico \"prescribir\" soluciones exactas, elevando el estatus científico de la dermofarmacia."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/iv%C3%A1n-estuardo-herrera-leal-12b49187_el-fin-del-visitador-m%C3%A9dico-no-activity-7424520228295942144-er33",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "FUERZA DE VENTAS",
+        "INSIGHT":  "El visitador médico no desaparece, pero evoluciona a un \"Consultor de Datos\" que debe aportar valor científico más allá de la muestra comercial.",
+        "RESUMEN":  "Iván Herrera analiza la transformación del rol del visitador médico. En el nuevo modelo, la visita presencial debe estar apoyada en herramientas digitales y un conocimiento clínico profundo que facilite la toma de decisiones del facultativo."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/gsk-y-tres-universidades-britanicas-lanzan-un-nuevo-programa-de-doctorado-para-impulsar-la-i-d-farmaceutica.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "FORMACIÓN Y TALENTO",
+        "INSIGHT":  "La colaboración público-privada en doctorados asegura que la investigación académica esté alineada con las necesidades reales de la industria.",
+        "RESUMEN":  "GSK se alía con tres universidades del Reino Unido para lanzar un programa de doctorado especializado. El objetivo es formar a la próxima generación de científicos en áreas críticas de la I+D farmacéutica, acelerando el descubrimiento de fármacos."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/galderma-_cetaphilrun-cetaphilrun-cetaphilmexico-ugcPost-7419807017478799360-IIQu",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "EVENT MARKETING",
+        "INSIGHT":  "La \"Cetaphil Run\" en México trasciende el patrocinio deportivo para posicionar la salud cutánea como parte integral del bienestar físico.",
+        "RESUMEN":  "Galderma México celebra el éxito de la carrera Cetaphil, utilizando el deporte como plataforma para educar sobre la importancia de la limpieza e hidratación de la piel sensible en entornos activos y urbanos."
+    },
+    {
+        "URL":  "https://www.coldchainplatform.com/news/2026/feb/hanmi-secures-export-deal-with-mexican-partner-sanfer-for-glp1-obesity-drug-and-more.php",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE NEGOCIO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN MÉXICO",
+        "INSIGHT":  "La llegada de nuevos fármacos GLP-1 a México mediante alianzas locales (Sanfer) democratizará el tratamiento de la obesidad en la región.",
+        "RESUMEN":  "La coreana Hanmi Pharmaceutical firma un acuerdo de exportación con la mexicana Sanfer. El contrato incluye su innovadora cartera de fármacos GLP-1 para obesidad y diabetes, reforzando la oferta terapéutica en el mercado latinoamericano."
+    },
+    {
+        "URL":  "https://www.democrata.es/democrata-pro/seguimiento-periodistico-legislativo/laboratorios-aumentan-40-su-inversion-en-i-d-en-ultimos-cinco-anos-lustro/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME SECTORIAL",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "INVERSIÓN FARMACÉUTICA",
+        "INSIGHT":  "El aumento del 40% en inversión en I+D confirma que la industria farmacéutica es el principal motor de innovación tecnológica de la década.",
+        "RESUMEN":  "Análisis sobre el crecimiento de la inversión en los últimos cinco años. Los laboratorios han intensificado su gasto en investigación, impulsados por la necesidad de terapias personalizadas, biotecnología avanzada y soluciones digitales."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/cosmetics-business-reveals-the-top-5-beauty-hotspots",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "GEOGRAFÍAS CLAVE",
+        "INSIGHT":  "El éxito de una marca en 2026 depende de su capacidad para adaptarse a los \"hotspots\" culturales de belleza, donde la innovación y el consumo convergen.",
+        "RESUMEN":  "Cosmetics Business identifica los 5 mercados geográficos con mayor dinamismo en el sector belleza este año. Se analizan regiones donde la demanda de skincare clínico y maquillaje de autor está superando las proyecciones globales."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/the-body-shop-brings-back-iconic-1990s-scent-dewberry",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "NOSTALGIA MARKETING",
+        "INSIGHT":  "El retorno de iconos olfativos de los 90 permite reactivar a la base de clientes original (Gen X) mediante la memoria emocional, mientras se introduce el concepto de \"vintage auténtico\" a la Gen Z.",
+        "RESUMEN":  "The Body Shop relanza su fragancia de culto de los años 90, Dewberry, tras recibir miles de peticiones. La colección regresa reformulada con un \"giro moderno\" e incluye por primera vez una bruma de perfume (mist), alineándose con las categorías de mayor crecimiento actual."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/packaging-innovations-empack-2026-la-inteligencia-artificial-generativa-transformara--uTNRE",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE EVENTO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "PACKAGING CON IA",
+        "INSIGHT":  "La IA Generativa en packaging reduce drásticamente el \"time-to-market\" y personaliza la sostenibilidad, permitiendo prototipado virtual instantáneo.",
+        "RESUMEN":  "Previo a Empack 2026, se destaca cómo la Inteligencia Artificial Generativa está revolucionando el diseño de envases. La tecnología permite crear estructuras eficientes y sostenibles en segundos, optimizando tanto la estética como la logística de producción."
+    },
+    {
+        "URL":  "https://www.fmlogistic.es/publicacion/la-vida-en-juego-cadenas-de-suministro-farmaceuticas-bajo-presion-los-nuevos-caminos-a-seguir/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "LOGÍSTICA \u0026 SUPPLY CHAIN",
+        "SUBCATEGORÍA":  "PHARMA LOGISTICS",
+        "INSIGHT":  "La cadena de suministro farmacéutica evoluciona de \"centro de costes\" a \"activo estratégico\" mediante el uso de Blockchain para garantizar la seguridad del paciente.",
+        "RESUMEN":  "FM Logistic publica el whitepaper \"La vida en juego\", analizando la presión sobre la distribución farmacéutica. El informe propone el uso de IA y Blockchain para asegurar la trazabilidad y la equidad en el acceso a medicamentos en un entorno geopolítico volátil."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/clinique-partners-with-crayola-on-chubby-sticks-campaign",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "NOSTALGIA MARKETING",
+        "INSIGHT":  "La colaboración Clinique x Crayola valida la tendencia \"Kidult\": el maquillaje deja de buscar la perfección para centrarse en el juego y la creatividad intuitiva.",
+        "RESUMEN":  "Clinique relanza sus icónicos Chubby Sticks en asociación con Crayola. La campaña apela a la nostalgia de los 90 y al concepto de \"colorear sin salirse de la línea\", buscando reconectar con los Millennials y atraer a la Gen Z mediante la simplicidad lúdica."
+    },
+    {
+        "URL":  "https://beautyleaderssummit.com/",
+        "AÑO":  "2026",
+        "MES":  "MAYO*",
+        "TIPO DE FUENTE":  "EVENTO CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "NETWORKING EJECUTIVO",
+        "INSIGHT":  "El liderazgo en belleza para 2026 se define por la capacidad de navegar la \"paradoja del retail\": crecer en masa (Target) manteniendo el prestigio.",
+        "RESUMEN":  "Referencia al evento de París (Mayo 2026). El Beauty Leaders Summit reunirá a la élite del skincare para debatir las nuevas reglas del retail. La agenda prioriza estrategias para ganar en Sephora y la adaptación de las marcas de lujo a las nuevas exigencias de transparencia del consumidor."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/pharmacydesign_farmacia-farmacista-farmaciadeiservizi-activity-7418598779664154624-DkQw",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "FARMACIA DE SERVICIOS",
+        "INSIGHT":  "La \"Farmacia dei Servizi\" deja de ser un concepto teórico para exigir una reconfiguración arquitectónica: el espacio físico debe priorizar la privacidad clínica sobre la exposición de producto.",
+        "RESUMEN":  "Sartoretto Verna analiza la transición hacia la farmacia asistencial. El diseño interior debe adaptarse para integrar cabinas de telemedicina y diagnóstico, convirtiendo el punto de venta en un hub de salud comunitaria."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/sephora-enters-strategic-partnership-with-olive-young",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "ALIANZA GLOBAL",
+        "INSIGHT":  "Sephora admite tácticamente que no puede replicar la velocidad de la K-Beauty por sí sola, optando por \"importar\" la curaduría de Olive Young para mantener relevancia en Asia y EE.UU.",
+        "RESUMEN":  "Sephora y CJ Olive Young (el gigante coreano de salud y belleza) firman una alianza estratégica. Olive Young curará zonas exclusivas de \"K-Beauty\" dentro de las tiendas Sephora a nivel global, comenzando por EE.UU., para capturar las tendencias coreanas en tiempo real."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/sante-ventures-cierra-su-fondo-v-con-330-millones-de-dolares-y-anuncia-nuevos-nombramientos-directivos.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "VENTURE CAPITAL",
+        "INSIGHT":  "A pesar de la cautela económica, el capital riesgo sigue fluyendo hacia la biotecnología y la salud digital, validando el modelo de startups de \"ciencia profunda\".",
+        "RESUMEN":  "Santé Ventures cierra su Fondo V con 330 millones de dólares destinados a empresas de salud y biotecnología en etapas tempranas. La firma refuerza su equipo directivo para buscar oportunidades en genómica y plataformas de salud digital."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/mac-cosmetics_our-newest-global-brand-ambassador-ella-is-ugcPost-7420526026113400832-iS8H",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "EMBAJADORA GLOBAL",
+        "INSIGHT":  "MAC apuesta por la Generación Alfa y Z al fichar a Ella Gross (MEOVV), fusionando la estética K-Pop con el legado artístico de la marca para rejuvenecer su audiencia.",
+        "RESUMEN":  "MAC Cosmetics presenta a Ella Gross, miembro del grupo de K-Pop MEOVV, como su nueva embajadora global. La campaña busca capitalizar la influencia masiva del pop coreano y la estética \"soft grunge\" que resuena con los consumidores más jóvenes."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/malin-goetz-uk-stores-closed-administration-70-jobs-lost",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN RETAIL",
+        "INSIGHT":  "El cierre de Malin+Goetz en UK evidencia que las marcas de \"lujo nicho\" no pueden sostener estructuras de retail físico propias en mercados de alquileres inflados sin un respaldo masivo.",
+        "RESUMEN":  "La marca de cuidado de la piel Malin+Goetz entra en administración en el Reino Unido, cerrando sus 7 tiendas físicas y despidiendo a 70 empleados. La compañía se repliega para enfocar sus recursos en el canal digital y mercados más rentables como EE.UU."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/parfums-christian-dior_dior-reverseaging-skincareinnovation-ugcPost-7420508347923271680-tE0y",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "REVERSE AGING",
+        "INSIGHT":  "Dior eleva la apuesta del \"anti-aging\" al \"reverse aging\", prometiendo no solo detener el tiempo, sino revertir biológicamente los marcadores de daño celular.",
+        "RESUMEN":  "Parfums Christian Dior presenta su última innovación en cuidado de la piel basada en la ciencia de la reversión de la edad. La campaña destaca la investigación en células madre y la capacidad de regenerar la estructura dérmica a niveles juveniles."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/aloyoga_move-into-wellness-rosie-huntington-whiteley-activity-7419756042399694848-CDsk",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "CAMPAÑA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "WELLNESS LIFESTYLE",
+        "INSIGHT":  "La asociación con Rosie HW valida que el \"wellness\" ya no es una actividad, sino una estética de vida completa que fusiona moda deportiva y belleza limpia.",
+        "RESUMEN":  "Alo Yoga lanza \"Move into Wellness\" con la supermodelo y empresaria Rosie Huntington-Whiteley. La campaña integra la ropa activa con la filosofía de bienestar integral, posicionando a la marca como un ecosistema de estilo de vida premium."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/elevated-essentials-luxury-beauty-next-big-category",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE TENDENCIAS",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "ELEVATED ESSENTIALS",
+        "INSIGHT":  "Los productos mundanos (detergente, pasta de dientes) son el nuevo lujo accesible; el consumidor busca \"micro-momentos de placer\" en la rutina diaria.",
+        "RESUMEN":  "Reporte sobre el auge de los \"Esenciales Elevados\". Categorías tradicionalmente aburridas como el cuidado oral y la limpieza del hogar están recibiendo un tratamiento de lujo con fragancias complejas, envases de diseño y precios premium."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/enzo-scida-53195930a_maisoncosmetics-digitalrebels-brandbuilding-activity-7423380245048881152-b0Xz",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "BRAND BUILDING",
+        "INSIGHT":  "Las marcas \"Digital Rebels\" están ganando terreno no por presupuesto, sino por agilidad en la narrativa y una conexión comunitaria sin intermediarios.",
+        "RESUMEN":  "Enzo Scida reflexiona sobre la construcción de marca en la era digital para Maison Cosmetics. Destaca cómo las marcas nativas digitales desafían a los conglomerados mediante autenticidad radical y estrategias de marketing de guerrilla."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/mirum-completa-la-adquisicion-de-bluejay-therapeutics-y-refuerza-su-apuesta-por-las-enfermedades-hepaticas-raras.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "BIOTECH \u0026 PHARMA",
+        "INSIGHT":  "La consolidación en el sector de enfermedades raras demuestra que el valor futuro reside en terapias de nicho con alta barrera de entrada y protección de patentes.",
+        "RESUMEN":  "Mirum Pharmaceuticals completa la adquisición de BlueJay Therapeutics. La operación refuerza su cartera en hepatología con nuevos tratamientos para enfermedades hepáticas raras, buscando liderazgo en un mercado de alta especialización."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/chenyueie_sephora-oliveyoung-kbeauty-activity-7426346595505385472-v5jM",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "RETAIL PARTNERSHIP",
+        "INSIGHT":  "La alianza Sephora x Olive Young no es solo distribución; es un reconocimiento de que Occidente necesita la \"velocidad de innovación\" coreana que sus propios laboratorios no pueden igualar.",
+        "RESUMEN":  "Chen Yue analiza el impacto del acuerdo, destacando que Sephora \"subcontrata\" la curaduría de tendencias a Olive Young. Esto permite a Sephora refrescar sus lineales con la agilidad de la K-Beauty sin asumir el riesgo de desarrollo de producto."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/natura-anuncia-un-acuerdo-para-vender-avon-international-y-refuerza-su-foco-en-latino-aRew5",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN",
+        "INSIGHT":  "El sueño de \"Natura Global\" termina para dar paso a la \"Fortaleza Latina\"; la venta de Avon International libera capital para digitalizar y blindar su liderazgo en LATAM.",
+        "RESUMEN":  "Natura \u0026Co anuncia la venta de las operaciones internacionales de Avon para centrarse exclusivamente en América Latina. La operación busca reducir deuda y simplificar la estructura operativa, priorizando la integración de la venta directa con el e-commerce en su mercado nativo."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5750634/salud-femenina-longevidad-belleza-integral-conferencias-seminar-theatre-nutraceuticals-europe",
+        "AÑO":  "2026",
+        "MES":  "MARZO*",
+        "TIPO DE FUENTE":  "AGENDA DE EVENTO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA",
+        "INSIGHT":  "La nutricosmética abandona la estética superficial (pelo/uñas) para centrarse en la \"Salud Sistémica Femenina\": menopausia, equilibrio hormonal y longevidad celular.",
+        "RESUMEN":  "Avance de agenda. El Seminar Theatre de Nutraceuticals Europe 2026 pondrá el foco en ingredientes funcionales que abordan el envejecimiento desde la salud interna, validando la convergencia total entre la industria alimentaria y la cosmética."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/halozyme-refuerza-su-apuesta-por-la-administracion-subcutanea-con-la-compra-de-surf-bio-por-hasta-400-millones-de-dolares.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "BIOTECH DELIVERY",
+        "INSIGHT":  "La tecnología de administración subcutánea es el nuevo \"Gold Standard\"; mover tratamientos del hospital (IV) al hogar (inyección simple) multiplica la adherencia y el valor del fármaco.",
+        "RESUMEN":  "Halozyme adquiere Surf Bio por 400 millones de dólares. El objetivo es capturar su tecnología de formulación que permite convertir biológicos inestables en soluciones subcutáneas estables, facilitando la autoadministración por parte del paciente."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5734996/cellularyouth-serum-longevidad-nueva-formula-paulas-choice-reducir-ralentizar-signos-envejecimiento",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "LONGEVIDAD CELULAR",
+        "INSIGHT":  "Paula\u0027s Choice pivota del \"exfoliante\" al \"protector de juventud\", alineándose con la tendencia de tratar la senescencia celular antes de que se manifieste visualmente.",
+        "RESUMEN":  "Lanzamiento del serum CellularYouth de Paula\u0027s Choice. La fórmula se centra en preservar la integridad celular y ralentizar los signos del envejecimiento, apostando por ingredientes que fortalecen la matriz dérmica en lugar de solo tratar la superficie."
+    },
+    {
+        "URL":  "https://www.industriacosmetica.net/noticias/freshly-cosmetics-refuerza-sus-alianzas-estrategicas-en-retail-para-impulsar-su-creci-JHr9c",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "OMNICANALIDAD",
+        "INSIGHT":  "Freshly admite que el modelo \"Solo D2C\" tiene un techo; la rentabilidad futura depende de parasitar el tráfico físico de terceros (retailers) en lugar de solo pagar por tráfico digital.",
+        "RESUMEN":  "Freshly Cosmetics anuncia una nueva fase de expansión centrada en alianzas con grandes retailers y cadenas de perfumería. La marca busca capilaridad física masiva para complementar su canal online y reducir la dependencia de la publicidad digital."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/zydus-lifesciences-rompe-las-previsiones-sus-beneficios-se-disparan-en-estados-unidos.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "GENERICS PHARMA",
+        "INSIGHT":  "El mercado de genéricos en EE.UU. sigue siendo la \"vaca lechera\" para farmacéuticas indias ágiles que logran aprobaciones rápidas de la FDA para moléculas complejas.",
+        "RESUMEN":  "Zydus Lifesciences reporta beneficios que superan todas las previsiones, impulsados por un desempeño estelar en Estados Unidos. El lanzamiento oportuno de nuevos genéricos y la estabilización de precios han disparado sus márgenes."
+    },
+    {
+        "URL":  "https://beautycluster.es/el-beauty-cluster-analiza-el-potencial-del-mercado-argelino-en-cosmetica-north-africa/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "EXPORTACIÓN Y MENA",
+        "INSIGHT":  "Argelia emerge como el \"Océano Azul\" del norte de África: un mercado con alta demanda de cosmética europea y poca saturación, aunque con barreras de entrada regulatorias.",
+        "RESUMEN":  "El Beauty Cluster organiza una sesión para desgranar las oportunidades en Argelia. Se identifica como un mercado estratégico para la internacionalización de pymes españolas, dada la proximidad logística y el crecimiento de la clase media consumidora."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/analisis/vietnam-impulsa-la-transformacion-digital-en-la-industria-farmaceutica-para-mejorar-competitividad-y-atencion-sanitaria.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "PHARMA 4.0",
+        "INSIGHT":  "Vietnam está saltando etapas tecnológicas (leapfrogging), pasando de sistemas manuales a una infraestructura farmacéutica 100% digitalizada para atraer inversión extranjera.",
+        "RESUMEN":  "Análisis sobre la agresiva estrategia de digitalización de Vietnam. El gobierno implementa normativas para modernizar la cadena de suministro y la gestión hospitalaria, buscando convertir al país en un hub farmacéutico competitivo en el sudeste asiático."
+    },
+    {
+        "URL":  "https://beautycluster.es/blog/conoce-mas-sobre-sara-uribe-y-devera/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ENTREVISTA PROFESIONAL",
+        "CATEGORÍA":  "REGULATORIO Y SEGURIDAD",
+        "SUBCATEGORÍA":  "CONSULTORÍA TÉCNICA",
+        "INSIGHT":  "En un entorno de \"quimiofobia\" y escrutinio de ingredientes, la figura del evaluador de seguridad (Safety Assessor) es el nuevo guardián de la reputación de marca.",
+        "RESUMEN":  "Perfil de Sara Uribe, fundadora de Devera. La entrevista destaca la importancia crítica de la asesoría regulatoria y toxicológica para que las marcas indies puedan escalar y exportar sin riesgos legales o de seguridad."
+    },
+    {
+        "URL":  "https://www.modaes.com/equipamiento/el-wellness-adelanta-a-la-moda-como-locomotora-de-los-centros-comerciales-en-espana",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME INMOBILIARIO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "RETAIL EXPERIENCE",
+        "INSIGHT":  "El shopping mall muere, nace el lifestyle center. El consumidor ya no va al centro comercial a comprar ropa (lo hace online), va a cuidar su cuerpo y mente.",
+        "RESUMEN":  "El wellness, la estética y los gimnasios superan por primera vez a la moda como los principales generadores de tráfico en los centros comerciales españoles. Los operadores inmobiliarios están reconfigurando espacios para alojar \"hubs de bienestar\" en lugar de tiendas de fast fashion."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/coty-ends-licence-deal-with-orveda",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "GESTIÓN DE PORTFOLIO",
+        "INSIGHT":  "Coty prioriza la escalabilidad masiva sobre el nicho ultra-lujo, limpiando su estructura de licencias para enfocarse en sus \"power brands\".",
+        "RESUMEN":  "Coty anuncia el fin de su acuerdo de licencia con Orveda (marca de ultra-lujo fundada por su CEO, Sue Y. Nabi). La decisión se alinea con una estrategia de simplificación y eliminación de posibles conflictos de interés para centrarse en el crecimiento de sus divisiones principales."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/guerra-farmaceutica-por-la-pildora-adelgazante-novo-nordisk-demanda-a-him-hers-por-vender-una-copia-de-wegovy.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA LEGAL",
+        "CATEGORÍA":  "REGULATORIO Y LEGAL",
+        "SUBCATEGORÍA":  "PATENTES FARMACÉUTICAS",
+        "INSIGHT":  "La batalla legal contra las fórmulas magistrales (compounding) definirá si la democratización de los GLP-1 es viable o si el monopolio de marca se impone.",
+        "RESUMEN":  "Novo Nordisk demanda a la plataforma de telemedicina Hims \u0026 Hers por vender versiones compuestas de semaglutida. La farmacéutica alega que estas \"copias\" no reguladas ponen en riesgo la seguridad del paciente y violan su propiedad intelectual."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/interview-emma-lewisham/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA EJECUTIVA",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "ECONOMÍA CIRCULAR",
+        "INSIGHT":  "La sostenibilidad circular ya no es una opción ética, es el nuevo estándar de lujo. El consumidor premium exige envases recargables que sean objetos de deseo.",
+        "RESUMEN":  "Entrevista con Emma Lewisham, pionera en belleza circular. Detalla cómo su marca ha demostrado que un modelo de negocio basado en recargas y carbono positivo puede ser altamente rentable y competir en eficacia con las marcas de lujo tradicionales."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/de-la-enfermedad-de-crohn-a-lentes-oculares-inteligentes-nuevas-promesas-biotecnologicas-conquistan-el-nasdaq.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "BIOTECH IPOs",
+        "INSIGHT":  "El apetito del Nasdaq por la biotecnología regresa, enfocado en dispositivos médicos inteligentes (MedTech) que mejoran la calidad de vida crónica.",
+        "RESUMEN":  "Nuevas empresas biotecnológicas debutan con éxito en el Nasdaq, impulsadas por innovaciones en lentes de contacto inteligentes y terapias avanzadas para la enfermedad de Crohn. Los inversores buscan soluciones tecnológicas que ofrezcan gestión de datos de salud en tiempo real."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5764787/katseye-nuevo-partner-global-laneige-campana-juicepop-box-lip-tint",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "CAMPAÑA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "K-POP \u0026 GEN Z",
+        "INSIGHT":  "La elección de KATSEYE (grupo global de HYBE) valida que el K-Pop ya no es un nicho asiático, sino la herramienta definitiva para conquistar a la Gen Z occidental.",
+        "RESUMEN":  "Laneige nombra al grupo de chicas KATSEYE como embajadoras globales para su campaña \"Bouncy \u0026 Firm\" y los tintes labiales. La estrategia busca capitalizar la viralidad musical del grupo para rejuvenecer la marca en mercados occidentales."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5738718/druni-refuerza-presencia-barcelona-apertura-nueva-tienda-lilla-diagonal",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "EXPANSIÓN FÍSICA",
+        "INSIGHT":  "La ubicación en L\u0027Illa Diagonal confirma que Druni está abandonando el posicionamiento de \"precio\" para competir por \"experiencia\" en las plazas más premium de España.",
+        "RESUMEN":  "La cadena de perfumería Druni inaugura un nuevo punto de venta estratégico en el centro comercial L\u0027Illa Diagonal de Barcelona. La tienda apuesta por un diseño renovado y una mayor oferta de marcas selectivas para captar al cliente de alto poder adquisitivo."
+    },
+    {
+        "URL":  "https://www.retail-week.com/people/qanda-the-organic-pharmacy-uk-general-manager-on-marks-and-spencer-tie-up/7050369.article",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA EJECUTIVA",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "DEPARTMENT STORES",
+        "INSIGHT":  "Las marcas de nicho orgánico (como The Organic Pharmacy) necesitan el respaldo de \"confianza institucional\" de retailers como M\u0026S para escalar al mercado masivo.",
+        "RESUMEN":  "Entrevista con el GM de The Organic Pharmacy sobre su alianza con Marks \u0026 Spencer. La marca busca democratizar el acceso al skincare orgánico de lujo, aprovechando el tráfico y la credibilidad de M\u0026S entre el consumidor británico maduro."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/cantabrialabs_celebratecommitment-ugcPost-7426580799828750336-nTrT",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "CULTURA Y VALORES",
+        "INSIGHT":  "En la industria farmacéutica, celebrar el \"compromiso\" interno es una herramienta de branding tan potente como la eficacia clínica para atraer talento y socios.",
+        "RESUMEN":  "Cantabria Labs lanza su manifiesto #CelebrateCommitment, reforzando su identidad corporativa basada en la pasión por la ciencia y la sostenibilidad. La campaña busca humanizar la marca y conectar emocionalmente con su ecosistema de salud."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/ozempic-face-trending-skin-care-ingredients-launches-watch",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE TENDENCIAS",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "OZEMPIC SKINCARE",
+        "INSIGHT":  "El fenómeno GLP-1 crea una nueva categoría de cosmética: productos volumizadores diseñados específicamente para contrarrestar la flacidez facial por pérdida rápida de peso.",
+        "RESUMEN":  "Reporte sobre el auge de ingredientes cosméticos dirigidos a tratar la \"Cara de Ozempic\". Las marcas están formulando con péptidos estructurales, factores de crecimiento y estimuladores de grasa facial para devolver el volumen perdido en pacientes tratados por obesidad."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/beauty-leaders-summit_paris-beauty-emilyabrinabrparis-activity-7426667373673336832-Jr0N",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "EVENTO CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "NETWORKING LIDERAZGO",
+        "INSIGHT":  "En la era de la IA, el networking físico de alto nivel (\"face-to-face\") se revaloriza como el único canal seguro para cerrar acuerdos confidenciales y alianzas estratégicas.",
+        "RESUMEN":  "El Beauty Leaders Summit en París se posiciona como el encuentro ineludible para la cúpula directiva del sector. Emily Abrina destaca la importancia de conectar personalmente para navegar la volatilidad del mercado de lujo en 2026."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/articles/beauty/estee-lauder-ceo-turnaround-stock-down/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "CRISIS DE CONFIANZA",
+        "INSIGHT":  "El mercado sufre de \"fatiga de reestructuración\"; los inversores penalizan a Estée Lauder porque el plan de recuperación es sólido en papel pero lento en ejecución frente a competidores ágiles.",
+        "RESUMEN":  "BoF analiza por qué las acciones de Estée Lauder siguen cayendo a pesar de los planes del CEO. La dependencia de un Travel Retail que no termina de recuperarse y la pérdida de cuota ante marcas indies erosionan la paciencia de Wall Street."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/isdin_isdin-compromisomediterraerneo-bluewavealliance-ugcPost-7426670232632565760-7reL",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "BRAND PURPOSE",
+        "INSIGHT":  "Isdin trasciende la categoría de \"protección solar\" para convertirse en \"guardián del ecosistema\", vinculando su identidad de marca indisolublemente al Mediterráneo.",
+        "RESUMEN":  "Isdin reafirma su compromiso con la Blue Wave Alliance. La marca no solo elimina plásticos, sino que lidera la regeneración del mar Mediterráneo, posicionando su propósito corporativo como un pilar central de su marketing emocional y ético."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/articles/beauty/indie-beauty-brands-growing-closing/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "CONSOLIDACIÓN INDIE",
+        "INSIGHT":  "La \"clase media\" de la belleza independiente está desapareciendo: en 2026, o escalas masivamente con capital riesgo o te mantienes como nicho rentable; el medio es el \"valle de la muerte\".",
+        "RESUMEN":  "BoF reporta sobre la dicotomía del sector indie: mientras algunas marcas logran exits millonarios, una ola de cierres afecta a aquellas que no pudieron soportar el aumento de los costes de adquisición de clientes (CAC) y la saturación del mercado."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/keune-haircosmetics_paris-packaging-week-last-friday-at-paris-ugcPost-7426645434783125505-Ntgw",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST DE EVENTO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "PACKAGING PREMIUM",
+        "INSIGHT":  "En el segmento capilar profesional, el envase es la primera herramienta de venta; la experiencia táctil del packaging debe justificar el precio del servicio en salón.",
+        "RESUMEN":  "Keune Haircosmetics comparte su experiencia en la Paris Packaging Week. La marca holandesa subraya la importancia de innovar en materiales sostenibles que no sacrifiquen la estética de lujo, vital para mantener su posicionamiento en salones de alta gama."
+    },
+    {
+        "URL":  "https://beautycluster.es/blog/conoce-mas-sobre-javier-vina-y-mmmico/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ENTREVISTA PROFESIONAL",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "BIOTECNOLOGÍA",
+        "INSIGHT":  "La innovación en ingredientes activos (MMMICO) demuestra que el ecosistema biotech español es clave para la diferenciación en formulaciones de nicho.",
+        "RESUMEN":  "Entrevista a Javier Viña de MMMICO, socio del Beauty Cluster. Se explora cómo la biotecnología aplicada al desarrollo de nuevos ingredientes está permitiendo a las marcas crear cosméticos con mecanismos de acción inéditos y sostenibles."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/bath-body/news/22960272/beautys-new-rules-10-takeaways-from-2025s-prestige-playbook",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "PRESTIGE BEAUTY",
+        "INSIGHT":  "El \"Manual de Prestigio\" de 2025 dicta que la fragancia ha sustituido al maquillaje como la categoría de entrada al lujo, impulsada por la búsqueda de identidad emocional.",
+        "RESUMEN":  "GCI Magazine desglosa los 10 aprendizajes clave del mercado de belleza de prestigio en 2025. Destaca la resiliencia del consumidor de lujo, el auge de las fragancias nicho y la demanda de experiencias sensoriales por encima de la mera utilidad del producto."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/news/beauty/veronique-courtois-lvmh-beauty-head/?utm_source=webpage\u0026utm_medium=marketing\u0026utm_campaign=beauty",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO EJECUTIVO",
+        "INSIGHT":  "El nombramiento de Véronique Courtois señala una unificación estratégica en LVMH Beauty para blindar sus \"Maisons\" patrimoniales frente a la volatilidad del mercado.",
+        "RESUMEN":  "LVMH reestructura su cúpula directiva nombrando a Véronique Courtois (ex-Guerlain) como nueva cabeza de la división de belleza. El movimiento busca consolidar la gestión de marcas icónicas y elevar el posicionamiento de ultra-lujo en todas las categorías."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/sickscience-takes-its-science-led-skincare-in-store-at-ulta/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "BIOTECH RETAIL",
+        "INSIGHT":  "La entrada de SickScience en Ulta marca la democratización de la tecnología de exosomas; el consumidor masivo ya tiene acceso a biotecnología regenerativa en el lineal.",
+        "RESUMEN":  "La marca de biotecnología SickScience, famosa por su tecnología de exosomas vegetales, da el salto del D2C al retail físico con Ulta Beauty. Esta expansión valida la demanda de soluciones clínicas avanzadas en cadenas de gran consumo."
+    },
+    {
+        "URL":  "https://industriacosmetica.net/noticias/la-belleza-se-integra-en-la-innovacion-tecnologica-en-ces-2026-con-foco-en-beauty-tec-ZxaXa",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "COBERTURA DE EVENTO",
+        "CATEGORÍA":  "BEAUTY TECH",
+        "SUBCATEGORÍA":  "DISPOSITIVOS INTELIGENTES",
+        "INSIGHT":  "En CES 2026, la belleza deja de ser \"cosmética\" para ser \"datos\"; los dispositivos de diagnóstico en el hogar son el nuevo primer paso de cualquier rutina eficaz.",
+        "RESUMEN":  "Resumen de las innovaciones de belleza presentadas en el CES 2026 de Las Vegas. El foco se centra en espejos inteligentes con IA, impresoras de maquillaje personalizadas y herramientas de análisis capilar que prescriben tratamientos en tiempo real."
+    },
+    {
+        "URL":  "https://www.aemps.gob.es/informa/la-aemps-informa-de-la-retirada-de-las-cremas-dermatologica-y-protectora-medihoney/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ALERTA REGULATORIA",
+        "CATEGORÍA":  "REGULATORIO Y LEGAL",
+        "SUBCATEGORÍA":  "SEGURIDAD DE PRODUCTO",
+        "INSIGHT":  "La retirada de Medihoney subraya la vigilancia extrema sobre los \"productos frontera\" (cosmético vs. sanitario); el cumplimiento normativo es la base de la reputación.",
+        "RESUMEN":  "La AEMPS ordena la retirada del mercado de lotes específicos de las cremas dermatológica y protectora Medihoney. La medida responde a posibles incumplimientos en los estándares de calidad o esterilidad exigidos para productos sanitarios de uso tópico."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5738679/sephora-incorpora-nuevas-marcas-seleccion-the-next-big-thing",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "INCUBADORA DE MARCAS",
+        "INSIGHT":  "Sephora utiliza \"The Next Big Thing\" como un laboratorio de pruebas en tiempo real, validando la tracción de marcas indie antes de comprometerse a un despliegue nacional completo.",
+        "RESUMEN":  "Sephora refresca su sección de marcas emergentes (\"The Next Big Thing\") con nuevas incorporaciones. La selección se centra en marcas nicho con propuestas de valor únicas (ingredientes exóticos, sostenibilidad radical) para diferenciarse de la oferta estandarizada."
+    },
+    {
+        "URL":  "https://www.imcas.com/fr/imcas-world-congress-2026/report",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE CONGRESO",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "TENDENCIAS ESTÉTICAS",
+        "INSIGHT":  "IMCAS 2026 confirma el cambio de paradigma: de \"rellenar arrugas\" a \"regenerar tejidos\". Los bioestimuladores y exosomas dominan la agenda médica mundial.",
+        "RESUMEN":  "Reporte oficial del Congreso Mundial IMCAS 2026 en París. Se destacan los avances en medicina regenerativa, la integración de la IA en diagnósticos estéticos y el auge de tratamientos combinados para lograr resultados naturales y duraderos."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/mar%C3%ADa-bikie-7670b6252_rhode-rhodeskin-branding-ugcPost-7426367549749198848-Qm1o",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE BRANDING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "MARCA PERSONAL",
+        "INSIGHT":  "El éxito de Rhode no es el producto, es la \"estética de vida\"; Hailey Bieber ha logrado que una funda de móvil sea tan deseada como un péptido, creando un ecosistema visual viral.",
+        "RESUMEN":  "María Bikie analiza la estrategia de branding de Rhode Skin. Destaca cómo la simplicidad visual (\"Clean Girl Aesthetic\") y la estrategia de escasez han convertido a la marca en un fenómeno cultural que trasciende la categoría de cuidado de la piel."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/fragrance-home/news/22960327/vronique-courtois-appointed-chairman-and-ceo-of-parfums-christian-dior-and-lvmh-beauty-division",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO DE LUJO",
+        "INSIGHT":  "Véronique Courtois al frente de Dior y la división de Belleza de LVMH garantiza una estrategia de \"elevación absoluta\", protegiendo el valor de marca frente a la masificación.",
+        "RESUMEN":  "LVMH nombra a Véronique Courtois (ex-CEO de Guerlain) como nueva Presidenta y CEO de Parfums Christian Dior y supervisora de la división de Belleza. Su mandato se enfocará en reforzar el posicionamiento de ultra-lujo y la deseabilidad de las marcas del grupo."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/apr-posts-record-krw-1-53-trillion-revenue-in-2025/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "BEAUTY TECH",
+        "INSIGHT":  "El dominio de APR (Medicube) confirma que el dispositivo doméstico ya no es un \"gadget\", sino la piedra angular de la rutina de belleza coreana globalizada.",
+        "RESUMEN":  "APR Corporation reporta ingresos récord de 1.53 billones de wones (aprox. $1.1B USD) en 2025. El crecimiento explosivo se atribuye a la venta masiva de sus dispositivos de belleza \"Age-R\" en mercados internacionales como EE.UU. y China."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/boots-uk-ornella-barra-lascia-la-carica-di-ceo-e-diventa-presidente-del-cda-di-the-boots-group/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LIDERAZGO",
+        "INSIGHT":  "El movimiento de Ornella Barra a la presidencia sugiere un enfoque en la gobernanza a largo plazo y la posible preparación del grupo para una venta o reestructuración mayor.",
+        "RESUMEN":  "Ornella Barra deja su rol operativo como CEO para asumir la presidencia del Consejo de Administración de The Boots Group. Este cambio en la cúpula busca separar la gestión diaria de la dirección estratégica en un momento crítico para el retail farmacéutico británico."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/hims-hers-shakes-up-weight-loss-pricing-but-investors-stay-wary/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA FINANCIERA",
+        "CATEGORÍA":  "SALUD DIGITAL",
+        "SUBCATEGORÍA":  "GLP-1 COMPOUNDING",
+        "INSIGHT":  "La guerra de precios en los GLP-1 compuestos indica una \"commoditización\" temprana del sector, mientras el riesgo legal (Novo Nordisk) sigue asustando al capital institucional.",
+        "RESUMEN":  "Hims \u0026 Hers ajusta agresivamente sus precios para tratamientos de pérdida de peso. Aunque busca capturar cuota de mercado masiva, los inversores reaccionan con cautela debido a la incertidumbre regulatoria y las demandas de patentes por parte de las grandes farmacéuticas."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/scotland-moves-to-tighten-rules-on-cosmetic-procedures/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "REGULACIÓN",
+        "CATEGORÍA":  "REGULATORIO Y LEGAL",
+        "SUBCATEGORÍA":  "SEGURIDAD ESTÉTICA",
+        "INSIGHT":  "Escocia se une a la ola regulatoria europea: el fin del \"Salvaje Oeste\" de los inyectables beneficiará a las clínicas médicas y expulsará a los operadores no sanitarios.",
+        "RESUMEN":  "El gobierno escocés avanza en la legislación para restringir quién puede realizar procedimientos cosméticos no quirúrgicos (fillers, botox). La nueva normativa exigirá licencias estrictas para garantizar la seguridad del paciente y la higiene de los locales."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/street-talk-2026-hair-care-episode-five-hair-type-voluminous-fine/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "TENDENCIAS",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "HAIRCARE NICHO",
+        "INSIGHT":  "El consumidor de cabello fino ya no quiere solo \"volumen\" (que reseca), busca \"densidad hidratada\"; una oportunidad para formulaciones híbridas de styling y tratamiento.",
+        "RESUMEN":  "Episodio de \"Street Talk\" centrado en las demandas del consumidor con cabello fino. Se destaca la frustración con productos que dan volumen pero dejan el pelo rígido, y la búsqueda de texturas ligeras que aporten cuerpo sin sacrificar la salud capilar."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/color-cosmetics/news/22960308/party-of-you-launches-as-an-antidote-to-wellness-culture-reframing-skin-care-for-real-life",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "COUNTER-WELLNESS",
+        "INSIGHT":  "Party of You cristaliza la tendencia \"Anti-Wellness\": productos diseñados para la vida real (resacas, noches largas) en lugar de rutinas inalcanzables de perfección.",
+        "RESUMEN":  "Lanzamiento oficial de la marca Party of You. Se posiciona como el antídoto a la cultura tóxica del bienestar, ofreciendo soluciones prácticas y sin juicios para los efectos visibles de un estilo de vida hedonista y social."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/luna-bronze-makes-its-us-retail-debut/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "EXPANSIÓN INTERNACIONAL",
+        "INSIGHT":  "El debut de Luna Bronze en EE.UU. valida que el \"bronceado sin sol\" se está elevando a categoría de \"skincare solar\", exigiendo ingredientes hidratantes de alta gama.",
+        "RESUMEN":  "La marca australiana de autobronceadores Luna Bronze aterriza en el retail estadounidense. Su propuesta de valor se centra en fórmulas limpias, ricas en antioxidantes, que rompen con el estigma del olor químico y el tono naranja artificial."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/brazil-declares-acai-a-national-fruit/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA REGULATORIA",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "INGREDIENTES NATURALES",
+        "INSIGHT":  "Brasil blinda el Açaí como activo estratégico nacional, lo que elevará los estándares de trazabilidad y el precio de la materia prima para las marcas extranjeras.",
+        "RESUMEN":  "El gobierno brasileño declara oficialmente al Açaí como \"Fruta Nacional\". La medida busca proteger la biodiversidad, combatir la biopiratería y asegurar que el valor económico de la exportación beneficie a las comunidades locales del Amazonas."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/rossano-sforna-founder-mediarfarma-una-farmacia-non-si-vende-si-affida/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA EJECUTIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "M\u0026A FARMACIA",
+        "INSIGHT":  "La venta de una farmacia independiente no es una operación inmobiliaria, es un traspaso de \"capital social\"; el comprador debe heredar la confianza de la comunidad.",
+        "RESUMEN":  "Rossano Sforna, fundador de MediarFarma, analiza el mercado de compraventa de farmacias en Italia. Advierte que tratar la farmacia como un simple activo financiero destruye su valor real, que reside en la relación paciente-farmacéutico construida durante décadas."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/fda-moves-to-crack-down-on-non-approved-compounded-glp-1-drugs/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ALERTA REGULATORIA",
+        "CATEGORÍA":  "REGULATORIO Y LEGAL",
+        "SUBCATEGORÍA":  "SEGURIDAD FARMACÉUTICA",
+        "INSIGHT":  "La FDA inicia el cierre del grifo a las \"copias\" de Ozempic; la seguridad del paciente se convierte en el argumento legal para proteger las patentes de las Big Pharma.",
+        "RESUMEN":  "La FDA emite nuevas advertencias y acciones contra farmacias de formulación magistral que producen versiones no aprobadas de fármacos GLP-1 (semaglutida). La agencia cita riesgos de contaminación y dosificación incorrecta para frenar la venta de estos compuestos más baratos."
+    },
+    {
+        "URL":  "https://beautycluster.es/blog/conoce-mas-sobre-virginia-martinez-y-moodra/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ENTREVISTA PROFESIONAL",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "NEUROCOSMÉTICA",
+        "INSIGHT":  "Moodra valida que el futuro del skincare es la \"psicodermatología\": formular para reducir el cortisol local y mejorar el estado de ánimo a través de la piel.",
+        "RESUMEN":  "Entrevista a Virginia Martínez de Moodra. La marca se posiciona en el nicho de la neurocosmética, utilizando ingredientes activos que interactúan con los receptores cutáneos para enviar señales de bienestar al cerebro, tratando el estrés como causa raíz del envejecimiento."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/casaleggio-nel-2025-redcare-dr-max-e-farmacia-loreto-gli-online-della-farmacia-piu-popolari/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE MERCADO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "E-COMMERCE FARMACIA",
+        "INSIGHT":  "El mercado online italiano se consolida en un oligopolio: Redcare y Dr. Max dominan gracias a una agresiva estrategia de precios y SEO que las farmacias pequeñas no pueden replicar.",
+        "RESUMEN":  "El reporte de Casaleggio Associati identifica a Redcare, Dr. Max y Farmacia Loreto como los líderes indiscutibles del e-commerce farmacéutico en Italia en 2025. La popularidad se mide por tráfico y reconocimiento de marca, evidenciando la brecha digital entre grandes grupos y farmacias independientes."
+    },
+    {
+        "URL":  "https://medcitynews.com/2026/02/can-ai-bridge-the-gaps-in-womens-healthcare-a-responsible-path-forward/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS TECNOLÓGICO",
+        "CATEGORÍA":  "SALUD DIGITAL",
+        "SUBCATEGORÍA":  "FEMTECH \u0026 AI",
+        "INSIGHT":  "La IA es la única herramienta capaz de cerrar la \"brecha de datos\" histórica en salud femenina, permitiendo diagnósticos precisos en patologías ignoradas como la endometriosis.",
+        "RESUMEN":  "MedCity News explora cómo la Inteligencia Artificial está transformando la salud de la mujer. Al analizar grandes volúmenes de datos desagregados por sexo, la IA está permitiendo desarrollar protocolos personalizados que superan el sesgo masculino tradicional de la medicina."
+    },
+    {
+        "URL":  "https://www.mckinsey.com/industries/life-sciences/our-insights/the-synthesis/beyond-the-trillion-dollar-headline-the-new-era-of-womens-health",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "WOMEN\u0027S HEALTH",
+        "INSIGHT":  "La \"Salud Femenina\" deja de ser sinónimo de fertilidad; la oportunidad de $1 Trillón reside en tratar condiciones generales (cardiovascular, autoinmune) con datos específicos de sexo.",
+        "RESUMEN":  "McKinsey analiza la nueva era de la salud de la mujer tras la conferencia de J.P. Morgan. El informe destaca que cerrar la brecha de salud femenina podría inyectar $1 trillón anual a la economía global para 2040, enfocándose en enfermedades que afectan a las mujeres de manera desproporcionada o diferente."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/paulacolasbeltran_totherescue-lascosasdepau-ugcPost-7426719863429033985-N7wc",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST TÉCNICO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "BARRIER REPAIR",
+        "INSIGHT":  "La categoría \"Rescue\" (Rescate) se consolida como el nuevo básico: productos SOS diseñados para reparar barreras cutáneas agredidas por el exceso de activos y el estrés ambiental.",
+        "RESUMEN":  "Paula Colas aborda la tendencia de productos \"To The Rescue\". El post destaca la formulación de bálsamos y cremas reparadoras intensivas (con cica, ceramidas o pantenol) como respuesta a la piel sensibilizada, posicionándolos como el \"botiquín cosmético\" indispensable."
+    },
+    {
+        "URL":  "https://www.consalud.es/podcasts/huella-piel/temporada-4/acne-y-microbiota-el-nuevo-enfoque-que-esta-revolucionando-el-cuidado-de-la-piel-acneica.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "PODCAST MÉDICO",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "MICROBIOMA",
+        "INSIGHT":  "El tratamiento del acné pivota de la \"esterilización\" (antibióticos) al \"equilibrio\" (microbiota); la clave ya no es matar la bacteria, sino modular el entorno donde vive.",
+        "RESUMEN":  "Podcast de Consalud sobre el nuevo enfoque en acné. Expertos discuten cómo la disbiosis (desequilibrio de la flora cutánea) es la causa raíz, y por qué los nuevos tratamientos se centran en probióticos y posbióticos en lugar de agentes agresivos que dañan la barrera."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/home-delivery-partnership-tra-1000farmacie-e-just-eat-per-unonline-a-prova-di-indisponibilita/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "Q-COMMERCE",
+        "INSIGHT":  "La alianza Just Eat x 1000Farmacie resuelve el mayor dolor del delivery farmacéutico: la disponibilidad real. La sincronización de stock en tiempo real elimina la frustración del \"pedido cancelado\".",
+        "RESUMEN":  "Just Eat y 1000Farmacie lanzan un piloto en Italia para entrega de parafarmacia. La innovación clave es tecnológica: la plataforma conecta el inventario físico de la farmacia con la app en tiempo real, garantizando que si el usuario pide un test de embarazo o jarabe, realmente llegue en minutos"
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/lor%C3%A9al-enters-nutricosmetics-with-vichy-first-collagen-supplement",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "LANZAMIENTO DE PRODUCTO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA",
+        "INSIGHT":  "La entrada de L\u0027Oréal (vía Vichy) en los suplementos de colágeno valida definitivamente la categoría \"Beauty from Within\" en el canal farmacia, obligando a los competidores a tener una oferta híbrida (tópico + oral).",
+        "RESUMEN":  "L\u0027Oréal Dermatological Beauty lanza su primer suplemento de colágeno bajo la marca Vichy. El producto combina péptidos de colágeno con vitamina C y ácido hialurónico, diseñado para actuar en sinergia con sus rutinas antiedad tópicas y capturar el creciente mercado de nutricosmética clínica."
+    },
+    {
+        "URL":  "https://www.modaes.com/cosmetica/miin-cosmetics-avanza-en-su-expansion-europea-con-tres-aperturas-en-italia-y-alemania",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "EXPANSIÓN FÍSICA",
+        "INSIGHT":  "MiiN Cosmetics demuestra que el retail físico especializado sigue vivo si ofrece \"descubrimiento\"; su expansión en ubicaciones prime de Europa consolida el liderazgo de la K-Beauty en el continente.",
+        "RESUMEN":  "La compañía española MiiN Cosmetics continúa su agresiva expansión internacional con tres nuevas tiendas propias en Italia y Alemania. La estrategia refuerza su presencia en mercados clave europeos, apostando por la experiencia de cliente y el asesoramiento personalizado en cosmética coreana."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/shiseido-appoints-lisa-as-global-ambassador-for-ultimune/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "CAMPAÑA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "EMBAJADORA GLOBAL",
+        "INSIGHT":  "Shiseido rejuvenece su icono (Ultimune) al asociarlo con Lisa (Blackpink); es un movimiento táctico para recuperar relevancia en China y el Sudeste Asiático, donde la influencia del K-Pop es ley.",
+        "RESUMEN":  "Shiseido nombra a Lisa, integrante de Blackpink, como la nueva embajadora global de su serum Ultimune. La campaña busca conectar con la audiencia Gen Z y Millennial asiática, aprovechando el estatus de icono de estilo global de la artista para impulsar las ventas de su producto estrella."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/dr-sams-launches-at-space-nk/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "DERMATOLOGÍA DE AUTOR",
+        "INSIGHT":  "La llegada de Dr. Sam\u0027s a Space NK marca la transición de las \"marcas de dermatólogo\" del nicho médico al retail de lujo, compitiendo directamente con marcas de culto por el espacio en el lineal.",
+        "RESUMEN":  "La marca de la dermatóloga británica Dr. Sam Bunting debuta en Space NK. Conocida por su enfoque minimalista y educativo (\"Flawless Skincare\"), la marca da el salto al retail físico premium, ampliando su alcance más allá de su exitoso canal directo al consumidor."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/the-estee-lauder-companies-inc_darphinhas-opened-its-first-global-linstitut-ugcPost-7425358721267986432-RhZD",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "APERTURA DE SPA",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "EXPERIENCIA DE MARCA",
+        "INSIGHT":  "Darphin recupera el \"arte del tacto\" con su primer instituto global en China; en un mundo digital, el tratamiento en cabina es la máxima expresión de lujo y fidelización.",
+        "RESUMEN":  "Estée Lauder Companies inaugura L\u0027Institut Darphin en Hangzhou, China. Este espacio insignia ofrece tratamientos faciales de ultra-lujo basados en la kinesiología y las técnicas de masaje profundo de la marca, reforzando su posicionamiento botánico y sensorial en el mercado asiático."
+    },
+    {
+        "URL":  "https://www.newsfragancias.com/profesionales/orveda-coty-licencia/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "LICENCIAS",
+        "INSIGHT":  "El fin de la licencia de Orveda por parte de Coty sugiere una racionalización del portafolio: Coty prefiere concentrar recursos en marcas de volumen global en lugar de mantener nichos de ultra-lujo que no escalan rápido.",
+        "RESUMEN":  "Coty y Orveda acuerdan finalizar su acuerdo de licencia. La decisión permite a Coty reenfocar sus inversiones en sus marcas principales de \"Prestige\" y \"Consumer Beauty\", mientras Orveda retoma su independencia operativa para seguir su camino en el segmento de biotecnología de ultra-lujo."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/milan-mladjenovic-10a6771_40-years-after-creating-the-no1-demi-permanent-ugcPost-7426829258901360640-n8US",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "HAIRCARE TECH",
+        "INSIGHT":  "Los iconos no viven de la nostalgia, sino de la actualización tecnológica; Wella renueva su clásico Color Touch integrando la tecnología \"Metal Purifier\" para resolver el daño por metales en el agua.",
+        "RESUMEN":  "Milan Mladjenovic celebra el 40 aniversario de Color Touch de Wella. El relanzamiento incluye una fórmula vegana, libre de amoníaco y siliconas, con tecnología patentada para neutralizar metales en el cabello, garantizando un color vibrante sin daño estructural."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/concorrenza-new-line/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE MERCADO",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "FARMACIA ITALIA",
+        "INSIGHT":  "La competencia en farmacia ya no es local, es de datos; New Line Ricerche de Mercato advierte que la supervivencia depende de monitorizar el \"sell-out\" en tiempo real para optimizar el surtido.",
+        "RESUMEN":  "Análisis de New Line sobre la competencia en el canal farmacia italiano. El reporte subraya que, ante la presión de cadenas y el online, la farmacia independiente debe profesionalizar su gestión de categorías basándose en datos de mercado precisos."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/lvmh-un-paso-mas-en-la-sucesion-antoine-arnault-asciende-al-comite-ejecutivo",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "SUCESIÓN FAMILIAR",
+        "INSIGHT":  "LVMH blinda su futuro con una sucesión coreografiada; la entrada de Antoine Arnault al Comité Ejecutivo asegura la continuidad del ADN familiar frente a la volatilidad del mercado.",
+        "RESUMEN":  "Antoine Arnault es nombrado miembro del Comité Ejecutivo de LVMH, un paso clave en el plan de sucesión de Bernard Arnault. Este movimiento refuerza el control familiar sobre el conglomerado de lujo más grande del mundo en un momento de transición generacional."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/vichylaboratoires_imcas2026-vichylaboratoires-integrativehealth-ugcPost-7425207826823892992-Hllk",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "EVENTO CIENTÍFICO",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "SALUD CAPILAR",
+        "INSIGHT":  "Vichy redefine el cuidado capilar como \"dermatología del cuero cabelludo\"; en IMCAS 2026, la marca presenta su enfoque de salud integrativa para tratar la alopecia y la caspa desde la raíz.",
+        "RESUMEN":  "Vichy Laboratoires presenta sus avances en IMCAS 2026 bajo el concepto de \"Integrative Health\". La marca se centra en la ciencia del exposoma y cómo factores hormonales y ambientales afectan la salud del cuero cabelludo, elevando el champú a categoría de tratamiento médico."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/news/luxury/kering-sales-fall-for-third-year/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RESULTADOS DE LUJO",
+        "INSIGHT":  "La brecha entre los ganadores (LVMH, Hermès) y los rezagados (Kering) se ensancha; la dependencia excesiva de una sola marca \"estrella\" (Gucci) es un riesgo sistémico en ciclos bajistas.",
+        "RESUMEN":  "Kering reporta una caída en ventas por tercer año consecutivo, lastrado por el difícil cambio de rumbo de Gucci. Los inversores castigan la falta de diversificación efectiva y la lenta recuperación de su marca insignia frente a competidores más ágiles."
+    },
+    {
+        "URL":  "https://www.consalud.es/industria/la-digitalizacion-del-prospecto-gana-terreno-en-europa-el-camino-hacia-un-sistema-sanitario-sin-papel.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "TENDENCIA REGULATORIA",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "DIGITAL HEALTH",
+        "INSIGHT":  "El prospecto de papel tiene los días contados; la digitalización (e-leaflet) no es solo ecológica, es una cuestión de seguridad para actualizar contraindicaciones en tiempo real.",
+        "RESUMEN":  "Europa avanza hacia la eliminación del prospecto de papel en los medicamentos. La iniciativa busca reducir toneladas de residuos y garantizar que el paciente siempre tenga acceso a la información más actualizada a través de códigos QR, mejorando la adherencia y la seguridad."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/news/beauty/shiseido-expects-profit-rebound-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "ESTRATEGIA DE RECUPERACIÓN",
+        "INSIGHT":  "Shiseido fía su recuperación a 2026 mediante una drástica reducción de costes operativos y un enfoque agresivo en el mercado de \"Skincare de alto valor\".",
+        "RESUMEN":  "Shiseido proyecta un repunte en sus beneficios para 2026 tras un periodo de reestructuración. La estrategia se centra en optimizar su presencia en China, potenciar su marca insignia y digitalizar su cadena de suministro para mejorar márgenes."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/m%c2%b7a%c2%b7c-cosmetics-and-depop-launch-creator-led-beauty-and-fashion-collaboration/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "CO-BRANDING",
+        "INSIGHT":  "La alianza MAC x Depop valida que el maquillaje ya no se vende como \"belleza\", sino como un accesorio de moda circular para la economía de creadores.",
+        "RESUMEN":  "MAC Cosmetics se asocia con Depop para una colaboración liderada por creadores. La campaña une el mundo del maquillaje con la moda de segunda mano, buscando conectar con la Gen Z a través de la autoexpresión y el estilo personal único."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/enzo-scida-53195930a_por-qu%C3%A9-hoy-las-colaboraciones-son-clave-activity-7426995958581936129-zLav",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "COLABORACIONES",
+        "INSIGHT":  "Las colaboraciones en 2026 no buscan solo visibilidad, sino \"transferencia de credibilidad\" entre comunidades que antes no se cruzaban.",
+        "RESUMEN":  "Enzo Scida analiza por qué las colaboraciones son el motor del crecimiento actual. Destaca que en un mercado saturado, unirse a marcas de otras categorías permite acceder a nuevos segmentos de clientes con un coste de adquisición mucho menor."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/analisis/la-regularizacion-de-medicamentos-un-pilar-estrategico-para-garantizar-seguridad-eficacia-y-acceso-global.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME REGULATORIO",
+        "CATEGORÍA":  "REGULATORIO Y LEGAL",
+        "SUBCATEGORÍA":  "SEGURIDAD FARMACÉUTICA",
+        "INSIGHT":  "La regularización global es el \"blindaje\" contra el mercado negro de fármacos, asegurando que la innovación llegue de forma equitativa a mercados emergentes.",
+        "RESUMEN":  "Análisis sobre la importancia de la regularización farmacéutica. Se destaca cómo los marcos normativos estrictos no solo garantizan la seguridad del paciente, sino que facilitan el acceso global a medicamentos esenciales mediante la armonización de estándares."
+    },
+    {
+        "URL":  "https://www.maccosmetics.com/media/export/cms/collections/vivaglam/FY26_Viva_Glam_ImpactReport.pdf",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "REPORTE DE IMPACTO",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "IMPACTO SOCIAL",
+        "INSIGHT":  "VIVA GLAM evoluciona de la lucha contra el VIH a un enfoque de \"Igualdad Total\", demostrando que una marca con propósito social sólido retiene más talento y clientes.",
+        "RESUMEN":  "Reporte de impacto de VIVA GLAM para el año fiscal 2026. Detalla las millonarias donaciones realizadas a nivel mundial, centradas ahora en apoyar los derechos de la comunidad LGBTQIA+, la igualdad de género y el bienestar de personas con VIH/SIDA."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/kentjsummers_after-16-years-three-exits-and-teaching-activity-7426625951842861056-hZ60",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EMPRENDIMIENTO",
+        "INSIGHT":  "El éxito en las ventas complejas (B2B) no depende de la persistencia, sino de la capacidad de diagnosticar el \"dolor\" del cliente antes de ofrecer la cura.",
+        "RESUMEN":  "Kent J. Summers reflexiona sobre 16 años de carrera y tres salidas exitosas (exits). Destaca que la clave del crecimiento está en la disciplina operativa y en entender que las ventas son un proceso de ingeniería de valor, no solo de persuasión."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/sarariballohueso_wellness-skincare-y-amigas-los-planes-top-ugcPost-7426929173950025728-tCwb",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "SOCIAL LISTENING",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "BEAUTY EXPERIENCES",
+        "INSIGHT":  "El skincare ha mutado de una \"rutina solitaria\" a un \"evento social\"; las marcas que faciliten experiencias compartidas (Masterclasses, Spa-days) ganan en comunidad.",
+        "RESUMEN":  "Sara Riballo analiza el auge de los planes de bienestar grupales. El cuidado de la piel se convierte en el eje central de reuniones sociales, donde el aprendizaje y el ocio se mezclan, creando una nueva oportunidad para el retail experiencial."
+    },
+    {
+        "URL":  "https://www.lvmh.com/en/news-lvmh/where-dreams-become-careers-meeting-our-talents-in-asia",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "REPORTE CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "TALENTO ASIA",
+        "INSIGHT":  "LVMH apuesta por la \"localización del talento\" en Asia; para dominar el mercado del lujo no basta con vender allí, hay que diseñar y dirigir desde la mentalidad local.",
+        "RESUMEN":  "LVMH presenta su iniciativa para atraer y desarrollar talento en Asia. El grupo destaca testimonios de empleados en mercados clave (China, Japón) y refuerza su compromiso con la formación interna para liderar la evolución del lujo en la región."
+    },
+    {
+        "URL":  "https://www.consalud.es/estetic/bienestar/el-acne-en-tres-frentes-limpieza-salud-mental-y-microbiota-la-vision-integral-para-pieles-con-tendencia-acneica.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS MÉDICO",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "SALUD INTEGRAL",
+        "INSIGHT":  "El acné ya no se trata solo con tópicos; el nuevo estándar de oro es el abordaje 360° que incluye la modulación del microbioma y el manejo del estrés (eje intestino-cerebro-piel).",
+        "RESUMEN":  "Expertos proponen una visión holística del acné. Se destaca que la limpieza adecuada debe ir acompañada de un cuidado de la microbiota cutánea y un soporte psicológico, ya que el estado emocional impacta directamente en los brotes inflamatorios."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/im-farmacias_el-cuidado-personal-ha-cobrado-una-importancia-activity-7426967678881361921-5EwG",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS SECTORIAL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "DERMOFARMACIA",
+        "INSIGHT":  "El autocuidado es el \"nuevo lujo\" de la farmacia; el canal debe capitalizar su rol de prescriptor experto frente a la desinformación de las redes sociales.",
+        "RESUMEN":  "IM Farmacias analiza cómo el cuidado personal se ha convertido en una prioridad absoluta para el consumidor. El informe subraya que la farmacia tiene una ventaja competitiva única: la confianza del paciente, que busca soluciones eficaces y seguras en un mar de tendencias virales."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/olive-young-partners-with-gabona-to-expand-k-beauty-distribution-across-europe/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "EXPANSIÓN EUROPA",
+        "INSIGHT":  "La alianza Olive Young x Gabona es el \"caballo de Troya\" definitivo de la K-Beauty en Europa; la logística masiva permitirá precios competitivos que amenazan a las marcas locales.",
+        "RESUMEN":  "Olive Young se asocia con el distribuidor Gabona para llevar la cosmética coreana a todos los rincones de Europa. La alianza busca simplificar la cadena de suministro y asegurar que los productos coreanos estén presentes tanto en retail físico como en e-commerce de gran volumen."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/shanadenauw_fillmed-vaim-juvelook-activity-7423668871674474496-fpz4",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "LANZAMIENTO PRODUCTO",
+        "SUBCATEGORÍA":  "MEDICINA ESTÉTICA",
+        "INSIGHT":  "El posicionamiento de Juvelook destaca la transición del mercado hacia bioestimuladores de colágeno que ofrecen resultados naturales y regenerativos a largo plazo.",
+        "RESUMEN":  "Shana Denauw detalla la colaboración entre Fillmed y Vaim para el despliegue de Juvelook, subrayando su relevancia técnica en la medicina estética actual."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/amarisbedwei_culture-brandstorytelling-culturalfluency-ugcPost-7426949067173462016-Rq-j",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "BRAND STORYTELLING",
+        "INSIGHT":  "La fluidez cultural se establece como un diferenciador crítico frente a la comunicación genérica, permitiendo a las marcas globales resonar a nivel local.",
+        "RESUMEN":  "Amaris Bedwei analiza cómo el storytelling de marca debe integrar la cultura de forma profunda para lograr una conexión genuina con el consumidor actual."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/eikon-therapeutics-aspira-a-captar-hasta-3177-millones-de-dolares-en-su-salida-a-bolsa-para-terapias-oncologicas.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA ESTRATÉGICA",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "SALIDA A BOLSA (IPO)",
+        "INSIGHT":  "La capitalización de plataformas de microscopía de alta resolución atrae capital masivo, validando el interés en biotecnología aplicada a terapias de precisión.",
+        "RESUMEN":  "Eikon Therapeutics busca recaudar 317,7 millones de dólares en su IPO para expandir sus capacidades en el descubrimiento de fármacos mediante el seguimiento de moléculas individuales."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/nacional/vithas-reune-en-barcelona-a-grandes-empresas-para-impulsar-la-salud-corporativa-y-presentar-su-nuevo-hospital.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "COMUNICADO CORPORATIVO",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN DE SERVICIOS",
+        "INSIGHT":  "El enfoque en salud corporativa permite a los grupos hospitalarios diversificar ingresos y captar el segmento de pacientes ejecutivos de alto valor.",
+        "RESUMEN":  "Vithas presenta su nuevo hospital en Barcelona y su oferta de bienestar laboral ante grandes directivos, priorizando la medicina personalizada en entornos corporativos."
+    },
+    {
+        "URL":  "https://www.vogue.mx/sustentabilidad/articulo/marcas-de-belleza-con-proyectos-sociales-y-ambientales",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE TENDENCIAS",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "RESPONSABILIDAD SOCIAL",
+        "INSIGHT":  "Los proyectos sociales y ambientales directos se consolidan como el núcleo de la lealtad de marca para el consumidor consciente de 2026.",
+        "RESUMEN":  "Recopilación de marcas cosméticas que integran la sostenibilidad como eje operativo, desde el apoyo a comunidades productoras hasta la reducción de huella hídrica."
+    },
+    {
+        "URL":  "https://www.vogue.mx/articulo/tendencias-de-belleza-2024",
+        "AÑO":  "2024",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE TENDENCIAS",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "CONSUMO LUXURY",
+        "INSIGHT":  "La belleza técnica y el enfoque en la salud de la barrera cutánea redefinen las prioridades de compra, alejándose del maquillaje puramente decorativo.",
+        "RESUMEN":  "Análisis de las tendencias proyectadas para 2024, destacando la importancia de la longevidad celular, la personalización mediante IA y la cosmética de base científica."
+    },
+    {
+        "URL":  "https://www.expansion.com/fueradeserie/cuerpo/2024/01/24/65a914f6e5fdea3c568b4594.html",
+        "AÑO":  "2024",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "COSMÉTICA DE AUTOR",
+        "INSIGHT":  "El auge de las marcas nicho demuestra que la exclusividad y la transparencia en la formulación son motores de crecimiento más fuertes que la publicidad masiva.",
+        "RESUMEN":  "Reportaje sobre el éxito de la cosmética de autor en España, donde la personalización y la alta concentración de principios activos dictan las reglas del lujo actual."
+    },
+    {
+        "URL":  "https://thelogisticsworld.com/planeacion-estrategica/tendencias-de-consumo-para-el-2024-lo-que-las-marcas-deben-saber/",
+        "AÑO":  "2024",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "LOGÍSTICA Y CONSUMO",
+        "INSIGHT":  "La eficiencia operativa en la última milla y la transparencia logística se consolidan como factores decisivos en la lealtad del consumidor digital.",
+        "RESUMEN":  "Análisis de las expectativas del consumidor para 2024, destacando la demanda de entregas ultrarrápidas, sostenibilidad en envíos y la integración de IA en la experiencia de compra."
+    },
+    {
+        "URL":  "https://www.beautypackaging.com/contents/view_breaking-news/2024-01-23/loreal-completes-acquisition-of-gjosa/",
+        "AÑO":  "2024",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "NOTICIA CORPORATIVA",
+        "CATEGORÍA":  "M\u0026A (FUSIONES Y ADQUISICIONES)",
+        "SUBCATEGORÍA":  "TECH ADQUISITION",
+        "INSIGHT":  "La integración de tecnología hídrica por parte de L\u0027Oréal refuerza su liderazgo en Beauty Tech, priorizando la sostenibilidad como valor de mercado.",
+        "RESUMEN":  "L\u0027Oréal finaliza la adquisición de Gjosa, startup suiza de tecnología de ahorro de agua, para escalar soluciones de lavado capilar ecosostenibles en salones y hogares."
+    },
+    {
+        "URL":  "https://beauty.pambianconews.com/2026/02/alfaparf-milano-acquisisce-coferly-e-si-rafforza-in-brasile/77744",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE NEGOCIOS",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "La internalización de la distribución en Brasil permite a Alfaparf optimizar márgenes y fortalecer su posicionamiento en uno de los mercados capilares más grandes del mundo.",
+        "RESUMEN":  "Alfaparf Milano adquiere Coferly, su distribuidor brasileño, con el objetivo de consolidar su presencia directa y acelerar el crecimiento de su división profesional en la región."
+    },
+    {
+        "URL":  "https://beauty.pambianconews.com/2026/02/merit-beauty-fa-il-suo-ingresso-in-italia-e-si-prepara-per-la-spagna/77546",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE RETAIL",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "La llegada de Merit al sur de Europa valida la tracción del concepto \"Clean Luxury\" en mercados tradicionalmente dominados por firmas cosméticas clásicas.",
+        "RESUMEN":  "La marca minimalista Merit Beauty inicia su expansión en Italia y prepara su entrada en España, buscando replicar su éxito digital mediante una estrategia omnicanal europea."
+    },
+    {
+        "URL":  "https://beauty.pambianconews.com/2026/02/kao-corporation-nel-2025-utile-netto-in-crescita-del-93/77756",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RESULTADOS ANUALES",
+        "INSIGHT":  "El extraordinario repunte del beneficio neto de Kao refleja una reestructuración exitosa hacia marcas premium y una recuperación del consumo en el mercado asiático.",
+        "RESUMEN":  "Kao Corporation cierra 2025 con un crecimiento de utilidades del 93%, impulsado por la eficiencia operativa y el sólido desempeño de su portafolio de cuidado de la piel de gama alta."
+    },
+    {
+        "URL":  "https://www.cosmed.fr/nouveau-rapport-de-veille-strategique-et-indicateurs-cles-4eme-trimestre-2025/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "VIGILANCIA ESTRATÉGICA",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "INDICADORES CLAVE",
+        "INSIGHT":  "Los indicadores del Q4-2025 muestran una aceleración en la transición hacia ingredientes biosurceados, impulsada por las nuevas presiones regulatorias francesas.",
+        "RESUMEN":  "Cosmed presenta su nuevo informe trimestral con indicadores clave de la industria, analizando tendencias de mercado y el impacto de las normativas de seguridad en la formulación."
+    },
+    {
+        "URL":  "https://www.cosmed.fr/les-entreprises-de-cosmetique-de-la-region-grand-est-mobilisees-sur-la-biodiversite-et-les-ingredients-biosources/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "REPORTE DE SOSTENIBILIDAD",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "BIODIVERSIDAD",
+        "INSIGHT":  "La regionalización de la cadena de suministro en el Grand Est francés establece un modelo de \"biocontrol\" que asegura la trazabilidad y reduce la huella de carbono sectorial.",
+        "RESUMEN":  "Empresas cosméticas francesas se movilizan para integrar ingredientes biosurceados locales, alineando la producción industrial con la preservación de la biodiversidad regional."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/warpaint-acquires-rival-brand-barry-m",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA DE M\u0026A",
+        "CATEGORÍA":  "M\u0026A (FUSIONES Y ADQUISICIONES)",
+        "SUBCATEGORÍA":  "CONSOLIDACIÓN DE MERCADO",
+        "INSIGHT":  "La adquisición de Barry M por Warpaint London consolida un gigante del \"masstige\" en el Reino Unido, optimizando sinergias logísticas frente a la presión inflacionaria.",
+        "RESUMEN":  "Warpaint London adquiere a su competidor Barry M para fortalecer su portafolio de maquillaje asequible, buscando expandir la distribución global de ambas marcas bajo una estructura operativa común."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/merit-expands-international-footprint-to-celebrate-five-years",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE EXPANSIÓN",
+        "CATEGORÍA":  "ESTRATEGIA CORPORATIVA",
+        "SUBCATEGORÍA":  "CRECIMIENTO INTERNACIONAL",
+        "INSIGHT":  "El éxito de Merit a cinco años de su lanzamiento demuestra que el modelo de \"minimalismo curado\" tiene una escalabilidad superior a las marcas de catálogo extenso.",
+        "RESUMEN":  "Merit Beauty celebra su quinto aniversario acelerando su despliegue en mercados internacionales clave, apalancándose en su comunidad digital para entrar en el retail físico europeo."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/currentbody-trinny-london-team-up-product-pairings",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ALIANZA ESTRATÉGICA",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "CO-BRANDING TECH",
+        "INSIGHT":  "La unión entre dispositivos de luz LED y cosmética tópica crea una nueva categoría de \"sistemas de tratamiento\" que eleva el ticket promedio en el canal doméstico.",
+        "RESUMEN":  "CurrentBody y Trinny London colaboran para ofrecer protocolos conjuntos, educando al consumidor sobre cómo la tecnología lumínica potencia la absorción de activos cosméticos específicos."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/6-beauty-packaging-trends-spotted-in-paris-this",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE TENDENCIAS",
+        "CATEGORÍA":  "PACKAGING E INNOVACIÓN",
+        "SUBCATEGORÍA":  "DISEÑO CIRCULAR",
+        "INSIGHT":  "El packaging en 2026 abandona el \"greenwashing\" para adoptar el monomaterialismo y sistemas de recarga de lujo que mantienen la experiencia premium del cliente.",
+        "RESUMEN":  "Análisis de las 6 tendencias clave vistas en París, destacando el uso de materiales reciclados post-consumo (PCR) y la reducción drástica de componentes complejos en envases de fragancias."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/k-beauty-has-dominated-the-world-is-arab",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "EMERGING MARKETS (A-BEAUTY)",
+        "INSIGHT":  "El surgimiento de la \"A-Beauty\" (Arab Beauty) desafía la hegemonía coreana mediante el uso de ingredientes ancestrales del desierto adaptados a la eficacia moderna.",
+        "RESUMEN":  "Informe sobre la creciente influencia de la belleza árabe en el mercado global, impulsada por marcas que combinan herencia cultural con estándares de formulación internacionales."
+    },
+    {
+        "URL":  "https://www.fiercebiotech.com/medtech/merck-teams-british-medtech-boost-vaginal-therapeutics-delivery-system",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTICIA BIOTECH",
+        "CATEGORÍA":  "INVESTIGACIÓN Y DESARROLLO",
+        "SUBCATEGORÍA":  "DRUG DELIVERY SYSTEMS",
+        "INSIGHT":  "La incursión de Merck en sistemas avanzados de entrega para salud íntima abre una ruta para el desarrollo de dermocosméticos de precisión en el área de bienestar.",
+        "RESUMEN":  "Merck se asocia con una firma de tecnología médica británica para desarrollar un sistema de entrega de fármacos vaginales, mejorando la dosificación y la adherencia al tratamiento en terapias ginecológicas."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/new-study-results-for-longevity-skin-care-concepts-from-clr/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME CIENTÍFICO-TÉCNICO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "LONGEVIDAD CELULAR",
+        "INSIGHT":  "La validación clínica de activos que actúan sobre la senescencia celular posiciona a la longevidad como el nuevo estándar de eficacia en dermocosmética premium.",
+        "RESUMEN":  "CLR presenta resultados de estudios sobre ingredientes activos diseñados para modular los mecanismos de longevidad cutánea, permitiendo a las marcas sustentar promesas de rejuvenecimiento biológico real."
+    },
+    {
+        "URL":  "https://www.glossy.co/fashion/how-an-indie-bridal-brand-earned-a-major-marketing-moment-at-the-super-bowl/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "ESTRATEGIA DE VISIBILIDAD",
+        "INSIGHT":  "Los eventos masivos como el Super Bowl ya no son exclusivos de grandes corporaciones; el placement estratégico permite a marcas independientes ganar relevancia global inmediata.",
+        "RESUMEN":  "Análisis de cómo una firma de moda independiente logró un impacto masivo durante el Super Bowl, utilizando el storytelling y la oportunidad cultural para desafiar presupuestos de marketing tradicionales."
+    },
+    {
+        "URL":  "https://www.glossy.co/beauty/seoul-born-borntostandout-aims-to-be-the-craziest-fragrance-brand-in-sephora/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA EJECUTIVA",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "PERFUMERÍA NICHO",
+        "INSIGHT":  "La \"K-Fragrance\" busca irrumpir en el retail de lujo mediante una estética disruptiva y una narrativa provocativa que rompe con el minimalismo tradicional coreano.",
+        "RESUMEN":  "La marca surcoreana BORNTOSTANDOUT se prepara para su expansión en Sephora, apostando por conceptos olfativos audaces y un branding visualmente impactante para captar a la Generación Z."
+    },
+    {
+        "URL":  "https://www.glossy.co/fashion/wolf-badger-is-positioning-itself-as-an-anti-saks-to-brands-seeking-new-sales-channels/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "RETAIL ALTERNATIVO",
+        "INSIGHT":  "El auge de plataformas \"anti-department store\" responde a la necesidad de las marcas emergentes de mantener control sobre su narrativa y márgenes comerciales.",
+        "RESUMEN":  "Wolf \u0026 Badger se posiciona como el canal preferido para marcas independientes que huyen de las condiciones rígidas de los grandes almacenes, ofreciendo un modelo de distribución más equitativo y curado."
+    },
+    {
+        "URL":  "https://www.glossy.co/beauty/why-loreal-groupe-is-investing-in-p2-science-the-ingredient-company-quietly-working-with-rare-beauty-living-proof-and-the-ordinary/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE INVERSIÓN (VENTURE)",
+        "CATEGORÍA":  "M\u0026A (FUSIONES Y ADQUISICIONES)",
+        "SUBCATEGORÍA":  "BIOTECNOLOGÍA VERDE",
+        "INSIGHT":  "Invertir en los proveedores de la competencia permite a los gigantes del sector controlar la cadena de suministro de ingredientes críticos y acelerar su transición sostenible.",
+        "RESUMEN":  "L’Oréal Groupe, a través de BOLD, invierte en P2 Science, una empresa de química verde que suministra ingredientes clave a marcas como Rare Beauty y The Ordinary, asegurando acceso a innovación biotecnológica."
+    },
+    {
+        "URL":  "https://www.cosmeticsandtoiletries.com/news/event-coverage/news/22959746/evonik-operations-gmbh-why-biomimetic-vegan-collagen-is-the-future-of-beauty-innovation-free-webinar",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "WEBINAR TÉCNICO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "BIOTECNOLOGÍA",
+        "INSIGHT":  "El colágeno biomimético vegano resuelve la brecha entre la ética del consumidor y la eficacia biológica, superando las limitaciones de pureza de las fuentes animales.",
+        "RESUMEN":  "Evonik presenta su avance en colágeno fermentado de alta afinidad cutánea, posicionándolo como el ingrediente clave para la reparación dérmica de próxima generación y el mercado vegano."
+    },
+    {
+        "URL":  "https://www.cosmeticsandtoiletries.com/news/event-coverage/news/22959486/meet-the-2026-ct-all-awards-finalists-trailblazers-in-beauty-innovation",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "REPORTAJE DE PREMIACIÓN",
+        "CATEGORÍA":  "INTELIGENCIA DE NEGOCIO",
+        "SUBCATEGORÍA":  "INNOVACIÓN (AWARDS)",
+        "INSIGHT":  "Los finalistas de los C\u0026T Allure Awards marcan el \"benchmark\" tecnológico del año, señalando hacia dónde se moverán los presupuestos de formulación en 2027.",
+        "RESUMEN":  "Anuncio de los finalistas de los premios a la innovación 2026, destacando avances en preservación microbiológica, sistemas de entrega transdérmica y formulaciones híbridas de alto desempeño."
+    },
+    {
+        "URL":  "https://www.cosmeticsandtoiletries.com/research/literature-data/news/22959052/lvmh-review-underscores-how-scalp-health-is-the-key-to-fighting-hair-aging",
+        "AÑO":  "2025",
+        "MES":  "OCTUBRE",
+        "TIPO DE FUENTE":  "REVISIÓN CIENTÍFICA (LVMH)",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "SKINIFICATION DEL CABELLO",
+        "INSIGHT":  "LVMH valida científicamente que el cuidado del cuero cabelludo es la base de la longevidad capilar, abriendo un mercado masivo para el \"hair-aging\" preventivo.",
+        "RESUMEN":  "Revisión de investigación liderada por LVMH que demuestra la correlación directa entre la salud del microbioma del cuero cabelludo y el retraso en la degeneración folicular y el envejecimiento del cabello."
+    },
+    {
+        "URL":  "https://www.medestheticsmag.com/business/marketing/article/22958881/visibility-vs-credibility-how-patients-interpret-a-surgeons-online-presence",
+        "AÑO":  "2025",
+        "MES":  "SEPTIEMBRE",
+        "TIPO DE FUENTE":  "ANÁLISIS PSICOLÓGICO/MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "REPUTACIÓN PROFESIONAL",
+        "INSIGHT":  "En medicina estética, el exceso de visibilidad digital sin rigor científico puede erosionar la credibilidad del cirujano, afectando la conversión de pacientes de alto valor.",
+        "RESUMEN":  "Estudio sobre la percepción del paciente ante la presencia en redes sociales de los profesionales de la salud, analizando el equilibrio crítico entre el marketing de influencia y la autoridad médica percibida."
+    },
+    {
+        "URL":  "https://www.medestheticsmag.com/news/article/22958690/biotech-beauty-company-sable-gains-investment-for-launch-of-body-contouring-topicals",
+        "AÑO":  "2025",
+        "MES":  "AGOSTO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE INVERSIÓN (VENTURE)",
+        "CATEGORÍA":  "M\u0026A (FUSIONES Y ADQUISICIONES)",
+        "SUBCATEGORÍA":  "BIOTECNOLOGÍA APLICADA",
+        "INSIGHT":  "La inversión en tópicos de remodelación corporal biotecnológicos busca cerrar la brecha entre los procedimientos de cabina y el mantenimiento doméstico de alta gama.",
+        "RESUMEN":  "La empresa de biotecnología Sable asegura financiación para lanzar soluciones tópicas de contorno corporal, utilizando mecanismos avanzados para optimizar la firmeza y la textura cutánea."
+    },
+    {
+        "URL":  "https://www.premiumbeautynews.com/en/why-middle-eastern-beauty-markets,27071",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE MERCADO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "MERCADO MEDIO ORIENTE",
+        "INSIGHT":  "El mercado de Oriente Medio transiciona de un consumo puramente aspiracional a uno basado en el performance, exigiendo productos adaptados a climas extremos.",
+        "RESUMEN":  "Informe sobre la explosión del mercado de belleza en el Golfo, destacando la alta inversión per cápita y el cambio hacia marcas que combinan lujo con beneficios dermatológicos probados."
+    },
+    {
+        "URL":  "https://www.premiumbeautynews.com/en/bogart-group-sees-8-7-drop-in,27057",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME FINANCIERO",
+        "CATEGORÍA":  "FINANZAS E INVERSIÓN",
+        "SUBCATEGORÍA":  "RESULTADOS TRIMESTRALES",
+        "INSIGHT":  "La caída en los ingresos de Bogart Group refleja los desafíos del retail físico europeo frente a la presión de precios y la migración al canal digital.",
+        "RESUMEN":  "Bogart Group reporta un descenso del 8,7% en sus ventas anuales, afectado principalmente por un entorno de consumo débil en sus principales mercados de fragancias y cosmética."
+    },
+    {
+        "URL":  "https://www.retaildive.com/news/ulta-beauty-roster-women-athletes-marketing-campaign/811469/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ESTRATEGIA DE MARKETING",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "INFLUENCER MARKETING",
+        "INSIGHT":  "Ulta Beauty capitaliza el auge del deporte femenino para redefinir el concepto de \"beauty endurance\", alineando el maquillaje con un estilo de vida activo y resiliente.",
+        "RESUMEN":  "Ulta lanza una campaña masiva con atletas femeninas de élite, buscando conectar con consumidoras que valoran la durabilidad del producto y el empoderamiento a través del rendimiento físico."
+    },
+    {
+        "URL":  "https://www.merca20.com/the-new-anti-aging-wave-why-millennials-are-the-main-consumers/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE TENDENCIAS",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "SEGMENTACIÓN POR EDAD",
+        "INSIGHT":  "El \"Pre-juvenation\" impulsado por Millennials desplaza el enfoque de la corrección a la prevención temprana, alterando el ciclo de vida tradicional del producto antiedad.",
+        "RESUMEN":  "Análisis sobre cómo la generación Millennial se ha convertido en el principal motor del mercado anti-aging, priorizando ingredientes activos preventivos y procedimientos mínimamente invasivos."
+    },
+    {
+        "URL":  "https://www.saludiario.com/dermatitis-atopica-cuanto-cuesta-vivir-con-esta-enfermedad/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS SOCIOECONÓMICO",
+        "CATEGORÍA":  "DERMATOLOGÍA MÉDICA",
+        "SUBCATEGORÍA":  "ECONOMÍA DE LA SALUD",
+        "INSIGHT":  "La carga financiera de las enfermedades crónicas de la piel impulsa la necesidad de dermocosméticos de mantenimiento con mejor relación coste-beneficio.",
+        "RESUMEN":  "Análisis del impacto económico directo en pacientes con dermatitis atópica, cubriendo gastos en tratamientos tópicos, consultas y el impacto en la calidad de vida."
+    },
+    {
+        "URL":  "https://beauty.pambianconews.com/2026/02/a-cosmopack-bologna-e-protagonista-levoluzione-del-contract-manufacturing/77435",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "REPORTE DE FERIA SECTORIAL",
+        "CATEGORÍA":  "OPERACIONES Y SUPPLY CHAIN",
+        "SUBCATEGORÍA":  "FABRICACIÓN A TERCEROS",
+        "INSIGHT":  "La evolución del contract manufacturing hacia la co-creación estratégica permite a las marcas acelerar el \"time-to-market\" con fórmulas llave en mano.",
+        "RESUMEN":  "Cosmopack Bologna destaca la transformación de los fabricantes por contrato, quienes ahora ofrecen servicios integrales desde la innovación química hasta el packaging sostenible."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/discovery-personalisation-and-transparency-are-driving-cosmetics-e",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS DE E-COMMERCE",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "DIGITAL RETAIL",
+        "INSIGHT":  "La transparencia en la cadena de suministro se convierte en el principal driver de conversión en el canal digital, superando incluso a la personalización.",
+        "RESUMEN":  "Informe sobre las tendencias en el comercio electrónico de belleza, subrayando cómo el descubrimiento de productos guiado por IA y la honestidad en ingredientes dominan el mercado."
+    },
+    {
+        "URL":  "https://www.farmacianews.it/fibre-alimentari-nutraceutici-multi-target-oltre-lintestino/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO TÉCNICO-FARMACÉUTICO",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "NUTRACEUTICOS",
+        "INSIGHT":  "El eje intestino-piel se consolida mediante el uso de fibras multi-target, posicionando a la nutricosmética como un pilar del bienestar integral.",
+        "RESUMEN":  "Investigación sobre cómo los nutracéuticos de nueva generación utilizan fibras alimentarias para modular la inflamación sistémica, con beneficios directos en la salud cutánea."
+    },
+    {
+        "URL":  "https://www.cosmeticsandtoiletries.com/regulations/safety/news/22958610/beauty-under-fire-why-2026-will-be-a-pivotal-year-for-consumer-safety-and-environmental-accountability",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS REGULATORIO",
+        "CATEGORÍA":  "ESG Y SOSTENIBILIDAD",
+        "SUBCATEGORÍA":  "SEGURIDAD DEL CONSUMIDOR",
+        "INSIGHT":  "El 2026 marca un punto de inflexión donde la responsabilidad ambiental dejará de ser voluntaria para ser una exigencia legal estricta en la UE.",
+        "RESUMEN":  "Análisis sobre el endurecimiento de las normativas de seguridad y sostenibilidad, alertando a las empresas sobre la necesidad de auditorías profundas en sus formulaciones."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/ingredients/skin-care/news/22959334/debut-57847-qa-aipowered-dermceutical-edl-redefining-skin-tightening-in-skin-care",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA TÉCNICA",
+        "CATEGORÍA":  "I+D E INNOVACIÓN",
+        "SUBCATEGORÍA":  "INTELIGENCIA ARTIFICIAL",
+        "INSIGHT":  "El descubrimiento de moléculas mediante IA permite identificar péptidos de alta precisión para el tensado cutáneo que antes eran imposibles de sintetizar.",
+        "RESUMEN":  "Entrevista con Debut sobre su nueva molécula EDL, descubierta por IA, que promete revolucionar los tratamientos tópicos de firmeza con resultados comparables a procedimientos médicos."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/bath-body/article/22959600/the-new-rules-of-winning-at-sephoracategory-by-category",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "GUÍA ESTRATÉGICA DE RETAIL",
+        "CATEGORÍA":  "CANALES DE VENTA",
+        "SUBCATEGORÍA":  "ESTRATEGIA DE DISTRIBUCIÓN",
+        "INSIGHT":  "Ganar en el retail especializado requiere ahora una estrategia de nicho ultra-específica por categoría en lugar de un enfoque de marca generalista.",
+        "RESUMEN":  "Desglose de las nuevas reglas de éxito en Sephora, analizando qué métricas y tipos de producto están priorizando los compradores del gigante del retail para 2026."
+    },
+    {
+        "URL":  "https://www.premiumbeautynews.com/en/paris-packaging-week-sets-new,27065",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "REPORTE DE FERIA SECTORIAL",
+        "CATEGORÍA":  "PACKAGING E INNOVACIÓN",
+        "SUBCATEGORÍA":  "DISEÑO SOSTENIBLE",
+        "INSIGHT":  "La Paris Packaging Week confirma que el \"monomaterialismo\" es la solución definitiva para la reciclabilidad masiva en el sector del lujo.",
+        "RESUMEN":  "Resumen de innovaciones en la semana del packaging de París, destacando nuevos récords de asistencia y el enfoque en envases recargables de alta gama."
+    },
+    {
+        "URL":  "https://www.saludiario.com/grafica-del-dia-los-paises-con-mas-estres-y-ansiedad-en-el-mundo/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ANÁLISIS SOCIODEMOGRÁFICO",
+        "CATEGORÍA":  "TENDENCIAS DE MERCADO",
+        "SUBCATEGORÍA":  "NEUROCOSMÉTICA",
+        "INSIGHT":  "Los altos índices de estrés global impulsan la demanda de cosmética \"psicodermatológica\" diseñada para reducir los signos de fatiga emocional en la piel.",
+        "RESUMEN":  "Gráfica y análisis de los niveles de salud mental a nivel mundial, correlacionando el estrés crónico con la aparición de patologías cutáneas reactivas."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/articles/beauty/business-of-beauty-awards-2026-jury-sephora-rare-beauty-kayali/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "COMUNICADO CORPORATIVO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "PRESTIGIO Y MARCA",
+        "INSIGHT":  "La composición del jurado de los BoF Awards 2026 refleja el poder de las marcas de celebridades y el retail moderno en la definición del éxito comercial.",
+        "RESUMEN":  "Presentación del jurado para los prestigiosos premios Business of Beauty, incluyendo líderes de Sephora, Rare Beauty y Kayali, subrayando la influencia de los creadores en la industria."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/neutrogena-taps-joey-king-as-global-ambassador/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING Y COMUNICACIÓN",
+        "SUBCATEGORÍA":  "EMBAJADORES Y LANZAMIENTOS",
+        "INSIGHT":  "Neutrogena refuerza su autoridad en acné adulto mediante una narrativa de \"autenticidad clínica\" que conecta la experiencia del paciente con el respaldo dermatológico.",
+        "RESUMEN":  "Neutrogena nombra a la actriz Joey King como embajadora global para el lanzamiento de la línea \"Evenly Clear\". La colección, co-diseñada con dermatólogos como el Dr. Dhaval Bhanusali y el Dr. Muneeb Shah, busca tratar simultáneamente el acné activo y la hiperpigmentación post-inflamatoria en adultos. El lanzamiento incluye seis productos (limpiadores, exfoliantes con mandélico y retinoides) disponibles inicialmente en Target y Ulta."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/cosmetica-facecolor-s-a_frente-a-los-cambios-estructurales-en-las-ugcPost-7426995608592375808-JGc3?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "REGULACIÓN",
+        "SUBCATEGORÍA":  "MARCO NORMATIVO",
+        "INSIGHT":  "La adaptación proactiva a cambios estructurales normativos en Colombia es clave para mantener la competitividad en la fabricación de cosméticos.",
+        "RESUMEN":  "Facecolor analiza el impacto de las nuevas normativas en la cadena de suministro y producción cosmética en Colombia, enfocándose en la resiliencia operativa ante cambios institucionales."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/unica-la-holding-daphne-srl-rileva-la-partecipazione-di-q-farma-e-si-assicura-il-100/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "CONSOLIDACIÓN RETAIL",
+        "INSIGHT":  "La adquisición total de Q-Farma por Daphne Srl fortalece la marca dermocosmética \"Unica\", elevando la rentabilidad del canal farmacéutico.",
+        "RESUMEN":  "Daphne Srl adquiere el 100% de Q-Farma, integrando verticalmente la marca propia \"Unica come te\" y consolidando su estrategia de expansión en el mercado de farmacias italiano."
+    },
+    {
+        "URL":  "https://beautycluster.es/blog/conoce-mas-sobre-fermin-san-martin-y-clinipro-coolifting/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA",
+        "CATEGORÍA":  "TECNOLOGÍA",
+        "SUBCATEGORÍA":  "APARATOLOGÍA ESTÉTICA",
+        "INSIGHT":  "El éxito en el sector profesional depende de la integración de tecnología no invasiva de resultados inmediatos y soporte técnico continuo al partner.",
+        "RESUMEN":  "Entrevista a Fermín San Martín sobre el crecimiento de Clinipro y Coolifting, destacando el valor de la fabricación propia y la formación técnica especializada para centros de estética."
+    },
+    {
+        "URL":  "https://mexicobusiness.news/tech/news/healthcare-mexico-new-laws-and-rise-digital-patients",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "DIGITAL HEALTH",
+        "SUBCATEGORÍA":  "TELEMEDICINA",
+        "INSIGHT":  "La reforma a la Ley General de Salud en México valida legalmente la salud digital, transformando la captación de pacientes a canales especializados.",
+        "RESUMEN":  "El estudio \"Paciente Digital México 2025\" y la nueva legislación establecen un marco para la interoperabilidad de datos y el auge de las consultas digitales y el eCommerce médico."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/laboratorios-valquer_skinessentials-valquerlaboratorios-cosmaezticabiotecnolaejgica-activity-7426999325458726913-AOj2?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "LANZAMIENTO",
+        "SUBCATEGORÍA":  "DERMOCOSMÉTICA BIOTECNOLÓGICA",
+        "INSIGHT":  "La biotecnología aplicada a \"Skin Essentials\" responde a la demanda de eficacia rápida en pieles sensibles mediante activos encapsulados de última generación.",
+        "RESUMEN":  "Valquer Laboratorios lanza Skin Essentials, una línea de 6 referencias con retinal encapsulado y ácido hialurónico, enfocada en sostenibilidad, ética animal y cuidado del microbioma."
+    },
+    {
+        "URL":  "https://www.cosmeticaitalia.it/appuntamenti/dettaglio/Webinar-di-presentazione-Milano-Beauty-Week-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "EVENTOS",
+        "SUBCATEGORÍA":  "TRADE MARKETING",
+        "INSIGHT":  "La Milano Beauty Week se consolida como el ecosistema clave para elevar la percepción de valor de la cosmética italiana ante el consumidor global.",
+        "RESUMEN":  "Webinar de presentación de la edición 2026 de la Milano Beauty Week, detallando las iniciativas para promocionar la cultura social y económica del sector cosmético en Italia."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/trovaprezzi-it-nel-2025-integratori-e-vitamine-i-piu-comparati-nei-prezzi-online-e-crescono-gli-utenti-over-65/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "E-COMMERCE",
+        "INSIGHT":  "La digitalización de los \"Silver Surfers\" (over 65) impulsa la comparación de precios online en salud, obligando a las marcas a optimizar su presencia omnicanal.",
+        "RESUMEN":  "Reporte de Trovaprezzi.it sobre tendencias 2025: los suplementos y vitaminas lideran las búsquedas online, con un aumento significativo de usuarios senior en plataformas de comparación."
+    },
+    {
+        "URL":  "https://www.newbeauty.com/la-roche-posay-ons-partnership-world-cancer-day-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "ESG",
+        "SUBCATEGORÍA":  "DERMATOLOGÍA SOCIAL",
+        "INSIGHT":  "Las alianzas en oncología dermatológica refuerzan el posicionamiento clínico de la marca y su compromiso con el cuidado de los efectos secundarios del tratamiento.",
+        "RESUMEN":  "La Roche-Posay se asocia con la Oncology Nursing Society para el Día Mundial contra el Cáncer 2026, lanzando programas de formación para enfermeras sobre el cuidado de la piel del paciente."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/lor%C3%A9al_face-of-legs-kevin-durant-ugcPost-7427034233241567232-go6y?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "ENDORSEMENT",
+        "INSIGHT":  "La inclusión de figuras del deporte de élite como Kevin Durant en el cuidado corporal masculino busca normalizar la hidratación de la piel en segmentos tradicionalmente subatendidos.",
+        "RESUMEN":  "L\u0027Oréal presenta a Kevin Durant para CeraVe, enfocándose en la eficacia clínica del cuidado de las piernas bajo el concepto de \"hidratación de alto rendimiento\" para atletas."
+    },
+    {
+        "URL":  "https://www.rassegnabusiness.news/certificazione-parita-genere-rafforza-strategia-esg-pettenon-cosmetics/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "ESG",
+        "SUBCATEGORÍA":  "CULTURA CORPORATIVA",
+        "INSIGHT":  "La certificación en igualdad de género se convierte en un activo reputacional que atrae talento y mejora los KPIs de sostenibilidad exigidos por inversores.",
+        "RESUMEN":  "Pettenon Cosmetics obtiene la certificación de igualdad de género, integrando políticas de equidad salarial y desarrollo profesional como pilar fundamental de su estrategia de impacto social."
+    },
+    {
+        "URL":  "https://diariofarma.com/2026/02/05/la-industria-farmaceutica-elevo-un-40-su-inversion-en-id-en-un-lustro-en-espana",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "INVERSIÓN",
+        "SUBCATEGORÍA":  "I+D+i",
+        "INSIGHT":  "El incremento del 40% en I+D farmacéutica en España posiciona al país como un hub estratégico para el desarrollo de nuevas moléculas y patentes.",
+        "RESUMEN":  "La industria farmacéutica española alcanza niveles récord de inversión en investigación y desarrollo, impulsada por la colaboración público-privada y ensayos clínicos avanzados."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/bally-cambia-de-capitan-mario-grauso-asume-el-liderazgo-en-relevo-de-ennio-fontana",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "LIDERAZGO",
+        "INSIGHT":  "El relevo en la dirección de Bally busca revitalizar el posicionamiento de lujo de la marca bajo una visión más comercial y global.",
+        "RESUMEN":  "Mario Grauso asume la dirección ejecutiva de Bally, relevando a Ennio Fontana, con el objetivo de liderar la fase de expansión estratégica de la firma de lujo suiza."
+    },
+    {
+        "URL":  "https://capital.es/revista-capital/salud-bienestar-y-rendimiento-cuando-la-medicina-se-integra-en-un-unico-modelo-asistencial/166223",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "MODELO ASISTENCIAL",
+        "INSIGHT":  "La transición hacia una medicina integrativa abre oportunidades para servicios de dermocosmética personalizados dentro de ecosistemas de bienestar holístico.",
+        "RESUMEN":  "Análisis de la convergencia entre salud, rendimiento y bienestar en un modelo asistencial unificado que prioriza la prevención y la personalización del cuidado médico."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/sartoretto-verna_pharmacybusinessarchitects-longevityhealthcare-activity-7427011257117020160-GaYt?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "LONGEVITY HEALTHCARE",
+        "INSIGHT":  "El diseño de farmacias evoluciona hacia centros de longevidad, donde el espacio físico debe facilitar la consultoría especializada en antienvejecimiento.",
+        "RESUMEN":  "Sartoretto Verna destaca la transformación de la farmacia física en un centro de salud proactiva, integrando arquitectura estratégica y servicios enfocados en la longevidad."
+    },
+    {
+        "URL":  "https://www.elle.com/es/belleza/belleza-novedades/g70283167/premios-eiba-2026-todo-lo-que-paso-en-los-elle-international-beauty-awards-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "RECONOCIMIENTO DE MARCA",
+        "INSIGHT":  "Los premios EIBA 2026 actúan como validadores de mercado globales para productos dermocosméticos, influyendo directamente en la decisión de compra premium.",
+        "RESUMEN":  "Cobertura de los Elle International Beauty Awards 2026, donde se premian las innovaciones más destacadas del año en cuidado de la piel, maquillaje y sostenibilidad."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/ingredients/skin-care/article/22957615/nextgen-ingredients-cutting-through-the-noise-in-clean-skin-care",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "INGREDIENTES",
+        "INSIGHT":  "La evolución del \"Clean Beauty\" hacia el \"Clinical Clean\" exige activos con respaldo científico que justifiquen el premium de precio.",
+        "RESUMEN":  "Análisis sobre ingredientes de próxima generación que combinan sostenibilidad con eficacia biotecnológica, superando el marketing tradicional de ingredientes naturales."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/vichylaboratoires_vichylaboratoires-integrativehealth-dermatology-activity-7419285086128369664-ooUS?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "DERMATOLOGÍA",
+        "SUBCATEGORÍA":  "SALUD INTEGRATIVA",
+        "INSIGHT":  "El enfoque en salud integrativa permite a las marcas médicas abordar factores externos (exposoma) y bienestar mental como parte del tratamiento cutáneo.",
+        "RESUMEN":  "Vichy refuerza su compromiso con la salud integrativa, colaborando con expertos para educar sobre el impacto del estilo de vida y el estrés en la salud dermatológica."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/cosmetica-italia_italianbeautydays-arabiasaudita-industriacosmetica-ugcPost-7424522437972647936-PsbL?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "EXPORTACIÓN",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "Arabia Saudita surge como un mercado estratégico de alto crecimiento para la dermocosmética europea debido a la transformación económica de la región.",
+        "RESUMEN":  "Cosmetica Italia organiza los \"Italian Beauty Days\" en Arabia Saudita, facilitando la entrada de empresas italianas en el mercado saudí mediante encuentros B2B institucionales."
+    },
+    {
+        "URL":  "https://www.argentina.gob.ar/noticias/anmat-prohibe-distintos-productos-cosmeticos-para-el-cabello-de-la-marca-lg-la-gefa",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO MÉDICO",
+        "CATEGORÍA":  "REGULACIÓN",
+        "SUBCATEGORÍA":  "ALERTAS SANITARIAS",
+        "INSIGHT":  "La fiscalización estricta sobre productos capilares sin registro subraya la importancia de la trazabilidad regulatoria para evitar riesgos reputacionales.",
+        "RESUMEN":  "La ANMAT prohíbe el uso y comercialización de productos de la marca \"LG La Gefa\" por carecer de registros sanitarios y datos de fabricación legales en Argentina."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/pettenon-cosmetics-s%2Ep%2Ea%2E_inclusivebeauty-pettenonpeople-activity-7424026423826243585-QYS8?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESG",
+        "SUBCATEGORÍA":  "DIVERSIDAD E INCLUSIÓN",
+        "INSIGHT":  "La belleza inclusiva se desplaza de la comunicación a la cultura corporativa, siendo un pilar fundamental para la responsabilidad social empresarial.",
+        "RESUMEN":  "Pettenon Cosmetics destaca sus iniciativas internas de diversidad, promoviendo un entorno laboral equitativo como motor de innovación y valor social para la compañía."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/claire-le-bleis-3a9335a1_lorealpro-lorealproclub-ugcPost-7421681372370669568-7Wyh?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "FIDELIZACIÓN B2B",
+        "INSIGHT":  "El fortalecimiento de comunidades exclusivas para profesionales (L\u0027Oréal Pro Club) blinda la lealtad del canal frente a la competencia directa.",
+        "RESUMEN":  "Claire Le Bleis destaca la importancia de las plataformas de networking y formación exclusiva para estilistas como motor de crecimiento para la división profesional de L\u0027Oréal."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/olive-young-partners-with-sephora-on-global-k-beauty-rollout/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "EXPANSIÓN GLOBAL",
+        "INSIGHT":  "La alianza Olive Young-Sephora democratiza el K-Beauty a escala global, utilizando la infraestructura logística de Sephora para escalar marcas de nicho.",
+        "RESUMEN":  "Olive Young se asocia con Sephora para distribuir marcas coreanas premium en mercados internacionales, combinando el curado experto coreano con el alcance global del retail."
+    },
+    {
+        "URL":  "https://stornia.com/mundo/mexico/negocios-mx/2026/02/04/la-industria-de-belleza-apuesta-fuerte-por-mexico-y-argentina-en-publicidad-digital/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "INVERSIÓN DIGITAL",
+        "INSIGHT":  "El aumento de inversión en LATAM confirma a México y Argentina como los hubs de mayor retorno para campañas de Social Commerce en belleza.",
+        "RESUMEN":  "Análisis de la inversión récord en publicidad digital en México y Argentina, impulsada por la adopción masiva de canales de compra directa a través de redes sociales."
+    },
+    {
+        "URL":  "https://www.saludiario.com/agentic-commerce-la-nueva-frontera-del-marketing-pharma/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "DIGITAL HEALTH",
+        "SUBCATEGORÍA":  "AGENTIC COMMERCE",
+        "INSIGHT":  "Los agentes de IA que compran de forma autónoma por el paciente redefinirán el funnel de ventas en el sector farmacéutico y dermocosmético.",
+        "RESUMEN":  "Exploración del \"Agentic Commerce\", donde asistentes de IA analizan recetas y necesidades del paciente para realizar compras automatizadas, eliminando la fricción en el proceso."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/sal%C3%B3n-look_salonlook26-activity-7424873652367646720-pMl7?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "EVENTOS",
+        "SUBCATEGORÍA":  "TRADE MARKETING",
+        "INSIGHT":  "Salón Look 2026 se posiciona como el epicentro de la digitalización para el sector de la estética profesional y la peluquería en Iberoamérica.",
+        "RESUMEN":  "Avance de la próxima edición de Salón Look, enfocada en la innovación tecnológica, el emprendimiento en el sector belleza y las nuevas tendencias en cuidado capilar y estético."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/deborah-cantos-zambrano-467287266_marketing-branding-marketingestrategico-ugcPost-7424837125881237504-kw2g?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "BRANDING ESTRATÉGICO",
+        "INSIGHT":  "La coherencia entre el propósito de marca y la ejecución táctica es el activo más crítico para generar confianza en el consumidor de salud.",
+        "RESUMEN":  "Análisis sobre la evolución del marketing estratégico en sectores regulados, destacando la necesidad de un branding auténtico que priorice la experiencia del usuario."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/canifarma_enifarm2023-medicinamoderna-canifarmaveportusalud-activity-7424860544647614465-bLNq?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "POLÍTICA INDUSTRIAL",
+        "INSIGHT":  "El fortalecimiento de la soberanía sanitaria a través de la producción local es el nuevo eje de competitividad para la industria farmacéutica mexicana.",
+        "RESUMEN":  "CANIFARMA resalta las conclusiones del encuentro industrial sobre medicina moderna, enfocándose en la innovación tecnológica y la seguridad del paciente como motores de crecimiento."
+    },
+    {
+        "URL":  "https://www.cosmeticsbusiness.com/est%C3%A9e-lauder-is-allegedly-suing-walmart",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "LEGAL",
+        "SUBCATEGORÍA":  "DISTRIBUCIÓN SELECTIVA",
+        "INSIGHT":  "La defensa de los canales de distribución de prestigio frente al mercado gris es vital para proteger el Brand Equity de las marcas de lujo.",
+        "RESUMEN":  "Estée Lauder presenta una demanda contra Walmart por la supuesta venta no autorizada de sus productos de alta gama, subrayando el conflicto entre el retail masivo y la cosmética de lujo."
+    },
+    {
+        "URL":  "https://www.merca20.com/claudia-ramirez-ortiz-de-farmacias-del-ahorro-como-se-impulsa-el-siguiente-capitulo-del-retail-farmaceutico/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "OMNICANALIDAD",
+        "INSIGHT":  "La transformación de la farmacia en un centro de soluciones de salud integrales redefine el customer journey tradicional del paciente en México.",
+        "RESUMEN":  "Claudia Ramírez Ortiz detalla la estrategia de Farmacias del Ahorro para liderar el retail farmacéutico mediante la digitalización y la expansión de servicios de atención médica primaria."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/podermexico_aeqltimahora-podermaezxico-farmaciasdelahorro-activity-7425667109445320704-H8Ly?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "LIDERAZGO EMPRESARIAL",
+        "INSIGHT":  "El liderazgo femenino en posiciones clave de retail salud está acelerando la adopción de modelos de negocio más empáticos y centrados en el bienestar.",
+        "RESUMEN":  "Poder México destaca la trayectoria y visión estratégica de las líderes en Farmacias del Ahorro, analizando su impacto en la modernización del sector salud en el país."
+    },
+    {
+        "URL":  "https://www.mckinsey.com/industries/healthcare/our-insights/Whats-next-for-pharmacies-in-Latin-America?hsid=6eb6b616-cea8-4678-b69e-4a2341d58ce5",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "ESTRATEGIA REGIONAL",
+        "INSIGHT":  "La farmacia latinoamericana evoluciona de un punto de transacciones a un nodo de salud preventivo impulsado por servicios digitales.",
+        "RESUMEN":  "McKinsey analiza la transformación del sector en LATAM, destacando la consolidación de cadenas, la digitalización del paciente y el nuevo rol del farmacéutico como proveedor de atención primaria."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/ai-gia-usata-per-informazioni-sulla-salute-da-un-italiano-su-due-tra-gli-under-35-sono-il-73/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "DIGITAL HEALTH",
+        "SUBCATEGORÍA":  "CONSUMER INSIGHTS",
+        "INSIGHT":  "El autodiagnóstico asistido por IA en menores de 35 años obliga a las marcas a curar contenidos técnicos para evitar la desinformación algorítmica.",
+        "RESUMEN":  "Un estudio revela que el 50% de los italianos usa IA para consultas de salud, cifra que sube al 73% en jóvenes, marcando un cambio generacional en la búsqueda de información médica."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/analisis/el-impacto-de-la-ia-en-el-descubrimiento-de-farmacos-un-analisis-del-cambio-de-paradigma-en-la-innovacion-farmaceutica.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO MÉDICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "I+D+i",
+        "INSIGHT":  "La IA generativa reduce los tiempos de hallazgo de nuevas moléculas dermocosméticas, acelerando el \"Time-to-Market\" de ingredientes activos disruptivos.",
+        "RESUMEN":  "Análisis sobre cómo el Deep Learning y el modelado predictivo están revolucionando el descubrimiento de fármacos, permitiendo identificar dianas terapéuticas con una precisión sin precedentes."
+    },
+    {
+        "URL":  "https://www.galderma.com/news/galderma-expands-restylane-portfolio-japan",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "DERMATOLOGÍA",
+        "SUBCATEGORÍA":  "MEDICINA ESTÉTICA",
+        "INSIGHT":  "La expansión de Galderma en Japón capitaliza la creciente demanda asiática por procedimientos inyectables de mínima invasión y alta seguridad.",
+        "RESUMEN":  "Galderma recibe la aprobación regulatoria en Japón para expandir su línea Restylane, fortaleciendo su presencia en uno de los mercados de estética médica más sofisticados del mundo."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/etam-pone-su-mirada-en-eeuu-y-coloca-al-director-de-mexico-al-frente-del-mercado",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "El éxito en mercados emergentes como México se convierte en el trampolín para liderar la expansión en mercados maduros y competitivos como EE.UU.",
+        "RESUMEN":  "Etam nombra a su director en México para liderar el desembarco estratégico en Estados Unidos, aplicando el know-how de crecimiento acelerado obtenido en el mercado latinoamericano."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/semco-cosmetics_haircare2026-tendenciascapilares-innovacioncosmetica-ugcPost-7425588588051877888-grKX?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "HAIRCARE",
+        "INSIGHT":  "La \"Skinificación\" del cabello impulsa el desarrollo de fórmulas híbridas que tratan el cuero cabelludo con el mismo rigor que la piel facial.",
+        "RESUMEN":  "Semco Cosmetics presenta sus innovaciones para 2026 enfocadas en salud capilar, destacando activos biotecnológicos que reparan la barrera lipídica del cuero cabelludo."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/mo-global-eyewear-multiopticas-refuerza-su-cupula-directiva-con-nuevo-director-general",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "LIDERAZGO",
+        "INSIGHT":  "El fortalecimiento de la cúpula directiva en MÓ busca acelerar la internacionalización y la diversificación del modelo de negocio retail.",
+        "RESUMEN":  "MÓ (Multiopticas) nombra a un nuevo Director General para liderar su estrategia de crecimiento global, enfocándose en la consolidación de la marca como referente de lifestyle y accesorios."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/galderma-_advancingdermatology-wearegalderma-activity-7427357951302127616-6wNC?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "DERMATOLOGÍA",
+        "SUBCATEGORÍA":  "INNOVACIÓN MÉDICA",
+        "INSIGHT":  "El liderazgo de Galderma en dermatología terapéutica y estética se apoya en una inversión sostenida en ciencia para soluciones centradas en el paciente.",
+        "RESUMEN":  "Galderma refuerza su identidad corporativa y misión de avanzar en la salud de la piel a través de la educación médica continua y el desarrollo de tecnologías inyectables y tópicas."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/odella-mx_en-odell%C4%81-damos-la-bienvenida-a-dermagius-ugcPost-7407527604418678784-PZmW?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "ALIANZAS COMERCIALES",
+        "INSIGHT":  "La incorporación de marcas como Dermagius al portafolio de Odellā amplía su cobertura en soluciones dermatológicas de nicho para el mercado mexicano.",
+        "RESUMEN":  "Odellā anuncia la integración de Dermagius a su red de distribución, fortaleciendo su oferta de productos especializados para profesionales de la salud y cuidado de la piel."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/odella-mx_lanzamientos-odella-2025-ugcPost-7404935789593341952-DaQY?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "LANZAMIENTO",
+        "SUBCATEGORÍA":  "PRODUCTOS DERMATOLÓGICOS",
+        "INSIGHT":  "El roadmap de lanzamientos de Odellā refleja una tendencia hacia la especialización técnica para satisfacer las demandas del dermatólogo moderno.",
+        "RESUMEN":  "Odellā presenta su calendario estratégico de lanzamientos para 2025-2026, enfocándose en innovaciones de skincare clínico que prometen alta eficacia y seguridad dermatológica."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/odella-mx_en-odell%C4%81-dimos-inicio-a-una-nueva-era-de-ugcPost-7389003631057936384-THke?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "TRANSFORMACIÓN CORPORATIVA",
+        "INSIGHT":  "El rebranding y la nueva visión de Odellā marcan un cambio hacia un ecosistema de bienestar más integral y digitalizado en México.",
+        "RESUMEN":  "Odellā comunica el inicio de una \"nueva era\" operativa, destacando mejoras en sus procesos logísticos y de atención al cliente para optimizar la experiencia del profesional de salud."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/tomaz-kalin_i-read-an-article-on-global-cosmetic-industry-activity-7427233232808521728--bhq?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "INGREDIENTES ACTIVOS",
+        "INSIGHT":  "La transparencia en la cadena de suministro de ingredientes cosméticos es ahora un requisito indispensable para el cumplimiento normativo internacional.",
+        "RESUMEN":  "Tomaz Kalin reflexiona sobre las tendencias de GCI Magazine, resaltando cómo la biotecnología y la sostenibilidad están redefiniendo la formulación de productos de \"Clean Beauty\"."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/i-programmi-fedelta-delle-farmacie-piu-attrattivi-di-altri-canali-ma-solo-per-le-generazioni-mature/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "FIDELIZACIÓN",
+        "INSIGHT":  "La brecha generacional en programas de lealtad exige que las farmacias digitalicen sus recompensas para atraer a los consumidores jóvenes.",
+        "RESUMEN":  "Los programas de fidelidad de farmacias son más valorados por generaciones mayores; el desafío actual es adaptar estos modelos al perfil tecnológico de la Generación Z."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/medtronic-alcanza-los-10-millones-de-dispositivos-cardiacos-implantables-producidos-en-europa.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO MÉDICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "PRODUCCIÓN INDUSTRIAL",
+        "INSIGHT":  "La capacidad productiva de dispositivos médicos en Europa refuerza la resiliencia de la cadena de suministro ante crisis logísticas globales.",
+        "RESUMEN":  "Medtronic celebra el hito de 10 millones de dispositivos cardíacos fabricados en su planta europea, consolidando su liderazgo en tecnología sanitaria y manufactura de precisión."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/superdrug-to-open-30-new-uk-stores-in-2026-as-it-doubles-down-on-physical-retail/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "EXPANSIÓN FÍSICA",
+        "INSIGHT":  "La apuesta por el retail físico de Superdrug demuestra que la experiencia en tienda sigue siendo el principal motor de conversión para la cosmética.",
+        "RESUMEN":  "Superdrug anuncia la apertura de 30 nuevas tiendas en el Reino Unido para 2026, reforzando su presencia física frente al crecimiento sostenido del e-commerce."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/wella-company_wellacompany-leadership-beauty-activity-7427348160076836864-9liE?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "LIDERAZGO",
+        "INSIGHT":  "El liderazgo inclusivo en Wella Company se utiliza como una herramienta estratégica para retener talento y fomentar la innovación disruptiva.",
+        "RESUMEN":  "Wella Company destaca sus avances en cultura de liderazgo y diversidad, posicionándose como un referente en gestión de equipos dentro de la industria de la belleza profesional."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/julia-y-fund-grube-se-alian-para-lanzar-productos-propios-y-generar-economias-de-escala",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "ALIANZAS RETAIL",
+        "INSIGHT":  "Las alianzas entre retailers para marcas propias permiten competir en costes contra los gigantes del sector sin sacrificar márgenes de exclusividad.",
+        "RESUMEN":  "Perfumería Julia y Fund Grube colaboran en el desarrollo de marcas propias para optimizar procesos de producción y aprovechar economías de escala en el mercado español."
+    },
+    {
+        "URL":  "https://www.prnewswire.com/news-releases/revlon-appoints-mario-rivera-as-chief-operations-officer-302684266.html?tc=eml_cleartime",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "LIDERAZGO",
+        "INSIGHT":  "La reestructuración operativa de Revlon con el nombramiento de un nuevo COO busca optimizar la eficiencia de la cadena de suministro post-crisis.",
+        "RESUMEN":  "Revlon nombra a Mario Rivera como Director de Operaciones (COO), confiando en su experiencia para liderar la transformación logística y operativa global de la compañía."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/alma-en-pena-crece-un-17-y-alcanza-41-millones-centrada-en-internacional-y-diversificacion",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "CRECIMIENTO",
+        "INSIGHT":  "La diversificación de categorías y la expansión internacional permiten a las marcas medianas sostener crecimientos de doble dígito.",
+        "RESUMEN":  "Alma en Pena cierra el ejercicio con 41 millones de euros, un 17% más, impulsada por su fuerte presencia en mercados exteriores y la ampliación de su oferta de productos."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/hermes-aviva-la-carrera-del-lujo-por-los-flagships-invierte-400-millones-en-rodeo-drive",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "REAL ESTATE DE LUJO",
+        "INSIGHT":  "La inversión masiva en flagships físicos en ubicaciones premium refuerza la exclusividad y el control de la experiencia de marca ultra-lujo.",
+        "RESUMEN":  "Hermès adquiere un inmueble en Rodeo Drive por 400 millones de dólares para establecer una nueva flagship, intensificando la competencia por activos inmobiliarios estratégicos."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/dove-puts-real-consumer-voices-at-the-center-of-its-r-eal-reviews-campaign/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "CONSUMER TRUST",
+        "INSIGHT":  "El uso de reseñas reales y sin filtros como eje creativo combate el escepticismo del consumidor hacia la publicidad tradicional.",
+        "RESUMEN":  "Dove lanza la campaña \"R.eal Reviews\", colocando las opiniones auténticas de los consumidores en el centro de su comunicación para reforzar la confianza en la eficacia de sus productos."
+    },
+    {
+        "URL":  "https://elglobalfarma.com/industria/diez-lanzamientos-medicamentos-mas-esperados-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "LANZAMIENTOS PHARMA",
+        "INSIGHT":  "Los nuevos lanzamientos en oncología y enfermedades raras marcarán la pauta de inversión y rentabilidad del sector farmacéutico en 2026.",
+        "RESUMEN":  "Análisis de los diez fármacos más prometedores que llegarán al mercado este año, destacando su potencial terapéutico y el impacto esperado en los ingresos de las Big Pharma."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5768819/icono-pop-lalisa-manobal-lisa-nueva-embajadora-global-shiseido",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "ENDORSEMENT",
+        "INSIGHT":  "La alianza con iconos del K-Pop permite a las marcas tradicionales capturar la lealtad de la Generación Z en mercados asiáticos y globales.",
+        "RESUMEN":  "Shiseido nombra a Lisa (Lalisa Manobal) como embajadora global, buscando rejuvenecer su imagen y capitalizar el fenómeno cultural del K-Pop para impulsar sus líneas de alta gama."
+    },
+    {
+        "URL":  "https://www.corresponsables.com/entrevistas/meritxell-granell-almirall-dermatitis-atopica/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA",
+        "CATEGORÍA":  "ESG",
+        "SUBCATEGORÍA":  "DERMATOLOGÍA SOCIAL",
+        "INSIGHT":  "El enfoque en patologías crónicas como la dermatitis atópica permite a la industria farmacéutica generar un valor social medible más allá del fármaco.",
+        "RESUMEN":  "Meritxell Granell detalla la estrategia de Almirall para mejorar la calidad de vida de los pacientes, integrando sostenibilidad y apoyo psicológico en el tratamiento dermatológico."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/target-reshuffles-executive-leadership-to-accelerate-growth-under-new-ceo/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "LIDERAZGO",
+        "INSIGHT":  "La reestructuración de la cúpula de Target busca optimizar la ejecución del retail ante un consumidor que demanda inmediatez y curaduría premium.",
+        "RESUMEN":  "Bajo un nuevo liderazgo, Target reorganiza sus puestos clave para acelerar el crecimiento, enfocándose en la integración de su cadena de suministro y la experiencia de compra omnicanal."
+    },
+    {
+        "URL":  "https://industriacosmetica.net/noticias/el-beauty-cluster-y-la-aeic-renuevan-su-alianza-para-2026-6wTok",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "ALIANZAS SECTORIALES",
+        "INSIGHT":  "La colaboración entre el ecosistema de marketing y el científico (AEIC) es crítica para el cumplimiento de los nuevos estándares de eficacia cosmética.",
+        "RESUMEN":  "El Beauty Cluster y la AEIC firman la renovación de su acuerdo estratégico para 2026, promoviendo la transferencia de conocimiento técnico y la innovación en el sector español."
+    },
+    {
+        "URL":  "https://expansion.mx/opinion/2026/01/13/la-salud-mental-laboral-dejo-de-ser-tendencia-ahora-exige-consistencia?blaid=8278304",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "ESG",
+        "SUBCATEGORÍA":  "CULTURA CORPORATIVA",
+        "INSIGHT":  "La salud mental se convierte en un KPI de productividad; las empresas que no institucionalicen el bienestar perderán competitividad en el mercado de talento.",
+        "RESUMEN":  "Análisis sobre la evolución de la salud mental en el entorno laboral mexicano, pasando de ser un beneficio opcional a una exigencia regulatoria y operativa de alto impacto."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/pablogutierrezrave_resumen-de-informe-india-el-gigante-del-ugcPost-7427322636080422912-kT2K?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "EXPORTACIÓN",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "India se posiciona no solo como mercado de consumo masivo, sino como el nuevo hub global de manufactura y servicios tecnológicos para la cosmética.",
+        "RESUMEN":  "Pablo Gutiérrez Rave analiza el informe sobre el potencial de India, destacando su crecimiento demográfico y la digitalización como factores clave para la expansión de marcas internacionales."
+    },
+    {
+        "URL":  "https://www.consalud.es/pacientes/pacientes-avances/lwf-2026-si-queremos-aspirar-a-la-maxima-longevidad-debemos-pensar-en-optimizar-no-solo-en-evitar-deficits.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO MÉDICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "LONGEVITY",
+        "INSIGHT":  "La medicina de longevidad desplaza el enfoque de \"curar\" hacia \"optimizar\", abriendo un mercado masivo para la suplementación y dermocosmética preventiva.",
+        "RESUMEN":  "En el marco del Longevity World Forum 2026, expertos discuten el cambio de paradigma hacia la medicina regenerativa y la optimización de biomarcadores para extender la vida saludable."
+    },
+    {
+        "URL":  "https://time.com/collections/time100-health-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "LIDERAZGO EN SALUD",
+        "INSIGHT":  "Los líderes de TIME100 Health 2026 definen las prioridades de inversión global: IA en diagnóstico, terapias génicas y equidad en el acceso a la salud.",
+        "RESUMEN":  "TIME presenta su lista anual de las personas más influyentes en salud, destacando a innovadores que están transformando la medicina mediante tecnología y políticas de impacto global."
+    },
+    {
+        "URL":  "https://www.stanpa.com/noticia/la-cosmetica-espanola-refuerza-su-proyeccion-internacional-en-cosmoprof-north-america-miami/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "EXPORTACIÓN",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "El mercado de EE.UU. se consolida como destino prioritario para la cosmética española, aprovechando el auge del \"Made in Spain\" como sello de calidad.",
+        "RESUMEN":  "Stanpa lidera la delegación española en Cosmoprof Miami, facilitando la entrada de marcas nacionales en el mercado estadounidense y latinoamericano a través de alianzas estratégicas."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/sociolla-plans-aggressive-store-rollout-and-southeast-asia-expansion/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "EXPANSIÓN GLOBAL",
+        "INSIGHT":  "El modelo omnicanal de Sociolla en el Sudeste Asiático demuestra que la integración de datos online con tiendas físicas es clave para dominar mercados emergentes.",
+        "RESUMEN":  "Sociolla anuncia un plan agresivo de apertura de tiendas físicas en Indonesia y Vietnam, buscando capitalizar el crecimiento del consumo de belleza en la región mediante una experiencia de usuario integrada."
+    },
+    {
+        "URL":  "https://finance.yahoo.com/video/e-l-f-beauty-ceo-150311743.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "RENTABILIDAD",
+        "INSIGHT":  "La agilidad en el ciclo de innovación y la democratización de activos de lujo mantienen a e.l.f. Beauty con crecimientos superiores al mercado masivo.",
+        "RESUMEN":  "Tarang Amin, CEO de e.l.f. Beauty, analiza el desempeño financiero de la compañía y destaca cómo su estrategia de \"holy grails\" a precios accesibles sigue ganando cuota de mercado."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/new-report-highlights-the-rise-of-acne-burnout/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO MÉDICO",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "SALUD MENTAL",
+        "INSIGHT":  "El \"Acne Burnout\" surge como un nuevo concepto clínico-psicológico que exige rutinas simplificadas y un enfoque de acompañamiento emocional.",
+        "RESUMEN":  "Un nuevo reporte revela el agotamiento mental de los pacientes con acné crónico ante rutinas complejas, impulsando una tendencia hacia el \"Skin Minimalism\" y el soporte dermatológico integral."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/news/beauty/rare-beauty-chief-brand-marketing-officer/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "LIDERAZGO",
+        "INSIGHT":  "El nombramiento de nuevos liderazgos de marketing en Rare Beauty apunta a la transición de una \"marca de celebridad\" a un pilar global de lifestyle con propósito.",
+        "RESUMEN":  "Rare Beauty refuerza su estructura ejecutiva con un nuevo Chief Brand Marketing Officer para liderar la siguiente fase de expansión internacional y consolidar su posicionamiento social."
+    },
+    {
+        "URL":  "https://whitepapers.toslanutricosmetics.com/the-largest-undersupplied-opportunity-in-beauty-consumers-have-already-moved-where-is-the-industry/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA",
+        "INSIGHT":  "La nutricosmética representa la mayor oportunidad de mercado no satisfecha, donde el consumidor ya está listo para soluciones de belleza desde el interior.",
+        "RESUMEN":  "Tosla analiza el desfase entre la demanda del consumidor por suplementos de belleza y la oferta actual de la industria, señalando el colágeno líquido y los probióticos como categorías críticas."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/wella-company_wellacompany-opi-opinails-ugcPost-7425181175045943296-R4hg?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "BRAND EQUITY",
+        "INSIGHT":  "La integración de marcas icónicas como OPI bajo el paraguas de Wella Company refuerza el liderazgo en el sector profesional y el \"salon excellence\".",
+        "RESUMEN":  "Wella Company celebra el legado de OPI dentro de su estructura, destacando cómo la innovación en el cuidado de uñas complementa su ecosistema global de belleza profesional."
+    },
+    {
+        "URL":  "https://richgersten.substack.com/p/setting-the-record-straight?r=oqdlr\u0026utm_campaign=post\u0026utm_medium=web\u0026triedRedirect=true",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "ANÁLISIS DE MERCADO",
+        "INSIGHT":  "La corrección de narrativas sobre el mercado de inversión en belleza es vital para restaurar la confianza entre capital privado y fundadores.",
+        "RESUMEN":  "Rich Gersten analiza el estado real de las valoraciones y el flujo de acuerdos en la industria de la belleza, desmintiendo mitos sobre la desaceleración del capital de riesgo."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/the-ordinary-lab-pop-up-to-address-skincare-misinformation",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "EDUCACIÓN AL CONSUMIDOR",
+        "INSIGHT":  "El retail experiencial basado en la ciencia (pop-ups educativas) es la respuesta directa de las marcas para combatir la desinformación en redes sociales.",
+        "RESUMEN":  "The Ordinary lanza una experiencia pop-up tipo laboratorio para educar a los consumidores sobre ingredientes, concentraciones y la realidad científica detrás de sus fórmulas."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/tomaz-kalin_target-is-strengthening-its-wellness-beauty-activity-7426511835023196160-k4NI?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "WELLNESS \u0026 BEAUTY",
+        "INSIGHT":  "La apuesta de Target por marcas de nicho con respaldo clínico redefine el estándar de \"accesibilidad premium\" en el retail masivo estadounidense.",
+        "RESUMEN":  "Tomaz Kalin analiza la estrategia de Target para fortalecer su oferta de bienestar y belleza, incorporando marcas disruptivas que antes solo se encontraban en canales selectivos."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/sanjukta-choudhury-59a883261_how-ceraves-marketing-keeps-winning-the-ugcPost-7427269208469692416-vcp2?utm_source=share\u0026utm_medium=member_desktop\u0026rcm=ACoAACvdwD4BmJlo1O0GNplD69_myJoW_bmEsmQ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "DERMATOLOGÍA SOCIAL",
+        "INSIGHT":  "El dominio de CeraVe reside en transformar conceptos dermatológicos complejos en contenido viral y educativo que resuena con la Generación Z.",
+        "RESUMEN":  "Análisis del éxito continuo de CeraVe, destacando su capacidad para equilibrar el respaldo de dermatólogos con estrategias de marketing de influencia de alto impacto."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/essilor-luxottica-crece-un-11-y-rebasa-los-28000-millones-en-el-ejercicio-2025",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RESULTADOS FINANCIEROS",
+        "INSIGHT":  "La diversificación en tecnología óptica y el control de marcas de lujo permiten a EssilorLuxottica mantener crecimientos de doble dígito en entornos complejos.",
+        "RESUMEN":  "El gigante de la óptica cierra el ejercicio 2025 con ingresos superiores a los 28.000 millones de euros, impulsado por el canal de retail directo y la innovación en lentes inteligentes."
+    },
+    {
+        "URL":  "https://www.rrhhdigital.mx/secciones/bienestar/4772/?blaid=8313502",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "ESG",
+        "SUBCATEGORÍA":  "BIENESTAR CORPORATIVO",
+        "INSIGHT":  "El bienestar integral del empleado impacta directamente en la retención de talento en la industria de la salud, donde el burn-out es un riesgo operativo.",
+        "RESUMEN":  "Análisis sobre la importancia de implementar programas de bienestar físico y mental consistentes en las empresas para mejorar el clima organizacional y la productividad en México."
+    },
+    {
+        "URL":  "https://wwd.com/beauty-industry-news/wellness/wizard-wellness-beauty-allergy-launch-1238529332/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "BEYOND SKINCARE",
+        "INSIGHT":  "La \"estetización\" de categorías médicas como la alergia abre un nuevo nicho de \"Beauty-Wellness\" donde el placer de uso impulsa la adherencia terapéutica.",
+        "RESUMEN":  "Wizard Wellness lanza una línea de cuidado nasal formulada con ingredientes cosméticos (vitamina C, aminoácidos) para transformar el tratamiento de alergias en un ritual de belleza."
+    },
+    {
+        "URL":  "https://luxonomy.net/ralph-lauren-strengthens-its-global-position-after-beating-expectations/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "BRAND EQUITY",
+        "INSIGHT":  "La solidez de Ralph Lauren en el sector lujo reafirma que la consistencia aspiracional protege los márgenes incluso ante la volatilidad del consumo global.",
+        "RESUMEN":  "La firma supera las expectativas del mercado, fortaleciendo su posición global mediante una estrategia centrada en el valor de marca y la expansión en canales digitales premium."
+    },
+    {
+        "URL":  "https://elglobalfarma.com/mas/anuario/jesus-aguilar-cgcof-2026-punto-inflexion-futuro-farmacia/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "FARMACIA ASISTENCIAL",
+        "INSIGHT":  "El 2026 se define como el año de la integración definitiva de la farmacia comunitaria en la Salud Pública, pasando de dispensador a nodo clínico.",
+        "RESUMEN":  "Jesús Aguilar (CGCOF) destaca la Ley de Garantías y la dispensación colaborativa como hitos que transformarán la farmacia en un centro de servicios asistenciales integrales."
+    },
+    {
+        "URL":  "https://nielseniq.com/global/en/insights/report/2026/niq-state-of-global-beauty-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "CONSUMER INSIGHTS",
+        "INSIGHT":  "La IA y la transparencia radical son los nuevos \"filtros\" de confianza para un consumidor que prioriza resultados visibles sobre promesas de marketing.",
+        "RESUMEN":  "Reporte NIQ 2026: el mercado crece un 10% globalmente, impulsado por el Social Commerce y una demanda de productos que simplifiquen rutinas sin sacrificar eficacia clínica."
+    },
+    {
+        "URL":  "https://elglobalfarma.com/industria/cribado-neonatal-33-farmacos-aprobados-ema-enfermedades-congenitas/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO MÉDICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "TERAPIAS AVANZADAS",
+        "INSIGHT":  "La aceleración en la aprobación de fármacos para enfermedades raras neonatales redefine la medicina preventiva y los modelos de financiación pública.",
+        "RESUMEN":  "La EMA aprueba 33 nuevos medicamentos destinados a tratar enfermedades congénitas detectadas en cribados, marcando un avance histórico en la medicina personalizada desde el nacimiento."
+    },
+    {
+        "URL":  "https://www.retaildive.com/news/target-layoffs-job-cuts-five-hundred-roles-store-payroll/811783/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN OPERATIVA",
+        "INSIGHT":  "Target sacrifica capas administrativas y logística intermedia para reinvertir en \"frontline payroll\", priorizando la experiencia física frente a la automatización pura.",
+        "RESUMEN":  "Target elimina 500 puestos en cadena de suministro y distritos para redirigir presupuesto hacia el personal de tienda y entrenamiento en experiencia de cliente."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/bath-body/article/22960496/from-skin-barrier-to-nasal-barrier-wizard-wellness-reimagines-allergy-care-through-a-beauty-lens",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "MICROBIOMA NASAL",
+        "INSIGHT":  "El concepto de \"barrera nasal\" es la nueva frontera de la protección biológica, utilizando probióticos para prevenir la entrada de alérgenos y contaminantes.",
+        "RESUMEN":  "Wizard Wellness aplica la ciencia de la barrera cutánea al cuidado nasal, introduciendo prebióticos y activos hidratantes en soluciones para alérgicos crónicos."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/elglobal_los-medicamentos-que-lideran-la-lista-de-activity-7427041109366853632-B4B0",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "LANZAMIENTOS PHARMA",
+        "INSIGHT":  "El auge de los agonistas del GLP-1 (CagriSema) sigue dominando el pipeline farmacéutico, impactando indirectamente en la demanda de cuidado corporal reafirmante.",
+        "RESUMEN":  "El Global destaca los fármacos más esperados de 2026, con Novo Nordisk liderando el listado gracias a sus avances en tratamientos para obesidad y diabetes tipo 2."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/alexandre-costantini-67b35954_inmode-ignite-morpheus8-ugcPost-7425960263666798593-U5H3",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TECNOLOGÍA",
+        "SUBCATEGORÍA":  "APARATOLOGÍA MÉDICA",
+        "INSIGHT":  "La tecnología de radiofrecuencia fraccionada (Morpheus8) se vuelve el estándar de oro para \"tweakments\" que buscan resultados quirúrgicos sin quirófano.",
+        "RESUMEN":  "InMode refuerza su posicionamiento en el mercado de estética médica con su plataforma Ignite, destacando la eficacia de Morpheus8 en la remodelación subdérmica."
+    },
+    {
+        "URL":  "https://elglobalfarma.com/mas/anuario/juan-yermo-farmaindustria-reforzar-competitividad-gran-reto-2026-industria/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "POLÍTICA INDUSTRIAL",
+        "INSIGHT":  "España compite por ser un hub de inversión biofarmacéutica; la estabilidad regulatoria es la moneda de cambio para atraer capital global.",
+        "RESUMEN":  "Juan Yermo (Farmaindustria) define el 2026 como decisivo para la competitividad europea, instando a reformas fiscales y marcos regulatorios ágiles que fomenten la I+D local."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/domen-gregori%C4%8D-7496622a9_ulta-beauty-vs-sephora-vs-target-three-activity-7424808714739716096-yuzJ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "COMPETITIVE INTELLIGENCE",
+        "INSIGHT":  "La convergencia entre Ulta, Sephora y Target está borrando las líneas entre el prestigio y el retail masivo, obligando a las marcas a redefinir su exclusividad.",
+        "RESUMEN":  "Análisis comparativo de los modelos de retail belleza en EE.UU., evaluando cómo las alianzas estratégicas están capturando diferentes perfiles de consumidor omnicanal."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/danessa-myricks-building-profitable-beauty-brand-community-innovation-1010-barrier-boost",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "SKINCARE-MAKEUP HYBRID",
+        "INSIGHT":  "El enfoque en la barrera cutánea dentro del maquillaje (\"Yummy Skin\") responde a la demanda de eficacia dermatológica en productos de color.",
+        "RESUMEN":  "Danessa Myricks lanza el suero \"10/10 Barrier Boost\" con ectoína y 10 pesos moleculares de hialurónico, priorizando la salud de la barrera como base para la innovación en maquillaje."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/kering-full-year-2025-results-slump",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RESULTADOS FINANCIEROS",
+        "INSIGHT":  "La caída del 13% en los ingresos de Kering evidencia una crisis en el lujo tradicional que solo el segmento de Eyewear y cosmética logra amortiguar.",
+        "RESUMEN":  "Kering reporta ingresos de €14.7B en 2025 (caída del 10% comparable); sin embargo, Kering Eyewear crece un 3%, consolidándose como el pilar de resiliencia del grupo."
+    },
+    {
+        "URL":  "https://www.farmacianews.it/equivalenti-parte-il-corso-ecm-di-federfarma-per-superare-il-bias-del-branded/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO MÉDICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "FORMACIÓN FARMACÉUTICA",
+        "INSIGHT":  "Superar el sesgo del consumidor hacia las marcas \"branded\" mediante educación clínica es clave para la sostenibilidad del gasto sanitario.",
+        "RESUMEN":  "Federfarma lanza el curso ECM \"De la desconfianza a la confianza\" para capacitar a farmacéuticos en la comunicación efectiva de la equivalencia terapéutica de los genéricos."
+    },
+    {
+        "URL":  "https://www.fiercebiotech.com/medtech/ge-healthcare-debuts-tech-help-hospitals-remotely-maintain-bedside-ecg-stations",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "TECNOLOGÍA",
+        "SUBCATEGORÍA":  "CONNECTED CARE",
+        "INSIGHT":  "El mantenimiento remoto de dispositivos médicos reduce el \"downtime\" crítico, optimizando la operatividad de hospitales con déficit de técnicos.",
+        "RESUMEN":  "GE Healthcare presenta \"ReadyFix\", una solución de gestión de flotas para monitores ECG que permite diagnósticos y actualizaciones de software a distancia en tiempo real."
+    },
+    {
+        "URL":  "https://www.glossy.co/beauty/with-value-top-of-mind-sally-beauty-is-betting-on-dupe-fragrances-and-instant-delivery/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "ESTRATEGIA DE PRECIOS",
+        "INSIGHT":  "La democratización del lujo a través de \"dupes\" y la entrega inmediata son los nuevos motores de captación de Sally Beauty para las generaciones Z y Alpha.",
+        "RESUMEN":  "Sally Beauty expande su categoría de fragancias a 2,000 tiendas enfocándose en la marca de \"dupes\" Alt. e implementando IA para entregas ultrarrápidas y personalización."
+    },
+    {
+        "URL":  "https://www.glossy.co/beauty/wellness/wellness-briefing-pvolve-and-weight-watchers-partner-as-demand-for-holistic-wellness-surges-plus-news/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "DIGITAL HEALTH",
+        "SUBCATEGORÍA":  "HOLISTIC WELLNESS",
+        "INSIGHT":  "La alianza WW-Pvolve capitaliza la era de los GLP-1, donde el ejercicio de fuerza es esencial para preservar la masa muscular durante la pérdida de peso.",
+        "RESUMEN":  "Weight Watchers integra los entrenamientos de Pvolve en su app, ofreciendo programas específicos para usuarios de medicación GLP-1 y mujeres en etapa de menopausia."
+    },
+    {
+        "URL":  "https://americaretail-malls.com/paises/centroamerica/la-farmacia-en-america-latina-ya-no-se-define-por-lo-que-vende/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "TRANSFORMACIÓN ASISTENCIAL",
+        "INSIGHT":  "La farmacia en LATAM transita de ser un punto de venta a un centro de servicios clínicos y Retail Media, maximizando el valor del ticket promedio.",
+        "RESUMEN":  "Análisis sobre la metamorfosis del sector en la región: la integración de telemedicina, vacunación y plataformas de Retail Media está redefiniendo el modelo de negocio farmacéutico."
+    },
+    {
+        "URL":  "https://www.modaes.com/global/companies/etam-sets-its-sights-on-the-us-and-puts-mexicos-director-at-the-head-of-the-market",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "LIDERAZGO",
+        "INSIGHT":  "La exportación de talento directivo desde México hacia EE.UU. subraya la importancia del mercado mexicano como laboratorio de éxito para el retail global.",
+        "RESUMEN":  "Etam nombra a su director de México para liderar la expansión en Estados Unidos, aplicando estrategias de crecimiento acelerado probadas en el mercado latinoamericano."
+    },
+    {
+        "URL":  "https://www.modaes.com/global/markets/us-fashion-sales-close-2025-on-the-rise-dragging-down-all-retail-growing-by-55",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "INDICADORES ECONÓMICOS",
+        "INSIGHT":  "El crecimiento del 5.5% en el retail de moda en EE.UU. marca una recuperación sólida que impulsa la demanda de categorías complementarias como el beauty.",
+        "RESUMEN":  "Las ventas de moda en EE.UU. cerraron 2025 al alza, superando las expectativas y actuando como motor principal de crecimiento para el sector retail en su conjunto."
+    },
+    {
+        "URL":  "https://mx.fashionnetwork.com/news/El-retail-a-examen-avanza-la-transformacion-tecnologica-al-ritmo-prometido-,1806681.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "TECNOLOGÍA",
+        "SUBCATEGORÍA":  "TRANSFORMACIÓN DIGITAL",
+        "INSIGHT":  "La brecha entre la promesa tecnológica y la implementación real en tienda se cierra; la IA aplicada a la gestión de inventarios es ya un estándar operativo.",
+        "RESUMEN":  "Análisis del ritmo de adopción tecnológica en el retail mexicano, destacando que la personalización masiva y la eficiencia logística son las prioridades para 2026."
+    },
+    {
+        "URL":  "https://www.premiumbeautynews.com/en/how-gen-z-is-transforming-brazil-s,27077",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CONSUMER INSIGHTS",
+        "SUBCATEGORÍA":  "SEGMENTACIÓN",
+        "INSIGHT":  "La Generación Z en Brasil está desplazando el enfoque del \"estándar de belleza\" hacia la autoexpresión y el cuidado de la salud mental.",
+        "RESUMEN":  "Un estudio profundo sobre el mercado brasileño revela cómo los consumidores jóvenes priorizan marcas con propósito social, sostenibilidad y una oferta de productos inclusiva."
+    },
+    {
+        "URL":  "https://www.premiumbeautynews.com/en/instacart-partners-with-lush-for,27075",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "E-COMMERCE",
+        "INSIGHT":  "Las alianzas de \"última milla\" entre marcas de cosmética natural y plataformas de delivery aceleran la compra por impulso en el segmento premium.",
+        "RESUMEN":  "Lush se asocia con Instacart para ofrecer entregas en el mismo día en Norteamérica, respondiendo a la necesidad del consumidor de inmediatez y conveniencia logística."
+    },
+    {
+        "URL":  "https://www.premiumbeautynews.com/en/dsm-firmenich-accelerates-middle,27072",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "EXPORTACIÓN",
+        "SUBCATEGORÍA":  "EXPANSIÓN GEOGRÁFICA",
+        "INSIGHT":  "La inversión en centros de creación locales en Medio Oriente permite a los gigantes de fragancias capturar matices olfativos culturales de alta rentabilidad.",
+        "RESUMEN":  "dsm-firmenich expande sus operaciones en Medio Oriente con nuevas instalaciones estratégicas, enfocándose en la co-creación de fragancias de lujo para mercados árabes."
+    },
+    {
+        "URL":  "https://www.premiumbeautynews.com/en/eastman-and-kolmar-korea-join,27008",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "ESG",
+        "SUBCATEGORÍA":  "PACKAGING SOSTENIBLE",
+        "INSIGHT":  "La colaboración entre fabricantes de resinas y gigantes del K-Beauty acelera la adopción de polímeros reciclables en envases de alta gama.",
+        "RESUMEN":  "Eastman y Kolmar Korea firman una alianza para integrar plásticos circulares y materiales moleculares reciclados en el packaging de productos dermocosméticos coreanos."
+    },
+    {
+        "URL":  "https://www.premiumbeautynews.com/en/start-up-cenee-paris-seeks-to,27005",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "DERMO-ESTÉTICA",
+        "INSIGHT":  "Las startups de \"Niche Beauty\" están redefiniendo el cuidado corporal mediante fórmulas de grado clínico que antes eran exclusivas del cuidado facial.",
+        "RESUMEN":  "Cénée Paris lanza una propuesta de cuidado corporal de alta gama que utiliza activos dermatológicos avanzados para tratar condiciones específicas de la piel con rigor científico."
+    },
+    {
+        "URL":  "https://www.marketingdive.com/news/american-eagle-offers-creators-rewards-to-keep-content-flowing/811374/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "INFLUENCER MARKETING",
+        "INSIGHT":  "Los programas de lealtad para creadores transforman el contenido transaccional en una red de embajadores permanentes de bajo coste operativo.",
+        "RESUMEN":  "American Eagle lanza un sistema de recompensas para creadores de contenido, incentivando la generación constante de material orgánico mediante beneficios exclusivos y monetización."
+    },
+    {
+        "URL":  "https://www.retaildive.com/news/victorias-secret-expands-t-shirt-bra-collection/811858/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "PORTFOLIO MANAGEMENT",
+        "INSIGHT":  "La expansión en categorías \"staple\" busca capturar el gasto recurrente del consumidor ante la volatilidad de las tendencias de moda efímera.",
+        "RESUMEN":  "Victoria\u0027s Secret amplía su colección básica para optimizar la rotación de inventario y responder a la demanda de confort y funcionalidad en el uso diario."
+    },
+    {
+        "URL":  "https://www.saludiario.com/latam-health-champions-2026-premio-que-reconoce-las-mejores-iniciativas-de-innovacion-en-salud/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "RECONOCIMIENTO SECTORIAL",
+        "INSIGHT":  "Los premios Latam Health Champions actúan como validadores de mercado para startups de salud digital que buscan escalabilidad regional.",
+        "RESUMEN":  "Presentación de la edición 2026 de los premios a la innovación en salud en LATAM, destacando proyectos de telemedicina e inteligencia artificial aplicada al diagnóstico."
+    },
+    {
+        "URL":  "https://www.saludiario.com/cofepris-cuantos-nuevos-medicamentos-ha-autorizado-en-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO MÉDICO",
+        "CATEGORÍA":  "REGULACIÓN",
+        "SUBCATEGORÍA":  "MARCO NORMATIVO",
+        "INSIGHT":  "La aceleración en las autorizaciones de COFEPRIS reduce las barreras de entrada para moléculas innovadoras en el mercado mexicano.",
+        "RESUMEN":  "Análisis del volumen de registros sanitarios otorgados por COFEPRIS en lo que va de 2026, señalando una mayor eficiencia en los procesos de dictaminación de nuevos fármacos."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/articles/beauty/gen-z-fibre-supplements-loam-hum-nutrition/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA",
+        "INSIGHT":  "La fibra se posiciona como el nuevo ingrediente \"estrella\" para la Generación Z, vinculando la salud intestinal directamente con la luminosidad de la piel.",
+        "RESUMEN":  "Marcas de nutricosmética como Loam y Hum Nutrition lanzan suplementos de fibra premium, capitalizando el interés de los jóvenes por el bienestar digestivo y su impacto estético."
+    },
+    {
+        "URL":  "https://consultorsalud.com.mx/cofepris-autoriza-214-insumos-en-enero/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "REGULACIÓN",
+        "SUBCATEGORÍA":  "GESTIÓN SANITARIA",
+        "INSIGHT":  "El flujo constante de autorizaciones en dispositivos y medicamentos dinamiza la oferta asistencial y la competencia en el sector salud en México.",
+        "RESUMEN":  "COFEPRIS informa la autorización de 214 insumos para la salud durante el mes de enero, incluyendo registros sanitarios de medicamentos, dispositivos médicos y ensayos clínicos."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/valentino-beauty-colman-dominigo-house-party",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "BRAND EXPERIENCE",
+        "INSIGHT":  "El uso de \"House Parties\" con celebridades permite a las marcas de lujo generar contenido aspiracional en un entorno de intimidad controlada.",
+        "RESUMEN":  "Valentino Beauty organiza un evento exclusivo con Colman Domingo para promocionar su línea de fragancias, utilizando un formato de evento privado para fortalecer su conexión con el lifestyle de lujo."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/geka-introduces-glow-between-moments-collection-at-paris",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "PACKAGING",
+        "INSIGHT":  "El diseño de aplicadores ergonómicos con acabados metálicos eleva la percepción de lujo y eficacia en productos de cuidado de pestañas y cejas.",
+        "RESUMEN":  "GEKA presenta en París su colección \"Glow Between Moments\", destacando cepillos de alta precisión y envases sostenibles orientados a tratamientos híbridos de color y cuidado."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/how-to-transform-ai-face-analysis-into-hyper",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TECNOLOGÍA",
+        "SUBCATEGORÍA":  "HIPER-PERSONALIZACIÓN",
+        "INSIGHT":  "El análisis facial por IA ya no es una novedad, sino el motor de conversión que permite ofrecer rutinas clínicas adaptadas al microbioma individual.",
+        "RESUMEN":  "Guía estratégica sobre la integración de diagnósticos faciales avanzados para transformar el tráfico digital en ventas directas mediante recomendaciones de producto ultra-precisas."
+    },
+    {
+        "URL":  "https://americaretail-malls.com/opinion/el-espejismo-del-retail-vendes-mas-o-solo-cobras-caro/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "RETAIL",
+        "SUBCATEGORÍA":  "RENTABILIDAD",
+        "INSIGHT":  "El crecimiento basado solo en aumentos de precio es insostenible; las marcas deben enfocarse en recuperar volumen mediante valor agregado real.",
+        "RESUMEN":  "Análisis crítico sobre el \"espejismo\" del crecimiento en facturación impulsado por la inflación, instando al retail a monitorear el tráfico y el volumen de unidades vendidas."
+    },
+    {
+        "URL":  "https://www.saludiario.com/prixz-doctors-y-claudia-asi-funcionan-las-nuevas-herramientas-digitales-de-acompanamiento-medico/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "DIGITAL HEALTH",
+        "SUBCATEGORÍA":  "TELEMEDICINA",
+        "INSIGHT":  "Las plataformas de acompañamiento médico digital cierran la brecha entre la prescripción y la adherencia, creando un ecosistema de lealtad para el paciente.",
+        "RESUMEN":  "Prixz lanza herramientas basadas en IA para facilitar la conexión entre médicos y pacientes, optimizando el seguimiento de tratamientos y la entrega de medicamentos a domicilio."
+    },
+    {
+        "URL":  "https://www.saludiario.com/cuando-el-deporte-conecta-oportunidades-para-el-marketing-en-salud/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "SALUD DEPORTIVA",
+        "INSIGHT":  "El patrocinio deportivo en salud migra del simple logo a la integración de protocolos de recuperación y prevención dermatológica para atletas.",
+        "RESUMEN":  "Exploración de las sinergias entre el deporte y el marketing farmacéutico, destacando cómo las marcas de salud pueden capitalizar la cultura del rendimiento físico extremo."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/news/cosmetics/glossier-layoffs-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN",
+        "INSIGHT":  "El recorte de personal en Glossier señala un giro hacia la eficiencia operativa y la rentabilidad tras años de expansión desmedida financiada por VC.",
+        "RESUMEN":  "Glossier anuncia una nueva ronda de despidos para optimizar su estructura organizativa, enfocándose en consolidar su presencia en retail físico y canales de distribución selectivos."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/news/beauty/colostrum-supplement-sales-boom/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA",
+        "INSIGHT":  "El auge del calostro como suplemento \"milagro\" para la piel refleja el interés masivo del consumidor por la inmunidad cutánea y el antienvejecimiento biológico.",
+        "RESUMEN":  "Las ventas de suplementos de calostro bovino se disparan, impulsadas por beneficios percibidos en la salud digestiva y la regeneración celular de la barrera cutánea."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5755909/rituals-cosmetics-celebra-25-aniversario-ingresos-2400-millones-euros",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "PERFORMANCE FINANCIERA",
+        "SUBCATEGORÍA":  "RESULTADOS ANUALES",
+        "INSIGHT":  "El modelo de \"lujo asequible\" y la expansión omnicanal consolidan a Rituals como un competidor masivo con crecimiento del 22%.",
+        "RESUMEN":  "Rituals celebra 25 años alcanzando ingresos de 2.400 millones de euros en 2024, impulsado por la apertura de 150 tiendas y un fuerte crecimiento en Europa y Asia."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/podermexico_nombramiento-podermaezxico-nombramientosconpoder-activity-7427856536720412672-6Wb6",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "El movimiento de liderazgo en México sugiere una fase de estabilización o cambio estratégico en estructuras de alta dirección regionales.",
+        "RESUMEN":  "Se anuncia oficialmente el nombramiento de nuevos liderazgos en posiciones clave dentro del ecosistema empresarial mexicano, buscando fortalecer la ejecución local."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/caballero-polanco_elf-compr%C3%B3-rhode-ugcPost-7427850917070340097-7938",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "ADQUISICIÓN",
+        "INSIGHT":  "La adquisición de Rhode por parte de e.l.f. Beauty valida la tendencia de \"celeb-brands\" con fundamentos sólidos como activos de escala global.",
+        "RESUMEN":  "e.l.f. Beauty adquiere la marca de skincare Rhode (Hailey Bieber), buscando integrar su alcance digital y estética minimalista a su portafolio de crecimiento rápido."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/paulette-fung-4596a738b_chinacosmetics-importcompliance-customslaw-activity-7427897140234014720-JIjc",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "REGULATORIO",
+        "SUBCATEGORÍA":  "CUMPLIMIENTO / EXPORT",
+        "INSIGHT":  "La rigurosidad en las leyes de aduanas e importación en China eleva las barreras de entrada para marcas dermocosméticas extranjeras.",
+        "RESUMEN":  "Análisis sobre los requisitos críticos de cumplimiento y leyes aduaneras para la exportación de cosméticos a China, enfatizando la seguridad y el etiquetado."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5760854/martiderm-estructura-portfolio-ampollas-antiedad-recomendacion-experta",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "PORTFOLIO",
+        "SUBCATEGORÍA":  "ESTRATEGIA DE PRODUCTO",
+        "INSIGHT":  "MartiDerm segmenta su producto estrella (ampollas) para facilitar la prescripción médica y la elección del consumidor en un mercado saturado.",
+        "RESUMEN":  "La marca reestructura su gama de ampollas antiedad bajo una lógica de recomendación experta, simplificando la navegación de su catálogo según necesidades de piel."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/saludiario_la-farmac%C3%A9utica-nacional-saya-biologics-anunci%C3%B3-activity-7421673301103673344-9D38",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "FARMA",
+        "SUBCATEGORÍA":  "LANZAMIENTO BIOTEC",
+        "INSIGHT":  "La inversión en biotecnología nacional por parte de Saya Biologics refleja el interés por reducir la dependencia de insumos importados en la región.",
+        "RESUMEN":  "La farmacéutica nacional Saya Biologics anuncia avances en su infraestructura de producción, enfocándose en soluciones biológicas de alta especialidad."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/ildeme-%C2%AB%C2%A0demee%C2%A0%C2%BB-mahinay-koch-4345297_this-is-not-a-skincare-story-its-a-story-ugcPost-7427775424639983617-KOGb",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "BRANDING",
+        "SUBCATEGORÍA":  "STORYTELLING",
+        "INSIGHT":  "El storytelling emocional se posiciona por encima del beneficio funcional como el principal diferenciador en marcas de cuidado personal premium.",
+        "RESUMEN":  "Reflexión sobre la narrativa de marca en skincare, donde la identidad y el propósito conectan más profundamente con el consumidor que la química del producto."
+    },
+    {
+        "URL":  "https://www.usmagazine.com/stylish/news/bachelors-kaitlyn-becca-and-ashley-found-the-one-in-philosophy-cleansing-balm/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO PROMOCIONAL",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "INFLUENCER MARKETING",
+        "INSIGHT":  "El uso de figuras de \"reality TV\" refuerza la confianza en productos de limpieza facial mediante la validación de estilo de vida aspiracional.",
+        "RESUMEN":  "Integrantes de The Bachelor promocionan el bálsamo limpiador de Philosophy, destacando su eficacia en rutinas de cuidado diario para audiencias masivas."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/maryna-onyshchuk-04675a46_beautymarketing-activity-7419303169588994048-7xfy",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "TENDENCIAS DIGITALES",
+        "INSIGHT":  "La personalización impulsada por datos es ahora el estándar mínimo para capturar la atención en el entorno digital de belleza.",
+        "RESUMEN":  "Análisis sobre estrategias de marketing en belleza, subrayando la importancia de la agilidad creativa y el análisis de datos para optimizar campañas."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/maryna-onyshchuk-04675a46_beautyandwellnessmarketing-activity-7422657045847310337-nOj9",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CATEGORÍA",
+        "SUBCATEGORÍA":  "WELLNESS \u0026 BEAUTY",
+        "INSIGHT":  "La convergencia entre salud mental y cuidado de la piel está redefiniendo el consumo hacia un enfoque de \"bienestar holístico\".",
+        "RESUMEN":  "Discusión sobre la intersección de la belleza y el bienestar (wellness), destacando cómo los consumidores buscan productos que ofrezcan beneficios emocionales."
+    },
+    {
+        "URL":  "https://www.saludiario.com/laboratorio-del-futuro-que-necesita-la-industria-farmaceutica-en-mexico/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "INFRAESTRUCTURA",
+        "INSIGHT":  "La digitalización y automatización de laboratorios en México es crítica para mantener la competitividad frente a estándares globales de I+D.",
+        "RESUMEN":  "Análisis sobre los pilares necesarios para modernizar la industria farmacéutica mexicana, enfocándose en IA, sostenibilidad y procesos automatizados de control."
+    },
+    {
+        "URL":  "https://www.saludiario.com/salud-digital-en-mexico-estos-son-todos-los-cambios-publicados-en-el-dof/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "REGULATORIO",
+        "SUBCATEGORÍA":  "NORMATIVA DIGITAL",
+        "INSIGHT":  "El nuevo marco legal en el DOF establece las bases operativas para la telemedicina, impactando la prescripción y venta digital de dermocosméticos.",
+        "RESUMEN":  "Resumen de las modificaciones publicadas en el Diario Oficial de la Federación sobre salud digital, regulando expedientes electrónicos y consultas a distancia en México."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/inside-the-now-massage-framework-scaling-100-locations-this-year/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "EXPANSIÓN RETAIL",
+        "INSIGHT":  "El escalamiento acelerado de servicios de bienestar demuestra que la experiencia física especializada sigue siendo un motor de ingresos post-pandemia.",
+        "RESUMEN":  "Detalle de la estrategia operativa de The NOW para alcanzar 100 ubicaciones, basándose en un modelo de franquicia simplificado y diseño de experiencia de usuario."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/maryna-onyshchuk-04675a46_pinterest-beautyads-nocosmetics-ugcPost-7425917218225553408-73gz",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "TENDENCIAS DIGITALES",
+        "INSIGHT":  "Pinterest se consolida como el motor de búsqueda visual clave para el descubrimiento de rutinas de cuidado de la piel fuera de las redes tradicionales.",
+        "RESUMEN":  "Análisis sobre el potencial de los Beauty Ads en Pinterest y cómo las marcas están capitalizando el \"visual search\" para influir en la decisión de compra inicial."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/blanca-portales_propuesta-creativa-rare-beauty-ugcPost-7427633070104731649-sdtd",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "BRANDING",
+        "SUBCATEGORÍA":  "CREATIVIDAD",
+        "INSIGHT":  "La identidad de marca basada en la vulnerabilidad y la comunidad permite a Rare Beauty mantener relevancia sin depender exclusivamente de su fundadora.",
+        "RESUMEN":  "Propuesta y análisis creativo sobre el posicionamiento de Rare Beauty, destacando su capacidad para generar contenido que resuena con la salud mental."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/inmodefrance_lalliance-parfaite-de-trois-technologies-activity-7425520486236790784-sPWX",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TECNOLOGÍA",
+        "SUBCATEGORÍA":  "DERMOESTÉTICA",
+        "INSIGHT":  "La combinación de tecnologías mínimamente invasivas está desplazando a la cirugía estética tradicional en la preferencia del consumidor premium.",
+        "RESUMEN":  "InMode Francia presenta una plataforma que integra tres tecnologías distintas para optimizar resultados en tratamientos de tensado cutáneo y remodelación corporal."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/primalskn_skincare-industry-margin-v-merit-and-why-activity-7426558090084413440-G0T7",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "RENTABILIDAD",
+        "INSIGHT":  "La industria enfrenta un dilema entre márgenes operativos agresivos y el mérito científico real de las fórmulas, afectando la lealtad a largo plazo.",
+        "RESUMEN":  "Crítica a la estructura de costos en la industria del skincare, comparando la inversión en marketing frente a la inversión real en activos y eficacia probada."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/bath-body/news/22960587/lorals-back-inside-the-beauty-giants-2025-rebound",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "PERFORMANCE FINANCIERA",
+        "SUBCATEGORÍA":  "RECUPERACIÓN",
+        "INSIGHT":  "El rebote de L’Oréal en 2025 subraya la resiliencia de la categoría dermatológica como el principal motor de crecimiento del grupo.",
+        "RESUMEN":  "Análisis del informe de resultados donde L’Oréal muestra una recuperación sólida, impulsada por sus divisiones de cosmética activa y lujo en mercados clave."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/maryna-onyshchuk-04675a46_rhode-rhode-beautymarketing-activity-7425462534092156928-Mpse",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "ESTRATEGIA DE MARCA",
+        "INSIGHT":  "Rhode ejemplifica el éxito del \"drop marketing\" aplicado al skincare, generando escasez percibida y alta demanda digital inmediata.",
+        "RESUMEN":  "Evaluación de las tácticas de marketing de Rhode, enfocadas en lanzamientos virales y una estética visual coherente que domina el ecosistema de redes sociales."
+    },
+    {
+        "URL":  "https://www.linkedin.com/pulse/how-speak-skincare-consumer-2026-moussse-messy-best-maryna-onyshchuk-nwhkf",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "CONSUMIDOR 2026",
+        "INSIGHT":  "El lenguaje del consumidor 2026 abandona la perfección clínica por un enfoque de \"belleza real y desordenada\", priorizando la autenticidad.",
+        "RESUMEN":  "Guía estratégica sobre cómo comunicarse con el nuevo perfil de consumidor, destacando el cambio hacia terminologías más humanas y menos técnicas en la publicidad."
+    },
+    {
+        "URL":  "https://www.saludiario.com/novartis-denuncia-venta-ilegal-del-medicamento-oncologico-tafinlar-en-mexico-asi-se-puede-identificar/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ALERTA REGULATORIA",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "SEGURIDAD / COMPLIANCE",
+        "INSIGHT":  "La falsificación de medicamentos de alta especialidad en México exige que las farmacéuticas refuercen sus protocolos de trazabilidad y comunicación al paciente.",
+        "RESUMEN":  "Novartis emite una alerta sobre la comercialización ilegal de Tafinlar en México, detallando irregularidades en el empaque y lotes para prevenir riesgos sanitarios graves."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/cosmetica-italia_internazionalizzazione-italianbeauty-italianbeautydays-activity-7417904442878033920-y4Ul",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "INTERNACIONALIZACIÓN",
+        "INSIGHT":  "El \"Made in Italy\" utiliza la diplomacia comercial y eventos sectoriales para consolidar el dominio de su cadena de suministro cosmética en mercados globales.",
+        "RESUMEN":  "Cosmetica Italia impulsa los \"Italian Beauty Days\" como plataforma estratégica para la expansión internacional de marcas italianas, destacando calidad e innovación."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/ellajanebradley_i-absolutely-loved-bringing-this-valentine-ugcPost-7427676860207030272-4nH4",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "CAMPAÑAS ESTACIONALES",
+        "INSIGHT":  "El contenido creativo para San Valentín en 2026 prioriza el \"self-love\" sobre el romance tradicional, adaptándose a los nuevos valores del consumidor joven.",
+        "RESUMEN":  "Análisis de una campaña creativa de temporada que utiliza una narrativa visual disruptiva para conectar productos de belleza con el bienestar personal."
+    },
+    {
+        "URL":  "https://www.saludiario.com/alia-health-risk-platform-nueva-herramienta-mexicana-que-predice-el-riesgo-de-padecer-cancer-de-mama/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "SALUD DIGITAL / IA",
+        "INSIGHT":  "La medicina predictiva basada en algoritmos locales representa el siguiente paso en la personalización de la salud femenina en el mercado mexicano.",
+        "RESUMEN":  "Lanzamiento de Alia Health Risk Platform, una herramienta tecnológica desarrollada en México que utiliza IA para calcular el riesgo de cáncer de mama."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/lmd-com-co_perfumeraedaprofesional-mercadodeperfumes-activity-7427756060393889792-CR5G",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CATEGORÍA",
+        "SUBCATEGORÍA":  "PERFUMERÍA",
+        "INSIGHT":  "El mercado de fragancias profesionales se está moviendo hacia la personalización técnica, requiriendo mayor expertise en la cadena de valor.",
+        "RESUMEN":  "Reflexión sobre la evolución del mercado de perfumería profesional y la importancia de la calidad de los insumos en la percepción de lujo del consumidor final."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/mex-beauty-factory_beautyindustry-beautytrends2026-beautymarketing-ugcPost-7422774903516483584-7i3P",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "CONSUMIDOR 2026",
+        "INSIGHT":  "Las macrotendencias de 2026 señalan un giro hacia la \"cosmética consciente\", donde la transparencia en la formulación es el activo más valioso.",
+        "RESUMEN":  "Revisión de las tendencias clave que definirán la industria de la belleza en 2026, incluyendo sostenibilidad profunda y el impacto de la tecnología en el retail."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/bansk-group-owned-solid-haircare-brand-ethique-reenters-target-new-look-efficacy-focus/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "PORTFOLIO",
+        "SUBCATEGORÍA":  "REBRANDING / RETAIL",
+        "INSIGHT":  "Ethique pivota su comunicación del \"cero desperdicio\" a la \"eficacia comprobada\" para asegurar su éxito en el retail masivo como Target.",
+        "RESUMEN":  "Bajo la propiedad de Bansk Group, Ethique se relanza con una imagen renovada que enfatiza los resultados del producto para atraer a un consumidor más amplio."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/hermes-confirmed-as-buyer-of-record-us400m-rodeo-drive-property/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "BIENES RAÍCES / LUJO",
+        "INSIGHT":  "El control total sobre el canal físico en ubicaciones icónicas es la apuesta de ultra-lujo para blindar la exclusividad de la marca.",
+        "RESUMEN":  "Hermès confirma la compra de una propiedad récord de 400 millones de dólares en Rodeo Drive, reforzando su presencia física estratégica en el mercado estadounidense."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/mex-beauty-factory_beautyindustry-productdevelopment-beautybusiness-ugcPost-7422086124803727360-2Jx2",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "DESARROLLO DE PRODUCTO",
+        "INSIGHT":  "La reducción del \"time-to-market\" se vuelve el diferenciador crítico para marcas que buscan capitalizar tendencias virales de skincare.",
+        "RESUMEN":  "Discusión sobre los desafíos del desarrollo de producto en la industria actual y cómo la agilidad en la fabricación impacta la competitividad del negocio."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/mex-beauty-factory_beautyindustry-usamarket-beautybusiness-ugcPost-7420273202452471808-F-0P",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "EXPANSIÓN USA",
+        "INSIGHT":  "Entrar al mercado de EE. UU. requiere una estrategia de nicho y una comprensión profunda de la logística de distribución omnicanal.",
+        "RESUMEN":  "Análisis de las barreras y oportunidades para marcas cosméticas que buscan expandirse al mercado estadounidense, enfatizando la preparación operativa."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/soledad-mart%C3%ADnez-asumu-b42bba44_anaerlisisdemercado-estrategiaempresarial-activity-7427781873625636865-9DN7",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "ANÁLISIS DE MERCADO",
+        "INSIGHT":  "La inteligencia competitiva se desplaza hacia el análisis de micro-segmentos para detectar nichos de consumo desatendidos en la región.",
+        "RESUMEN":  "Reflexión sobre la importancia de un análisis de mercado profundo y adaptativo para la toma de decisiones estratégicas en entornos de alta volatilidad."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/sanjukta-choudhury-59a883261_the-era-of-polished-aesthetics-is-over-ugcPost-7422918564170608640-Qg2e",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "TENDENCIAS VISUALES",
+        "INSIGHT":  "El fin de la \"estética pulida\" marca el inicio del marketing crudo; las marcas que no adopten el realismo visual perderán tracción con la Gen Z.",
+        "RESUMEN":  "Análisis del cambio cultural hacia contenidos menos producidos y más auténticos, donde la imperfección es el nuevo estándar de confianza para el consumidor."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/mex-beauty-factory_longevityscience-beautyindustry-productdevelopment-ugcPost-7427558678473486336-V5TC",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "LONGEVIDAD",
+        "INSIGHT":  "La ciencia de la longevidad está transformando el \"anti-aging\" en \"pro-aging\" celular, redefiniendo el desarrollo de productos premium.",
+        "RESUMEN":  "Discusión sobre cómo los avances en biotecnología celular están permitiendo a las marcas desarrollar fórmulas que optimizan la vida útil de las células dérmicas."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/xrcventures_longevity-consumerbehavior-healthandwellness-activity-7427721894449029120-NGPG",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "WELLNESS / LONGEVITY",
+        "INSIGHT":  "La longevidad se convierte en un estilo de vida de consumo masivo, integrando suplementos, wearables y skincare en un solo ecosistema.",
+        "RESUMEN":  "Análisis de XRC Ventures sobre el comportamiento del consumidor que prioriza la salud preventiva y la extensión de la vida saludable como motor de gasto."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/jessicahaberland_obsessed-is-not-even-close-to-being-a-strong-ugcPost-7427678559990910976-vU27",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "BRANDING",
+        "SUBCATEGORÍA":  "ENGAGEMENT",
+        "INSIGHT":  "El \"fanatismo de marca\" se construye a través de experiencias de producto ultra-sensoriales que generan una obsesión positiva en el usuario.",
+        "RESUMEN":  "Comentario sobre el impacto de lanzamientos que logran una conexión emocional y sensorial profunda, logrando niveles de lealtad superiores a la media."
+    },
+    {
+        "URL":  "https://www.merca20.com/sanborns-crece-en-ingresos-y-cambia-de-estrategia-en-2026-lo-que-planea-el-retail-de-carlos-slim/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RETAIL / ESTRATEGIA",
+        "INSIGHT":  "Sanborns apuesta por la modernización de sus departamentos de belleza y salud para rejuvenecer su base de clientes y elevar el ticket promedio.",
+        "RESUMEN":  "Sanborns reporta crecimiento en 2026 y detalla su plan para transformar sus puntos de venta físicos en centros de experiencia más tecnológicos y atractivos."
+    },
+    {
+        "URL":  "https://www.modaes.com/entorno/sobreproduccion-en-china-la-amenaza-que-erosiona-la-industria-y-tensiona-el-comercio-global",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "CADENA DE SUMINISTRO",
+        "INSIGHT":  "La saturación de inventario chino presiona los precios globales a la baja, amenazando los márgenes de los productores locales en Occidente.",
+        "RESUMEN":  "Análisis sobre el exceso de capacidad productiva en China y cómo la exportación de excedentes a bajo costo está desestabilizando mercados internacionales."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/gradgirlmarketing_the-hottest-trend-b2b-brands-are-making-ugcPost-7427059768319578113-39cg",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "B2B MARKETING",
+        "INSIGHT":  "Las marcas B2B están adoptando tácticas B2C para humanizar sus servicios, reconociendo que la decisión de compra sigue siendo emocional.",
+        "RESUMEN":  "Tendencia sobre cómo las empresas proveedoras de la industria de belleza están utilizando storytelling y redes sociales para conectar con compradores profesionales."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/naosglobal_a-moment-of-pride-4-sant%C3%A9-magazine-ugcPost-7427735813389737984-1XeY",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "PREMIOS Y RECONOCIMIENTOS",
+        "INSIGHT":  "El reconocimiento de publicaciones de salud valida la estrategia de NAOS de priorizar la ecobiología sobre el marketing tradicional.",
+        "RESUMEN":  "NAOS (Bioderma, Institut Esthederm) celebra premios otorgados por Santé Magazine, reforzando su posicionamiento médico y científico en el mercado."
+    },
+    {
+        "URL":  "https://www.reuters.com/business/retail-consumer/shein-tried-turn-brazil-into-production-hub-local-factories-walked-away-2026-02-04/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "PRODUCCIÓN / NEARSHORING",
+        "INSIGHT":  "El fracaso del hub de Shein en Brasil evidencia los retos de replicar el modelo de ultra-fast-fashion bajo regulaciones laborales y fiscales locales.",
+        "RESUMEN":  "Fábricas brasileñas se retiran del acuerdo con Shein debido a márgenes insostenibles y exigencias operativas, complicando la estrategia regional del gigante chino."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/revlon-appoints-mario-rivera-as-chief-operations-officer/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "El enfoque en la eficiencia operativa bajo un nuevo liderazgo busca acelerar la recuperación de márgenes en la etapa post-quiebra de Revlon.",
+        "RESUMEN":  "Revlon nombra a Mario Rivera como Director de Operaciones (COO), quien aportará su experiencia previa en CVS Health para optimizar la cadena de suministro."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/warpaint-london-acquires-barry-m-out-of-administration-for-1-4m/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "ADQUISICIÓN",
+        "INSIGHT":  "La consolidación del segmento \"low-cost\" en Reino Unido permite a Warpaint London ganar cuota de mercado mediante la absorción de marcas en crisis.",
+        "RESUMEN":  "Warpaint London adquiere Barry M por 1.4 millones de libras tras entrar en concurso de acreedores, buscando rescatar su herencia de marca y canales de distribución."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/grace-vernon-26891048_were-excited-to-share-the-boots-beauty-ugcPost-7427754845761085441-VCEP",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "RETAIL / BEAUTY",
+        "INSIGHT":  "El \"Boots Beauty Report\" reafirma el valor de los datos propios (First-party data) para predecir hábitos de compra en el canal farmacéutico.",
+        "RESUMEN":  "Boots comparte sus hallazgos estratégicos sobre tendencias de consumo, destacando el auge de la dermocosmética especializada y la personalización en tienda física."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/nikkilindgren_helping-beauty-brands-go-to-market-is-a-privilege-activity-7427792375244185601-2TBL",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "GO-TO-MARKET",
+        "INSIGHT":  "La ejecución exitosa de un lanzamiento en 2026 depende más de la agilidad en medios pagados que de la simple presencia orgánica en redes sociales.",
+        "RESUMEN":  "Reflexión sobre los desafíos actuales de las marcas de belleza para entrar al mercado, enfatizando la necesidad de una estrategia de pauta digital ultra-segmentada."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/american-authorities-close-antitrust-investigation-into-symrise/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ALERTA REGULATORIA",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "LEGAL / ANTITRUST",
+        "INSIGHT":  "El cierre de la investigación en EE. UU. elimina la incertidumbre regulatoria para Symrise, permitiéndole retomar su agenda de inversiones estratégicas.",
+        "RESUMEN":  "Las autoridades estadounidenses finalizan la investigación por presunto monopolio contra Symrise sin cargos, tras sospechas de colusión en la industria de fragancias."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/crisquinones_beyouty-tendencias-belleza-y-cuidado-personal-ugcPost-7427080072295231488-M73v",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "CONSUMIDOR LATAM",
+        "INSIGHT":  "La tendencia \"BeYouty\" subraya el cambio hacia una belleza inclusiva y diversa que resuena con la identidad cultural propia de Latinoamérica.",
+        "RESUMEN":  "Análisis sobre la evolución del concepto de belleza en la región, donde la autenticidad y el empoderamiento personal dictan las nuevas reglas del branding."
+    },
+    {
+        "URL":  "https://elglobalfarma.com/farmacia/cgcof-rd-financiacion-productos-sanitarios/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "REGULATORIO",
+        "SUBCATEGORÍA":  "POLÍTICA SANITARIA",
+        "INSIGHT":  "La nueva regulación sobre financiación de productos sanitarios podría redefinir los márgenes de beneficio en el canal de farmacia comunitaria.",
+        "RESUMEN":  "El CGCOF analiza el nuevo Real Decreto sobre financiación de productos sanitarios en España, buscando garantizar la equidad en el acceso y la sostenibilidad del sistema."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/shiseido-forecasts-record-annual-net-loss-of-%c2%a552-billion/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "PERFORMANCE FINANCIERA",
+        "SUBCATEGORÍA":  "RESULTADOS NEGATIVOS",
+        "INSIGHT":  "La dependencia del mercado chino sigue siendo el talón de Aquiles para Shiseido, forzando una reestructuración profunda de su portafolio global.",
+        "RESUMEN":  "Shiseido proyecta una pérdida neta récord de 52 mil millones de yenes, atribuida a la debilidad del consumo en China y costos de reestructuración operativa."
+    },
+    {
+        "URL":  "https://www.supplychaindive.com/news/supply-chain-risks-trends-outlook-2026/810852/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "CADENA DE SUMINISTRO",
+        "INSIGHT":  "La resiliencia en la cadena de suministro en 2026 se basa en la diversificación geográfica para mitigar riesgos geopolíticos crecientes.",
+        "RESUMEN":  "Análisis de las tendencias logísticas para 2026, destacando la IA predictiva y el \"multi-shoring\" como defensas ante la volatilidad del comercio internacional."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5747567/laboratorios-vichy-presenta-longevity-crema-voluminizadora",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "PORTFOLIO",
+        "SUBCATEGORÍA":  "LANZAMIENTO PRODUCTO",
+        "INSIGHT":  "Vichy capitaliza la ciencia de la longevidad con \"Longevity\", moviendo la categoría antiedad hacia la recuperación de volumen y estructura celular.",
+        "RESUMEN":  "Laboratorios Vichy lanza una nueva crema voluminizadora bajo el concepto de longevidad dérmica, enfocada en combatir la pérdida de densidad en pieles maduras."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/rosa-porras-mansilla-47a1a026_relacionespublicas-gabinetedeprensa-brandedcontent-activity-7427696665194569728-iqGY",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "RELACIONES PÚBLICAS",
+        "INSIGHT":  "El branded content se consolida como el vehículo principal para transferir autoridad científica de los laboratorios al consumidor final.",
+        "RESUMEN":  "Análisis sobre la evolución de las RRPP y el gabinete de prensa, destacando cómo el contenido patrocinado de valor supera a la publicidad tradicional."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/colorescience-has-a-new-investor",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "INVERSIÓN",
+        "INSIGHT":  "La entrada de RoundTable Healthcare Partners en Colorescience valida el apetito del capital privado por marcas de \"sun-care\" con rigor médico.",
+        "RESUMEN":  "Colorescience recibe una inversión estratégica de RoundTable Healthcare Partners para acelerar su expansión en el canal profesional y retail dermatológico."
+    },
+    {
+        "URL":  "https://www.modaes.com/cosmetica/loreal-eleva-su-facturacion-hasta-44052-millones-en-2025-y-lleva-a-pablo-isla-al-consejo",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "PERFORMANCE FINANCIERA",
+        "SUBCATEGORÍA":  "RESULTADOS ANUALES",
+        "INSIGHT":  "La incorporación de Pablo Isla al consejo de L\u0027Oréal señala una intención clara de optimizar la eficiencia operativa y la gobernanza de clase mundial.",
+        "RESUMEN":  "L\u0027Oréal cierra 2025 con ingresos récord de 44,052 millones de euros y fortalece su dirección estratégica con el nombramiento del ex-presidente de Inditex."
+    },
+    {
+        "URL":  "https://www.mintoiro.com/product-page/top-trending-skincare-brands-on-instagram-january-2026",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "DIGITAL RANKING",
+        "INSIGHT":  "El monitoreo de métricas de Instagram permite identificar marcas emergentes (\"indie\") antes de que su valoración explote en el mercado de M\u0026A.",
+        "RESUMEN":  "Mintoiro publica su ranking de enero 2026 analizando 730 marcas, destacando el crecimiento de la visibilidad y el engagement como KPIs críticos de éxito."
+    },
+    {
+        "URL":  "https://www.mercadonegro.pe/marketing/a-que-se-debe-el-crecimiento-acelerado-de-la-categoria-beauty-en-peru/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "CONSUMIDOR LATAM",
+        "INSIGHT":  "El mercado peruano emerge como un hub de crecimiento en Latam debido a la sofisticación del consumidor y la entrada de retailers como Sephora.",
+        "RESUMEN":  "Análisis del crecimiento sostenido del sector beauty en Perú, impulsado por el aumento del gasto en skincare y la consolidación de la clase media."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/analysis-coty-q2-26-financial-coty-curated",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "PERFORMANCE FINANCIERA",
+        "SUBCATEGORÍA":  "RESULTADOS TRIMESTRALES",
+        "INSIGHT":  "Coty enfrenta presión en sus márgenes operativos, forzando una revisión de su estrategia de promociones en el segmento de \"Consumer Beauty\".",
+        "RESUMEN":  "Coty reporta resultados mixtos en el Q2 2026; aunque superó expectativas de ingresos, sus ganancias (EPS) cayeron por debajo de lo proyectado por analistas."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/hybrid-complexion-products",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "COSMÉTICA HÍBRIDA",
+        "INSIGHT":  "La fusión de maquillaje y protección solar (SPF) de alto rendimiento es la mayor oportunidad de crecimiento en la categoría de \"complexion\".",
+        "RESUMEN":  "Exploración técnica sobre productos híbridos que combinan color y tratamiento, destacando el rol de Solésence en el desarrollo de activos minerales avanzados."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/cosnova-acquires-niche-beauty-lab",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "M\u0026A",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "ADQUISICIÓN",
+        "INSIGHT":  "Cosnova diversifica su negocio más allá del maquillaje masivo al adquirir Niche Beauty Lab para competir en el skincare clínico.",
+        "RESUMEN":  "El grupo propietario de essence y Catrice adquiere la española Niche Beauty Lab, sumando marcas como Acnemy y Theramid a su portafolio internacional."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/pupa-milano-proves-you-dont-have-to-choose-product-over-packaging",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "BRANDING",
+        "SUBCATEGORÍA":  "DISEÑO / PACKAGING",
+        "INSIGHT":  "Pupa Milano demuestra que el empaque icónico sigue siendo un activo de marca vital incluso en una era enfocada puramente en la fórmula.",
+        "RESUMEN":  "Análisis de la estrategia de Pupa Milano, que mantiene su herencia de diseño italiano mientras actualiza sus fórmulas a estándares de eficacia contemporáneos."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/revlon_blackhistorymonth-movement-beauty-ugcPost-7427732653057028097-S1rr",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "ESG / DIVERSIDAD",
+        "INSIGHT":  "La inclusión deja de ser reactiva para convertirse en un pilar de equity de marca que conecta con la identidad cultural del consumidor.",
+        "RESUMEN":  "Revlon conmemora el Black History Month destacando su legado de diversidad y el impacto de la comunidad negra en la evolución de la industria de la belleza."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/roxana-a-espinosa-reyes-92692556_estrategiacomercial-maezxico-retail-activity-7427679103652179971-KHvh",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "RETAIL MÉXICO",
+        "INSIGHT":  "El éxito en el retail mexicano de 2026 depende de la integración fluida entre la experiencia en piso de venta y la analítica comercial.",
+        "RESUMEN":  "Reflexión sobre las estrategias comerciales necesarias para dominar el retail en México, enfatizando la adaptación local y la ejecución en el punto de venta."
+    },
+    {
+        "URL":  "https://www.modaes.com/entorno/la-ue-da-luz-verde-definitiva-al-arancel-de-tres-euros-a-los-envios-de-minimis",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "REGULATORIO",
+        "SUBCATEGORÍA":  "COMERCIO EXTERIOR",
+        "INSIGHT":  "El fin de la exención de minimis impactará directamente el margen de los gigantes del e-commerce transfronterizo (Shein/Temu), favoreciendo al retail local.",
+        "RESUMEN":  "La Unión Europea aprueba un arancel fijo de tres euros para envíos de bajo valor, buscando frenar la competencia desleal y regular el flujo de paquetes desde Asia."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/emilie-heathe-shuts-down-founder-lays-out-tough-realities-building-indie-brand",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "QUIEBRA / INDIE BEAUTY",
+        "INSIGHT":  "El cierre de Emilie Heathe evidencia que la calidad del producto no es suficiente sin una estructura de capital robusta para soportar los costos de adquisición.",
+        "RESUMEN":  "La fundadora de Emilie Heathe detalla las razones del cese de operaciones, señalando la saturación del mercado y la dificultad de escalar una marca independiente."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/ro-corrales_el-champ%C3%BA-antica%C3%ADda-ya-no-se-compra-cuando-ugcPost-7427466149606367232-N_4X",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CATEGORÍA",
+        "SUBCATEGORÍA":  "HAIRCARE / PREVENCIÓN",
+        "INSIGHT":  "El consumidor de haircare migra de la \"corrección\" a la \"prevención\", tratando el cuidado capilar con el mismo rigor que el skincare facial.",
+        "RESUMEN":  "Análisis sobre el cambio de hábito en la compra de productos anticaída, donde el usuario ahora busca soluciones preventivas antes de que el problema sea visible."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/helie-lemba-simiti_sephora-is-coming-to-belgium-ugcPost-7422037017653600256-sPy0",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "EXPANSIÓN RETAIL",
+        "INSIGHT":  "La llegada de Sephora a Bélgica reconfigura el mapa de distribución de lujo en Europa central, presionando a los jugadores tradicionales de la región.",
+        "RESUMEN":  "Se confirma la entrada oficial de Sephora al mercado belga, un movimiento estratégico para consolidar su presencia en mercados europeos de alto poder adquisitivo."
+    },
+    {
+        "URL":  "https://elglobalfarma.com/mas/anuario/anuario-sanidad-medicamento-2026",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "FARMA",
+        "SUBCATEGORÍA":  "ANUARIO SECTORIAL",
+        "INSIGHT":  "El 2026 se define por la integración definitiva de la medicina de precisión y la sostenibilidad en el acceso al medicamento en España.",
+        "RESUMEN":  "Presentación del anuario sectorial que resume los hitos clave de la sanidad y la industria farmacéutica, proyectando los retos regulatorios y económicos del año."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/fundamental-brands-invites-public-invest-acquires-reenergizes-beauty-assets",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "INVERSIÓN PARTICIPATIVA",
+        "INSIGHT":  "Fundamental Brands democratiza la inversión en belleza, permitiendo al consumidor ser parte del rescate y revitalización de marcas icónicas.",
+        "RESUMEN":  "El grupo Fundamental Brands abre rondas de inversión pública para adquirir activos de belleza infravalorados y relanzarlos mediante estrategias de marketing modernas."
+    },
+    {
+        "URL":  "https://www.farmaindustria.es/web/prensa/notas-de-prensa/2026/02/05/las-companias-farmaceuticas-aumentan-un-40-su-inversion-en-id-en-un-lustro-hasta-los-1-775-millones-de-euros-en-2025",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "INVERSIÓN I+D",
+        "INSIGHT":  "El aumento del 40% en inversión I+D consolida a la industria farmacéutica como el motor de innovación y empleo de alta cualificación en España.",
+        "RESUMEN":  "Farmaindustria reporta que la inversión en investigación y desarrollo alcanzó los 1,775 millones de euros en 2025, marcando un récord histórico para el sector."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/shelleyzalis_huge-congratulations-to-grace-dolan-on-her-activity-7422746023120465920-jwKf",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "El liderazgo femenino en posiciones de CMO sigue transformando la narrativa de las grandes corporaciones hacia enfoques más empáticos y data-driven.",
+        "RESUMEN":  "Se celebra el nuevo nombramiento de Grace Dolan en una posición de liderazgo clave, destacando la importancia de la diversidad en la alta dirección empresarial."
+    },
+    {
+        "URL":  "https://www.farmaceuticos.com/noticias/el-consejo-general-de-colegios-farmaceuticos-celebra-la-aprobacion-del-real-decreto-de-financiacion-de-productos-sanitarios-demanda-historica-de-la-profesion/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ALERTA REGULATORIA",
+        "CATEGORÍA":  "REGULATORIO",
+        "SUBCATEGORÍA":  "POLÍTICA SANITARIA",
+        "INSIGHT":  "La inclusión de productos sanitarios en la prestación farmacéutica pública garantiza la equidad en el acceso y refuerza el rol de la farmacia comunitaria.",
+        "RESUMEN":  "El Consejo General de Farmacéuticos celebra el nuevo Real Decreto que regula la financiación selectiva de productos sanitarios para pacientes no hospitalizados en España."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/shannon-parker-9a963829a_summer-fridays-birthday-ugcPost-7427104186594488321-w-Jc",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "BRANDING",
+        "SUBCATEGORÍA":  "ANIVERSARIO",
+        "INSIGHT":  "Las celebraciones de hitos de marca (\"birthday drops\") se han convertido en la herramienta de retención número uno para las firmas de culto como Summer Fridays.",
+        "RESUMEN":  "Shannon Parker destaca el aniversario de Summer Fridays como un motor de engagement, utilizando ediciones limitadas para fidelizar a su comunidad digital."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/i-mas-med_whxdubai-imasmed-cooperativeofscientists-activity-7426993593065680896-sXT0",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "CIENCIA COLABORATIVA",
+        "INSIGHT":  "La presencia de cooperativas científicas en Dubái subraya el papel de Oriente Medio como el nuevo hub global para la transferencia biotecnológica.",
+        "RESUMEN":  "I+MAS MED participa en el WHX Dubái, promoviendo un modelo colaborativo entre científicos para acelerar el desarrollo de soluciones médicas avanzadas."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/future50-2026-sarelly",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "INDIE BRANDS",
+        "INSIGHT":  "Sarelly Sarelly se posiciona en el Future50 por su capacidad de escalar un modelo de \"lujo consciente\" desde Latinoamérica hacia el mercado global.",
+        "RESUMEN":  "Análisis del éxito de Sarelly Sarelly dentro del ranking Future50 2026, destacando su enfoque en la transparencia de costos y producción ética."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/life-after-closing-beauty-brand-5-founders-next-chapters/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "GESTIÓN DE CRISIS",
+        "INSIGHT":  "El fracaso de una marca indie es ahora visto como un activo de aprendizaje para el liderazgo corporativo, más que como un estigma profesional.",
+        "RESUMEN":  "Cinco fundadores comparten sus trayectorias tras cerrar sus marcas de belleza, discutiendo la resiliencia y la integración de sus aprendizajes en nuevos roles directivos."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/beauty-marketing-in-january-2026",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "TENDENCIAS 2026",
+        "INSIGHT":  "En 2026, el marketing de belleza abandona la promesa de \"transformación\" instantánea por una narrativa de \"continuidad\" y bienestar diario.",
+        "RESUMEN":  "Informe sobre la evolución de las campañas en enero de 2026, donde el contenido educativo y el realismo visual reemplazan a la edición digital excesiva."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/blancaminanonunez_es-posible-revertir-el-envejecimiento-cut%C3%A1neo-activity-7427629868059897856-HvHZ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "LONGEVIDAD CELULAR",
+        "INSIGHT":  "El concepto de \"reversión\" reemplaza al de \"prevención\", impulsado por nuevos activos biotecnológicos que actúan sobre la senescencia celular.",
+        "RESUMEN":  "Blanca Miñano analiza los últimos avances en ciencia dérmica, cuestionando los límites de la cosmética para revertir signos visibles del envejecimiento cutáneo."
+    },
+    {
+        "URL":  "https://www.mercadonegro.pe/economia/precio-antes-que-marca-6-de-cada-10-peruanos-opta-por-medicamentos-genericos/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CATEGORÍA",
+        "SUBCATEGORÍA":  "CONSUMIDOR LATAM",
+        "INSIGHT":  "La sensibilidad al precio en Perú obliga a los laboratorios de marca a justificar su valor diferencial o perder terreno frente al auge de los genéricos.",
+        "RESUMEN":  "Un estudio revela que el 60% de los peruanos prioriza el precio sobre la marca en farmacias, impulsado por el alto gasto de bolsillo en salud."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/skincare-overtakes-fragrance-beauty-leading-growth-driver-late-2025/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "PERFORMANCE FINANCIERA",
+        "SUBCATEGORÍA":  "DINÁMICA DE CATEGORÍA",
+        "INSIGHT":  "El skincare recupera el liderazgo sobre las fragancias, señalando un retorno del consumidor hacia rutinas de tratamiento fundamentales y de alto valor.",
+        "RESUMEN":  "Datos de finales de 2025 confirman que el cuidado de la piel ha vuelto a ser el principal motor de crecimiento de la industria, superando el auge previo de la perfumería."
+    },
+    {
+        "URL":  "https://cincodias.elpais.com/companias/2026-02-12/sanofi-nombra-a-la-espanola-belen-garijo-como-nueva-ceo.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "El nombramiento de Belén Garijo en Sanofi consolida la influencia de los altos ejecutivos españoles en la \"Big Pharma\" global.",
+        "RESUMEN":  "Sanofi anuncia a Belén Garijo (ex-Merck) como su nueva CEO global, buscando fortalecer su productividad operativa y su cartera de I+D."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/flaws-flawlessness-how-ai-rewiring-perceptions-shifting-beauty-standards/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "INTELIGENCIA ARTIFICIAL",
+        "INSIGHT":  "La IA está creando una paradoja: mientras democratiza el diagnóstico, corre el riesgo de imponer estándares de \"perfección\" algorítmica inalcanzables.",
+        "RESUMEN":  "Análisis sobre cómo el uso masivo de IA en filtros y diagnósticos de piel está redefiniendo la percepción de los defectos físicos y los estándares de belleza global."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/eli-lilly-and-company_new-treatments-developed-for-cancer-international-activity-7427725770262794242-WxkU",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "FARMA",
+        "SUBCATEGORÍA":  "INVESTIGACIÓN Y DESARROLLO",
+        "INSIGHT":  "La inversión en medicina de precisión oncológica refuerza la posición de Lilly como líder en biotecnología frente a la competencia genérica.",
+        "RESUMEN":  "Eli Lilly presenta avances significativos en tratamientos contra el cáncer, destacando nuevas moléculas que prometen mayor tasa de éxito en terapias dirigidas."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/diariofarma_trump-lanza-trumprxgov-para-reducir-el-precio-activity-7425477717661351937-wrzU",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ALERTA REGULATORIA",
+        "CATEGORÍA":  "REGULATORIO",
+        "SUBCATEGORÍA":  "POLÍTICA DE PRECIOS",
+        "INSIGHT":  "La plataforma TrumpRx.gov introduce una volatilidad sin precedentes en la fijación de precios de fármacos, afectando directamente los márgenes en EE. UU.",
+        "RESUMEN":  "Reporte sobre el lanzamiento de una iniciativa gubernamental en EE. UU. para reducir costos de medicamentos, presionando a las grandes farmacéuticas mediante transparencia de precios."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/future50-2026-bask-lather-co",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "INDIE BRANDS",
+        "INSIGHT":  "Bask \u0026 Lather ejemplifica el éxito de las marcas \"community-led\" que escalan mediante la resolución de problemas específicos de nichos subatendidos.",
+        "RESUMEN":  "Perfil de Bask \u0026 Lather en el ranking Future50 2026, destacando su crecimiento explosivo en la categoría de cuidado capilar mediante recomendaciones orgánicas."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/korean-inspired-fragrance-brand-elorea-looks-expand-retail-footprint/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "PORTFOLIO",
+        "SUBCATEGORÍA":  "EXPANSIÓN RETAIL",
+        "INSIGHT":  "El éxito de Elorea confirma que el \"K-Beauty\" se está moviendo con fuerza hacia la perfumería fina, apelando a la herencia cultural coreana.",
+        "RESUMEN":  "La marca de fragancias Elorea anuncia planes para expandir su presencia física en retail, capitalizando el auge de la estética coreana en el mercado de lujo estadounidense."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/nikita-goel19_bridgerton-brand-collabs-ugcPost-7426879502972227584-4J2x",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "COLABORACIONES",
+        "INSIGHT":  "Las colaboraciones con IPs de entretenimiento (como Bridgerton) permiten a las marcas de cosmética capturar demanda emocional masiva de forma temporal.",
+        "RESUMEN":  "Análisis de las alianzas entre marcas de belleza y la serie Bridgerton, evaluando cómo el \"Regencycore\" impulsa la venta de paletas de color y cuidado corporal."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/gut-health-startup-good-bacteria-raises-3-2m-probiotic-supplement-business/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "INVERSIÓN",
+        "INSIGHT":  "La categoría \"Inside-Out Beauty\" atrae capital fresco al conectar la salud digestiva con la apariencia externa de la piel.",
+        "RESUMEN":  "La startup Good Bacteria recauda 3.2 millones de dólares para escalar su negocio de suplementos probióticos, enfocándose en el eje intestino-piel."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/jakexu_shakeupcosmetics-mensskincare-retailgrowth-ugcPost-7427700429528158208-pnPJ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CATEGORÍA",
+        "SUBCATEGORÍA":  "MENS GROOMING",
+        "INSIGHT":  "El crecimiento de Shakeup Cosmetics valida la normalización del maquillaje y skincare especializado para el consumidor masculino moderno.",
+        "RESUMEN":  "Jake Xu comparte los hitos de crecimiento de Shakeup en el retail, destacando la expansión de la marca en canales internacionales y el aumento del gasto en grooming masculino."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/osmo-raises-70m-series-b-expand-ai-powered-fragrance-ingredient-design-manufacturing/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "BIOTECNOLOGÍA / IA",
+        "INSIGHT":  "La digitalización del olfato a través de IA permitirá a las empresas diseñar moléculas aromáticas sostenibles a una velocidad sin precedentes.",
+        "RESUMEN":  "Osmo asegura 70 millones de dólares en su Serie B para desarrollar ingredientes de fragancias mediante IA, buscando revolucionar la manufactura de aromas."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/articles/retail/how-the-knightsbridge-estate-is-evolving-its-retail-mix-for-the-modern-consumer/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "RETAIL DE LUJO",
+        "INSIGHT":  "La evolución de Knightsbridge hacia un mix de servicios y retail de lujo demuestra que el punto de venta debe ser un destino de estilo de vida.",
+        "RESUMEN":  "Análisis sobre la transformación inmobiliaria de Knightsbridge Estate, integrando marcas de belleza de alta gama con experiencias gastronómicas y de bienestar."
+    },
+    {
+        "URL":  "https://luxebible.com/what-is-lipodema-what-can-i-do-about-it-dr-jorjani-tells-us/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ARTÍCULO MÉDICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "DERMOESTÉTICA / SALUD",
+        "INSIGHT":  "El lipedema se posiciona como una patología desatendida que requiere un abordaje clínico-quirúrgico, más allá de los tratamientos estéticos convencionales.",
+        "RESUMEN":  "El Dr. Jorjani explica la naturaleza inflamatoria y fibrótica del lipedema, destacando por qué las cremas y masajes fallan y promoviendo la liposucción especializada."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/beautymatter_the-power-of-future50-is-the-people-in-ugcPost-7419481439181860865-xOAv",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "INDIE BRANDS / NETWORKING",
+        "INSIGHT":  "El valor real de los rankings \"Future50\" radica en la creación de un ecosistema de fundadores que acelera el intercambio de mejores prácticas y capital.",
+        "RESUMEN":  "BeautyMatter destaca el factor humano detrás de su lista Future50, enfatizando el rol de los líderes visionarios en la transformación de la industria actual."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/news/luxury/arnault-snaps-up-lvmh-shares-after-vowing-to-own-more-than-50/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "GOBERNANZA / ACCIONARIADO",
+        "INSIGHT":  "Bernard Arnault consolida el control familiar total sobre LVMH, enviando una señal de confianza ante la desaceleración global del mercado de lujo.",
+        "RESUMEN":  "Tras anunciar que superaría el umbral del 50%, la familia Arnault invirtió más de 400 millones de euros en la compra de acciones para blindar su mayoría absoluta."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/undressing-beauty-unsexiest-deal-logic-behind-clorox-2-25b-purell-acquisition/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "ADQUISICIÓN / SALUD",
+        "INSIGHT":  "Clorox adquiere Purell para diversificar su portafolio hacia canales B2B críticos (escuelas/hospitales), buscando flujos de caja estables y recurrentes.",
+        "RESUMEN":  "Análisis de la compra de GOJO Industries (Purell) por 2,250 millones de dólares por parte de Clorox, integrando higiene clínica a su segmento de Health \u0026 Wellness."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/alisonryu_consumer-health-is-front-and-center-i-activity-7426732891696680961-K5pq",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "SALUD DEL CONSUMIDOR",
+        "INSIGHT":  "La convergencia entre consumo masivo y salud clínica redefine el gasto del hogar, priorizando productos con validación científica y beneficio preventivo.",
+        "RESUMEN":  "Alison Ryu reflexiona sobre el auge de la salud del consumidor como eje central de las inversiones actuales, impulsado por un usuario más educado y preventivo."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/haircares-clinical-turn-dermatologist-led-brands-raise-the-stakes",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "DERMOCAPILAR",
+        "INSIGHT":  "El \"clinical turn\" en haircare traslada la autoridad del dermatólogo al cuero cabelludo, elevando los estándares de eficacia y precio en la categoría.",
+        "RESUMEN":  "BeautyMatter analiza cómo las marcas creadas por dermatólogos están ganando cuota en el cuidado capilar, enfocándose en la salud del folículo y ciencia capilar."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/astrazeneca_ceo-astrazeneca-pascal-soriot-delivers-full-year-ugcPost-7426739428145909760-rGHI",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "PERFORMANCE FINANCIERA",
+        "SUBCATEGORÍA":  "RESULTADOS ANUALES",
+        "INSIGHT":  "El crecimiento de AstraZeneca en 2025 valida su agresiva apuesta por la oncología y biotecnología como motores de su ambición de 80 mil millones para 2030.",
+        "RESUMEN":  "Pascal Soriot reporta un sólido desempeño financiero anual, destacando la robustez de su pipeline y la expansión de sus capacidades de manufactura global."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/parfums-christian-dior_diorbeauty-diormakeup-dioraddict-ugcPost-7421900300757848064-_vI2",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "BRANDING",
+        "SUBCATEGORÍA":  "MARKETING DE LUJO",
+        "INSIGHT":  "Dior Addict utiliza el \"luxury drops\" para mantener la relevancia entre la Gen Z, fusionando la herencia de la casa con una estética digital vibrante.",
+        "RESUMEN":  "Campaña de Parfums Christian Dior que destaca el lanzamiento de nuevas extensiones de línea para Dior Addict, enfocadas en el brillo labial y la experiencia sensorial."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/marubeni-acquires-j-beauty-brand-etvos",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "ADQUISICIÓN / J-BEAUTY",
+        "INSIGHT":  "El conglomerado Marubeni entra al sector cosmético comprando Etvos, buscando construir una plataforma de bienestar y salud escalable hacia 2030.",
+        "RESUMEN":  "La firma de inversión japonesa Marubeni adquirió el 100% de la marca de maquillaje mineral Etvos como su activo pilar para una nueva división de consumo."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/calderalab_with-mens-skincare-evolving-beyond-routine-activity-7427418662837497856-vyub",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CATEGORÍA",
+        "SUBCATEGORÍA":  "MENS GROOMING",
+        "INSIGHT":  "El skincare masculino evoluciona de la higiene básica a la bio-optimización, donde el consumidor busca ingredientes botánicos de alto rendimiento.",
+        "RESUMEN":  "Caldera + Lab resalta cómo el cuidado personal masculino está trascendiendo las rutinas simples hacia sistemas complejos de antienvejecimiento y salud dérmica."
+    },
+    {
+        "URL":  "https://www.elconfidencial.com/empresas/2026-02-12/sanofi-ficha-en-merck-a-la-espanola-belen-garijo_4301954/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "El nombramiento de Garijo en Sanofi busca inyectar disciplina operativa y acelerar el pipeline de I+D para reducir la dependencia de Dupixent.",
+        "RESUMEN":  "La española Belén Garijo deja la dirección de Merck para asumir como CEO de Sanofi, marcando un hito para el liderazgo ejecutivo español en la \"Big Pharma\"."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/pablogutierrezrave_futuro-del-mercado-del-lujo-en-china-ugcPost-7427703011046641664-OOsu",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "MERCADO CHINA",
+        "INSIGHT":  "El lujo en China transita de la ostentación al valor real; marcas que no justifiquen su precio con artesanía o exclusividad perderán al consumidor local.",
+        "RESUMEN":  "Pablo Gutiérrez-Rave analiza la reconfiguración del mercado chino, donde la sensibilidad al precio y la búsqueda de experiencias \"money-can\u0027t-buy\" dictan el éxito."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/ultas-bet-on-a-different-kind-of-marketplace",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "EXPANSIÓN RETAIL",
+        "INSIGHT":  "El marketplace de Ulta (\"UB Marketplace\") permite probar tendencias a gran velocidad sin el riesgo de inventario propio, optimizando el margen operativo.",
+        "RESUMEN":  "Ulta Beauty lanza su marketplace digital potenciado por Mirakl, integrando 150 marcas nuevas para diversificar su oferta en bienestar y skincare sin saturar sus tiendas físicas."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/alla-scoperta-delle-farmacie-albanesi-niente-pianta-organica-e-catene-in-rapida-ascesa/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "REGULATORIO",
+        "SUBCATEGORÍA":  "DISTRIBUCIÓN FARMA",
+        "INSIGHT":  "La ausencia de una \"pianta organica\" en Albania facilita la entrada de grandes cadenas, creando un laboratorio de competencia abierta en el sector farmacéutico.",
+        "RESUMEN":  "Análisis del modelo farmacéutico albanés, donde la falta de restricciones geográficas está permitiendo el crecimiento acelerado de redes de farmacias privadas."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/ingrid-gehrke-2154536a_epicelline-skinlongevitysummit-activity-7427657063918448640-hwyF",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "LONGEVIDAD CELULAR",
+        "INSIGHT":  "La Epicellina se perfila como el ingrediente clave para modular la expresión genética de la piel, moviendo el foco del antiedad a la epigenética clínica.",
+        "RESUMEN":  "Ingrid Gehrke presenta avances desde el Skin Longevity Summit sobre el uso de Epicellina para revertir signos de envejecimiento mediante la reprogramación celular."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/shaipenn_tiktok-bubble-skincare-activity-7427483472618840064-cOQf",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "SOCIAL COMMERCE",
+        "INSIGHT":  "Bubble Skincare demuestra que la co-creación con la Gen Z en TikTok reduce el costo de adquisición de clientes al generar confianza inmediata.",
+        "RESUMEN":  "Shai Penn destaca la estrategia de Bubble para dominar el segmento adolescente, utilizando paneles de prueba masivos y contenido educativo viral para escalar la marca."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/glossier-to-cut-more-than-50-jobs",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN",
+        "INSIGHT":  "Glossier reduce su plantilla para ganar agilidad; el reto es recuperar el \"brand magic\" en un mercado saturado donde el modelo D2C ya no es suficiente.",
+        "RESUMEN":  "Bajo el nuevo CEO Colin Walsh, Glossier despide a un tercio de su personal (54 empleados) como parte de una reestructuración para enfocarse en rentabilidad y retail."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/meet-k-clinic-koreas-most-advanced-beauty-export-yet",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "DERMOESTÉTICA",
+        "INSIGHT":  "K-Clinic representa la evolución del K-Beauty hacia servicios médicos estéticos exportables, integrando tecnología coreana en centros globales.",
+        "RESUMEN":  "Informe sobre la expansión de K-Clinic, un modelo de clínica estética coreana que combina diagnósticos por IA y tratamientos mínimamente invasivos para el mercado premium."
+    },
+    {
+        "URL":  "https://www.marketingdirecto.com/marketing-general/gente/ana-garcia-abad-managing-partner-vml-health-espana",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "El nombramiento de García-Abad refuerza la integración de datos y creatividad científica en la comunicación de salud de alta especialidad.",
+        "RESUMEN":  "Ana García-Abad asume como Managing Partner de VML Health en España, liderando la agencia en una etapa de transformación digital y enfoque centrado en el paciente."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/tomaz-kalin_format-is-an-economic-lever-and-not-a-packaging-activity-7427638829781549056-FZKj",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "OPERACIONES / PACKAGING",
+        "INSIGHT":  "El formato del empaque debe ser visto como una palanca económica para optimizar la logística y el ticket promedio, no solo como diseño estético.",
+        "RESUMEN":  "Tomaz Kalin analiza cómo la elección del formato de producto impacta directamente en la rentabilidad y la sostenibilidad de la cadena de suministro dermocosmética."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/laboratoires-fillmed_fillmed-imcas2026-aestheticmedicine-ugcPost-7427675735798034432-rSjT",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "DERMOESTÉTICA",
+        "INSIGHT":  "La presencia en IMCAS 2026 reafirma la necesidad de validación clínica de alto nivel para mantener la relevancia en el mercado de inyectables.",
+        "RESUMEN":  "Laboratoires FILLMED destaca su participación en el congreso IMCAS 2026, presentando protocolos avanzados de rejuvenecimiento y bioestimulación cutánea."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/skeyndor_aquatherm-skeyndor-aquatherm-ugcPost-7427668591942000640-N-Pb",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "PORTFOLIO",
+        "SUBCATEGORÍA":  "SKINCARE PROFESIONAL",
+        "INSIGHT":  "El enfoque en pieles sensibles mediante soluciones termales permite a Skeyndor capturar el creciente segmento de consumidores con barrera cutánea comprometida.",
+        "RESUMEN":  "Skeyndor promociona su línea Aquatherm, destacando el uso de agua termal de Salies-de-Béarn para el tratamiento profesional de pieles reactivas y sensibles."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/belen-garijo-vuelve-a-sanofi-como-nueva-ceo-tras-15-anos-al-frente-de-merck.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "El retorno de Garijo a Sanofi simboliza una apuesta por la continuidad estratégica y el conocimiento profundo de la cultura corporativa francesa.",
+        "RESUMEN":  "Tras una exitosa etapa en Merck, Belén Garijo regresa a Sanofi como CEO Global, liderando la transformación de la farmacéutica hacia la inmunología y vacunas."
+    },
+    {
+        "URL":  "https://richgersten.substack.com/p/the-myth-of-early-stage-risk-and",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "INVERSIÓN / VC",
+        "INSIGHT":  "El riesgo en etapas tempranas es un mito si se cuenta con fundadores que dominan la economía de la unidad y el \"community-led growth\".",
+        "RESUMEN":  "Rich Gersten analiza por qué la inversión en marcas de belleza en etapas iniciales sigue siendo atractiva para los fondos de capital privado en 2026."
+    },
+    {
+        "URL":  "https://www.saludiario.com/amazon-one-medical-lanza-health-insights-nueva-funcion-para-analizar-los-resultados-de-laboratorio/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "SALUD DIGITAL",
+        "INSIGHT":  "Amazon One Medical cierra el círculo de la salud digital al democratizar la interpretación de datos clínicos para el paciente final.",
+        "RESUMEN":  "Lanzamiento de \"Health Insights\", una herramienta de IA que analiza resultados de laboratorio para ofrecer recomendaciones preventivas personalizadas a los usuarios."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/big-business-developments-driving-beauty-manufacturing-2026/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "MANUFACTURA",
+        "INSIGHT":  "La manufactura en 2026 prioriza la micro-producción local para reducir la huella de carbono y responder a tendencias efímeras de TikTok.",
+        "RESUMEN":  "Revisión de los desarrollos clave en la fabricación de cosméticos, destacando la automatización modular y el uso de ingredientes biotecnológicos sostenibles."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/beauty-brands-scramble-rework-logistics-tiktok-shop-ends-self-fulfilled-shipping/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "LOGÍSTICA / E-COMMERCE",
+        "INSIGHT":  "El fin del \"self-fulfilled shipping\" en TikTok Shop obliga a las marcas a ceder el control logístico a cambio de mayor visibilidad algorítmica.",
+        "RESUMEN":  "TikTok Shop implementa cambios regulatorios en su logística, forzando a las marcas a utilizar sus centros de cumplimiento internos para agilizar entregas."
+    },
+    {
+        "URL":  "https://www.metroprivatelabel.com/gen-z-skincare-trends-brands-understand/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "CONSUMIDOR GEN Z",
+        "INSIGHT":  "Para la Gen Z, el skincare no es vanidad sino una forma de control personal y expresión de salud mental (\"skin-tellectuals\").",
+        "RESUMEN":  "Análisis de las tendencias de cuidado de la piel en la Generación Z, enfatizando el deseo de transparencia total en ingredientes y empaques minimalistas."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/hard-water-rush-haircare-brands-retailers-address-mineral-buildup-consumer-awareness-grows",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CATEGORÍA",
+        "SUBCATEGORÍA":  "HAIRCARE ESPECIALIZADO",
+        "INSIGHT":  "El agua dura se convierte en el nuevo \"enemigo\" del cabello, abriendo un nicho masivo para productos quelantes y filtros de ducha.",
+        "RESUMEN":  "Las marcas de haircare lanzan líneas específicas para combatir la acumulación de minerales, educando al consumidor sobre el impacto del agua en la salud capilar."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/inference-beauty-using-ai-turn-first-party-data-higher-conversion-rates/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "IA / DATA",
+        "INSIGHT":  "La inferencia predictiva permite a las marcas anticipar la próxima compra del cliente antes de que este sea consciente de su necesidad.",
+        "RESUMEN":  "Análisis sobre cómo el uso de IA para procesar datos propios está duplicando las tasas de conversión al personalizar la oferta en tiempo real."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/dolusegun_the-beauty-industrys-power-structure-in-activity-7427626333700108288-sD3f",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "GOBERNANZA",
+        "INSIGHT":  "La estructura de poder en la industria está girando hacia directores creativos que dominan el entorno digital sobre el corporativo tradicional.",
+        "RESUMEN":  "Reflexión sobre el cambio de liderazgo en las grandes casas de belleza, donde la influencia cultural pesa más que la experiencia puramente financiera."
+    },
+    {
+        "URL":  "https://www.linkedin.com/pulse/suplementos-nutricionales-en-farmacia-de-la-confusi%C3%B3n-labarca-le%C3%B3n-rzaoe/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CATEGORÍA",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA",
+        "INSIGHT":  "La farmacia debe transitar de la venta reactiva de suplementos a la prescripción nutricional basada en evidencia para retener el margen.",
+        "RESUMEN":  "Artículo sobre los retos de la categoría de suplementos en el canal farmacia, instando a una mayor formación del farmacéutico para evitar la confusión del usuario."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/the-fragrance-trends-set-to-define-2026",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "PERFUMERÍA",
+        "INSIGHT":  "La perfumería funcional, con aromas diseñados para alterar el estado de ánimo, dominará el mercado de fragancias en 2026.",
+        "RESUMEN":  "Análisis de las tendencias olfativas del año, destacando el auge de los aromas \"comfort\" y las fragancias con beneficios neurocientíficos probados."
+    },
+    {
+        "URL":  "https://newsroom.marykay.com/blog/the-beauty-of-ai-and-why-ai-needs-more-women",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "ESG / TECNOLOGÍA",
+        "INSIGHT":  "La inclusión de mujeres en el desarrollo de IA es crítica para evitar sesgos en los algoritmos de diagnóstico de piel que afectan a la industria.",
+        "RESUMEN":  "Mary Kay aboga por una mayor representación femenina en la tecnología, subrayando que la IA en belleza debe ser diversa para ser verdaderamente efectiva."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/ai-powered-customer-support/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "CUSTOMER EXPERIENCE",
+        "INSIGHT":  "El soporte al cliente impulsado por IA generativa reduce costos operativos en un 40% manteniendo una satisfacción del usuario superior al 90%.",
+        "RESUMEN":  "Casos de estudio de marcas que han implementado chatbots de nueva generación para resolver consultas dermatológicas básicas y gestión de pedidos."
+    },
+    {
+        "URL":  "https://www.sephora.com/ca/en/product/strawberry-jam-eau-de-parfum-P520084",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "TIPO DE PRODUCTO",
+        "CATEGORÍA":  "PORTFOLIO",
+        "SUBCATEGORÍA":  "LANZAMIENTO FRAGANCIA",
+        "INSIGHT":  "Las notas gourmand y nostálgicas (como la fresa) están impulsando el crecimiento de fragancias nicho entre el público adolescente de Sephora.",
+        "RESUMEN":  "Lanzamiento de la fragancia \"Strawberry Jam\", capitalizando la tendencia de aromas frutales dulces que dominan las redes sociales actualmente."
+    },
+    {
+        "URL":  "https://www.mckinsey.com/mhi/our-insights/a-new-way-of-thinking-about-metabolic-health",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "SALUD METABÓLICA",
+        "INSIGHT":  "La salud metabólica es la nueva frontera del bienestar, conectando la nutrición con la calidad dérmica y la longevidad sistémica.",
+        "RESUMEN":  "McKinsey propone un cambio de paradigma hacia un enfoque preventivo en salud metabólica, integrando biomarcadores y tecnología para mejorar la longevidad."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/foreo_foreo-hbomax-furia-ugcPost-7427655235017437184-5olN",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "COLABORACIONES",
+        "INSIGHT":  "El product placement en series premium (HBO Max) eleva el \"gadget\" de belleza a un objeto de deseo cultural y aspiracional.",
+        "RESUMEN":  "FOREO anuncia su integración en la serie \"Furia\" de HBO Max, utilizando el entretenimiento para demostrar la eficacia de sus dispositivos en contextos reales."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/caroline-hoin_longevity-une-tendance-aujourdhui-ugcPost-7427839756878774272-MpZg",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "LONGEVIDAD",
+        "INSIGHT":  "La longevidad en Francia transita de ser una tendencia nicho a un estándar de consumo que exige pruebas de eficacia biológica.",
+        "RESUMEN":  "Caroline Hoin analiza el auge del mercado de longevidad en Europa, destacando cómo las marcas francesas están adaptando su comunicación científica."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/hansjulia_seme-medicinaestetica-skinquality-ugcPost-7428027603250266112-Tlbi",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "MEDICINA ESTÉTICA",
+        "INSIGHT":  "El congreso SEME 2026 confirma que la \"calidad de la piel\" es el objetivo principal, superando a la simple corrección de arrugas.",
+        "RESUMEN":  "Resumen de las novedades en medicina estética desde el congreso SEME, enfocándose en tratamientos de regeneración y bioestimulación de la dermis."
+    },
+    {
+        "URL":  "https://elpais.com/eps/2026-02-10/las-batallas-de-la-belleza.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "COMPETENCIA GLOBAL",
+        "INSIGHT":  "La \"batalla\" actual no es por el producto, sino por la atención del consumidor en un ecosistema de sobreinformación clínica.",
+        "RESUMEN":  "Reportaje profundo sobre la guerra de marcas en el sector beauty, analizando la lucha entre los grandes grupos (L\u0027Oréal, Estée Lauder) y las marcas indie."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/interview-anna-dzhilavyan-of-bur-bur/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "INDIE BRANDS",
+        "INSIGHT":  "Bur-Bur demuestra que la especialización en cuidado capilar botánico es la clave para destacar en el saturado mercado \"Clean Beauty\".",
+        "RESUMEN":  "Anna Dzhilavyan explica la filosofía de Bur-Bur, centrada en ingredientes naturales de alta eficacia para la salud del cuero cabelludo y el crecimiento capilar."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5771326/alma-secret-amplia-universo-nutricosmetica-nuevas-gummies",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "PORTFOLIO",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA",
+        "INSIGHT":  "El formato \"gummy\" reduce la barrera de entrada a la nutricosmética, transformando el suplemento en un momento de consumo lúdico.",
+        "RESUMEN":  "Alma Secret expande su línea de nutricosmética con el lanzamiento de gomitas diseñadas para mejorar la salud del cabello, piel y uñas mediante activos naturales."
+    },
+    {
+        "URL":  "https://www.byrdie.com/how-gen-alpha-is-redefining-beauty-11831620",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "CONSUMIDOR GEN ALPHA",
+        "INSIGHT":  "La Generación Alpha está saltando etapas, demandando skincare complejo a edades tempranas y desafiando la ética del marketing tradicional.",
+        "RESUMEN":  "Byrdie analiza cómo los niños de la Gen Alpha están redefiniendo el consumo de belleza, priorizando marcas virales y rutinas de cuidado de la piel preventivas."
+    },
+    {
+        "URL":  "https://www.modaes.com/empresas/bimani-refuerza-su-equipo-directivo-con-blanca-gallego-exloreal-y-alicia-queralt-exinditex",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "La migración de talento de gigantes como L\u0027Oréal e Inditex hacia marcas de autor busca profesionalizar el escalado de negocios nicho.",
+        "RESUMEN":  "Bimani ficha a Blanca Gallego y Alicia Queralt para liderar marketing y operaciones, buscando aplicar el rigor de las multinacionales en su estructura de crecimiento."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/bridgebio-pharma-impulsa-su-valor-bursatil-tras-resultados-positivos-en-acondroplasia.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "PERFORMANCE FINANCIERA",
+        "SUBCATEGORÍA":  "BIOTECH / BURSÁTIL",
+        "INSIGHT":  "El éxito clínico en enfermedades raras sigue siendo el mayor catalizador de valor en el mercado biotecnológico global.",
+        "RESUMEN":  "Las acciones de BridgeBio Pharma suben tras reportar datos positivos de su fármaco infigratinib, posicionándose como un competidor clave en el tratamiento de la acondroplasia."
+    },
+    {
+        "URL":  "https://www.modaes.com/entorno/burn-out-sostenible-las-guerras-ya-preocupan-mas-que-el-cambio-climatico",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "ESTRATEGIA",
+        "SUBCATEGORÍA":  "RIESGO GEOPOLÍTICO",
+        "INSIGHT":  "El \"burn-out sostenible\" obliga a las empresas a recalibrar sus mensajes de ESG para no perder relevancia frente a las crisis humanitarias inmediatas.",
+        "RESUMEN":  "Un análisis sobre cómo la fatiga del consumidor ante el discurso climático y la creciente preocupación por conflictos bélicos están alterando las prioridades de inversión corporativa."
+    },
+    {
+        "URL":  "https://industriacosmetica.net/noticias/in-cosmetics-global-lanzara-en-2026-la-primera-zona-dedicada-a-la-belleza-interior-pa-4ydct",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA / INGREDIENTES",
+        "INSIGHT":  "La creación de una zona de \"belleza interior\" en In-Cosmetics Global oficializa la fusión técnica entre la alimentación suplementada y el cuidado tópico.",
+        "RESUMEN":  "In-Cosmetics Global 2026 introducirá un área dedicada exclusivamente a ingredientes nutricosméticos, reconociendo el auge del bienestar holístico en la industria."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/seres-therapeutics-pausa-su-ensayo-clave-y-anuncia-nuevos-despidos-para-preservar-caja.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ALERTA REGULATORIA",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN / I+D",
+        "INSIGHT":  "La pausa en ensayos clínicos y los recortes en Seres subrayan la fragilidad financiera de las biotecnológicas dependientes del microbioma.",
+        "RESUMEN":  "Seres Therapeutics detiene su ensayo de fase 1b para reducir gastos operativos, anunciando una reducción de plantilla para extender su liquidez financiera."
+    },
+    {
+        "URL":  "https://wwd.com/beauty-industry-news/skin-care/roundtable-healthcare-acquires-colorescience-1238536257/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "ADQUISICIÓN",
+        "INSIGHT":  "La adquisición de Colorescience por Roundtable refuerza la tendencia de fondos especializados en salud comprando marcas de skincare clínico.",
+        "RESUMEN":  "Roundtable Healthcare Partners adquiere una participación mayoritaria en Colorescience para potenciar su crecimiento en el canal de dermatología estética y protección solar."
+    },
+    {
+        "URL":  "https://www.beautypackaging.com/breaking-news/coty-launches-bridgerton-fragrance-collection/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "TIPO DE PRODUCTO",
+        "CATEGORÍA":  "PORTFOLIO",
+        "SUBCATEGORÍA":  "LICENCIAS / FRAGANCIAS",
+        "INSIGHT":  "Las licencias de entretenimiento permiten a Coty rejuvenecer su portafolio de fragancias masivas mediante el \"fandom\" digital.",
+        "RESUMEN":  "Coty lanza una colección de fragancias inspirada en la serie Bridgerton, utilizando un packaging ornamental que evoca la estética de la era de la Regencia."
+    },
+    {
+        "URL":  "https://mibellebiochemistry.com/phytocelltectm-exosomes",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO MÉDICO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "BIOTECNOLOGÍA / ACTIVOS",
+        "INSIGHT":  "Los exosomas vegetales emergen como la tecnología de entrega de activos más eficiente para la regeneración celular profunda sin irritación.",
+        "RESUMEN":  "Mibelle Biochemistry presenta PhytoCellTec™ Exosomes, un activo basado en exosomas derivados de células madre vegetales para mejorar la comunicación intercelular dérmica."
+    },
+    {
+        "URL":  "https://beauty.pambianconews.com/2026/02/pettenon-cosmetics-80-anni-di-impresa-italiana-tra-etica-e-innovazione/77868",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "ANIVERSARIO / ESG",
+        "INSIGHT":  "Pettenon Cosmetics demuestra que la longevidad corporativa en el \"Made in Italy\" hoy depende de la certificación de impacto social y paridad de género.",
+        "RESUMEN":  "La firma italiana celebra 80 años consolidando su modelo de Società Benefit, destacando su reciente certificación en igualdad de género y su enfoque en Hair Care sostenible."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/ildeme-%C2%AB%C2%A0demee%C2%A0%C2%BB-mahinay-koch-4345297_demoi-smartbeautylovesdemoi-consciousbeautymovement-activity-7420868071935881216-nxN6",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "BRANDING",
+        "SUBCATEGORÍA":  "CONSCIOUS BEAUTY",
+        "INSIGHT":  "El movimiento \"Conscious Beauty\" evoluciona hacia el \"Smart Beauty\", donde la eficacia tecnológica no debe comprometer la ética del ingrediente.",
+        "RESUMEN":  "Ildeme Mahinay-Koch discute la filosofía de Demoi, centrada en el consumo consciente y cómo las marcas pueden liderar con transparencia y ciencia responsable."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/coty-ceo-open-to-early-ending-gucci-licence",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "M\u0026A",
+        "SUBCATEGORÍA":  "LICENCIAS / CORPORATIVO",
+        "INSIGHT":  "La apertura de Coty a terminar anticipadamente la licencia de Gucci sugiere una priorización del flujo de caja inmediato sobre la defensa de un activo en salida.",
+        "RESUMEN":  "Tras la salida de Sue Nabi y el nombramiento de Markus Strobel como CEO interino, Coty se muestra dispuesto a negociar el cierre prematuro de su contrato con Gucci (previsto para 2028)."
+    },
+    {
+        "URL":  "https://www.newbeauty.com/best-serums-for-mature-skin/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CATEGORÍA",
+        "SUBCATEGORÍA":  "SKINCARE MADURO",
+        "INSIGHT":  "El mercado para pieles maduras se aleja de la \"corrección agresiva\" hacia el fortalecimiento de la barrera cutánea y el volumen lipídico.",
+        "RESUMEN":  "Guía de selección de sueros para pieles maduras, destacando fórmulas que integran péptidos, células madre y ceramidas para restaurar la densidad y luminosidad."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/parfums-christian-dior_diorbeauty-diormakeup-diorparfums-activity-7428059383256887296-FKXb",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "BRANDING",
+        "SUBCATEGORÍA":  "MARKETING DE LUJO",
+        "INSIGHT":  "Dior utiliza su herencia en alta costura para blindar su autoridad en el segmento de cosmética de lujo, integrando moda y belleza en una sola narrativa.",
+        "RESUMEN":  "Parfums Christian Dior presenta sus últimas innovaciones en maquillaje y fragancias, reforzando el posicionamiento de la marca a través de visuales de alta gama y prestigio."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/future50-2026-jupiter",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "INDIE BRANDS / HAIRCARE",
+        "INSIGHT":  "Jupiter redefine el \"Scalp Care\" al tratar la caspa y la salud del cuero cabelludo con la estética y el lenguaje de una marca de cuidado facial de lujo.",
+        "RESUMEN":  "Inclusión de Jupiter en el ranking Future50 2026, reconociendo su éxito en transformar una categoría funcional (anti-caspa) en una experiencia de bienestar premium."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/salud35_india-farmacaezutica-industria-activity-7427985344811409408-u0zT",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "SUMINISTRO GLOBAL",
+        "INSIGHT":  "India se consolida como el hub de manufactura para la \"Big Pharma\", obligando a Occidente a replantear sus estrategias de nearshoring y autonomía.",
+        "RESUMEN":  "Análisis de la creciente influencia de la industria farmacéutica india, destacando su capacidad de producción masiva de genéricos y su inversión en I+D biotecnológico."
+    },
+    {
+        "URL":  "https://people.com/super-bowl-2-26-k-pop-demon-hunters-ejae-sings-phil-collins-against-all-odds-exclusive-11889184",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "NOTA DE PRENSA",
+        "CATEGORÍA":  "MARKETING",
+        "SUBCATEGORÍA":  "ENTRETENIMIENTO",
+        "INSIGHT":  "La convergencia de K-Pop y eventos masivos (Super Bowl) ofrece una plataforma de \"co-branding\" cultural para marcas que buscan alcance global.",
+        "RESUMEN":  "Cobertura de la actuación de Ejae en el contexto del Super Bowl, evidenciando el poder del K-Pop como motor de influencia en la cultura pop y el marketing masivo."
+    },
+    {
+        "URL":  "https://www.linkedin.com/feed/update/urn:li:activity:7428055349305249792",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "INNOVACIÓN",
+        "SUBCATEGORÍA":  "TENDENCIAS DIGITALES",
+        "INSIGHT":  "El uso de gemelos digitales en dermocosmética permite predecir la eficacia de tratamientos tópicos antes de la aplicación real del consumidor.",
+        "RESUMEN":  "Discusión sobre las nuevas fronteras de la personalización digital, donde la simulación de la respuesta cutánea se vuelve un diferencial clave para el retail de lujo."
+    },
+    {
+        "URL":  "https://www.consalud.es/politica/europa-redobla-su-compromiso-contra-el-cancer-mas-inversion-prevencion-y-acceso-a-medicamentos.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "REGULATORIO",
+        "SUBCATEGORÍA":  "POLÍTICA SANITARIA",
+        "INSIGHT":  "La UE prioriza la oncología de precisión y la equidad en el acceso, lo que abrirá nuevas vías de financiación para terapias dirigidas en los estados miembros.",
+        "RESUMEN":  "Europa refuerza el Plan de Lucha contra el Cáncer con un aumento presupuestario enfocado en el diagnóstico precoz y la reducción de desigualdades en el acceso a fármacos."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/bath-body/news/22960554/unilevers-beauty-personal-care-premium-growth-sciencedriven-innovation-resilient-margins",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "Informe Estratégico",
+        "CATEGORÍA":  "FINANZAS",
+        "SUBCATEGORÍA":  "RESULTADOS CORPORATIVOS",
+        "INSIGHT":  "La premiumización y la innovación basada en ciencia son los motores que mantienen márgenes resilientes frente a la volatilidad del mercado masivo.",
+        "RESUMEN":  "Unilever reporta un crecimiento sólido en su división de Belleza y Cuidado Personal, impulsado por sus marcas premium y lanzamientos tecnológicos que justifican precios más altos."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/sun-care/news/22955005/sun-care-gets-personal",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "Artículo de Tendencias",
+        "CATEGORÍA":  "PRODUCTOS",
+        "SUBCATEGORÍA":  "TENDENCIAS DE CONSUMO",
+        "INSIGHT":  "El protector solar deja de ser un genérico para convertirse en una solución personalizada por estilo de vida, abriendo nichos de alta rentabilidad.",
+        "RESUMEN":  "La categoría de Sun Care evoluciona hacia formatos híbridos y personalizados, con marcas enfocadas en hombres jóvenes, deportistas de alta montaña y pieles latinas."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/home/news/22960276/vigon-international-inc-azelis-taps-pierrejean-hellivan-to-lead-global-flavors-fragrances-platform",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "Post Ejecutivo",
+        "CATEGORÍA":  "EMPRESAS",
+        "SUBCATEGORÍA":  "MOVIMIENTOS EJECUTIVOS",
+        "INSIGHT":  "El fortalecimiento del liderazgo en plataformas de fragancias busca capturar la demanda creciente de experiencias sensoriales en dermocosmética.",
+        "RESUMEN":  "Azelis nombra a Pierre-Jean Hellivan para liderar su plataforma global de Sabores y Fragancias a través de Vigon, buscando expandir su capacidad de innovación global."
+    },
+    {
+        "URL":  "https://www.mckinsey.com/industries/financial-services/our-insights/us-wealth-management-in-2035-a-transformative-decade-begins",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "Informe Estratégico",
+        "CATEGORÍA":  "MACROENTORNO",
+        "SUBCATEGORÍA":  "MERCADO FINANCIERO",
+        "INSIGHT":  "La transferencia de riqueza hacia 2035 alterará los perfiles de inversión, priorizando el bienestar como activo crítico de protección de capital.",
+        "RESUMEN":  "McKinsey analiza la transformación de la gestión de patrimonio en EE.UU., destacando cómo la tecnología exigirá servicios más personalizados y holísticos."
+    },
+    {
+        "URL":  "https://www.mckinsey.com/industries/financial-services/our-insights/the-new-face-of-wealth-the-rise-of-the-female-investor",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "Informe Estratégico",
+        "CATEGORÍA":  "MACROENTORNO",
+        "SUBCATEGORÍA":  "TENDENCIAS DE CONSUMO",
+        "INSIGHT":  "El ascenso de la mujer como decisora financiera principal incrementará el gasto estructural en prevención de salud y cuidado personal de alta gama.",
+        "RESUMEN":  "Estudio sobre el crecimiento del poder económico femenino; las mujeres están tomando el control de la riqueza global, cambiando las prioridades de consumo."
+    },
+    {
+        "URL":  "https://www.mckinsey.com/industries/healthcare/our-insights/whats-next-for-pharmacies-in-latin-america",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "Informe Estratégico",
+        "CATEGORÍA":  "CANAL DE VENTA",
+        "SUBCATEGORÍA":  "RETAIL FARMACÉUTICO",
+        "INSIGHT":  "Las farmacias en Latam están migrando de puntos de venta a centros de salud integrales, siendo el canal clave para la dermocosmética clínica.",
+        "RESUMEN":  "Análisis sobre la evolución de las farmacias en Latinoamérica, destacando la digitalización y la oferta de servicios médicos como diferenciadores críticos."
+    },
+    {
+        "URL":  "https://www.mckinsey.com/industries/healthcare/our-insights/healthcare-in-latin-america-what-are-consumers-looking-for",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "Informe Estratégico",
+        "CATEGORÍA":  "CONSUMIDOR",
+        "SUBCATEGORÍA":  "PACIENTES / CONSUMIDORES",
+        "INSIGHT":  "El consumidor latinoamericano prioriza la accesibilidad digital y la transparencia médica, elevando la vara para las marcas de cuidado de la piel.",
+        "RESUMEN":  "Investigación sobre las expectativas de los pacientes en Latam, quienes buscan una experiencia de salud más conectada y centrada en resultados comprobables."
+    },
+    {
+        "URL":  "https://www.mckinsey.com/industries/healthcare/our-insights/the-revival-of-pharmacy-the-rise-of-cost-based-reimbursement",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "Informe Estratégico",
+        "CATEGORÍA":  "CANAL DE VENTA",
+        "SUBCATEGORÍA":  "RETAIL FARMACÉUTICO",
+        "INSIGHT":  "El cambio hacia modelos de reembolso basados en valor obliga al retail a profesionalizar su asesoría en categorías de alto valor como la dermocosmética.",
+        "RESUMEN":  "Explora cómo los nuevos modelos de reembolso están revitalizando el sector farmacéutico, incentivando una gestión de inventarios y atención más eficiente."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/karlet-carrancogarcia_lazartigue-paris-celebra-50-a%C3%B1os-de-innovaci%C3%B3n-ugcPost-7428195751270490113-8QOs",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "LANZAMIENTOS / ANIVERSARIOS",
+        "INSIGHT":  "La longevidad de marca ligada a la innovación botánica refuerza el valor del \"Clean Beauty\" en el segmento premium capilar.",
+        "RESUMEN":  "Lazartigue Paris celebra 50 años destacando su herencia en cuidado capilar botánico y su capacidad de mantenerse relevante mediante la innovación constante."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/skin-care/news/22959336/atmosphera-expands-executive-bench-with-coo-and-chief-impact-officer-appointments-ahead-of-us-launch",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "ESTRUCTURA ORGANIZACIONAL",
+        "INSIGHT":  "El nombramiento de un Chief Impact Officer subraya la urgencia de integrar la sostenibilidad en el core operativo antes del escalamiento.",
+        "RESUMEN":  "Atmosphera refuerza su equipo directivo con un COO y un Director de Impacto para gestionar su expansión en EE. UU. y consolidar su modelo sostenible."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/paulacolasbeltran_lascosasdepau-ugcPost-7408957021309263872-KguD",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "CONSUMER INSIGHTS",
+        "INSIGHT":  "La humanización del contenido ejecutivo permite conectar la estrategia de retail con las necesidades reales del consumidor final.",
+        "RESUMEN":  "Paula Colás comparte reflexiones sobre la gestión de productos de cuidado personal, enfatizando la importancia de la experiencia de usuario en el punto de venta."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/joan-mercedes-50550934_el-futuro-del-skincare-no-va-solo-de-qu%C3%A9-activity-7428000131439812608-Tm7k",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "SKINCARE FUTURO",
+        "INSIGHT":  "El futuro del skincare transiciona de la eficacia del producto a la personalización basada en datos y biotecnología aplicada.",
+        "RESUMEN":  "Análisis sobre cómo la industria está pasando de vender productos estándar a soluciones personalizadas integradas con tecnología y bienestar."
+    },
+    {
+        "URL":  "https://elglobalfarma.com/farmacia/farmaceuticos-reino-unido-infrafinanciacion-medicamentos/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME SECTORIAL",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "CANAL FARMACIA",
+        "INSIGHT":  "La crisis de financiación en farmacias comunitarias amenaza la capilaridad del canal, obligando a diversificar hacia servicios de valor añadido.",
+        "RESUMEN":  "Los farmacéuticos en el Reino Unido alertan sobre la falta de fondos y el impacto negativo en la dispensación de medicamentos bajo el modelo actual."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/el-ceo_la-industria-de-belleza-ha-comenzado-a-reinventarse-ugcPost-7428966427224596480-50ph",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "TRANSFORMACIÓN DIGITAL",
+        "INSIGHT":  "La reinvención de la industria cosmética pasa por la integración de IA para mejorar la conversión y personalización en el e-commerce.",
+        "RESUMEN":  "Reporte detallado sobre cómo las grandes firmas de belleza invierten en tecnología disruptiva para optimizar la cadena de suministro y la oferta al cliente."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/andrew-black-2b3764_congratulations-to-noah-kraft-and-lucas-activity-7420551502454317057-XFD2",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RECONOCIMIENTO / TALENTO",
+        "INSIGHT":  "El éxito de las startups en dermocosmética depende cada vez más de liderazgos ágiles con visión tecnológica y de impacto social.",
+        "RESUMEN":  "Reconocimiento a líderes de marcas emergentes por sus hitos en crecimiento y capacidad de atraer capital mediante propuestas diferenciadas."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/daise-beauty_daise-beauty-is-shining-bright-at-ulta-beauty-ugcPost-7420470706976567296-6Zi1",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "RETAIL EXPANSION",
+        "INSIGHT":  "El ingreso a Ulta Beauty valida la escalabilidad de marcas independientes que apuestan por la inclusividad y resultados inmediatos.",
+        "RESUMEN":  "Daise Beauty celebra su expansión en las tiendas Ulta Beauty, marcando un hito en su estrategia de distribución masiva y posicionamiento retail."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/annecolonna_advancedresearch-femmesenscience-journaezedesfemmesenscience-ugcPost-7427257869055750144-8U8_",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CIENCIA Y TECNOLOGÍA",
+        "SUBCATEGORÍA":  "I+D / TALENTO",
+        "INSIGHT":  "El liderazgo femenino en I+D es el motor principal de la innovación científica en los grupos líderes de dermocosmética mundial.",
+        "RESUMEN":  "Anne Colonna destaca el papel de las mujeres en la ciencia avanzada de L\u0027Oréal, subrayando cómo la investigación rigurosa impulsa nuevos activos."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/daise-beauty_daise-beauty-is-lighting-up-the-shelves-at-ugcPost-7425409051460648963-nfCL",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "CANAL RETAIL",
+        "INSIGHT":  "La ejecución visual en anaquel sigue siendo determinante para el \"awareness\" de marca en entornos competitivos de retail físico.",
+        "RESUMEN":  "Registro visual de la presencia de Daise Beauty en puntos de venta, destacando el diseño de empaque y su atractivo para el consumidor final."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/tosla-nutricosmetics_a-good-retention-strategy-combines-high-quality-activity-7418944666332692480-e2-V",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "ESTRATEGIA DE RETENCIÓN",
+        "INSIGHT":  "La fidelización en nutricosmética líquida depende de la combinación de resultados tangibles y una experiencia sensorial superior que asegure la recurrencia.",
+        "RESUMEN":  "Tosla discute cómo una estrategia de retención efectiva en suplementos debe priorizar la calidad del producto y la satisfacción del usuario para destacar en un mercado saturado."
+    },
+    {
+        "URL":  "https://vitamagazine.com/2025/11/25/a-moment-for-the-minis-17-pint-sized-beauty-products/",
+        "AÑO":  "2025",
+        "MES":  "NOVIEMBRE",
+        "TIPO DE FUENTE":  "ARTÍCULO DE TENDENCIAS",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "FORMATOS / TRAVEL SIZE",
+        "INSIGHT":  "El auge de los formatos \"mini\" responde a la necesidad de accesibilidad económica y la tendencia de \"sampling\" estratégico en el canal retail.",
+        "RESUMEN":  "Recopilación de 17 productos de belleza en formato miniatura, destacando su relevancia para viajes, regalos y como puerta de entrada a marcas de lujo."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/myriam-cohen-welgryn-74ba541_ldb-loreal-financialresults-ugcPost-7428107828512456704-NWU-",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RESULTADOS FINANCIEROS",
+        "INSIGHT":  "La división Dermatológica de L\u0027Oréal reafirma su liderazgo mundial, demostrando que el respaldo médico es el motor de crecimiento más resiliente.",
+        "RESUMEN":  "Myriam Cohen-Welgryn presenta los resultados financieros de L\u0027Oréal Dermatological Beauty, subrayando el crecimiento de dos dígitos y el éxito de marcas como CeraVe y La Roche-Posay."
+    },
+    {
+        "URL":  "https://www.linkedin.com/pulse/meet-k-clinic-koreas-most-advanced-beauty-export-yet-beautymatter-ftpwc/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "K-BEAUTY / EXPORTACIÓN",
+        "INSIGHT":  "K-Clinic representa la evolución de K-Beauty hacia modelos de servicios médico-estéticos franquiciables con un alto componente tecnológico.",
+        "RESUMEN":  "Análisis sobre la expansión global de K-Clinic, una propuesta coreana que combina tratamientos clínicos avanzados con una experiencia de consumo premium."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/paloma-gutierrez-372b84191_un-avance-m%C3%A9dico-hist%C3%B3rico-podr%C3%ADa-cambiar-activity-7428749336496275456-M7bx",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CIENCIA Y TECNOLOGÍA",
+        "SUBCATEGORÍA":  "INNOVACIÓN MÉDICA",
+        "INSIGHT":  "Los avances en biotecnología médica están borrando las fronteras entre el tratamiento de enfermedades críticas y el cuidado preventivo de la piel.",
+        "RESUMEN":  "Reflexión sobre un descubrimiento médico histórico que promete transformar el abordaje terapéutico y su impacto potencial en la salud y longevidad celular."
+    },
+    {
+        "URL":  "https://www.saludiario.com/saya-biologics-y-kashiv-biosciences-traeran-un-nuevo-tratamiento-contra-el-cancer-a-mexico/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "ALIANZAS ESTRATÉGICAS",
+        "INSIGHT":  "La colaboración en biológicos entre México y EE. UU. fortalece el ecosistema de salud regional y abre la puerta a terapias de alta especialidad.",
+        "RESUMEN":  "Saya Biologics y Kashiv BioSciences firman un acuerdo para comercializar terapias biosimilares de soporte oncológico en México y Centroamérica, mejorando el acceso a tratamientos críticos."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/susanagilabert_luxuryretail-retailinnovation-customerexperience-ugcPost-7427815026230730752-2_gL",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "RETAIL DE LUJO",
+        "INSIGHT":  "La innovación en el retail de lujo ya no es opcional; la personalización extrema y la tecnología son ahora las bases de la lealtad del cliente.",
+        "RESUMEN":  "Susana Gilabert analiza cómo las marcas de lujo están transformando sus puntos de venta en espacios de experiencia inmersiva para conectar emocionalmente con el nuevo consumidor."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/semco-cosmetics_gourmandbeauty-experienciasensorial-cuidadopersonal-ugcPost-7415080458096525312-GCjP",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "DESARROLLO SENSORIAL",
+        "INSIGHT":  "La tendencia \"Gourmand\" en cuidado personal utiliza la memoria olfativa para elevar la percepción de bienestar y diferenciarse en el anaquel.",
+        "RESUMEN":  "Semco Cosmetics explora el desarrollo de productos con notas comestibles y sensoriales, destacando cómo estas fragancias influyen en la decisión de compra emocional."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/eli-lilly-and-company_q4-earnings-ugcPost-7424875834437423104-DdTU",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RESULTADOS FINANCIEROS",
+        "INSIGHT":  "El éxito de Lilly en el sector metabólico genera un efecto dominó que redefine las expectativas de salud y bienestar a nivel global.",
+        "RESUMEN":  "Eli Lilly reporta un sólido cierre de 2025, impulsado por el crecimiento masivo de sus terapias para obesidad y diabetes, proyectando un 2026 de expansión en manufactura."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/daise-beauty_a-glossy-new-addition-has-arrived-at-daise-ugcPost-7427590986496708608-OAR7",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "LANZAMIENTOS",
+        "INSIGHT":  "La agilidad en lanzamientos de productos con acabado \"glossy\" capitaliza el interés del consumidor joven por el aspecto saludable y natural.",
+        "RESUMEN":  "Daise Beauty anuncia la llegada de una nueva referencia a su catálogo, enfocada en aportar brillo y nutrición, reforzando su posicionamiento en la categoría de skin-care híbrido."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/editors-picks-the-best-beauty-brands-of-2025",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "RANKING / RECONOCIMIENTO",
+        "INSIGHT":  "El éxito de las marcas líderes en 2025 se fundamentó en la transparencia científica y la agilidad para capitalizar nichos de bienestar.",
+        "RESUMEN":  "Análisis de las marcas de belleza más destacadas del año anterior, evaluando su impacto en el mercado, innovación de producto y conexión con el consumidor."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/rocskincareiberia_rocskincare-clinicallyproven-seme-ugcPost-7428839080827707393-4fxA",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CIENCIA Y TECNOLOGÍA",
+        "SUBCATEGORÍA":  "RESPALDO MÉDICO",
+        "INSIGHT":  "La validación clínica en congresos médicos (SEME) sigue siendo el pilar de confianza para el posicionamiento de marcas dermocosméticas.",
+        "RESUMEN":  "RoC Skincare destaca su participación en eventos de medicina estética, reforzando su compromiso con la eficacia probada y el soporte a profesionales de la salud."
+    },
+    {
+        "URL":  "https://www.forbes.com/sites/charlesrtaylor/2026/01/29/hims--hers-super-bowl-ad-to-spotlight-the-health-wealth-gap/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "MARKETING / PUBLICIDAD",
+        "INSIGHT":  "El uso del Super Bowl para abordar la brecha de salud eleva el posicionamiento de las plataformas de telesalud a un nivel de marca masiva.",
+        "RESUMEN":  "Hims \u0026 Hers lanza una campaña durante el Super Bowl enfocada en la accesibilidad a la salud, buscando democratizar tratamientos que antes eran exclusivos."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/ingrid-gehrke-2154536a_epigenetics-longevity-future-ugcPost-7428631501845540864-cJf2",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "LONGEVIDAD / EPIGENÉTICA",
+        "INSIGHT":  "La epigenética se posiciona como la frontera final del skincare, moviendo la industria del antienvejecimiento hacia la reversión celular.",
+        "RESUMEN":  "Reflexión sobre cómo el estudio de la expresión genética está transformando el desarrollo de productos para la longevidad y el futuro del cuidado de la piel."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/juanjoseibarra_beautybusiness-fragranceindustry-soldejaneiro-activity-7428814413194833921-TBTs",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "PERFUMERÍA / RETAIL",
+        "INSIGHT":  "El fenómeno de Sol de Janeiro demuestra que el \"lifestyle\" y la experiencia sensorial pueden superar en ventas a la perfumería tradicional.",
+        "RESUMEN":  "Análisis del éxito comercial de Sol de Janeiro y cómo su estrategia de fragancias corporales ha redefinido el crecimiento de la categoría en el canal retail."
+    },
+    {
+        "URL":  "https://pharmacyscanner.it/consumi-dellhealthcare-in-crisi-boots-uk-risponde-con-le-wellness-zone-assortimento-consiglio-user-experience/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME SECTORIAL",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "CANAL FARMACIA",
+        "INSIGHT":  "Ante la crisis de consumo, la especialización en zonas de bienestar dentro de la farmacia es clave para mantener el ticket promedio.",
+        "RESUMEN":  "Boots UK implementa \"Wellness Zones\" para combatir la caída en consumo, mejorando la experiencia de usuario y ofreciendo asesoramiento especializado en salud integral."
+    },
+    {
+        "URL":  "https://www.trendhunter.com/trends/xoxo-daise",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE TENDENCIAS",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "LANZAMIENTOS / COLABORACIONES",
+        "INSIGHT":  "Las colaboraciones temáticas y el diseño lúdico son herramientas críticas para captar la atención de la Generación Z en el entorno digital.",
+        "RESUMEN":  "Presentación de la nueva línea \"XOXO\" de Daise, destacando su enfoque en empaques atractivos y fórmulas diseñadas para el mercado joven y dinámico."
+    },
+    {
+        "URL":  "https://elglobalfarma.com/industria/efpia-ley-medicamentos-criticos-riesgos-reales-de-suministro-soluciones-practicas/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME SECTORIAL",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "REGULATORIO / SUMINISTRO",
+        "INSIGHT":  "La nueva legislación sobre medicamentos críticos busca mitigar riesgos de suministro, pero impone retos operativos severos a la industria.",
+        "RESUMEN":  "La EFPIA analiza la ley de medicamentos críticos, advirtiendo sobre riesgos en la cadena de suministro y proponiendo soluciones para garantizar el acceso a terapias."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/sephora-evp-carolyn-bojanowski-bold-makeup-return-value-shopping-beauty-holistic-evolution/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ENTREVISTA",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "RETAIL ESTRATEGIA",
+        "INSIGHT":  "El retorno al maquillaje audaz convive con una búsqueda de valor, obligando al retail a ofrecer una mezcla de lujo y accesibilidad.",
+        "RESUMEN":  "La EVP de Sephora discute la evolución holística de la belleza, señalando el regreso de tendencias de maquillaje fuerte y la importancia del valor percibido."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/4-predicted-k-beauty-trends-for-2026",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "K-BEAUTY FUTURO",
+        "INSIGHT":  "La influencia coreana en 2026 se centrará en la \"belleza técnica\": dispositivos domésticos y biotecnología aplicada a la barrera cutánea.",
+        "RESUMEN":  "Predicciones sobre las 4 tendencias clave de K-Beauty para 2026, incluyendo el avance de la cosmética personalizada y el enfoque en la salud del microbioma."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/ingrid-gehrke-2154536a_incredible-days-of-scientific-exchange-at-ugcPost-7428633696351596545-PmbO",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CIENCIA Y TECNOLOGÍA",
+        "SUBCATEGORÍA":  "CONGRESOS / I+D",
+        "INSIGHT":  "El intercambio científico de alto nivel acelera la transferencia de hallazgos biotecnológicos a soluciones comerciales disruptivas.",
+        "RESUMEN":  "Ingrid Gehrke destaca la importancia de los foros de intercambio científico para la evolución de fórmulas avanzadas y el networking en la industria."
+    },
+    {
+        "URL":  "https://elglobalfarma.com/farmacia/farmaceutico-informa-cuarta-temporada-oido-nariz-garganta/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "CANAL FARMACIA",
+        "INSIGHT":  "La educación continua del farmacéutico en categorías de autocuidado refuerza su rol como prescriptor de confianza frente al paciente.",
+        "RESUMEN":  "Lanzamiento de la cuarta temporada de formación para farmacéuticos enfocada en patologías de oído, nariz y garganta, mejorando el consejo profesional."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/swan-beauty-launches-ai-smart-mirror-at-home-skin-analysis-makeup-guidance-shopping",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CIENCIA Y TECNOLOGÍA",
+        "SUBCATEGORÍA":  "IA / RETAIL TECH",
+        "INSIGHT":  "El análisis de piel en el hogar mediante IA elimina la fricción en el embudo de ventas, convirtiendo el diagnóstico en una transacción inmediata.",
+        "RESUMEN":  "Swan Beauty lanza un espejo inteligente con IA que analiza la piel y ofrece guías de maquillaje personalizadas vinculadas directamente a la compra."
+    },
+    {
+        "URL":  "https://www.prnewswire.com/news-releases/gryphon-investors-backed-metagenics-acquires-probiotic-brand-symprove-302667616.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "ADQUISICIONES / M\u0026A",
+        "INSIGHT":  "La consolidación del mercado de probióticos premium evidencia el valor estratégico del eje \"salud intestinal - bienestar general\".",
+        "RESUMEN":  "Metagenics adquiere la marca de probióticos líquidos Symprove, buscando fortalecer su portafolio de nutracéuticos con base científica y respaldo clínico."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/oliverjohnson88_the-supplement-ingestible-wellness-category-activity-7423699338041839616-dYqw",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "NUTRICOSMÉTICA",
+        "INSIGHT":  "La convergencia entre suplementación y belleza es la categoría de mayor crecimiento, impulsada por consumidores que buscan salud desde el interior.",
+        "RESUMEN":  "Oliver Johnson analiza el auge del \"ingestible wellness\" y cómo las marcas deben navegar la regulación para capitalizar esta tendencia masiva."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/guillemsarritestagorda_suplementacion-fertilidad-subnichos-activity-7428434374825639936-_7Fa",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "NICHO / FERTILIDAD",
+        "INSIGHT":  "La hiper-especialización en subnichos como la fertilidad permite a las marcas de suplementos evitar la guerra de precios por diferenciación médica.",
+        "RESUMEN":  "Guillem Sarrités destaca el potencial de la suplementación enfocada en fertilidad como un mercado de alta lealtad y necesidad médica no satisfecha."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/ulta-beauty-doubles-down-wellness-in-store-boutiques",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "CANAL RETAIL",
+        "INSIGHT":  "Ulta Beauty reafirma que el futuro del retail físico es la creación de ecosistemas de bienestar que trasciendan la venta de cosméticos.",
+        "RESUMEN":  "Ulta Beauty expande sus boutiques internas dedicadas al bienestar, integrando productos de salud mental, sexual y suplementación en el recorrido de compra."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/2026-week-7-beauty-brand-and-product-launches",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "LANZAMIENTOS SEMANALES",
+        "INSIGHT":  "La velocidad de lanzamiento en la semana 7 de 2026 muestra un enfoque agresivo en productos híbridos que combinan color y tratamiento.",
+        "RESUMEN":  "Reporte semanal de lanzamientos que destaca las novedades más relevantes en el sector beauty, con énfasis en eficacia dermatológica y sostenibilidad."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/semco-cosmetics_gourmandbeauty-packaginginnovador-experienciasensorial-ugcPost-7415104735013294080-Rjyq",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "PACKAGING / SENSORIAL",
+        "INSIGHT":  "El empaque no solo contiene; en la cosmética sensorial, es el primer punto de contacto que define la percepción de calidad \"gourmand\".",
+        "RESUMEN":  "Semco Cosmetics explora la importancia del diseño de empaques innovadores para elevar la experiencia sensorial de productos de cuidado personal."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/juanjoseibarra_lotodelsur-puig-beautybusiness-activity-7428418704297861120-203i",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "INTERNACIONALIZACIÓN",
+        "INSIGHT":  "El éxito de Loto del Sur bajo el ala de Puig es un caso de estudio sobre cómo escalar marcas locales con ADN cultural a mercados globales.",
+        "RESUMEN":  "Juan José Ibarra analiza la expansión de Loto del Sur y el rol estratégico de Puig en la profesionalización y escalamiento de marcas de nicho latinoamericanas."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/inside-beautys-fundraising-hacks",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "INVERSIÓN / ESTRATEGIA",
+        "INSIGHT":  "En un entorno de capital más restrictivo, las marcas de belleza recurren a estructuras de deuda creativas y métricas de rentabilidad temprana.",
+        "RESUMEN":  "Análisis sobre las tácticas actuales de levantamiento de capital para startups de belleza, priorizando la eficiencia operativa sobre el crecimiento a toda costa."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/lor%C3%A9al_refillpdf-ugcPost-7422175508311826434-p6Qa",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "SOSTENIBILIDAD / ESG",
+        "INSIGHT":  "El formato \"refill\" deja de ser un nicho ecológico para convertirse en un estándar de eficiencia logística y fidelización del cliente.",
+        "RESUMEN":  "L\u0027Oréal presenta avances en su política de envases recargables, buscando reducir drásticamente el uso de plástico virgen en sus marcas de consumo masivo y lujo."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/khong-wei-hwang-5517b0148_thrilled-to-share-some-snippets-from-our-ugcPost-7424755489110159360-HwQC",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "EVENTOS / NETWORKING",
+        "INSIGHT":  "La colaboración intersectorial en Asia está redefiniendo los tiempos de respuesta de la cadena de suministro para la cosmética global.",
+        "RESUMEN":  "Khong Wei Hwang comparte insights sobre recientes encuentros industriales que buscan optimizar la producción y la innovación en el mercado asiático."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/milan-mladjenovic-10a6771_as-the-pioneers-of-sulfate-free-haircare-ugcPost-7428281272843599872-O1pq",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "CUIDADO CAPILAR",
+        "INSIGHT":  "El liderazgo en categorías \"sulfate-free\" migra hacia la sofisticación clínica, uniendo limpieza suave con reparación profunda del cuero cabelludo.",
+        "RESUMEN":  "Milan Mladjenovic destaca el legado y la evolución de las fórmulas sin sulfatos, enfatizando la importancia de la educación del consumidor sobre la salud capilar."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/cvs-strategy-winning-selective-beauty-shoppers-minis-discovery-efficacy/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "CANAL RETAIL / MINIS",
+        "INSIGHT":  "CVS está transformando el \"mass-market\" en un destino de descubrimiento premium mediante formatos pequeños y validación de eficacia.",
+        "RESUMEN":  "Estrategia de CVS para atraer al comprador de belleza selectiva utilizando productos miniatura y secciones dedicadas a marcas de dermocosmética con base científica."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/sol-de-janeiro-taps-into-jelly-trend-solid-fragrance",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "INNOVACIÓN FORMATO",
+        "INSIGHT":  "La textura \"jelly\" en fragancias sólidas responde a la demanda de formatos portátiles y experiencias sensoriales lúdicas para la Generación Z.",
+        "RESUMEN":  "Sol de Janeiro expande su portafolio con fragancias en gel/sólidas, capitalizando tendencias virales de texturas innovadoras y facilidad de transporte."
+    },
+    {
+        "URL":  "https://www.revistabeautyprof.com/texto-diario/mostrar/5759696/ana-jaureguizar-nueva-presidenta-loreal-groupe-espana-portugal",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "El liderazgo de Ana Jaureguizar en Iberia señala un enfoque continuo en la transformación digital y el crecimiento sostenible en mercados maduros.",
+        "RESUMEN":  "Ana Jaureguizar asume la presidencia de L’Oréal España y Portugal, marcando una nueva etapa en la dirección estratégica del grupo en la región."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/maesa-pushes-back-excessive-wellness-culture-party-of-you-target-ulta-beauty/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE TENDENCIAS",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "CONSUMER INSIGHTS",
+        "INSIGHT":  "Surge una contracorriente al \"wellness\" punitivo, favoreciendo marcas que promueven la autoexpresión y la diversión sin culpas.",
+        "RESUMEN":  "Maesa lanza campañas que cuestionan la cultura del bienestar excesivo, posicionando marcas en Target y Ulta que celebran el placer y la individualidad."
+    },
+    {
+        "URL":  "https://globalwellnessinstitute.org/global-wellness-institute-blog/2025/12/16/51144/",
+        "AÑO":  "2025",
+        "MES":  "DICIEMBRE",
+        "TIPO DE FUENTE":  "INFORME SECTORIAL",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "ECONOMÍA DEL BIENESTAR",
+        "INSIGHT":  "El bienestar se consolida como un motor económico global, permeando desde el Real Estate hasta la medicina preventiva y la cosmética.",
+        "RESUMEN":  "El Global Wellness Institute analiza las macro-tendencias que impulsarán la economía del bienestar en 2026, destacando la salud mental y la longevidad."
+    },
+    {
+        "URL":  "https://www.consalud.es/salud35/internacional/exxel-pharma-planea-salir-a-bolsa-en-nueva-york-para-avanzar-un-farmaco-experimental-contra-la-tos-cronica.html",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "SALIDA A BOLSA / IPO",
+        "INSIGHT":  "La salida a bolsa de Exxel Pharma subraya el apetito de los inversores por biotecnológicas que resuelven necesidades terapéuticas desatendidas.",
+        "RESUMEN":  "Exxel Pharma prepara su debut en Wall Street para financiar las etapas finales de su fármaco contra la tos crónica, buscando consolidarse en el sector farma."
+    },
+    {
+        "URL":  "https://www.cosmacon.de/en/glossary/botanical-skin-hydration-in-modern-cosmetics/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO TÉCNICO",
+        "CATEGORÍA":  "CIENCIA Y TECNOLOGÍA",
+        "SUBCATEGORÍA":  "INGREDIENTES / I+D",
+        "INSIGHT":  "La hidratación botánica evoluciona de simples extractos a sistemas complejos que imitan la barrera lipídica natural de la piel.",
+        "RESUMEN":  "Glosario técnico que explica la ciencia detrás de los activos botánicos modernos y su eficacia comparada con agentes hidratantes sintéticos."
+    },
+    {
+        "URL":  "https://www.saludiario.com/entrevista-con-el-dr-eduardo-cardona-que-es-la-bichectomia-estetica/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ENTREVISTA",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "MEDICINA ESTÉTICA",
+        "INSIGHT":  "El auge de procedimientos mínimamente invasivos como la bichectomía impulsa la demanda de cuidados post-quirúrgicos dermocosméticos especializados.",
+        "RESUMEN":  "El Dr. Eduardo Cardona detalla los aspectos clínicos de la bichectomía, sus beneficios estéticos y las consideraciones de seguridad para el paciente."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/can-ai-make-you-healthier-wellness-industry-assesses-chatgpt-claude-new-tools/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CIENCIA Y TECNOLOGÍA",
+        "SUBCATEGORÍA":  "IA / BIENESTAR",
+        "INSIGHT":  "La IA generativa se está convirtiendo en el \"coach\" de salud ubicuo, obligando a las marcas a validar sus algoritmos con rigor médico.",
+        "RESUMEN":  "Análisis sobre cómo herramientas como ChatGPT y Claude están siendo adoptadas en la industria del bienestar para ofrecer asesoría personalizada y planes de salud."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/target-accelerates-wellness-strategy-retailers-jockey-position-category/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "RETAIL ESTRATEGIA",
+        "INSIGHT":  "La agresiva expansión de Target en bienestar busca capturar el gasto del consumidor \"pro-aging\" en un entorno de conveniencia masiva.",
+        "RESUMEN":  "Target acelera su estrategia de wellness mediante la inclusión de nuevas marcas y categorías, compitiendo directamente con minoristas especializados y farmacias."
+    },
+    {
+        "URL":  "https://tecscience.tec.mx/es/transformacion-industrial/biomaterial-sostenible-residuos-camaron-emprendimiento-tec/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME DE INNOVACIÓN",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "SOSTENIBILIDAD / BIOTECH",
+        "INSIGHT":  "El aprovechamiento de residuos industriales para crear biomateriales abre una ruta de economía circular para el packaging cosmético de lujo.",
+        "RESUMEN":  "Investigadores del Tec de Monterrey desarrollan un biomaterial a partir de residuos de camarón, proponiendo una alternativa biodegradable y funcional para diversas industrias."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/esw-beauty-20m-sales-rebrand-retail-expansion/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "REBRANDING / VENTAS",
+        "INSIGHT":  "El éxito de ESW Beauty demuestra que un rebranding enfocado en la limpieza visual y ética impulsa el escalamiento hacia los 20M en ventas.",
+        "RESUMEN":  "ESW Beauty alcanza un hito de ventas tras un proceso de rediseño de marca y una exitosa expansión en canales de retail físico y digital."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/beauty-wellness-brands-mobilize-support-minnesota-condemn-ice-enforcement/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME SECTORIAL",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "ACTIVISMO / SOCIAL",
+        "INSIGHT":  "Las marcas de belleza asumen roles de activismo social como parte integral de su identidad corporativa y conexión con valores del consumidor.",
+        "RESUMEN":  "Un colectivo de marcas de belleza y bienestar en Minnesota se moviliza para apoyar causas sociales locales, marcando un precedente en responsabilidad social."
+    },
+    {
+        "URL":  "https://www.forbes.com/sites/celiashatzman/2026/02/12/dutch-tulip-powered-skincare-brand-bloomeffects-enters-ulta-and-a-new-era/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "RETAIL EXPANSION",
+        "INSIGHT":  "El ingreso de Bloomeffects a Ulta subraya el apetito del mercado por ingredientes con \"storytelling\" geográfico y eficacia botánica probada.",
+        "RESUMEN":  "La marca Bloomeffects inicia una nueva fase de crecimiento al entrar en Ulta Beauty, destacando su uso innovador del extracto de tulipán holandés."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/ajeglobal_somosaje-heyfit-innovaciaejn-activity-7425636850918137856-jwNr",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "NUTRICIÓN / WELLNESS",
+        "INSIGHT":  "La incursión de gigantes de bebidas en el segmento \"fit\" confirma la convergencia total entre hidratación funcional y estilo de vida activo.",
+        "RESUMEN":  "AJE Global presenta Heyfit, su apuesta por la innovación en bebidas funcionales diseñadas para el rendimiento y el bienestar diario."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/fabrice-megarbane-3ab51a24_the-consumer-products-division-delivered-ugcPost-7428084408299200512-NeTn",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RESULTADOS FINANCIEROS",
+        "INSIGHT":  "La división de productos de consumo masivo de L\u0027Oréal demuestra resiliencia mediante la \"premiumización\" de marcas de entrada.",
+        "RESUMEN":  "Fabrice Megarbane destaca el desempeño de la división de consumo de L\u0027Oréal, resaltando el crecimiento sólido impulsado por la innovación y la digitalización global."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/rich-gersten-5000466_when-i-launched-crown-affair-six-years-ago-ugcPost-7422644271742275584-kN3z",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "INVERSIÓN / ESCALAMIENTO",
+        "INSIGHT":  "El éxito de Crown Affair tras seis años demuestra que la rentabilidad en el cuidado capilar de lujo se basa en el crecimiento orgánico y sostenido.",
+        "RESUMEN":  "Rich Gersten analiza la trayectoria de Crown Affair, destacando cómo la consistencia en el posicionamiento de marca permite atraer capital estratégico a largo plazo."
+    },
+    {
+        "URL":  "https://italianbeautycommunity.eu/it/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME SECTORIAL",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "CLUSTER INDUSTRIAL",
+        "INSIGHT":  "El ecosistema \"Made in Italy\" se consolida como el hub de manufactura cosmética más avanzado para marcas de nicho globales.",
+        "RESUMEN":  "Plataforma dedicada a la comunidad de belleza italiana que destaca las innovaciones en formulación y diseño que mantienen a Italia como líder en producción cosmética."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/josteinsolheim_yesterdayunilever-shared-its-q4-and-fy25-ugcPost-7428066146895032321-v-Mu",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RESULTADOS FINANCIEROS",
+        "INSIGHT":  "La simplificación del portafolio de Unilever hacia marcas de alto crecimiento (Power Brands) está optimizando el margen operativo global.",
+        "RESUMEN":  "Jostein Solheim comparte los resultados de Unilever para el cierre de 2025, enfocándose en la aceleración de la división de Belleza y Cuidado Personal."
+    },
+    {
+        "URL":  "https://brand-news.it/brand/persona/cura-persona/anna-vitiello-nuova-marketing-director-di-beiersdorf-per-il-sud-europa/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "La nueva dirección de marketing en Beiersdorf para el sur de Europa priorizará la relevancia local de Nivea y Eucerin ante consumidores diversos.",
+        "RESUMEN":  "Anna Vitiello es nombrada Directora de Marketing de Beiersdorf para el Sur de Europa, asumiendo el reto de coordinar estrategias en mercados clave como Italia y España."
+    },
+    {
+        "URL":  "https://luxebible.com/why-combination-treatments-are-becoming-the-go-to-for-better-skin/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE TENDENCIAS",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "MEDICINA ESTÉTICA",
+        "INSIGHT":  "Los tratamientos combinados (bioestimuladores + aparatología) están redefiniendo el protocolo de mantenimiento en la clínica estética moderna.",
+        "RESUMEN":  "Análisis sobre la tendencia de combinar diversas modalidades terapéuticas para obtener resultados sinérgicos en el rejuvenecimiento cutáneo y la salud de la piel."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/beauty-new-transparency-money/",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "TRANSPARENCIA FINANCIERA",
+        "INSIGHT":  "La nueva era de transparencia exige que las marcas comuniquen no solo sus ingredientes, sino también la salud de sus estados financieros a los inversores.",
+        "RESUMEN":  "El artículo explora cómo las marcas independientes están siendo más abiertas sobre sus cifras de ventas y márgenes para generar confianza en un mercado volátil."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/briefings/beauty/behind-the-scenes-at-lvmh-beauty/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "GESTIÓN DE LUJO",
+        "INSIGHT":  "LVMH Beauty está centralizando su I+D para aplicar innovaciones de alta gama en todo su portafolio, desde Dior hasta marcas más jóvenes.",
+        "RESUMEN":  "Una mirada interna a la estrategia de LVMH para dominar el sector de belleza de prestigio mediante la integración de ciencia avanzada y marketing aspiracional."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/maelys-on-the-move-uk-push-tik-tok-shop-dominance-and-sleek-new-look",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "E-COMMERCE / SOCIAL COMMERCE",
+        "INSIGHT":  "El dominio de Maelys en TikTok Shop subraya el poder de los formatos de video para vender categorías de cuidado corporal con resultados visuales.",
+        "RESUMEN":  "Maelys expande su presencia en el Reino Unido y redefine su imagen visual para consolidar su liderazgo en el comercio social y la categoría de \"body care\"."
+    },
+    {
+        "URL":  "https://www.milanofinanza.it/fashion/il-beauty-dolce-gabbana-corre-con-ricavi-a-14-202602041906569185",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RESULTADOS FINANCIEROS",
+        "INSIGHT":  "La internalización de la división de belleza de Dolce \u0026 Gabbana está rindiendo frutos, con un crecimiento de ingresos de doble dígito.",
+        "RESUMEN":  "Reporte sobre los resultados financieros de Dolce \u0026 Gabbana Beauty, destacando un incremento del 14% en ingresos tras asumir el control directo de su producción y distribución."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/amorepacific-returns-to-q4-profit-on-strong-overseas-growth/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RESULTADOS FINANCIEROS",
+        "INSIGHT":  "El regreso a la rentabilidad de Amorepacific se debe a su exitosa diversificación fuera de China, con un enfoque agresivo en Norteamérica.",
+        "RESUMEN":  "El gigante coreano Amorepacific reporta beneficios en el último trimestre de 2025, impulsado por el crecimiento en mercados internacionales y la optimización de costes."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/longevity-skincare-the-nine-aurora/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "LONGEVIDAD",
+        "INSIGHT":  "La longevidad cutánea se consolida como categoría, integrando medicina regenerativa en rituales de cuidado diario de alto valor.",
+        "RESUMEN":  "Análisis de Nine Aurora y su enfoque en la ciencia de la longevidad, utilizando biomarcadores para personalizar la salud de la piel a largo plazo."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/beautymatter_inside-the-future50-supermarket-ugcPost-7419508390370074625--e4T",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "RETAIL INNOVATION",
+        "INSIGHT":  "La \"supermercadización\" de la belleza premium exige empaques más disruptivos para destacar en canales de gran consumo.",
+        "RESUMEN":  "Resumen de BeautyMatter sobre las marcas del \"Future50\" que están transformando la experiencia de compra en pasillos de supermercados selectos."
+    },
+    {
+        "URL":  "https://www.businessoffashion.com/articles/beauty/merit-revenue-200m-growth-sale-exit/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "M\u0026A / EXIT",
+        "INSIGHT":  "El éxito de Merit (200M USD) demuestra que el \"Minimalismo Eficaz\" es el modelo más atractivo para las adquisiciones de grandes conglomerados.",
+        "RESUMEN":  "Merit alcanza ingresos récord, posicionándose para una venta inminente gracias a su alta retención de clientes y crecimiento rentable."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/future50-2026-colorescience",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "DERMATOLOGÍA",
+        "INSIGHT":  "El liderazgo de Colorescience subraya la importancia de la fotoprotección mineral como puente entre la medicina y el maquillaje.",
+        "RESUMEN":  "Perfil estratégico de Colorescience dentro del listado Future50, destacando su dominio en el canal profesional y su expansión al retail de lujo."
+    },
+    {
+        "URL":  "https://airmail.news/beauty/2026/2/nostalgia-fever",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE TENDENCIAS",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "CONSUMER INSIGHTS",
+        "INSIGHT":  "La nostalgia se convierte en un activo de marketing: fórmulas modernas con estéticas retro conectan emocionalmente con la Gen Z y Millennials.",
+        "RESUMEN":  "Exploración sobre el resurgimiento de marcas y estéticas vintage en la belleza, impulsado por una búsqueda de confort visual y simplicidad en el uso."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/loreal-reports-solid-2025-performance-e-commerce-tops-30-of-sales/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME SECTORIAL",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RESULTADOS FINANCIEROS",
+        "INSIGHT":  "El hito del 30% en ventas digitales de L\u0027Oréal marca el punto de inflexión donde el e-commerce deja de ser soporte para ser el motor principal.",
+        "RESUMEN":  "L\u0027Oréal cierra 2025 con resultados sólidos, impulsados por la digitalización extrema y el crecimiento de su división de Cosmética Activa (Dermatológica)."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/unilever-delivers-margin-expansion-and-portfolio-reshaping-in-2025-results/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME SECTORIAL",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "RESULTADOS FINANCIEROS",
+        "INSIGHT":  "La expansión de márgenes en Unilever valida su estrategia de desinversión en marcas no estratégicas para enfocarse en Prestige Beauty.",
+        "RESUMEN":  "Reporte financiero de Unilever donde se destaca la mejora en rentabilidad tras simplificar su portafolio y potenciar sus marcas de mayor margen operativo."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/hair-care/news/22960337/goddess-maintenance-makes-the-wash-step-the-treatment",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "CUIDADO CAPILAR",
+        "INSIGHT":  "La \"skinificación\" del cabello transforma el lavado básico en un paso de tratamiento intensivo, elevando el valor de la categoría capilar.",
+        "RESUMEN":  "Goddess Maintenance lanza productos que posicionan el lavado como el núcleo del tratamiento reparador, alineándose con tendencias de autocuidado premium."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/rare-beauty-promotes-joyce-kim-and-ashley-murphy-to-chief-brand-and-marketing-roles/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "NOMBRAMIENTOS",
+        "INSIGHT":  "Rare Beauty fortalece su estructura interna para asegurar la consistencia del propósito de marca en su siguiente fase de expansión global.",
+        "RESUMEN":  "Ascensos estratégicos en Rare Beauty (Joyce Kim y Ashley Murphy) para liderar las áreas de marca y marketing tras el crecimiento exponencial de la firma."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/juanjoseibarra_acquadiparma-luxurybeauty-fragranceindustry-activity-7428066376621334528-5bxc",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "PERFUMERÍA DE LUJO",
+        "INSIGHT":  "Acqua di Parma redefine el lujo italiano mediante la personalización y la exclusividad en puntos de venta estratégicos.",
+        "RESUMEN":  "Juan José Ibarra analiza el posicionamiento de Acqua di Parma y cómo su herencia artesanal sigue siendo un diferenciador clave en la perfumería nicho."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/tiktoks-us-ownership-puts-beauty-on-high-alert",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "INFORME ESTRATÉGICO",
+        "CATEGORÍA":  "MERCADOS",
+        "SUBCATEGORÍA":  "CANAL DIGITAL / REGULATORIO",
+        "INSIGHT":  "La incertidumbre sobre la propiedad de TikTok en EE. UU. obliga a las marcas a diversificar urgentemente su mix de adquisición de clientes.",
+        "RESUMEN":  "Análisis sobre el impacto de las tensiones regulatorias de TikTok y cómo las marcas de belleza están preparando planes de contingencia para proteger su social commerce."
+    },
+    {
+        "URL":  "https://www.instagram.com/p/DT3vA5UjPfk/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "CONTENIDO SENSORIAL",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "CONSUMER INSIGHTS",
+        "INSIGHT":  "La estética visual y el storytelling aspiracional en Instagram siguen siendo el primer punto de contacto para el posicionamiento de marcas de nicho.",
+        "RESUMEN":  "Publicación visual que destaca tendencias de estilo y empaque, reforzando la importancia de la identidad de marca en plataformas de descubrimiento visual."
+    },
+    {
+        "URL":  "https://www.globalcosmeticsnews.com/glossier-cuts-30-of-workforce-as-ceo-colin-walsh-launches-restructuring-plan/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "REESTRUCTURACIÓN",
+        "INSIGHT":  "El ajuste de plantilla en Glossier refleja la presión por pasar de un modelo de crecimiento \"venture-backed\" a uno de rentabilidad operativa real.",
+        "RESUMEN":  "Glossier anuncia el recorte del 30% de sus empleados como parte de un plan de reestructuración liderado por Colin Walsh para optimizar la eficiencia del negocio."
+    },
+    {
+        "URL":  "https://cosmeticsbusiness.com/lanc%C3%B4me-to-launch-longevity-skin-care-range-with-mitopure",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO TÉCNICO",
+        "CATEGORÍA":  "CIENCIA Y TECNOLOGÍA",
+        "SUBCATEGORÍA":  "INGREDIENTES / LONGEVIDAD",
+        "INSIGHT":  "La alianza de Lancôme con Mitopure marca la entrada definitiva del lujo masivo en la biotecnología celular dirigida a la salud mitocondrial.",
+        "RESUMEN":  "Lancôme lanza una línea de cuidado de la piel enfocada en la longevidad, incorporando Mitopure para mejorar la renovación celular y la energía mitocondrial."
+    },
+    {
+        "URL":  "https://www.gcimagazine.com/brands-products/skin-care/news/22960625/olay-taps-medspa-momentum-with-regenerist-treatments-line",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "MARCAS Y PRODUCTOS",
+        "SUBCATEGORÍA":  "DERMOCOSMÉTICA MASIVA",
+        "INSIGHT":  "Olay busca capturar al consumidor de procedimientos estéticos mediante productos que prometen resultados similares a los del MedSpa en casa.",
+        "RESUMEN":  "Lanzamiento de la línea \"Regenerist Treatments\", diseñada para complementar o imitar los efectos de tratamientos clínicos profesionales dentro del mercado masivo."
+    },
+    {
+        "URL":  "https://beautymatter.com/articles/prelude-growth-partners-the-boutique-firm-building-beautys-next-powerhouses",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "INVERSIÓN / PRIVATE EQUITY",
+        "INSIGHT":  "El enfoque de Prelude en marcas con comunidades hiper-leales define el nuevo estándar de inversión en el segmento de belleza de alto crecimiento.",
+        "RESUMEN":  "Perfil de Prelude Growth Partners y su estrategia para identificar y escalar marcas independientes que tienen el potencial de convertirse en los próximos gigantes del sector."
+    },
+    {
+        "URL":  "https://beautynewsdaily.com/the-history-of-sol-de-janeiro/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO ESTRATÉGICO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "CASO DE ÉXITO",
+        "INSIGHT":  "El caso Sol de Janeiro enseña cómo un \"core\" sensorial potente puede expandirse a una categoría global de estilo de vida y bienestar.",
+        "RESUMEN":  "Recorrido histórico de Sol de Janeiro, desde su lanzamiento hasta su adquisición y éxito masivo impulsado por la \"Brazilian Bum Bum Cream\"."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/joan-mercedes-50550934_estrategia-timing-y-ejecuci%C3%B3n-as%C3%AD-se-construye-activity-7426556318578036736-wyaJ",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "ESTRATEGIA DE MARCA",
+        "INSIGHT":  "La tríada de timing, ejecución y estrategia es lo que diferencia a una marca viral de una marca con permanencia estructural en el mercado.",
+        "RESUMEN":  "Joan Mercedes analiza los pilares de la construcción de marcas en dermocosmética, enfatizando que la ejecución es tan crítica como la innovación química."
+    },
+    {
+        "URL":  "https://www.beautyindependent.com/peter-thomas-roth-faces-growing-backlash-epstein-emails/",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "ARTÍCULO DE NEGOCIOS",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "REPUTACIÓN / RIESGO",
+        "INSIGHT":  "La reputación de los fundadores es hoy un activo financiero; las crisis de relaciones públicas personales afectan directamente el valor de la marca.",
+        "RESUMEN":  "Peter Thomas Roth enfrenta desafíos reputacionales tras filtraciones que vinculan al fundador con polémicas externas, poniendo a prueba la lealtad del consumidor."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/nichebeautylab_cosnova-nichebeautylab-skincare-activity-7422587458267115521-M6Kn",
+        "AÑO":  "2026",
+        "MES":  "ENERO",
+        "TIPO DE FUENTE":  "POST CORPORATIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "ALIANZAS ESTRATÉGICAS",
+        "INSIGHT":  "La inversión de Cosnova en Niche Beauty Lab busca combinar la escala del consumo masivo con la agilidad y transparencia de la ciencia nicho.",
+        "RESUMEN":  "Niche Beauty Lab destaca su colaboración con Cosnova, potenciando su capacidad de innovación y expansión en el mercado de skincare democrático."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/rosa-armada-63573426_por-qu%C3%A9-el-cuidado-del-cuero-cabelludo-y-activity-7428015172335710208-K0H2",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "TENDENCIAS",
+        "SUBCATEGORÍA":  "SKINIFICATION / CABELLO",
+        "INSIGHT":  "El cuero cabelludo es la nueva \"piel del rostro\"; el enfoque médico en la base capilar es la tendencia de mayor crecimiento en farmacia.",
+        "RESUMEN":  "Rosa Armada explora por qué el cuidado del cuero cabelludo está ganando terreno, impulsado por consumidores que entienden la conexión entre salud de la base y calidad del cabello."
+    },
+    {
+        "URL":  "https://www.linkedin.com/posts/guillaume-ventura_its-official-guerlain-will-be-the-ugcPost-7426534093347016704-LLgC",
+        "AÑO":  "2026",
+        "MES":  "FEBRERO",
+        "TIPO DE FUENTE":  "POST EJECUTIVO",
+        "CATEGORÍA":  "CORPORATIVO",
+        "SUBCATEGORÍA":  "ALIANZAS DE LUJO",
+        "INSIGHT":  "La asociación de Guerlain con eventos de alto perfil reafirma el papel del lujo francés como embajador cultural y de sostenibilidad global.",
+        "RESUMEN":  "Guillaume Ventura anuncia oficialmente una nueva colaboración estratégica de Guerlain, reforzando el posicionamiento de la marca en el ámbito del prestigio y la innovación."
+    }
+];
