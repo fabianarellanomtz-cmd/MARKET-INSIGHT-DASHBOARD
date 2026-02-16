@@ -31,11 +31,17 @@ document.addEventListener('DOMContentLoaded', () => {
             macro: 'all',
             year: 'all',
             month: 'all',
-            sort: 'desc', // Added Sort State
-            productPillar: 'all', // NEW: Product pillar filter
-            specialty: 'all', // NEW: Specialty filter
-            region: 'all',  // NEW: Region filter
-            country: 'all'  // NEW: Country filter
+            sort: 'desc',
+            productPillar: 'all',
+            specialty: 'all',
+            region: 'all',
+            country: 'all'
+        },
+        timelineConfig: {
+            window: 'all', // 'all', '6m', '3m'
+            scale: 'abs',  // 'abs', 'pct'
+            type: 'bar',   // 'bar', 'line'
+            barFilter: null // { label: 'FEB 2026', timestampRange: [...] }
         }
     };
 
@@ -1307,8 +1313,41 @@ document.addEventListener('DOMContentLoaded', () => {
             const timelineView = document.getElementById('timeline-view');
             if (timelineView) timelineView.classList.remove('hidden');
             if (searchContainer) searchContainer.style.visibility = 'hidden';
+            renderTimeline();
         }
     };
+
+    // --- Strategic Evolution: Chart Controls ---
+    window.setChartWindow = (val) => {
+        state.timelineConfig.window = val;
+        updateChartStyles('win', val);
+        renderTimeline();
+    };
+
+    window.setChartScale = (val) => {
+        state.timelineConfig.scale = val;
+        updateChartStyles('scale', val);
+        renderTimeline();
+    };
+
+    window.setChartType = (val) => {
+        state.timelineConfig.type = val;
+        updateChartStyles('type', val);
+        renderTimeline();
+    };
+
+    window.clearBarFilter = () => {
+        state.timelineConfig.barFilter = null;
+        const msg = document.getElementById('bar-filter-msg');
+        if (msg) msg.classList.add('hidden');
+        renderTimeline();
+    };
+
+    function updateChartStyles(prefix, activeVal) {
+        document.querySelectorAll(`.chart-btn[id^="${prefix}-"]`).forEach(btn => {
+            btn.classList.toggle('active', btn.id === `${prefix}-${activeVal}`);
+        });
+    }
 
     function updateView() {
         if (state.currentView === 'news') {
@@ -2526,49 +2565,37 @@ document.addEventListener('DOMContentLoaded', () => {
         const container = document.getElementById('timeline-view');
         if (!container) return;
 
-        // 1. Prepare Container & Controls (Idempotent)
-        let controls = container.querySelector('.snake-controls');
-        let snakeWrapper = container.querySelector('.snake-container');
+        const snakeWrapper = document.getElementById('timeline-list-container');
+        if (!snakeWrapper) return;
 
-        if (!controls) {
-            container.innerHTML = `
-                <div class="snake-controls" style="max-width: 1400px; margin: 0 auto 2rem; padding: 0 5%; display: flex; justify-content: flex-end; align-items: center;">
-                    <div style="font-size: 0.9rem; color: #64748b; font-weight: 500;">
-                        <i class="fa-solid fa-filter"></i> Mostrando <span id="snake-count" style="font-weight: 700; color: #1e293b;">0</span> eventos
-                    </div>
-                </div>
-                <div class="snake-container"></div>
-            `;
-            snakeWrapper = container.querySelector('.snake-container');
+        // 1. Time Window Filter (Apply BEFORE general filtering for the chart labels)
+        let baseArticles = [...state.articles];
+        if (state.timelineConfig.window !== 'all') {
+            let monthsToSubtract = 3;
+            if (state.timelineConfig.window === '12m') monthsToSubtract = 12;
+            else if (state.timelineConfig.window === '9m') monthsToSubtract = 9;
+            else if (state.timelineConfig.window === '6m') monthsToSubtract = 6;
 
+            const cutoff = new Date();
+            cutoff.setMonth(cutoff.getMonth() - monthsToSubtract);
+            baseArticles = baseArticles.filter(a => a.date && a.date >= cutoff);
         }
 
-        // Update Count with Debug Info (Temporary)
-        const countSpan = document.getElementById('snake-count');
-        /*
-        const debugInfo = state.filters.macro !== 'all' ? ` [Cat: ${state.filters.macro}]` : '';
-        if (countSpan) countSpan.textContent = filtered.length + debugInfo;
-        */
-        // 2. Filter Data
-        const filtered = state.articles.filter(a => {
+        // 2. Base Filters (Sync with Grid)
+        let filtered = baseArticles.filter(a => {
             let matchSearch = true;
             if (state.filters.search) {
                 const searchTerms = expandSearchQuery(state.filters.search);
-                const text = (a.title + " " + a.summary + " " + a.displayTopic + " " + a.subtopic).toLowerCase();
+                const text = (a.title + " " + a.summary + " " + (a.displayTopic || '') + " " + (a.subtopic || '')).toLowerCase();
                 matchSearch = searchTerms.some(term => text.includes(term));
             }
             const matchTopic = state.filters.topic === 'all' || a.displayTopic === state.filters.topic;
             const matchSub = state.filters.subtopic === 'all' || a.subtopic === state.filters.subtopic;
-            // Robust Year Check
             const matchYear = state.filters.year === 'all' || (a.year && String(a.year).trim() === String(state.filters.year).trim());
             const matchMonth = state.filters.month === 'all' || (a.month && String(a.month).trim().toUpperCase() === String(state.filters.month).trim().toUpperCase());
-
-            // Robust Macro Match (Case Insensitive + Trim)
             const articleMacro = (a.macro || '').toLowerCase().trim();
             const filterMacro = (state.filters.macro || 'all').toLowerCase().trim();
             const matchMacro = filterMacro === 'all' || articleMacro === filterMacro;
-
-            // New Filters
             const matchSpecialty = state.filters.specialty === 'all' || (a.targetSpecialties && a.targetSpecialties.includes(state.filters.specialty));
             const matchProductPillar = state.filters.productPillar === 'all' || a.productPillar === state.filters.productPillar;
             const matchRegion = state.filters.region === 'all' || a.region === state.filters.region;
@@ -2577,57 +2604,255 @@ document.addEventListener('DOMContentLoaded', () => {
             return matchSearch && matchTopic && matchSub && matchYear && matchMonth && matchMacro && matchSpecialty && matchProductPillar && matchRegion && matchCountry;
         });
 
-        // Update Count
-        if (countSpan) countSpan.textContent = filtered.length;
-        snakeWrapper.innerHTML = ''; // Clear previous items
+        // 3. Render Chart (Uses results of Base Filters)
+        renderTimelineChart(filtered);
 
+        // 4. Bar Filter (Interactive zoom into specific month)
+        if (state.timelineConfig.barFilter) {
+            const filterLabel = state.timelineConfig.barFilter;
+            filtered = filtered.filter(a => {
+                const month = a.date.toLocaleDateString('es-ES', { month: 'short' }).toUpperCase().replace('.', '');
+                const year = a.date.getFullYear();
+                return `${month} ${year}` === filterLabel;
+            });
+            const msg = document.getElementById('bar-filter-msg');
+            if (msg) msg.classList.remove('hidden');
+        }
+
+        // 5. Update Text Content (List below chart)
+        snakeWrapper.innerHTML = '';
         if (filtered.length === 0) {
             snakeWrapper.innerHTML = '<p class="center-msg" style="width:100%; text-align:center; padding: 4rem; color: #64748b;">No hay noticias para mostrar con los filtros actuales.</p>';
             return;
         }
 
-        // 3. Sort
-        // 3. Sort
-        const sortOrder = state.filters.sort || 'desc';
-        filtered.sort((a, b) => {
-            if (a.date && b.date) {
-                return sortOrder === 'asc' ? a.date - b.date : b.date - a.date;
-            }
-            return 0;
-        });
+        const sorted = [...filtered].sort((a, b) => (b.date || 0) - (a.date || 0));
+        const chunkSize = 4; // Slightly wider for large screens
 
-        // 4. Chunk into Rows of 3 (Snake Layout)
-        const chunkSize = 3;
-        for (let i = 0; i < filtered.length; i += chunkSize) {
-            const chunk = filtered.slice(i, i + chunkSize);
+        for (let i = 0; i < sorted.length; i += chunkSize) {
+            const chunk = sorted.slice(i, i + chunkSize);
             const rowDiv = document.createElement('div');
-            const isLTR = (i / chunkSize) % 2 === 0; // Even rows: LTR (0, 2, 4...)
-
+            const isLTR = (i / chunkSize) % 2 === 0;
             rowDiv.className = `snake-row ${isLTR ? 'snake-row-ltr' : 'snake-row-rtl'}`;
 
-            // Render Items in Row
             chunk.forEach((article, idx) => {
                 const card = createSnakeCard(article);
                 rowDiv.appendChild(card);
-
-                // Add horizontal connector if it's NOT the last item in this chunk
                 if (idx < chunk.length - 1) {
                     const hConnect = document.createElement('div');
                     hConnect.className = 'snake-connector-h';
                     rowDiv.appendChild(hConnect);
                 }
             });
-
             snakeWrapper.appendChild(rowDiv);
-
-            // Add Vertical Connector (if not last row)
-            if (i + chunkSize < filtered.length) {
+            if (i + chunkSize < displayItems.length) {
                 const vConnectRow = document.createElement('div');
                 vConnectRow.className = `snake-v-row ${isLTR ? 'align-right' : 'align-left'}`;
-                // V6: Darker Ink Style & Sturdier Lines
                 vConnectRow.innerHTML = '<div class="snake-connector-v"></div>';
                 snakeWrapper.appendChild(vConnectRow);
             }
+        }
+    }
+
+    function renderTimelineChart(articles) {
+        const canvas = document.getElementById('timelineChart');
+        if (!canvas) return;
+
+        if (typeof Chart === 'undefined') return;
+
+        if (!articles || articles.length === 0) {
+            if (window.timelineChartInstance) window.timelineChartInstance.destroy();
+            return;
+        }
+
+        const ctx = canvas.getContext('2d');
+        if (window.timelineChartInstance) window.timelineChartInstance.destroy();
+
+        // 1. Group by Month-Year and Dataset (Category/Macro)
+        const dataMap = {};
+        const allCategoryNames = new Set();
+
+        articles.forEach(a => {
+            let dateObj = a.date;
+            if (!(dateObj instanceof Date) || isNaN(dateObj.getTime())) {
+                if (typeof dateObj === 'string') dateObj = new Date(dateObj);
+                else return;
+            }
+            if (isNaN(dateObj.getTime())) return;
+
+            const month = dateObj.toLocaleDateString('es-ES', { month: 'short' }).toUpperCase().replace('.', '');
+            const year = dateObj.getFullYear();
+            const label = `${month} ${year}`;
+            const cat = (a.macro || a.displayTopic || 'general').toLowerCase();
+
+            if (!dataMap[label]) dataMap[label] = { _sortKey: dateObj.getTime(), _total: 0, _counts: {} };
+            dataMap[label]._counts[cat] = (dataMap[label]._counts[cat] || 0) + 1;
+            dataMap[label]._total++;
+            allCategoryNames.add(cat);
+        });
+
+        const labels = Object.keys(dataMap).sort((a, b) => dataMap[a]._sortKey - dataMap[b]._sortKey);
+        if (labels.length === 0) return;
+
+        const isPct = state.timelineConfig.scale === 'pct';
+        const isArea = state.timelineConfig.type === 'line';
+
+        // 2. SMART STACKING: Sort categories PER MONTH
+        const maxCats = Array.from(allCategoryNames).length;
+        const stackedDatasets = [];
+
+        for (let rank = 0; rank < maxCats; rank++) {
+            stackedDatasets.push({
+                label: `Rank ${rank + 1}`,
+                data: [],
+                backgroundColor: ctx => {
+                    const chart = ctx.chart;
+                    const { ctx: canvasCtx, chartArea } = chart;
+                    if (!chartArea) return null;
+
+                    const catName = stackedDatasets[rank]._catNames[ctx.dataIndex];
+                    if (!catName) return 'transparent';
+
+                    const color = getMacroColor(catName);
+                    const gradient = canvasCtx.createLinearGradient(0, chartArea.bottom, 0, chartArea.top);
+                    gradient.addColorStop(0, color);
+                    gradient.addColorStop(1, color.replace('rgb', 'rgba').replace(')', ', 0.7)'));
+                    return gradient;
+                },
+                borderColor: ctx => {
+                    const catName = stackedDatasets[rank]._catNames[ctx.dataIndex];
+                    return catName ? getMacroColor(catName) : 'transparent';
+                },
+                borderWidth: isArea ? 3 : 1,
+                borderRadius: 8, // Substantial rounding for modern look
+                borderSkipped: false, // Apply radius to all corners for "floating pill" effect
+                fill: isArea,
+                tension: 0.4,
+                pointRadius: isArea ? 4 : 0,
+                pointHoverRadius: 6,
+                _catNames: []
+            });
+        }
+
+        labels.forEach((l, colIdx) => {
+            const monthData = dataMap[l];
+            // Sort categories for THIS month by value
+            const sortedMonthCats = Object.entries(monthData._counts)
+                .sort((a, b) => b[1] - a[1]); // b[1] is the count, so biggest first (bottom)
+
+            for (let rank = 0; rank < maxCats; rank++) {
+                const ds = stackedDatasets[rank];
+                const catInfo = sortedMonthCats[rank];
+
+                if (catInfo) {
+                    const [catName, count] = catInfo;
+                    const val = isPct ? (count / monthData._total * 100) : count;
+                    ds.data.push(val);
+                    ds._catNames.push(catName);
+                } else {
+                    ds.data.push(0);
+                    ds._catNames.push(null);
+                }
+            }
+        });
+
+        // 3. Render Chart
+        try {
+            window.timelineChartInstance = new Chart(ctx, {
+                type: isArea ? 'line' : 'bar',
+                data: { labels, datasets: stackedDatasets },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    animation: { duration: 800, easing: 'easeOutQuart' },
+                    plugins: {
+                        datalabels: { display: false } // Force disable if plugin active
+                    },
+                    barPercentage: 0.6, // Slimmer bars for elegance
+                    categoryPercentage: 0.8,
+                    onClick: (evt, elements) => {
+                        if (elements.length > 0) {
+                            const index = elements[0].index;
+                            const label = labels[index];
+                            state.timelineConfig.barFilter = label;
+                            renderTimeline();
+                        }
+                    },
+                    scales: {
+                        x: {
+                            stacked: true,
+                            grid: { display: false },
+                            ticks: {
+                                color: '#94a3b8',
+                                font: { size: 10, weight: 'bold' },
+                                maxRotation: 45,
+                                minRotation: 0
+                            }
+                        },
+                        y: {
+                            stacked: true,
+                            grid: { color: 'rgba(255,255,255,0.05)' },
+                            min: 0,
+                            max: isPct ? 100 : undefined,
+                            ticks: {
+                                color: '#94a3b8',
+                                stepSize: isPct ? 25 : undefined,
+                                callback: value => isPct ? value + '%' : value
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                color: '#cbd5e1',
+                                usePointStyle: true,
+                                padding: 20,
+                                font: { size: 11 },
+                                // CUSTOM LEGEND: Show real category names instead of "Rank X"
+                                generateLabels: function (chart) {
+                                    const cats = Array.from(allCategoryNames).sort();
+                                    return cats.map(cat => ({
+                                        text: cat.toUpperCase(),
+                                        fillStyle: getMacroColor(cat),
+                                        strokeStyle: getMacroColor(cat),
+                                        lineWidth: 1,
+                                        hidden: false,
+                                        index: 0 // Mock index
+                                    }));
+                                }
+                            }
+                        },
+                        tooltip: {
+                            mode: 'index',
+                            intersect: false,
+                            backgroundColor: 'rgba(15, 23, 42, 0.95)',
+                            titleColor: '#fff',
+                            bodyColor: '#cbd5e1',
+                            borderColor: 'rgba(255,255,255,0.1)',
+                            borderWidth: 1,
+                            padding: 12,
+                            callbacks: {
+                                label: function (context) {
+                                    const ds = context.dataset;
+                                    const catName = ds._catNames[context.dataIndex];
+                                    if (!catName) return null;
+
+                                    const val = context.parsed.y;
+                                    const raw = dataMap[labels[context.dataIndex]]._counts[catName];
+
+                                    if (isPct) {
+                                        return `${catName.toUpperCase()}: ${val.toFixed(1)}% (${raw} noticias)`;
+                                    }
+                                    return `${catName.toUpperCase()}: ${raw} noticias`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        } catch (err) {
+            console.error("Timeline Chart Rendering Error:", err);
         }
     }
 
@@ -2654,6 +2879,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function getMacroColor(macro) {
+        const key = (macro || 'otros').toLowerCase();
         const colors = {
             'negocio': '#3b82f6', // blue-500
             'retail': '#f59e0b', // amber-500
@@ -2662,7 +2888,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'consumidor': '#ec4899', // pink-500
             'otros': '#6b7280'
         };
-        return colors[macro] || colors['otros'];
+        return colors[key] || colors['otros'];
     }
 
     // --- View Switching Logic (Mobile Optimized) ---
@@ -3138,12 +3364,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            // DEBUG
-            console.log("--- showSynapseDetails DEBUG ---");
-            console.log("Article:", article ? article.title : "UNDEFINED ARTICLE");
-
             // Use passed nodeId or fallback
-            // If article is undefined, we can't proceed with id construction safely unless we check
             if (!article) throw new Error("Article data is missing");
 
             const articleId = currentNodeId || `a_${article.id}`;
@@ -3174,69 +3395,57 @@ document.addEventListener('DOMContentLoaded', () => {
                 .sort((a, b) => (b.relationshipData?.score || 0) - (a.relationshipData?.score || 0)) // Sort by score
                 .slice(0, 25);
 
-            // Analysis Text
-            const analysisText = generateSemanticAnalysis(article, related, totalConnections);
+            // Analysis Text (STRATEGIC ENGINE)
+            const analysisResult = analyzeClusterArchetype(article, related, totalConnections);
+            const archetype = analysisResult.archetype;
+            const entities = analysisResult.entities;
 
-            // Relationship HTML Generation (Robust)
-            let relationshipHTML = "";
-            let topTypeLabel = "Conexiones Mixtas"; // Default
+            // Store context for Executive Brief
+            window.activeExecutiveContext = { article, related, archetype, entities };
 
-            if (related.length > 0) {
-                // Calculate relationship types
-                const typeCounts = {};
-                related.forEach(r => {
-                    if (r.relationshipData && r.relationshipData.reasons) {
-                        r.relationshipData.reasons.forEach(reason => {
-                            typeCounts[reason.type] = (typeCounts[reason.type] || 0) + 1;
-                        });
-                    }
-                });
+            // UI Generation for Strategic Cards
 
-                const topType = Object.entries(typeCounts).sort((a, b) => b[1] - a[1])[0];
-                if (topType) {
-                    const typeLabels = {
-                        'companies': 'Empresas Comunes',
-                        'products': 'Productos Similares',
-                        'geography': 'Misma Región',
-                        'business': 'Modelo de Negocio',
-                        'supply': 'Cadena de Suministro',
-                        'regulatory': 'Cumplimiento Normativo'
-                    };
-                    topTypeLabel = typeLabels[topType[0]] || topType[0];
+            // Drivers List HTML - Improved prioritization and clarity
+            let driversHTML = "";
+            const genericBadges = new Set(['transversal', 'derma', 'general', 'otros']);
 
-                    // Extract entities for connection explanation
-                    const topEntities = [];
-                    const entitiesSeen = new Set();
-                    related.forEach(r => {
-                        if (r.relationshipData && r.relationshipData.reasons) {
-                            r.relationshipData.reasons.forEach(reason => {
-                                if (reason.type === topType[0] && reason.entities) {
-                                    reason.entities.forEach(e => {
-                                        if (!entitiesSeen.has(e)) {
-                                            topEntities.push(`<strong>${e}</strong>`);
-                                            entitiesSeen.add(e);
-                                        }
-                                    });
-                                }
-                            });
-                        }
-                    });
+            // PRIORITY: Include Main Article Entities first
+            const mainEntities = [article.productPillar, article.displayTopic, ...(article.entities || [])].filter(Boolean);
 
-                    // Limit entities shown
-                    const displayedEntities = topEntities.slice(0, 3);
+            // Filter related entities: Only include if relevant (intersect with Main OR appear >1 time)
+            // For now, simplify: Prioritize explicitly extracted entities from related analysis
+            const relatedEntities = [
+                ...[...entities.companies],
+                ...[...entities.products],
+                ...[...entities.topics]
+            ].filter(d => !genericBadges.has(d.toLowerCase()) && !mainEntities.includes(d));
 
-                    relationshipHTML = `
-                        Esta noticia está conectada principalmente por <strong>${topTypeLabel}</strong>. 
-                        ${displayedEntities.length > 0 ? `Los conectores clave son: ${displayedEntities.join(', ')}.` : ''}
-                    `;
-                } else {
-                    relationshipHTML = "Conexiones semánticas diversas sin un patrón dominante único.";
-                }
-            } else {
-                relationshipHTML = "Esta noticia no tiene conexiones fuertes, lo que sugiere que es un tema de nicho o un evento aislado.";
+            // Combine: Main first, then top related
+            const allDriverNames = [...new Set([...mainEntities, ...relatedEntities])];
+
+            if (allDriverNames.length > 0) {
+                const driverBadges = allDriverNames.slice(0, 6).map(d =>
+                    `<span style="display:inline-block; background:rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.1); padding:4px 10px; border-radius:16px; margin:4px; font-size:0.75rem; color:#e2e8f0; font-weight:500;">${d}</span>`
+                ).join('');
+
+                driversHTML = `
+                <div style="margin-bottom: 2rem;">
+                    <h5 style="margin:0 0 8px 0; font-size:0.75rem; color:#64748b; text-transform:uppercase; letter-spacing:1px; font-weight:700;">Principales Drivers</h5>
+                    <div style="display:flex; flex-wrap:wrap;">${driverBadges}</div>
+                </div>`;
             }
 
-            // Related HTML Generation (Robust)
+            // Relationship HTML - More explicit descriptions using summary keywords
+            let relationshipHTML = "";
+            if (related.length > 0) {
+                const keywordMatch = article.summary ? (article.summary.match(/[A-Z][a-z]{5,}/g) || []).slice(0, 1)[0] : null;
+                const connectionDetail = keywordMatch ? `el eje central de <strong>${keywordMatch}</strong>` : "temas compartidos";
+                relationshipHTML = `Relacionado por ${connectionDetail}.`;
+            } else {
+                relationshipHTML = "Sin vínculos directos en este cluster.";
+            }
+
+            // Related HTML Generation
             let relatedHTML = "";
             if (related.length > 0) {
                 const badgesHTML = related.map((r) => {
@@ -3255,15 +3464,8 @@ document.addEventListener('DOMContentLoaded', () => {
                                 'regulatory': '#f59e0b'
                             };
                             const color = badgeColors[reason.type] || '#6b7280';
-                            const labels = {
-                                'companies': reason.entities.join(', '),
-                                'products': reason.entities.join(', '),
-                                'geography': reason.entities.join(', '),
-                                'business': reason.entities.join(', '),
-                                'supply': reason.entities.join(', '),
-                                'regulatory': reason.entities.join(', ')
-                            };
-                            return `<span style="display: inline-block; background: ${color}30; color: ${color}; padding: 0.15rem 0.5rem; border-radius: 12px; font-size: 0.7rem; margin-right: 0.25rem;">${labels[reason.type] || reason.type}</span>`;
+                            const reasonLabel = reason.entities.join(', ');
+                            return `<span style="display: inline-block; background: ${color}30; color: ${color}; padding: 0.15rem 0.5rem; border-radius: 12px; font-size: 0.7rem; margin-right: 0.25rem;">${reasonLabel}</span>`;
                         }).join('');
                     }
 
@@ -3275,7 +3477,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <div class="synapse-related-meta">${n.data.year} • ${n.data.subtopic}</div>
                                     ${reasonBadges ? `<div style="margin-top: 0.5rem;">${reasonBadges}</div>` : ''}
                                 </div>
-                                <a href="${n.data.link}" target="_blank" 
+                                <a href="${n.data.link}" target="_blank"
                                    style="flex-shrink: 0; padding: 0.5rem; color: ${macroColor}; opacity: 0.7; transition: opacity 0.2s;"
                                    onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'"
                                    onclick="event.stopPropagation()"
@@ -3303,50 +3505,151 @@ document.addEventListener('DOMContentLoaded', () => {
                 relatedHTML = '<p style="text-align: center; color: #64748b; padding: 2rem;">No se encontraron noticias relacionadas directamente conectadas.</p>';
             }
 
-            const html = `
-                <div class="synapse-detail-header" style="border-color: ${macroColor}">
-                    <span class="synapse-detail-topic" style="background: ${macroColor}30; color: ${macroColor}">
+            // Main HTML Assembly
+            // NOTE: Using concatenated strings for clarity and to avoid huge template literal risks
+
+            const headerHTML = `
+                <div class="synapse-detail-header" style="border-color: ${macroColor}; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <span class="synapse-detail-topic" style="background: ${macroColor}30; color: ${macroColor}; font-size: 0.65rem; padding: 4px 10px; border-radius: 6px; text-transform: uppercase; font-weight: 800; letter-spacing: 0.5px;">
                         ${article.displayTopic || article.topic || "Tema"}
                     </span>
-                    <h2 class="synapse-detail-title">${article.title}</h2>
-                    <div class="synapse-detail-meta">
-                        <span><i class="fa-regular fa-calendar"></i> ${article.year} ${article.month || ''}</span>
-                        <span><i class="fa-solid fa-layer-group"></i> ${article.subtopic || ''}</span>
+                    <h2 class="synapse-detail-title" style="font-size: 1.15rem; margin: 0.75rem 0; line-height: 1.4; font-weight: 700; color: #fff; letter-spacing: -0.01em;">${article.title}</h2>
+                    <div class="synapse-detail-meta" style="font-size: 0.7rem; color: #94a3b8; display: flex; gap: 1rem; align-items: center; font-weight: 500;">
+                        <span style="display: flex; align-items: center; gap: 6px;"><i class="fa-regular fa-calendar"></i> ${article.year} ${article.month || ''}</span>
+                        <span style="display: flex; align-items: center; gap: 6px;"><i class="fa-solid fa-layer-group"></i> ${article.subtopic || ''}</span>
                     </div>
-                </div>
+                </div>`;
 
-                <div class="synapse-detail-summary">
-                    ${article.summary || article.insight || "Sin resumen disponible."}
-                </div>
-                
-                <button onclick="window.open('${article.link}', '_blank')" class="primary-btn" style="width:100%; margin-bottom: 2rem;">
-                    <i class="fa-solid fa-external-link-alt"></i> Leer Artículo Completo
-                </button>
+            const linkButtonHTML = `
+                <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 2rem;">
+                    <button onclick="window.open('${article.link}', '_blank')" class="primary-btn" style="width:100%; display: flex; align-items: center; justify-content: center; gap: 8px; font-weight: 700; height: 48px;">
+                        <i class="fa-solid fa-external-link-alt"></i> Leer Artículo Completo
+                    </button>
+                </div>`;
 
-                 <!-- Relationship Explanation -->
-                <div class="synapse-analysis-section" style="background: rgba(59, 130, 246, 0.1); border-left: 3px solid ${macroColor}; padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
-                    <h4 style="margin: 0 0 0.75rem 0; color: #cbd5e1; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
-                        <i class="fa-solid fa-diagram-project"></i> Por qué están conectadas
-                    </h4>
-                    <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: #e2e8f0;">
-                        ${relationshipHTML}
+            // Intelligence Narrative Integration
+            const brandsFound = [...entities.companies].slice(0, 3);
+            const industry = article.productPillar || "el sector estratégico";
+            const topic = article.displayTopic || article.topic;
+
+            let analyticalNarrative = `<p>Dinámica coordinada bajo una lógica de <strong>${archetype.type}</strong>. `;
+
+            if (brandsFound.length > 0) {
+                analyticalNarrative += `Este vector de cambio en <strong>${topic.toLowerCase()}</strong> está siendo impulsado por actores como <strong>${brandsFound.join(' y ')}</strong>, forzando una redefinición estructural del ecosistema. `;
+            } else {
+                analyticalNarrative += `Se detecta una evolución sistémica en <strong>${topic.toLowerCase()}</strong> que trasciende a las marcas habituales, indicando una transformación estructural del ecosistema. `;
+            }
+
+            analyticalNarrative += `${archetype.message}</p>`;
+
+            const aiSectionHTML = `
+                <div style="margin-bottom: 2rem;">
+                    <div style="
+                        background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+                        border: 1px solid rgba(255,255,255,0.15);
+                        padding: 14px 18px;
+                        border-radius: 12px 12px 0 0;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    ">
+                        <div style="display: flex; align-items: center; gap: 10px;">
+                            <div style="width: 32px; height: 32px; background: ${macroColor}20; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                                <i class="fa-solid fa-wand-magic-sparkles" style="color: ${macroColor}; font-size: 0.9rem;"></i>
+                            </div>
+                            <div>
+                                <h4 style="margin: 0; font-size: 0.85rem; letter-spacing: 1px; color: #fff; font-weight: 800; text-transform: uppercase;">SÍNTESIS ESTRATÉGICA IA</h4>
+                                <div style="font-size: 0.65rem; color: #94a3b8; font-weight: 500;">Inteligencia de Cluster en Tiempo Real</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="synapse-ai-content"
+                         style="
+                            background: rgba(15, 23, 42, 0.6);
+                            padding: 20px;
+                            border-radius: 0 0 12px 12px;
+                            border: 1px solid rgba(255,255,255,0.1);
+                            border-top: none;
+                            font-size: 0.95rem;
+                            line-height: 1.7;
+                            color: #cbd5e1;
+                            box-shadow: inset 0 2px 10px rgba(0,0,0,0.2);
+                        ">
+                        ${analyticalNarrative}
+                    </div>
+                </div>`;
+
+            const archetypeCardHTML = `
+                <div class="synapse-analysis-section" style="
+                    background: linear-gradient(135deg, ${archetype.color}15, ${archetype.color}05);
+                    border-left: 4px solid ${archetype.color};
+                    padding: 1.25rem;
+                    border-radius: 8px;
+                    margin-bottom: 2rem;
+                    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+                ">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                        <h4 style="margin: 0; color: ${archetype.color}; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; font-weight: 800;">
+                            <i class="fa-solid ${archetype.icon}" style="margin-right:8px;"></i> ${archetype.type}
+                        </h4>
+                        <span style="
+                            font-size: 0.65rem;
+                            padding: 3px 10px;
+                            background: rgba(0,0,0,0.4);
+                            color: #fff;
+                            border-radius: 4px;
+                            font-weight: 600;
+                            border: 1px solid ${archetype.color}40;
+                        ">${archetype.riskLabel}: ${archetype.riskLevel}</span>
+                    </div>
+                    <p style="margin: 0 0 1rem 0; font-size: 1rem; line-height: 1.6; color: #f1f5f9; font-weight: 500;">
+                        ${archetype.message}
                     </p>
-                </div>
 
-                <!-- Contextual Analysis -->
-                <div class="synapse-analysis-section" style="background: rgba(139, 92, 246, 0.1); border-left: 3px solid #8b5cf6; padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
-                    <h4 style="margin: 0 0 0.75rem 0; color: #cbd5e1; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px;">
-                        <i class="fa-solid fa-brain"></i> Análisis de Tendencia
-                    </h4>
-                    <p style="margin: 0; font-size: 0.9rem; line-height: 1.6; color: #e2e8f0;">
-                        ${analysisText}
-                    </p>
-                </div>
+                    <div style="background: rgba(0,0,0,0.25); padding: 12px; border-radius: 8px; border-left: 2px solid ${archetype.color}60;">
+                         <p style="margin: 0; font-size: 0.85rem; color: #cbd5e1; line-height:1.5;">
+                            <strong style="color:${archetype.color}; text-transform:uppercase; font-size:0.7rem; display:block; margin-bottom:4px;">Recomendación Táctica:</strong>
+                            ${archetype.recommendation}
+                        </p>
+                    </div>
+                </div>`;
 
-                ${relatedHTML}
-            `;
+            const explanationHTML = `
+                <div style="font-size: 0.85rem; color: #64748b; margin-bottom: 2rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem;">
+                    <i class="fa-solid fa-link"></i> ${relationshipHTML}
+                </div>`;
 
-            content.innerHTML = html;
+            // NEW: Glossary Section for Strategic Terms
+            const glossaryHTML = `
+                <div style="background: rgba(15, 23, 42, 0.4); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem;">
+                    <h5 style="margin: 0 0 1rem 0; font-size: 0.75rem; color: #64748b; text-transform: uppercase; letter-spacing: 1px; font-weight: 800;">
+                        <i class="fa-solid fa-graduation-cap"></i> Contexto de Mercado
+                    </h5>
+                    
+                    <div style="display: flex; flex-direction: column; gap: 12px;">
+                        <div>
+                            <strong style="color: #10b981; font-size: 0.75rem; display: block; margin-bottom: 2px;">Costo de Oportunidad:</strong>
+                            <p style="margin: 0; font-size: 0.8rem; color: #94a3b8; line-height: 1.4;">
+                                Riesgo de perder ventaja competitiva o posición por inacción ante una tendencia emergente. Actuar tarde implica mayor costo de entrada.
+                            </p>
+                        </div>
+                        <div>
+                            <strong style="color: #a855f7; font-size: 0.75rem; display: block; margin-bottom: 2px;">Riesgo de Obsolescencia:</strong>
+                            <p style="margin: 0; font-size: 0.8rem; color: #94a3b8; line-height: 1.4;">
+                                Peligro de que las capacidades actuales queden superadas por nuevos estándares técnicos o de consumo detectados en el cluster.
+                            </p>
+                        </div>
+                        <div>
+                            <strong style="color: #ef4444; font-size: 0.75rem; display: block; margin-bottom: 2px;">Saturación de Mercado:</strong>
+                            <p style="margin: 0; font-size: 0.8rem; color: #94a3b8; line-height: 1.4;">
+                                Punto donde la competencia por precio erosiona los márgenes debido a una oferta excesiva de productos/servicios similares.
+                            </p>
+                        </div>
+                    </div>
+                </div>`;
+
+            content.innerHTML = headerHTML + linkButtonHTML + aiSectionHTML + relatedHTML;
             sidebar.classList.remove('hidden');
 
         } catch (e) {
@@ -3365,71 +3668,170 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Generate semantic analysis based on relationship patterns
-    function generateSemanticAnalysis(mainArticle, relatedArticles, totalCount) {
-        if (relatedArticles.length === 0) {
-            return "Este artículo parece ser un evento único o está pobremente conectado con otras noticias en la base de datos actual.";
-        }
-
-        const displayedCount = relatedArticles.length;
-        const totalConnections = totalCount || displayedCount;
-
-        // Collect all entities from relationships
-        const allEntities = {
-            companies: new Set(),
-            products: new Set(),
-            geography: new Set(),
-            business: new Set(),
-            supply: new Set()
+    // --- NEW STRATEGIC INTELLIGENCE ENGINE ---
+    function analyzeClusterArchetype(mainArticle, relatedArticles, totalConnections) {
+        // 1. Data Aggregation & Frequency Counting
+        const counts = {
+            companies: new Map(),
+            products: new Map(),
+            regions: new Map(),
+            topics: new Map()
         };
 
+        const addEntity = (type, name, weight = 1) => {
+            if (!name) return;
+            const n = name.trim();
+            if (n.length < 2) return;
+            counts[type].set(n, (counts[type].get(n) || 0) + weight);
+        };
+
+        // Main Article (High Priority - Guaranteed inclusion if relevant)
+        // Note: We give weight 2 to ensure main article entities are prioritized
+        if (mainArticle.productPillar) addEntity('products', mainArticle.productPillar, 2);
+        if (mainArticle.region) addEntity('regions', mainArticle.region, 2);
+        if (mainArticle.topic) addEntity('topics', mainArticle.topic, 2);
+        // If extracted entities exist on main article
+        if (mainArticle.entities && Array.isArray(mainArticle.entities)) {
+            mainArticle.entities.forEach(e => addEntity('topics', e, 2));
+        }
+
+        // Related Articles
         relatedArticles.forEach(r => {
+            const node = r.node.data;
+            if (node.productPillar) addEntity('products', node.productPillar);
+            if (node.region && node.region !== 'Global') addEntity('regions', node.region);
+            if (node.topic) addEntity('topics', node.topic);
+
+            // Extract from relationship reasons
             if (r.relationshipData && r.relationshipData.reasons) {
                 r.relationshipData.reasons.forEach(reason => {
-                    if (reason.entities && allEntities[reason.type]) {
-                        reason.entities.forEach(e => allEntities[reason.type].add(e));
+                    if (reason.entities) {
+                        reason.entities.forEach(e => {
+                            if (reason.type === 'companies') addEntity('companies', e);
+                            else if (reason.type === 'products') addEntity('products', e);
+                            else if (reason.type === 'regulatory') addEntity('topics', e);
+                        });
                     }
                 });
             }
         });
 
-        // Build analysis text
-        let analysis = `Este artículo forma parte de una red de <strong>${totalConnections} noticias interconectadas</strong> semánticamente`;
+        // Create Filtered Sets for UI (Only show if Count > 1 OR from Main Article)
+        const entities = {
+            companies: new Set(),
+            products: new Set(),
+            regions: new Set(),
+            topics: new Set(),
+            subtopics: new Set() // Keep subtopics simple for now
+        };
 
-        if (totalConnections > displayedCount) {
-            analysis += `, de las cuales mostramos las <strong>${displayedCount} más significativas</strong>. `;
-        } else {
-            analysis += `. `;
+        // Filter and Sort by Frequency
+        const processMap = (type) => {
+            // Sort by count desc
+            const sorted = [...counts[type].entries()].sort((a, b) => b[1] - a[1]);
+            sorted.forEach(([name, count]) => {
+                // Threshold: If total connections > 2, require count > 1. Else allow single occurence (sparse cluster).
+                // Always include if count >= 2 (implies shared or main+related)
+                if (count >= 1) { // Relaxed to 1 for now, but sorting puts high freq first. 
+                    // Actually, let's strictly filter low relevance if we have enough high relevance.
+                    entities[type].add(name);
+                }
+            });
+        };
+
+        processMap('companies');
+        processMap('products');
+        processMap('regions');
+        processMap('topics');
+
+
+        // Logic Variables (Use Raw Unique Counts)
+        const companyCount = counts.companies.size;
+        const productCount = counts.products.size;
+        const regionCount = counts.regions.size;
+        const topicCount = counts.topics.size;
+
+        // 2. Archetype Diagnosis
+        let archetype = {
+            type: "Señal Débil",
+            icon: "fa-satellite-dish",
+            color: "#94a3b8", // Slate
+            message: "Nicho inexplorado o evento aislado. Monitorear para señales tempranas.",
+            riskLabel: "Incertidumbre",
+            riskLevel: "Baja",
+            recommendation: "Realizar seguimiento pasivo. No requiere acción inmediata."
+        };
+
+        // RULE ENGINE with Explicit MARKET Risk Definitions
+        // PRIORITY 1: Exogenous Factors (Regulatory & M&A)
+        if (mainArticle.topic.includes('Regulación') || mainArticle.title.toLowerCase().includes('ley') || mainArticle.title.toLowerCase().includes('norma') || mainArticle.title.toLowerCase().includes('marco legal')) {
+            archetype = {
+                type: "Inestabilidad Regulatoria",
+                icon: "fa-scale-balanced",
+                color: "#f97316", // Orange
+                message: "Intervención estatal o normativa detectada. Las reglas del juego están cambiando, lo que genera una barrera artificial de entrada o salida.",
+                riskLabel: "Riesgo de Compliance",
+                riskLevel: "Alto",
+                recommendation: "Auditoría de cumplimiento inmediata. Reconfigurar estrategia operativa para alinearse al nuevo marco legal."
+            };
+        } else if (mainArticle.macro === 'negocio' && (mainArticle.subtopic.includes('Fusiones') || mainArticle.title.toLowerCase().includes('adquiere'))) {
+            archetype = {
+                type: "Consolidación de Mercado",
+                icon: "fa-handshake",
+                color: "#f59e0b", // Amber
+                message: "Se detecta una concentración de poder económico. Los competidores están uniendo fuerzas para dominar la cadena de valor y reducir la fragmentación del sector.",
+                riskLabel: "Amenaza de Oligopolio",
+                riskLevel: "Alto",
+                recommendation: "Evaluar barreras de entrada defensivas y posibles sinergias de competidores que afecten nuestra cuota."
+            };
         }
-
-        // Analyze entity patterns
-        if (allEntities.companies.size > 0) {
-            const companyList = Array.from(allEntities.companies).slice(0, 3).join(', ');
-            analysis += `Las conexiones giran en torno a empresas clave como <strong>${companyList}</strong>. `;
+        // PRIORITY 2: Market Dynamics (Innovation & Competition)
+        else if (mainArticle.macro === 'producto' && productCount >= 2) {
+            archetype = {
+                type: "Ola de Innovación Ruptiva",
+                icon: "fa-lightbulb",
+                color: "#a855f7", // Purple
+                message: "Múltiples actores están lanzando tecnologías similares simultáneamente. El mercado está transicionando hacia un nuevo estándar técnico o de consumo.",
+                riskLabel: "Riesgo de Obsolescencia",
+                riskLevel: "Medio",
+                recommendation: "Ventana crítica de R&D. Acelerar lanzamientos para evitar quedar fuera del nuevo estándar de la industria."
+            };
+        } else if (totalConnections >= 5 && topicCount === 1) {
+            archetype = {
+                type: "Hiper-Competencia Directa",
+                icon: "fa-shield-halved",
+                color: "#ef4444", // Red
+                message: "El mercado ha alcanzado un punto de saturación extrema en este tópico. La competencia ya no es por innovación, sino por supervivencia operativa.",
+                riskLabel: "Riesgo de Comoditización",
+                riskLevel: "Crítico",
+                recommendation: "Diferenciación radical por valor añadido o nicho. Evitar la guerra de precios frontal que erosione el margen."
+            };
         }
-
-        if (allEntities.products.size > 0) {
-            const productList = Array.from(allEntities.products).slice(0, 3).join(', ');
-            analysis += `Las tecnologías/productos comunes incluyen <strong>${productList}</strong>. `;
-        }
-
-        if (allEntities.geography.size > 0) {
-            const geoList = Array.from(allEntities.geography).slice(0, 2).join(', ');
-            analysis += `Con especial relevancia en <strong>${geoList}</strong>. `;
-        }
-
-        // Connection strength
-        if (totalConnections >= 6) {
-            analysis += "La alta densidad de conexiones indica un tema de intensa cobertura e interés estratégico.";
+        // PRIORITY 3: Strategic Movements (Expansion & Trends)
+        else if (regionCount >= 2 && companyCount >= 1) {
+            archetype = {
+                type: "Expansión Geográfica Agresiva",
+                icon: "fa-earth-americas",
+                color: "#3b82f6", // Blue
+                message: "Se observa una carrera por la presencia territorial. Las empresas están sacrificando margen por volumen y capilaridad global.",
+                riskLabel: "Riesgo Escala/Margen",
+                riskLevel: "Medio",
+                recommendation: "Analizar viabilidad logística y adaptabilidad local rápida para no ceder terreno en regiones clave."
+            };
         } else if (totalConnections >= 3) {
-            analysis += "El nivel de conexión sugiere un área de interés emergente o en desarrollo.";
-        } else {
-            analysis += "Las pocas conexiones sugieren un nicho específico o nuevo desarrollo.";
+            archetype = {
+                type: "Tendencia de Mercado Emergente",
+                icon: "fa-arrow-trend-up",
+                color: "#10b981", // Emerald
+                message: "La señal está ganando tracción orgánica. No es un ruido pasajero, sino un cambio en la preferencia del consumidor o de la industria.",
+                riskLabel: "Costo de Oportunidad",
+                riskLevel: "Bajo-Medio",
+                recommendation: "Establecer liderazgo de pensamiento (Thought Leadership) ahora para capturar la mente del consumidor antes que la competencia."
+            };
         }
 
-        return analysis;
+        return { archetype, entities };
     }
-
 
     // --- News Reader Logic (New Feature) ---
 
@@ -3530,7 +3932,6 @@ document.addEventListener('DOMContentLoaded', () => {
             // 1. Taxonomy Matching
             if (other.macro === targetArticle.macro) {
                 score += 1;
-                // reasons.push({type: 'business', entities: [other.macro]}); // Don't push generic macro reasons
             }
             if (other.displayTopic === targetArticle.displayTopic) {
                 score += 3;
@@ -3542,20 +3943,27 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             // 2. Simple Keyword Overlap (Title/Summary)
-            // Normalize: lower, remove accents
             const getWords = (txt) => normalizeText(txt).split(/\s+/).filter(w => w.length > 4);
             const targetWords = new Set(getWords(targetArticle.title + " " + targetArticle.summary));
             const otherWords = getWords(other.title + " " + other.summary);
 
             let matches = 0;
-            otherWords.forEach(w => { if (targetWords.has(w)) matches++; });
+            const overlappingEntities = [];
+            otherWords.forEach(w => {
+                if (targetWords.has(w)) {
+                    matches++;
+                    if (!overlappingEntities.includes(w)) overlappingEntities.push(w);
+                }
+            });
 
             if (matches > 0) {
                 score += matches * 0.5;
-                if (matches > 2) reasons.push({ type: 'companies', entities: [`${matches} palabras clave`] });
+                if (matches > 2) {
+                    reasons.push({ type: 'companies', entities: overlappingEntities.slice(0, 5) });
+                }
             }
 
-            if (score > 3) { // Threshold
+            if (score > 3) {
                 totalConnections++;
                 related.push({
                     node: { id: other.id, title: other.title, data: other },
@@ -3640,6 +4048,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const sidebar = document.getElementById('synapse-sidebar');
         if (sidebar) sidebar.classList.add('hidden');
         if (networkInstance) networkInstance.unselectAll();
+    };
+
+    // Toggle for Synapse AI Analysis
+    window.toggleSynapseAnalysis = (btn) => {
+        const content = btn.nextElementSibling;
+        const icon = btn.querySelector('.toggle-icon');
+
+        if (content.classList.contains('hidden')) {
+            content.classList.remove('hidden');
+            if (icon) icon.style.transform = 'rotate(180deg)';
+            btn.style.background = 'rgba(255,255,255,0.15)';
+            btn.style.borderRadius = '12px 12px 0 0'; // Flatten bottom corners
+        } else {
+            content.classList.add('hidden');
+            if (icon) icon.style.transform = 'rotate(0deg)';
+            btn.style.background = ''; // Reset to default
+            btn.style.borderRadius = '12px'; // Restore corners
+        }
     };
 
     // === NEW SYNAPSE RENDERER WITH DIMMING LOGIC ===
@@ -3755,6 +4181,15 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`Building semantic relationships for ${dataset.length} nodes...`);
         const relationshipMap = buildRelationshipMap(dataset);
 
+        // Helper for keyword extraction
+        const getArticleKeyword = (title) => {
+            if (!title) return "";
+            const stopWords = new Set(['de', 'la', 'el', 'en', 'un', 'una', 'con', 'por', 'para', 'su', 'al', 'del', 'los', 'las', 'que', 'and', 'the', 'for', 'with', 'new', 'business', 'growth', 'market']);
+            const words = title.replace(/[^\w\s]/gi, '').split(/\s+/);
+            const keyword = words.find(w => w.length > 4 && !stopWords.has(w.toLowerCase())) || words[0] || "";
+            return keyword.charAt(0).toUpperCase() + keyword.slice(1).toLowerCase();
+        };
+
         // Create article nodes
         dataset.forEach(article => {
             const articleId = `a_${article.id || Math.random()}`;
@@ -3787,13 +4222,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 nodes.push({
                     id: articleId,
-                    label: (isActive && connectionCount > 3) ? article.displayTopic.substring(0, 15) : '',
+                    label: isActive ? getArticleKeyword(article.title) : '',
                     title: `<b>${article.title}</b><br/>${connectionCount} conexiones`,
                     group: 'article',
                     value: size,
                     mass: mass, // Heavier nodes stay central
-                    data: article,
+                    data: { ...article, baseColor: baseColor }, // Store color in data for reliability
                     color: nodeColor,
+                    originalColor: baseColor, // Store for restoration
                     font: { size: 10, color: labelColor },
                     opacity: opacity,
                     isActive: isActive,
@@ -3810,64 +4246,61 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // --- NEW: Explicit Concentric Positioning ---
-        // 1. Rank nodes by importance (connection count)
-        nodes.sort((a, b) => (connectivityMap.get(b.id) || 0) - (connectivityMap.get(a.id) || 0));
+        // --- NEW LAYOUT: Peripheral Topic Clusters with Headers ---
+        // 1. Group nodes by Topic to assign clusters
+        const topics = {};
+        nodes.forEach(n => {
+            const t = n.data.displayTopic || 'Other';
+            if (!topics[t]) topics[t] = [];
+            topics[t].push(n);
+        });
 
-        const totalNodes = nodes.length;
-        // Define Cumulative Counts for 5 Tiers
-        const limit1 = Math.ceil(totalNodes * 0.02); // Top 2% (Core)
-        const limit2 = Math.ceil(totalNodes * 0.10); // Next 8%
-        const limit3 = Math.ceil(totalNodes * 0.25); // Next 15%
-        const limit4 = Math.ceil(totalNodes * 0.50); // Next 25%
-        // Rest is Outer Ring
+        const topicKeys = Object.keys(topics);
+        const clusterRadius = 900; // Increased distance for clarity
+        const angleStep = (2 * Math.PI) / topicKeys.length;
 
-        nodes.forEach((node, index) => {
-            let radius, ringTotal, ringIndex, offsetAngle;
+        topicKeys.forEach((topic, i) => {
+            const clusterAngle = i * angleStep;
+            // Center of the topic cluster
+            const cx = clusterRadius * Math.cos(clusterAngle);
+            const cy = clusterRadius * Math.sin(clusterAngle);
 
-            if (index < limit1) {
-                // Ring 1: Core (Larger gap requested: ~120px)
-                radius = 120;
-                ringIndex = index;
-                ringTotal = limit1;
-                offsetAngle = 0;
-            } else if (index < limit2) {
-                // Ring 2
-                radius = 280;
-                ringIndex = index - limit1;
-                ringTotal = limit2 - limit1;
-                offsetAngle = 0.5;
-            } else if (index < limit3) {
-                // Ring 3
-                radius = 420;
-                ringIndex = index - limit2;
-                ringTotal = limit3 - limit2;
-                offsetAngle = 1.0;
-            } else if (index < limit4) {
-                // Ring 4
-                radius = 580;
-                ringIndex = index - limit3;
-                ringTotal = limit4 - limit3;
-                offsetAngle = 1.5;
-            } else {
-                // Ring 5: Outer
-                radius = 750;
-                ringIndex = index - limit4;
-                ringTotal = totalNodes - limit4;
-                offsetAngle = 2.0;
-            }
+            // Add CLUSTER HEADER NODE (Non-interactive)
+            const headerId = `header_${topic.replace(/\s+/g, '_')}`;
+            const macroColor = topics[topic][0].originalColor || '#ffffff';
 
-            // Homogeneous Distribution (Regular Polygon)
-            // Even spacing: 360 / N
-            const angleStep = (2 * Math.PI) / (ringTotal || 1);
-            const angle = (ringIndex * angleStep) + offsetAngle;
+            nodes.push({
+                id: headerId,
+                label: topic.toUpperCase(),
+                x: cx * 1.25, // Move further out than the cluster
+                y: cy * 1.25,
+                shape: 'text',
+                font: {
+                    size: 18,
+                    color: macroColor,
+                    face: 'Inter',
+                    strokeWidth: 4,
+                    strokeColor: 'rgba(0,0,0,0.5)',
+                    bold: true
+                },
+                physics: false,
+                fixed: true,
+                group: 'header',
+                selectable: false, // vis-network specific
+                hover: false
+            });
 
-            // Jitter: +/- 15px radius, angle is strict
-            const r = radius + (Math.random() * 30 - 15);
+            topics[topic].forEach(n => {
+                // Random position within the cluster (radius 180)
+                const r = Math.random() * 180;
+                const a = Math.random() * 2 * Math.PI;
+                n.x = cx + r * Math.cos(a);
+                n.y = cy + r * Math.sin(a);
 
-            // Convert polar to cartesian
-            node.x = r * Math.cos(angle);
-            node.y = r * Math.sin(angle);
+                // Store ORIGINAL position for restoration
+                n.originalX = n.x;
+                n.originalY = n.y;
+            });
         });
 
         // Create edges from semantic relationships
@@ -3877,80 +4310,41 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const isFromActive = !isFilterActive || activeIds.has(rel.from);
             const isToActive = !isFilterActive || activeIds.has(rel.to);
-            const isEdgeActive = isFromActive && isToActive;
+            const isEdgeActive = isFromActive && isToActive; // Edges visible only if both active? Or maybe just for central node?
 
             // Get weights/importance
             const countFrom = connectivityMap.get(fromId) || 0;
             const countTo = connectivityMap.get(toId) || 0;
-            const isHubConnection = countFrom > 8 && countTo > 8;
-            const isSatelliteConnection = countFrom < 3 || countTo < 3;
 
-            // Optional: Hide edges requires at least one active node to be barely visible
             if (isFilterActive && !isFromActive && !isToActive) return;
 
-            // Ultra-transparent default (3% opacity)
+            // Ultra-transparent default
             let edgeColor = 'rgba(226, 232, 240, 0.03)';
-
-            // Highlight color remains colored for interaction
-            let highlightColor = edgeColor;
+            let highlightColor = edgeColor; // Default
             if (rel.reasons.length > 0) {
                 const primary = rel.reasons[0].type;
                 if (primary === 'products') highlightColor = 'rgba(59, 130, 246, 0.6)';
                 else if (primary === 'companies') highlightColor = 'rgba(34, 197, 94, 0.6)';
                 else if (primary === 'geography') highlightColor = 'rgba(234, 179, 8, 0.6)';
             }
-            if (isEdgeActive) {
-                // Slightly more visible if active
-                edgeColor = 'rgba(226, 232, 240, 0.08)';
-            }
 
-            // Adjust opacity for dimmed scenarios
-            let finalColor = edgeColor;
-            let width = 1;
-
-            if (!isEdgeActive) {
-                finalColor = 'rgba(255, 255, 255, 0.01)';
-            }
-
-            // Variable Spring Length to enforce Orbits
-            // Core (Hub-Hub): Short springs -> Tight center
-            // Periphery (Hub-Sat): Long springs -> Outer orbit
-            let springLength = 200;
-            if (isHubConnection) springLength = 50; // Inner Core
-            else if (isSatelliteConnection) springLength = 350; // Outer shell
-            else springLength = 150; // Mid shell
+            // Edges hidden by default in periphery to reduce noise, visible if active/highlighted
+            // We will control edge visibility dynamically in the click handler or physics
+            // For now, keep them faint.
 
             edges.push({
                 from: fromId,
                 to: toId,
-                width: width,
-                length: springLength, // Physics uses this per edge
+                width: 1,
                 color: {
-                    color: finalColor,
-                    highlight: highlightColor, // Color appears on selection/hover
-                    opacity: isEdgeActive ? 1 : 0.05
+                    color: edgeColor,
+                    highlight: highlightColor,
+                    opacity: 0.05
                 },
                 smooth: { type: 'continuous', roundness: 0.5 },
-                relationshipData: rel
+                relationshipData: rel,
+                id: `e_${fromId}_${toId}` // ID for updates
             });
-        });
-
-        // 3. Visualization Options
-
-        // PRE-ANIMATION SETUP: Capture targets and reset nodes to start positions to prevent flash
-        const animationState = {};
-        nodes.forEach(n => {
-            animationState[n.id] = { targetX: n.x, targetY: n.y };
-
-            // Set initial position to center cluster for "Explosion" effect
-            const startAngle = Math.random() * Math.PI * 2;
-            const startR = Math.random() * 50;
-            n.x = startR * Math.cos(startAngle);
-            n.y = startR * Math.sin(startAngle);
-
-            // Store start in state too for easy interpolation
-            animationState[n.id].startX = n.x;
-            animationState[n.id].startY = n.y;
         });
 
         const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
@@ -3966,13 +4360,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 smooth: { type: 'continuous' }
             },
             physics: {
-                enabled: false, // STATIC LAYOUT: Physics off to keep concentric rings
+                enabled: false, // We control positions manually for the layout
                 stabilization: false
             },
             interaction: {
                 hover: true,
                 tooltipDelay: 200,
-                zoomView: true
+                zoomView: true,
+                dragNodes: false // Disable dragging to keep layout strict? Or allow? Let's disable to enforce the design.
             }
         };
 
@@ -3984,101 +4379,154 @@ document.addEventListener('DOMContentLoaded', () => {
         container.innerHTML = '';
         networkInstance = new vis.Network(container, data, options);
 
-        // --- Custom Assembly Animation (5 seconds) ---
-        const startTime = Date.now();
-        const duration = 5000;
+        // Initial Fit
+        networkInstance.fit();
 
-        const animInterval = setInterval(() => {
-            const now = Date.now();
-            const elapsed = now - startTime;
-            const progress = Math.min(elapsed / duration, 1);
-            const ease = 1 - Math.pow(1 - progress, 3); // Cubic Ease Out
 
-            Object.keys(animationState).forEach(id => {
-                const state = animationState[id];
-                if (networkInstance.body.nodes[id]) {
-                    networkInstance.body.nodes[id].x = state.startX + (state.targetX - state.startX) * ease;
-                    networkInstance.body.nodes[id].y = state.startY + (state.targetY - state.startY) * ease;
+        // --- CUSTOM ANIMATION LOOP for "Move to Center" ---
+        // We use a manual tweening loop to animate nodes to their target positions.
+        let animationFrameId;
+
+        function animateLayout() {
+            const allNodes = data.nodes.get();
+            let isMoving = false;
+
+            const updates = allNodes.map(n => {
+                const targetX = (n.targetX !== undefined) ? n.targetX : n.originalX;
+                const targetY = (n.targetY !== undefined) ? n.targetY : n.originalY;
+
+                const dx = targetX - n.x;
+                const dy = targetY - n.y;
+                const dist = Math.sqrt(dx * dx + dy * dy);
+
+                if (dist > 1) {
+                    isMoving = true;
+                    // Easing: move 10% of the distance each frame
+                    return {
+                        id: n.id,
+                        x: n.x + dx * 0.1,
+                        y: n.y + dy * 0.1
+                    };
                 }
-            });
+                return null;
+            }).filter(u => u !== null);
 
-            networkInstance.redraw();
-
-            if (progress >= 1) {
-                clearInterval(animInterval);
-                networkInstance.fit();
+            if (updates.length > 0) {
+                data.nodes.update(updates);
+                animationFrameId = requestAnimationFrame(animateLayout);
+            } else {
+                cancelAnimationFrame(animationFrameId);
             }
-        }, 33); // ~30fps
+        }
 
-        // --- NEW: Draw Concentric Background Rings ---
-        networkInstance.on("beforeDrawing", function (ctx) {
-            const center = networkInstance.canvasToDOM({ x: 0, y: 0 });
-            const scale = networkInstance.getScale();
-
-            ctx.save();
-            ctx.strokeStyle = 'rgba(59, 130, 246, 0.15)';
-            ctx.lineWidth = 1;
-            ctx.setLineDash([5, 15]);
-
-            const radii = [120, 280, 420, 580, 750];
-            radii.forEach(r => {
-                ctx.beginPath();
-                ctx.arc(center.x, center.y, r * scale, 0, 2 * Math.PI);
-                ctx.stroke();
-            });
-            ctx.restore();
-        });
 
         // 5. Event Handling
-        // 5. Event Handling
+        let lastSelectedNodeId = null;
+
         networkInstance.on("click", function (params) {
-            if (params.nodes.length > 0) {
-                const nodeId = params.nodes[0];
+            const clickedNodeId = params.nodes.length > 0 ? params.nodes[0] : null;
+
+            // TOGGLE LOGIC: Select only if NEW. If same node or background, deselect.
+            const isNewSelection = clickedNodeId && clickedNodeId !== lastSelectedNodeId;
+
+            // Cancel any running animation to retarget
+            cancelAnimationFrame(animationFrameId);
+
+            if (isNewSelection) {
+                lastSelectedNodeId = clickedNodeId;
+                const nodeId = clickedNodeId;
                 const clickedNode = data.nodes.get(nodeId);
 
-                if (clickedNode.group === 'article') {
-                    // --- DIMMING LOGIC ---
+                if (clickedNode && clickedNode.group === 'article') {
+                    // --- FOCUS LOGIC: Move to Center ---
                     const connectedNodes = networkInstance.getConnectedNodes(nodeId);
                     const allNodes = data.nodes.get();
 
-                    const updateArray = allNodes.map(n => {
-                        if (n.id === nodeId || connectedNodes.includes(n.id)) {
-                            // Highlight selected and connected
-                            return {
-                                id: n.id,
-                                opacity: 1,
-                                font: { color: '#ffffff' },
-                                color: n.originalColor || n.color
-                            };
+                    // 1. Assign Targets
+                    const updateTargets = allNodes.map(n => {
+                        let tx, ty, color, opacity, fontColor;
+                        // Robust color retrieval
+                        const originalColor = (n.data && n.data.baseColor) ? n.data.baseColor : (n.originalColor || n.color);
+
+                        if (n.id === nodeId) {
+                            // CENTER: The selected node
+                            tx = 0;
+                            ty = 0;
+                            color = originalColor;
+                            opacity = 1;
+                            fontColor = '#ffffff';
+                        } else if (connectedNodes.includes(n.id)) {
+                            // INNER RING: Connected nodes
+                            // Distribute evenly in a circle around center (radius 250)
+                            // We need a deterministic index for stability or just random? 
+                            // Deterministic is better. Let's find index in connected array.
+                            const idx = connectedNodes.indexOf(n.id);
+                            const angle = (idx / connectedNodes.length) * 2 * Math.PI;
+                            const r = 250;
+                            tx = r * Math.cos(angle);
+                            ty = r * Math.sin(angle);
+
+                            color = originalColor; // Keep original category color
+                            opacity = 1;
+                            fontColor = '#ffffff';
                         } else {
-                            // Dim others
-                            return {
-                                id: n.id,
-                                opacity: 0.1,
-                                font: { color: 'rgba(255,255,255,0)' } // Hide label
-                            };
+                            // PERIPHERY: Return to start, but VISIBLE (No dimming)
+                            tx = n.originalX;
+                            ty = n.originalY;
+                            color = originalColor;
+                            opacity = 1; // Keep fully visible as requested
+                            fontColor = 'rgba(255,255,255,0.4)'; // Dimmed labels in periphery instead of hidden
                         }
+
+                        return {
+                            id: n.id,
+                            targetX: tx,
+                            targetY: ty,
+                            color: color,
+                            opacity: opacity,
+                            font: { color: fontColor }
+                        };
                     });
 
-                    data.nodes.update(updateArray);
+                    data.nodes.update(updateTargets);
 
-                    // Show article details regardless of dimming state
+                    // Start Animation
+                    animateLayout();
+
+                    // Show article details
                     const allEdges = data.edges.get();
                     showSynapseDetails(clickedNode.data, nodes, allEdges, nodeId);
                 }
             } else {
-                // --- RESTORE LOGIC ---
+                // --- RESTORE LOGIC (Deselect) ---
+                lastSelectedNodeId = null;
+
                 const allNodes = data.nodes.get();
                 const updateArray = allNodes.map(n => ({
                     id: n.id,
-                    opacity: n.isActive ? 1 : 0.2, // Restore to original active state
-                    font: { color: n.isActive ? '#ffffff' : 'rgba(255, 255, 255, 0.05)' }
+                    targetX: n.originalX, // Go back to periphery
+                    targetY: n.originalY,
+                    opacity: 1, // Full opacity
+                    font: { color: '#ffffff' }, // Show labels ? Or maybe just if hovered? Let's show faint labels if active.
+                    // Actually original logic was faint labels.
+                    // Let's restore based on connectionCount > 3 logic if we want.
+                    // For now, simplify:
+                    color: n.originalColor || n.color
                 }));
                 data.nodes.update(updateArray);
 
-                closeSynapseSidebar();
+                // Start Animation
+                animateLayout();
+
+                // Hide Details Panel (Ensure clean close)
+                const detailsPanel = document.getElementById('synapse-details-panel');
+                if (detailsPanel) {
+                    detailsPanel.classList.remove('visible');
+                }
             }
         });
+
+        closeSynapseSidebar();
     }
 
     // Listen for Product Pillar Filter Changes from Global Scope
@@ -4153,6 +4601,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 300);
         });
     }
+
+
 
     // Start App
     init();

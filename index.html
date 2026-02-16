@@ -114,6 +114,48 @@
                 width: 100% !important;
             }
         }
+
+        /* Chart Evolution Controls */
+        .chart-btn {
+            background: transparent;
+            border: none;
+            color: #94a3b8;
+            padding: 8px 16px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        .chart-btn:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .chart-btn.active {
+            background: rgba(255, 255, 255, 0.15) !important;
+            color: #fff !important;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(4px);
+        }
+
+        .btn-group {
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .chart-options-hub {
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            background: rgba(15, 23, 42, 0.3) !important;
+            border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        }
     </style>
     <!-- Added for Export -->
 </head>
@@ -277,7 +319,7 @@
                 </div>
 
                 <!-- Theme Switcher -->
-                <div class="theme-switcher-container" style="margin-left: 1rem; margin-right: 1rem;">
+                <div class="theme-switcher-container" style="margin-left: auto; margin-right: 1rem;">
                     <select id="theme-select"
                         style="padding: 0.5rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.3); background: rgba(255,255,255,0.1); color: #1e293b; font-size: 0.85rem; font-weight: 500; cursor: pointer; backdrop-filter: blur(4px);">
                         <option value="bg-beige">🎨 Clean Nature (Beige)</option>
@@ -320,9 +362,81 @@
                     <!-- Summary content injected here -->
                 </div>
 
-                <!-- View: Timeline (New) -->
+                <!-- View: Timeline (Chart) -->
                 <div id="timeline-view" class="timeline-view hidden">
-                    <!-- Timeline content injected here -->
+                    <div class="chart-controls"
+                        style="margin-bottom: 2rem; display: flex; flex-direction: column; gap: 1.5rem; max-width: 1200px; margin: 0 auto 2rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                            <h2 style="color: #fff; margin: 0; font-size: 1.5rem; font-weight: 700;">Tendencias
+                                Temporales</h2>
+                            <div
+                                style="font-size: 0.9rem; color: #94a3b8; display: flex; align-items: center; gap: 1rem;">
+                                <span id="bar-filter-msg" class="hidden"
+                                    style="background: rgba(59, 130, 246, 0.2); color: #60a5fa; padding: 4px 12px; border-radius: 20px; font-weight: 600; border: 1px solid rgba(59, 130, 246, 0.3);">
+                                    <i class="fa-solid fa-filter"></i> Filtrado por mes
+                                    <button onclick="clearBarFilter()"
+                                        style="background:none; border:none; color:#fff; cursor:pointer; margin-left:8px;"><i
+                                            class="fa-solid fa-xmark"></i></button>
+                                </span>
+                                <span><i class="fa-solid fa-chart-line"></i> Volumen de noticias por tema</span>
+                            </div>
+                        </div>
+
+                        <!-- Control Hub -->
+                        <div class="chart-options-hub"
+                            style="display: flex; flex-wrap: wrap; gap: 1rem; padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid rgba(255,255,255,0.05);">
+                            <!-- Time Window -->
+                            <div class="control-group" style="display: flex; align-items: center; gap: 0.5rem;">
+                                <span
+                                    style="font-size: 0.75rem; color: #64748b; text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">Ventana:</span>
+                                <div class="btn-group"
+                                    style="display: flex; background: rgba(0,0,0,0.2); border-radius: 8px; padding: 3px;">
+                                    <button onclick="setChartWindow('all')" id="win-all"
+                                        class="chart-btn active">Todo</button>
+                                    <button onclick="setChartWindow('12m')" id="win-12m" class="chart-btn">12
+                                        Meses</button>
+                                    <button onclick="setChartWindow('9m')" id="win-9m" class="chart-btn">9
+                                        Meses</button>
+                                    <button onclick="setChartWindow('6m')" id="win-6m" class="chart-btn">6
+                                        Meses</button>
+                                    <button onclick="setChartWindow('3m')" id="win-3m" class="chart-btn">3
+                                        Meses</button>
+                                </div>
+                            </div>
+
+                            <!-- Scale Mode -->
+                            <div class="control-group" style="display: flex; align-items: center; gap: 0.5rem;">
+                                <span
+                                    style="font-size: 0.75rem; color: #64748b; text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">Escala:</span>
+                                <div class="btn-group"
+                                    style="display: flex; background: rgba(0,0,0,0.2); border-radius: 8px; padding: 3px;">
+                                    <button onclick="setChartScale('abs')" id="scale-abs"
+                                        class="chart-btn active">Absoluta</button>
+                                    <button onclick="setChartScale('pct')" id="scale-pct" class="chart-btn">Porcentual
+                                        (%)</button>
+                                </div>
+                            </div>
+
+                            <!-- Chart Type -->
+                            <div class="control-group"
+                                style="display: flex; align-items: center; gap: 0.5rem; margin-left: auto;">
+                                <span
+                                    style="font-size: 0.75rem; color: #64748b; text-transform: uppercase; font-weight: 700; letter-spacing: 0.05em;">Visualización:</span>
+                                <div class="btn-group"
+                                    style="display: flex; background: rgba(0,0,0,0.2); border-radius: 8px; padding: 3px;">
+                                    <button onclick="setChartType('bar')" id="type-bar" class="chart-btn active"><i
+                                            class="fa-solid fa-chart-bar"></i></button>
+                                    <button onclick="setChartType('line')" id="type-line" class="chart-btn"><i
+                                            class="fa-solid fa-chart-area"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-chart-container"
+                        style="position: relative; height: 50vh; width: 100%; max-width: 1200px; margin: 0 auto; background: rgba(30, 41, 59, 0.5); padding: 2rem; border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);">
+                        <canvas id="timelineChart"></canvas>
+                    </div>
+                    <div id="timeline-list-container" class="snake-container" style="margin-top: 3rem;"></div>
                 </div>
 
                 <!-- View: Synapse (Network Graph) -->
@@ -393,8 +507,9 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="data.js"></script>
-    <script src="app.js?v=transparency_v53"></script>
+    <script src="app.js?v=visual_chronology_v17_color_robust"></script>
 </body>
 
 </html>
